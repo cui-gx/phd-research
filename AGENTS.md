@@ -32,3 +32,26 @@ If this file is absent, do not infer or reconstruct its detailed contents; ask f
 5. Prefer small reproducible experiments, with clear baselines and failure handling. No broad implementation or integration merely for novelty.
 6. Do not claim scientific improvements from GPU utilization or CVAE training loss alone. Evaluate downstream conformational exploration with an independent, fixed metric.
 7. Keep code and experimental artifacts reproducible; return a concise report to the planning assistant/user for scientific interpretation.
+
+## Shared GitHub research synchronization — mandatory
+
+The shared, private **source of truth** is `cui-gx/phd-research` on GitHub, branch `main`. The canonical plan is `docs/博士研究_全局总档案.md`; this `AGENTS.md` contains operational rules. The ChatGPT Library copy is a historical backup and must not overwrite the newer GitHub version.
+
+### At the start of EVERY doctoral research session
+
+1. Authenticate with the user's authorized GitHub access; fetch/pull the latest `main` from `https://github.com/cui-gx/phd-research` and read the full canonical plan, this instruction file, and `docs/协作交接记录.md`.
+2. If development is in a different repository, read the shared research repository separately; do not assume the files are present in the code repository. If the repository cannot be accessed, report the limitation and request the latest documents; never claim synchronization succeeded.
+3. Before changing implementation, check for new research decisions, current P1 resource limits, existing progress, and pending decisions.
+
+### At the end of EVERY doctoral research work session
+
+1. Review whether confirmed research decisions, approved experimental specifications, implementation progress, measured results, failures, or next actions changed. Record all substantive changes; do not create meaningless commits.
+2. Preserve scientific status labels: `CONFIRMED` (explicitly approved by researcher), `PROPOSED` (not yet approved), `MEASURED` (actual measurements with evidence), `UNVERIFIED`, and `SUPERSEDED`. Never mark implementation choices as approved research decisions.
+3. Update `docs/协作交接记录.md` with date, work completed, code repository/commit references where available, evidence/artifacts, blockers, proposed next actions, and which scientific decisions await approval. Update the canonical plan only for important durable research decisions or established findings; avoid dumping routine logs into it.
+4. Fetch/pull latest remote changes immediately before committing; reconcile concurrent changes from the planning chat and implementation work. Never force-push, discard others' edits, or blindly overwrite a stale remote file.
+5. Commit and push via the researcher's authorized GitHub account, using the repository's configured identity, without AI co-author trailers or AI-related credit in commit messages. Never change someone else's git identity or bypass authentication controls.
+6. Read back the pushed files or remote commit and state the commit SHA. If push or permission fails, retain changes locally, report explicitly that GitHub was NOT updated, and provide a patch/summary for synchronization.
+
+The planning conversation follows the same cycle: read latest shared repository before research discussions when appropriate; after substantive decisions, record and push the confirmed conclusions and outstanding questions. Implementation updates are not themselves proof of scientific validity. The researcher's explicit latest instructions override any document, and conflicts require careful reconciliation.
+
+Never commit credentials, SSH keys, private server details, raw sensitive records, or large simulation outputs into the shared research notes. Commit only concise reproducible references and meaningful findings; use appropriate storage for large experimental data.
