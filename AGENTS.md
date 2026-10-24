@@ -71,3 +71,10 @@ Read `research-workflow/local-workspace-instructions.md` for local safety, stage
 - At the start of every server session, first inspect current users/tasks and CPU, memory and GPU use read-only. Before starting an installation, experiment, GPU batch or restarted run, recheck the resources it will use; an earlier idle snapshot is not sufficient.
 - Check relevant usage/reservation records where available, plus actual process ownership, CPU/memory load, GPU processes, memory use and utilization. Zero GPU utilization alone does not establish availability or permission.
 - If another user occupies the required resources, or their allocation boundary is unclear, pause the resource-consuming action and report to the researcher for coordination. Never preempt, stop, kill or reconfigure another user's work. Resume only when the permitted resource scope is clear.
+
+## Approved P1 stage and research handoff rule (2026-10-24)
+
+- **S1 is officially accepted (PASS) by the researcher** for the real single-GPU MD → CVAE train → inference → restarted MD engineering loop. It is not evidence of scientific exploration benefit.
+- **S2 is APPROVED**: follow `docs/阶段实施规格/P1-S2-科学资格与成本测量.md` precisely. Scope: MD science protocol audit, bounded actual run-cost measurements, same-candidate frozen-vs-updated CVAE decision comparison, and a model/reference-independent conformational coverage metric proposal. Do **not** auto-advance to S3.
+- On completing S2, publish evidence and phase report, update `docs/协作交接记录.md`, push to GitHub, verify remote contents, and stop pending a new researcher approval.
+- **New user-confirmed rule for research planning side**: after each substantive planning analysis, **whenever implementation/execution work is needed**, include a complete ready-to-copy Codex Prompt with scope, requirements, guardrails, expected outputs, acceptance criteria and repository handoff. The operational side should read that prompt together with the newest shared files; a prompt is not a license to widen the agreed research scope.
