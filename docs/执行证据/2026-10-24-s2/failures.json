@@ -1,0 +1,21 @@
+[
+  {
+    "step": "audit-01",
+    "status": "MEASURED failure",
+    "error": "OpenMM value_in_unit(1/u.picosecond) passed Quantity instead of Unit; TypeError unhashable Quantity",
+    "correction": "Use u.picosecond**-1; second audit succeeded",
+    "raw_preserved": "server artifacts/s2-science-audit-01/system.xml"
+  },
+  {
+    "step": "unit-01",
+    "status": "MEASURED failure",
+    "error": "75 tests,10 errors: test launcher omitted required P1_TEST_TMPDIR variable",
+    "correction": "Set project runtime tmp explicitly; unit-02 and unit-pre-run pass75"
+  },
+  {
+    "step": "pilot-01",
+    "status": "MEASURED stopped",
+    "error": "Occupancy gate stopped after first short MD: GPU trailing utilization sample nonzero with no identified process",
+    "correction": "Fresh inspection 2MiB/0%,no compute process; bounded repeated readings require confirmed idle; no process conflict bypass; new pilot-02 directory"
+  }
+]

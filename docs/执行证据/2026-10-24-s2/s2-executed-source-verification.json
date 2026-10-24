@@ -1,0 +1,7 @@
+{
+  "verified": 93,
+  "excluded_post_run_packaging_only": [
+    "p1/server/pack.py"
+  ],
+  "science_worker_and_pilot_driver_unchanged": true
+}

@@ -1,0 +1,68 @@
+{
+  "actual_reference_guided_top1_changed": true,
+  "candidate_count": 800,
+  "checkpoint_epochs_before_after": [
+    1,
+    2
+  ],
+  "common_candidate_snapshot": true,
+  "final_order_equal": false,
+  "frozen_checkpoint_unchanged": true,
+  "frozen_model_id": "model-4ce75eb5688d99468f182eda8cfcfe05509b67837cd5f0db97d836c323b27613",
+  "frozen_same_seed_repeated_embeddings_equal": true,
+  "frozen_same_seed_repeated_scores_equal": true,
+  "lof_only_before_after_top1": [
+    {
+      "frame": 53,
+      "result_id": "md-a8e2daf35dc1f4825c641661b236ee2faf6767b32ccae96dc9f80ba60f2e2f22",
+      "rmsd_angstrom": 8.138919580995351
+    },
+    {
+      "frame": 138,
+      "result_id": "md-a8e2daf35dc1f4825c641661b236ee2faf6767b32ccae96dc9f80ba60f2e2f22",
+      "rmsd_angstrom": 8.39206773731617
+    }
+  ],
+  "lof_only_top1_changed": true,
+  "lof_score_spearman": 0.12015335180211219,
+  "lof_shortlist_intersection": 19,
+  "lof_shortlist_jaccard": 0.10497237569060773,
+  "parent_checkpoint_sha256": "32f1a9887ec6dbb980862a00977bc48c710b0a74c1476c714efb10f61a4344e3",
+  "reference_guided_before_after_top1": [
+    {
+      "frame": 340,
+      "result_id": "md-0d0f27a4bd222ee4794dc9dfe94ac905230f5a74162cef4b4a34b3de464a75e7",
+      "rmsd_angstrom": 6.159886743227396
+    },
+    {
+      "frame": 365,
+      "result_id": "md-0d0f27a4bd222ee4794dc9dfe94ac905230f5a74162cef4b4a34b3de464a75e7",
+      "rmsd_angstrom": 6.094241485874635
+    }
+  ],
+  "reference_only_top1": {
+    "frame": 363,
+    "result_id": "md-0d0f27a4bd222ee4794dc9dfe94ac905230f5a74162cef4b4a34b3de464a75e7",
+    "rmsd_angstrom": 5.833479383214764
+  },
+  "rmsd_values_identical": true,
+  "scientific_benefit_evaluated": false,
+  "shortlist_size": 100,
+  "training_frames_before_after": [
+    400,
+    800
+  ],
+  "training_result_ids_before_after": [
+    [
+      "md-a8e2daf35dc1f4825c641661b236ee2faf6767b32ccae96dc9f80ba60f2e2f22"
+    ],
+    [
+      "md-a8e2daf35dc1f4825c641661b236ee2faf6767b32ccae96dc9f80ba60f2e2f22",
+      "md-0d0f27a4bd222ee4794dc9dfe94ac905230f5a74162cef4b4a34b3de464a75e7"
+    ]
+  ],
+  "updated_model_id": "model-1c0779abb4049fae131ef8436bc1fc3358b016b81f47b006a52a4f547dabd6db",
+  "updated_same_seed_repeated_embeddings_equal": true,
+  "updated_same_seed_repeated_scores_equal": true,
+  "weight_difference_l2": 11.042182655044284
+}

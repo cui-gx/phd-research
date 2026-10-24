@@ -1,0 +1,158 @@
+[
+  {
+    "all_coordinates_finite": true,
+    "analysis_box_angstrom_degrees": [
+      46.5989990234375,
+      46.5989990234375,
+      46.5989990234375,
+      90.0,
+      90.0,
+      90.0
+    ],
+    "atoms": 504,
+    "equilibration_or_sampling_convergence_established": false,
+    "frames": 2000,
+    "potential_kJ_mol_min_max": [
+      -7688.1468695452895,
+      -6968.38434118262
+    ],
+    "saved_contact_frames_differ_from_nonperiodic": 0,
+    "saved_contact_frames_differ_from_periodic": 0,
+    "task": "md-1000ps-r0",
+    "temperature_K_min_mean_max": [
+      219.7856444716517,
+      300.99060958231075,
+      346.95717830171276
+    ]
+  },
+  {
+    "all_coordinates_finite": true,
+    "analysis_box_angstrom_degrees": [
+      46.5989990234375,
+      46.5989990234375,
+      46.5989990234375,
+      90.0,
+      90.0,
+      90.0
+    ],
+    "atoms": 504,
+    "equilibration_or_sampling_convergence_established": false,
+    "frames": 2000,
+    "potential_kJ_mol_min_max": [
+      -7648.011636605224,
+      -7010.540673679404
+    ],
+    "saved_contact_frames_differ_from_nonperiodic": 0,
+    "saved_contact_frames_differ_from_periodic": 0,
+    "task": "md-1000ps-r1",
+    "temperature_K_min_mean_max": [
+      207.5551731437539,
+      300.4045678794812,
+      340.21335146416
+    ]
+  },
+  {
+    "all_coordinates_finite": true,
+    "analysis_box_angstrom_degrees": [
+      46.5989990234375,
+      46.5989990234375,
+      46.5989990234375,
+      90.0,
+      90.0,
+      90.0
+    ],
+    "atoms": 504,
+    "equilibration_or_sampling_convergence_established": false,
+    "frames": 400,
+    "potential_kJ_mol_min_max": [
+      -7686.558862063097,
+      -7066.603105808868
+    ],
+    "saved_contact_frames_differ_from_nonperiodic": 0,
+    "saved_contact_frames_differ_from_periodic": 0,
+    "task": "md-200ps-r0",
+    "temperature_K_min_mean_max": [
+      219.45814215249192,
+      298.9685639911383,
+      344.707313768307
+    ]
+  },
+  {
+    "all_coordinates_finite": true,
+    "analysis_box_angstrom_degrees": [
+      46.5989990234375,
+      46.5989990234375,
+      46.5989990234375,
+      90.0,
+      90.0,
+      90.0
+    ],
+    "atoms": 504,
+    "equilibration_or_sampling_convergence_established": false,
+    "frames": 400,
+    "potential_kJ_mol_min_max": [
+      -7646.967484079951,
+      -7027.923698333912
+    ],
+    "saved_contact_frames_differ_from_nonperiodic": 0,
+    "saved_contact_frames_differ_from_periodic": 0,
+    "task": "md-200ps-r1",
+    "temperature_K_min_mean_max": [
+      206.75308779618473,
+      298.21183761881986,
+      335.5663554450884
+    ]
+  },
+  {
+    "all_coordinates_finite": true,
+    "analysis_box_angstrom_degrees": [
+      46.5989990234375,
+      46.5989990234375,
+      46.5989990234375,
+      90.0,
+      90.0,
+      90.0
+    ],
+    "atoms": 504,
+    "equilibration_or_sampling_convergence_established": false,
+    "frames": 40,
+    "potential_kJ_mol_min_max": [
+      -7688.640733235628,
+      -7164.472965618526
+    ],
+    "saved_contact_frames_differ_from_nonperiodic": 0,
+    "saved_contact_frames_differ_from_periodic": 0,
+    "task": "md-20ps-r0",
+    "temperature_K_min_mean_max": [
+      219.7782851200654,
+      296.4786272569807,
+      319.8042171794278
+    ]
+  },
+  {
+    "all_coordinates_finite": true,
+    "analysis_box_angstrom_degrees": [
+      46.5989990234375,
+      46.5989990234375,
+      46.5989990234375,
+      90.0,
+      90.0,
+      90.0
+    ],
+    "atoms": 504,
+    "equilibration_or_sampling_convergence_established": false,
+    "frames": 40,
+    "potential_kJ_mol_min_max": [
+      -7649.515645269041,
+      -7120.277030913716
+    ],
+    "saved_contact_frames_differ_from_nonperiodic": 0,
+    "saved_contact_frames_differ_from_periodic": 0,
+    "task": "md-20ps-r1",
+    "temperature_K_min_mean_max": [
+      208.14315343712374,
+      288.8990647451743,
+      318.4512410280944
+    ]
+  }
+]

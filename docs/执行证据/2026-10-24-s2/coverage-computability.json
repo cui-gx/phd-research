@@ -1,0 +1,102 @@
+{
+  "all_pilot_frames": {
+    "contact_fingerprint_states": 4859,
+    "distance_angstrom_min_max": [
+      3.523688991582582,
+      37.31823616613872
+    ],
+    "distance_bin_states": {
+      "1.0": 4880,
+      "2.0": 4879,
+      "4.0": 4879
+    },
+    "frames": 4880,
+    "pair_count": 325
+  },
+  "duplicating_same_frames_changes_counts": false,
+  "evaluation_wall_s_excludes_trajectory_loading": 0.569031598046422,
+  "md-1000ps-r0": {
+    "contact_fingerprint_states": 1994,
+    "distance_angstrom_min_max": [
+      3.873371655333379,
+      31.554822899931875
+    ],
+    "distance_bin_states": {
+      "1.0": 2000,
+      "2.0": 2000,
+      "4.0": 2000
+    },
+    "frames": 2000,
+    "pair_count": 325
+  },
+  "md-1000ps-r1": {
+    "contact_fingerprint_states": 1993,
+    "distance_angstrom_min_max": [
+      3.523688991582582,
+      31.39467155647673
+    ],
+    "distance_bin_states": {
+      "1.0": 2000,
+      "2.0": 2000,
+      "4.0": 2000
+    },
+    "frames": 2000,
+    "pair_count": 325
+  },
+  "md-200ps-r0": {
+    "contact_fingerprint_states": 400,
+    "distance_angstrom_min_max": [
+      3.8426134579195987,
+      37.31823616613872
+    ],
+    "distance_bin_states": {
+      "1.0": 400,
+      "2.0": 400,
+      "4.0": 400
+    },
+    "frames": 400,
+    "pair_count": 325
+  },
+  "md-200ps-r1": {
+    "contact_fingerprint_states": 400,
+    "distance_angstrom_min_max": [
+      3.833260432521257,
+      36.931851749620954
+    ],
+    "distance_bin_states": {
+      "1.0": 400,
+      "2.0": 400,
+      "4.0": 400
+    },
+    "frames": 400,
+    "pair_count": 325
+  },
+  "md-20ps-r0": {
+    "contact_fingerprint_states": 40,
+    "distance_angstrom_min_max": [
+      4.105012693823458,
+      30.325573827449013
+    ],
+    "distance_bin_states": {
+      "1.0": 40,
+      "2.0": 40,
+      "4.0": 40
+    },
+    "frames": 40,
+    "pair_count": 325
+  },
+  "md-20ps-r1": {
+    "contact_fingerprint_states": 40,
+    "distance_angstrom_min_max": [
+      3.8571277000740465,
+      30.450046265806847
+    ],
+    "distance_bin_states": {
+      "1.0": 40,
+      "2.0": 40,
+      "4.0": 40
+    },
+    "frames": 40,
+    "pair_count": 325
+  }
+}

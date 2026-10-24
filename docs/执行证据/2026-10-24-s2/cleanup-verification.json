@@ -1,0 +1,36 @@
+{
+  "status": "clean",
+  "raw_files_verified": {
+    "gpu-loop-01": 106,
+    "s2-pilot-01": 24,
+    "s2-pilot-02": 203
+  },
+  "removed": [
+    {
+      "registered_runtime": "s2-qualification-01",
+      "bytes_removed": 9049693854,
+      "absent_after": true
+    },
+    {
+      "registered_runtime": "S2-P1-SERVER-RUNPACK-20261022",
+      "bytes_removed": 0,
+      "absent_after": true
+    }
+  ],
+  "archive_preserved_and_verified": true,
+  "environment_lock_install_logs_preserved": true,
+  "no_registered_compute_process_running": true,
+  "system_or_global_git_changes": false,
+  "other_users_processes_stopped": false,
+  "local_raw_files_verified_after_cleanup": {
+    "2026-10-24-P1-gpu-loop-01": 106,
+    "s2-pilot-01": 24,
+    "s2-pilot-02": 203
+  },
+  "local_cache_directories_removed": [
+    "p1/server/__pycache__"
+  ],
+  "appledouble_removed": 367,
+  "local_science_runtime_created": false,
+  "evidence_archive_preserved": true
+}

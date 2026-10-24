@@ -185,3 +185,29 @@
 
 ._*
 !/docs/执行证据/2026-10-24-cleanup-verification.json
+
+# P1 S2 approved implementation and compact review evidence
+!/p1/server/qualification.py
+!/p1/server/qualification_analysis.py
+!/tests/p1/test_qualification.py
+!/configs/p1-server-s2-pilot.json
+!/docs/P1-S2/
+/docs/P1-S2/*
+!/docs/P1-S2/science-protocol-audit.md
+!/docs/P1-S2/coverage-metric-proposal.md
+!/docs/P1-S2/qualification-report.md
+!/docs/P1-S2/reproduce.md
+!/docs/执行证据/2026-10-24-s2/
+/docs/执行证据/2026-10-24-s2/*
+!/docs/执行证据/2026-10-24-s2/*.json
+!/docs/执行证据/2026-10-24-s2/*.csv
+!/docs/执行证据/2026-10-24-s2/*.log
+!/docs/执行证据/2026-10-24-s2/*.txt
+!/教程/
+/教程/*
+!/教程/研究规范/
+/教程/研究规范/*
+!/教程/研究规范/术语与定义.md
+
+# Keep platform metadata excluded after all allowlist entries.
+._*

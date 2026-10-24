@@ -1,0 +1,698 @@
+[
+  {
+    "boundary_note": "Residual includes startup, imports outside worker timer, serialization, polling, Parsl dispatch and teardown; not pure scheduler cost",
+    "component_stages": [
+      {
+        "end_offset_s": 0.006731363944709301,
+        "includes": "Installed package version collection and result metadata setup",
+        "stage": "worker_setup",
+        "start_offset_s": 0.0,
+        "status": "complete",
+        "wall_time_s": 0.006731363944709301
+      },
+      {
+        "end_offset_s": 0.5162518285214901,
+        "includes": "Imports, immutable snapshot verification/write and data assembly; inside inference task",
+        "stage": "infer_data_preparation_and_io",
+        "start_offset_s": 0.006731363944709301,
+        "status": "complete",
+        "wall_time_s": 0.5095204645767808
+      },
+      {
+        "end_offset_s": 2.089952946640551,
+        "includes": "Model metadata/hash checks, trainer initialization, checkpoint read/load; CUDA synchronized at end",
+        "stage": "infer_model_load",
+        "start_offset_s": 0.5162518285214901,
+        "status": "complete",
+        "wall_time_s": 1.573701118119061
+      },
+      {
+        "end_offset_s": 2.4020573096349835,
+        "includes": "mdlearn predict and embedding validity checks; CUDA synchronized at end",
+        "stage": "infer_embedding",
+        "start_offset_s": 2.089952946640551,
+        "status": "complete",
+        "wall_time_s": 0.31210436299443245
+      },
+      {
+        "end_offset_s": 2.4279093192890286,
+        "includes": "CPU LOF, stable LOF/RMSD ranking, lineage IDs and embedding/selection writes",
+        "stage": "infer_lof_sort_and_write",
+        "start_offset_s": 2.4020573096349835,
+        "status": "complete",
+        "wall_time_s": 0.025852009654045105
+      },
+      {
+        "end_offset_s": 2.4279128331691027,
+        "includes": "Successful result merge or failure traceback capture before final result serialization",
+        "stage": "worker_finalize",
+        "start_offset_s": 2.4279093192890286,
+        "status": "complete",
+        "wall_time_s": 3.5138800740242004e-06
+      }
+    ],
+    "dispatch_to_result_s": 3.1408633664250374,
+    "frames": null,
+    "physical_md_ns": null,
+    "seed": 2026102404,
+    "supervised_child_s": 3.1379554755985737,
+    "task": "infer-frozen-r0",
+    "training_frames": null,
+    "type": "inference",
+    "worker_internal_s": 2.4279128331691027
+  },
+  {
+    "boundary_note": "Residual includes startup, imports outside worker timer, serialization, polling, Parsl dispatch and teardown; not pure scheduler cost",
+    "component_stages": [
+      {
+        "end_offset_s": 0.00635164137929678,
+        "includes": "Installed package version collection and result metadata setup",
+        "stage": "worker_setup",
+        "start_offset_s": 0.0,
+        "status": "complete",
+        "wall_time_s": 0.00635164137929678
+      },
+      {
+        "end_offset_s": 0.4819216085597873,
+        "includes": "Imports, immutable snapshot verification/write and data assembly; inside inference task",
+        "stage": "infer_data_preparation_and_io",
+        "start_offset_s": 0.00635164137929678,
+        "status": "complete",
+        "wall_time_s": 0.4755699671804905
+      },
+      {
+        "end_offset_s": 2.0403029834851623,
+        "includes": "Model metadata/hash checks, trainer initialization, checkpoint read/load; CUDA synchronized at end",
+        "stage": "infer_model_load",
+        "start_offset_s": 0.4819216085597873,
+        "status": "complete",
+        "wall_time_s": 1.558381374925375
+      },
+      {
+        "end_offset_s": 2.351672675460577,
+        "includes": "mdlearn predict and embedding validity checks; CUDA synchronized at end",
+        "stage": "infer_embedding",
+        "start_offset_s": 2.0403029834851623,
+        "status": "complete",
+        "wall_time_s": 0.31136969197541475
+      },
+      {
+        "end_offset_s": 2.375250938348472,
+        "includes": "CPU LOF, stable LOF/RMSD ranking, lineage IDs and embedding/selection writes",
+        "stage": "infer_lof_sort_and_write",
+        "start_offset_s": 2.351672675460577,
+        "status": "complete",
+        "wall_time_s": 0.023578262887895107
+      },
+      {
+        "end_offset_s": 2.3752547800540924,
+        "includes": "Successful result merge or failure traceback capture before final result serialization",
+        "stage": "worker_finalize",
+        "start_offset_s": 2.375250938348472,
+        "status": "complete",
+        "wall_time_s": 3.841705620288849e-06
+      }
+    ],
+    "dispatch_to_result_s": 3.001416388899088,
+    "frames": null,
+    "physical_md_ns": null,
+    "seed": 2026102404,
+    "supervised_child_s": 2.998572769574821,
+    "task": "infer-frozen-r1",
+    "training_frames": null,
+    "type": "inference",
+    "worker_internal_s": 2.3752547800540924
+  },
+  {
+    "boundary_note": "Residual includes startup, imports outside worker timer, serialization, polling, Parsl dispatch and teardown; not pure scheduler cost",
+    "component_stages": [
+      {
+        "end_offset_s": 0.006565047428011894,
+        "includes": "Installed package version collection and result metadata setup",
+        "stage": "worker_setup",
+        "start_offset_s": 0.0,
+        "status": "complete",
+        "wall_time_s": 0.006565047428011894
+      },
+      {
+        "end_offset_s": 0.4510027291253209,
+        "includes": "Imports, immutable snapshot verification/write and data assembly; inside inference task",
+        "stage": "infer_data_preparation_and_io",
+        "start_offset_s": 0.006565047428011894,
+        "status": "complete",
+        "wall_time_s": 0.444437681697309
+      },
+      {
+        "end_offset_s": 2.0016818745061755,
+        "includes": "Model metadata/hash checks, trainer initialization, checkpoint read/load; CUDA synchronized at end",
+        "stage": "infer_model_load",
+        "start_offset_s": 0.4510027291253209,
+        "status": "complete",
+        "wall_time_s": 1.5506791453808546
+      },
+      {
+        "end_offset_s": 2.3125232458114624,
+        "includes": "mdlearn predict and embedding validity checks; CUDA synchronized at end",
+        "stage": "infer_embedding",
+        "start_offset_s": 2.0016818745061755,
+        "status": "complete",
+        "wall_time_s": 0.3108413713052869
+      },
+      {
+        "end_offset_s": 2.3357639955356717,
+        "includes": "CPU LOF, stable LOF/RMSD ranking, lineage IDs and embedding/selection writes",
+        "stage": "infer_lof_sort_and_write",
+        "start_offset_s": 2.3125232458114624,
+        "status": "complete",
+        "wall_time_s": 0.02324074972420931
+      },
+      {
+        "end_offset_s": 2.33576746750623,
+        "includes": "Successful result merge or failure traceback capture before final result serialization",
+        "stage": "worker_finalize",
+        "start_offset_s": 2.3357639955356717,
+        "status": "complete",
+        "wall_time_s": 3.471970558166504e-06
+      }
+    ],
+    "dispatch_to_result_s": 2.992398620583117,
+    "frames": null,
+    "physical_md_ns": null,
+    "seed": 2026102404,
+    "supervised_child_s": 2.989558960311115,
+    "task": "infer-updated-r0",
+    "training_frames": null,
+    "type": "inference",
+    "worker_internal_s": 2.33576746750623
+  },
+  {
+    "boundary_note": "Residual includes startup, imports outside worker timer, serialization, polling, Parsl dispatch and teardown; not pure scheduler cost",
+    "component_stages": [
+      {
+        "end_offset_s": 0.0063727907836437225,
+        "includes": "Installed package version collection and result metadata setup",
+        "stage": "worker_setup",
+        "start_offset_s": 0.0,
+        "status": "complete",
+        "wall_time_s": 0.0063727907836437225
+      },
+      {
+        "end_offset_s": 0.4477648474276066,
+        "includes": "Imports, immutable snapshot verification/write and data assembly; inside inference task",
+        "stage": "infer_data_preparation_and_io",
+        "start_offset_s": 0.0063727907836437225,
+        "status": "complete",
+        "wall_time_s": 0.44139205664396286
+      },
+      {
+        "end_offset_s": 1.9980014245957136,
+        "includes": "Model metadata/hash checks, trainer initialization, checkpoint read/load; CUDA synchronized at end",
+        "stage": "infer_model_load",
+        "start_offset_s": 0.4477648474276066,
+        "status": "complete",
+        "wall_time_s": 1.550236577168107
+      },
+      {
+        "end_offset_s": 2.309640455059707,
+        "includes": "mdlearn predict and embedding validity checks; CUDA synchronized at end",
+        "stage": "infer_embedding",
+        "start_offset_s": 1.9980014245957136,
+        "status": "complete",
+        "wall_time_s": 0.31163903046399355
+      },
+      {
+        "end_offset_s": 2.3330657240003347,
+        "includes": "CPU LOF, stable LOF/RMSD ranking, lineage IDs and embedding/selection writes",
+        "stage": "infer_lof_sort_and_write",
+        "start_offset_s": 2.309640455059707,
+        "status": "complete",
+        "wall_time_s": 0.023425268940627575
+      },
+      {
+        "end_offset_s": 2.3330697622150183,
+        "includes": "Successful result merge or failure traceback capture before final result serialization",
+        "stage": "worker_finalize",
+        "start_offset_s": 2.3330657240003347,
+        "status": "complete",
+        "wall_time_s": 4.038214683532715e-06
+      }
+    ],
+    "dispatch_to_result_s": 2.9990728311240673,
+    "frames": null,
+    "physical_md_ns": null,
+    "seed": 2026102404,
+    "supervised_child_s": 2.996180882677436,
+    "task": "infer-updated-r1",
+    "training_frames": null,
+    "type": "inference",
+    "worker_internal_s": 2.3330697622150183
+  },
+  {
+    "boundary_note": "Residual includes startup, imports outside worker timer, serialization, polling, Parsl dispatch and teardown; not pure scheduler cost",
+    "component_stages": [
+      {
+        "end_offset_s": 0.00648842379450798,
+        "includes": "Installed package version collection and result metadata setup",
+        "stage": "worker_setup",
+        "start_offset_s": 0.0,
+        "status": "complete",
+        "wall_time_s": 0.00648842379450798
+      },
+      {
+        "end_offset_s": 2.866129694506526,
+        "includes": "Library imports, initial/restart PDB IO, checks, system/context creation, minimization, velocities, reporter setup",
+        "stage": "md_initialization",
+        "start_offset_s": 0.00648842379450798,
+        "status": "complete",
+        "wall_time_s": 2.859641270712018
+      },
+      {
+        "end_offset_s": 72.88546540122479,
+        "includes": "OpenMM step including synchronous trajectory/log reporter IO, final energy retrieval and checks",
+        "stage": "md_simulation",
+        "start_offset_s": 2.866129694506526,
+        "status": "complete",
+        "wall_time_s": 70.01933570671827
+      },
+      {
+        "end_offset_s": 73.95215817168355,
+        "includes": "Reporter close, coordinate checks, alignment, contacts/RMSD, array writes, artifact hashing and result assembly",
+        "stage": "md_analysis_and_write",
+        "start_offset_s": 72.88546540122479,
+        "status": "complete",
+        "wall_time_s": 1.0666927704587579
+      },
+      {
+        "end_offset_s": 73.9521619323641,
+        "includes": "Successful result merge or failure traceback capture before final result serialization",
+        "stage": "worker_finalize",
+        "start_offset_s": 73.95215817168355,
+        "status": "complete",
+        "wall_time_s": 3.7606805562973022e-06
+      }
+    ],
+    "dispatch_to_result_s": 74.13642964046448,
+    "frames": 2000,
+    "physical_md_ns": 1.0,
+    "seed": 2026102401,
+    "supervised_child_s": 74.1295852670446,
+    "task": "md-1000ps-r0",
+    "training_frames": null,
+    "type": "simulation",
+    "worker_internal_s": 73.9521619323641
+  },
+  {
+    "boundary_note": "Residual includes startup, imports outside worker timer, serialization, polling, Parsl dispatch and teardown; not pure scheduler cost",
+    "component_stages": [
+      {
+        "end_offset_s": 0.006614589132368565,
+        "includes": "Installed package version collection and result metadata setup",
+        "stage": "worker_setup",
+        "start_offset_s": 0.0,
+        "status": "complete",
+        "wall_time_s": 0.006614589132368565
+      },
+      {
+        "end_offset_s": 2.8874294320121408,
+        "includes": "Library imports, initial/restart PDB IO, checks, system/context creation, minimization, velocities, reporter setup",
+        "stage": "md_initialization",
+        "start_offset_s": 0.006614589132368565,
+        "status": "complete",
+        "wall_time_s": 2.880814842879772
+      },
+      {
+        "end_offset_s": 73.33902658522129,
+        "includes": "OpenMM step including synchronous trajectory/log reporter IO, final energy retrieval and checks",
+        "stage": "md_simulation",
+        "start_offset_s": 2.8874294320121408,
+        "status": "complete",
+        "wall_time_s": 70.45159715320915
+      },
+      {
+        "end_offset_s": 74.52498724218458,
+        "includes": "Reporter close, coordinate checks, alignment, contacts/RMSD, array writes, artifact hashing and result assembly",
+        "stage": "md_analysis_and_write",
+        "start_offset_s": 73.33902658522129,
+        "status": "complete",
+        "wall_time_s": 1.1859606569632888
+      },
+      {
+        "end_offset_s": 74.52499132417142,
+        "includes": "Successful result merge or failure traceback capture before final result serialization",
+        "stage": "worker_finalize",
+        "start_offset_s": 74.52498724218458,
+        "status": "complete",
+        "wall_time_s": 4.081986844539642e-06
+      }
+    ],
+    "dispatch_to_result_s": 74.7186478227377,
+    "frames": 2000,
+    "physical_md_ns": 1.0,
+    "seed": 2026102402,
+    "supervised_child_s": 74.71110267750919,
+    "task": "md-1000ps-r1",
+    "training_frames": null,
+    "type": "simulation",
+    "worker_internal_s": 74.52499132417142
+  },
+  {
+    "boundary_note": "Residual includes startup, imports outside worker timer, serialization, polling, Parsl dispatch and teardown; not pure scheduler cost",
+    "component_stages": [
+      {
+        "end_offset_s": 0.006333285942673683,
+        "includes": "Installed package version collection and result metadata setup",
+        "stage": "worker_setup",
+        "start_offset_s": 0.0,
+        "status": "complete",
+        "wall_time_s": 0.006333285942673683
+      },
+      {
+        "end_offset_s": 2.8684269543737173,
+        "includes": "Library imports, initial/restart PDB IO, checks, system/context creation, minimization, velocities, reporter setup",
+        "stage": "md_initialization",
+        "start_offset_s": 0.006333285942673683,
+        "status": "complete",
+        "wall_time_s": 2.8620936684310436
+      },
+      {
+        "end_offset_s": 16.93867838103324,
+        "includes": "OpenMM step including synchronous trajectory/log reporter IO, final energy retrieval and checks",
+        "stage": "md_simulation",
+        "start_offset_s": 2.8684269543737173,
+        "status": "complete",
+        "wall_time_s": 14.070251426659524
+      },
+      {
+        "end_offset_s": 17.2028419515118,
+        "includes": "Reporter close, coordinate checks, alignment, contacts/RMSD, array writes, artifact hashing and result assembly",
+        "stage": "md_analysis_and_write",
+        "start_offset_s": 16.93867838103324,
+        "status": "complete",
+        "wall_time_s": 0.26416357047855854
+      },
+      {
+        "end_offset_s": 17.202845125459135,
+        "includes": "Successful result merge or failure traceback capture before final result serialization",
+        "stage": "worker_finalize",
+        "start_offset_s": 17.2028419515118,
+        "status": "complete",
+        "wall_time_s": 3.1739473342895508e-06
+      }
+    ],
+    "dispatch_to_result_s": 17.386332751251757,
+    "frames": 400,
+    "physical_md_ns": 0.2,
+    "seed": 2026102401,
+    "supervised_child_s": 17.37991209421307,
+    "task": "md-200ps-r0",
+    "training_frames": null,
+    "type": "simulation",
+    "worker_internal_s": 17.202845125459135
+  },
+  {
+    "boundary_note": "Residual includes startup, imports outside worker timer, serialization, polling, Parsl dispatch and teardown; not pure scheduler cost",
+    "component_stages": [
+      {
+        "end_offset_s": 0.006295935250818729,
+        "includes": "Installed package version collection and result metadata setup",
+        "stage": "worker_setup",
+        "start_offset_s": 0.0,
+        "status": "complete",
+        "wall_time_s": 0.006295935250818729
+      },
+      {
+        "end_offset_s": 2.859676817432046,
+        "includes": "Library imports, initial/restart PDB IO, checks, system/context creation, minimization, velocities, reporter setup",
+        "stage": "md_initialization",
+        "start_offset_s": 0.006295935250818729,
+        "status": "complete",
+        "wall_time_s": 2.853380882181227
+      },
+      {
+        "end_offset_s": 17.086797502823174,
+        "includes": "OpenMM step including synchronous trajectory/log reporter IO, final energy retrieval and checks",
+        "stage": "md_simulation",
+        "start_offset_s": 2.859676817432046,
+        "status": "complete",
+        "wall_time_s": 14.227120685391128
+      },
+      {
+        "end_offset_s": 17.355546029284596,
+        "includes": "Reporter close, coordinate checks, alignment, contacts/RMSD, array writes, artifact hashing and result assembly",
+        "stage": "md_analysis_and_write",
+        "start_offset_s": 17.086797502823174,
+        "status": "complete",
+        "wall_time_s": 0.26874852646142244
+      },
+      {
+        "end_offset_s": 17.355549625121057,
+        "includes": "Successful result merge or failure traceback capture before final result serialization",
+        "stage": "worker_finalize",
+        "start_offset_s": 17.355546029284596,
+        "status": "complete",
+        "wall_time_s": 3.5958364605903625e-06
+      }
+    ],
+    "dispatch_to_result_s": 17.584257311187685,
+    "frames": 400,
+    "physical_md_ns": 0.2,
+    "seed": 2026102402,
+    "supervised_child_s": 17.577786594629288,
+    "task": "md-200ps-r1",
+    "training_frames": null,
+    "type": "simulation",
+    "worker_internal_s": 17.355549625121057
+  },
+  {
+    "boundary_note": "Residual includes startup, imports outside worker timer, serialization, polling, Parsl dispatch and teardown; not pure scheduler cost",
+    "component_stages": [
+      {
+        "end_offset_s": 0.0068159569054841995,
+        "includes": "Installed package version collection and result metadata setup",
+        "stage": "worker_setup",
+        "start_offset_s": 0.0,
+        "status": "complete",
+        "wall_time_s": 0.0068159569054841995
+      },
+      {
+        "end_offset_s": 2.9342561373487115,
+        "includes": "Library imports, initial/restart PDB IO, checks, system/context creation, minimization, velocities, reporter setup",
+        "stage": "md_initialization",
+        "start_offset_s": 0.0068159569054841995,
+        "status": "complete",
+        "wall_time_s": 2.9274401804432273
+      },
+      {
+        "end_offset_s": 4.473787093535066,
+        "includes": "OpenMM step including synchronous trajectory/log reporter IO, final energy retrieval and checks",
+        "stage": "md_simulation",
+        "start_offset_s": 2.9342561373487115,
+        "status": "complete",
+        "wall_time_s": 1.5395309561863542
+      },
+      {
+        "end_offset_s": 4.559343026019633,
+        "includes": "Reporter close, coordinate checks, alignment, contacts/RMSD, array writes, artifact hashing and result assembly",
+        "stage": "md_analysis_and_write",
+        "start_offset_s": 4.473787093535066,
+        "status": "complete",
+        "wall_time_s": 0.08555593248456717
+      },
+      {
+        "end_offset_s": 4.559346130117774,
+        "includes": "Successful result merge or failure traceback capture before final result serialization",
+        "stage": "worker_finalize",
+        "start_offset_s": 4.559343026019633,
+        "status": "complete",
+        "wall_time_s": 3.10409814119339e-06
+      }
+    ],
+    "dispatch_to_result_s": 4.7859115479514,
+    "frames": 40,
+    "physical_md_ns": 0.02,
+    "seed": 2026102401,
+    "supervised_child_s": 4.778082799166441,
+    "task": "md-20ps-r0",
+    "training_frames": null,
+    "type": "simulation",
+    "worker_internal_s": 4.559346130117774
+  },
+  {
+    "boundary_note": "Residual includes startup, imports outside worker timer, serialization, polling, Parsl dispatch and teardown; not pure scheduler cost",
+    "component_stages": [
+      {
+        "end_offset_s": 0.006558749824762344,
+        "includes": "Installed package version collection and result metadata setup",
+        "stage": "worker_setup",
+        "start_offset_s": 0.0,
+        "status": "complete",
+        "wall_time_s": 0.006558749824762344
+      },
+      {
+        "end_offset_s": 2.921769536100328,
+        "includes": "Library imports, initial/restart PDB IO, checks, system/context creation, minimization, velocities, reporter setup",
+        "stage": "md_initialization",
+        "start_offset_s": 0.006558749824762344,
+        "status": "complete",
+        "wall_time_s": 2.9152107862755656
+      },
+      {
+        "end_offset_s": 4.437326367944479,
+        "includes": "OpenMM step including synchronous trajectory/log reporter IO, final energy retrieval and checks",
+        "stage": "md_simulation",
+        "start_offset_s": 2.921769536100328,
+        "status": "complete",
+        "wall_time_s": 1.515556831844151
+      },
+      {
+        "end_offset_s": 4.524057152681053,
+        "includes": "Reporter close, coordinate checks, alignment, contacts/RMSD, array writes, artifact hashing and result assembly",
+        "stage": "md_analysis_and_write",
+        "start_offset_s": 4.437326367944479,
+        "status": "complete",
+        "wall_time_s": 0.0867307847365737
+      },
+      {
+        "end_offset_s": 4.52406052313745,
+        "includes": "Successful result merge or failure traceback capture before final result serialization",
+        "stage": "worker_finalize",
+        "start_offset_s": 4.524057152681053,
+        "status": "complete",
+        "wall_time_s": 3.3704563975334167e-06
+      }
+    ],
+    "dispatch_to_result_s": 4.699487269856036,
+    "frames": 40,
+    "physical_md_ns": 0.02,
+    "seed": 2026102402,
+    "supervised_child_s": 4.692054690793157,
+    "task": "md-20ps-r1",
+    "training_frames": null,
+    "type": "simulation",
+    "worker_internal_s": 4.52406052313745
+  },
+  {
+    "boundary_note": "Residual includes startup, imports outside worker timer, serialization, polling, Parsl dispatch and teardown; not pure scheduler cost",
+    "component_stages": [
+      {
+        "end_offset_s": 0.00633661262691021,
+        "includes": "Installed package version collection and result metadata setup",
+        "stage": "worker_setup",
+        "start_offset_s": 0.0,
+        "status": "complete",
+        "wall_time_s": 0.00633661262691021
+      },
+      {
+        "end_offset_s": 0.04721678886562586,
+        "includes": "Imports, immutable snapshot verification/write, array loading/assembly and split-size checks; inside train task",
+        "stage": "train_data_preparation_and_io",
+        "start_offset_s": 0.00633661262691021,
+        "status": "complete",
+        "wall_time_s": 0.04088017623871565
+      },
+      {
+        "end_offset_s": 1.546388329938054,
+        "includes": "mdlearn/PyTorch import, source verification, seed/device/threads setup and trainer creation; CUDA synchronized at end",
+        "stage": "train_model_initialization",
+        "start_offset_s": 0.04721678886562586,
+        "status": "complete",
+        "wall_time_s": 1.4991715410724282
+      },
+      {
+        "end_offset_s": 2.3728521401062608,
+        "includes": "mdlearn fit: batching, training, validation, scheduled checkpoint IO; CUDA synchronized at end",
+        "stage": "train_fit_including_checkpoint",
+        "start_offset_s": 1.546388329938054,
+        "status": "complete",
+        "wall_time_s": 0.8264638101682067
+      },
+      {
+        "end_offset_s": 2.377111635170877,
+        "includes": "Loss checks, final checkpoint existence/hash, model ID and loss JSON writing; actual checkpoint save is nested inside fit",
+        "stage": "train_checkpoint_verification_and_write",
+        "start_offset_s": 2.3728521401062608,
+        "status": "complete",
+        "wall_time_s": 0.004259495064616203
+      },
+      {
+        "end_offset_s": 2.377115356735885,
+        "includes": "Successful result merge or failure traceback capture before final result serialization",
+        "stage": "worker_finalize",
+        "start_offset_s": 2.377111635170877,
+        "status": "complete",
+        "wall_time_s": 3.721565008163452e-06
+      }
+    ],
+    "dispatch_to_result_s": 3.00950385350734,
+    "frames": null,
+    "physical_md_ns": null,
+    "seed": 2026102403,
+    "supervised_child_s": 3.0066235084086657,
+    "task": "train-before",
+    "training_frames": 400,
+    "type": "train",
+    "worker_internal_s": 2.377115356735885
+  },
+  {
+    "boundary_note": "Residual includes startup, imports outside worker timer, serialization, polling, Parsl dispatch and teardown; not pure scheduler cost",
+    "component_stages": [
+      {
+        "end_offset_s": 0.0070031145587563515,
+        "includes": "Installed package version collection and result metadata setup",
+        "stage": "worker_setup",
+        "start_offset_s": 0.0,
+        "status": "complete",
+        "wall_time_s": 0.0070031145587563515
+      },
+      {
+        "end_offset_s": 0.06023512128740549,
+        "includes": "Imports, immutable snapshot verification/write, array loading/assembly and split-size checks; inside train task",
+        "stage": "train_data_preparation_and_io",
+        "start_offset_s": 0.0070031145587563515,
+        "status": "complete",
+        "wall_time_s": 0.05323200672864914
+      },
+      {
+        "end_offset_s": 1.6020302586257458,
+        "includes": "mdlearn/PyTorch import, source verification, seed/device/threads setup and trainer creation; CUDA synchronized at end",
+        "stage": "train_model_initialization",
+        "start_offset_s": 0.06023512128740549,
+        "status": "complete",
+        "wall_time_s": 1.5417951373383403
+      },
+      {
+        "end_offset_s": 2.651982821524143,
+        "includes": "mdlearn fit: batching, training, validation, scheduled checkpoint IO; CUDA synchronized at end",
+        "stage": "train_fit_including_checkpoint",
+        "start_offset_s": 1.6020302586257458,
+        "status": "complete",
+        "wall_time_s": 1.0499525628983974
+      },
+      {
+        "end_offset_s": 2.656402382068336,
+        "includes": "Loss checks, final checkpoint existence/hash, model ID and loss JSON writing; actual checkpoint save is nested inside fit",
+        "stage": "train_checkpoint_verification_and_write",
+        "start_offset_s": 2.651982821524143,
+        "status": "complete",
+        "wall_time_s": 0.004419560544192791
+      },
+      {
+        "end_offset_s": 2.6564059033989906,
+        "includes": "Successful result merge or failure traceback capture before final result serialization",
+        "stage": "worker_finalize",
+        "start_offset_s": 2.656402382068336,
+        "status": "complete",
+        "wall_time_s": 3.5213306546211243e-06
+      }
+    ],
+    "dispatch_to_result_s": 3.2754674181342125,
+    "frames": null,
+    "physical_md_ns": null,
+    "seed": 2026102403,
+    "supervised_child_s": 3.2724852599203587,
+    "task": "train-updated",
+    "training_frames": 800,
+    "type": "train",
+    "worker_internal_s": 2.6564059033989906
+  }
+]

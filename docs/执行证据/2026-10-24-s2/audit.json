@@ -1,0 +1,676 @@
+{
+  "evidence_type": "local CPU/GPU measurement",
+  "forcefield_files_sha256": {
+    "amber14-all.xml": "96d635545c36ce248e37d23ea82fa05ce4d2e1a6a42cd6d0ec5db3cfe30ca44c",
+    "amber14/DNA.OL15.xml": "200e7cd116481fb47ed50bfd29deefb84a1e488d73d262c3f3f278b36b80ffa5",
+    "amber14/DNA.bsc1.xml": "4ef74475a35fa6a2ae016df926c25eec6ad86a5b15c7e41820b64dd278a0e122",
+    "amber14/GLYCAM_06j-1.xml": "e8ae14c0bc3f20e91fe92e927d7e636a7639b210dc11aabf4a1e800e44b1a53f",
+    "amber14/RNA.OL3.xml": "61b793a49ded3c9c3bd9fbab328bc1b20b2b4ce7bc2358d537892ca64b085127",
+    "amber14/lipid17.xml": "f974506df14202973637cf5e1d094af5e6098eb04afd2b68c523589ffcf2e780",
+    "amber14/opc.xml": "39d6fec3c760b79e36c1e1b8fa53b1c3ff10c343ebcd0729a629e548f792d101",
+    "amber14/opc3.xml": "5a759a7180734dbb4f4f4e43ccb14b23a4d2bda8961bea12e30d4bc815175b6a",
+    "amber14/protein.ff14SB.xml": "d9f9779c09d67cd5f8bc657692f174ffab14c469dfd06d560ac1899fa7e976b8",
+    "amber14/protein.ff15ipq.xml": "0085c9dc2818a28501f6074a0bb46b994a9787bf4010ff86417fe014b11ab622",
+    "amber14/spce.xml": "b964862a2f11f30bff45d2e0cfad6edea98d96ad701078e5eb1bb8ae258a4577",
+    "amber14/tip3p.xml": "3f4b188dbcb6c02863230eaca231e927fb6bf3307ce947d8a50d0f46f6dd83d9",
+    "amber14/tip3pfb.xml": "6d8e47161b69da99d1f01982939ae078cd7399a5344c7513eef3a207ca6f6128",
+    "amber14/tip4pew.xml": "0638b2492b0be288a63d8ba81e1d98091d9847b09b5598e8fa2cff1123c83546",
+    "amber14/tip4pfb.xml": "b965f0aaa584255e485b4fd3b7448e0848326493d3c8a3dde2a3addbe7c0421c",
+    "implicit/gbn2.xml": "172fe56b43343e26f5483f55a276dbcf351b759f3abca2a12891778bf08e560b"
+  },
+  "inputs": {
+    "1FME-folded-model1.pdb": {
+      "atoms_all_models": 504,
+      "atoms_first_model": 504,
+      "cryst1": [],
+      "hydrogens_first_model": 253,
+      "model_records": 0,
+      "nonprotein_residue_names": [],
+      "residues_first_model": [
+        [
+          "A",
+          "1",
+          "GLU"
+        ],
+        [
+          "A",
+          "2",
+          "GLN"
+        ],
+        [
+          "A",
+          "3",
+          "TYR"
+        ],
+        [
+          "A",
+          "4",
+          "THR"
+        ],
+        [
+          "A",
+          "5",
+          "ALA"
+        ],
+        [
+          "A",
+          "6",
+          "LYS"
+        ],
+        [
+          "A",
+          "7",
+          "TYR"
+        ],
+        [
+          "A",
+          "8",
+          "LYS"
+        ],
+        [
+          "A",
+          "9",
+          "GLY"
+        ],
+        [
+          "A",
+          "10",
+          "ARG"
+        ],
+        [
+          "A",
+          "11",
+          "THR"
+        ],
+        [
+          "A",
+          "12",
+          "PHE"
+        ],
+        [
+          "A",
+          "13",
+          "ARG"
+        ],
+        [
+          "A",
+          "14",
+          "ASN"
+        ],
+        [
+          "A",
+          "15",
+          "GLU"
+        ],
+        [
+          "A",
+          "16",
+          "LYS"
+        ],
+        [
+          "A",
+          "17",
+          "GLU"
+        ],
+        [
+          "A",
+          "18",
+          "LEU"
+        ],
+        [
+          "A",
+          "19",
+          "ARG"
+        ],
+        [
+          "A",
+          "20",
+          "ASP"
+        ],
+        [
+          "A",
+          "21",
+          "PHE"
+        ],
+        [
+          "A",
+          "22",
+          "ILE"
+        ],
+        [
+          "A",
+          "23",
+          "GLU"
+        ],
+        [
+          "A",
+          "24",
+          "LYS"
+        ],
+        [
+          "A",
+          "25",
+          "PHE"
+        ],
+        [
+          "A",
+          "26",
+          "LYS"
+        ],
+        [
+          "A",
+          "27",
+          "GLY"
+        ],
+        [
+          "A",
+          "28",
+          "ARG"
+        ]
+      ],
+      "sha256": "a5276b2752cd95555f7ca078c512c68f89b50893519e99347a1986fa63c82dc8",
+      "terminal_atom_names": [
+        [
+          "N",
+          "CA",
+          "C",
+          "O",
+          "CB",
+          "CG",
+          "CD",
+          "OE1",
+          "OE2",
+          "H1",
+          "H2",
+          "H3",
+          "HA",
+          "HB2",
+          "HB3",
+          "HG2",
+          "HG3"
+        ],
+        [
+          "N",
+          "CA",
+          "C",
+          "O",
+          "CB",
+          "CG",
+          "CD",
+          "NE",
+          "CZ",
+          "NH1",
+          "NH2",
+          "OXT",
+          "H",
+          "HA",
+          "HB2",
+          "HB3",
+          "HG2",
+          "HG3",
+          "HD2",
+          "HD3",
+          "HE",
+          "HH11",
+          "HH12",
+          "HH21",
+          "HH22"
+        ]
+      ]
+    },
+    "1FME-folded.pdb": {
+      "atoms_all_models": 17136,
+      "atoms_first_model": 504,
+      "cryst1": [
+        "CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1          "
+      ],
+      "hydrogens_first_model": 253,
+      "model_records": 34,
+      "nonprotein_residue_names": [],
+      "residues_first_model": [
+        [
+          "A",
+          "1",
+          "GLU"
+        ],
+        [
+          "A",
+          "2",
+          "GLN"
+        ],
+        [
+          "A",
+          "3",
+          "TYR"
+        ],
+        [
+          "A",
+          "4",
+          "THR"
+        ],
+        [
+          "A",
+          "5",
+          "ALA"
+        ],
+        [
+          "A",
+          "6",
+          "LYS"
+        ],
+        [
+          "A",
+          "7",
+          "TYR"
+        ],
+        [
+          "A",
+          "8",
+          "LYS"
+        ],
+        [
+          "A",
+          "9",
+          "GLY"
+        ],
+        [
+          "A",
+          "10",
+          "ARG"
+        ],
+        [
+          "A",
+          "11",
+          "THR"
+        ],
+        [
+          "A",
+          "12",
+          "PHE"
+        ],
+        [
+          "A",
+          "13",
+          "ARG"
+        ],
+        [
+          "A",
+          "14",
+          "ASN"
+        ],
+        [
+          "A",
+          "15",
+          "GLU"
+        ],
+        [
+          "A",
+          "16",
+          "LYS"
+        ],
+        [
+          "A",
+          "17",
+          "GLU"
+        ],
+        [
+          "A",
+          "18",
+          "LEU"
+        ],
+        [
+          "A",
+          "19",
+          "ARG"
+        ],
+        [
+          "A",
+          "20",
+          "ASP"
+        ],
+        [
+          "A",
+          "21",
+          "PHE"
+        ],
+        [
+          "A",
+          "22",
+          "ILE"
+        ],
+        [
+          "A",
+          "23",
+          "GLU"
+        ],
+        [
+          "A",
+          "24",
+          "LYS"
+        ],
+        [
+          "A",
+          "25",
+          "PHE"
+        ],
+        [
+          "A",
+          "26",
+          "LYS"
+        ],
+        [
+          "A",
+          "27",
+          "GLY"
+        ],
+        [
+          "A",
+          "28",
+          "ARG"
+        ]
+      ],
+      "sha256": "f9c5de680c00ee2629634fb6c7f621e2e1e2664e92b2e4b51b236d5e483b436b",
+      "terminal_atom_names": [
+        [
+          "N",
+          "CA",
+          "C",
+          "O",
+          "CB",
+          "CG",
+          "CD",
+          "OE1",
+          "OE2",
+          "H1",
+          "H2",
+          "H3",
+          "HA",
+          "HB2",
+          "HB3",
+          "HG2",
+          "HG3"
+        ],
+        [
+          "N",
+          "CA",
+          "C",
+          "O",
+          "CB",
+          "CG",
+          "CD",
+          "NE",
+          "CZ",
+          "NH1",
+          "NH2",
+          "OXT",
+          "H",
+          "HA",
+          "HB2",
+          "HB3",
+          "HG2",
+          "HG3",
+          "HD2",
+          "HD3",
+          "HE",
+          "HH11",
+          "HH12",
+          "HH21",
+          "HH22"
+        ]
+      ]
+    },
+    "1FME-unfolded.pdb": {
+      "atoms_all_models": 504,
+      "atoms_first_model": 504,
+      "cryst1": [
+        "CRYST1   46.599   46.599   46.599  90.00  90.00  90.00 P 1           1"
+      ],
+      "hydrogens_first_model": 253,
+      "model_records": 0,
+      "nonprotein_residue_names": [],
+      "residues_first_model": [
+        [
+          "P",
+          "1",
+          "GLU"
+        ],
+        [
+          "P",
+          "2",
+          "GLN"
+        ],
+        [
+          "P",
+          "3",
+          "TYR"
+        ],
+        [
+          "P",
+          "4",
+          "THR"
+        ],
+        [
+          "P",
+          "5",
+          "ALA"
+        ],
+        [
+          "P",
+          "6",
+          "LYS"
+        ],
+        [
+          "P",
+          "7",
+          "TYR"
+        ],
+        [
+          "P",
+          "8",
+          "LYS"
+        ],
+        [
+          "P",
+          "9",
+          "GLY"
+        ],
+        [
+          "P",
+          "10",
+          "ARG"
+        ],
+        [
+          "P",
+          "11",
+          "THR"
+        ],
+        [
+          "P",
+          "12",
+          "PHE"
+        ],
+        [
+          "P",
+          "13",
+          "ARG"
+        ],
+        [
+          "P",
+          "14",
+          "ASN"
+        ],
+        [
+          "P",
+          "15",
+          "GLU"
+        ],
+        [
+          "P",
+          "16",
+          "LYS"
+        ],
+        [
+          "P",
+          "17",
+          "GLU"
+        ],
+        [
+          "P",
+          "18",
+          "LEU"
+        ],
+        [
+          "P",
+          "19",
+          "ARG"
+        ],
+        [
+          "P",
+          "20",
+          "ASP"
+        ],
+        [
+          "P",
+          "21",
+          "PHE"
+        ],
+        [
+          "P",
+          "22",
+          "ILE"
+        ],
+        [
+          "P",
+          "23",
+          "GLU"
+        ],
+        [
+          "P",
+          "24",
+          "LYS"
+        ],
+        [
+          "P",
+          "25",
+          "PHE"
+        ],
+        [
+          "P",
+          "26",
+          "LYS"
+        ],
+        [
+          "P",
+          "27",
+          "GLY"
+        ],
+        [
+          "P",
+          "28",
+          "ARG"
+        ]
+      ],
+      "sha256": "8cb0382cb19e24c1159eb672b236bc1a6642fc8025e6c5cb8200c3c4c435d2b3",
+      "terminal_atom_names": [
+        [
+          "N",
+          "HT1",
+          "HT2",
+          "HT3",
+          "CA",
+          "HA",
+          "CB",
+          "HB1",
+          "HB2",
+          "CG",
+          "HG1",
+          "HG2",
+          "CD",
+          "OE1",
+          "OE2",
+          "C",
+          "O"
+        ],
+        [
+          "C",
+          "OT1",
+          "OT2",
+          "N",
+          "HN",
+          "CA",
+          "HA",
+          "CB",
+          "HB1",
+          "HB2",
+          "CG",
+          "HG1",
+          "HG2",
+          "CD",
+          "HD1",
+          "HD2",
+          "NE",
+          "HE",
+          "CZ",
+          "NH1",
+          "HH11",
+          "HH12",
+          "NH2",
+          "HH21",
+          "HH22"
+        ]
+      ]
+    }
+  },
+  "integrator": {
+    "class": "LangevinIntegrator",
+    "constraint_tolerance": 1e-05,
+    "dt_ps": 0.002,
+    "friction_per_ps": 1.0,
+    "temperature_K": 300.0
+  },
+  "no_md_integration_performed": true,
+  "status": "MEASURED",
+  "system": {
+    "constraints": 253,
+    "forces": [
+      {
+        "class": "HarmonicBondForce"
+      },
+      {
+        "class": "PeriodicTorsionForce"
+      },
+      {
+        "class": "NonbondedForce",
+        "cutoff_nm": 1.0,
+        "global_parameters": {},
+        "nonbonded_method_enum": 1
+      },
+      {
+        "class": "CMMotionRemover"
+      },
+      {
+        "class": "HarmonicAngleForce"
+      },
+      {
+        "class": "CustomGBForce",
+        "cutoff_nm": 1.0,
+        "global_parameters": {},
+        "nonbonded_method_enum": 1
+      }
+    ],
+    "net_charge_e": 4.000000000000001,
+    "particles": 504,
+    "periodic": false,
+    "xml_sha256": "4cb9934558f8fa50d00a00fd319ee16273c9f8dd1d6c678bcd4ba3f16cc34064"
+  },
+  "versions": {
+    "MDAnalysis": "2.9.0",
+    "adapter": "p1-science-worker-v2-s2",
+    "mdlearn": "0.0.10a1",
+    "numpy": "1.26.4",
+    "openmm": "8.5.2",
+    "python": "3.12.3",
+    "scikit-learn": "1.6.1",
+    "torch": "2.7.1+cu128"
+  }
+}

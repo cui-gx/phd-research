@@ -1,0 +1,15 @@
+{
+  "cuda": "12.8",
+  "device": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "result": [
+    [
+      2.0,
+      2.0
+    ],
+    [
+      2.0,
+      2.0
+    ]
+  ],
+  "torch": "2.7.1+cu128"
+}

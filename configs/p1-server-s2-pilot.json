@@ -1,0 +1,26 @@
+{
+  "status": "PROPOSED / PILOT, selected under approved S2 bounds; not formal paper parameters",
+  "authority": "docs/阶段实施规格/P1-S2-科学资格与成本测量.md",
+  "md_lengths_ns": [0.02, 0.2, 1.0],
+  "repeats": 2,
+  "md_seeds": [2026102401, 2026102402],
+  "comparison_length_ns": 0.2,
+  "model_seed": 2026102403,
+  "inference_seed": 2026102404,
+  "walltime_cap_s": 900,
+  "task_timeout_s": 180,
+  "task_rss_cap_bytes": 4000000000,
+  "output_cap_bytes": 1000000000,
+  "gpu_count": 1,
+  "logical_cpu_ids_count": 3,
+  "report_interval_ps": 0.5,
+  "reason": "Fresh-process 20ps reference, then 10x and 50x lengths; two seeds paired across lengths describe cost variability without statistical scientific claims. Same 0.5ps reporter keeps density fixed. Stop after six MD, two train, four inference tasks.",
+  "coverage_proposal_frozen_before_results": {
+    "selection": "ordered protein CA, 28 residues",
+    "pairs": "i<j and j-i>=3",
+    "periodicity": "none; no alignment required for intramolecular distances",
+    "contact_threshold_angstrom": 8.0,
+    "distance_bin_widths_angstrom": [1.0, 2.0, 4.0],
+    "rule": "Distinct complete contact bit strings, and distinct floor(distance/bin_width) vectors; sample-count sensitivity only, not an approved scientific metric"
+  }
+}

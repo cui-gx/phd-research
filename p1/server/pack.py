@@ -16,7 +16,7 @@ def members():
                                ("上机准备/2026-10-23-P1", "*.md")):
         selected.extend((ROOT / directory).rglob(pattern))
     selected.extend((ROOT / "configs").glob("p1-server-*.json"))
-    for name in ("test_science_adapter.py", "test_policy_engine.py", "test_server_runner.py", "test_server_analysis.py", "test_worker_cleanup.py"):
+    for name in ("test_science_adapter.py", "test_policy_engine.py", "test_server_runner.py", "test_server_analysis.py", "test_worker_cleanup.py", "test_component_timing.py", "test_qualification.py"):
         selected.append(ROOT / "tests/p1" / name)
     selected.extend((ROOT / "configs").glob("p1-server-*.txt"))
     selected.extend([ROOT / "configs/p1_server_science.json", ROOT / "p1/server/science_sources.md"])

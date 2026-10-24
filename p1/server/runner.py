@@ -331,7 +331,7 @@ def run(settings, output_dir, science_config, lease=None):
                    "evaluation_ready": False, "formal_evaluation_campaigns": 0, "engineering_only": True,
                    "gpu_slots": 1, "worker_count": 1,
                    "dispatch_role": "single-GPU closed-loop engineering order, not a research comparison",
-                   "evidence_type": "local CPU/GPU measurement", "completed_result_ids": [r.get("result_id", r.get("model_id", r.get("ranking_id"))) for r in completed]}
+                   "evidence_type": "local CPU/GPU measurement", "completed_result_ids": [r.get("result_id", r.get("ranking_id", r.get("model_id"))) for r in completed]}
         save_new(output / "summary.json", summary)
         save_new(output / "checksums.json", {str(p.relative_to(output)): digest(p) for p in output.rglob("*") if p.is_file()})
     return summary

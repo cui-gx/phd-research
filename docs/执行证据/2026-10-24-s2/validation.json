@@ -1,0 +1,8 @@
+{
+  "evaluation_ready": false,
+  "evidence_type": "local CPU/GPU measurement",
+  "status": "MEASURED",
+  "tasks": 12,
+  "timing_partitions_pass": true,
+  "verified_raw_files": 203
+}

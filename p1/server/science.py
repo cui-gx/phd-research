@@ -34,7 +34,7 @@ DEFAULT_CONFIG = ROOT / "configs/p1_server_science.json"
 UPSTREAM_MD = ROOT / "literature/p1-concrete-2026-10-19/source-snapshots/deepdrivemd/apps/openmm_simulation/app.py"
 UPSTREAM_MD_SHA256 = "9e744c4a4628a7833c57666d43ccca14b58e1842e796846c5761b566b17a15ba"
 MDLEARN_TRAINER_SHA256 = "df099022af7e38162371eff5abd607ccc31bba22b5f714838b6ea96d0ac4297a"
-ADAPTER_VERSION = "p1-science-worker-v1"
+ADAPTER_VERSION = "p1-science-worker-v2-s2"
 PathLike = Union[str, Path]
 
 STAGE_OPERATIONS = {
@@ -482,6 +482,20 @@ def _train(req: dict) -> dict:
         raise ValueError("Not enough frames for both mdlearn drop_last training and validation batches")
     timer.stage("train_model_initialization")
     trainer, _torch = _trainer(req)
+    parent = req["inputs"].get("initial_model")
+    checkpoint_input, initial_epoch = None, 0
+    if parent is not None:
+        if (parent.get("status") != "success" or not parent.get("valid") or
+                parent.get("science_config_id") != req["science_config_id"]):
+            raise ValueError("Update requires a valid parent with the same scientific configuration")
+        checkpoint_input = parent["model_weight_path"]
+        if sha256_file(checkpoint_input) != parent["model_weight_sha256"]:
+            raise ValueError("Parent checkpoint hash mismatch")
+        state = _torch.load(checkpoint_input, map_location="cpu", weights_only=True)
+        initial_epoch = int(state["epoch"])
+        # mdlearn's public checkpoint interface restores model AND optimizer.
+        # Its epochs parameter is an absolute last epoch, ours is an increment.
+        trainer.epochs = initial_epoch + settings["epochs"]
     model_dir = Path(req["output_dir"]) / "model"
     _synchronize_cuda(req, _torch)
     timer.stage("train_fit_including_checkpoint")
@@ -495,14 +509,16 @@ def _train(req: dict) -> dict:
             return original_log_checkpoint(*args, **kwargs)
     try:
         mdlearn_utils.log_checkpoint = measured_checkpoint
-        trainer.fit(X=contacts, scalars={"rmsd": rmsds}, output_path=model_dir)
+        fit_kwargs = {"checkpoint": checkpoint_input} if checkpoint_input else {}
+        trainer.fit(X=contacts, scalars={"rmsd": rmsds}, output_path=model_dir, **fit_kwargs)
         _synchronize_cuda(req, _torch)
     finally:
         mdlearn_utils.log_checkpoint = original_log_checkpoint
     timer.stage("train_checkpoint_verification_and_write")
     if not trainer.loss_curve_ or any(not np.isfinite(values).all() for values in trainer.loss_curve_.values()):
         raise ValueError("Nonfinite CVAE loss; this model cannot be published")
-    checkpoint = model_dir / "checkpoints" / f"checkpoint-epoch-{settings['epochs']}.pt"
+    final_epoch = initial_epoch + settings["epochs"]
+    checkpoint = model_dir / "checkpoints" / f"checkpoint-epoch-{final_epoch}.pt"
     if not checkpoint.is_file():
         raise ValueError("Expected final-epoch CVAE checkpoint is missing")
     checkpoint_hash = sha256_file(checkpoint)
@@ -512,7 +528,10 @@ def _train(req: dict) -> dict:
     return {"model_id": model_id, "model_weight_path": str(checkpoint),
             "model_weight_sha256": checkpoint_hash, "training_snapshot_id": snapshot["snapshot_id"],
             "training_result_ids": [r["result_id"] for r in snapshot["results"]],
-            "training_frames": len(contacts), "trained_from_scratch": True,
+            "training_frames": len(contacts), "trained_from_scratch": parent is None,
+            "parent_model_id": parent["model_id"] if parent else None,
+            "parent_checkpoint_sha256": parent["model_weight_sha256"] if parent else None,
+            "initial_epoch": initial_epoch, "final_epoch": final_epoch,
             "epochs": settings["epochs"], "loss_curve": trainer.loss_curve_, "valid": True}
 
 
@@ -550,6 +569,9 @@ def _inference(req: dict) -> dict:
     lof.fit(embeddings)
     for row, score in zip(rows, lof.negative_outlier_factor_):
         row["lof"] = float(score)
+    # S2 diagnostic: preserve all scores before reference-RMSD reordering.
+    # Existing selection semantics remain unchanged.
+    write_json_new(Path(req["output_dir"]) / "candidate-scores.json", rows)
     selections = rank_rows(rows, req["science_config"]["num_outliers"])
     ranking_id = digest_json({"model_id": model["model_id"], "data": snapshot["snapshot_id"],
                               "selections": [{k: v for k, v in row.items() if not k.endswith("_path")} for row in selections]}, "rank-")

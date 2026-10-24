@@ -1,0 +1,30 @@
+{
+  "end_to_end_s": 217.43915672507137,
+  "evaluation_ready": false,
+  "physical_md_ns": 2.44,
+  "purpose": "PILOT scientific qualification and cost only",
+  "science_decisions_changed": false,
+  "status": "success",
+  "tasks": 12,
+  "telemetry": {
+    "samples": 435,
+    "sample_period_ms": 500,
+    "gpu_memory_max_MiB": 748.0,
+    "sampled_gpu_utilization_mean_percent": 68.92413793103448,
+    "sampled_gpu_utilization_max_percent": 89.0,
+    "not_kernel_occupancy_or_scientific_benefit": true
+  },
+  "dispatch_to_result_sum_s": 211.72978882212192,
+  "worker_internal_sum_s": 206.62448076345026,
+  "task_caps": {
+    "wall_s": 900,
+    "individual_s": 180,
+    "sampled_rss_bytes": 4000000000,
+    "output_bytes": 1000000000
+  },
+  "evidence_type": "local CPU/GPU measurement",
+  "failed_attempts_preserved": [
+    "s2-pilot-01"
+  ],
+  "interpretation": "Selection changed in one paired test; no exploration-benefit experiment. Coverage proposals nearly saturate at frame count."
+}
