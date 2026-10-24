@@ -65,3 +65,9 @@ Read `research-workflow/local-workspace-instructions.md` for local safety, stage
 - On the laboratory server, Git identity configuration may only be repository-local inside the researcher-owned project. Never set system or global identity, install credentials for the entire server, or alter other users' configuration.
 - If the laboratory SSH connection fails, ask the user to enable the campus VPN and stop investigating other causes unless the user changes that instruction.
 - After each bounded implementation stage, publish measured evidence and a stage report. The researcher and planning conversation review and approve the next research stage; implementation success is not permission to advance automatically.
+
+## Shared server and GPU occupancy check — mandatory
+
+- At the start of every server session, first inspect current users/tasks and CPU, memory and GPU use read-only. Before starting an installation, experiment, GPU batch or restarted run, recheck the resources it will use; an earlier idle snapshot is not sufficient.
+- Check relevant usage/reservation records where available, plus actual process ownership, CPU/memory load, GPU processes, memory use and utilization. Zero GPU utilization alone does not establish availability or permission.
+- If another user occupies the required resources, or their allocation boundary is unclear, pause the resource-consuming action and report to the researcher for coordination. Never preempt, stop, kill or reconfigure another user's work. Resume only when the permitted resource scope is clear.
