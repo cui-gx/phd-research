@@ -216,4 +216,15 @@
 !/docs/P1-S2-supplement/
 /docs/P1-S2-supplement/*
 !/docs/P1-S2-supplement/*.md
+!/p1/server/supplement_coverage.py
+!/p1/server/supplement_selection.py
+!/p1/server/supplement_physics.py
+!/p1/server/supplement_run.py
+!/tests/p1/test_supplement.py
+!/docs/执行证据/2026-10-24-s2-supplement/
+/docs/执行证据/2026-10-24-s2-supplement/*
+!/docs/执行证据/2026-10-24-s2-supplement/*.json
+!/docs/执行证据/2026-10-24-s2-supplement/*.csv
+!/docs/执行证据/2026-10-24-s2-supplement/*.txt
+!/docs/执行证据/2026-10-24-s2-supplement/*.log
 ._*
