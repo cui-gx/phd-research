@@ -1,0 +1,25 @@
+{
+  "source_commit": "b18dacba46f079644e4ee66191675375581955c3",
+  "records": [
+    {
+      "path": "inputs/p1-fsd-ey/1FME-folded.pdb",
+      "url": "https://raw.githubusercontent.com/ramanathanlab/deepdrivemd/b18dacba46f079644e4ee66191675375581955c3/data/1fme/1FME-folded.pdb",
+      "sha256": "f9c5de680c00ee2629634fb6c7f621e2e1e2664e92b2e4b51b236d5e483b436b",
+      "bytes": 1427220
+    },
+    {
+      "path": "inputs/p1-fsd-ey/1FME-unfolded.pdb",
+      "url": "https://raw.githubusercontent.com/ramanathanlab/deepdrivemd/b18dacba46f079644e4ee66191675375581955c3/data/1fme/system/1FME-unfolded.pdb",
+      "sha256": "8cb0382cb19e24c1159eb672b236bc1a6642fc8025e6c5cb8200c3c4c435d2b3",
+      "bytes": 39891
+    }
+  ],
+  "preprocessing": {
+    "input": "inputs/p1-fsd-ey/1FME-folded.pdb",
+    "input_sha256": "f9c5de680c00ee2629634fb6c7f621e2e1e2664e92b2e4b51b236d5e483b436b",
+    "output": "inputs/p1-fsd-ey/1FME-folded-model1.pdb",
+    "output_sha256": "a5276b2752cd95555f7ca078c512c68f89b50893519e99347a1986fa63c82dc8",
+    "rule": "First MODEL only, preserve ATOM/HETATM/TER records, append END; deterministic reference matching upstream MDAnalysis first frame",
+    "models_in_original": 34
+  }
+}

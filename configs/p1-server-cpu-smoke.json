@@ -1,0 +1,29 @@
+{
+  "purpose": "cpu_functional",
+  "device": "cpu",
+  "mode": "smoke",
+  "policy": "Single-GPU-FIFO",
+  "seed": 20261022,
+  "walltime_s": 600,
+  "task_timeout_s": 180,
+  "max_tasks": 16,
+  "max_output_bytes": 1000000000,
+  "train_every_results": 2,
+  "cpu_threads": {
+    "md": 1,
+    "train": 1,
+    "infer": 1
+  },
+  "estimates_s": {
+    "md": 20,
+    "train": 20,
+    "infer": 20
+  },
+  "wait_cap_s": 60,
+  "backlog_threshold": 2,
+  "age_threshold_s": 60,
+  "initial_pdb": "inputs/p1-fsd-ey/1FME-unfolded.pdb",
+  "reference_pdb": "inputs/p1-fsd-ey/1FME-folded-model1.pdb",
+  "gpu_slots": 1,
+  "purpose_note": "Single-GPU serial engineering reproduction only; scheduling research policy and conformational exploration metrics are not frozen."
+}

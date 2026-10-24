@@ -1,0 +1,25 @@
+{
+  "status": "clean",
+  "registered_local_runtime_paths_absent": true,
+  "local_project_background_processes": 0,
+  "raw_files_verified_unchanged": 107,
+  "cpu_content_hashes_verified": 106,
+  "cpu_manifest_original_entries_including_metadata": 232,
+  "cpu_appledouble_entries_excluded_from_scientific_evidence": 126,
+  "remote_cleanup": {
+    "removed_registered_runtime": true,
+    "runtime_absent": true,
+    "removed_file_bytes": 9049614391,
+    "source_preserved": true,
+    "run_preserved": true,
+    "artifacts_preserved": true,
+    "own_project_processes_running": 0,
+    "git_configuration_changed": false,
+    "system_configuration_changed": false,
+    "recorded_utc": "2026-10-24T00:12:01.428911+00:00"
+  },
+  "evidence_preserved": true,
+  "no_global_prune_or_process_kill": true,
+  "metadata_note": "Original CPU manifest retained unchanged; it included macOS AppleDouble sidecars. Policy cleanup removes those metadata files; all 106 actual CPU content hashes remain valid. GPU manifest has 106 content entries and no AppleDouble entries.",
+  "cleanup_retry_note": "A disappearing AppleDouble file was handled as FileNotFoundError; raw experiment contents were not removed or rewritten."
+}

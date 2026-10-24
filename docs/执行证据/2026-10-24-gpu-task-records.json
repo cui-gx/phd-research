@@ -1,0 +1,1309 @@
+{
+  "privacy": "Only paths, host identity and GPU UUID removed; scientific IDs, seeds, timings and version lineage retained.",
+  "tasks": [
+    {
+      "task_id": "infer-000000",
+      "task_type": "inference",
+      "status": "success",
+      "valid": true,
+      "device": "cuda",
+      "seed": 606139295,
+      "cpu_threads": 2,
+      "wall_time_s": 2.2209528908133507,
+      "component_timing": {
+        "aggregation": "stages form a disjoint additive partition of wall_time_s; nested_stages are included in their named parent and must not be added again",
+        "boundary": "After request.json write through result assembly; excludes CLI startup, request validation/write and final result.json serialization",
+        "clock": "time.perf_counter",
+        "data_preparation_is_separately_scheduled": false,
+        "nested_stages": [],
+        "schema_version": 1,
+        "stages": [
+          {
+            "end_offset_s": 0.006055040284991264,
+            "includes": "Installed package version collection and result metadata setup",
+            "stage": "worker_setup",
+            "start_offset_s": 0.0,
+            "status": "complete",
+            "wall_time_s": 0.006055040284991264
+          },
+          {
+            "end_offset_s": 0.4352833414450288,
+            "includes": "Imports, immutable snapshot verification/write and data assembly; inside inference task",
+            "stage": "infer_data_preparation_and_io",
+            "start_offset_s": 0.006055040284991264,
+            "status": "complete",
+            "wall_time_s": 0.4292283011600375
+          },
+          {
+            "end_offset_s": 1.9166215155273676,
+            "includes": "Model metadata/hash checks, trainer initialization, checkpoint read/load; CUDA synchronized at end",
+            "stage": "infer_model_load",
+            "start_offset_s": 0.4352833414450288,
+            "status": "complete",
+            "wall_time_s": 1.4813381740823388
+          },
+          {
+            "end_offset_s": 2.2041228096932173,
+            "includes": "mdlearn predict and embedding validity checks; CUDA synchronized at end",
+            "stage": "infer_embedding",
+            "start_offset_s": 1.9166215155273676,
+            "status": "complete",
+            "wall_time_s": 0.2875012941658497
+          },
+          {
+            "end_offset_s": 2.2209493620321155,
+            "includes": "CPU LOF, stable LOF/RMSD ranking, lineage IDs and embedding/selection writes",
+            "stage": "infer_lof_sort_and_write",
+            "start_offset_s": 2.2041228096932173,
+            "status": "complete",
+            "wall_time_s": 0.016826552338898182
+          },
+          {
+            "end_offset_s": 2.2209528908133507,
+            "includes": "Successful result merge or failure traceback capture before final result serialization",
+            "stage": "worker_finalize",
+            "start_offset_s": 2.2209493620321155,
+            "status": "complete",
+            "wall_time_s": 3.528781235218048e-06
+          }
+        ],
+        "wall_time_s": 2.2209528908133507
+      },
+      "science_config_id": "science-d04fd339b99d6a9a54401a194a9465fc8dfc44207fccb65fe1299483a77cfc3d",
+      "training_result_ids": [
+        "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13",
+        "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+        "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e"
+      ],
+      "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026",
+      "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+      "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+      "inference_snapshot_id": "data-436cc508e2f52b4b1623e4e8cf8ff85bce0a79c66fdf572e29697d640199397e",
+      "inference_result_ids": [
+        "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13",
+        "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+        "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+        "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37"
+      ],
+      "selection_classification": "existing_upstream_reference_guided_selection",
+      "selection_rule": "CVAE embeddings -> LOF top N -> reference RMSD ascending",
+      "exploration_effect_evaluated": false,
+      "versions": {
+        "MDAnalysis": "2.9.0",
+        "adapter": "p1-science-worker-v1",
+        "mdlearn": "0.0.10a1",
+        "numpy": "1.26.4",
+        "openmm": "8.5.2",
+        "python": "3.12.3",
+        "scikit-learn": "1.6.1",
+        "torch": "2.7.1+cu128"
+      },
+      "selections": [
+        {
+          "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+          "frame": 38,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+          "frame": 39,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+          "frame": 37,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+          "frame": 15,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+          "frame": 36,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+          "frame": 14,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+          "frame": 21,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+          "frame": 18,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+          "frame": 29,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+          "frame": 27,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+          "frame": 26,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+          "frame": 9,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+          "frame": 20,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+          "frame": 31,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+          "frame": 35,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+          "frame": 34,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+          "frame": 8,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+          "frame": 33,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+          "frame": 32,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+          "frame": 25,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+          "frame": 19,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+          "frame": 5,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 21,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 16,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 20,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 18,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 15,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 19,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 17,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 22,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 14,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+          "frame": 4,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 8,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+          "frame": 0,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 32,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 12,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 32,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 37,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 39,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 23,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 33,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 36,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 33,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 35,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+          "frame": 1,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 7,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 38,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 25,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 14,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 11,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 17,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 23,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13",
+          "frame": 0,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13",
+          "frame": 28,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 4,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 26,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 15,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 12,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 13,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 19,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 30,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 16,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 28,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 22,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 10,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 38,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 34,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 10,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13",
+          "frame": 27,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 31,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 37,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 20,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+          "frame": 27,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 7,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13",
+          "frame": 26,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 36,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 35,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 5,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 9,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 39,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 21,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 27,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13",
+          "frame": 38,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13",
+          "frame": 34,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13",
+          "frame": 17,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13",
+          "frame": 35,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 6,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13",
+          "frame": 31,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13",
+          "frame": 24,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+          "frame": 25,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13",
+          "frame": 22,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13",
+          "frame": 14,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13",
+          "frame": 20,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13",
+          "frame": 2,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13",
+          "frame": 13,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13",
+          "frame": 12,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13",
+          "frame": 8,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13",
+          "frame": 10,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13",
+          "frame": 7,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        },
+        {
+          "result_id": "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13",
+          "frame": 4,
+          "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+          "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+          "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"
+        }
+      ]
+    },
+    {
+      "task_id": "md-000000",
+      "task_type": "simulation",
+      "status": "success",
+      "valid": true,
+      "device": "cuda",
+      "actual_platform": "CUDA",
+      "seed": 1645533361,
+      "cpu_threads": 2,
+      "wall_time_s": 4.603822123259306,
+      "component_timing": {
+        "aggregation": "stages form a disjoint additive partition of wall_time_s; nested_stages are included in their named parent and must not be added again",
+        "boundary": "After request.json write through result assembly; excludes CLI startup, request validation/write and final result.json serialization",
+        "clock": "time.perf_counter",
+        "data_preparation_is_separately_scheduled": false,
+        "nested_stages": [],
+        "schema_version": 1,
+        "stages": [
+          {
+            "end_offset_s": 0.00672195665538311,
+            "includes": "Installed package version collection and result metadata setup",
+            "stage": "worker_setup",
+            "start_offset_s": 0.0,
+            "status": "complete",
+            "wall_time_s": 0.00672195665538311
+          },
+          {
+            "end_offset_s": 2.9902536422014236,
+            "includes": "Library imports, initial/restart PDB IO, checks, system/context creation, minimization, velocities, reporter setup",
+            "stage": "md_initialization",
+            "start_offset_s": 0.00672195665538311,
+            "status": "complete",
+            "wall_time_s": 2.9835316855460405
+          },
+          {
+            "end_offset_s": 4.518287228420377,
+            "includes": "OpenMM step including synchronous trajectory/log reporter IO, final energy retrieval and checks",
+            "stage": "md_simulation",
+            "start_offset_s": 2.9902536422014236,
+            "status": "complete",
+            "wall_time_s": 1.5280335862189531
+          },
+          {
+            "end_offset_s": 4.603819216601551,
+            "includes": "Reporter close, coordinate checks, alignment, contacts/RMSD, array writes, artifact hashing and result assembly",
+            "stage": "md_analysis_and_write",
+            "start_offset_s": 4.518287228420377,
+            "status": "complete",
+            "wall_time_s": 0.0855319881811738
+          },
+          {
+            "end_offset_s": 4.603822123259306,
+            "includes": "Successful result merge or failure traceback capture before final result serialization",
+            "stage": "worker_finalize",
+            "start_offset_s": 4.603819216601551,
+            "status": "complete",
+            "wall_time_s": 2.9066577553749084e-06
+          }
+        ],
+        "wall_time_s": 4.603822123259306
+      },
+      "physical_simulation_ns": 0.02,
+      "frames": 40,
+      "science_config_id": "science-d04fd339b99d6a9a54401a194a9465fc8dfc44207fccb65fe1299483a77cfc3d",
+      "result_id": "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13",
+      "selection_classification": "existing_upstream_reference_guided_selection",
+      "exploration_effect_evaluated": false,
+      "versions": {
+        "MDAnalysis": "2.9.0",
+        "adapter": "p1-science-worker-v1",
+        "mdlearn": "0.0.10a1",
+        "numpy": "1.26.4",
+        "openmm": "8.5.2",
+        "python": "3.12.3",
+        "scikit-learn": "1.6.1",
+        "torch": "2.7.1+cu128"
+      }
+    },
+    {
+      "task_id": "md-000001",
+      "task_type": "simulation",
+      "status": "success",
+      "valid": true,
+      "device": "cuda",
+      "actual_platform": "CUDA",
+      "seed": 1660633528,
+      "cpu_threads": 2,
+      "wall_time_s": 4.408546873368323,
+      "component_timing": {
+        "aggregation": "stages form a disjoint additive partition of wall_time_s; nested_stages are included in their named parent and must not be added again",
+        "boundary": "After request.json write through result assembly; excludes CLI startup, request validation/write and final result.json serialization",
+        "clock": "time.perf_counter",
+        "data_preparation_is_separately_scheduled": false,
+        "nested_stages": [],
+        "schema_version": 1,
+        "stages": [
+          {
+            "end_offset_s": 0.006250329315662384,
+            "includes": "Installed package version collection and result metadata setup",
+            "stage": "worker_setup",
+            "start_offset_s": 0.0,
+            "status": "complete",
+            "wall_time_s": 0.006250329315662384
+          },
+          {
+            "end_offset_s": 2.8106048805639148,
+            "includes": "Library imports, initial/restart PDB IO, checks, system/context creation, minimization, velocities, reporter setup",
+            "stage": "md_initialization",
+            "start_offset_s": 0.006250329315662384,
+            "status": "complete",
+            "wall_time_s": 2.8043545512482524
+          },
+          {
+            "end_offset_s": 4.323477451689541,
+            "includes": "OpenMM step including synchronous trajectory/log reporter IO, final energy retrieval and checks",
+            "stage": "md_simulation",
+            "start_offset_s": 2.8106048805639148,
+            "status": "complete",
+            "wall_time_s": 1.5128725711256266
+          },
+          {
+            "end_offset_s": 4.408543278463185,
+            "includes": "Reporter close, coordinate checks, alignment, contacts/RMSD, array writes, artifact hashing and result assembly",
+            "stage": "md_analysis_and_write",
+            "start_offset_s": 4.323477451689541,
+            "status": "complete",
+            "wall_time_s": 0.0850658267736435
+          },
+          {
+            "end_offset_s": 4.408546873368323,
+            "includes": "Successful result merge or failure traceback capture before final result serialization",
+            "stage": "worker_finalize",
+            "start_offset_s": 4.408543278463185,
+            "status": "complete",
+            "wall_time_s": 3.594905138015747e-06
+          }
+        ],
+        "wall_time_s": 4.408546873368323
+      },
+      "physical_simulation_ns": 0.02,
+      "frames": 40,
+      "science_config_id": "science-d04fd339b99d6a9a54401a194a9465fc8dfc44207fccb65fe1299483a77cfc3d",
+      "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+      "selection_classification": "existing_upstream_reference_guided_selection",
+      "exploration_effect_evaluated": false,
+      "versions": {
+        "MDAnalysis": "2.9.0",
+        "adapter": "p1-science-worker-v1",
+        "mdlearn": "0.0.10a1",
+        "numpy": "1.26.4",
+        "openmm": "8.5.2",
+        "python": "3.12.3",
+        "scikit-learn": "1.6.1",
+        "torch": "2.7.1+cu128"
+      }
+    },
+    {
+      "task_id": "md-000002",
+      "task_type": "simulation",
+      "status": "success",
+      "valid": true,
+      "device": "cuda",
+      "actual_platform": "CUDA",
+      "seed": 1313019954,
+      "cpu_threads": 2,
+      "wall_time_s": 4.40826996229589,
+      "component_timing": {
+        "aggregation": "stages form a disjoint additive partition of wall_time_s; nested_stages are included in their named parent and must not be added again",
+        "boundary": "After request.json write through result assembly; excludes CLI startup, request validation/write and final result.json serialization",
+        "clock": "time.perf_counter",
+        "data_preparation_is_separately_scheduled": false,
+        "nested_stages": [],
+        "schema_version": 1,
+        "stages": [
+          {
+            "end_offset_s": 0.00618594978004694,
+            "includes": "Installed package version collection and result metadata setup",
+            "stage": "worker_setup",
+            "start_offset_s": 0.0,
+            "status": "complete",
+            "wall_time_s": 0.00618594978004694
+          },
+          {
+            "end_offset_s": 2.815034858882427,
+            "includes": "Library imports, initial/restart PDB IO, checks, system/context creation, minimization, velocities, reporter setup",
+            "stage": "md_initialization",
+            "start_offset_s": 0.00618594978004694,
+            "status": "complete",
+            "wall_time_s": 2.8088489091023803
+          },
+          {
+            "end_offset_s": 4.323962602764368,
+            "includes": "OpenMM step including synchronous trajectory/log reporter IO, final energy retrieval and checks",
+            "stage": "md_simulation",
+            "start_offset_s": 2.815034858882427,
+            "status": "complete",
+            "wall_time_s": 1.5089277438819408
+          },
+          {
+            "end_offset_s": 4.408266858197749,
+            "includes": "Reporter close, coordinate checks, alignment, contacts/RMSD, array writes, artifact hashing and result assembly",
+            "stage": "md_analysis_and_write",
+            "start_offset_s": 4.323962602764368,
+            "status": "complete",
+            "wall_time_s": 0.0843042554333806
+          },
+          {
+            "end_offset_s": 4.40826996229589,
+            "includes": "Successful result merge or failure traceback capture before final result serialization",
+            "stage": "worker_finalize",
+            "start_offset_s": 4.408266858197749,
+            "status": "complete",
+            "wall_time_s": 3.10409814119339e-06
+          }
+        ],
+        "wall_time_s": 4.40826996229589
+      },
+      "physical_simulation_ns": 0.02,
+      "frames": 40,
+      "science_config_id": "science-d04fd339b99d6a9a54401a194a9465fc8dfc44207fccb65fe1299483a77cfc3d",
+      "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e",
+      "selection_classification": "existing_upstream_reference_guided_selection",
+      "exploration_effect_evaluated": false,
+      "versions": {
+        "MDAnalysis": "2.9.0",
+        "adapter": "p1-science-worker-v1",
+        "mdlearn": "0.0.10a1",
+        "numpy": "1.26.4",
+        "openmm": "8.5.2",
+        "python": "3.12.3",
+        "scikit-learn": "1.6.1",
+        "torch": "2.7.1+cu128"
+      }
+    },
+    {
+      "task_id": "md-000003",
+      "task_type": "simulation",
+      "status": "success",
+      "valid": true,
+      "device": "cuda",
+      "actual_platform": "CUDA",
+      "seed": 1087613373,
+      "cpu_threads": 2,
+      "wall_time_s": 4.499681222252548,
+      "component_timing": {
+        "aggregation": "stages form a disjoint additive partition of wall_time_s; nested_stages are included in their named parent and must not be added again",
+        "boundary": "After request.json write through result assembly; excludes CLI startup, request validation/write and final result.json serialization",
+        "clock": "time.perf_counter",
+        "data_preparation_is_separately_scheduled": false,
+        "nested_stages": [],
+        "schema_version": 1,
+        "stages": [
+          {
+            "end_offset_s": 0.0060594342648983,
+            "includes": "Installed package version collection and result metadata setup",
+            "stage": "worker_setup",
+            "start_offset_s": 0.0,
+            "status": "complete",
+            "wall_time_s": 0.0060594342648983
+          },
+          {
+            "end_offset_s": 2.884242322295904,
+            "includes": "Library imports, initial/restart PDB IO, checks, system/context creation, minimization, velocities, reporter setup",
+            "stage": "md_initialization",
+            "start_offset_s": 0.0060594342648983,
+            "status": "complete",
+            "wall_time_s": 2.878182888031006
+          },
+          {
+            "end_offset_s": 4.414031609892845,
+            "includes": "OpenMM step including synchronous trajectory/log reporter IO, final energy retrieval and checks",
+            "stage": "md_simulation",
+            "start_offset_s": 2.884242322295904,
+            "status": "complete",
+            "wall_time_s": 1.529789287596941
+          },
+          {
+            "end_offset_s": 4.49967775028199,
+            "includes": "Reporter close, coordinate checks, alignment, contacts/RMSD, array writes, artifact hashing and result assembly",
+            "stage": "md_analysis_and_write",
+            "start_offset_s": 4.414031609892845,
+            "status": "complete",
+            "wall_time_s": 0.08564614038914442
+          },
+          {
+            "end_offset_s": 4.499681222252548,
+            "includes": "Successful result merge or failure traceback capture before final result serialization",
+            "stage": "worker_finalize",
+            "start_offset_s": 4.49967775028199,
+            "status": "complete",
+            "wall_time_s": 3.471970558166504e-06
+          }
+        ],
+        "wall_time_s": 4.499681222252548
+      },
+      "physical_simulation_ns": 0.02,
+      "frames": 40,
+      "science_config_id": "science-d04fd339b99d6a9a54401a194a9465fc8dfc44207fccb65fe1299483a77cfc3d",
+      "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37",
+      "selection_classification": "existing_upstream_reference_guided_selection",
+      "exploration_effect_evaluated": false,
+      "versions": {
+        "MDAnalysis": "2.9.0",
+        "adapter": "p1-science-worker-v1",
+        "mdlearn": "0.0.10a1",
+        "numpy": "1.26.4",
+        "openmm": "8.5.2",
+        "python": "3.12.3",
+        "scikit-learn": "1.6.1",
+        "torch": "2.7.1+cu128"
+      }
+    },
+    {
+      "task_id": "md-000004",
+      "task_type": "simulation",
+      "status": "success",
+      "valid": true,
+      "device": "cuda",
+      "actual_platform": "CUDA",
+      "seed": 1872927179,
+      "cpu_threads": 2,
+      "wall_time_s": 4.396392477676272,
+      "component_timing": {
+        "aggregation": "stages form a disjoint additive partition of wall_time_s; nested_stages are included in their named parent and must not be added again",
+        "boundary": "After request.json write through result assembly; excludes CLI startup, request validation/write and final result.json serialization",
+        "clock": "time.perf_counter",
+        "data_preparation_is_separately_scheduled": false,
+        "nested_stages": [],
+        "schema_version": 1,
+        "stages": [
+          {
+            "end_offset_s": 0.006286041811108589,
+            "includes": "Installed package version collection and result metadata setup",
+            "stage": "worker_setup",
+            "start_offset_s": 0.0,
+            "status": "complete",
+            "wall_time_s": 0.006286041811108589
+          },
+          {
+            "end_offset_s": 2.80276264436543,
+            "includes": "Library imports, initial/restart PDB IO, checks, system/context creation, minimization, velocities, reporter setup",
+            "stage": "md_initialization",
+            "start_offset_s": 0.006286041811108589,
+            "status": "complete",
+            "wall_time_s": 2.7964766025543213
+          },
+          {
+            "end_offset_s": 4.312332052737474,
+            "includes": "OpenMM step including synchronous trajectory/log reporter IO, final energy retrieval and checks",
+            "stage": "md_simulation",
+            "start_offset_s": 2.80276264436543,
+            "status": "complete",
+            "wall_time_s": 1.5095694083720446
+          },
+          {
+            "end_offset_s": 4.396389494650066,
+            "includes": "Reporter close, coordinate checks, alignment, contacts/RMSD, array writes, artifact hashing and result assembly",
+            "stage": "md_analysis_and_write",
+            "start_offset_s": 4.312332052737474,
+            "status": "complete",
+            "wall_time_s": 0.08405744191259146
+          },
+          {
+            "end_offset_s": 4.396392477676272,
+            "includes": "Successful result merge or failure traceback capture before final result serialization",
+            "stage": "worker_finalize",
+            "start_offset_s": 4.396389494650066,
+            "status": "complete",
+            "wall_time_s": 2.9830262064933777e-06
+          }
+        ],
+        "wall_time_s": 4.396392477676272
+      },
+      "physical_simulation_ns": 0.02,
+      "frames": 40,
+      "science_config_id": "science-d04fd339b99d6a9a54401a194a9465fc8dfc44207fccb65fe1299483a77cfc3d",
+      "result_id": "md-a63324133d783d23b90dac8377995df6e7830ea5b1d7cde050317c3c3c41d9b7",
+      "selection_classification": "existing_upstream_reference_guided_selection",
+      "exploration_effect_evaluated": false,
+      "versions": {
+        "MDAnalysis": "2.9.0",
+        "adapter": "p1-science-worker-v1",
+        "mdlearn": "0.0.10a1",
+        "numpy": "1.26.4",
+        "openmm": "8.5.2",
+        "python": "3.12.3",
+        "scikit-learn": "1.6.1",
+        "torch": "2.7.1+cu128"
+      },
+      "restart": {
+        "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+        "frame": 38,
+        "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+        "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4",
+        "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026",
+        "training_result_ids": [
+          "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13",
+          "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+          "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e"
+        ]
+      }
+    },
+    {
+      "task_id": "train-000000",
+      "task_type": "train",
+      "status": "success",
+      "valid": true,
+      "device": "cuda",
+      "seed": 1396223786,
+      "cpu_threads": 2,
+      "wall_time_s": 2.1450506076216698,
+      "component_timing": {
+        "aggregation": "stages form a disjoint additive partition of wall_time_s; nested_stages are included in their named parent and must not be added again",
+        "boundary": "After request.json write through result assembly; excludes CLI startup, request validation/write and final result.json serialization",
+        "clock": "time.perf_counter",
+        "data_preparation_is_separately_scheduled": false,
+        "nested_stages": [
+          {
+            "end_offset_s": 2.140276721678674,
+            "included_in": "train_fit_including_checkpoint",
+            "stage": "checkpoint_write",
+            "start_offset_s": 2.132640269584954,
+            "status": "complete",
+            "wall_time_s": 0.007636452093720436
+          }
+        ],
+        "schema_version": 1,
+        "stages": [
+          {
+            "end_offset_s": 0.005800355225801468,
+            "includes": "Installed package version collection and result metadata setup",
+            "stage": "worker_setup",
+            "start_offset_s": 0.0,
+            "status": "complete",
+            "wall_time_s": 0.005800355225801468
+          },
+          {
+            "end_offset_s": 0.040727811865508556,
+            "includes": "Imports, immutable snapshot verification/write, array loading/assembly and split-size checks; inside train task",
+            "stage": "train_data_preparation_and_io",
+            "start_offset_s": 0.005800355225801468,
+            "status": "complete",
+            "wall_time_s": 0.03492745663970709
+          },
+          {
+            "end_offset_s": 1.4729251526296139,
+            "includes": "mdlearn/PyTorch import, source verification, seed/device/threads setup and trainer creation; CUDA synchronized at end",
+            "stage": "train_model_initialization",
+            "start_offset_s": 0.040727811865508556,
+            "status": "complete",
+            "wall_time_s": 1.4321973407641053
+          },
+          {
+            "end_offset_s": 2.1403401223942637,
+            "includes": "mdlearn fit: batching, training, validation, scheduled checkpoint IO; CUDA synchronized at end",
+            "stage": "train_fit_including_checkpoint",
+            "start_offset_s": 1.4729251526296139,
+            "status": "complete",
+            "wall_time_s": 0.6674149697646499
+          },
+          {
+            "end_offset_s": 2.1450468683615327,
+            "includes": "Loss checks, final checkpoint existence/hash, model ID and loss JSON writing; actual checkpoint save is nested inside fit",
+            "stage": "train_checkpoint_verification_and_write",
+            "start_offset_s": 2.1403401223942637,
+            "status": "complete",
+            "wall_time_s": 0.004706745967268944
+          },
+          {
+            "end_offset_s": 2.1450506076216698,
+            "includes": "Successful result merge or failure traceback capture before final result serialization",
+            "stage": "worker_finalize",
+            "start_offset_s": 2.1450468683615327,
+            "status": "complete",
+            "wall_time_s": 3.7392601370811462e-06
+          }
+        ],
+        "wall_time_s": 2.1450506076216698
+      },
+      "science_config_id": "science-d04fd339b99d6a9a54401a194a9465fc8dfc44207fccb65fe1299483a77cfc3d",
+      "training_result_ids": [
+        "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13",
+        "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056",
+        "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e"
+      ],
+      "training_snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026",
+      "model_id": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711",
+      "model_weight_sha256": "914a9f0d2bd8ec63e7da706bf7d1733e84d63ec8533373693102f32cc2d2dacb",
+      "training_frames": 120,
+      "epochs": 1,
+      "trained_from_scratch": true,
+      "selection_classification": "existing_upstream_reference_guided_selection",
+      "exploration_effect_evaluated": false,
+      "versions": {
+        "MDAnalysis": "2.9.0",
+        "adapter": "p1-science-worker-v1",
+        "mdlearn": "0.0.10a1",
+        "numpy": "1.26.4",
+        "openmm": "8.5.2",
+        "python": "3.12.3",
+        "scikit-learn": "1.6.1",
+        "torch": "2.7.1+cu128"
+      }
+    }
+  ]
+}

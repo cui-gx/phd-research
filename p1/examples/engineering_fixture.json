@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "run_id": "EXAMPLE-NOT-AN-EXPERIMENT",
+  "record_kind": "engineering_fixture",
+  "evidence_type": "derived analysis",
+  "allocation_semantics": "fixed_reservation",
+  "budget_cpu_slots": 3,
+  "reserved_control_slots": 1,
+  "started_s": 0,
+  "ended_s": 12,
+  "development_groups": ["development-example"],
+  "heldout_groups": ["heldout-example"],
+  "tasks": [
+    {"attempt_id":"s0-fail","task_id":"s0","attempt":1,"phase":"simulation","input_hash":"fixture-input-a","submitted_s":0,"started_s":0,"ended_s":1,"cpu_slots":1,"status":"failure","output_valid":false,"failure_reason":"injected test failure"},
+    {"attempt_id":"s0-ok","task_id":"s0","attempt":2,"phase":"simulation","input_hash":"fixture-input-a","submitted_s":1,"started_s":1,"ended_s":3,"cpu_slots":1,"status":"success","output_valid":true,"output_key":"molecule-a/recipe-1"},
+    {"attempt_id":"s1-ok","task_id":"s1","attempt":1,"phase":"simulation","input_hash":"fixture-input-b","submitted_s":0,"started_s":0,"ended_s":3,"cpu_slots":1,"status":"success","output_valid":true,"output_key":"molecule-b/recipe-1"},
+    {"attempt_id":"train-v1","task_id":"train1","attempt":1,"phase":"train","input_hash":"fixture-dataset-ab","training_cutoff_s":3,"submitted_s":3,"started_s":3,"ended_s":5,"cpu_slots":2,"status":"success","output_valid":true,"output_key":"model-v1"},
+    {"attempt_id":"infer-v1","task_id":"infer1","attempt":1,"phase":"inference","input_hash":"fixture-candidate-pool","model_version":"v1","submitted_s":5,"started_s":5,"ended_s":7,"cpu_slots":2,"status":"success","output_valid":true,"output_key":"selection-v1"},
+    {"attempt_id":"s2-ok","task_id":"s2","attempt":1,"phase":"simulation","input_hash":"fixture-input-c","selected_by":"infer-v1","submitted_s":7,"started_s":7,"ended_s":10,"cpu_slots":2,"status":"success","output_valid":true,"output_key":"molecule-c/recipe-1"}
+  ],
+  "models":[{"version":"v1","train_attempt_id":"train-v1","available_s":5,"training_members":["s0-ok","s1-ok"]}],
+  "actions":[{"requested_s":2,"effective_s":3,"boundary":"task_boundary","reason":"fixture drains old tasks before learning allocation"}]
+}

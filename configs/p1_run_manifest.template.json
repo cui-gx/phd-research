@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "status": "draft",
+  "scientific_evaluation": false,
+  "purpose": "component_smoke",
+  "run_id": null,
+  "seed": null,
+  "source": {
+    "commit": "dc055dd227c70dfadbf458e9dc4084e0908ace76",
+    "bundle_sha256": null,
+    "adapter_sha256": null
+  },
+  "environment": {
+    "dependency_lock_sha256": null,
+    "environment_fingerprint_sha256": null,
+    "solver_fingerprint_sha256": null
+  },
+  "inputs": [{"path": null, "sha256": null}],
+  "permissions": {
+    "machine_evidence": null,
+    "environment_authorization": null,
+    "job_authorization": null,
+    "approved_run_root": null
+  },
+  "limits": {
+    "cpu_slots": null,
+    "control_slots": null,
+    "threads_per_worker": null,
+    "memory_gib": null,
+    "walltime_minutes": null,
+    "reserved_cpu_hours": null,
+    "storage_gib": null,
+    "max_attempts": null
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": null,
+    "MKL_NUM_THREADS": null,
+    "OPENBLAS_NUM_THREADS": null
+  },
+  "policy_factors": {
+    "allocation": null,
+    "selection": null,
+    "learning_trigger": null,
+    "learning_configuration": null,
+    "horizon": null
+  },
+  "failure_rules": {
+    "on_existing_run": "stop",
+    "on_limit": "stop_and_preserve",
+    "on_solver_error": "stop_and_preserve"
+  },
+  "expected_outputs": ["manifest.json", "environment.json", "events.jsonl", "stdout.log", "stderr.log", "exit_status.json", "checksums.sha256"]
+}

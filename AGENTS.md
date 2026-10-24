@@ -55,3 +55,13 @@ The shared, private **source of truth** is `cui-gx/phd-research` on GitHub, bran
 The planning conversation follows the same cycle: read latest shared repository before research discussions when appropriate; after substantive decisions, record and push the confirmed conclusions and outstanding questions. Implementation updates are not themselves proof of scientific validity. The researcher's explicit latest instructions override any document, and conflicts require careful reconciliation.
 
 Never commit credentials, SSH keys, private server details, raw sensitive records, or large simulation outputs into the shared research notes. Commit only concise reproducible references and meaningful findings; use appropriate storage for large experimental data.
+
+## Local execution workspace supplement
+
+Read `research-workflow/local-workspace-instructions.md` for local safety, stage, tutorial, snapshot and cleanup rules. This preserves the pre-sync workspace rules. The shared GitHub plan and latest user decisions take precedence over its historical research scope or source-of-truth wording. Research plans are authoritative on GitHub; local code and raw experiment evidence are execution artifacts and must not be represented as already uploaded.
+
+## Latest operational requirements (2026-10-24)
+
+- On the laboratory server, Git identity configuration may only be repository-local inside the researcher-owned project. Never set system or global identity, install credentials for the entire server, or alter other users' configuration.
+- If the laboratory SSH connection fails, ask the user to enable the campus VPN and stop investigating other causes unless the user changes that instruction.
+- After each bounded implementation stage, publish measured evidence and a stage report. The researcher and planning conversation review and approve the next research stage; implementation success is not permission to advance automatically.

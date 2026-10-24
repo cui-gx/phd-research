@@ -1,0 +1,73 @@
+{
+  "status": "pass",
+  "evidence_type": "local CPU/GPU measurement",
+  "location": "authorized laboratory node",
+  "gpu_model": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "gpu_count": 1,
+  "driver_version": "590.48.01",
+  "torch_cuda": "12.8",
+  "compute_capability": [
+    12,
+    0
+  ],
+  "checksum_files_verified": 106,
+  "task_counts": {
+    "inference": 1,
+    "simulation": 5,
+    "train": 1
+  },
+  "wall_time_s_including_drain": 29.607277987524867,
+  "physical_simulation_ns": 0.1,
+  "total_frames": 200,
+  "task_wall_s": {
+    "infer-000000": 2.2209528908133507,
+    "md-000000": 4.603822123259306,
+    "md-000001": 4.408546873368323,
+    "md-000002": 4.40826996229589,
+    "md-000003": 4.499681222252548,
+    "md-000004": 4.396392477676272,
+    "train-000000": 2.1450506076216698
+  },
+  "stage_total_s": {
+    "worker_setup": 0.043359107337892056,
+    "infer_data_preparation_and_io": 0.4292283011600375,
+    "infer_model_load": 1.4813381740823388,
+    "infer_embedding": 0.2875012941658497,
+    "infer_lof_sort_and_write": 0.016826552338898182,
+    "worker_finalize": 2.332869917154312e-05,
+    "md_initialization": 14.271394636482,
+    "md_simulation": 7.589192597195506,
+    "md_analysis_and_write": 0.4246056526899338,
+    "train_data_preparation_and_io": 0.03492745663970709,
+    "train_model_initialization": 1.4321973407641053,
+    "train_fit_including_checkpoint": 0.6674149697646499,
+    "train_checkpoint_verification_and_write": 0.004706745967268944
+  },
+  "component_partition_verified": true,
+  "max_simultaneous_tasks": 1,
+  "cpu_affinity_supported": true,
+  "worker_controller_affinity_disjoint": true,
+  "lineage_verified": true,
+  "restart_coordinate_max_abs_error_angstrom": 0.000499725341796875,
+  "restart_coordinate_tolerance_angstrom": 0.001,
+  "telemetry_sample_period_ms": 500,
+  "telemetry_samples": 60,
+  "gpu_memory_peak_mib": 748.0,
+  "gpu_utilization_percent_min": 0.0,
+  "gpu_utilization_percent_max": 87.0,
+  "gpu_utilization_percent_sample_mean": 22.233333333333334,
+  "versions": {
+    "MDAnalysis": "2.9.0",
+    "adapter": "p1-science-worker-v1",
+    "mdlearn": "0.0.10a1",
+    "numpy": "1.26.4",
+    "openmm": "8.5.2",
+    "python": "3.12.3",
+    "scikit-learn": "1.6.1",
+    "torch": "2.7.1+cu128"
+  },
+  "exploration_effect_evaluated": false,
+  "formal_evaluation_campaigns": 0,
+  "framework_reproduction": "Parsl adapter reusing pinned DeepDriveMD science functions and mdlearn; original Colmena orchestration not run",
+  "known_summary_limitation": "completed_result_ids repeats model_id for inference; correct ranking_id and lineage verified in task results"
+}

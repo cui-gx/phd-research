@@ -1,0 +1,57 @@
+{
+  "status": "pass",
+  "evidence_type": "local CPU/GPU measurement",
+  "actual_device": "cpu",
+  "checksum_files_verified": 106,
+  "task_counts": {
+    "inference": 1,
+    "simulation": 5,
+    "train": 1
+  },
+  "wall_time_s_including_drain": 59.4133062500041,
+  "physical_simulation_ns": 0.01,
+  "total_frames": 200,
+  "task_wall_s": {
+    "infer-000000": 5.704482833854854,
+    "md-000000": 9.254109000088647,
+    "md-000001": 8.63770249998197,
+    "md-000002": 8.683175957994536,
+    "md-000003": 8.846750209107995,
+    "md-000004": 8.963438041973859,
+    "train-000000": 4.181190707953647
+  },
+  "stage_total_s": {
+    "worker_setup": 0.04605633323080838,
+    "infer_data_preparation_and_io": 1.9310041249264032,
+    "infer_model_load": 3.455608250107616,
+    "infer_embedding": 0.21047795796766877,
+    "infer_lof_sort_and_write": 0.10117266699671745,
+    "worker_finalize": 3.0709197744727135e-05,
+    "md_initialization": 17.916899791685864,
+    "md_simulation": 25.854188624070957,
+    "md_analysis_and_write": 0.5801764586940408,
+    "train_data_preparation_and_io": 0.1115249169524759,
+    "train_model_initialization": 2.829666875069961,
+    "train_fit_including_checkpoint": 1.22664870810695,
+    "train_checkpoint_verification_and_write": 0.007393833948299289
+  },
+  "component_partition_verified": true,
+  "max_simultaneous_tasks": 1,
+  "lineage_verified": true,
+  "exploration_effect_evaluated": false,
+  "formal_evaluation_campaigns": 0,
+  "versions": {
+    "MDAnalysis": "2.9.0",
+    "adapter": "p1-science-worker-v1",
+    "mdlearn": "0.0.10a1",
+    "numpy": "1.26.4",
+    "openmm": "8.5.2",
+    "python": "3.12.14",
+    "scikit-learn": "1.6.1",
+    "torch": "2.7.1"
+  },
+  "known_summary_limitation": "completed_result_ids records model_id for inference; authoritative task result contains correct ranking_id; not used for lineage validation.",
+  "original_manifest_entries_including_metadata": 232,
+  "excluded_appledouble_entries": 126,
+  "post_cleanup_content_hashes_verified": true
+}

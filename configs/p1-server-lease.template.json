@@ -1,0 +1,9 @@
+{
+  "permission_confirmed": false,
+  "hostname": null,
+  "gpu_uuids": [],
+  "cpu_ids": [],
+  "expires_utc": null,
+  "coordination_note": null,
+  "note": "Codex fills this only after actual access and resource use have been authorized; it grants no permission by itself. No passwords/private keys."
+}

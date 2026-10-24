@@ -1,0 +1,30 @@
+{
+  "purpose": "development",
+  "device": "cuda",
+  "mode": "pilot",
+  "policy": "Single-GPU-FIFO",
+  "seed": 20261023,
+  "walltime_s": 3600,
+  "task_timeout_s": 1800,
+  "max_tasks": 100,
+  "max_output_bytes": 10000000000,
+  "train_every_results": 6,
+  "cpu_threads": {
+    "md": 2,
+    "train": 2,
+    "infer": 2
+  },
+  "estimates_s": {
+    "md": 300,
+    "train": 120,
+    "infer": 60
+  },
+  "wait_cap_s": 600,
+  "backlog_threshold": 6,
+  "age_threshold_s": 600,
+  "initial_pdb": "inputs/p1-fsd-ey/1FME-unfolded.pdb",
+  "reference_pdb": "inputs/p1-fsd-ey/1FME-folded-model1.pdb",
+  "status": "template_requires_measured_estimates_and_approved_budget",
+  "gpu_slots": 1,
+  "purpose_note": "Single-GPU serial engineering reproduction only; scheduling research policy and conformational exploration metrics are not frozen."
+}

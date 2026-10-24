@@ -1,0 +1,29 @@
+{"at_s": 0.2595346812158823, "kind": "md_dispatched", "model_version": null, "ranking_id": null, "selected_result_id": null, "sequence": 0, "task_id": "md-000000"}
+{"at_s": 0.2605063347145915, "kind": "task_dispatched", "task_id": "md-000000"}
+{"at_s": 5.133997872471809, "kind": "task_completed", "task_id": "md-000000"}
+{"at_s": 5.1340939132496715, "kind": "md_result_available", "result_id": "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13", "sequence": 1}
+{"at_s": 5.135371949523687, "kind": "md_dispatched", "model_version": null, "ranking_id": null, "selected_result_id": null, "sequence": 2, "task_id": "md-000001"}
+{"at_s": 5.13789340108633, "kind": "task_dispatched", "task_id": "md-000001"}
+{"at_s": 9.722435625270009, "kind": "task_completed", "task_id": "md-000001"}
+{"at_s": 9.722562085837126, "kind": "md_result_available", "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056", "sequence": 3}
+{"at_s": 9.725015407428145, "kind": "md_dispatched", "model_version": null, "ranking_id": null, "selected_result_id": null, "sequence": 4, "task_id": "md-000002"}
+{"at_s": 9.727313103154302, "kind": "task_dispatched", "task_id": "md-000002"}
+{"at_s": 14.339490374550223, "kind": "task_completed", "task_id": "md-000002"}
+{"at_s": 14.339652531780303, "kind": "md_result_available", "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e", "sequence": 5}
+{"at_s": 14.348781869746745, "kind": "training_snapshot_captured", "results": [{"available_at_s": 14.339652531780303, "result_id": "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e"}, {"available_at_s": 9.722562085837126, "result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056"}, {"available_at_s": 5.1340939132496715, "result_id": "md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13"}], "sequence": 6, "snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"}
+{"at_s": 14.352278138510883, "kind": "task_dispatched", "task_id": "train-000000"}
+{"at_s": 17.23642172385007, "kind": "task_completed", "task_id": "train-000000"}
+{"at_s": 17.236565832048655, "kind": "model_published", "model_version": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711", "sequence": 7, "snapshot_id": "data-a9fe34a496aed63f1de9391478434266be5f99dfeb90cd4fed47d6417e5b0026"}
+{"at_s": 17.2400141954422, "kind": "md_dispatched", "model_version": null, "ranking_id": null, "selected_result_id": null, "sequence": 8, "task_id": "md-000003"}
+{"at_s": 17.24198463652283, "kind": "task_dispatched", "task_id": "md-000003"}
+{"at_s": 22.016301379539073, "kind": "task_completed", "task_id": "md-000003"}
+{"at_s": 22.01644899509847, "kind": "md_result_available", "result_id": "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37", "sequence": 9}
+{"at_s": 22.02047409582883, "input_result_ids": ["md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13", "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056", "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e", "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37"], "kind": "inference_dispatched", "model_version": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711", "sequence": 10, "task_id": "infer-000000"}
+{"at_s": 22.02479215245694, "kind": "task_dispatched", "task_id": "infer-000000"}
+{"at_s": 24.853254006244242, "kind": "task_completed", "task_id": "infer-000000"}
+{"at_s": 24.853339900262654, "inference_task_id": "infer-000000", "input_result_ids": ["md-d8058d2dcfb24b7476be182d5b747a79e4a3dbf0d8ff19198c289ef3d6f4cc13", "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056", "md-51c216a35d05447cf90634e5ba6e2a2ce7a1bf978ce86afcc2e011122857c24e", "md-5db32f1c0b8d4568d08f977965f330ebaa53fcbb2e43f4626c0b95f4e16fbb37"], "kind": "ranking_published", "model_version": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711", "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4", "sequence": 11}
+{"at_s": 24.856663736514747, "kind": "md_dispatched", "model_version": "model-3c1d45fe881ea847891c8473fc0531cc00552c140fd6edca59061a898caa8711", "ranking_id": "rank-a0d71afb168cba3a0bbaa7b5ab2d0c9603ba7257c2ee7d2080557dc43b079ac4", "selected_result_id": "md-7bba5bb1424b695c35539a6d7eb59ebe0ac1d18e7cf248083f116d8c20f08056", "sequence": 12, "task_id": "md-000004"}
+{"at_s": 24.85810980387032, "kind": "task_dispatched", "task_id": "md-000004"}
+{"at_s": 29.59937598090619, "kind": "task_completed", "task_id": "md-000004"}
+{"at_s": 29.59956515301019, "kind": "md_result_available", "result_id": "md-a63324133d783d23b90dac8377995df6e7830ea5b1d7cde050317c3c3c41d9b7", "sequence": 13}
+{"at_s": 29.607283328659832, "kind": "run_finished", "reason": "real_feedback_restart_completed", "status": "success"}

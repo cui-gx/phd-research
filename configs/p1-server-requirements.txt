@@ -1,0 +1,12 @@
+numpy==1.26.4
+scipy==1.15.2
+MDAnalysis==2.9.0
+scikit-learn==1.6.1
+h5py==3.13.0
+pandas==2.2.3
+plotly==5.24.1
+tqdm==4.67.1
+PyYAML==6.0.2
+pydantic==1.10.21
+parsl==2025.10.20
+openmm==8.5.2

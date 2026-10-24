@@ -1,0 +1,102 @@
+{
+  "settings": {
+    "age_threshold_s": 120,
+    "backlog_threshold": 2,
+    "cpu_threads": {
+      "infer": 2,
+      "md": 2,
+      "train": 2
+    },
+    "device": "cuda",
+    "estimates_s": {
+      "infer": 30,
+      "md": 30,
+      "train": 30
+    },
+    "gpu_slots": 1,
+    "initial_pdb": "inputs/p1-fsd-ey/1FME-unfolded.pdb",
+    "max_output_bytes": 2000000000,
+    "max_task_rss_bytes": 4000000000,
+    "max_tasks": 24,
+    "mode": "smoke",
+    "policy": "Single-GPU-FIFO",
+    "purpose": "qualification",
+    "purpose_note": "Single-GPU serial engineering reproduction only; scheduling research policy and conformational exploration metrics are not frozen.",
+    "reference_pdb": "inputs/p1-fsd-ey/1FME-folded-model1.pdb",
+    "seed": 20261023,
+    "task_timeout_s": 300,
+    "train_every_results": 2,
+    "wait_cap_s": 120,
+    "walltime_s": 900
+  },
+  "science_config": {
+    "cutoff_angstrom": 8.0,
+    "cvae": {
+      "affine_dropouts": [
+        0.5
+      ],
+      "affine_widths": [
+        128
+      ],
+      "batch_size": 4,
+      "checkpoint_log_every": 1,
+      "epochs": 1,
+      "filters": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "input_shape": [
+        1,
+        28,
+        28
+      ],
+      "kernels": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "lambda_rec": 1.0,
+      "latent_dim": 3,
+      "num_data_workers": 0,
+      "optimizer_hparams": {
+        "lr": 0.001,
+        "weight_decay": 1e-05
+      },
+      "optimizer_name": "RMSprop",
+      "plot_log_every": 1,
+      "plot_method": null,
+      "prefetch_factor": null,
+      "split_method": "random",
+      "split_pct": 0.8,
+      "strides": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "use_wandb": false
+    },
+    "deepdrivemd_commit": "b18dacba46f079644e4ee66191675375581955c3",
+    "dt_ps": 0.002,
+    "heat_bath_friction_coef": 1.0,
+    "inference_batch_size": 64,
+    "lof_neighbors": 20,
+    "mda_selection": "protein and name CA",
+    "mdlearn_commit": "938cb80ac3ebe33498dbcb2780f97f81ec80e0f8",
+    "minimum_frames": 21,
+    "num_outliers": 100,
+    "pdb_id": "1FME",
+    "protein": "FSD-EY",
+    "report_interval_ps": 0.5,
+    "residues": 28,
+    "schema_version": 1,
+    "simulation_length_ns": 0.02,
+    "status": "qualification_configuration_not_formal_protocol",
+    "temperature_kelvin": 300.0
+  },
+  "source_bundle_sha256": "9f9b686c002e65c3dafbc267bfe12948f89988dd0f1000c39a49ee4eb7f90176",
+  "evidence_scope": "engineering minimal loop; not an approved formal scientific protocol"
+}
