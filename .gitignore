@@ -211,3 +211,9 @@
 
 # Keep platform metadata excluded after all allowlist entries.
 ._*
+
+# Approved P1 S2 supplement reports (raw trajectories and weights remain ignored)
+!/docs/P1-S2-supplement/
+/docs/P1-S2-supplement/*
+!/docs/P1-S2-supplement/*.md
+._*
