@@ -11,3 +11,9 @@
 **科学协议不变**：FSD-EY/1FME、原始 4,880 帧和 800 候选池、所有 A/B/C 数学定义/参数/种子/拆分/失败门槛、A 600s、B 900s、C 300s、科学计算累计 1,800s、2 CPU 线程/4 GB RSS/1 GB 派生输出均不变。没有 GPU/MPS、没有 MD 积分、没有 S3 授权。首次依赖失败不计为科学计算时间，因为未计算科学结果；任何后续 A/B/C 失败与合法重试必须累计记账。
 
 **恢复收据（分析前）**：停止安装的文件集以 `rsync -a` 迁移，`rsync -a -c -n` 核验内容相同（只剩根目录修改时间差异）；迁移峰值约为外盘原分配 5.51 GB 加本机目标不足 0.5 GB，低于 8 GB。原路径改为符号链接；只清除目标环境内 21,065 个 `._*` 文件系统侧车，原科学输入未改。补齐 MDAnalysis、scikit-learn、h5py、pydantic、psutil 后发现第一次中止留下的 torch 包缺 `libtorch_global_deps.dylib` 且无安装元数据，随后仅重新安装固定 `torch==2.7.1`。隔离环境现 `pip check` 为 `No broken requirements found`，上述包均可导入；`torch.backends.mps.is_available()` 为 False，后续所有训练仍显式设置 CPU。恢复日志 SHA-256 分别为 `install-recovery.log:70ad949b86572fb4cb7c9d040ad6c4243be6313d6959ed95390789b872e64611`、`install-torch-recovery.log:7b4e93a785305c30420ce2ebe6008f4cfc4c7970a0f845455e3ddcbb1a98a8b7`，原失败日志 `install.log:0c89d7139bc8994b865db60240ce458dd8697c91ad86844e5b3cc9e0b4ef2fab`。恢复后目标目录文件逻辑大小 875,882,355 bytes、实际分配约 947,892,224 bytes，均低于 5 GB。日志和环境暂留登记的本机临时目录供独立审查。
+
+## 2026-10-25 JST，第一次 A 尝试失败后的实现修复
+
+第一次科学尝试 `results/processed/P1-S2-SUPPLEMENT-20261025/attempt-01` 在 A 已生成部分派生文件后失败；本节写入时只检查了失败日志和文件存在性，**没有根据任何覆盖数值、旗标或选择结果调整参数**。失败有两处工程原因：(1) macOS 沙箱禁止 `psutil.Process.children()` 所依赖的全系统 PID 枚举，父监控异常退出；(2) A 的同格 dRMSD 诊断行含 NumPy `int64` 格子键，写 JSON 时 `TypeError: Object of type int64 is not JSON serializable`。第一次命令还误传非真实完整 commit SHA，故该部分输出身份字段也无效，不能用于正式结果。原日志及派生文件保留作失败证据。
+
+修复仅把格子键显式转为 Python 整数、监控仅查询本次唯一子进程的 RSS（分析明确不创建子进程；无法读取即停止）、并在起动前核对传入的完整 analysis commit 与当前 `HEAD`。不改科学数学、网格、阈值、输入、种子、训练/物理参数。按失败日志创建和修改时间 01:04:19–01:04:25 JST，第一次 A 科学耗时保守记 **7 秒**；预算账本中 A 已用 7 秒，剩余至多 593 秒，总 1,800 秒上限同步减少 7 秒。若后续失败，继续累积，绝不换输出目录重置预算。

@@ -299,7 +299,7 @@ def analyze(run, out, plan_commit, analysis_commit):
                     mixing.append({"task_id":task,"seed":result["seed"],"result_id":result["result_id"],
                         "input_sha256":result["artifact_sha256"]["dcd_path"],"analysis_commit":analysis_commit,
                         "plan_commit":plan_commit,"parameter_id":f"{representation}-baseline-within-cell",
-                        "representation":representation,"bin":list(key),"frames":len(frames),
+                        "representation":representation,"bin":[int(v) for v in key],"frames":len(frames),
                         "first_frame_id_0based":frames[0],"to_first_dRMSD_A_median_p90_max":
                         [float(np.median(ds)),float(np.percentile(ds,90)),float(np.max(ds))]})
     (out/"coverage-sensitivity.json").write_text(json.dumps(allrows,indent=2,allow_nan=False))

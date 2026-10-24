@@ -42,6 +42,9 @@ def run():
     plan=Path("docs/P1-S2-supplement/analysis-plan.md")
     if hashlib.sha256(plan.read_bytes()).hexdigest()!=PLAN_SHA:
         raise ValueError("Preregistered plan SHA mismatch")
+    actual_commit=subprocess.check_output(["git","rev-parse","HEAD"],text=True).strip()
+    if args.analysis_commit!=actual_commit:
+        raise ValueError("Analysis commit does not match checked-out implementation")
     out.mkdir(parents=True)
     LEDGER.parent.mkdir(parents=True,exist_ok=True)
     ledger=json.loads(LEDGER.read_text()) if LEDGER.exists() else {"attempts":[],"used_stage_s":{k:0.0 for k in LIMITS}}
@@ -77,10 +80,12 @@ def run():
             while proc.poll() is None:
                 try:
                     p=psutil.Process(proc.pid)
-                    members=[p]+p.children(recursive=True)
-                    rss=sum(q.memory_info().rss for q in members if q.is_running())
+                    # The bounded analysis process has no worker subprocesses.
+                    # macOS sandbox denies the system-wide PID enumeration used by children().
+                    rss=p.memory_info().rss
                     peak_rss=max(peak_rss,rss)
-                except psutil.Error:
+                except (psutil.Error,PermissionError) as exc:
+                    stop_reason=f"rss_monitor_unavailable:{type(exc).__name__}"
                     rss=0
                 elapsed=time.monotonic()-started
                 if elapsed>allowance: stop_reason="cumulative_science_timeout"
