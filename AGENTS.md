@@ -1,5 +1,12 @@
 # Doctoral Research — Codex Instructions
 
+## Confirmed C/B priority and server-first execution (2026-10-25)
+
+- Researcher-confirmed: **P1-C is the current main direction**: test whether pre-decision scientific feedback state adds information about update value beyond costs, remaining time, data quantity and training state. **P1-B is jointly designed** to measure downstream exploration effects and real opportunity costs; whether C, B or both become paper contributions remains evidence-dependent. See `docs/P1-CB-Design/README.md`.
+- Preserve FSD-EY/1FME, OpenMM, existing mdlearn CVAE and one RTX PRO 6000 96GB. Mathematical forms, features, thresholds, samples and budgets in the design are PROPOSED, not approved experiment settings. These C/B names are distinct from S2 supplement task labels.
+- Main numerical experiments and tests run on the authorized laboratory server. Mac is for development, file management, transfer, GitHub synchronization and lightweight debugging. Never substitute Mac scientific computation for a blocked server run without researcher approval; Mac CPU timings are not target-GPU costs.
+- This design task authorizes documents and synchronization only: no new MD, GPU training, S2 reruns or policy experiments. S2 supplement independent final review remains INCOMPLETE; **S3 NOT APPROVED**. After design delivery, stop for researcher/planning review. Any subsequent computation requires a separately approved bounded execution card and fresh shared-resource checks.
+
 ## Read-first context
 
 Before proposing or making research-related changes, read the complete file:

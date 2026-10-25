@@ -1,0 +1,83 @@
+{
+  "status": "PASS_DOCUMENT_INTEGRITY_ONLY",
+  "date": "2026-10-25",
+  "source_main": "950c4a2315847bab07e502552a9aa97d59801008",
+  "scope": "Document presence, local links, hashes and proposal arithmetic only; no scientific or independent review certification",
+  "scientific_runs": 0,
+  "server_sessions": 0,
+  "S3": "NOT_APPROVED",
+  "S2_independent_review": "INCOMPLETE",
+  "checks": {
+    "required_reports": 8,
+    "markdown_files": 11,
+    "local_links_checked": 21,
+    "B1_MD_tasks": 48,
+    "B1_training_tasks": 32,
+    "B1_example_total_MD_ns": 56,
+    "B1_worker_seconds_illustration": 4157.3616,
+    "B2_example_branch_runs": 96,
+    "B2_example_window_hours": 15.837568000000001,
+    "final_readthrough": "Completed author self-review; no independent scientific approval"
+  },
+  "errors": [],
+  "validation_failures": [
+    "Initial text scan included macOS AppleDouble metadata; excluded ._* and reran; no science input changed"
+  ],
+  "files": {
+    "README.md": {
+      "sha256": "1cfdd7bc2c492b28079e1938415fe0ce6aaa071363e1b630ff0ad755f394115e",
+      "bytes": 3929,
+      "lines": 33
+    },
+    "data-contract.md": {
+      "sha256": "8b6cb0efc094cfa60ddd18f5d9b6c3d4ff1509b3150ce424c58239fa5e20a7bc",
+      "bytes": 3916,
+      "lines": 40
+    },
+    "evaluation-and-statistics.md": {
+      "sha256": "f1395ce90e56e94e5d18b2fcccedcc1eb235df73904bded8c3d5269171a325ae",
+      "bytes": 9786,
+      "lines": 81
+    },
+    "experiment-approval-proposal.md": {
+      "sha256": "c440bf18da61a0fd38e97cd2785e4b9f586f93426ac980aefbbbf2e078e1e044",
+      "bytes": 8725,
+      "lines": 75
+    },
+    "feedback-state-features.md": {
+      "sha256": "0f61d4733050a42c264af499b703267f00e2d1caad2f481ca9f60acdc06e5bc9",
+      "bytes": 5982,
+      "lines": 55
+    },
+    "joint-experiment-design.md": {
+      "sha256": "ce0396b2f828d2143939a170ef0fbc7e2435dd4e1332928cfe20279452d3064c",
+      "bytes": 10016,
+      "lines": 90
+    },
+    "research-questions.md": {
+      "sha256": "9c8851db82ab448f16caebe258e48fdf6177d3b0e85ceb6e81359ce52e5f33a6",
+      "bytes": 6242,
+      "lines": 61
+    },
+    "research-roadmap.md": {
+      "sha256": "83779881438c11f36f3cf5e712142abb0a1031d5a42598e2e5f4e6d3ba4f80f7",
+      "bytes": 5136,
+      "lines": 48
+    },
+    "server-execution-plan.md": {
+      "sha256": "e747755baca4fc23944d851d8e79b001411ad78f77e9963516cc63423bdf74ee",
+      "bytes": 6115,
+      "lines": 49
+    },
+    "sources-and-audit.md": {
+      "sha256": "1d64bcc1b712b6c10f0386e6790a6c63d0f973123571513c676cf6292cc18e46",
+      "bytes": 6098,
+      "lines": 50
+    },
+    "supervisor-summary-ja.md": {
+      "sha256": "9f24840ac97e9ae015d71c84c721371cb5f5980d734abd087f43f95a473457e0",
+      "bytes": 6338,
+      "lines": 41
+    }
+  }
+}

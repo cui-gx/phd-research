@@ -239,3 +239,10 @@
 !/docs/P1-RelatedWork/*.bib
 !/docs/P1-RelatedWork/*.json
 ._*
+
+# P1 C/B approved design task; no raw scientific outputs
+!/docs/P1-CB-Design/
+/docs/P1-CB-Design/*
+!/docs/P1-CB-Design/*.md
+!/docs/P1-CB-Design/*.json
+._*
