@@ -1,0 +1,57 @@
+{
+  "date_jst": "2026-10-25",
+  "scope": "Document and metadata consistency checks only; NOT scientific validation or independent novelty certification",
+  "checks": {
+    "required_files_present": true,
+    "source_count": 13,
+    "full_text_count": 12,
+    "source_hashes_match": true,
+    "matrix_dimensions_per_source": [
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14
+    ],
+    "matrix_complete": true,
+    "bib_entries": 13,
+    "bib_unique": true,
+    "bib_braces_balanced": true,
+    "broken_local_links": [],
+    "stage_guard_present": true,
+    "no_source_pdf_in_delivery": true
+  },
+  "errors": [],
+  "status": "PASS",
+  "report_file_hashes": {
+    "README.md": "e5b64048c9b255d43e286719b05075252b9fbfdfbcbd9ba2bf1c321aebbf0a13",
+    "literature-review.md": "84fbacf04b0a74fccad56d1edae2515d8b54d914c24c4bd8d811db93f52b007d",
+    "comparison-matrix.md": "dd6572efc7435eb991f40b92ba32ae8c99033db98567e6f33d3cb2a69a81a74c",
+    "research-gap.md": "62b494175606e0275b528945009fad2971cf15428e7704d4c636d91f611d59ac",
+    "problem-formulation.md": "3fb405c575569d0f0b2dc40c0c14aea22bb652e3f9285cfb89de675d0643917e",
+    "reviewer-critique.md": "48d0c35cb30216963a6b21ad8dca9d8f01f57be31522223abc72d8b90e64e701",
+    "supervisor-summary-ja.md": "03b333e5607ef142cbed17847ac37bb8a4bc3a6f9056828038184ac26a1ffe15",
+    "references.bib": "a7edb696fffff3b1a2bccedf35406ee14bed30926202e95e775310e75addfaee",
+    "search-and-source-log.md": "4854731ca136d1b352511415e6352ccdffaef7dd850173813984170d34df9626",
+    "source-manifest.json": "3fb681b88862f2a582d538133afd74d9331f2cc4bdf7b2f515e531b1fb4d390b"
+  },
+  "untested": [
+    "scientific reproducibility of cited papers",
+    "all proofs and appendices",
+    "DynaGene substantive overlap",
+    "P1 downstream exploration improvement"
+  ],
+  "validation_failure_history": [
+    "Initial text scan included a macOS AppleDouble sidecar and failed UTF-8 decoding; removed sidecars from new artifact directories and excluded them from scans; original source documents untouched."
+  ],
+  "no_science_run": true,
+  "no_server_session": true
+}

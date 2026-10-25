@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "checked_date_jst": "2026-10-25",
+  "source_main": "1dc4f85d6fae311b6ac8d56c3533c2ec981272c3",
+  "evidence_type": "derived analysis",
+  "scope": "Literature and formulation only; no experiment or server session",
+  "raw_source_storage": "Local execution workspace only; PDFs and extracts NOT uploaded to GitHub",
+  "sources": [
+    {
+      "id": "R01",
+      "local_path": "literature/p1-novelty-2026-10-25/bhowmik2018.pdf",
+      "bytes": 2726133,
+      "sha256": "ab6bb724c2d8a8535d09a12290ee5355e7f345194d79c4d90d2923566fff99c3",
+      "source_url": "https://link.springer.com/content/pdf/10.1186/s12859-018-2507-5.pdf",
+      "read_scope": "Publisher PDF; Methods, BBA analysis, Fig.7, Discussion; full main text accessible; no raw trajectory replication",
+      "full_text_obtained": true
+    },
+    {
+      "id": "R02",
+      "local_path": "literature/p1-novelty-2026-10-25/lindorff2011.pdf",
+      "bytes": 1443217,
+      "sha256": "3500cf7884edc8c58ae6a2f41d8ca434f73e23302b38d434a9768cad6a35dafe",
+      "source_url": "https://www.schroderlab.org/material/517.full.pdf",
+      "read_scope": "Academic lab-hosted original article; main text and Fig.1 image checked; full supplement not obtained",
+      "full_text_obtained": true
+    },
+    {
+      "id": "R03",
+      "local_path": "literature/first-part/papers/P03-DeepDriveMD.pdf",
+      "bytes": 14472405,
+      "sha256": "f773af22b8759946b35723e8a9cec5e82420fbe6bef36bc26a0bfea301bbbb84",
+      "source_url": "https://arxiv.org/pdf/2104.04797v5",
+      "read_scope": "Existing local arXiv v5; methods/scientific and system evaluation/limitations checked; no artifact run",
+      "full_text_obtained": true
+    },
+    {
+      "id": "R04",
+      "local_path": "literature/p1-novelty-2026-10-25/colmena2021.pdf",
+      "bytes": 1010804,
+      "sha256": "cc7e5f58a8fe079400598873f3159cb55a54315b9152ee0e5e5f40215efc51dc",
+      "source_url": "https://arxiv.org/pdf/2110.02827v1",
+      "read_scope": "arXiv v1; architecture, application, evaluation and future-work checked",
+      "full_text_obtained": true
+    },
+    {
+      "id": "R05",
+      "local_path": "literature/first-part/papers/P02-Colmena.pdf",
+      "bytes": 1351912,
+      "sha256": "21a18ffcbed988f60d73d2f1a8089932523bc506402e2c5e992f08481ad1a3f0",
+      "source_url": "https://arxiv.org/pdf/2408.14434v1",
+      "read_scope": "Existing author PDF; formal publisher HTML sections 4-7 additionally checked; final PDF blocked",
+      "full_text_obtained": true,
+      "formal_html_url": "https://journals.sagepub.com/doi/10.1177/10943420241288242",
+      "duplicate_local_path": "literature/strategy-portfolio-2026-10-09/papers/FB01-Colmena-exascale-2025.pdf",
+      "duplicate_same_sha256": true
+    },
+    {
+      "id": "R06",
+      "local_path": "literature/first-part/papers/P06-Ekya.pdf",
+      "bytes": 2387010,
+      "sha256": "84cf234aedfd4f1c4345c1481baaeee74198039b35db90022fbed4f66e3f957a",
+      "source_url": "https://www.usenix.org/system/files/nsdi22-paper-bhardwaj.pdf",
+      "read_scope": "Official proceedings; objectives/methods/physical versus simulation evidence/ablations checked",
+      "full_text_obtained": true
+    },
+    {
+      "id": "R07",
+      "local_path": "literature/strategy-portfolio-2026-10-09/papers/FB04-ORRIC-2024.pdf",
+      "bytes": 622457,
+      "sha256": "6206ab19d852ca2ce5b9fd4798d4d223f3871ce9016a41b4dfb63f0db93b9466",
+      "source_url": "https://arxiv.org/pdf/2405.16029v1",
+      "read_scope": "Existing author v1; model, algorithm and experiments checked; no complete proof re-derivation",
+      "full_text_obtained": true
+    },
+    {
+      "id": "R08",
+      "local_path": "literature/strategy-portfolio-2026-10-09/papers/FB03-AL-Queue-2025.pdf",
+      "bytes": 2407479,
+      "sha256": "988d046f769e6b3bb697615441076bbd50579b57b7e402de20e263a945160cd4",
+      "source_url": "https://arxiv.org/pdf/2509.25538v1",
+      "read_scope": "Existing v1; Algorithm 1 and scientific/CPU resource evaluation checked; publication status unverified",
+      "full_text_obtained": true
+    },
+    {
+      "id": "R09",
+      "local_path": "literature/p1-novelty-2026-10-25/reap2018.pdf",
+      "bytes": 5791742,
+      "sha256": "99e9aea4fdde4fd3717c2cfbcf4668bdddfe7af4af6a13abfcba06bcf819a591",
+      "source_url": "https://arxiv.org/pdf/1710.00495v2",
+      "read_scope": "Author v2; method and evaluation boundary checked; all supplements not reviewed",
+      "full_text_obtained": true
+    },
+    {
+      "id": "R10",
+      "local_path": "literature/p1-novelty-2026-10-25/hay2012.pdf",
+      "bytes": 332729,
+      "sha256": "91d78c7a25ea67dc491a3e03bd90c325f7c2be55d3be58ca4a7f02e4004c6042",
+      "source_url": "https://raw.githubusercontent.com/mlresearch/r10/main/assets/hay12a/hay12a.pdf",
+      "read_scope": "PMLR reissue of UAI 2012; metalevel definitions/deadline extension and claims checked; no full proof audit",
+      "full_text_obtained": true
+    },
+    {
+      "id": "R11",
+      "local_path": "literature/p1-paper-viability-2026-10-19/Pascuzzi-JSSPP2023.pdf",
+      "bytes": 1301472,
+      "sha256": "2c58aac90353b4ec81bb57adc262ffdb0a24f4bda001250831bb04e7e415ccca",
+      "source_url": "https://jsspp.org/papers23/Pascuzzi.pdf",
+      "read_scope": "Existing conference author manuscript; sections 4-6, surrogate workload/platform and tables checked",
+      "full_text_obtained": true
+    },
+    {
+      "id": "R12",
+      "local_path": "literature/strategy-portfolio-2026-10-09/papers/FB05-Retrain-few-updates-2026.pdf",
+      "bytes": 865560,
+      "sha256": "94f3e3591c78475fe2fe66ba08425b4fc3436c2d7619283b25a7927e18bccaa1",
+      "source_url": "https://www.cs.purdue.edu/homes/spa/papers/retrain2026.pdf",
+      "read_scope": "Existing author preprint dated 2026-01-29; framework/assumptions/main claims checked; full proofs and acceptance not verified",
+      "full_text_obtained": true
+    },
+    {
+      "id": "R13",
+      "local_path": "literature/p1-novelty-2026-10-25/dynagene-metadata.json",
+      "bytes": 6555,
+      "sha256": "de690bccaf886a48266a60a89cf50b0a15f2d40be38595b3948073c028d73f28",
+      "source_url": "https://api.crossref.org/works/10.1109%2FIPDPS65963.2026.00103",
+      "read_scope": "Metadata ONLY. No original abstract, methods, figures, conclusion or full text obtained",
+      "full_text_obtained": false
+    }
+  ]
+}

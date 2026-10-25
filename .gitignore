@@ -231,3 +231,11 @@
 !/p1/server/supplement_publish.py
 !/docs/执行证据/2026-10-24-s2-supplement/*.png
 ._*
+
+# Approved P1 literature and novelty audit (copyrighted source PDFs remain local)
+!/docs/P1-RelatedWork/
+/docs/P1-RelatedWork/*
+!/docs/P1-RelatedWork/*.md
+!/docs/P1-RelatedWork/*.bib
+!/docs/P1-RelatedWork/*.json
+._*
