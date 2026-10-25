@@ -1,0 +1,50 @@
+{
+  "status": "DERIVED",
+  "raw_checked": 203,
+  "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+  "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+  "elapsed_s": 5.560715458821505,
+  "tasks": {
+    "md-20ps-r0": {
+      "seed": 2026102401,
+      "frames": 40,
+      "dcd_sha256": "84c526f11d3a61973abab0b2a652370b5dd96ea070cdb49a7d9953db62c330e1",
+      "pdb_sha256": "8cb0382cb19e24c1159eb672b236bc1a6642fc8025e6c5cb8200c3c4c435d2b3"
+    },
+    "md-200ps-r0": {
+      "seed": 2026102401,
+      "frames": 400,
+      "dcd_sha256": "4a2e226bbb06d45ae0bf0264cc9c09c0be1e67e767f93e1c6ed0fb01a147eb20",
+      "pdb_sha256": "8cb0382cb19e24c1159eb672b236bc1a6642fc8025e6c5cb8200c3c4c435d2b3"
+    },
+    "md-1000ps-r0": {
+      "seed": 2026102401,
+      "frames": 2000,
+      "dcd_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+      "pdb_sha256": "8cb0382cb19e24c1159eb672b236bc1a6642fc8025e6c5cb8200c3c4c435d2b3"
+    },
+    "md-20ps-r1": {
+      "seed": 2026102402,
+      "frames": 40,
+      "dcd_sha256": "645ae5c9aa915ba79557fe756ca055c4ed3040c8139ddf266d63ee93d1869cb3",
+      "pdb_sha256": "8cb0382cb19e24c1159eb672b236bc1a6642fc8025e6c5cb8200c3c4c435d2b3"
+    },
+    "md-200ps-r1": {
+      "seed": 2026102402,
+      "frames": 400,
+      "dcd_sha256": "019e58c5c092e85fe87ee9149fde73a1f651a86c2af1d11ed548b6d26f99354d",
+      "pdb_sha256": "8cb0382cb19e24c1159eb672b236bc1a6642fc8025e6c5cb8200c3c4c435d2b3"
+    },
+    "md-1000ps-r1": {
+      "seed": 2026102402,
+      "frames": 2000,
+      "dcd_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+      "pdb_sha256": "8cb0382cb19e24c1159eb672b236bc1a6642fc8025e6c5cb8200c3c4c435d2b3"
+    }
+  },
+  "sampling_interval_ps": 0.5,
+  "independent_seed_groups": 2,
+  "calibration_seed": 2026102401,
+  "internal_holdout_seed": 2026102402,
+  "time_boundary": "physical MD time only; no measured per-frame wall time"
+}

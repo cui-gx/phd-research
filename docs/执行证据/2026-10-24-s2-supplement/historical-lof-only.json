@@ -1,0 +1,46 @@
+{
+  "top_k": {
+    "1": {
+      "intersection": 0,
+      "jaccard": 0.0,
+      "overlap_fraction": 0.0
+    },
+    "10": {
+      "intersection": 1,
+      "jaccard": 0.05263157894736842,
+      "overlap_fraction": 0.1
+    },
+    "100": {
+      "intersection": 19,
+      "jaccard": 0.10497237569060773,
+      "overlap_fraction": 0.19
+    }
+  },
+  "spearman_800": 0.12015335180211219,
+  "top1_changed": true,
+  "top1_a": {
+    "result_id": "md-a8e2daf35dc1f4825c641661b236ee2faf6767b32ccae96dc9f80ba60f2e2f22",
+    "frame_id_0based": 53
+  },
+  "top1_b": {
+    "result_id": "md-a8e2daf35dc1f4825c641661b236ee2faf6767b32ccae96dc9f80ba60f2e2f22",
+    "frame_id_0based": 138
+  },
+  "top1_physical": {
+    "a": {
+      "Rg_CA_A": 8.779648800526708,
+      "Q_long_8A": 0.09666666666666666,
+      "R_ee_A": 11.93227291536938
+    },
+    "b": {
+      "Rg_CA_A": 10.796530021483695,
+      "Q_long_8A": 0.08,
+      "R_ee_A": 21.100863838056235
+    },
+    "CA_dRMSD_A": 4.628574584033491
+  },
+  "same_seed_repeated_exact": {
+    "frozen": true,
+    "updated": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "status": "INCOMPLETE_REVIEW",
+  "provenance": "Literal agent messages received through collaboration tools; not raw command log or signed final review",
+  "messages": [
+    {
+      "source": "collaboration.send_message from /root/s2_final_review",
+      "phase": "initial review feedback",
+      "text": "已完整读共享计划/补充规格/预注册与新报告，检查A/B/C实现和vendor训练/推理路径。当前未发现推翻A/B核心数字的阻断性代码缺陷，S3的P0仍为评价器缺独立资格且中心库OUL 85.8–99.8%，P1为输入/平衡/物理容差及真实发布时钟缺口。需文稿修正：physics-manifest实际OpenMM字符串是8.5.2.dev-36a30cb，而正文只写8.5.2（distribution版可同时保留，建议明确build串）；A2代码仅检查r0刚体变换后的距离特征，未实际对r1变换后执行center_visits，因此不能笼统声称中心库全部刚体映射不变性已测。将做只读哈希、保存数组/索引/力的数值核对，不训练、不getState；无需增加预算。另发现共享副本有attempt-01-._stage-A.log（侧车被当日志复制），建议收尾排除。"
+    },
+    {
+      "source": "collaboration.send_message from /root/s2_final_review",
+      "phase": "numerical checks reported; final review not written",
+      "text": "只读数值复核已完成：203原始文件哈希全匹配；4880行Rg/Ree/Q与从DCD独立公式重算最大差0；432网格U/stride全一致；6中心库记录的最近距离/OUL一致；8组已存embedding重算LOF逐值一致；六checkpoint optimizer state的step从初始80均到280，曝光800与F1/F2位置替换关系吻合；保存132×504×3力数组重算33行C，12重复警告一致，R_F最大数值差8.7e-19。总shell墙钟5.79s（imports后审查计时3.66s），计入你A/B/C审计预扣即可，无新训练/inference/getState。正在写独立报告，预计结论是有限补充交付技术证据CONDITIONAL PASS/可交研究者审查；正式S3明确NOT READY/NOT APPROVED，而非科学资格PASS。"
+    }
+  ],
+  "termination": "Model quota exceeded before report and reproducible audit-script delivery"
+}

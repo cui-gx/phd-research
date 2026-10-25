@@ -1,0 +1,56 @@
+{
+  "status": "DERIVED_PROXY_NOT_MEASURED_PUBLICATION",
+  "origin": "earliest worker start, excludes controller startup",
+  "total_controller_run_s_from_summary": 217.43915672507137,
+  "warning": "Worker end excludes final serialization/return; no per-frame wall time, no verified batch publication event",
+  "steps": [
+    {
+      "task_id": "md-20ps-r0",
+      "worker_start_unix_s": 1792802946.8486357,
+      "worker_end_unix_s": 1792802951.4079876,
+      "worker_end_since_first_worker_start_s": 4.559351921081543,
+      "union_U_Rg_Q": 4,
+      "union_U_Rg_Ree": 4
+    },
+    {
+      "task_id": "md-20ps-r1",
+      "worker_start_unix_s": 1792802951.9139562,
+      "worker_end_unix_s": 1792802956.4380226,
+      "worker_end_since_first_worker_start_s": 9.589386940002441,
+      "union_U_Rg_Q": 4,
+      "union_U_Rg_Ree": 6
+    },
+    {
+      "task_id": "md-200ps-r0",
+      "worker_start_unix_s": 1792802957.398517,
+      "worker_end_unix_s": 1792802974.6013749,
+      "worker_end_since_first_worker_start_s": 27.752739191055298,
+      "union_U_Rg_Q": 10,
+      "union_U_Rg_Ree": 23
+    },
+    {
+      "task_id": "md-200ps-r1",
+      "worker_start_unix_s": 1792802975.019735,
+      "worker_end_unix_s": 1792802992.3752909,
+      "worker_end_since_first_worker_start_s": 45.526655197143555,
+      "union_U_Rg_Q": 12,
+      "union_U_Rg_Ree": 34
+    },
+    {
+      "task_id": "md-1000ps-r0",
+      "worker_start_unix_s": 1792802993.3914971,
+      "worker_end_unix_s": 1792803067.3436644,
+      "worker_end_since_first_worker_start_s": 120.49502873420715,
+      "union_U_Rg_Q": 13,
+      "union_U_Rg_Ree": 38
+    },
+    {
+      "task_id": "md-1000ps-r1",
+      "worker_start_unix_s": 1792803067.7658484,
+      "worker_end_unix_s": 1792803142.2908468,
+      "worker_end_since_first_worker_start_s": 195.44221115112305,
+      "union_U_Rg_Q": 16,
+      "union_U_Rg_Ree": 42
+    }
+  ]
+}

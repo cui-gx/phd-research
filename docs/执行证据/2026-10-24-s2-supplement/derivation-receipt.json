@@ -1,0 +1,114 @@
+{
+  "status": "DERIVED",
+  "source_attempt": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02",
+  "source_analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+  "publication_code_sha256": "bfd90e63d0b0d0345be7691271c6ed6c37836ea137759ab2eff6d7fb2b2a1749",
+  "publication_git_head": "656df0cf2677affaf362ed631b662545321f80e3",
+  "publication_code_note": "file SHA pins this new postprocessing script before final report commit",
+  "old_physics_summary_sha256": "96f7ff062b5b1d08aa8ad319c2b2c2b7c0d2a2ac35fba6eb4d06aaf6ee031f2e",
+  "corrected_physics_summary_sha256": "7c7647f53ce30abe07685f8f6aebdde0bd96759ace10a289801bdf68c530894d",
+  "elapsed_s": 13.839017792139202,
+  "new_getState_calls": 0,
+  "new_MD_steps": 0,
+  "all_attempt_output_bytes_excluding_AppleDouble": 81997221,
+  "copy_sources": [
+    {
+      "path": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/A/coverage-manifest.json",
+      "sha256": "9b9a048d96a5f7cae90ab60a0dfcf4067e43b1127503acd088d010ac7d65ef3b"
+    },
+    {
+      "path": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/A/ca-mapping.json",
+      "sha256": "57c185cc625af2958db8811ed64b27af2fc77826baed540dbf70f3479972a111"
+    },
+    {
+      "path": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/A/prefix-diagnostics.json",
+      "sha256": "08c427a48766b060591fd83cc9a51422d2dcd6e5f892ac0438db00c716460934"
+    },
+    {
+      "path": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/A/coverage-sensitivity.json",
+      "sha256": "1f99219af31dcbb909ed179955f1962c73f1b222b36cde59008297868ffba004"
+    },
+    {
+      "path": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/A/coverage-negative-controls.json",
+      "sha256": "85ce3b654f4442db98017e95abb9cec473113e288088e47ac9f7aecd545c3050"
+    },
+    {
+      "path": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/A/autocorrelation.json",
+      "sha256": "f57c2d69d58cf713314228f5401c1a378b0ca793ad9947b74681f06eae2564c6"
+    },
+    {
+      "path": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/A/within-cell-drmsd.json",
+      "sha256": "64f8a86051424dff32a9cfefdd3f8ef4f67571771b7b7d45a9c308758e3b8f37"
+    },
+    {
+      "path": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/A/time-axis-worker-proxy.json",
+      "sha256": "0d84a19288928872d8848e84128ac13c2939e84b8fb9f7b8b9e68049c5c72a92"
+    },
+    {
+      "path": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/A/center-library-results.json",
+      "sha256": "cee6591e9bb9e24f6879b1fe61feab9222b2ae7e8f4a692f0584fff82b67a557"
+    },
+    {
+      "path": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/B/historical-lof-only.json",
+      "sha256": "795b0199e1ed36bc08b1caf37ce0641acf48e4d649d9cbd469b8763f26ba3949"
+    },
+    {
+      "path": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/B/selection-manifest.json",
+      "sha256": "3a4faaecfde7c156b63ea0af65f91433276bd1075cde9c589a91783d9560d26a"
+    },
+    {
+      "path": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/B/matched-arms.json",
+      "sha256": "9415567672a22bb399d65b0bf0b43462a71b1e9917031fcd4a26e51eb63910a4"
+    },
+    {
+      "path": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/B/selection-comparison.json",
+      "sha256": "815c92a7f6b4abcfcc22bc4697de858c32de91fac099a91cb0bf1c85a8b0d199"
+    },
+    {
+      "path": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/C/physics-manifest.json",
+      "sha256": "3da5549834d6aac92793f9e5f57f8ca9bdbafbd0a457cb6f383ae6b578baf771"
+    },
+    {
+      "path": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/C/physics-evaluations.json",
+      "sha256": "3635058cda2848f79d71cffbd28ec6b2802b79375bcb7ac84ee70dbd3ba4d986"
+    },
+    {
+      "path": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/C/systems.json",
+      "sha256": "d031e8bc2d1e2781f6ad1741ac1db0d6ca94e1a12fa041ca11d8eeb3431c28ce"
+    },
+    {
+      "path": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/B/scores-F0-repeat.json",
+      "sha256": "9d44444690195660ecf70506c86a3910373db1dab886b50a0ebe8557683b32ed"
+    },
+    {
+      "path": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/B/scores-F0.json",
+      "sha256": "9d44444690195660ecf70506c86a3910373db1dab886b50a0ebe8557683b32ed"
+    },
+    {
+      "path": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/B/scores-F1-old-seed-2026102411.json",
+      "sha256": "d4854415bc135d38b82ad8018eace33a02df3e1a721295108046a059b9564f12"
+    },
+    {
+      "path": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/B/scores-F1-old-seed-2026102412.json",
+      "sha256": "659a29d5cae054ca408d552d07ce7cac26bb0bd7c98be331a124db07008a9766"
+    },
+    {
+      "path": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/B/scores-F1-old-seed-2026102413.json",
+      "sha256": "4ed415286204ed3a1ca0e4a9a78659cc83ad0c1546847619033c133b7ebe6964"
+    },
+    {
+      "path": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/B/scores-F2-mix-seed-2026102411.json",
+      "sha256": "b2065fc5e9b0f490e870912f7de416970103b7758ee759bc3de7d7c3bb433512"
+    },
+    {
+      "path": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/B/scores-F2-mix-seed-2026102412.json",
+      "sha256": "8ff9c832ee87505b28ce35383e56c5d1d7cb6785be798716df3fb94e5998ba7e"
+    },
+    {
+      "path": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/B/scores-F2-mix-seed-2026102413.json",
+      "sha256": "078f04d47b5f5cad617cca1149c03307577951924ecaf328d87f2e0fbba6ed4f"
+    }
+  ],
+  "executed_publication_source_snapshot": "supplement-publish-executed.py.txt",
+  "postrun_script_change": "Skip AppleDouble log sidecars in future export; does not change any numerical calculation. Final script differs from executed snapshot only in this filter."
+}

@@ -1,0 +1,119 @@
+[
+  {
+    "system": "system-cutoff_1nm.xml",
+    "system_sha256": "4cb9934558f8fa50d00a00fd319ee16273c9f8dd1d6c678bcd4ba3f16cc34064",
+    "attributes": {
+      "cutoff": "1",
+      "forceGroup": "0",
+      "method": "1",
+      "name": "CustomGBForce",
+      "type": "CustomGBForce",
+      "version": "2"
+    },
+    "global_parameters": [],
+    "computed_values": [
+      {
+        "expression": "Ivdw+neckScale*Ineck;Ineck=step(radius1+radius2+neckCut-r)*getm0(radindex1,radindex2)/(1+100*(r-getd0(radindex1,radindex2))^2+0.3*1000000*(r-getd0(radindex1,radindex2))^6);Ivdw=select(step(r+sr2-or1), 0.5*(1/L-1/U+0.25*(r-sr2^2/r)*(1/(U^2)-1/(L^2))+0.5*log(L/U)/r), 0);U=r+sr2;L=max(or1, D);D=abs(r-sr2);radius1=or1+offset; radius2=or2+offset;neckScale=0.826836; neckCut=0.68; offset=0.0195141",
+        "name": "I",
+        "type": "2"
+      },
+      {
+        "expression": "1/(1/or-tanh(alpha*psi-beta*psi^2+gamma*psi^3)/radius);psi=I*or; radius=or+offset; offset=0.0195141",
+        "name": "B",
+        "type": "0"
+      }
+    ],
+    "energy_terms": [
+      {
+        "expression": "-0.5*138.935485*(1/soluteDielectric-1/solventDielectric)*charge^2/B; solventDielectric=78.5; soluteDielectric=1; kappa=0; offset=0.0195141; cutoff=1",
+        "type": "0"
+      },
+      {
+        "expression": "28.3919551*(radius+0.14)^2*(radius/B)^6; radius=or+offset; solventDielectric=78.5; soluteDielectric=1; kappa=0; offset=0.0195141; cutoff=1",
+        "type": "0"
+      },
+      {
+        "expression": "-138.935485*(1/soluteDielectric-1/solventDielectric)*charge1*charge2*(1/f-1.0);f=sqrt(r^2+B1*B2*exp(-r^2/(4*B1*B2))); solventDielectric=78.5; soluteDielectric=1; kappa=0; offset=0.0195141; cutoff=1",
+        "type": "2"
+      }
+    ]
+  },
+  {
+    "system": "system-cutoff_2nm.xml",
+    "system_sha256": "0d4be6caa549025dd0d051caad12aff8b937fbc39f1614a5ff9d9fad59ca2458",
+    "attributes": {
+      "cutoff": "2",
+      "forceGroup": "0",
+      "method": "1",
+      "name": "CustomGBForce",
+      "type": "CustomGBForce",
+      "version": "2"
+    },
+    "global_parameters": [],
+    "computed_values": [
+      {
+        "expression": "Ivdw+neckScale*Ineck;Ineck=step(radius1+radius2+neckCut-r)*getm0(radindex1,radindex2)/(1+100*(r-getd0(radindex1,radindex2))^2+0.3*1000000*(r-getd0(radindex1,radindex2))^6);Ivdw=select(step(r+sr2-or1), 0.5*(1/L-1/U+0.25*(r-sr2^2/r)*(1/(U^2)-1/(L^2))+0.5*log(L/U)/r), 0);U=r+sr2;L=max(or1, D);D=abs(r-sr2);radius1=or1+offset; radius2=or2+offset;neckScale=0.826836; neckCut=0.68; offset=0.0195141",
+        "name": "I",
+        "type": "2"
+      },
+      {
+        "expression": "1/(1/or-tanh(alpha*psi-beta*psi^2+gamma*psi^3)/radius);psi=I*or; radius=or+offset; offset=0.0195141",
+        "name": "B",
+        "type": "0"
+      }
+    ],
+    "energy_terms": [
+      {
+        "expression": "-0.5*138.935485*(1/soluteDielectric-1/solventDielectric)*charge^2/B; solventDielectric=78.5; soluteDielectric=1; kappa=0; offset=0.0195141; cutoff=2",
+        "type": "0"
+      },
+      {
+        "expression": "28.3919551*(radius+0.14)^2*(radius/B)^6; radius=or+offset; solventDielectric=78.5; soluteDielectric=1; kappa=0; offset=0.0195141; cutoff=2",
+        "type": "0"
+      },
+      {
+        "expression": "-138.935485*(1/soluteDielectric-1/solventDielectric)*charge1*charge2*(1/f-0.5);f=sqrt(r^2+B1*B2*exp(-r^2/(4*B1*B2))); solventDielectric=78.5; soluteDielectric=1; kappa=0; offset=0.0195141; cutoff=2",
+        "type": "2"
+      }
+    ]
+  },
+  {
+    "system": "system-no_cutoff.xml",
+    "system_sha256": "9ea54678ad05493c270c96b230a7b53a8b2948e45197c4d332fb8c2d1c8ed9e7",
+    "attributes": {
+      "cutoff": "1",
+      "forceGroup": "0",
+      "method": "0",
+      "name": "CustomGBForce",
+      "type": "CustomGBForce",
+      "version": "2"
+    },
+    "global_parameters": [],
+    "computed_values": [
+      {
+        "expression": "Ivdw+neckScale*Ineck;Ineck=step(radius1+radius2+neckCut-r)*getm0(radindex1,radindex2)/(1+100*(r-getd0(radindex1,radindex2))^2+0.3*1000000*(r-getd0(radindex1,radindex2))^6);Ivdw=select(step(r+sr2-or1), 0.5*(1/L-1/U+0.25*(r-sr2^2/r)*(1/(U^2)-1/(L^2))+0.5*log(L/U)/r), 0);U=r+sr2;L=max(or1, D);D=abs(r-sr2);radius1=or1+offset; radius2=or2+offset;neckScale=0.826836; neckCut=0.68; offset=0.0195141",
+        "name": "I",
+        "type": "2"
+      },
+      {
+        "expression": "1/(1/or-tanh(alpha*psi-beta*psi^2+gamma*psi^3)/radius);psi=I*or; radius=or+offset; offset=0.0195141",
+        "name": "B",
+        "type": "0"
+      }
+    ],
+    "energy_terms": [
+      {
+        "expression": "-0.5*138.935485*(1/soluteDielectric-1/solventDielectric)*charge^2/B; solventDielectric=78.5; soluteDielectric=1; kappa=0; offset=0.0195141",
+        "type": "0"
+      },
+      {
+        "expression": "28.3919551*(radius+0.14)^2*(radius/B)^6; radius=or+offset; solventDielectric=78.5; soluteDielectric=1; kappa=0; offset=0.0195141",
+        "type": "0"
+      },
+      {
+        "expression": "-138.935485*(1/soluteDielectric-1/solventDielectric)*charge1*charge2/f;f=sqrt(r^2+B1*B2*exp(-r^2/(4*B1*B2))); solventDielectric=78.5; soluteDielectric=1; kappa=0; offset=0.0195141",
+        "type": "2"
+      }
+    ]
+  }
+]

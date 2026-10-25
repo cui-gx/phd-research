@@ -1,0 +1,51 @@
+Collecting MDAnalysis==2.9.0
+  Downloading mdanalysis-2.9.0-cp312-cp312-macosx_11_0_arm64.whl.metadata (108 kB)
+Collecting scikit-learn==1.6.1
+  Downloading scikit_learn-1.6.1-cp312-cp312-macosx_12_0_arm64.whl.metadata (31 kB)
+Collecting h5py==3.13.0
+  Downloading h5py-3.13.0-cp312-cp312-macosx_11_0_arm64.whl.metadata (2.5 kB)
+Collecting pydantic==1.10.21
+  Downloading pydantic-1.10.21-cp312-cp312-macosx_11_0_arm64.whl.metadata (153 kB)
+Collecting psutil==7.2.2
+  Downloading psutil-7.2.2-cp36-abi3-macosx_11_0_arm64.whl.metadata (22 kB)
+Requirement already satisfied: numpy>=1.23.2 in ./.runtime/P1-S2-SUPPLEMENT-20261024/venv/lib/python3.12/site-packages (from MDAnalysis==2.9.0) (1.26.4)
+Collecting GridDataFormats>=0.4.0 (from MDAnalysis==2.9.0)
+  Downloading griddataformats-1.2.0-py3-none-any.whl.metadata (5.0 kB)
+Requirement already satisfied: mmtf-python>=1.0.0 in ./.runtime/P1-S2-SUPPLEMENT-20261024/venv/lib/python3.12/site-packages (from MDAnalysis==2.9.0) (1.1.3)
+Requirement already satisfied: joblib>=0.12 in ./.runtime/P1-S2-SUPPLEMENT-20261024/venv/lib/python3.12/site-packages (from MDAnalysis==2.9.0) (1.6.0)
+Requirement already satisfied: scipy>=1.5.0 in ./.runtime/P1-S2-SUPPLEMENT-20261024/venv/lib/python3.12/site-packages (from MDAnalysis==2.9.0) (1.15.2)
+Collecting matplotlib>=1.5.1 (from MDAnalysis==2.9.0)
+  Downloading matplotlib-3.11.2-cp312-cp312-macosx_11_0_arm64.whl.metadata (80 kB)
+Requirement already satisfied: tqdm>=4.43.0 in ./.runtime/P1-S2-SUPPLEMENT-20261024/venv/lib/python3.12/site-packages (from MDAnalysis==2.9.0) (4.70.1)
+Requirement already satisfied: threadpoolctl in ./.runtime/P1-S2-SUPPLEMENT-20261024/venv/lib/python3.12/site-packages (from MDAnalysis==2.9.0) (3.7.0)
+Requirement already satisfied: packaging in ./.runtime/P1-S2-SUPPLEMENT-20261024/venv/lib/python3.12/site-packages (from MDAnalysis==2.9.0) (26.3)
+Requirement already satisfied: filelock in ./.runtime/P1-S2-SUPPLEMENT-20261024/venv/lib/python3.12/site-packages (from MDAnalysis==2.9.0) (4.2.4)
+Requirement already satisfied: mda-xdrlib in ./.runtime/P1-S2-SUPPLEMENT-20261024/venv/lib/python3.12/site-packages (from MDAnalysis==2.9.0) (0.2.0)
+Requirement already satisfied: typing-extensions>=4.2.0 in ./.runtime/P1-S2-SUPPLEMENT-20261024/venv/lib/python3.12/site-packages (from pydantic==1.10.21) (4.16.0)
+Requirement already satisfied: mrcfile in ./.runtime/P1-S2-SUPPLEMENT-20261024/venv/lib/python3.12/site-packages (from GridDataFormats>=0.4.0->MDAnalysis==2.9.0) (1.5.4)
+Requirement already satisfied: cloudpickle>=3.0 in ./.runtime/P1-S2-SUPPLEMENT-20261024/venv/lib/python3.12/site-packages (from joblib>=0.12->MDAnalysis==2.9.0) (3.1.2)
+Requirement already satisfied: contourpy>=1.0.1 in ./.runtime/P1-S2-SUPPLEMENT-20261024/venv/lib/python3.12/site-packages (from matplotlib>=1.5.1->MDAnalysis==2.9.0) (1.3.3)
+Requirement already satisfied: cycler>=0.10 in ./.runtime/P1-S2-SUPPLEMENT-20261024/venv/lib/python3.12/site-packages (from matplotlib>=1.5.1->MDAnalysis==2.9.0) (0.12.1)
+Requirement already satisfied: fonttools>=4.28.2 in ./.runtime/P1-S2-SUPPLEMENT-20261024/venv/lib/python3.12/site-packages (from matplotlib>=1.5.1->MDAnalysis==2.9.0) (4.67.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in ./.runtime/P1-S2-SUPPLEMENT-20261024/venv/lib/python3.12/site-packages (from matplotlib>=1.5.1->MDAnalysis==2.9.0) (1.5.1)
+Requirement already satisfied: pillow>=9 in ./.runtime/P1-S2-SUPPLEMENT-20261024/venv/lib/python3.12/site-packages (from matplotlib>=1.5.1->MDAnalysis==2.9.0) (13.0.0)
+Requirement already satisfied: pyparsing>=3 in ./.runtime/P1-S2-SUPPLEMENT-20261024/venv/lib/python3.12/site-packages (from matplotlib>=1.5.1->MDAnalysis==2.9.0) (3.3.3)
+Requirement already satisfied: python-dateutil>=2.7 in ./.runtime/P1-S2-SUPPLEMENT-20261024/venv/lib/python3.12/site-packages (from matplotlib>=1.5.1->MDAnalysis==2.9.0) (3.0.0)
+Requirement already satisfied: msgpack>=1.0.0 in ./.runtime/P1-S2-SUPPLEMENT-20261024/venv/lib/python3.12/site-packages (from mmtf-python>=1.0.0->MDAnalysis==2.9.0) (1.2.3)
+Requirement already satisfied: six>=1.6 in ./.runtime/P1-S2-SUPPLEMENT-20261024/venv/lib/python3.12/site-packages (from python-dateutil>=2.7->matplotlib>=1.5.1->MDAnalysis==2.9.0) (1.17.0)
+Requirement already satisfied: tzdata in ./.runtime/P1-S2-SUPPLEMENT-20261024/venv/lib/python3.12/site-packages (from python-dateutil>=2.7->matplotlib>=1.5.1->MDAnalysis==2.9.0) (2026.5)
+Downloading mdanalysis-2.9.0-cp312-cp312-macosx_11_0_arm64.whl (6.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.5/6.5 MB 2.8 MB/s eta 0:00:00
+Downloading scikit_learn-1.6.1-cp312-cp312-macosx_12_0_arm64.whl (11.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.2/11.2 MB 2.6 MB/s eta 0:00:00
+Downloading h5py-3.13.0-cp312-cp312-macosx_11_0_arm64.whl (2.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.9/2.9 MB 2.6 MB/s eta 0:00:00
+Downloading pydantic-1.10.21-cp312-cp312-macosx_11_0_arm64.whl (2.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.5/2.5 MB 4.5 MB/s eta 0:00:00
+Downloading psutil-7.2.2-cp36-abi3-macosx_11_0_arm64.whl (129 kB)
+Downloading griddataformats-1.2.0-py3-none-any.whl (5.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.6/5.6 MB 3.4 MB/s eta 0:00:00
+Downloading matplotlib-3.11.2-cp312-cp312-macosx_11_0_arm64.whl (9.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.3/9.3 MB 4.2 MB/s eta 0:00:00
+Installing collected packages: pydantic, psutil, h5py, scikit-learn, matplotlib, GridDataFormats, MDAnalysis
+Successfully installed GridDataFormats-1.2.0 MDAnalysis-2.9.0 h5py-3.13.0 matplotlib-3.11.2 psutil-7.2.2 pydantic-1.10.21 scikit-learn-1.6.1

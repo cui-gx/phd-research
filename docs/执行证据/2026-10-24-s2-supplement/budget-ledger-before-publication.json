@@ -1,0 +1,50 @@
+{
+  "attempts": [
+    {
+      "stage": "A",
+      "output": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-01/A",
+      "state": "failed_reconciled",
+      "started_utc": "2026-10-24T16:04:19.116355+00:00",
+      "allowance_s": 600.0,
+      "wall_s": 7.0,
+      "return_code": 1,
+      "stop_reason": "parent_psutil_PermissionError_and_child_JSON_int64",
+      "wall_accounting": "conservative_ceil_from_stage_log_timestamps"
+    },
+    {
+      "stage": "A",
+      "output": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/A",
+      "state": "finished",
+      "started_utc": "2026-10-24T16:05:44.697221+00:00",
+      "allowance_s": 593.0,
+      "wall_s": 6.153725584037602,
+      "return_code": 0,
+      "stop_reason": null
+    },
+    {
+      "stage": "B",
+      "output": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/B",
+      "state": "finished",
+      "started_utc": "2026-10-24T16:05:50.860969+00:00",
+      "allowance_s": 900.0,
+      "wall_s": 14.740570082794875,
+      "return_code": 0,
+      "stop_reason": null
+    },
+    {
+      "stage": "C",
+      "output": "results/processed/P1-S2-SUPPLEMENT-20261025/attempt-02/C",
+      "state": "finished",
+      "started_utc": "2026-10-24T16:06:05.616358+00:00",
+      "allowance_s": 300.0,
+      "wall_s": 2.038292499957606,
+      "return_code": 0,
+      "stop_reason": null
+    }
+  ],
+  "used_stage_s": {
+    "A": 13.153725584037602,
+    "B": 14.740570082794875,
+    "C": 2.038292499957606
+  }
+}

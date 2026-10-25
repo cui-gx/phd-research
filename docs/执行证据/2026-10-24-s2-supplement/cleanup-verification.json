@@ -1,0 +1,27 @@
+{
+  "status": "clean",
+  "time_utc": "2026-10-25T04:44:02.781148+00:00",
+  "removed_registered_resources": [
+    ".runtime/P1-S2-SUPPLEMENT-20261024 (symlink)",
+    "segment temporary runtime under /private/tmp",
+    "recreated empty .runtime/S2-P1-SERVER-RUNPACK-20261022 test scratch"
+  ],
+  "temporary_environment_logical_bytes_before_removal": 930417541,
+  "preserved_install_logs": "results/processed/P1-S2-SUPPLEMENT-20261025/environment-records/",
+  "workspace_AppleDouble_removed": 213,
+  "protected_metadata_dirs_excluded": [
+    ".git",
+    ".codex",
+    ".agents",
+    ".aws"
+  ],
+  "raw_files_reverified_before_and_after": 203,
+  "raw_matches": true,
+  "active_segment_processes": "No outstanding launched compute tool sessions; execution/review agents terminated. No global process enumeration or process killing performed.",
+  "runtime_path_absent": true,
+  "symlink_absent": true,
+  "test_scratch_absent": true,
+  "large_raw_data_and_checkpoints_preserved": true,
+  "remote_server_operations": 0,
+  "independent_review": "INCOMPLETE due model quota; cleanup does not mark it complete"
+}

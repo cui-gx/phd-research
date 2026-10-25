@@ -1,0 +1,54 @@
+{
+  "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+  "plan_sha256": "dbdd38d7153570dc81318351639877a4a17254fe479c3faa249f668d5f5fff42",
+  "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+  "raw": "results/raw/remote/2026-10-24-P1-S2/runs/s2-pilot-02",
+  "created_utc": "2026-10-24T16:05:44.695051+00:00",
+  "limits": {
+    "threads": 2,
+    "rss_bytes": 4000000000,
+    "output_bytes": 1000000000,
+    "stage_seconds": {
+      "A": 600,
+      "B": 900,
+      "C": 300
+    },
+    "total_seconds": 1800
+  },
+  "stages": [
+    {
+      "stage": "A",
+      "return_code": 0,
+      "stop_reason": null,
+      "wall_s": 6.153725584037602,
+      "peak_rss_bytes": 258473984,
+      "log_sha256": "97da49b6d3393bce0c8e8b2b5d9aa293c951e7b2ca01b6df89b17d572fd8f1f0",
+      "output_bytes_after_stage": 14848365,
+      "manifest_status": "DERIVED",
+      "status": "complete"
+    },
+    {
+      "stage": "B",
+      "return_code": 0,
+      "stop_reason": null,
+      "wall_s": 14.740570082794875,
+      "peak_rss_bytes": 543539200,
+      "log_sha256": "33f05a5deaa94ea9586361fe78b2235e49cbac22c716e16098ef5d2b9bc9c0c9",
+      "output_bytes_after_stage": 58311615,
+      "manifest_status": "MEASURED",
+      "status": "complete"
+    },
+    {
+      "stage": "C",
+      "return_code": 0,
+      "stop_reason": null,
+      "wall_s": 2.038292499957606,
+      "peak_rss_bytes": 137920512,
+      "log_sha256": "97da49b6d3393bce0c8e8b2b5d9aa293c951e7b2ca01b6df89b17d572fd8f1f0",
+      "output_bytes_after_stage": 61185077,
+      "manifest_status": "MEASURED",
+      "status": "complete"
+    }
+  ],
+  "total_science_s": 22.932588166790083
+}

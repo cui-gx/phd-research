@@ -1,0 +1,131 @@
+[
+  {
+    "method": "cutoff_1nm",
+    "create_system_s": 0.038108209148049355,
+    "xml_sha256": "4cb9934558f8fa50d00a00fd319ee16273c9f8dd1d6c678bcd4ba3f16cc34064",
+    "forces": [
+      {
+        "index": 0,
+        "class": "HarmonicBondForce",
+        "name": "HarmonicBondForce"
+      },
+      {
+        "index": 1,
+        "class": "PeriodicTorsionForce",
+        "name": "PeriodicTorsionForce"
+      },
+      {
+        "index": 2,
+        "class": "NonbondedForce",
+        "name": "NonbondedForce",
+        "getNonbondedMethod": "1",
+        "getCutoffDistance": "1.0 nm"
+      },
+      {
+        "index": 3,
+        "class": "CMMotionRemover",
+        "name": "CMMotionRemover"
+      },
+      {
+        "index": 4,
+        "class": "HarmonicAngleForce",
+        "name": "HarmonicAngleForce"
+      },
+      {
+        "index": 5,
+        "class": "CustomGBForce",
+        "name": "CustomGBForce",
+        "getNonbondedMethod": "1",
+        "getCutoffDistance": "1.0 nm"
+      }
+    ],
+    "create_context_s": 0.009279333055019379,
+    "integrator_steps": 0
+  },
+  {
+    "method": "cutoff_2nm",
+    "create_system_s": 0.024908834137022495,
+    "xml_sha256": "0d4be6caa549025dd0d051caad12aff8b937fbc39f1614a5ff9d9fad59ca2458",
+    "forces": [
+      {
+        "index": 0,
+        "class": "HarmonicBondForce",
+        "name": "HarmonicBondForce"
+      },
+      {
+        "index": 1,
+        "class": "PeriodicTorsionForce",
+        "name": "PeriodicTorsionForce"
+      },
+      {
+        "index": 2,
+        "class": "NonbondedForce",
+        "name": "NonbondedForce",
+        "getNonbondedMethod": "1",
+        "getCutoffDistance": "2.0 nm"
+      },
+      {
+        "index": 3,
+        "class": "CMMotionRemover",
+        "name": "CMMotionRemover"
+      },
+      {
+        "index": 4,
+        "class": "HarmonicAngleForce",
+        "name": "HarmonicAngleForce"
+      },
+      {
+        "index": 5,
+        "class": "CustomGBForce",
+        "name": "CustomGBForce",
+        "getNonbondedMethod": "1",
+        "getCutoffDistance": "2.0 nm"
+      }
+    ],
+    "create_context_s": 0.006286167073994875,
+    "integrator_steps": 0
+  },
+  {
+    "method": "no_cutoff",
+    "create_system_s": 0.025011083809658885,
+    "xml_sha256": "9ea54678ad05493c270c96b230a7b53a8b2948e45197c4d332fb8c2d1c8ed9e7",
+    "forces": [
+      {
+        "index": 0,
+        "class": "HarmonicBondForce",
+        "name": "HarmonicBondForce"
+      },
+      {
+        "index": 1,
+        "class": "PeriodicTorsionForce",
+        "name": "PeriodicTorsionForce"
+      },
+      {
+        "index": 2,
+        "class": "NonbondedForce",
+        "name": "NonbondedForce",
+        "getNonbondedMethod": "0",
+        "getCutoffDistance": "1.0 nm"
+      },
+      {
+        "index": 3,
+        "class": "CMMotionRemover",
+        "name": "CMMotionRemover"
+      },
+      {
+        "index": 4,
+        "class": "HarmonicAngleForce",
+        "name": "HarmonicAngleForce"
+      },
+      {
+        "index": 5,
+        "class": "CustomGBForce",
+        "name": "CustomGBForce",
+        "getNonbondedMethod": "0",
+        "getCutoffDistance": "1.0 nm"
+      }
+    ],
+    "create_context_s": 0.00633262493647635,
+    "integrator_steps": 0
+  }
+]

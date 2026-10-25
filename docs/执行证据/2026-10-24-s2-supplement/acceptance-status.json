@@ -1,0 +1,15 @@
+{
+  "A": "DERIVED_COMPLETE_INTERNAL_ONLY",
+  "B": "MEASURED_COMPLETE_FIXED_POOL_ONLY",
+  "C": "MEASURED_COMPLETE_WITH_12_REPEAT_WARNINGS",
+  "engineering_tests": {
+    "passed": 19,
+    "elapsed_s": 1.657
+  },
+  "independent_final_review": "INCOMPLETE_MODEL_QUOTA",
+  "researcher_supplement_acceptance": "PENDING",
+  "S3": "NOT_APPROVED",
+  "scientific_readiness_recommendation": "NOT_READY",
+  "evaluation_ready": false,
+  "cleanup": "clean"
+}

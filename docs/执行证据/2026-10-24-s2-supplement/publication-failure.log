@@ -1,0 +1,9 @@
+2026-10-25 JST — first evidence export, after A/B/C completed.
+ValueError at supplement_publish.py inventory p.relative_to(root):
+'results/processed/P1-S2-SUPPLEMENT-20261025/attempt-01/A/autocorrelation.json'
+is not in the subpath of the absolute workspace path.
+The complete traceback remains in the Codex tool output. This is a sanitized textual
+transcription of the exception, not a fabricated captured process log.
+Partial exports preserved at results/processed/P1-S2-SUPPLEMENT-20261025/publication-failed-01/.
+Fixed p.resolve().relative_to(root); numerical outputs unchanged.
+First failed export charged conservatively 30 seconds, not a measured wall time.

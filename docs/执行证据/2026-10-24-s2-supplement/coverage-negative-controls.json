@@ -1,0 +1,3890 @@
+[
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.02,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r7-wx0.5-wy0.02-half0",
+    "repeat_U": 12,
+    "permuted_U": 12,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.02,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r7-wx0.5-wy0.02-half1",
+    "repeat_U": 17,
+    "permuted_U": 17,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.05,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r7-wx0.5-wy0.05-half0",
+    "repeat_U": 8,
+    "permuted_U": 8,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.05,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r7-wx0.5-wy0.05-half1",
+    "repeat_U": 10,
+    "permuted_U": 10,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.1,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r7-wx0.5-wy0.1-half0",
+    "repeat_U": 5,
+    "permuted_U": 5,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.1,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r7-wx0.5-wy0.1-half1",
+    "repeat_U": 8,
+    "permuted_U": 8,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.02,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r7-wx1-wy0.02-half0",
+    "repeat_U": 8,
+    "permuted_U": 8,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.02,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r7-wx1-wy0.02-half1",
+    "repeat_U": 9,
+    "permuted_U": 9,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.05,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r7-wx1-wy0.05-half0",
+    "repeat_U": 5,
+    "permuted_U": 5,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.05,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r7-wx1-wy0.05-half1",
+    "repeat_U": 5,
+    "permuted_U": 5,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.1,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r7-wx1-wy0.1-half0",
+    "repeat_U": 3,
+    "permuted_U": 3,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.1,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r7-wx1-wy0.1-half1",
+    "repeat_U": 5,
+    "permuted_U": 5,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.02,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r7-wx2-wy0.02-half0",
+    "repeat_U": 5,
+    "permuted_U": 5,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.02,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r7-wx2-wy0.02-half1",
+    "repeat_U": 8,
+    "permuted_U": 8,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.05,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r7-wx2-wy0.05-half0",
+    "repeat_U": 3,
+    "permuted_U": 3,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.05,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r7-wx2-wy0.05-half1",
+    "repeat_U": 4,
+    "permuted_U": 4,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.1,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r7-wx2-wy0.1-half0",
+    "repeat_U": 2,
+    "permuted_U": 2,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.1,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r7-wx2-wy0.1-half1",
+    "repeat_U": 4,
+    "permuted_U": 4,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.02,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r8-wx0.5-wy0.02-half0",
+    "repeat_U": 19,
+    "permuted_U": 19,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.02,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r8-wx0.5-wy0.02-half1",
+    "repeat_U": 20,
+    "permuted_U": 20,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.05,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r8-wx0.5-wy0.05-half0",
+    "repeat_U": 9,
+    "permuted_U": 9,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.05,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r8-wx0.5-wy0.05-half1",
+    "repeat_U": 13,
+    "permuted_U": 13,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.1,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r8-wx0.5-wy0.1-half0",
+    "repeat_U": 5,
+    "permuted_U": 5,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.1,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r8-wx0.5-wy0.1-half1",
+    "repeat_U": 10,
+    "permuted_U": 10,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.02,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r8-wx1-wy0.02-half0",
+    "repeat_U": 13,
+    "permuted_U": 13,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.02,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r8-wx1-wy0.02-half1",
+    "repeat_U": 10,
+    "permuted_U": 10,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.05,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r8-wx1-wy0.05-half0",
+    "repeat_U": 6,
+    "permuted_U": 6,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.05,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r8-wx1-wy0.05-half1",
+    "repeat_U": 8,
+    "permuted_U": 8,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.1,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r8-wx1-wy0.1-half0",
+    "repeat_U": 3,
+    "permuted_U": 3,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.1,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r8-wx1-wy0.1-half1",
+    "repeat_U": 5,
+    "permuted_U": 5,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.02,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r8-wx2-wy0.02-half0",
+    "repeat_U": 9,
+    "permuted_U": 9,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.02,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r8-wx2-wy0.02-half1",
+    "repeat_U": 8,
+    "permuted_U": 8,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.05,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r8-wx2-wy0.05-half0",
+    "repeat_U": 4,
+    "permuted_U": 4,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.05,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r8-wx2-wy0.05-half1",
+    "repeat_U": 5,
+    "permuted_U": 5,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.1,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r8-wx2-wy0.1-half0",
+    "repeat_U": 2,
+    "permuted_U": 2,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.1,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r8-wx2-wy0.1-half1",
+    "repeat_U": 4,
+    "permuted_U": 4,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 0.5,
+    "second_bin": 1.0,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Ree-r8-wx0.5-wy1-half0",
+    "repeat_U": 65,
+    "permuted_U": 65,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 0.5,
+    "second_bin": 1.0,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Ree-r8-wx0.5-wy1-half1",
+    "repeat_U": 74,
+    "permuted_U": 74,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 0.5,
+    "second_bin": 2.0,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Ree-r8-wx0.5-wy2-half0",
+    "repeat_U": 35,
+    "permuted_U": 35,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 0.5,
+    "second_bin": 2.0,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Ree-r8-wx0.5-wy2-half1",
+    "repeat_U": 42,
+    "permuted_U": 42,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 0.5,
+    "second_bin": 4.0,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Ree-r8-wx0.5-wy4-half0",
+    "repeat_U": 21,
+    "permuted_U": 21,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 0.5,
+    "second_bin": 4.0,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Ree-r8-wx0.5-wy4-half1",
+    "repeat_U": 23,
+    "permuted_U": 23,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 1.0,
+    "second_bin": 1.0,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Ree-r8-wx1-wy1-half0",
+    "repeat_U": 46,
+    "permuted_U": 46,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 1.0,
+    "second_bin": 1.0,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Ree-r8-wx1-wy1-half1",
+    "repeat_U": 40,
+    "permuted_U": 40,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 1.0,
+    "second_bin": 2.0,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Ree-r8-wx1-wy2-half0",
+    "repeat_U": 24,
+    "permuted_U": 24,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 1.0,
+    "second_bin": 2.0,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Ree-r8-wx1-wy2-half1",
+    "repeat_U": 23,
+    "permuted_U": 23,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 1.0,
+    "second_bin": 4.0,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Ree-r8-wx1-wy4-half0",
+    "repeat_U": 13,
+    "permuted_U": 13,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 1.0,
+    "second_bin": 4.0,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Ree-r8-wx1-wy4-half1",
+    "repeat_U": 12,
+    "permuted_U": 12,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 2.0,
+    "second_bin": 1.0,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Ree-r8-wx2-wy1-half0",
+    "repeat_U": 32,
+    "permuted_U": 32,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 2.0,
+    "second_bin": 1.0,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Ree-r8-wx2-wy1-half1",
+    "repeat_U": 35,
+    "permuted_U": 35,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 2.0,
+    "second_bin": 2.0,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Ree-r8-wx2-wy2-half0",
+    "repeat_U": 17,
+    "permuted_U": 17,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 2.0,
+    "second_bin": 2.0,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Ree-r8-wx2-wy2-half1",
+    "repeat_U": 19,
+    "permuted_U": 19,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 2.0,
+    "second_bin": 4.0,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Ree-r8-wx2-wy4-half0",
+    "repeat_U": 9,
+    "permuted_U": 9,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 2.0,
+    "second_bin": 4.0,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Ree-r8-wx2-wy4-half1",
+    "repeat_U": 10,
+    "permuted_U": 10,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.02,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r9-wx0.5-wy0.02-half0",
+    "repeat_U": 24,
+    "permuted_U": 24,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.02,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r9-wx0.5-wy0.02-half1",
+    "repeat_U": 24,
+    "permuted_U": 24,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.05,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r9-wx0.5-wy0.05-half0",
+    "repeat_U": 12,
+    "permuted_U": 12,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.05,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r9-wx0.5-wy0.05-half1",
+    "repeat_U": 13,
+    "permuted_U": 13,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.1,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r9-wx0.5-wy0.1-half0",
+    "repeat_U": 9,
+    "permuted_U": 9,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.1,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r9-wx0.5-wy0.1-half1",
+    "repeat_U": 8,
+    "permuted_U": 8,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.02,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r9-wx1-wy0.02-half0",
+    "repeat_U": 17,
+    "permuted_U": 17,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.02,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r9-wx1-wy0.02-half1",
+    "repeat_U": 13,
+    "permuted_U": 13,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.05,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r9-wx1-wy0.05-half0",
+    "repeat_U": 8,
+    "permuted_U": 8,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.05,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r9-wx1-wy0.05-half1",
+    "repeat_U": 7,
+    "permuted_U": 7,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.1,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r9-wx1-wy0.1-half0",
+    "repeat_U": 6,
+    "permuted_U": 6,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.1,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r9-wx1-wy0.1-half1",
+    "repeat_U": 5,
+    "permuted_U": 5,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.02,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r9-wx2-wy0.02-half0",
+    "repeat_U": 12,
+    "permuted_U": 12,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.02,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r9-wx2-wy0.02-half1",
+    "repeat_U": 11,
+    "permuted_U": 11,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.05,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r9-wx2-wy0.05-half0",
+    "repeat_U": 5,
+    "permuted_U": 5,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.05,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r9-wx2-wy0.05-half1",
+    "repeat_U": 5,
+    "permuted_U": 5,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.1,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r9-wx2-wy0.1-half0",
+    "repeat_U": 4,
+    "permuted_U": 4,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r0",
+    "seed": 2026102401,
+    "result_id": "md-c58d5f7821f4ca240328afb7e3f86508e205fa1a2e1e0ac46490510f139ee6c1",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "ae01ee780b3d5ae29a57f88976a8507cc87ec7723566d0d7ae288d82501ddab8",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.1,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r9-wx2-wy0.1-half1",
+    "repeat_U": 4,
+    "permuted_U": 4,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.02,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r7-wx0.5-wy0.02-half0",
+    "repeat_U": 24,
+    "permuted_U": 24,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.02,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r7-wx0.5-wy0.02-half1",
+    "repeat_U": 26,
+    "permuted_U": 26,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.05,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r7-wx0.5-wy0.05-half0",
+    "repeat_U": 15,
+    "permuted_U": 15,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.05,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r7-wx0.5-wy0.05-half1",
+    "repeat_U": 15,
+    "permuted_U": 15,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.1,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r7-wx0.5-wy0.1-half0",
+    "repeat_U": 10,
+    "permuted_U": 10,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.1,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r7-wx0.5-wy0.1-half1",
+    "repeat_U": 12,
+    "permuted_U": 12,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.02,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r7-wx1-wy0.02-half0",
+    "repeat_U": 15,
+    "permuted_U": 15,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.02,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r7-wx1-wy0.02-half1",
+    "repeat_U": 17,
+    "permuted_U": 17,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.05,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r7-wx1-wy0.05-half0",
+    "repeat_U": 9,
+    "permuted_U": 9,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.05,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r7-wx1-wy0.05-half1",
+    "repeat_U": 10,
+    "permuted_U": 10,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.1,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r7-wx1-wy0.1-half0",
+    "repeat_U": 6,
+    "permuted_U": 6,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.1,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r7-wx1-wy0.1-half1",
+    "repeat_U": 7,
+    "permuted_U": 7,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.02,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r7-wx2-wy0.02-half0",
+    "repeat_U": 10,
+    "permuted_U": 10,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.02,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r7-wx2-wy0.02-half1",
+    "repeat_U": 11,
+    "permuted_U": 11,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.05,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r7-wx2-wy0.05-half0",
+    "repeat_U": 6,
+    "permuted_U": 6,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.05,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r7-wx2-wy0.05-half1",
+    "repeat_U": 6,
+    "permuted_U": 6,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.1,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r7-wx2-wy0.1-half0",
+    "repeat_U": 4,
+    "permuted_U": 4,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 7.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.1,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r7-wx2-wy0.1-half1",
+    "repeat_U": 4,
+    "permuted_U": 4,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.02,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r8-wx0.5-wy0.02-half0",
+    "repeat_U": 32,
+    "permuted_U": 32,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.02,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r8-wx0.5-wy0.02-half1",
+    "repeat_U": 32,
+    "permuted_U": 32,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.05,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r8-wx0.5-wy0.05-half0",
+    "repeat_U": 18,
+    "permuted_U": 18,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.05,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r8-wx0.5-wy0.05-half1",
+    "repeat_U": 17,
+    "permuted_U": 17,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.1,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r8-wx0.5-wy0.1-half0",
+    "repeat_U": 11,
+    "permuted_U": 11,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.1,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r8-wx0.5-wy0.1-half1",
+    "repeat_U": 13,
+    "permuted_U": 13,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.02,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r8-wx1-wy0.02-half0",
+    "repeat_U": 19,
+    "permuted_U": 19,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.02,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r8-wx1-wy0.02-half1",
+    "repeat_U": 20,
+    "permuted_U": 20,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.05,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r8-wx1-wy0.05-half0",
+    "repeat_U": 11,
+    "permuted_U": 11,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.05,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r8-wx1-wy0.05-half1",
+    "repeat_U": 10,
+    "permuted_U": 10,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.1,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r8-wx1-wy0.1-half0",
+    "repeat_U": 7,
+    "permuted_U": 7,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.1,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r8-wx1-wy0.1-half1",
+    "repeat_U": 9,
+    "permuted_U": 9,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.02,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r8-wx2-wy0.02-half0",
+    "repeat_U": 13,
+    "permuted_U": 13,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.02,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r8-wx2-wy0.02-half1",
+    "repeat_U": 14,
+    "permuted_U": 14,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.05,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r8-wx2-wy0.05-half0",
+    "repeat_U": 8,
+    "permuted_U": 8,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.05,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r8-wx2-wy0.05-half1",
+    "repeat_U": 6,
+    "permuted_U": 6,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.1,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r8-wx2-wy0.1-half0",
+    "repeat_U": 5,
+    "permuted_U": 5,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 8.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.1,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r8-wx2-wy0.1-half1",
+    "repeat_U": 5,
+    "permuted_U": 5,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 0.5,
+    "second_bin": 1.0,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Ree-r8-wx0.5-wy1-half0",
+    "repeat_U": 79,
+    "permuted_U": 79,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 0.5,
+    "second_bin": 1.0,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Ree-r8-wx0.5-wy1-half1",
+    "repeat_U": 80,
+    "permuted_U": 80,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 0.5,
+    "second_bin": 2.0,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Ree-r8-wx0.5-wy2-half0",
+    "repeat_U": 48,
+    "permuted_U": 48,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 0.5,
+    "second_bin": 2.0,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Ree-r8-wx0.5-wy2-half1",
+    "repeat_U": 44,
+    "permuted_U": 44,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 0.5,
+    "second_bin": 4.0,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Ree-r8-wx0.5-wy4-half0",
+    "repeat_U": 28,
+    "permuted_U": 28,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 0.5,
+    "second_bin": 4.0,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Ree-r8-wx0.5-wy4-half1",
+    "repeat_U": 26,
+    "permuted_U": 26,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 1.0,
+    "second_bin": 1.0,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Ree-r8-wx1-wy1-half0",
+    "repeat_U": 49,
+    "permuted_U": 49,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 1.0,
+    "second_bin": 1.0,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Ree-r8-wx1-wy1-half1",
+    "repeat_U": 48,
+    "permuted_U": 48,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 1.0,
+    "second_bin": 2.0,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Ree-r8-wx1-wy2-half0",
+    "repeat_U": 28,
+    "permuted_U": 28,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 1.0,
+    "second_bin": 2.0,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Ree-r8-wx1-wy2-half1",
+    "repeat_U": 27,
+    "permuted_U": 27,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 1.0,
+    "second_bin": 4.0,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Ree-r8-wx1-wy4-half0",
+    "repeat_U": 16,
+    "permuted_U": 16,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 1.0,
+    "second_bin": 4.0,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Ree-r8-wx1-wy4-half1",
+    "repeat_U": 17,
+    "permuted_U": 17,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 2.0,
+    "second_bin": 1.0,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Ree-r8-wx2-wy1-half0",
+    "repeat_U": 34,
+    "permuted_U": 34,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 2.0,
+    "second_bin": 1.0,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Ree-r8-wx2-wy1-half1",
+    "repeat_U": 34,
+    "permuted_U": 34,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 2.0,
+    "second_bin": 2.0,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Ree-r8-wx2-wy2-half0",
+    "repeat_U": 20,
+    "permuted_U": 20,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 2.0,
+    "second_bin": 2.0,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Ree-r8-wx2-wy2-half1",
+    "repeat_U": 18,
+    "permuted_U": 18,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 2.0,
+    "second_bin": 4.0,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Ree-r8-wx2-wy4-half0",
+    "repeat_U": 11,
+    "permuted_U": 11,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Ree",
+    "contact_radius_A": null,
+    "rg_bin_A": 2.0,
+    "second_bin": 4.0,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Ree-r8-wx2-wy4-half1",
+    "repeat_U": 10,
+    "permuted_U": 10,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.02,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r9-wx0.5-wy0.02-half0",
+    "repeat_U": 38,
+    "permuted_U": 38,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.02,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r9-wx0.5-wy0.02-half1",
+    "repeat_U": 39,
+    "permuted_U": 39,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.05,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r9-wx0.5-wy0.05-half0",
+    "repeat_U": 19,
+    "permuted_U": 19,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.05,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r9-wx0.5-wy0.05-half1",
+    "repeat_U": 18,
+    "permuted_U": 18,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.1,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r9-wx0.5-wy0.1-half0",
+    "repeat_U": 15,
+    "permuted_U": 15,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 0.5,
+    "second_bin": 0.1,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r9-wx0.5-wy0.1-half1",
+    "repeat_U": 12,
+    "permuted_U": 12,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.02,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r9-wx1-wy0.02-half0",
+    "repeat_U": 24,
+    "permuted_U": 24,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.02,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r9-wx1-wy0.02-half1",
+    "repeat_U": 24,
+    "permuted_U": 24,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.05,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r9-wx1-wy0.05-half0",
+    "repeat_U": 11,
+    "permuted_U": 11,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.05,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r9-wx1-wy0.05-half1",
+    "repeat_U": 11,
+    "permuted_U": 11,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.1,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r9-wx1-wy0.1-half0",
+    "repeat_U": 8,
+    "permuted_U": 8,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 1.0,
+    "second_bin": 0.1,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r9-wx1-wy0.1-half1",
+    "repeat_U": 6,
+    "permuted_U": 6,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.02,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r9-wx2-wy0.02-half0",
+    "repeat_U": 17,
+    "permuted_U": 17,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.02,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r9-wx2-wy0.02-half1",
+    "repeat_U": 16,
+    "permuted_U": 16,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.05,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r9-wx2-wy0.05-half0",
+    "repeat_U": 8,
+    "permuted_U": 8,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.05,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r9-wx2-wy0.05-half1",
+    "repeat_U": 7,
+    "permuted_U": 7,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.1,
+    "origin_half_bin": false,
+    "parameter_id": "Rg_Q-r9-wx2-wy0.1-half0",
+    "repeat_U": 6,
+    "permuted_U": 6,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  },
+  {
+    "run_id": "s2-pilot-02",
+    "task_id": "md-1000ps-r1",
+    "seed": 2026102402,
+    "result_id": "md-a248ad126cfca0342a5ec08f5d8a7e1b5558900c512477db08463556f6015608",
+    "frame_id_0based": [
+      0,
+      1999
+    ],
+    "physical_time_ps": [
+      0.5,
+      1000.0
+    ],
+    "input_sha256": "3ddab8146277961423d82d7a8bc7e5da82a95e4e5e6c66c919ff058d16accb13",
+    "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+    "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+    "representation": "Rg_Q",
+    "contact_radius_A": 9.0,
+    "rg_bin_A": 2.0,
+    "second_bin": 0.1,
+    "origin_half_bin": true,
+    "parameter_id": "Rg_Q-r9-wx2-wy0.1-half1",
+    "repeat_U": 4,
+    "permuted_U": 4,
+    "rigid_changed_boundary_frames": 0,
+    "rigid_changed_nonboundary_frames": 0
+  }
+]

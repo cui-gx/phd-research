@@ -228,3 +228,6 @@
 !/docs/执行证据/2026-10-24-s2-supplement/*.txt
 !/docs/执行证据/2026-10-24-s2-supplement/*.log
 ._*
+!/p1/server/supplement_publish.py
+!/docs/执行证据/2026-10-24-s2-supplement/*.png
+._*

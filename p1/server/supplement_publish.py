@@ -1,0 +1,159 @@
+"""Derive corrected C energy summaries and a compact, non-raw review package.
+
+No MD integration, inference, or optimizer updates. Run once into a new directory.
+The original attempt and its summaries are never overwritten.
+"""
+from __future__ import annotations
+import argparse
+import csv
+import hashlib
+import json
+import platform
+import subprocess
+import time
+from pathlib import Path
+import xml.etree.ElementTree as ET
+
+
+def digest(path):
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def write_json(path, value):
+    path.write_text(json.dumps(value, indent=2, ensure_ascii=False, allow_nan=False)+"\n")
+
+
+def table(path, rows):
+    with path.open('w', newline='') as f:
+        writer=csv.DictWriter(f, fieldnames=list(rows[0]))
+        writer.writeheader()
+        for row in rows:
+            writer.writerow({k:json.dumps(v,ensure_ascii=False) if isinstance(v,(dict,list)) else v
+                             for k,v in row.items()})
+
+
+def main():
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--attempt',type=Path,required=True)
+    parser.add_argument('--output',type=Path,required=True)
+    args=parser.parse_args()
+    root=Path.cwd(); src=args.attempt; out=args.output
+    if out.exists() and any(p for p in out.iterdir() if not p.name.startswith('._')):
+        raise ValueError('Refuse to overwrite evidence')
+    out.mkdir(parents=True,exist_ok=True)
+    began=time.monotonic()
+    read=lambda name:json.loads((src/name).read_text())
+    copied=[]
+    for stage,names in {
+        'A':['coverage-manifest','ca-mapping','prefix-diagnostics','coverage-sensitivity',
+             'coverage-negative-controls','autocorrelation','within-cell-drmsd',
+             'time-axis-worker-proxy','center-library-results'],
+        'B':['historical-lof-only','selection-manifest','matched-arms','selection-comparison'],
+        'C':['physics-manifest','physics-evaluations','systems']}.items():
+        for name in names:
+            path=src/stage/(name+'.json')
+            (out/path.name).write_bytes(path.read_bytes());copied.append(path)
+    for path in sorted((src/'B').glob('scores-*.json')):
+        (out/path.name).write_bytes(path.read_bytes());copied.append(path)
+    original=read('C/physics-sensitivity.json')
+    lookup={(r['method'],r['source'],r['frame_id_0based']):r['energy_kJ_mol_median_min_max'][0]
+            for r in original}
+    for r in original:
+        method,source,frame=r['method'],r['source'],r['frame_id_0based']
+        delta=lookup[method,source,frame]-lookup['no_cutoff',source,frame]
+        r['delta_E_vs_NoCutoff_kJ_mol']=delta
+        r['relative_conformation_delta_E_kJ_mol']=(lookup[method,source,frame]-lookup[method,'unfolded',None])-(lookup['no_cutoff',source,frame]-lookup['no_cutoff','unfolded',None])
+        r['energy_representative']='median of technical repetitions 1,2,3 for every term'
+        r['force_representative']='technical repetition 1 for both methods; unchanged'
+    assert all(r['relative_conformation_delta_E_kJ_mol']==0 for r in original if r['source']=='unfolded')
+    write_json(out/'physics-sensitivity.json',original)
+    table(out/'physics-sensitivity.csv',original)
+    table(out/'coverage-sensitivity.csv',read('A/coverage-sensitivity.json'))
+    table(out/'selection-comparison.csv',read('B/selection-comparison.json'))
+    table(out/'physical-features.csv',read('A/physical-features.json'))
+    # Read serialized parameter expressions without creating any OpenMM context.
+    gb=[]
+    for path in sorted((src/'C').glob('system-*.xml')):
+        tree=ET.parse(path)
+        for force in tree.findall('.//Force'):
+            if force.get('type')=='CustomGBForce':
+                gb.append({'system':path.name,'system_sha256':digest(path),
+                           'attributes':force.attrib,
+                           'global_parameters':[e.attrib for e in force.findall('./GlobalParameters/Parameter')],
+                           'computed_values':[e.attrib for e in force.findall('./ComputedValues/Value')],
+                           'energy_terms':[e.attrib for e in force.findall('./EnergyTerms/Term')]})
+    write_json(out/'gb-parameter-expressions.json',gb)
+    receipt=read('run-receipt.json'); receipt['raw']='results/raw/remote/2026-10-24-P1-S2/runs/s2-pilot-02'
+    write_json(out/'run-receipt.json',receipt)
+    ledger=json.loads((src.parent/'budget-ledger.json').read_text())
+    for row in ledger['attempts']:
+        row['output']=str(Path(row['output']).relative_to(root))
+    write_json(out/'budget-ledger-before-publication.json',ledger)
+    # Sanitise local absolute workspace/runtime paths in failure and success logs.
+    paths=[*src.glob('stage-*.log'),*src.parent.glob('attempt-01/*.log')]
+    temp=Path('/private/tmp/doctoral-hpc-P1-S2-SUPPLEMENT-20261025')
+    paths.extend(temp.glob('install*.log'))
+    for p in paths:
+        if p.name.startswith('._'): continue
+        name=(p.parent.name+'-'+p.name) if p.parent.name.startswith('attempt-') else p.name
+        content=p.read_text(errors='replace').replace(str(root),'<WORKSPACE>').replace(str(temp),'<SEGMENT_RUNTIME>')
+        # Standard pip download paths can include the local username.
+        content=content.replace(str(Path.home()),'<HOME>')
+        (out/name).write_text(content)
+    # Inventory raw outputs by relative path/hash, but do not publish trajectories or weights.
+    inventory=[]
+    for p in sorted(src.parent.rglob('*')):
+        if p.is_file() and not p.name.startswith('._'):
+            inventory.append({'path':str(p.resolve().relative_to(root)),'bytes':p.stat().st_size,'sha256':digest(p)})
+    write_json(out/'local-output-inventory.json',inventory)
+    lock=subprocess.check_output([__import__('sys').executable,'-m','pip','freeze'],text=True)
+    (out/'requirements-cpu.lock.txt').write_text(lock)
+    import importlib.metadata as meta
+    versions={name:meta.version(name) for name in ['numpy','scipy','MDAnalysis','scikit-learn','openmm','torch','h5py','matplotlib','psutil','pydantic']}
+    write_json(out/'environment.json',{'python':platform.python_version(),'os':platform.platform(),
+        'machine':platform.machine(),'processor':platform.processor(),'packages':versions,
+        'execution':'local CPU; two requested numerical threads; no GPU/MPS; no server session',
+        'parsl':'not invoked in this offline supplement; existing S2 raw generated through approved adapter',
+        'mdlearn_commit':'938cb80ac3ebe33498dbcb2780f97f81ec80e0f8'})
+    # Reproducible figures, with consistent series order; no frame-based confidence intervals.
+    import matplotlib
+    matplotlib.use('Agg')
+    import matplotlib.pyplot as plt
+    plt.rcParams.update({'font.size':9,'axes.spines.top':False,'axes.spines.right':False})
+    curves=read('A/coverage-curves.json')
+    fig,axes=plt.subplots(1,2,figsize=(9,3.4))
+    curve_rows=[]
+    for axis,rep,width in zip(axes,['Rg_Q','Rg_Ree'],[.05,2.]):
+        for task in ['md-1000ps-r0','md-1000ps-r1']:
+            row=next(r for r in curves if r['task_id']==task and r['representation']==rep and r['rg_bin_A']==1 and r['second_bin']==width and not r['origin_half_bin'] and (rep=='Rg_Ree' or r['contact_radius_A']==8))
+            axis.plot(row['physical_time_ps'],row['cumulative_U'],label=task[-2:])
+            curve_rows.extend({'task_id':task,'representation':rep,'physical_time_ps':t,'frame_id_0based':i,'visited_cells':u} for t,i,u in zip(row['physical_time_ps'],row['frame_id_0based'],row['cumulative_U']))
+        axis.set(xlabel='MD physical time (ps)',ylabel='Visited projected cells',title=rep+' (fixed baseline bins)');axis.legend()
+    fig.tight_layout();fig.savefig(out/'coverage-curves.png',dpi=180);plt.close(fig)
+    table(out/'baseline-coverage-curves.csv',curve_rows)
+    fig,axes=plt.subplots(1,2,figsize=(9,3.4))
+    centers=read('A/center-library-results.json')
+    for task in ['md-1000ps-r0','md-1000ps-r1']:
+        rows=[r for r in centers if r['task_id']==task]
+        axes[0].plot([r['epsilon_A'] for r in rows],[100*r['out_of_library_fraction'] for r in rows],marker='o',label=task[-2:])
+    axes[0].set(xlabel='dRMSD radius (angstrom)',ylabel='Outside calibration library (%)',title='Fixed r0 library');axes[0].legend()
+    for method in ['cutoff_1nm','cutoff_2nm']:
+        rows=[r for r in original if r['method']==method]
+        axes[1].plot(range(11),[100*r['relative_force_l2'] for r in rows],marker='.',label=method)
+    axes[1].set(xlabel='Preselected snapshot index (0-10)',ylabel='Total force relative L2 difference (%)',title='Versus NoCutoff; not physical truth');axes[1].legend()
+    fig.tight_layout();fig.savefig(out/'library-and-cutoff.png',dpi=180);plt.close(fig)
+    elapsed=time.monotonic()-began
+    write_json(out/'derivation-receipt.json',{'status':'DERIVED','source_attempt':str(src),
+        'source_analysis_commit':receipt['analysis_commit'],
+        'publication_code_sha256':digest(Path(__file__)),
+        'publication_git_head':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),
+        'publication_code_note':'file SHA pins this new postprocessing script before final report commit',
+        'old_physics_summary_sha256':digest(src/'C/physics-sensitivity.json'),
+        'corrected_physics_summary_sha256':digest(out/'physics-sensitivity.json'),
+        'elapsed_s':elapsed,'new_getState_calls':0,'new_MD_steps':0,
+        'all_attempt_output_bytes_excluding_AppleDouble':sum(x['bytes'] for x in inventory),
+        'copy_sources':[{'path':str(p),'sha256':digest(p)} for p in copied]})
+    print(json.dumps({'output':str(out),'elapsed_s':elapsed,'files':len(list(out.iterdir()))}))
+
+
+if __name__=='__main__':main()

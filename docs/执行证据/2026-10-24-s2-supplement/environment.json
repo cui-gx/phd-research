@@ -1,0 +1,21 @@
+{
+  "python": "3.12.14",
+  "os": "macOS-26.6.2-arm64-arm-64bit",
+  "machine": "arm64",
+  "processor": "arm",
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.2",
+    "MDAnalysis": "2.9.0",
+    "scikit-learn": "1.6.1",
+    "openmm": "8.5.2",
+    "torch": "2.7.1",
+    "h5py": "3.13.0",
+    "matplotlib": "3.11.2",
+    "psutil": "7.2.2",
+    "pydantic": "1.10.21"
+  },
+  "execution": "local CPU; two requested numerical threads; no GPU/MPS; no server session",
+  "parsl": "not invoked in this offline supplement; existing S2 raw generated through approved adapter",
+  "mdlearn_commit": "938cb80ac3ebe33498dbcb2780f97f81ec80e0f8"
+}

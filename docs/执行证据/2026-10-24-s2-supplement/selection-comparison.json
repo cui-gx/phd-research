@@ -1,0 +1,398 @@
+[
+  {
+    "seed": 2026102411,
+    "comparison": "F1_vs_F0",
+    "top_k": {
+      "1": {
+        "intersection": 0,
+        "jaccard": 0.0,
+        "overlap_fraction": 0.0
+      },
+      "10": {
+        "intersection": 0,
+        "jaccard": 0.0,
+        "overlap_fraction": 0.0
+      },
+      "100": {
+        "intersection": 24,
+        "jaccard": 0.13636363636363635,
+        "overlap_fraction": 0.24
+      }
+    },
+    "spearman_800": 0.18663645896268613,
+    "top1_changed": true,
+    "top1_a": {
+      "result_id": "md-a8e2daf35dc1f4825c641661b236ee2faf6767b32ccae96dc9f80ba60f2e2f22",
+      "frame_id_0based": 53
+    },
+    "top1_b": {
+      "result_id": "md-a8e2daf35dc1f4825c641661b236ee2faf6767b32ccae96dc9f80ba60f2e2f22",
+      "frame_id_0based": 161
+    },
+    "top1_physical": {
+      "a": {
+        "Rg_CA_A": 8.779648800526708,
+        "Q_long_8A": 0.09666666666666666,
+        "R_ee_A": 11.93227291536938
+      },
+      "b": {
+        "Rg_CA_A": 11.198126291476662,
+        "Q_long_8A": 0.08,
+        "R_ee_A": 25.799141242916416
+      },
+      "CA_dRMSD_A": 5.515707741772866
+    }
+  },
+  {
+    "seed": 2026102411,
+    "comparison": "F2_vs_F0",
+    "top_k": {
+      "1": {
+        "intersection": 0,
+        "jaccard": 0.0,
+        "overlap_fraction": 0.0
+      },
+      "10": {
+        "intersection": 0,
+        "jaccard": 0.0,
+        "overlap_fraction": 0.0
+      },
+      "100": {
+        "intersection": 19,
+        "jaccard": 0.10497237569060773,
+        "overlap_fraction": 0.19
+      }
+    },
+    "spearman_800": 0.07916960900528294,
+    "top1_changed": true,
+    "top1_a": {
+      "result_id": "md-a8e2daf35dc1f4825c641661b236ee2faf6767b32ccae96dc9f80ba60f2e2f22",
+      "frame_id_0based": 53
+    },
+    "top1_b": {
+      "result_id": "md-0d0f27a4bd222ee4794dc9dfe94ac905230f5a74162cef4b4a34b3de464a75e7",
+      "frame_id_0based": 65
+    },
+    "top1_physical": {
+      "a": {
+        "Rg_CA_A": 8.779648800526708,
+        "Q_long_8A": 0.09666666666666666,
+        "R_ee_A": 11.93227291536938
+      },
+      "b": {
+        "Rg_CA_A": 10.76835195968553,
+        "Q_long_8A": 0.043333333333333335,
+        "R_ee_A": 28.137255060513088
+      },
+      "CA_dRMSD_A": 4.871396777772997
+    }
+  },
+  {
+    "seed": 2026102411,
+    "comparison": "F2_vs_F1",
+    "top_k": {
+      "1": {
+        "intersection": 0,
+        "jaccard": 0.0,
+        "overlap_fraction": 0.0
+      },
+      "10": {
+        "intersection": 0,
+        "jaccard": 0.0,
+        "overlap_fraction": 0.0
+      },
+      "100": {
+        "intersection": 23,
+        "jaccard": 0.12994350282485875,
+        "overlap_fraction": 0.23
+      }
+    },
+    "spearman_800": 0.14713274638202217,
+    "top1_changed": true,
+    "top1_a": {
+      "result_id": "md-a8e2daf35dc1f4825c641661b236ee2faf6767b32ccae96dc9f80ba60f2e2f22",
+      "frame_id_0based": 161
+    },
+    "top1_b": {
+      "result_id": "md-0d0f27a4bd222ee4794dc9dfe94ac905230f5a74162cef4b4a34b3de464a75e7",
+      "frame_id_0based": 65
+    },
+    "top1_physical": {
+      "a": {
+        "Rg_CA_A": 11.198126291476662,
+        "Q_long_8A": 0.08,
+        "R_ee_A": 25.799141242916416
+      },
+      "b": {
+        "Rg_CA_A": 10.76835195968553,
+        "Q_long_8A": 0.043333333333333335,
+        "R_ee_A": 28.137255060513088
+      },
+      "CA_dRMSD_A": 2.6974894888716
+    }
+  },
+  {
+    "seed": 2026102412,
+    "comparison": "F1_vs_F0",
+    "top_k": {
+      "1": {
+        "intersection": 0,
+        "jaccard": 0.0,
+        "overlap_fraction": 0.0
+      },
+      "10": {
+        "intersection": 2,
+        "jaccard": 0.1111111111111111,
+        "overlap_fraction": 0.2
+      },
+      "100": {
+        "intersection": 20,
+        "jaccard": 0.1111111111111111,
+        "overlap_fraction": 0.2
+      }
+    },
+    "spearman_800": 0.1139422776939505,
+    "top1_changed": true,
+    "top1_a": {
+      "result_id": "md-a8e2daf35dc1f4825c641661b236ee2faf6767b32ccae96dc9f80ba60f2e2f22",
+      "frame_id_0based": 53
+    },
+    "top1_b": {
+      "result_id": "md-a8e2daf35dc1f4825c641661b236ee2faf6767b32ccae96dc9f80ba60f2e2f22",
+      "frame_id_0based": 54
+    },
+    "top1_physical": {
+      "a": {
+        "Rg_CA_A": 8.779648800526708,
+        "Q_long_8A": 0.09666666666666666,
+        "R_ee_A": 11.93227291536938
+      },
+      "b": {
+        "Rg_CA_A": 9.023307310553168,
+        "Q_long_8A": 0.08666666666666667,
+        "R_ee_A": 13.570137929234239
+      },
+      "CA_dRMSD_A": 0.6164612814698932
+    }
+  },
+  {
+    "seed": 2026102412,
+    "comparison": "F2_vs_F0",
+    "top_k": {
+      "1": {
+        "intersection": 0,
+        "jaccard": 0.0,
+        "overlap_fraction": 0.0
+      },
+      "10": {
+        "intersection": 1,
+        "jaccard": 0.05263157894736842,
+        "overlap_fraction": 0.1
+      },
+      "100": {
+        "intersection": 17,
+        "jaccard": 0.09289617486338798,
+        "overlap_fraction": 0.17
+      }
+    },
+    "spearman_800": 0.09652074569476765,
+    "top1_changed": true,
+    "top1_a": {
+      "result_id": "md-a8e2daf35dc1f4825c641661b236ee2faf6767b32ccae96dc9f80ba60f2e2f22",
+      "frame_id_0based": 53
+    },
+    "top1_b": {
+      "result_id": "md-a8e2daf35dc1f4825c641661b236ee2faf6767b32ccae96dc9f80ba60f2e2f22",
+      "frame_id_0based": 315
+    },
+    "top1_physical": {
+      "a": {
+        "Rg_CA_A": 8.779648800526708,
+        "Q_long_8A": 0.09666666666666666,
+        "R_ee_A": 11.93227291536938
+      },
+      "b": {
+        "Rg_CA_A": 11.034766686398084,
+        "Q_long_8A": 0.06666666666666667,
+        "R_ee_A": 25.84477976521385
+      },
+      "CA_dRMSD_A": 5.622141475979398
+    }
+  },
+  {
+    "seed": 2026102412,
+    "comparison": "F2_vs_F1",
+    "top_k": {
+      "1": {
+        "intersection": 0,
+        "jaccard": 0.0,
+        "overlap_fraction": 0.0
+      },
+      "10": {
+        "intersection": 0,
+        "jaccard": 0.0,
+        "overlap_fraction": 0.0
+      },
+      "100": {
+        "intersection": 28,
+        "jaccard": 0.16279069767441862,
+        "overlap_fraction": 0.28
+      }
+    },
+    "spearman_800": 0.3234023470548529,
+    "top1_changed": true,
+    "top1_a": {
+      "result_id": "md-a8e2daf35dc1f4825c641661b236ee2faf6767b32ccae96dc9f80ba60f2e2f22",
+      "frame_id_0based": 54
+    },
+    "top1_b": {
+      "result_id": "md-a8e2daf35dc1f4825c641661b236ee2faf6767b32ccae96dc9f80ba60f2e2f22",
+      "frame_id_0based": 315
+    },
+    "top1_physical": {
+      "a": {
+        "Rg_CA_A": 9.023307310553168,
+        "Q_long_8A": 0.08666666666666667,
+        "R_ee_A": 13.570137929234239
+      },
+      "b": {
+        "Rg_CA_A": 11.034766686398084,
+        "Q_long_8A": 0.06666666666666667,
+        "R_ee_A": 25.84477976521385
+      },
+      "CA_dRMSD_A": 5.384345499029617
+    }
+  },
+  {
+    "seed": 2026102413,
+    "comparison": "F1_vs_F0",
+    "top_k": {
+      "1": {
+        "intersection": 0,
+        "jaccard": 0.0,
+        "overlap_fraction": 0.0
+      },
+      "10": {
+        "intersection": 2,
+        "jaccard": 0.1111111111111111,
+        "overlap_fraction": 0.2
+      },
+      "100": {
+        "intersection": 21,
+        "jaccard": 0.11731843575418995,
+        "overlap_fraction": 0.21
+      }
+    },
+    "spearman_800": 0.10175936331649774,
+    "top1_changed": true,
+    "top1_a": {
+      "result_id": "md-a8e2daf35dc1f4825c641661b236ee2faf6767b32ccae96dc9f80ba60f2e2f22",
+      "frame_id_0based": 53
+    },
+    "top1_b": {
+      "result_id": "md-a8e2daf35dc1f4825c641661b236ee2faf6767b32ccae96dc9f80ba60f2e2f22",
+      "frame_id_0based": 161
+    },
+    "top1_physical": {
+      "a": {
+        "Rg_CA_A": 8.779648800526708,
+        "Q_long_8A": 0.09666666666666666,
+        "R_ee_A": 11.93227291536938
+      },
+      "b": {
+        "Rg_CA_A": 11.198126291476662,
+        "Q_long_8A": 0.08,
+        "R_ee_A": 25.799141242916416
+      },
+      "CA_dRMSD_A": 5.515707741772866
+    }
+  },
+  {
+    "seed": 2026102413,
+    "comparison": "F2_vs_F0",
+    "top_k": {
+      "1": {
+        "intersection": 0,
+        "jaccard": 0.0,
+        "overlap_fraction": 0.0
+      },
+      "10": {
+        "intersection": 1,
+        "jaccard": 0.05263157894736842,
+        "overlap_fraction": 0.1
+      },
+      "100": {
+        "intersection": 18,
+        "jaccard": 0.0989010989010989,
+        "overlap_fraction": 0.18
+      }
+    },
+    "spearman_800": 0.12390376927038681,
+    "top1_changed": true,
+    "top1_a": {
+      "result_id": "md-a8e2daf35dc1f4825c641661b236ee2faf6767b32ccae96dc9f80ba60f2e2f22",
+      "frame_id_0based": 53
+    },
+    "top1_b": {
+      "result_id": "md-0d0f27a4bd222ee4794dc9dfe94ac905230f5a74162cef4b4a34b3de464a75e7",
+      "frame_id_0based": 0
+    },
+    "top1_physical": {
+      "a": {
+        "Rg_CA_A": 8.779648800526708,
+        "Q_long_8A": 0.09666666666666666,
+        "R_ee_A": 11.93227291536938
+      },
+      "b": {
+        "Rg_CA_A": 10.17114055208392,
+        "Q_long_8A": 0.056666666666666664,
+        "R_ee_A": 22.377065432230744
+      },
+      "CA_dRMSD_A": 3.3314263975753478
+    }
+  },
+  {
+    "seed": 2026102413,
+    "comparison": "F2_vs_F1",
+    "top_k": {
+      "1": {
+        "intersection": 0,
+        "jaccard": 0.0,
+        "overlap_fraction": 0.0
+      },
+      "10": {
+        "intersection": 0,
+        "jaccard": 0.0,
+        "overlap_fraction": 0.0
+      },
+      "100": {
+        "intersection": 28,
+        "jaccard": 0.16279069767441862,
+        "overlap_fraction": 0.28
+      }
+    },
+    "spearman_800": 0.1757397355308368,
+    "top1_changed": true,
+    "top1_a": {
+      "result_id": "md-a8e2daf35dc1f4825c641661b236ee2faf6767b32ccae96dc9f80ba60f2e2f22",
+      "frame_id_0based": 161
+    },
+    "top1_b": {
+      "result_id": "md-0d0f27a4bd222ee4794dc9dfe94ac905230f5a74162cef4b4a34b3de464a75e7",
+      "frame_id_0based": 0
+    },
+    "top1_physical": {
+      "a": {
+        "Rg_CA_A": 11.198126291476662,
+        "Q_long_8A": 0.08,
+        "R_ee_A": 25.799141242916416
+      },
+      "b": {
+        "Rg_CA_A": 10.17114055208392,
+        "Q_long_8A": 0.056666666666666664,
+        "R_ee_A": 22.377065432230744
+      },
+      "CA_dRMSD_A": 3.0472435736222474
+    }
+  }
+]

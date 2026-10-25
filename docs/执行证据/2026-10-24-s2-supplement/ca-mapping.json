@@ -1,0 +1,226 @@
+[
+  {
+    "sequence_index_1based": 1,
+    "atom_index_0based": 4,
+    "atom_name": "CA",
+    "resid": 1,
+    "resname": "GLU",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 2,
+    "atom_index_0based": 19,
+    "atom_name": "CA",
+    "resid": 2,
+    "resname": "GLN",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 3,
+    "atom_index_0based": 36,
+    "atom_name": "CA",
+    "resid": 3,
+    "resname": "TYR",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 4,
+    "atom_index_0based": 57,
+    "atom_name": "CA",
+    "resid": 4,
+    "resname": "THR",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 5,
+    "atom_index_0based": 71,
+    "atom_name": "CA",
+    "resid": 5,
+    "resname": "ALA",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 6,
+    "atom_index_0based": 81,
+    "atom_name": "CA",
+    "resid": 6,
+    "resname": "LYS",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 7,
+    "atom_index_0based": 103,
+    "atom_name": "CA",
+    "resid": 7,
+    "resname": "TYR",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 8,
+    "atom_index_0based": 124,
+    "atom_name": "CA",
+    "resid": 8,
+    "resname": "LYS",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 9,
+    "atom_index_0based": 146,
+    "atom_name": "CA",
+    "resid": 9,
+    "resname": "GLY",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 10,
+    "atom_index_0based": 153,
+    "atom_name": "CA",
+    "resid": 10,
+    "resname": "ARG",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 11,
+    "atom_index_0based": 177,
+    "atom_name": "CA",
+    "resid": 11,
+    "resname": "THR",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 12,
+    "atom_index_0based": 191,
+    "atom_name": "CA",
+    "resid": 12,
+    "resname": "PHE",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 13,
+    "atom_index_0based": 211,
+    "atom_name": "CA",
+    "resid": 13,
+    "resname": "ARG",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 14,
+    "atom_index_0based": 235,
+    "atom_name": "CA",
+    "resid": 14,
+    "resname": "ASN",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 15,
+    "atom_index_0based": 249,
+    "atom_name": "CA",
+    "resid": 15,
+    "resname": "GLU",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 16,
+    "atom_index_0based": 264,
+    "atom_name": "CA",
+    "resid": 16,
+    "resname": "LYS",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 17,
+    "atom_index_0based": 286,
+    "atom_name": "CA",
+    "resid": 17,
+    "resname": "GLU",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 18,
+    "atom_index_0based": 301,
+    "atom_name": "CA",
+    "resid": 18,
+    "resname": "LEU",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 19,
+    "atom_index_0based": 320,
+    "atom_name": "CA",
+    "resid": 19,
+    "resname": "ARG",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 20,
+    "atom_index_0based": 344,
+    "atom_name": "CA",
+    "resid": 20,
+    "resname": "ASP",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 21,
+    "atom_index_0based": 356,
+    "atom_name": "CA",
+    "resid": 21,
+    "resname": "PHE",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 22,
+    "atom_index_0based": 376,
+    "atom_name": "CA",
+    "resid": 22,
+    "resname": "ILE",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 23,
+    "atom_index_0based": 395,
+    "atom_name": "CA",
+    "resid": 23,
+    "resname": "GLU",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 24,
+    "atom_index_0based": 410,
+    "atom_name": "CA",
+    "resid": 24,
+    "resname": "LYS",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 25,
+    "atom_index_0based": 432,
+    "atom_name": "CA",
+    "resid": 25,
+    "resname": "PHE",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 26,
+    "atom_index_0based": 452,
+    "atom_name": "CA",
+    "resid": 26,
+    "resname": "LYS",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 27,
+    "atom_index_0based": 474,
+    "atom_name": "CA",
+    "resid": 27,
+    "resname": "GLY",
+    "segid": "P"
+  },
+  {
+    "sequence_index_1based": 28,
+    "atom_index_0based": 484,
+    "atom_name": "CA",
+    "resid": 28,
+    "resname": "ARG",
+    "segid": "P"
+  }
+]

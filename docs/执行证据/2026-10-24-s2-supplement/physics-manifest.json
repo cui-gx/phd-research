@@ -1,0 +1,12 @@
+{
+  "status": "MEASURED",
+  "platform": "CPU",
+  "openmm_version": "8.5.2.dev-36a30cb",
+  "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+  "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+  "elapsed_s": 1.7206374590750784,
+  "getState_calls": 132,
+  "timed_calls": 99,
+  "integrator_steps": 0,
+  "errors": []
+}

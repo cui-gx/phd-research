@@ -1,0 +1,21 @@
+{
+  "status": "MEASURED",
+  "historical_cuda_comparison": "separate",
+  "f0_cpu_repeat_exact": true,
+  "f0_cpu_inference_s": [
+    0.29520929185673594,
+    0.25254787504673004
+  ],
+  "plan_commit": "0ae3d092659be6c32b176ab8fa17612a833f49f9",
+  "analysis_commit": "656df0cf2677affaf362ed631b662545321f80e3",
+  "common_checkpoint_sha256": "32f1a9887ec6dbb980862a00977bc48c710b0a74c1476c714efb10f61a4344e3",
+  "common_model_digest": "6156164267f3c7563c505dc93492fac33f211e91a9c4c66f3fd5f28ffcc496b4",
+  "common_optimizer_digest": "00759052057422164204d7336ddaf76d3cac0a64dd0699c77bb4e9a19b1c1aec",
+  "snapshot_id": "data-4051e7d54428b1d578561da5fb2d81806ec25c0dbdebc5c4e49bea62c84a0415",
+  "contact_input_sha256": [
+    "e7a4f2c44e849b111d42fd07ead5f4444b86d86493effe07f58649bd6696e56d",
+    "9fd7b6026ce0f68bace1b5c329675f8d44e90633795bbb6570291aaa30ed9f33"
+  ],
+  "elapsed_B_s": 8.577919957926497,
+  "failures": []
+}
