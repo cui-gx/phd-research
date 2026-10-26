@@ -1,0 +1,21 @@
+{
+  "status": "MEASURED",
+  "history_frames": 7800,
+  "A0_features_sha256": "9d8e5c555688f8eba6f9e2250bbf37c54056b52e300ad458bb23cd7b043dee90",
+  "common_history_shared": true,
+  "completed_downstream_MD": 6,
+  "downstream_MD_ns": 24,
+  "common_history_MD_ns": 4,
+  "full_trajectory_frames": 48000,
+  "qualified_downstream_frames": 48000,
+  "continuous_rows": 72,
+  "discrete_rows": 432,
+  "paired_rows": 864,
+  "GPU_occupation_s": 1505.0798303643242,
+  "task_execution_wall_s": 1578.4087793268263,
+  "analysis_source_sha256": "a9311f6694fb93348d4f42c5335cbf30d1f4d6e0321c9bbfa65fb3cca224d831",
+  "plan_commit": "0c92f6025bcde7a971994d9c515a1184abe83fbe",
+  "outcome_scope": "探索的幾何代理、等MD量。固定壁時計の純利益ではない。",
+  "S2_final_review": "INCOMPLETE",
+  "S3": "NOT APPROVED"
+}

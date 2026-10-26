@@ -1,0 +1,13 @@
+{
+  "status": "MEASURED",
+  "scope": "文書リンク・公開ファイルのハッシュ・文字列のみの最終修正をMacで検査。科学数値の再計算ではない。",
+  "public_sha_files_verified": 39,
+  "report_links_resolve": true,
+  "two_exception_message_changes_only_AST_verified": true,
+  "scientific_execution_complete": true,
+  "backup_and_cleanup": "pending_separate_receipts",
+  "required_report_count": 15,
+  "Japanese_advisor_summary": true,
+  "scientific_runs_allowed_after_pilot": false,
+  "root_README_preserved_numstat": "37\t1\tREADME.md"
+}

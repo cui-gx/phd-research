@@ -31,7 +31,7 @@ def run(out):
     rankings={};models={};comparisons=[]
     for label in ['F0','F1-b1','F2-b1','F1-b2','F2-b2']:
         rankings[label]=dict(np.load(task('infer-'+label)/'ranking.npz'))
-        if rankings[label]['frame_ids'].tolist()!=candidate:raise ValueError('候補池が不一致です。')
+        if rankings[label]['frame_ids'].tolist()!=candidate:raise ValueError('候補集合が一致しません。')
         models[label]=json.loads((task('infer-'+label)/'result.json').read_text())['checkpoint_sha256']
     rows=[]
     for label,v in rankings.items():

@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "<PROJECT>/source/p1/server/b1_science.py", line 221, in main
+    result=globals()[req['kind']](req,out);result.update(status='success')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<PROJECT>/source/p1/server/b1_science.py", line 144, in ai
+    from .supplement_selection import tensor_digest,optimizer_digest
+ModuleNotFoundError: No module named 'p1.server.supplement_selection'

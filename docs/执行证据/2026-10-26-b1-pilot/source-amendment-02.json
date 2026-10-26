@@ -1,0 +1,6 @@
+{
+  "reason": "Cost failure bookkeeping fix before downstream; no science condition change",
+  "source_sha256": {
+    "p1/server/b1_analysis.py": "a9311f6694fb93348d4f42c5335cbf30d1f4d6e0321c9bbfa65fb3cca224d831"
+  }
+}

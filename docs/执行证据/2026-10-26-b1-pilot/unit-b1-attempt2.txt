@@ -1,0 +1,11 @@
+test_history_cache_identical_and_no_free_seed (test_b1_pilot.B1Tests.test_history_cache_identical_and_no_free_seed) ... ok
+test_invalid_cache_rejected (test_b1_pilot.B1Tests.test_invalid_cache_rejected) ... ok
+test_restoration_helpers_import (test_b1_pilot.B1Tests.test_restoration_helpers_import) ... ok
+test_sha_change_rejected (test_b1_pilot.B1Tests.test_sha_change_rejected) ... ok
+test_shortage_stops (test_b1_pilot.B1Tests.test_shortage_stops) ... ok
+test_time_split_and_no_replacement (test_b1_pilot.B1Tests.test_time_split_and_no_replacement) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.010s
+
+OK

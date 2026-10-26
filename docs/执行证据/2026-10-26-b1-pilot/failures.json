@@ -1,0 +1,19 @@
+[
+  {
+    "task": "M0",
+    "error": {
+      "error": "ModuleNotFoundError(\"No module named 'p1.server.supplement_selection'\")"
+    },
+    "execution": {
+      "task": "M0",
+      "kind": "ai",
+      "GPU": true,
+      "GPU_occupation_s": 1.7362529942765832,
+      "elapsed_s": 1.7362529942765832,
+      "peak_RSS_bytes": 626814976,
+      "returncode": 1,
+      "stop_reason": null,
+      "request_sha256": "e8eacb60659357bc58550049809bf7c14c9d19dc8a11ad3548c61a724933db38"
+    }
+  }
+]

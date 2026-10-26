@@ -1,0 +1,8 @@
+{
+  "reason": "M0 import failure before training; identical recipe retry",
+  "source_sha256": {
+    "p1/server/b1_run.py": "7dc1f7c9f20e6fac85222b90be0a2ff77deba5ac51fc1ab96a372ef0a653b31e",
+    "p1/server/b1_analysis.py": "9bad168c8a96b673fea76a3ac7fcffb2ec4c9f319b869f49a4d7d573676449b7",
+    "p1/server/supplement_selection.py": "daee3b0db95f13688926b10aa2c7f232a53d4cf0cc931c34fbc75e764e488990"
+  }
+}

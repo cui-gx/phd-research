@@ -162,7 +162,7 @@ def ai(req,out):
     initial_rng_digest=optimizer_digest(torch,initial_rng)
     if req['operation']=='train':
         arm=req['arm'];ids=np.array(sets['old'] if arm=='M0' else sets[arm],dtype=int)
-        if len(ids)!=800 or len(set(ids.tolist()))!=800:raise ValueError('学習800独特IDの条件を満たしません。')
+        if len(ids)!=800 or len(set(ids.tolist()))!=800:raise ValueError('学習用の相異なる800個のIDという条件を満たしません。')
         order=np.random.default_rng(req['seed']).permutation(800);exposure=ids[order]
         dataset=ContactMapDataset(x[exposure],trainer.input_shape)
         loader=DataLoader(dataset,batch_size=4,shuffle=False,num_workers=0,drop_last=False)

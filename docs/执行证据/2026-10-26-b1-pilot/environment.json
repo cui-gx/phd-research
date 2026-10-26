@@ -1,0 +1,25 @@
+{
+  "python": "3.12.3",
+  "OS": "Linux-6.8.0-138-generic-x86_64-with-glibc2.39",
+  "CPU_model": "Intel(R) Xeon(R) w7-3565X",
+  "GPU_without_private_identifiers": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition, 590.48.01, 97887 MiB",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.2",
+    "torch": "2.7.1+cu128",
+    "openmm": "8.5.2",
+    "MDAnalysis": "2.9.0",
+    "scikit-learn": "1.6.1",
+    "mdlearn": "0.0.10a1",
+    "parsl": "2025.10.20"
+  },
+  "torch_build_CUDA": "12.8",
+  "controller_CPU": [
+    0
+  ],
+  "worker_CPU": [
+    1,
+    2
+  ],
+  "numeric_threads": 2
+}

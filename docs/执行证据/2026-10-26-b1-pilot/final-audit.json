@@ -1,0 +1,194 @@
+{
+  "status": "MEASURED",
+  "success_tasks": 29,
+  "failed_tasks": 1,
+  "MD_tasks": 8,
+  "training_tasks": 5,
+  "inference_tasks": 6,
+  "matched_update_conditions": true,
+  "old_new_temporal_legality": true,
+  "all_task_hashes_match": true,
+  "records": [
+    {
+      "task": "F1-b1",
+      "kind": "ai",
+      "operation": "train",
+      "status": "success"
+    },
+    {
+      "task": "F1-b2",
+      "kind": "ai",
+      "operation": "train",
+      "status": "success"
+    },
+    {
+      "task": "F2-b1",
+      "kind": "ai",
+      "operation": "train",
+      "status": "success"
+    },
+    {
+      "task": "F2-b2",
+      "kind": "ai",
+      "operation": "train",
+      "status": "success"
+    },
+    {
+      "task": "M0",
+      "kind": "ai",
+      "operation": "train",
+      "status": "failure"
+    },
+    {
+      "task": "M0-attempt2",
+      "kind": "ai",
+      "operation": "train",
+      "status": "success"
+    },
+    {
+      "task": "decision-pool",
+      "kind": "pools",
+      "operation": null,
+      "status": "success"
+    },
+    {
+      "task": "history-new",
+      "kind": "md",
+      "operation": null,
+      "status": "success"
+    },
+    {
+      "task": "history-old",
+      "kind": "md",
+      "operation": null,
+      "status": "success"
+    },
+    {
+      "task": "infer-F0",
+      "kind": "ai",
+      "operation": "infer",
+      "status": "success"
+    },
+    {
+      "task": "infer-F0-repeat",
+      "kind": "ai",
+      "operation": "infer",
+      "status": "success"
+    },
+    {
+      "task": "infer-F1-b1",
+      "kind": "ai",
+      "operation": "infer",
+      "status": "success"
+    },
+    {
+      "task": "infer-F1-b2",
+      "kind": "ai",
+      "operation": "infer",
+      "status": "success"
+    },
+    {
+      "task": "infer-F2-b1",
+      "kind": "ai",
+      "operation": "infer",
+      "status": "success"
+    },
+    {
+      "task": "infer-F2-b2",
+      "kind": "ai",
+      "operation": "infer",
+      "status": "success"
+    },
+    {
+      "task": "md-F0-b1",
+      "kind": "md",
+      "operation": null,
+      "status": "success"
+    },
+    {
+      "task": "md-F0-b2",
+      "kind": "md",
+      "operation": null,
+      "status": "success"
+    },
+    {
+      "task": "md-F1-b1",
+      "kind": "md",
+      "operation": null,
+      "status": "success"
+    },
+    {
+      "task": "md-F1-b2",
+      "kind": "md",
+      "operation": null,
+      "status": "success"
+    },
+    {
+      "task": "md-F2-b1",
+      "kind": "md",
+      "operation": null,
+      "status": "success"
+    },
+    {
+      "task": "md-F2-b2",
+      "kind": "md",
+      "operation": null,
+      "status": "success"
+    },
+    {
+      "task": "old-pool",
+      "kind": "pools",
+      "operation": null,
+      "status": "success"
+    },
+    {
+      "task": "prepare-history-new",
+      "kind": "prepare",
+      "operation": null,
+      "status": "success"
+    },
+    {
+      "task": "prepare-history-old",
+      "kind": "prepare",
+      "operation": null,
+      "status": "success"
+    },
+    {
+      "task": "prepare-md-F0-b1",
+      "kind": "prepare",
+      "operation": null,
+      "status": "success"
+    },
+    {
+      "task": "prepare-md-F0-b2",
+      "kind": "prepare",
+      "operation": null,
+      "status": "success"
+    },
+    {
+      "task": "prepare-md-F1-b1",
+      "kind": "prepare",
+      "operation": null,
+      "status": "success"
+    },
+    {
+      "task": "prepare-md-F1-b2",
+      "kind": "prepare",
+      "operation": null,
+      "status": "success"
+    },
+    {
+      "task": "prepare-md-F2-b1",
+      "kind": "prepare",
+      "operation": null,
+      "status": "success"
+    },
+    {
+      "task": "prepare-md-F2-b2",
+      "kind": "prepare",
+      "operation": null,
+      "status": "success"
+    }
+  ],
+  "scientific_inference": "探索的。二乱数ブロックを独立科学状態としない。"
+}

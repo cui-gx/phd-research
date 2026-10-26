@@ -1,0 +1,170 @@
+[
+  {
+    "block": 1,
+    "comparison": "F2-F1",
+    "selected_high": 894,
+    "selected_low": 3123,
+    "selected_high_time_ps": 447.50000000140864,
+    "selected_low_time_ps": 1561.9999999768875,
+    "selected_dRMSD_A": 5.9128056641527875,
+    "selected_angle_RMS_deg": 64.81606481049964,
+    "ranking_spearman": 0.19309473550846903,
+    "topk": [
+      {
+        "k": 1,
+        "intersection": 0,
+        "jaccard": 0.0
+      },
+      {
+        "k": 10,
+        "intersection": 1,
+        "jaccard": 0.05263157894736842
+      },
+      {
+        "k": 100,
+        "intersection": 10,
+        "jaccard": 0.05263157894736842
+      }
+    ]
+  },
+  {
+    "block": 1,
+    "comparison": "F2-F0",
+    "selected_high": 894,
+    "selected_low": 3117,
+    "selected_high_time_ps": 447.50000000140864,
+    "selected_low_time_ps": 1558.9999999769584,
+    "selected_dRMSD_A": 5.227098492812804,
+    "selected_angle_RMS_deg": 61.139993877174675,
+    "ranking_spearman": 0.16438622279339268,
+    "topk": [
+      {
+        "k": 1,
+        "intersection": 0,
+        "jaccard": 0.0
+      },
+      {
+        "k": 10,
+        "intersection": 0,
+        "jaccard": 0.0
+      },
+      {
+        "k": 100,
+        "intersection": 7,
+        "jaccard": 0.03626943005181347
+      }
+    ]
+  },
+  {
+    "block": 1,
+    "comparison": "F1-F0",
+    "selected_high": 3123,
+    "selected_low": 3117,
+    "selected_high_time_ps": 1561.9999999768875,
+    "selected_low_time_ps": 1558.9999999769584,
+    "selected_dRMSD_A": 1.0273062394534038,
+    "selected_angle_RMS_deg": 22.57711043435873,
+    "ranking_spearman": 0.3983822764643376,
+    "topk": [
+      {
+        "k": 1,
+        "intersection": 0,
+        "jaccard": 0.0
+      },
+      {
+        "k": 10,
+        "intersection": 2,
+        "jaccard": 0.1111111111111111
+      },
+      {
+        "k": 100,
+        "intersection": 22,
+        "jaccard": 0.12359550561797752
+      }
+    ]
+  },
+  {
+    "block": 2,
+    "comparison": "F2-F1",
+    "selected_high": 1388,
+    "selected_low": 1922,
+    "selected_high_time_ps": 694.499999997401,
+    "selected_low_time_ps": 961.4999999910873,
+    "selected_dRMSD_A": 4.310939321054112,
+    "selected_angle_RMS_deg": 45.44151744922842,
+    "ranking_spearman": 0.13847878772259287,
+    "topk": [
+      {
+        "k": 1,
+        "intersection": 0,
+        "jaccard": 0.0
+      },
+      {
+        "k": 10,
+        "intersection": 0,
+        "jaccard": 0.0
+      },
+      {
+        "k": 100,
+        "intersection": 5,
+        "jaccard": 0.02564102564102564
+      }
+    ]
+  },
+  {
+    "block": 2,
+    "comparison": "F2-F0",
+    "selected_high": 1388,
+    "selected_low": 3117,
+    "selected_high_time_ps": 694.499999997401,
+    "selected_low_time_ps": 1558.9999999769584,
+    "selected_dRMSD_A": 4.639762596167245,
+    "selected_angle_RMS_deg": 36.96254148491432,
+    "ranking_spearman": 0.16227467056322534,
+    "topk": [
+      {
+        "k": 1,
+        "intersection": 0,
+        "jaccard": 0.0
+      },
+      {
+        "k": 10,
+        "intersection": 0,
+        "jaccard": 0.0
+      },
+      {
+        "k": 100,
+        "intersection": 4,
+        "jaccard": 0.02040816326530612
+      }
+    ]
+  },
+  {
+    "block": 2,
+    "comparison": "F1-F0",
+    "selected_high": 1922,
+    "selected_low": 3117,
+    "selected_high_time_ps": 961.4999999910873,
+    "selected_low_time_ps": 1558.9999999769584,
+    "selected_dRMSD_A": 2.866396455082276,
+    "selected_angle_RMS_deg": 50.01810578553409,
+    "ranking_spearman": 0.3381781893405651,
+    "topk": [
+      {
+        "k": 1,
+        "intersection": 0,
+        "jaccard": 0.0
+      },
+      {
+        "k": 10,
+        "intersection": 0,
+        "jaccard": 0.0
+      },
+      {
+        "k": 100,
+        "intersection": 21,
+        "jaccard": 0.11731843575418995
+      }
+    ]
+  }
+]
