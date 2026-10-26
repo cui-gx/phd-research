@@ -86,16 +86,21 @@ def main():
              source_sha256={str(v.relative_to(ROOT)):sha(v) for v in (ROOT/'p1/server').glob('*.py')},
              input_sha256=sha(ROOT/'inputs/p1-fsd-ey/1FME-unfolded.pdb'),scope_history_ns=4,scope_downstream_ns=24))
     manifest=json.loads((root/'manifest.json').read_text());origin=manifest['monotonic_origin']
-    for rel,d in manifest['source_sha256'].items():
+    active_sources=dict(manifest['source_sha256'])
+    for amendment in sorted(root.glob('source-amendment-*.json')):
+        active_sources.update(json.loads(amendment.read_text())['source_sha256'])
+    for rel,d in active_sources.items():
         if sha(ROOT/rel)!=d:raise RuntimeError('実行ソースが変化しています。修訂を記録してください。')
     log=(root/'events.jsonl').open('a',buffering=1)
     def emit(kind,**values):log.write(json.dumps(dict(kind=kind,at_s=time.monotonic()-origin,UTC=time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),**values))+'\n')
     previous=controller_affinity([0])
     executor=ParslPoolExecutor(config=Config(executors=[ThreadPoolExecutor(label='b1-single',max_threads=1)],
                 run_dir=str(root/('parsl-'+a.stage)),usage_tracking=0,app_cache=False))
+    attempts=json.loads((root/'attempt-map.json').read_text()) if (root/'attempt-map.json').exists() else {}
     def task(name,kind,**kwargs):
-        target=root/'tasks'/name
-        req=dict(kind=kind,task_id=name,output_dir=str(target/'science'),gpu_uuid=manifest['GPU_uuid'],
+        actual=attempts.get(name,name)
+        target=root/'tasks'/actual
+        req=dict(kind=kind,task_id=actual,output_dir=str(target/'science'),gpu_uuid=manifest['GPU_uuid'],
                  timeout_s=1800 if kind=='md' else (600 if kind=='ai' else 2400),**kwargs)
         if (target/'science/result.json').exists():
             if json.loads((target/'request.json').read_text())!=req:raise RuntimeError('再開時の入力が変化しています。')
@@ -110,7 +115,7 @@ def main():
         result=executor.submit(execute_b1,str(target/'request.json')).result()
         emit('task_output_available',task=name,result_sha256=sha(target/'science/result.json'),qualified=kind=='prepare')
         return result
-    def science(name):return root/'tasks'/name/'science'
+    def science(name):return root/'tasks'/attempts.get(name,name)/'science'
     def prep(mdname,contacts):
         r=json.loads((science(mdname)/'result.json').read_text())
         return task('prepare-'+mdname,'prepare',md_dir=str(science(mdname)),dcd_sha256=sha(science(mdname)/'sim.dcd'),length_ns=r['length_ns'],contacts=contacts)

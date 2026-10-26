@@ -8,6 +8,10 @@ from p1.server.gq_r2 import regions,nearest,sha
 
 
 class B1Tests(unittest.TestCase):
+    def test_restoration_helpers_import(self):
+        from p1.server.supplement_selection import tensor_digest,optimizer_digest
+        self.assertTrue(callable(tensor_digest) and callable(optimizer_digest))
+
     def test_time_split_and_no_replacement(self):
         t=np.arange(1,8001)*.5;valid=np.ones(8000,dtype=bool)
         old=indices(t,valid,100,1600,800);new=indices(t,valid,2000,3600,400)
