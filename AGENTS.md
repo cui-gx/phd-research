@@ -1,5 +1,13 @@
 # Doctoral Research — Codex Instructions
 
+## GQ round 1 approval (2026-10-26)
+
+- Researcher APPROVED a bounded exploratory GQ round, cumulative single-GPU occupation at most 3600s, including failures/retries/warmup. Stage caps: GQ1 600s, GQ2 1200s, GQ3 1200s, reserve 600s; never reset or transfer scope. See `docs/P1-GQ/analysis-plan.md`.
+- User separately confirmed laboratory use has been coordinated with no additional deadline; still recheck occupancy before every task. Do not preempt others.
+- This latest approval supersedes the old design-only prohibition for this GQ round and permits bounded protocol candidates, short independent random streams, conditional extension and necessary GPU cost tests without awaiting domain-adviser reply. It does not complete the pending S2 independent review or approve B1/B2/C policy comparisons or S3.
+- Commit/push and remotely verify the plan before first scientific computation. Preserve original S1/S2 evidence, execute/measure/analyze primarily on server, keep one persistent budget ledger, report all failures, and stop after GQ.
+
+
 ## Confirmed C/B priority and server-first execution (2026-10-25)
 
 - Researcher-confirmed: **P1-C is the current main direction**: test whether pre-decision scientific feedback state adds information about update value beyond costs, remaining time, data quantity and training state. **P1-B is jointly designed** to measure downstream exploration effects and real opportunity costs; whether C, B or both become paper contributions remains evidence-dependent. See `docs/P1-CB-Design/README.md`.

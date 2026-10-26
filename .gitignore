@@ -246,3 +246,18 @@
 !/docs/P1-CB-Design/*.md
 !/docs/P1-CB-Design/*.json
 ._*
+
+# Approved GQ round 1
+!/docs/P1-GQ/
+/docs/P1-GQ/*
+!/docs/P1-GQ/*.md
+!/docs/P1-GQ/*.json
+!/docs/执行证据/2026-10-26-gq/
+/docs/执行证据/2026-10-26-gq/*
+!/docs/执行证据/2026-10-26-gq/*.json
+!/docs/执行证据/2026-10-26-gq/*.csv
+!/docs/执行证据/2026-10-26-gq/*.png
+!/docs/执行证据/2026-10-26-gq/*.txt
+!/p1/server/gq_*.py
+!/tests/p1/test_gq.py
+._*
