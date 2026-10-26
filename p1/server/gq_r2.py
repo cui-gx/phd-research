@@ -69,7 +69,7 @@ def nearest(a, b, block=64):
 
 
 def regions(features, times, epsilon, tau=0, valid=None, history=None,
-            published=None, cutoff=None, max_gap=None):
+            published=None, cutoff=None, max_gap=None, history_min_distance=None):
     """固定仮代表への連続支持で新領域を登録する。既往集合は圧縮しない。
 
     times は物理時刻[ps]、published と cutoff は同じ時計の公開時刻。
@@ -87,7 +87,12 @@ def regions(features, times, epsilon, tau=0, valid=None, history=None,
     v = np.ones(len(f), dtype=bool) if valid is None else np.asarray(valid, dtype=bool).copy()
     if published is not None and cutoff is not None:
         v &= np.asarray(published) <= cutoff
-    base_d = nearest(f, history)[0] if history is not None and len(history) else np.full(len(f), np.inf)
+    if history_min_distance is not None:
+        base_d=np.asarray(history_min_distance,dtype=float)
+        if history is not None or base_d.shape!=(len(f),) or not np.isfinite(base_d).all() or (base_d<0).any():
+            raise ValueError('共通履歴距離キャッシュの形または値が不正です。')
+    else:
+        base_d = nearest(f, history)[0] if history is not None and len(history) else np.full(len(f), np.inf)
     reps, confirmations = [], []
     centers = np.empty_like(f)
     pending = None
@@ -109,7 +114,7 @@ def regions(features, times, epsilon, tau=0, valid=None, history=None,
         if d <= epsilon+1e-10:
             pending = None
             continue
-        if not reps and history is None:
+        if not reps and history is None and history_min_distance is None:
             reps.append(i)
             confirmations.append(i)
             centers[0] = x
