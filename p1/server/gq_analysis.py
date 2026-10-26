@@ -192,8 +192,7 @@ def analyze(root, output):
         alias.append(dict(seed=seed,max_same_grid_drmsd_A=max_d,frames=pair,subsample_ps=5))
     seeds = sorted(joined)
     if len(seeds) >= 4:
-        for horizon in (1.,5.):
-            if horizon == 5. and not any(v[2][-1] >= 4999 for v in joined.values()): continue
+        for horizon in sorted({1., min(float(v[2][-1]/1000) for v in joined.values())}):
             calibration=[]
             for seed in seeds[:2]:
                 x,f,t=joined[seed]; calibration.append(f[(t>100)&(t<=horizon*1000)][::10])
