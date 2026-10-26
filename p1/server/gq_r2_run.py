@@ -14,9 +14,12 @@ def main():
     p=argparse.ArgumentParser(description='CPU解析の有界実行')
     p.add_argument('--project',type=Path,required=True)
     p.add_argument('--phase',required=True)
+    p.add_argument('--analysis-id',default='analysis-v1')
+    p.add_argument('--attempt',default='')
     args=p.parse_args();root=args.project;art=root/'artifacts/gq-r2-20261026'
-    out=art/'analysis-v1';out.mkdir(exist_ok=True)
-    if (art/(args.phase+'-execution.json')).exists():
+    out=art/args.analysis_id;out.mkdir(exist_ok=True)
+    label=args.phase+args.attempt
+    if (art/(label+'-execution.json')).exists():
         raise RuntimeError('実行記録が既に存在します。上書きしません。')
     cores=psutil.cpu_percent(interval=1,percpu=True)
     available=psutil.virtual_memory().available
@@ -25,7 +28,7 @@ def main():
         CPU_0_1_2_percent=cores[:3],available_memory_bytes=available,
         GPU_process_count=len(gpu.stdout.strip().splitlines()) if gpu.stdout.strip() else 0,
         GPU_query_returncode=gpu.returncode,kind='CPU限定。GPUの使用権を主張しない。')
-    (art/(args.phase+'-resources.json')).write_text(json.dumps(occupancy,indent=2))
+    (art/(label+'-resources.json')).write_text(json.dumps(occupancy,indent=2))
     if available<20*1024**3 or max(cores[:3])>60:
         raise RuntimeError('共有CPU/メモリ境界が不明瞭なため計算を停止します。')
     env=os.environ.copy()
@@ -36,7 +39,7 @@ def main():
          '--prior',str(root/'artifacts/gq-r1-20261026/analysis-final-v2'),
          '--manifest',str(art/'r1-raw-sha256.json')]
     started=time.monotonic();rss=0;reason=None
-    with open(art/(args.phase+'-stdout.txt'),'x') as stdout,open(art/(args.phase+'-stderr.txt'),'x') as stderr:
+    with open(art/(label+'-stdout.txt'),'x') as stdout,open(art/(label+'-stderr.txt'),'x') as stderr:
         proc=subprocess.Popen(cmd,cwd=root/'source',env=env,stdout=stdout,stderr=stderr,start_new_session=True)
         while proc.poll() is None:
             try:
@@ -58,7 +61,7 @@ def main():
                 sampled_peak_process_tree_RSS_bytes=rss,stop_reason=reason,GPU_compute=False,
                 command=[s.replace(str(root),'<PROJECT>') for s in cmd],
                 environment={k:env[k].replace(str(root),'<PROJECT>') for k in ['CUDA_VISIBLE_DEVICES','OPENBLAS_NUM_THREADS','OMP_NUM_THREADS','MPLCONFIGDIR']})
-    (art/(args.phase+'-execution.json')).write_text(json.dumps(record,indent=2,ensure_ascii=False))
+    (art/(label+'-execution.json')).write_text(json.dumps(record,indent=2,ensure_ascii=False))
     print(json.dumps(record,ensure_ascii=False),flush=True)
     raise SystemExit(rc)
 

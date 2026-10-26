@@ -1,10 +1,13 @@
 """合成小標本による境界条件検査。科学的有効性の認証ではない。"""
 import unittest
 import numpy as np
-from p1.server.gq_r2 import regions, nearest, distances, descriptors, farthest_cover
+from p1.server.gq_r2 import regions, nearest, distances, descriptors, farthest_cover, quantiles
 
 
 class RegionTests(unittest.TestCase):
+    def test_empty_distribution_is_missing(self):
+        self.assertIsNone(quantiles([]))
+
     def test_persistent_region_and_duplicate_time(self):
         f=np.array([[0],[2],[2.1],[2.2],[2.3]])
         t=np.array([0,1,2,3,4])

@@ -142,6 +142,8 @@ def farthest_cover(f, epsilon):
 
 
 def quantiles(x):
+    if not np.size(x):
+        return None
     return [float(v) for v in np.quantile(x, [0, .5, .9, .95, 1])]
 
 
