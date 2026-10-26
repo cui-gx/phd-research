@@ -1,0 +1,74 @@
+[
+  {
+    "seed": 2026102611,
+    "one_ns_U": 8,
+    "four_ns_U": 13,
+    "full_dRMSD_to_initial_A_min_median_max": [
+      0.0,
+      5.345286402948406,
+      6.606680260455603
+    ],
+    "continuation_dihedral_change_abs_deg_median_p95": [
+      15.266386289013194,
+      87.5237839604306
+    ],
+    "nominal_total_ns": 4,
+    "nominal_post100ps_ns": 3.9,
+    "mean_temperature_K": 299.99774623028964,
+    "max_constraint_error_A": 8.258819579998189e-06
+  },
+  {
+    "seed": 2026102612,
+    "one_ns_U": 8,
+    "four_ns_U": 11,
+    "full_dRMSD_to_initial_A_min_median_max": [
+      0.0,
+      5.302682297052973,
+      6.7728161178196045
+    ],
+    "continuation_dihedral_change_abs_deg_median_p95": [
+      18.56277009496378,
+      92.4563397964234
+    ],
+    "nominal_total_ns": 4,
+    "nominal_post100ps_ns": 3.9,
+    "mean_temperature_K": 300.2267123322643,
+    "max_constraint_error_A": 7.662773132244283e-06
+  },
+  {
+    "seed": 2026102613,
+    "one_ns_U": 10,
+    "four_ns_U": 14,
+    "full_dRMSD_to_initial_A_min_median_max": [
+      0.0,
+      4.709953751801457,
+      7.831634842770727
+    ],
+    "continuation_dihedral_change_abs_deg_median_p95": [
+      20.91974470598234,
+      156.87436239461275
+    ],
+    "nominal_total_ns": 4,
+    "nominal_post100ps_ns": 3.9,
+    "mean_temperature_K": 299.97907119900157,
+    "max_constraint_error_A": 8.506774902272696e-06
+  },
+  {
+    "seed": 2026102614,
+    "one_ns_U": 7,
+    "four_ns_U": 10,
+    "full_dRMSD_to_initial_A_min_median_max": [
+      0.0,
+      5.811287330073375,
+      7.346176910796866
+    ],
+    "continuation_dihedral_change_abs_deg_median_p95": [
+      17.21679274219626,
+      131.6986954153972
+    ],
+    "nominal_total_ns": 4,
+    "nominal_post100ps_ns": 3.9,
+    "mean_temperature_K": 299.90817281324456,
+    "max_constraint_error_A": 8.149147033620352e-06
+  }
+]

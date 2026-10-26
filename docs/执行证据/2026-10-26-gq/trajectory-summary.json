@@ -1,0 +1,3150 @@
+[
+  {
+    "task": "extend-11-to4ns",
+    "status": "success",
+    "method": "no_cutoff",
+    "seed": 2026102611,
+    "length_ns": 3.0,
+    "initial_ns": 0.9999999999901769,
+    "final_ns": 3.9999999999901767,
+    "restart": "full_checkpoint_continuation_no_minimization_no_velocity_reset",
+    "initialization_s": 1.6104306345805526,
+    "integration_reporter_checkpoint_s": 156.56333370599896,
+    "expected_frames": 6000,
+    "systems": {
+      "system_sha256": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "forces": [
+        {
+          "class": "HarmonicBondForce",
+          "group": 2
+        },
+        {
+          "class": "PeriodicTorsionForce",
+          "group": 2
+        },
+        {
+          "class": "NonbondedForce",
+          "group": 0,
+          "getNonbondedMethod": "0",
+          "getCutoffDistance": "1.0 nm",
+          "getReactionFieldDielectric": "1.0",
+          "getUseSwitchingFunction": "False",
+          "getUseDispersionCorrection": "True",
+          "global_parameters": {}
+        },
+        {
+          "class": "CMMotionRemover",
+          "group": 2
+        },
+        {
+          "class": "HarmonicAngleForce",
+          "group": 2
+        },
+        {
+          "class": "CustomGBForce",
+          "group": 1,
+          "getNonbondedMethod": "0",
+          "getCutoffDistance": "1.0 nm",
+          "global_parameters": {}
+        }
+      ],
+      "forcefield_sha256": {
+        "amber14-all.xml": "96d635545c36ce248e37d23ea82fa05ce4d2e1a6a42cd6d0ec5db3cfe30ca44c",
+        "implicit/gbn2.xml": "172fe56b43343e26f5483f55a276dbcf351b759f3abca2a12891778bf08e560b",
+        "amber14/DNA.OL15.xml": "200e7cd116481fb47ed50bfd29deefb84a1e488d73d262c3f3f278b36b80ffa5",
+        "amber14/DNA.bsc1.xml": "4ef74475a35fa6a2ae016df926c25eec6ad86a5b15c7e41820b64dd278a0e122",
+        "amber14/GLYCAM_06j-1.xml": "e8ae14c0bc3f20e91fe92e927d7e636a7639b210dc11aabf4a1e800e44b1a53f",
+        "amber14/RNA.OL3.xml": "61b793a49ded3c9c3bd9fbab328bc1b20b2b4ce7bc2358d537892ca64b085127",
+        "amber14/lipid17.xml": "f974506df14202973637cf5e1d094af5e6098eb04afd2b68c523589ffcf2e780",
+        "amber14/opc.xml": "39d6fec3c760b79e36c1e1b8fa53b1c3ff10c343ebcd0729a629e548f792d101",
+        "amber14/opc3.xml": "5a759a7180734dbb4f4f4e43ccb14b23a4d2bda8961bea12e30d4bc815175b6a",
+        "amber14/protein.ff14SB.xml": "d9f9779c09d67cd5f8bc657692f174ffab14c469dfd06d560ac1899fa7e976b8",
+        "amber14/protein.ff15ipq.xml": "0085c9dc2818a28501f6074a0bb46b994a9787bf4010ff86417fe014b11ab622",
+        "amber14/spce.xml": "b964862a2f11f30bff45d2e0cfad6edea98d96ad701078e5eb1bb8ae258a4577",
+        "amber14/tip3p.xml": "3f4b188dbcb6c02863230eaca231e927fb6bf3307ce947d8a50d0f46f6dd83d9",
+        "amber14/tip3pfb.xml": "6d8e47161b69da99d1f01982939ae078cd7399a5344c7513eef3a207ca6f6128",
+        "amber14/tip4pew.xml": "0638b2492b0be288a63d8ba81e1d98091d9847b09b5598e8fa2cff1123c83546",
+        "amber14/tip4pfb.xml": "b965f0aaa584255e485b4fd3b7448e0848326493d3c8a3dde2a3addbe7c0421c"
+      },
+      "particles": 504,
+      "constraints": 253,
+      "periodic": false
+    },
+    "internal_s": 158.22475716192275,
+    "artifacts": {
+      "system.xml": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "initial.pdb": "48740d97172eb2262355e5d7bc2d5c4d698206cb86465a84e07ef50becd7910a",
+      "sim.dcd": "43b651d44b187ebce7f135cc624dd4d0463663fd1bdf02f72225191cd555c1b8",
+      "sim.csv": "f84d4bfc5f1fee9486a00f725882535d3b806e0c16314d9606e044bcd82be561",
+      "final.chk": "fa713810b8b51a6c14024fc07bf505547fafde685db77bb9fe662a9cd7b1a9db",
+      "final.pdb": "ea649b27ef650cb0796d238d1912a5e08900c87825c5b7194e9b5723bc22fc99"
+    },
+    "worker_elapsed_s": 158.5266734343022,
+    "quality": {
+      "frames": 6000,
+      "temperature_K_min_median_max": [
+        258.02226705705783,
+        300.10962393861024,
+        349.9061559580793
+      ],
+      "temperature_K_mean": 300.181381283046,
+      "potential_kJ_mol_min_median_max": [
+        -5997.590898912696,
+        -5733.11735530991,
+        -5474.730861130507
+      ],
+      "CA_adjacent_max_A": 4.136617183685303,
+      "peptide_CN_max_A": 1.456417202949524,
+      "nonlocal_heavy_min_A_sampled_5ps": 2.4819817543029785,
+      "sidechain_chirality_flips_max_sampled_5ps": 0,
+      "constraint_distance_max_error_A": 8.258819579998189e-06,
+      "angle_columns": [
+        "1-GLU-psi",
+        "2-GLN-phi",
+        "2-GLN-psi",
+        "3-TYR-phi",
+        "3-TYR-psi",
+        "4-THR-phi",
+        "4-THR-psi",
+        "5-ALA-phi",
+        "5-ALA-psi",
+        "6-LYS-phi",
+        "6-LYS-psi",
+        "7-TYR-phi",
+        "7-TYR-psi",
+        "8-LYS-phi",
+        "8-LYS-psi",
+        "9-GLY-phi",
+        "9-GLY-psi",
+        "10-ARG-phi",
+        "10-ARG-psi",
+        "11-THR-phi",
+        "11-THR-psi",
+        "12-PHE-phi",
+        "12-PHE-psi",
+        "13-ARG-phi",
+        "13-ARG-psi",
+        "14-ASN-phi",
+        "14-ASN-psi",
+        "15-GLU-phi",
+        "15-GLU-psi",
+        "16-LYS-phi",
+        "16-LYS-psi",
+        "17-GLU-phi",
+        "17-GLU-psi",
+        "18-LEU-phi",
+        "18-LEU-psi",
+        "19-ARG-phi",
+        "19-ARG-psi",
+        "20-ASP-phi",
+        "20-ASP-psi",
+        "21-PHE-phi",
+        "21-PHE-psi",
+        "22-ILE-phi",
+        "22-ILE-psi",
+        "23-GLU-phi",
+        "23-GLU-psi",
+        "24-LYS-phi",
+        "24-LYS-psi",
+        "25-PHE-phi",
+        "25-PHE-psi",
+        "26-LYS-phi",
+        "26-LYS-psi",
+        "27-GLY-phi",
+        "27-GLY-psi",
+        "28-ARG-phi"
+      ],
+      "angle_nonfinite_count": 0,
+      "hard_geometry_warning": false,
+      "soft_warning": false
+    },
+    "post100ps_frames": 6000,
+    "Rg_A_min_median_max": [
+      7.908715504870438,
+      9.059151013265156,
+      10.694091292688489
+    ],
+    "Q8_min_median_max": [
+      0.06333333333333334,
+      0.11,
+      0.16333333333333333
+    ],
+    "dRMSD_to_first_A_min_median_max": [
+      0.0,
+      4.059564492475874,
+      6.091121879299392
+    ],
+    "Rg_lag1": 0.9686769426720298,
+    "Q_lag1": 0.8220459443221255,
+    "dihedral_circular_change_from_first_abs_deg_median_p95": [
+      15.266386289013194,
+      87.5237839604306
+    ],
+    "block_100ps": [
+      {
+        "start_ps": 1000.4999999901769,
+        "Rg_mean_A": 10.043532250408887,
+        "Q8_mean": 0.10075,
+        "potential_mean_kJ_mol": -5722.1001407712965,
+        "temperature_mean_K": 298.82165206880313
+      },
+      {
+        "start_ps": 1100.499999990177,
+        "Rg_mean_A": 10.069382410483112,
+        "Q8_mean": 0.09985,
+        "potential_mean_kJ_mol": -5721.600520675391,
+        "temperature_mean_K": 299.48297558813874
+      },
+      {
+        "start_ps": 1200.499999990177,
+        "Rg_mean_A": 9.165586641735137,
+        "Q8_mean": 0.11955,
+        "potential_mean_kJ_mol": -5723.0937028552635,
+        "temperature_mean_K": 297.88469713644423
+      },
+      {
+        "start_ps": 1300.499999990177,
+        "Rg_mean_A": 9.07745016558048,
+        "Q8_mean": 0.12226666666666666,
+        "potential_mean_kJ_mol": -5737.948168564015,
+        "temperature_mean_K": 301.1613902324359
+      },
+      {
+        "start_ps": 1400.499999990177,
+        "Rg_mean_A": 8.96659582448449,
+        "Q8_mean": 0.1253166666666667,
+        "potential_mean_kJ_mol": -5729.929963897399,
+        "temperature_mean_K": 300.10146835925644
+      },
+      {
+        "start_ps": 1500.499999990177,
+        "Rg_mean_A": 8.815585460793832,
+        "Q8_mean": 0.1269,
+        "potential_mean_kJ_mol": -5738.935182969373,
+        "temperature_mean_K": 303.30202768905673
+      },
+      {
+        "start_ps": 1600.499999990177,
+        "Rg_mean_A": 9.194484522673553,
+        "Q8_mean": 0.1088,
+        "potential_mean_kJ_mol": -5712.440381375435,
+        "temperature_mean_K": 299.7042510002156
+      },
+      {
+        "start_ps": 1700.499999990177,
+        "Rg_mean_A": 9.093605667279501,
+        "Q8_mean": 0.11230000000000001,
+        "potential_mean_kJ_mol": -5710.578371458112,
+        "temperature_mean_K": 301.0617092569184
+      },
+      {
+        "start_ps": 1800.499999990177,
+        "Rg_mean_A": 9.037371191211877,
+        "Q8_mean": 0.11473333333333333,
+        "potential_mean_kJ_mol": -5706.91038892091,
+        "temperature_mean_K": 300.35925883515165
+      },
+      {
+        "start_ps": 1900.499999990177,
+        "Rg_mean_A": 9.075417980893498,
+        "Q8_mean": 0.10805,
+        "potential_mean_kJ_mol": -5727.19628937049,
+        "temperature_mean_K": 299.8039152661759
+      },
+      {
+        "start_ps": 2000.499999990177,
+        "Rg_mean_A": 8.876367579885931,
+        "Q8_mean": 0.12165,
+        "potential_mean_kJ_mol": -5713.056424655265,
+        "temperature_mean_K": 300.7141803108552
+      },
+      {
+        "start_ps": 2100.499999990177,
+        "Rg_mean_A": 9.104879922752206,
+        "Q8_mean": 0.11206666666666668,
+        "potential_mean_kJ_mol": -5713.544446767957,
+        "temperature_mean_K": 301.30371440650555
+      },
+      {
+        "start_ps": 2200.499999990177,
+        "Rg_mean_A": 9.197533078026487,
+        "Q8_mean": 0.11378333333333333,
+        "potential_mean_kJ_mol": -5727.882639694861,
+        "temperature_mean_K": 298.94248643331366
+      },
+      {
+        "start_ps": 2300.499999990177,
+        "Rg_mean_A": 9.070152315211905,
+        "Q8_mean": 0.11173333333333334,
+        "potential_mean_kJ_mol": -5715.924327462683,
+        "temperature_mean_K": 299.6036174419554
+      },
+      {
+        "start_ps": 2400.499999990177,
+        "Rg_mean_A": 9.394440892138853,
+        "Q8_mean": 0.11813333333333333,
+        "potential_mean_kJ_mol": -5709.970034570845,
+        "temperature_mean_K": 300.78234171420644
+      },
+      {
+        "start_ps": 2500.499999990177,
+        "Rg_mean_A": 9.254044124235797,
+        "Q8_mean": 0.12646666666666667,
+        "potential_mean_kJ_mol": -5723.934358378003,
+        "temperature_mean_K": 299.21438630601085
+      },
+      {
+        "start_ps": 2600.499999990177,
+        "Rg_mean_A": 9.65868354081855,
+        "Q8_mean": 0.11414999999999999,
+        "potential_mean_kJ_mol": -5724.397281303129,
+        "temperature_mean_K": 297.39884121901605
+      },
+      {
+        "start_ps": 2700.499999990177,
+        "Rg_mean_A": 9.384475024713877,
+        "Q8_mean": 0.11006666666666667,
+        "potential_mean_kJ_mol": -5733.894878435963,
+        "temperature_mean_K": 299.5584214760338
+      },
+      {
+        "start_ps": 2800.499999990177,
+        "Rg_mean_A": 8.889488810122508,
+        "Q8_mean": 0.1213,
+        "potential_mean_kJ_mol": -5730.3538789428,
+        "temperature_mean_K": 299.81775474490576
+      },
+      {
+        "start_ps": 2900.499999990177,
+        "Rg_mean_A": 9.421839331948247,
+        "Q8_mean": 0.09525,
+        "potential_mean_kJ_mol": -5693.542682702889,
+        "temperature_mean_K": 300.39813586441824
+      },
+      {
+        "start_ps": 3000.499999990177,
+        "Rg_mean_A": 8.805865600367532,
+        "Q8_mean": 0.10928333333333333,
+        "potential_mean_kJ_mol": -5721.726548964543,
+        "temperature_mean_K": 300.30257309648664
+      },
+      {
+        "start_ps": 3100.499999990177,
+        "Rg_mean_A": 8.593514399819584,
+        "Q8_mean": 0.10775,
+        "potential_mean_kJ_mol": -5770.133822719061,
+        "temperature_mean_K": 301.3891748468193
+      },
+      {
+        "start_ps": 3200.499999990177,
+        "Rg_mean_A": 8.548124117781182,
+        "Q8_mean": 0.10608333333333335,
+        "potential_mean_kJ_mol": -5756.257572563277,
+        "temperature_mean_K": 299.51915573820855
+      },
+      {
+        "start_ps": 3300.499999990177,
+        "Rg_mean_A": 8.939380416761761,
+        "Q8_mean": 0.09971666666666668,
+        "potential_mean_kJ_mol": -5749.499412107627,
+        "temperature_mean_K": 301.9600807611439
+      },
+      {
+        "start_ps": 3400.499999990177,
+        "Rg_mean_A": 8.807463436217079,
+        "Q8_mean": 0.10463333333333334,
+        "potential_mean_kJ_mol": -5751.759053944719,
+        "temperature_mean_K": 300.91822000510956
+      },
+      {
+        "start_ps": 3500.499999990177,
+        "Rg_mean_A": 8.755732386642233,
+        "Q8_mean": 0.10361666666666668,
+        "potential_mean_kJ_mol": -5746.226125873143,
+        "temperature_mean_K": 300.2171552398104
+      },
+      {
+        "start_ps": 3600.499999990177,
+        "Rg_mean_A": 8.946559686640503,
+        "Q8_mean": 0.09796666666666667,
+        "potential_mean_kJ_mol": -5763.400596460717,
+        "temperature_mean_K": 299.29487410019317
+      },
+      {
+        "start_ps": 3700.499999990177,
+        "Rg_mean_A": 8.90280796950128,
+        "Q8_mean": 0.10478333333333331,
+        "potential_mean_kJ_mol": -5785.838210446206,
+        "temperature_mean_K": 300.2661638359343
+      },
+      {
+        "start_ps": 3800.499999990177,
+        "Rg_mean_A": 9.055224273968895,
+        "Q8_mean": 0.09648333333333334,
+        "potential_mean_kJ_mol": -5745.825518527426,
+        "temperature_mean_K": 300.9870022435648
+      },
+      {
+        "start_ps": 3900.499999990177,
+        "Rg_mean_A": 8.94794206356595,
+        "Q8_mean": 0.1043,
+        "potential_mean_kJ_mol": -5744.055508720228,
+        "temperature_mean_K": 301.1698132742911
+      }
+    ]
+  },
+  {
+    "task": "extend-12-to4ns",
+    "status": "success",
+    "method": "no_cutoff",
+    "seed": 2026102612,
+    "length_ns": 3.0,
+    "initial_ns": 0.9999999999901769,
+    "final_ns": 3.9999999999901767,
+    "restart": "full_checkpoint_continuation_no_minimization_no_velocity_reset",
+    "initialization_s": 1.4385027019307017,
+    "integration_reporter_checkpoint_s": 157.56291493214667,
+    "expected_frames": 6000,
+    "systems": {
+      "system_sha256": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "forces": [
+        {
+          "class": "HarmonicBondForce",
+          "group": 2
+        },
+        {
+          "class": "PeriodicTorsionForce",
+          "group": 2
+        },
+        {
+          "class": "NonbondedForce",
+          "group": 0,
+          "getNonbondedMethod": "0",
+          "getCutoffDistance": "1.0 nm",
+          "getReactionFieldDielectric": "1.0",
+          "getUseSwitchingFunction": "False",
+          "getUseDispersionCorrection": "True",
+          "global_parameters": {}
+        },
+        {
+          "class": "CMMotionRemover",
+          "group": 2
+        },
+        {
+          "class": "HarmonicAngleForce",
+          "group": 2
+        },
+        {
+          "class": "CustomGBForce",
+          "group": 1,
+          "getNonbondedMethod": "0",
+          "getCutoffDistance": "1.0 nm",
+          "global_parameters": {}
+        }
+      ],
+      "forcefield_sha256": {
+        "amber14-all.xml": "96d635545c36ce248e37d23ea82fa05ce4d2e1a6a42cd6d0ec5db3cfe30ca44c",
+        "implicit/gbn2.xml": "172fe56b43343e26f5483f55a276dbcf351b759f3abca2a12891778bf08e560b",
+        "amber14/DNA.OL15.xml": "200e7cd116481fb47ed50bfd29deefb84a1e488d73d262c3f3f278b36b80ffa5",
+        "amber14/DNA.bsc1.xml": "4ef74475a35fa6a2ae016df926c25eec6ad86a5b15c7e41820b64dd278a0e122",
+        "amber14/GLYCAM_06j-1.xml": "e8ae14c0bc3f20e91fe92e927d7e636a7639b210dc11aabf4a1e800e44b1a53f",
+        "amber14/RNA.OL3.xml": "61b793a49ded3c9c3bd9fbab328bc1b20b2b4ce7bc2358d537892ca64b085127",
+        "amber14/lipid17.xml": "f974506df14202973637cf5e1d094af5e6098eb04afd2b68c523589ffcf2e780",
+        "amber14/opc.xml": "39d6fec3c760b79e36c1e1b8fa53b1c3ff10c343ebcd0729a629e548f792d101",
+        "amber14/opc3.xml": "5a759a7180734dbb4f4f4e43ccb14b23a4d2bda8961bea12e30d4bc815175b6a",
+        "amber14/protein.ff14SB.xml": "d9f9779c09d67cd5f8bc657692f174ffab14c469dfd06d560ac1899fa7e976b8",
+        "amber14/protein.ff15ipq.xml": "0085c9dc2818a28501f6074a0bb46b994a9787bf4010ff86417fe014b11ab622",
+        "amber14/spce.xml": "b964862a2f11f30bff45d2e0cfad6edea98d96ad701078e5eb1bb8ae258a4577",
+        "amber14/tip3p.xml": "3f4b188dbcb6c02863230eaca231e927fb6bf3307ce947d8a50d0f46f6dd83d9",
+        "amber14/tip3pfb.xml": "6d8e47161b69da99d1f01982939ae078cd7399a5344c7513eef3a207ca6f6128",
+        "amber14/tip4pew.xml": "0638b2492b0be288a63d8ba81e1d98091d9847b09b5598e8fa2cff1123c83546",
+        "amber14/tip4pfb.xml": "b965f0aaa584255e485b4fd3b7448e0848326493d3c8a3dde2a3addbe7c0421c"
+      },
+      "particles": 504,
+      "constraints": 253,
+      "periodic": false
+    },
+    "internal_s": 159.0550758978352,
+    "artifacts": {
+      "system.xml": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "initial.pdb": "48740d97172eb2262355e5d7bc2d5c4d698206cb86465a84e07ef50becd7910a",
+      "sim.dcd": "f0b74559ba5a2575d050e4f378e44a663d6f39f088e32e07bbebff97f7b41d9c",
+      "sim.csv": "11b934304eb0ac8435b08acb184db8aad9a7767ba239c28b9e0954197ae65c3a",
+      "final.chk": "fc4b42dd91f14375b3ec52bfc6dd0f54eb41a93a43d58dfc67b31e95d5441b10",
+      "final.pdb": "12956ffe19006bf35517e761766981edf304584eee812b9e4e26746f5def2dbf"
+    },
+    "worker_elapsed_s": 159.28475948236883,
+    "quality": {
+      "frames": 6000,
+      "temperature_K_min_median_max": [
+        258.0583988337053,
+        300.16140452379005,
+        345.51028384956146
+      ],
+      "temperature_K_mean": 300.2132073566729,
+      "potential_kJ_mol_min_median_max": [
+        -5981.4046683188735,
+        -5729.695561994573,
+        -5437.111913593488
+      ],
+      "CA_adjacent_max_A": 4.120784282684326,
+      "peptide_CN_max_A": 1.4457952976226807,
+      "nonlocal_heavy_min_A_sampled_5ps": 2.4764580726623535,
+      "sidechain_chirality_flips_max_sampled_5ps": 0,
+      "constraint_distance_max_error_A": 7.662773132244283e-06,
+      "angle_columns": [
+        "1-GLU-psi",
+        "2-GLN-phi",
+        "2-GLN-psi",
+        "3-TYR-phi",
+        "3-TYR-psi",
+        "4-THR-phi",
+        "4-THR-psi",
+        "5-ALA-phi",
+        "5-ALA-psi",
+        "6-LYS-phi",
+        "6-LYS-psi",
+        "7-TYR-phi",
+        "7-TYR-psi",
+        "8-LYS-phi",
+        "8-LYS-psi",
+        "9-GLY-phi",
+        "9-GLY-psi",
+        "10-ARG-phi",
+        "10-ARG-psi",
+        "11-THR-phi",
+        "11-THR-psi",
+        "12-PHE-phi",
+        "12-PHE-psi",
+        "13-ARG-phi",
+        "13-ARG-psi",
+        "14-ASN-phi",
+        "14-ASN-psi",
+        "15-GLU-phi",
+        "15-GLU-psi",
+        "16-LYS-phi",
+        "16-LYS-psi",
+        "17-GLU-phi",
+        "17-GLU-psi",
+        "18-LEU-phi",
+        "18-LEU-psi",
+        "19-ARG-phi",
+        "19-ARG-psi",
+        "20-ASP-phi",
+        "20-ASP-psi",
+        "21-PHE-phi",
+        "21-PHE-psi",
+        "22-ILE-phi",
+        "22-ILE-psi",
+        "23-GLU-phi",
+        "23-GLU-psi",
+        "24-LYS-phi",
+        "24-LYS-psi",
+        "25-PHE-phi",
+        "25-PHE-psi",
+        "26-LYS-phi",
+        "26-LYS-psi",
+        "27-GLY-phi",
+        "27-GLY-psi",
+        "28-ARG-phi"
+      ],
+      "angle_nonfinite_count": 0,
+      "hard_geometry_warning": false,
+      "soft_warning": false
+    },
+    "post100ps_frames": 6000,
+    "Rg_A_min_median_max": [
+      8.071217179116276,
+      8.760765935357306,
+      10.48570384451504
+    ],
+    "Q8_min_median_max": [
+      0.04666666666666667,
+      0.09333333333333334,
+      0.16666666666666666
+    ],
+    "dRMSD_to_first_A_min_median_max": [
+      0.0,
+      4.74536673402079,
+      7.145694657730504
+    ],
+    "Rg_lag1": 0.9634588052448378,
+    "Q_lag1": 0.892234724808721,
+    "dihedral_circular_change_from_first_abs_deg_median_p95": [
+      18.56277009496378,
+      92.4563397964234
+    ],
+    "block_100ps": [
+      {
+        "start_ps": 1000.4999999901769,
+        "Rg_mean_A": 9.066574060316556,
+        "Q8_mean": 0.09775000000000002,
+        "potential_mean_kJ_mol": -5683.447047674326,
+        "temperature_mean_K": 300.8602919456816
+      },
+      {
+        "start_ps": 1100.499999990177,
+        "Rg_mean_A": 9.19213853616404,
+        "Q8_mean": 0.08101666666666667,
+        "potential_mean_kJ_mol": -5708.9191115542435,
+        "temperature_mean_K": 301.9311710946476
+      },
+      {
+        "start_ps": 1200.499999990177,
+        "Rg_mean_A": 9.365523609267669,
+        "Q8_mean": 0.07665,
+        "potential_mean_kJ_mol": -5734.126420698855,
+        "temperature_mean_K": 300.7159659602406
+      },
+      {
+        "start_ps": 1300.499999990177,
+        "Rg_mean_A": 8.835534542219877,
+        "Q8_mean": 0.09978333333333332,
+        "potential_mean_kJ_mol": -5733.722162003698,
+        "temperature_mean_K": 298.9330286968332
+      },
+      {
+        "start_ps": 1400.499999990177,
+        "Rg_mean_A": 8.852972466381097,
+        "Q8_mean": 0.09066666666666666,
+        "potential_mean_kJ_mol": -5767.826415434014,
+        "temperature_mean_K": 297.81631393352905
+      },
+      {
+        "start_ps": 1500.499999990177,
+        "Rg_mean_A": 8.748480742123029,
+        "Q8_mean": 0.09768333333333333,
+        "potential_mean_kJ_mol": -5756.05196376361,
+        "temperature_mean_K": 296.7257245743704
+      },
+      {
+        "start_ps": 1600.499999990177,
+        "Rg_mean_A": 8.669880032625658,
+        "Q8_mean": 0.08391666666666668,
+        "potential_mean_kJ_mol": -5713.850488162915,
+        "temperature_mean_K": 299.8709182137811
+      },
+      {
+        "start_ps": 1700.499999990177,
+        "Rg_mean_A": 9.052910107347618,
+        "Q8_mean": 0.09268333333333334,
+        "potential_mean_kJ_mol": -5712.9325598817695,
+        "temperature_mean_K": 298.5314132779159
+      },
+      {
+        "start_ps": 1800.499999990177,
+        "Rg_mean_A": 9.698650370844332,
+        "Q8_mean": 0.09216666666666667,
+        "potential_mean_kJ_mol": -5702.481071698884,
+        "temperature_mean_K": 300.04628174986215
+      },
+      {
+        "start_ps": 1900.499999990177,
+        "Rg_mean_A": 9.26932762101927,
+        "Q8_mean": 0.0785,
+        "potential_mean_kJ_mol": -5657.245893396975,
+        "temperature_mean_K": 302.37998256793645
+      },
+      {
+        "start_ps": 2000.499999990177,
+        "Rg_mean_A": 9.007287469432297,
+        "Q8_mean": 0.07533333333333334,
+        "potential_mean_kJ_mol": -5673.347633165731,
+        "temperature_mean_K": 300.5314716071906
+      },
+      {
+        "start_ps": 2100.499999990177,
+        "Rg_mean_A": 8.886130301422815,
+        "Q8_mean": 0.08595000000000001,
+        "potential_mean_kJ_mol": -5729.916890453277,
+        "temperature_mean_K": 298.2694434687303
+      },
+      {
+        "start_ps": 2200.499999990177,
+        "Rg_mean_A": 8.687908062005958,
+        "Q8_mean": 0.09715000000000001,
+        "potential_mean_kJ_mol": -5705.368533094919,
+        "temperature_mean_K": 300.499902942014
+      },
+      {
+        "start_ps": 2300.499999990177,
+        "Rg_mean_A": 8.706458527195526,
+        "Q8_mean": 0.09306666666666667,
+        "potential_mean_kJ_mol": -5720.888226804183,
+        "temperature_mean_K": 298.7253358639916
+      },
+      {
+        "start_ps": 2400.499999990177,
+        "Rg_mean_A": 8.580019708894747,
+        "Q8_mean": 0.10751666666666665,
+        "potential_mean_kJ_mol": -5721.730789495299,
+        "temperature_mean_K": 304.7298688373373
+      },
+      {
+        "start_ps": 2500.499999990177,
+        "Rg_mean_A": 8.536390674628326,
+        "Q8_mean": 0.12789999999999999,
+        "potential_mean_kJ_mol": -5738.948922396129,
+        "temperature_mean_K": 299.4599288020556
+      },
+      {
+        "start_ps": 2600.499999990177,
+        "Rg_mean_A": 8.775714963770824,
+        "Q8_mean": 0.10156666666666667,
+        "potential_mean_kJ_mol": -5743.633490637067,
+        "temperature_mean_K": 301.19798387183835
+      },
+      {
+        "start_ps": 2700.499999990177,
+        "Rg_mean_A": 8.707867664885724,
+        "Q8_mean": 0.09888333333333332,
+        "potential_mean_kJ_mol": -5741.326385577035,
+        "temperature_mean_K": 300.1612989999189
+      },
+      {
+        "start_ps": 2800.499999990177,
+        "Rg_mean_A": 8.525223977140389,
+        "Q8_mean": 0.11073333333333334,
+        "potential_mean_kJ_mol": -5771.498126166041,
+        "temperature_mean_K": 299.1656767147256
+      },
+      {
+        "start_ps": 2900.499999990177,
+        "Rg_mean_A": 8.573273193181073,
+        "Q8_mean": 0.11638333333333334,
+        "potential_mean_kJ_mol": -5733.908424792681,
+        "temperature_mean_K": 299.74263440013686
+      },
+      {
+        "start_ps": 3000.499999990177,
+        "Rg_mean_A": 8.485032414250865,
+        "Q8_mean": 0.12848333333333334,
+        "potential_mean_kJ_mol": -5736.994123066688,
+        "temperature_mean_K": 301.4004084884611
+      },
+      {
+        "start_ps": 3100.499999990177,
+        "Rg_mean_A": 8.671506634726304,
+        "Q8_mean": 0.1061,
+        "potential_mean_kJ_mol": -5745.166824929216,
+        "temperature_mean_K": 300.73307254072023
+      },
+      {
+        "start_ps": 3200.499999990177,
+        "Rg_mean_A": 8.521625434868861,
+        "Q8_mean": 0.10786666666666667,
+        "potential_mean_kJ_mol": -5773.965837878797,
+        "temperature_mean_K": 301.52035739649676
+      },
+      {
+        "start_ps": 3300.499999990177,
+        "Rg_mean_A": 8.74038846829059,
+        "Q8_mean": 0.09693333333333333,
+        "potential_mean_kJ_mol": -5729.868416149337,
+        "temperature_mean_K": 299.57818660302274
+      },
+      {
+        "start_ps": 3400.499999990177,
+        "Rg_mean_A": 9.106656598429247,
+        "Q8_mean": 0.08745000000000001,
+        "potential_mean_kJ_mol": -5676.62494781692,
+        "temperature_mean_K": 301.5049608815733
+      },
+      {
+        "start_ps": 3500.499999990177,
+        "Rg_mean_A": 8.839542941621097,
+        "Q8_mean": 0.08905000000000002,
+        "potential_mean_kJ_mol": -5751.8990358090505,
+        "temperature_mean_K": 299.2196408733038
+      },
+      {
+        "start_ps": 3600.499999990177,
+        "Rg_mean_A": 8.97908793203395,
+        "Q8_mean": 0.08168333333333333,
+        "potential_mean_kJ_mol": -5760.92793335549,
+        "temperature_mean_K": 301.3837401186261
+      },
+      {
+        "start_ps": 3700.499999990177,
+        "Rg_mean_A": 9.049308939940861,
+        "Q8_mean": 0.0787,
+        "potential_mean_kJ_mol": -5734.447878457098,
+        "temperature_mean_K": 299.0484525027189
+      },
+      {
+        "start_ps": 3800.499999990177,
+        "Rg_mean_A": 8.779564374596148,
+        "Q8_mean": 0.07865,
+        "potential_mean_kJ_mol": -5762.099194847629,
+        "temperature_mean_K": 301.21964839185716
+      },
+      {
+        "start_ps": 3900.499999990177,
+        "Rg_mean_A": 8.573166260990922,
+        "Q8_mean": 0.08668333333333333,
+        "potential_mean_kJ_mol": -5742.215196890431,
+        "temperature_mean_K": 300.4931153806689
+      }
+    ]
+  },
+  {
+    "task": "extend-13-to4ns",
+    "status": "success",
+    "method": "no_cutoff",
+    "seed": 2026102613,
+    "length_ns": 3.0,
+    "initial_ns": 0.9999999999901769,
+    "final_ns": 3.9999999999901767,
+    "restart": "full_checkpoint_continuation_no_minimization_no_velocity_reset",
+    "initialization_s": 1.497574009001255,
+    "integration_reporter_checkpoint_s": 156.19215709716082,
+    "expected_frames": 6000,
+    "systems": {
+      "system_sha256": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "forces": [
+        {
+          "class": "HarmonicBondForce",
+          "group": 2
+        },
+        {
+          "class": "PeriodicTorsionForce",
+          "group": 2
+        },
+        {
+          "class": "NonbondedForce",
+          "group": 0,
+          "getNonbondedMethod": "0",
+          "getCutoffDistance": "1.0 nm",
+          "getReactionFieldDielectric": "1.0",
+          "getUseSwitchingFunction": "False",
+          "getUseDispersionCorrection": "True",
+          "global_parameters": {}
+        },
+        {
+          "class": "CMMotionRemover",
+          "group": 2
+        },
+        {
+          "class": "HarmonicAngleForce",
+          "group": 2
+        },
+        {
+          "class": "CustomGBForce",
+          "group": 1,
+          "getNonbondedMethod": "0",
+          "getCutoffDistance": "1.0 nm",
+          "global_parameters": {}
+        }
+      ],
+      "forcefield_sha256": {
+        "amber14-all.xml": "96d635545c36ce248e37d23ea82fa05ce4d2e1a6a42cd6d0ec5db3cfe30ca44c",
+        "implicit/gbn2.xml": "172fe56b43343e26f5483f55a276dbcf351b759f3abca2a12891778bf08e560b",
+        "amber14/DNA.OL15.xml": "200e7cd116481fb47ed50bfd29deefb84a1e488d73d262c3f3f278b36b80ffa5",
+        "amber14/DNA.bsc1.xml": "4ef74475a35fa6a2ae016df926c25eec6ad86a5b15c7e41820b64dd278a0e122",
+        "amber14/GLYCAM_06j-1.xml": "e8ae14c0bc3f20e91fe92e927d7e636a7639b210dc11aabf4a1e800e44b1a53f",
+        "amber14/RNA.OL3.xml": "61b793a49ded3c9c3bd9fbab328bc1b20b2b4ce7bc2358d537892ca64b085127",
+        "amber14/lipid17.xml": "f974506df14202973637cf5e1d094af5e6098eb04afd2b68c523589ffcf2e780",
+        "amber14/opc.xml": "39d6fec3c760b79e36c1e1b8fa53b1c3ff10c343ebcd0729a629e548f792d101",
+        "amber14/opc3.xml": "5a759a7180734dbb4f4f4e43ccb14b23a4d2bda8961bea12e30d4bc815175b6a",
+        "amber14/protein.ff14SB.xml": "d9f9779c09d67cd5f8bc657692f174ffab14c469dfd06d560ac1899fa7e976b8",
+        "amber14/protein.ff15ipq.xml": "0085c9dc2818a28501f6074a0bb46b994a9787bf4010ff86417fe014b11ab622",
+        "amber14/spce.xml": "b964862a2f11f30bff45d2e0cfad6edea98d96ad701078e5eb1bb8ae258a4577",
+        "amber14/tip3p.xml": "3f4b188dbcb6c02863230eaca231e927fb6bf3307ce947d8a50d0f46f6dd83d9",
+        "amber14/tip3pfb.xml": "6d8e47161b69da99d1f01982939ae078cd7399a5344c7513eef3a207ca6f6128",
+        "amber14/tip4pew.xml": "0638b2492b0be288a63d8ba81e1d98091d9847b09b5598e8fa2cff1123c83546",
+        "amber14/tip4pfb.xml": "b965f0aaa584255e485b4fd3b7448e0848326493d3c8a3dde2a3addbe7c0421c"
+      },
+      "particles": 504,
+      "constraints": 253,
+      "periodic": false
+    },
+    "internal_s": 157.7407637676224,
+    "artifacts": {
+      "system.xml": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "initial.pdb": "48740d97172eb2262355e5d7bc2d5c4d698206cb86465a84e07ef50becd7910a",
+      "sim.dcd": "5bb2e6aac053c0adbcfe066d17360aec46d119b3d9e00cd1c13778b5b52fb626",
+      "sim.csv": "d478d90c4cd67fd5d983a8af2a1ca89ceffc032387635d06d09aef4d9fac0a09",
+      "final.chk": "c6f4faa72c01196e30745362015348a91ec501f5135dfc0d960d42958a3c82f1",
+      "final.pdb": "00a6831f09a205a54caa898962774336ba9715fcbfe02c3f3ff791756895e56c"
+    },
+    "worker_elapsed_s": 157.98308935947716,
+    "quality": {
+      "frames": 6000,
+      "temperature_K_min_median_max": [
+        257.50837734338427,
+        299.80514922375096,
+        340.7872673845811
+      ],
+      "temperature_K_mean": 300.0585214550614,
+      "potential_kJ_mol_min_median_max": [
+        -5969.232187284317,
+        -5714.420017126834,
+        -5435.438751300223
+      ],
+      "CA_adjacent_max_A": 4.134106636047363,
+      "peptide_CN_max_A": 1.457566261291504,
+      "nonlocal_heavy_min_A_sampled_5ps": 2.4135890007019043,
+      "sidechain_chirality_flips_max_sampled_5ps": 0,
+      "constraint_distance_max_error_A": 8.506774902272696e-06,
+      "angle_columns": [
+        "1-GLU-psi",
+        "2-GLN-phi",
+        "2-GLN-psi",
+        "3-TYR-phi",
+        "3-TYR-psi",
+        "4-THR-phi",
+        "4-THR-psi",
+        "5-ALA-phi",
+        "5-ALA-psi",
+        "6-LYS-phi",
+        "6-LYS-psi",
+        "7-TYR-phi",
+        "7-TYR-psi",
+        "8-LYS-phi",
+        "8-LYS-psi",
+        "9-GLY-phi",
+        "9-GLY-psi",
+        "10-ARG-phi",
+        "10-ARG-psi",
+        "11-THR-phi",
+        "11-THR-psi",
+        "12-PHE-phi",
+        "12-PHE-psi",
+        "13-ARG-phi",
+        "13-ARG-psi",
+        "14-ASN-phi",
+        "14-ASN-psi",
+        "15-GLU-phi",
+        "15-GLU-psi",
+        "16-LYS-phi",
+        "16-LYS-psi",
+        "17-GLU-phi",
+        "17-GLU-psi",
+        "18-LEU-phi",
+        "18-LEU-psi",
+        "19-ARG-phi",
+        "19-ARG-psi",
+        "20-ASP-phi",
+        "20-ASP-psi",
+        "21-PHE-phi",
+        "21-PHE-psi",
+        "22-ILE-phi",
+        "22-ILE-psi",
+        "23-GLU-phi",
+        "23-GLU-psi",
+        "24-LYS-phi",
+        "24-LYS-psi",
+        "25-PHE-phi",
+        "25-PHE-psi",
+        "26-LYS-phi",
+        "26-LYS-psi",
+        "27-GLY-phi",
+        "27-GLY-psi",
+        "28-ARG-phi"
+      ],
+      "angle_nonfinite_count": 0,
+      "hard_geometry_warning": false,
+      "soft_warning": false
+    },
+    "post100ps_frames": 6000,
+    "Rg_A_min_median_max": [
+      8.228283571786394,
+      9.220908218303624,
+      11.000029730069627
+    ],
+    "Q8_min_median_max": [
+      0.04,
+      0.08666666666666667,
+      0.15
+    ],
+    "dRMSD_to_first_A_min_median_max": [
+      0.0,
+      3.331083085176684,
+      6.047540478710141
+    ],
+    "Rg_lag1": 0.9714500309063144,
+    "Q_lag1": 0.899665920880673,
+    "dihedral_circular_change_from_first_abs_deg_median_p95": [
+      20.91974470598234,
+      156.87436239461275
+    ],
+    "block_100ps": [
+      {
+        "start_ps": 1000.4999999901769,
+        "Rg_mean_A": 8.714436931077056,
+        "Q8_mean": 0.08045000000000002,
+        "potential_mean_kJ_mol": -5686.326685596282,
+        "temperature_mean_K": 298.5656660665427
+      },
+      {
+        "start_ps": 1100.499999990177,
+        "Rg_mean_A": 8.943105527447385,
+        "Q8_mean": 0.07593333333333334,
+        "potential_mean_kJ_mol": -5673.301250320852,
+        "temperature_mean_K": 300.1545803379384
+      },
+      {
+        "start_ps": 1200.499999990177,
+        "Rg_mean_A": 9.071479099812166,
+        "Q8_mean": 0.07471666666666667,
+        "potential_mean_kJ_mol": -5675.04553800877,
+        "temperature_mean_K": 300.30716519276945
+      },
+      {
+        "start_ps": 1300.499999990177,
+        "Rg_mean_A": 9.457958638293428,
+        "Q8_mean": 0.0679,
+        "potential_mean_kJ_mol": -5661.545126897538,
+        "temperature_mean_K": 301.6978309173855
+      },
+      {
+        "start_ps": 1400.499999990177,
+        "Rg_mean_A": 9.24760008407366,
+        "Q8_mean": 0.07093333333333333,
+        "potential_mean_kJ_mol": -5689.56735945029,
+        "temperature_mean_K": 302.3112509994558
+      },
+      {
+        "start_ps": 1500.499999990177,
+        "Rg_mean_A": 8.960824988499638,
+        "Q8_mean": 0.08070000000000001,
+        "potential_mean_kJ_mol": -5705.088116582894,
+        "temperature_mean_K": 298.7027976760995
+      },
+      {
+        "start_ps": 1600.499999990177,
+        "Rg_mean_A": 8.922558827892113,
+        "Q8_mean": 0.0726,
+        "potential_mean_kJ_mol": -5695.73193711087,
+        "temperature_mean_K": 298.73109971044937
+      },
+      {
+        "start_ps": 1700.499999990177,
+        "Rg_mean_A": 9.426800502932117,
+        "Q8_mean": 0.08346666666666668,
+        "potential_mean_kJ_mol": -5697.786623945946,
+        "temperature_mean_K": 301.1189411331385
+      },
+      {
+        "start_ps": 1800.499999990177,
+        "Rg_mean_A": 9.034751897056795,
+        "Q8_mean": 0.07919999999999999,
+        "potential_mean_kJ_mol": -5688.45730424525,
+        "temperature_mean_K": 300.81695098473784
+      },
+      {
+        "start_ps": 1900.499999990177,
+        "Rg_mean_A": 9.403337259993963,
+        "Q8_mean": 0.07058333333333333,
+        "potential_mean_kJ_mol": -5682.739077762724,
+        "temperature_mean_K": 298.98790124494576
+      },
+      {
+        "start_ps": 2000.499999990177,
+        "Rg_mean_A": 9.902812386130371,
+        "Q8_mean": 0.06886666666666667,
+        "potential_mean_kJ_mol": -5670.190253790492,
+        "temperature_mean_K": 300.73810308825824
+      },
+      {
+        "start_ps": 2100.499999990177,
+        "Rg_mean_A": 9.400788649829542,
+        "Q8_mean": 0.09128333333333334,
+        "potential_mean_kJ_mol": -5734.793741776997,
+        "temperature_mean_K": 298.2356087552778
+      },
+      {
+        "start_ps": 2200.499999990177,
+        "Rg_mean_A": 9.243087986548305,
+        "Q8_mean": 0.08155000000000001,
+        "potential_mean_kJ_mol": -5689.340314995767,
+        "temperature_mean_K": 301.08393543591615
+      },
+      {
+        "start_ps": 2300.499999990177,
+        "Rg_mean_A": 9.249468225690144,
+        "Q8_mean": 0.07358333333333332,
+        "potential_mean_kJ_mol": -5688.973925662679,
+        "temperature_mean_K": 301.2049566636135
+      },
+      {
+        "start_ps": 2400.499999990177,
+        "Rg_mean_A": 9.527327908236163,
+        "Q8_mean": 0.08633333333333333,
+        "potential_mean_kJ_mol": -5692.740122600817,
+        "temperature_mean_K": 300.67330554093087
+      },
+      {
+        "start_ps": 2500.499999990177,
+        "Rg_mean_A": 10.025706625529033,
+        "Q8_mean": 0.08134999999999999,
+        "potential_mean_kJ_mol": -5691.72608454402,
+        "temperature_mean_K": 301.79304512316
+      },
+      {
+        "start_ps": 2600.499999990177,
+        "Rg_mean_A": 9.465913773601388,
+        "Q8_mean": 0.08453333333333334,
+        "potential_mean_kJ_mol": -5739.268848709767,
+        "temperature_mean_K": 300.55822128655797
+      },
+      {
+        "start_ps": 2700.499999990177,
+        "Rg_mean_A": 9.338075235491793,
+        "Q8_mean": 0.08039999999999999,
+        "potential_mean_kJ_mol": -5732.388308509839,
+        "temperature_mean_K": 299.9772755409579
+      },
+      {
+        "start_ps": 2800.499999990177,
+        "Rg_mean_A": 9.037264693535072,
+        "Q8_mean": 0.07543333333333332,
+        "potential_mean_kJ_mol": -5719.052100729591,
+        "temperature_mean_K": 297.0876683831931
+      },
+      {
+        "start_ps": 2900.499999990177,
+        "Rg_mean_A": 9.064703026212442,
+        "Q8_mean": 0.10661666666666667,
+        "potential_mean_kJ_mol": -5725.950722858974,
+        "temperature_mean_K": 300.43549095225745
+      },
+      {
+        "start_ps": 3000.499999990177,
+        "Rg_mean_A": 8.759017496680771,
+        "Q8_mean": 0.11818333333333333,
+        "potential_mean_kJ_mol": -5735.120397031815,
+        "temperature_mean_K": 302.56097626993187
+      },
+      {
+        "start_ps": 3100.499999990177,
+        "Rg_mean_A": 9.04066354987326,
+        "Q8_mean": 0.11633333333333333,
+        "potential_mean_kJ_mol": -5768.882631242205,
+        "temperature_mean_K": 297.79944450240214
+      },
+      {
+        "start_ps": 3200.499999990177,
+        "Rg_mean_A": 8.841901665119108,
+        "Q8_mean": 0.12001666666666665,
+        "potential_mean_kJ_mol": -5758.031861313886,
+        "temperature_mean_K": 301.37509686328247
+      },
+      {
+        "start_ps": 3300.499999990177,
+        "Rg_mean_A": 9.107334904438584,
+        "Q8_mean": 0.1127,
+        "potential_mean_kJ_mol": -5773.095762464913,
+        "temperature_mean_K": 298.6158939811822
+      },
+      {
+        "start_ps": 3400.499999990177,
+        "Rg_mean_A": 9.293864879783573,
+        "Q8_mean": 0.10183333333333333,
+        "potential_mean_kJ_mol": -5769.770560125666,
+        "temperature_mean_K": 299.9278727925009
+      },
+      {
+        "start_ps": 3500.499999990177,
+        "Rg_mean_A": 9.462640475717233,
+        "Q8_mean": 0.09666666666666668,
+        "potential_mean_kJ_mol": -5759.443558406341,
+        "temperature_mean_K": 298.96701188048223
+      },
+      {
+        "start_ps": 3600.499999990177,
+        "Rg_mean_A": 10.092593649742533,
+        "Q8_mean": 0.08908333333333335,
+        "potential_mean_kJ_mol": -5732.504619010549,
+        "temperature_mean_K": 299.79482667670237
+      },
+      {
+        "start_ps": 3700.499999990177,
+        "Rg_mean_A": 9.627450194671342,
+        "Q8_mean": 0.09663333333333333,
+        "potential_mean_kJ_mol": -5720.069977038595,
+        "temperature_mean_K": 298.7278323522485
+      },
+      {
+        "start_ps": 3800.499999990177,
+        "Rg_mean_A": 9.581870658954022,
+        "Q8_mean": 0.10446666666666665,
+        "potential_mean_kJ_mol": -5734.815914400849,
+        "temperature_mean_K": 300.05968550412365
+      },
+      {
+        "start_ps": 3900.499999990177,
+        "Rg_mean_A": 9.13368807744186,
+        "Q8_mean": 0.12300000000000001,
+        "potential_mean_kJ_mol": -5743.024550852219,
+        "temperature_mean_K": 300.7452077953993
+      }
+    ]
+  },
+  {
+    "task": "extend-14-to4ns",
+    "status": "success",
+    "method": "no_cutoff",
+    "seed": 2026102614,
+    "length_ns": 3.0,
+    "initial_ns": 0.9999999999901769,
+    "final_ns": 3.9999999999901767,
+    "restart": "full_checkpoint_continuation_no_minimization_no_velocity_reset",
+    "initialization_s": 1.4556021085008979,
+    "integration_reporter_checkpoint_s": 156.9758072057739,
+    "expected_frames": 6000,
+    "systems": {
+      "system_sha256": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "forces": [
+        {
+          "class": "HarmonicBondForce",
+          "group": 2
+        },
+        {
+          "class": "PeriodicTorsionForce",
+          "group": 2
+        },
+        {
+          "class": "NonbondedForce",
+          "group": 0,
+          "getNonbondedMethod": "0",
+          "getCutoffDistance": "1.0 nm",
+          "getReactionFieldDielectric": "1.0",
+          "getUseSwitchingFunction": "False",
+          "getUseDispersionCorrection": "True",
+          "global_parameters": {}
+        },
+        {
+          "class": "CMMotionRemover",
+          "group": 2
+        },
+        {
+          "class": "HarmonicAngleForce",
+          "group": 2
+        },
+        {
+          "class": "CustomGBForce",
+          "group": 1,
+          "getNonbondedMethod": "0",
+          "getCutoffDistance": "1.0 nm",
+          "global_parameters": {}
+        }
+      ],
+      "forcefield_sha256": {
+        "amber14-all.xml": "96d635545c36ce248e37d23ea82fa05ce4d2e1a6a42cd6d0ec5db3cfe30ca44c",
+        "implicit/gbn2.xml": "172fe56b43343e26f5483f55a276dbcf351b759f3abca2a12891778bf08e560b",
+        "amber14/DNA.OL15.xml": "200e7cd116481fb47ed50bfd29deefb84a1e488d73d262c3f3f278b36b80ffa5",
+        "amber14/DNA.bsc1.xml": "4ef74475a35fa6a2ae016df926c25eec6ad86a5b15c7e41820b64dd278a0e122",
+        "amber14/GLYCAM_06j-1.xml": "e8ae14c0bc3f20e91fe92e927d7e636a7639b210dc11aabf4a1e800e44b1a53f",
+        "amber14/RNA.OL3.xml": "61b793a49ded3c9c3bd9fbab328bc1b20b2b4ce7bc2358d537892ca64b085127",
+        "amber14/lipid17.xml": "f974506df14202973637cf5e1d094af5e6098eb04afd2b68c523589ffcf2e780",
+        "amber14/opc.xml": "39d6fec3c760b79e36c1e1b8fa53b1c3ff10c343ebcd0729a629e548f792d101",
+        "amber14/opc3.xml": "5a759a7180734dbb4f4f4e43ccb14b23a4d2bda8961bea12e30d4bc815175b6a",
+        "amber14/protein.ff14SB.xml": "d9f9779c09d67cd5f8bc657692f174ffab14c469dfd06d560ac1899fa7e976b8",
+        "amber14/protein.ff15ipq.xml": "0085c9dc2818a28501f6074a0bb46b994a9787bf4010ff86417fe014b11ab622",
+        "amber14/spce.xml": "b964862a2f11f30bff45d2e0cfad6edea98d96ad701078e5eb1bb8ae258a4577",
+        "amber14/tip3p.xml": "3f4b188dbcb6c02863230eaca231e927fb6bf3307ce947d8a50d0f46f6dd83d9",
+        "amber14/tip3pfb.xml": "6d8e47161b69da99d1f01982939ae078cd7399a5344c7513eef3a207ca6f6128",
+        "amber14/tip4pew.xml": "0638b2492b0be288a63d8ba81e1d98091d9847b09b5598e8fa2cff1123c83546",
+        "amber14/tip4pfb.xml": "b965f0aaa584255e485b4fd3b7448e0848326493d3c8a3dde2a3addbe7c0421c"
+      },
+      "particles": 504,
+      "constraints": 253,
+      "periodic": false
+    },
+    "internal_s": 158.48229808267206,
+    "artifacts": {
+      "system.xml": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "initial.pdb": "48740d97172eb2262355e5d7bc2d5c4d698206cb86465a84e07ef50becd7910a",
+      "sim.dcd": "cfc9e69beafc55657328eb7455e7619d16073faf5aa6d9ba73ae40e21b52517d",
+      "sim.csv": "ea60315ee70dd8599d294f9af6b0e12d550f68a0dd7c9ad22ae553ef7aa9f239",
+      "final.chk": "ff39e0c717f6d516cc91dc0f7a338b41009137c4d22936c0583728fa7b7984e2",
+      "final.pdb": "144731e8a8afd5043cf6945ea34a5bb3d7e107bed502d524e7aad5de92668f4a"
+    },
+    "worker_elapsed_s": 158.71621021535248,
+    "quality": {
+      "frames": 6000,
+      "temperature_K_min_median_max": [
+        259.7660682205934,
+        299.98717435344497,
+        354.726724696252
+      ],
+      "temperature_K_mean": 299.99897990952275,
+      "potential_kJ_mol_min_median_max": [
+        -6000.826002491829,
+        -5733.085146974046,
+        -5477.9710697592145
+      ],
+      "CA_adjacent_max_A": 4.132124900817871,
+      "peptide_CN_max_A": 1.44606614112854,
+      "nonlocal_heavy_min_A_sampled_5ps": 2.4947197437286377,
+      "sidechain_chirality_flips_max_sampled_5ps": 0,
+      "constraint_distance_max_error_A": 8.149147033620352e-06,
+      "angle_columns": [
+        "1-GLU-psi",
+        "2-GLN-phi",
+        "2-GLN-psi",
+        "3-TYR-phi",
+        "3-TYR-psi",
+        "4-THR-phi",
+        "4-THR-psi",
+        "5-ALA-phi",
+        "5-ALA-psi",
+        "6-LYS-phi",
+        "6-LYS-psi",
+        "7-TYR-phi",
+        "7-TYR-psi",
+        "8-LYS-phi",
+        "8-LYS-psi",
+        "9-GLY-phi",
+        "9-GLY-psi",
+        "10-ARG-phi",
+        "10-ARG-psi",
+        "11-THR-phi",
+        "11-THR-psi",
+        "12-PHE-phi",
+        "12-PHE-psi",
+        "13-ARG-phi",
+        "13-ARG-psi",
+        "14-ASN-phi",
+        "14-ASN-psi",
+        "15-GLU-phi",
+        "15-GLU-psi",
+        "16-LYS-phi",
+        "16-LYS-psi",
+        "17-GLU-phi",
+        "17-GLU-psi",
+        "18-LEU-phi",
+        "18-LEU-psi",
+        "19-ARG-phi",
+        "19-ARG-psi",
+        "20-ASP-phi",
+        "20-ASP-psi",
+        "21-PHE-phi",
+        "21-PHE-psi",
+        "22-ILE-phi",
+        "22-ILE-psi",
+        "23-GLU-phi",
+        "23-GLU-psi",
+        "24-LYS-phi",
+        "24-LYS-psi",
+        "25-PHE-phi",
+        "25-PHE-psi",
+        "26-LYS-phi",
+        "26-LYS-psi",
+        "27-GLY-phi",
+        "27-GLY-psi",
+        "28-ARG-phi"
+      ],
+      "angle_nonfinite_count": 0,
+      "hard_geometry_warning": false,
+      "soft_warning": false
+    },
+    "post100ps_frames": 6000,
+    "Rg_A_min_median_max": [
+      7.773480062554524,
+      8.785784822633929,
+      10.413887732514603
+    ],
+    "Q8_min_median_max": [
+      0.05,
+      0.09666666666666666,
+      0.15333333333333332
+    ],
+    "dRMSD_to_first_A_min_median_max": [
+      0.0,
+      5.525991761016343,
+      6.925287791066726
+    ],
+    "Rg_lag1": 0.9704357301779432,
+    "Q_lag1": 0.7124070050583529,
+    "dihedral_circular_change_from_first_abs_deg_median_p95": [
+      17.21679274219626,
+      131.6986954153972
+    ],
+    "block_100ps": [
+      {
+        "start_ps": 1000.4999999901769,
+        "Rg_mean_A": 9.079046033251235,
+        "Q8_mean": 0.0842,
+        "potential_mean_kJ_mol": -5715.633426347189,
+        "temperature_mean_K": 300.9730576485288
+      },
+      {
+        "start_ps": 1100.499999990177,
+        "Rg_mean_A": 9.690358660855741,
+        "Q8_mean": 0.08561666666666667,
+        "potential_mean_kJ_mol": -5731.054515389439,
+        "temperature_mean_K": 296.6525550844503
+      },
+      {
+        "start_ps": 1200.499999990177,
+        "Rg_mean_A": 9.316188689375519,
+        "Q8_mean": 0.09481666666666666,
+        "potential_mean_kJ_mol": -5714.800071767532,
+        "temperature_mean_K": 302.57707556653617
+      },
+      {
+        "start_ps": 1300.499999990177,
+        "Rg_mean_A": 8.94381337199553,
+        "Q8_mean": 0.09813333333333335,
+        "potential_mean_kJ_mol": -5722.899386486675,
+        "temperature_mean_K": 299.48874978991347
+      },
+      {
+        "start_ps": 1400.499999990177,
+        "Rg_mean_A": 9.384527620305482,
+        "Q8_mean": 0.08688333333333333,
+        "potential_mean_kJ_mol": -5718.075762408385,
+        "temperature_mean_K": 300.47185329649443
+      },
+      {
+        "start_ps": 1500.499999990177,
+        "Rg_mean_A": 8.80481168090493,
+        "Q8_mean": 0.09075,
+        "potential_mean_kJ_mol": -5730.50765735627,
+        "temperature_mean_K": 299.9038436854373
+      },
+      {
+        "start_ps": 1600.499999990177,
+        "Rg_mean_A": 8.783752559709306,
+        "Q8_mean": 0.09088333333333334,
+        "potential_mean_kJ_mol": -5718.069135908661,
+        "temperature_mean_K": 302.00957177664714
+      },
+      {
+        "start_ps": 1700.499999990177,
+        "Rg_mean_A": 9.20770231811845,
+        "Q8_mean": 0.08705000000000002,
+        "potential_mean_kJ_mol": -5726.0299518369,
+        "temperature_mean_K": 299.52051686939495
+      },
+      {
+        "start_ps": 1800.499999990177,
+        "Rg_mean_A": 8.314398208077916,
+        "Q8_mean": 0.10216666666666667,
+        "potential_mean_kJ_mol": -5718.60321788575,
+        "temperature_mean_K": 300.1933305243445
+      },
+      {
+        "start_ps": 1900.499999990177,
+        "Rg_mean_A": 8.24234768874085,
+        "Q8_mean": 0.09756666666666668,
+        "potential_mean_kJ_mol": -5730.767271280038,
+        "temperature_mean_K": 298.6027766210738
+      },
+      {
+        "start_ps": 2000.499999990177,
+        "Rg_mean_A": 8.501791211032433,
+        "Q8_mean": 0.09671666666666667,
+        "potential_mean_kJ_mol": -5703.812990285231,
+        "temperature_mean_K": 298.45904094853415
+      },
+      {
+        "start_ps": 2100.499999990177,
+        "Rg_mean_A": 8.57992535360332,
+        "Q8_mean": 0.09515000000000001,
+        "potential_mean_kJ_mol": -5691.490489854343,
+        "temperature_mean_K": 300.45432007096286
+      },
+      {
+        "start_ps": 2200.499999990177,
+        "Rg_mean_A": 8.806164868264503,
+        "Q8_mean": 0.11238333333333334,
+        "potential_mean_kJ_mol": -5722.105158527326,
+        "temperature_mean_K": 298.70149397422506
+      },
+      {
+        "start_ps": 2300.499999990177,
+        "Rg_mean_A": 8.83868192207319,
+        "Q8_mean": 0.09686666666666667,
+        "potential_mean_kJ_mol": -5727.340412024576,
+        "temperature_mean_K": 302.42451531085754
+      },
+      {
+        "start_ps": 2400.499999990177,
+        "Rg_mean_A": 8.819625240497192,
+        "Q8_mean": 0.09205,
+        "potential_mean_kJ_mol": -5733.552769379332,
+        "temperature_mean_K": 301.3920672360069
+      },
+      {
+        "start_ps": 2500.499999990177,
+        "Rg_mean_A": 8.783277174956606,
+        "Q8_mean": 0.10278333333333332,
+        "potential_mean_kJ_mol": -5737.259973676481,
+        "temperature_mean_K": 301.2762475739291
+      },
+      {
+        "start_ps": 2600.499999990177,
+        "Rg_mean_A": 8.78041136130324,
+        "Q8_mean": 0.09456666666666667,
+        "potential_mean_kJ_mol": -5756.969025854934,
+        "temperature_mean_K": 299.12943850496936
+      },
+      {
+        "start_ps": 2700.499999990177,
+        "Rg_mean_A": 8.613812618773762,
+        "Q8_mean": 0.09271666666666668,
+        "potential_mean_kJ_mol": -5770.796094103816,
+        "temperature_mean_K": 300.8680947508676
+      },
+      {
+        "start_ps": 2800.499999990177,
+        "Rg_mean_A": 8.477673974581457,
+        "Q8_mean": 0.10196666666666665,
+        "potential_mean_kJ_mol": -5777.907115200697,
+        "temperature_mean_K": 300.1292271754734
+      },
+      {
+        "start_ps": 2900.499999990177,
+        "Rg_mean_A": 8.3615742025264,
+        "Q8_mean": 0.10225000000000001,
+        "potential_mean_kJ_mol": -5806.23551349728,
+        "temperature_mean_K": 297.7672552893825
+      },
+      {
+        "start_ps": 3000.499999990177,
+        "Rg_mean_A": 8.226387665611504,
+        "Q8_mean": 0.10770000000000002,
+        "potential_mean_kJ_mol": -5782.920448666685,
+        "temperature_mean_K": 300.1874461682703
+      },
+      {
+        "start_ps": 3100.499999990177,
+        "Rg_mean_A": 8.22147555545384,
+        "Q8_mean": 0.10521666666666668,
+        "potential_mean_kJ_mol": -5776.130903869057,
+        "temperature_mean_K": 297.89911374605106
+      },
+      {
+        "start_ps": 3200.499999990177,
+        "Rg_mean_A": 8.582355556284115,
+        "Q8_mean": 0.09391666666666666,
+        "potential_mean_kJ_mol": -5740.741801383302,
+        "temperature_mean_K": 299.811428171343
+      },
+      {
+        "start_ps": 3300.499999990177,
+        "Rg_mean_A": 8.833279146262193,
+        "Q8_mean": 0.10443333333333334,
+        "potential_mean_kJ_mol": -5760.274035272147,
+        "temperature_mean_K": 299.58686171925945
+      },
+      {
+        "start_ps": 3400.499999990177,
+        "Rg_mean_A": 8.894237369960573,
+        "Q8_mean": 0.09789999999999999,
+        "potential_mean_kJ_mol": -5718.482792198844,
+        "temperature_mean_K": 300.0859215128761
+      },
+      {
+        "start_ps": 3500.499999990177,
+        "Rg_mean_A": 9.015026892051004,
+        "Q8_mean": 0.09171666666666665,
+        "potential_mean_kJ_mol": -5713.647051195822,
+        "temperature_mean_K": 301.1203871815891
+      },
+      {
+        "start_ps": 3600.499999990177,
+        "Rg_mean_A": 8.920627924576245,
+        "Q8_mean": 0.09911666666666667,
+        "potential_mean_kJ_mol": -5734.454143143044,
+        "temperature_mean_K": 298.66774783078966
+      },
+      {
+        "start_ps": 3700.499999990177,
+        "Rg_mean_A": 8.98885944831342,
+        "Q8_mean": 0.10391666666666667,
+        "potential_mean_kJ_mol": -5693.221906480805,
+        "temperature_mean_K": 299.31338549593454
+      },
+      {
+        "start_ps": 3800.499999990177,
+        "Rg_mean_A": 9.050683504121485,
+        "Q8_mean": 0.09561666666666667,
+        "potential_mean_kJ_mol": -5706.779847869956,
+        "temperature_mean_K": 300.9477003634349
+      },
+      {
+        "start_ps": 3900.499999990177,
+        "Rg_mean_A": 8.790553832998194,
+        "Q8_mean": 0.09435,
+        "potential_mean_kJ_mol": -5695.555229864269,
+        "temperature_mean_K": 301.3543733981047
+      }
+    ]
+  },
+  {
+    "task": "probe-cutoff_1nm",
+    "status": "success",
+    "method": "cutoff_1nm",
+    "seed": 2026102601,
+    "length_ns": 0.1,
+    "initial_ns": 0.0,
+    "final_ns": 0.1,
+    "restart": "minimized_coordinates_and_seeded_velocities",
+    "initialization_s": 2.84706168808043,
+    "integration_reporter_checkpoint_s": 7.261190694756806,
+    "expected_frames": 200,
+    "systems": {
+      "system_sha256": "bfc0099bceeecc7e80c32c328323c019054ae5aeb348f4657013a5b9c3755159",
+      "forces": [
+        {
+          "class": "HarmonicBondForce",
+          "group": 2
+        },
+        {
+          "class": "PeriodicTorsionForce",
+          "group": 2
+        },
+        {
+          "class": "NonbondedForce",
+          "group": 0,
+          "getNonbondedMethod": "1",
+          "getCutoffDistance": "1.0 nm",
+          "getReactionFieldDielectric": "1.0",
+          "getUseSwitchingFunction": "False",
+          "getUseDispersionCorrection": "True",
+          "global_parameters": {}
+        },
+        {
+          "class": "CMMotionRemover",
+          "group": 2
+        },
+        {
+          "class": "HarmonicAngleForce",
+          "group": 2
+        },
+        {
+          "class": "CustomGBForce",
+          "group": 1,
+          "getNonbondedMethod": "1",
+          "getCutoffDistance": "1.0 nm",
+          "global_parameters": {}
+        }
+      ],
+      "forcefield_sha256": {
+        "amber14-all.xml": "96d635545c36ce248e37d23ea82fa05ce4d2e1a6a42cd6d0ec5db3cfe30ca44c",
+        "implicit/gbn2.xml": "172fe56b43343e26f5483f55a276dbcf351b759f3abca2a12891778bf08e560b",
+        "amber14/DNA.OL15.xml": "200e7cd116481fb47ed50bfd29deefb84a1e488d73d262c3f3f278b36b80ffa5",
+        "amber14/DNA.bsc1.xml": "4ef74475a35fa6a2ae016df926c25eec6ad86a5b15c7e41820b64dd278a0e122",
+        "amber14/GLYCAM_06j-1.xml": "e8ae14c0bc3f20e91fe92e927d7e636a7639b210dc11aabf4a1e800e44b1a53f",
+        "amber14/RNA.OL3.xml": "61b793a49ded3c9c3bd9fbab328bc1b20b2b4ce7bc2358d537892ca64b085127",
+        "amber14/lipid17.xml": "f974506df14202973637cf5e1d094af5e6098eb04afd2b68c523589ffcf2e780",
+        "amber14/opc.xml": "39d6fec3c760b79e36c1e1b8fa53b1c3ff10c343ebcd0729a629e548f792d101",
+        "amber14/opc3.xml": "5a759a7180734dbb4f4f4e43ccb14b23a4d2bda8961bea12e30d4bc815175b6a",
+        "amber14/protein.ff14SB.xml": "d9f9779c09d67cd5f8bc657692f174ffab14c469dfd06d560ac1899fa7e976b8",
+        "amber14/protein.ff15ipq.xml": "0085c9dc2818a28501f6074a0bb46b994a9787bf4010ff86417fe014b11ab622",
+        "amber14/spce.xml": "b964862a2f11f30bff45d2e0cfad6edea98d96ad701078e5eb1bb8ae258a4577",
+        "amber14/tip3p.xml": "3f4b188dbcb6c02863230eaca231e927fb6bf3307ce947d8a50d0f46f6dd83d9",
+        "amber14/tip3pfb.xml": "6d8e47161b69da99d1f01982939ae078cd7399a5344c7513eef3a207ca6f6128",
+        "amber14/tip4pew.xml": "0638b2492b0be288a63d8ba81e1d98091d9847b09b5598e8fa2cff1123c83546",
+        "amber14/tip4pfb.xml": "b965f0aaa584255e485b4fd3b7448e0848326493d3c8a3dde2a3addbe7c0421c"
+      },
+      "particles": 504,
+      "constraints": 253,
+      "periodic": false
+    },
+    "internal_s": 10.159794031642377,
+    "artifacts": {
+      "system.xml": "bfc0099bceeecc7e80c32c328323c019054ae5aeb348f4657013a5b9c3755159",
+      "initial.pdb": "48740d97172eb2262355e5d7bc2d5c4d698206cb86465a84e07ef50becd7910a",
+      "minimized.pdb": "39d085fe92bcccb6fb17ca509636bc1d1c58e486ecdecd5bddbfeda1f1e61f67",
+      "sim.dcd": "eda1b0f404923b5816d45d5590b0918cbb71608d022561e277bdff2e4b26f738",
+      "sim.csv": "65988eed993d1de0dcb70eacb8411ea7af22d4c2faaf0403ad284c443736a55c",
+      "final.chk": "45f0fef70228ef510091949fc50a65bcafa57fc259a708e0489b8027aee6e731",
+      "final.pdb": "6faa98d79b44b4fcf2323f12e7bcc2aef8e7112ebf75afca5482a3c741bb9067"
+    },
+    "worker_elapsed_s": 10.412629420869052,
+    "quality": {
+      "frames": 200,
+      "temperature_K_min_median_max": [
+        210.57002598492122,
+        300.32117913936946,
+        339.4023046318171
+      ],
+      "temperature_K_mean": 300.5569559240382,
+      "potential_kJ_mol_min_median_max": [
+        -7736.3844848672215,
+        -7193.328575591414,
+        -7048.166324577733
+      ],
+      "CA_adjacent_max_A": 4.1027445793151855,
+      "peptide_CN_max_A": 1.4282673597335815,
+      "nonlocal_heavy_min_A_sampled_5ps": 2.6047921180725098,
+      "sidechain_chirality_flips_max_sampled_5ps": 0,
+      "constraint_distance_max_error_A": 7.0667266844903764e-06,
+      "angle_columns": [
+        "1-GLU-psi",
+        "2-GLN-phi",
+        "2-GLN-psi",
+        "3-TYR-phi",
+        "3-TYR-psi",
+        "4-THR-phi",
+        "4-THR-psi",
+        "5-ALA-phi",
+        "5-ALA-psi",
+        "6-LYS-phi",
+        "6-LYS-psi",
+        "7-TYR-phi",
+        "7-TYR-psi",
+        "8-LYS-phi",
+        "8-LYS-psi",
+        "9-GLY-phi",
+        "9-GLY-psi",
+        "10-ARG-phi",
+        "10-ARG-psi",
+        "11-THR-phi",
+        "11-THR-psi",
+        "12-PHE-phi",
+        "12-PHE-psi",
+        "13-ARG-phi",
+        "13-ARG-psi",
+        "14-ASN-phi",
+        "14-ASN-psi",
+        "15-GLU-phi",
+        "15-GLU-psi",
+        "16-LYS-phi",
+        "16-LYS-psi",
+        "17-GLU-phi",
+        "17-GLU-psi",
+        "18-LEU-phi",
+        "18-LEU-psi",
+        "19-ARG-phi",
+        "19-ARG-psi",
+        "20-ASP-phi",
+        "20-ASP-psi",
+        "21-PHE-phi",
+        "21-PHE-psi",
+        "22-ILE-phi",
+        "22-ILE-psi",
+        "23-GLU-phi",
+        "23-GLU-psi",
+        "24-LYS-phi",
+        "24-LYS-psi",
+        "25-PHE-phi",
+        "25-PHE-psi",
+        "26-LYS-phi",
+        "26-LYS-psi",
+        "27-GLY-phi",
+        "27-GLY-psi",
+        "28-ARG-phi"
+      ],
+      "angle_nonfinite_count": 0,
+      "hard_geometry_warning": false,
+      "soft_warning": false
+    },
+    "post100ps_frames": 0,
+    "Rg_A_min_median_max": null,
+    "Q8_min_median_max": null,
+    "dRMSD_to_first_A_min_median_max": [
+      0.0,
+      2.4081687262369096,
+      3.48871247314054
+    ],
+    "Rg_lag1": null,
+    "Q_lag1": null,
+    "dihedral_circular_change_from_first_abs_deg_median_p95": [
+      17.33664044468985,
+      70.63292146385615
+    ],
+    "block_100ps": [
+      {
+        "start_ps": 0.5,
+        "Rg_mean_A": 10.220258640581129,
+        "Q8_mean": 0.07443333333333334,
+        "potential_mean_kJ_mol": -7203.878112855388,
+        "temperature_mean_K": 300.5569559240382
+      }
+    ]
+  },
+  {
+    "task": "probe-cutoff_2nm",
+    "status": "success",
+    "method": "cutoff_2nm",
+    "seed": 2026102601,
+    "length_ns": 0.1,
+    "initial_ns": 0.0,
+    "final_ns": 0.1,
+    "restart": "minimized_coordinates_and_seeded_velocities",
+    "initialization_s": 2.7818701416254044,
+    "integration_reporter_checkpoint_s": 7.369323811493814,
+    "expected_frames": 200,
+    "systems": {
+      "system_sha256": "85f478953a2889095cb398c101a8f4efda74ab087319566b5cea84c04225523a",
+      "forces": [
+        {
+          "class": "HarmonicBondForce",
+          "group": 2
+        },
+        {
+          "class": "PeriodicTorsionForce",
+          "group": 2
+        },
+        {
+          "class": "NonbondedForce",
+          "group": 0,
+          "getNonbondedMethod": "1",
+          "getCutoffDistance": "2.0 nm",
+          "getReactionFieldDielectric": "1.0",
+          "getUseSwitchingFunction": "False",
+          "getUseDispersionCorrection": "True",
+          "global_parameters": {}
+        },
+        {
+          "class": "CMMotionRemover",
+          "group": 2
+        },
+        {
+          "class": "HarmonicAngleForce",
+          "group": 2
+        },
+        {
+          "class": "CustomGBForce",
+          "group": 1,
+          "getNonbondedMethod": "1",
+          "getCutoffDistance": "2.0 nm",
+          "global_parameters": {}
+        }
+      ],
+      "forcefield_sha256": {
+        "amber14-all.xml": "96d635545c36ce248e37d23ea82fa05ce4d2e1a6a42cd6d0ec5db3cfe30ca44c",
+        "implicit/gbn2.xml": "172fe56b43343e26f5483f55a276dbcf351b759f3abca2a12891778bf08e560b",
+        "amber14/DNA.OL15.xml": "200e7cd116481fb47ed50bfd29deefb84a1e488d73d262c3f3f278b36b80ffa5",
+        "amber14/DNA.bsc1.xml": "4ef74475a35fa6a2ae016df926c25eec6ad86a5b15c7e41820b64dd278a0e122",
+        "amber14/GLYCAM_06j-1.xml": "e8ae14c0bc3f20e91fe92e927d7e636a7639b210dc11aabf4a1e800e44b1a53f",
+        "amber14/RNA.OL3.xml": "61b793a49ded3c9c3bd9fbab328bc1b20b2b4ce7bc2358d537892ca64b085127",
+        "amber14/lipid17.xml": "f974506df14202973637cf5e1d094af5e6098eb04afd2b68c523589ffcf2e780",
+        "amber14/opc.xml": "39d6fec3c760b79e36c1e1b8fa53b1c3ff10c343ebcd0729a629e548f792d101",
+        "amber14/opc3.xml": "5a759a7180734dbb4f4f4e43ccb14b23a4d2bda8961bea12e30d4bc815175b6a",
+        "amber14/protein.ff14SB.xml": "d9f9779c09d67cd5f8bc657692f174ffab14c469dfd06d560ac1899fa7e976b8",
+        "amber14/protein.ff15ipq.xml": "0085c9dc2818a28501f6074a0bb46b994a9787bf4010ff86417fe014b11ab622",
+        "amber14/spce.xml": "b964862a2f11f30bff45d2e0cfad6edea98d96ad701078e5eb1bb8ae258a4577",
+        "amber14/tip3p.xml": "3f4b188dbcb6c02863230eaca231e927fb6bf3307ce947d8a50d0f46f6dd83d9",
+        "amber14/tip3pfb.xml": "6d8e47161b69da99d1f01982939ae078cd7399a5344c7513eef3a207ca6f6128",
+        "amber14/tip4pew.xml": "0638b2492b0be288a63d8ba81e1d98091d9847b09b5598e8fa2cff1123c83546",
+        "amber14/tip4pfb.xml": "b965f0aaa584255e485b4fd3b7448e0848326493d3c8a3dde2a3addbe7c0421c"
+      },
+      "particles": 504,
+      "constraints": 253,
+      "periodic": false
+    },
+    "internal_s": 10.20284013543278,
+    "artifacts": {
+      "system.xml": "85f478953a2889095cb398c101a8f4efda74ab087319566b5cea84c04225523a",
+      "initial.pdb": "48740d97172eb2262355e5d7bc2d5c4d698206cb86465a84e07ef50becd7910a",
+      "minimized.pdb": "9be7ef71d5037cd0954c6a0280a7027c3311d98a3e6bc8167946b41b718f0363",
+      "sim.dcd": "002c882e99040516a9cc67c9f7430080e6c39d7320fd2475703198bef6a033cc",
+      "sim.csv": "6a86705fe0ac5d84537079c3e1514d63430a9bdd2cb629827fa66b4169afb6c7",
+      "final.chk": "156665fe5c6f987bc886c0295854528166ec1942ed5701c6b1f7c0e78dabbdf6",
+      "final.pdb": "a5f97f7c3bdf80c9d9c312fb74a20f990b1669bd5ca9095206e3af923992e81a"
+    },
+    "worker_elapsed_s": 10.358310855925083,
+    "quality": {
+      "frames": 200,
+      "temperature_K_min_median_max": [
+        209.86668779415743,
+        299.2554365070272,
+        332.76151682924353
+      ],
+      "temperature_K_mean": 298.5153611911033,
+      "potential_kJ_mol_min_median_max": [
+        -6929.617330295986,
+        -6415.447986697723,
+        -6238.197965007261
+      ],
+      "CA_adjacent_max_A": 4.0855255126953125,
+      "peptide_CN_max_A": 1.43594491481781,
+      "nonlocal_heavy_min_A_sampled_5ps": 2.651977300643921,
+      "sidechain_chirality_flips_max_sampled_5ps": 0,
+      "constraint_distance_max_error_A": 7.185935974041158e-06,
+      "angle_columns": [
+        "1-GLU-psi",
+        "2-GLN-phi",
+        "2-GLN-psi",
+        "3-TYR-phi",
+        "3-TYR-psi",
+        "4-THR-phi",
+        "4-THR-psi",
+        "5-ALA-phi",
+        "5-ALA-psi",
+        "6-LYS-phi",
+        "6-LYS-psi",
+        "7-TYR-phi",
+        "7-TYR-psi",
+        "8-LYS-phi",
+        "8-LYS-psi",
+        "9-GLY-phi",
+        "9-GLY-psi",
+        "10-ARG-phi",
+        "10-ARG-psi",
+        "11-THR-phi",
+        "11-THR-psi",
+        "12-PHE-phi",
+        "12-PHE-psi",
+        "13-ARG-phi",
+        "13-ARG-psi",
+        "14-ASN-phi",
+        "14-ASN-psi",
+        "15-GLU-phi",
+        "15-GLU-psi",
+        "16-LYS-phi",
+        "16-LYS-psi",
+        "17-GLU-phi",
+        "17-GLU-psi",
+        "18-LEU-phi",
+        "18-LEU-psi",
+        "19-ARG-phi",
+        "19-ARG-psi",
+        "20-ASP-phi",
+        "20-ASP-psi",
+        "21-PHE-phi",
+        "21-PHE-psi",
+        "22-ILE-phi",
+        "22-ILE-psi",
+        "23-GLU-phi",
+        "23-GLU-psi",
+        "24-LYS-phi",
+        "24-LYS-psi",
+        "25-PHE-phi",
+        "25-PHE-psi",
+        "26-LYS-phi",
+        "26-LYS-psi",
+        "27-GLY-phi",
+        "27-GLY-psi",
+        "28-ARG-phi"
+      ],
+      "angle_nonfinite_count": 0,
+      "hard_geometry_warning": false,
+      "soft_warning": false
+    },
+    "post100ps_frames": 0,
+    "Rg_A_min_median_max": null,
+    "Q8_min_median_max": null,
+    "dRMSD_to_first_A_min_median_max": [
+      0.0,
+      1.6124485260032768,
+      2.594610248118245
+    ],
+    "Rg_lag1": null,
+    "Q_lag1": null,
+    "dihedral_circular_change_from_first_abs_deg_median_p95": [
+      16.415922441143238,
+      77.9594126008068
+    ],
+    "block_100ps": [
+      {
+        "start_ps": 0.5,
+        "Rg_mean_A": 10.305682676296232,
+        "Q8_mean": 0.06766666666666668,
+        "potential_mean_kJ_mol": -6420.722036740892,
+        "temperature_mean_K": 298.5153611911033
+      }
+    ]
+  },
+  {
+    "task": "probe-no_cutoff",
+    "status": "success",
+    "method": "no_cutoff",
+    "seed": 2026102601,
+    "length_ns": 0.1,
+    "initial_ns": 0.0,
+    "final_ns": 0.1,
+    "restart": "minimized_coordinates_and_seeded_velocities",
+    "initialization_s": 2.3155135540291667,
+    "integration_reporter_checkpoint_s": 5.2887335401028395,
+    "expected_frames": 200,
+    "systems": {
+      "system_sha256": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "forces": [
+        {
+          "class": "HarmonicBondForce",
+          "group": 2
+        },
+        {
+          "class": "PeriodicTorsionForce",
+          "group": 2
+        },
+        {
+          "class": "NonbondedForce",
+          "group": 0,
+          "getNonbondedMethod": "0",
+          "getCutoffDistance": "1.0 nm",
+          "getReactionFieldDielectric": "1.0",
+          "getUseSwitchingFunction": "False",
+          "getUseDispersionCorrection": "True",
+          "global_parameters": {}
+        },
+        {
+          "class": "CMMotionRemover",
+          "group": 2
+        },
+        {
+          "class": "HarmonicAngleForce",
+          "group": 2
+        },
+        {
+          "class": "CustomGBForce",
+          "group": 1,
+          "getNonbondedMethod": "0",
+          "getCutoffDistance": "1.0 nm",
+          "global_parameters": {}
+        }
+      ],
+      "forcefield_sha256": {
+        "amber14-all.xml": "96d635545c36ce248e37d23ea82fa05ce4d2e1a6a42cd6d0ec5db3cfe30ca44c",
+        "implicit/gbn2.xml": "172fe56b43343e26f5483f55a276dbcf351b759f3abca2a12891778bf08e560b",
+        "amber14/DNA.OL15.xml": "200e7cd116481fb47ed50bfd29deefb84a1e488d73d262c3f3f278b36b80ffa5",
+        "amber14/DNA.bsc1.xml": "4ef74475a35fa6a2ae016df926c25eec6ad86a5b15c7e41820b64dd278a0e122",
+        "amber14/GLYCAM_06j-1.xml": "e8ae14c0bc3f20e91fe92e927d7e636a7639b210dc11aabf4a1e800e44b1a53f",
+        "amber14/RNA.OL3.xml": "61b793a49ded3c9c3bd9fbab328bc1b20b2b4ce7bc2358d537892ca64b085127",
+        "amber14/lipid17.xml": "f974506df14202973637cf5e1d094af5e6098eb04afd2b68c523589ffcf2e780",
+        "amber14/opc.xml": "39d6fec3c760b79e36c1e1b8fa53b1c3ff10c343ebcd0729a629e548f792d101",
+        "amber14/opc3.xml": "5a759a7180734dbb4f4f4e43ccb14b23a4d2bda8961bea12e30d4bc815175b6a",
+        "amber14/protein.ff14SB.xml": "d9f9779c09d67cd5f8bc657692f174ffab14c469dfd06d560ac1899fa7e976b8",
+        "amber14/protein.ff15ipq.xml": "0085c9dc2818a28501f6074a0bb46b994a9787bf4010ff86417fe014b11ab622",
+        "amber14/spce.xml": "b964862a2f11f30bff45d2e0cfad6edea98d96ad701078e5eb1bb8ae258a4577",
+        "amber14/tip3p.xml": "3f4b188dbcb6c02863230eaca231e927fb6bf3307ce947d8a50d0f46f6dd83d9",
+        "amber14/tip3pfb.xml": "6d8e47161b69da99d1f01982939ae078cd7399a5344c7513eef3a207ca6f6128",
+        "amber14/tip4pew.xml": "0638b2492b0be288a63d8ba81e1d98091d9847b09b5598e8fa2cff1123c83546",
+        "amber14/tip4pfb.xml": "b965f0aaa584255e485b4fd3b7448e0848326493d3c8a3dde2a3addbe7c0421c"
+      },
+      "particles": 504,
+      "constraints": 253,
+      "periodic": false
+    },
+    "internal_s": 7.6549674747511744,
+    "artifacts": {
+      "system.xml": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "initial.pdb": "48740d97172eb2262355e5d7bc2d5c4d698206cb86465a84e07ef50becd7910a",
+      "minimized.pdb": "a600b55f52f9ac369450fd922f0c82f8901cc0499307b02bc2ef632623af590c",
+      "sim.dcd": "f81b232bbfa67b84da6c2f7769639441148b3ce85171bcde93714fb3c1575927",
+      "sim.csv": "a49a2d17d42ee0680c60806a1c771358392c9d22546625d8020bba04fdc410ee",
+      "final.chk": "75be8e5905e1ad0f54b56c0d2df3f29a30a521d53410178d3bedaf3fb468fe71",
+      "final.pdb": "9707cacbfd73d5070f8e8e0b6a5340f3d5554993fbe102046d9da8f0d5f85068"
+    },
+    "worker_elapsed_s": 7.810949260368943,
+    "quality": {
+      "frames": 200,
+      "temperature_K_min_median_max": [
+        210.24762285833384,
+        298.22311060749666,
+        338.1510470611975
+      ],
+      "temperature_K_mean": 299.3233543407173,
+      "potential_kJ_mol_min_median_max": [
+        -6122.972195897903,
+        -5660.160288248191,
+        -5399.305291460707
+      ],
+      "CA_adjacent_max_A": 4.083609580993652,
+      "peptide_CN_max_A": 1.424627423286438,
+      "nonlocal_heavy_min_A_sampled_5ps": 2.6348283290863037,
+      "sidechain_chirality_flips_max_sampled_5ps": 0,
+      "constraint_distance_max_error_A": 7.305145263591939e-06,
+      "angle_columns": [
+        "1-GLU-psi",
+        "2-GLN-phi",
+        "2-GLN-psi",
+        "3-TYR-phi",
+        "3-TYR-psi",
+        "4-THR-phi",
+        "4-THR-psi",
+        "5-ALA-phi",
+        "5-ALA-psi",
+        "6-LYS-phi",
+        "6-LYS-psi",
+        "7-TYR-phi",
+        "7-TYR-psi",
+        "8-LYS-phi",
+        "8-LYS-psi",
+        "9-GLY-phi",
+        "9-GLY-psi",
+        "10-ARG-phi",
+        "10-ARG-psi",
+        "11-THR-phi",
+        "11-THR-psi",
+        "12-PHE-phi",
+        "12-PHE-psi",
+        "13-ARG-phi",
+        "13-ARG-psi",
+        "14-ASN-phi",
+        "14-ASN-psi",
+        "15-GLU-phi",
+        "15-GLU-psi",
+        "16-LYS-phi",
+        "16-LYS-psi",
+        "17-GLU-phi",
+        "17-GLU-psi",
+        "18-LEU-phi",
+        "18-LEU-psi",
+        "19-ARG-phi",
+        "19-ARG-psi",
+        "20-ASP-phi",
+        "20-ASP-psi",
+        "21-PHE-phi",
+        "21-PHE-psi",
+        "22-ILE-phi",
+        "22-ILE-psi",
+        "23-GLU-phi",
+        "23-GLU-psi",
+        "24-LYS-phi",
+        "24-LYS-psi",
+        "25-PHE-phi",
+        "25-PHE-psi",
+        "26-LYS-phi",
+        "26-LYS-psi",
+        "27-GLY-phi",
+        "27-GLY-psi",
+        "28-ARG-phi"
+      ],
+      "angle_nonfinite_count": 0,
+      "hard_geometry_warning": false,
+      "soft_warning": false
+    },
+    "post100ps_frames": 0,
+    "Rg_A_min_median_max": null,
+    "Q8_min_median_max": null,
+    "dRMSD_to_first_A_min_median_max": [
+      0.0,
+      1.7606228962504367,
+      2.773093815034512
+    ],
+    "Rg_lag1": null,
+    "Q_lag1": null,
+    "dihedral_circular_change_from_first_abs_deg_median_p95": [
+      17.57678175879883,
+      97.95725076984553
+    ],
+    "block_100ps": [
+      {
+        "start_ps": 0.5,
+        "Rg_mean_A": 9.97244584689656,
+        "Q8_mean": 0.07486666666666668,
+        "potential_mean_kJ_mol": -5651.290256966167,
+        "temperature_mean_K": 299.3233543407173
+      }
+    ]
+  },
+  {
+    "task": "root-11-1ns",
+    "status": "success",
+    "method": "no_cutoff",
+    "seed": 2026102611,
+    "length_ns": 1.0,
+    "initial_ns": 0.0,
+    "final_ns": 1.0,
+    "restart": "minimized_coordinates_and_seeded_velocities",
+    "initialization_s": 2.442058148793876,
+    "integration_reporter_checkpoint_s": 52.00297175347805,
+    "expected_frames": 2000,
+    "systems": {
+      "system_sha256": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "forces": [
+        {
+          "class": "HarmonicBondForce",
+          "group": 2
+        },
+        {
+          "class": "PeriodicTorsionForce",
+          "group": 2
+        },
+        {
+          "class": "NonbondedForce",
+          "group": 0,
+          "getNonbondedMethod": "0",
+          "getCutoffDistance": "1.0 nm",
+          "getReactionFieldDielectric": "1.0",
+          "getUseSwitchingFunction": "False",
+          "getUseDispersionCorrection": "True",
+          "global_parameters": {}
+        },
+        {
+          "class": "CMMotionRemover",
+          "group": 2
+        },
+        {
+          "class": "HarmonicAngleForce",
+          "group": 2
+        },
+        {
+          "class": "CustomGBForce",
+          "group": 1,
+          "getNonbondedMethod": "0",
+          "getCutoffDistance": "1.0 nm",
+          "global_parameters": {}
+        }
+      ],
+      "forcefield_sha256": {
+        "amber14-all.xml": "96d635545c36ce248e37d23ea82fa05ce4d2e1a6a42cd6d0ec5db3cfe30ca44c",
+        "implicit/gbn2.xml": "172fe56b43343e26f5483f55a276dbcf351b759f3abca2a12891778bf08e560b",
+        "amber14/DNA.OL15.xml": "200e7cd116481fb47ed50bfd29deefb84a1e488d73d262c3f3f278b36b80ffa5",
+        "amber14/DNA.bsc1.xml": "4ef74475a35fa6a2ae016df926c25eec6ad86a5b15c7e41820b64dd278a0e122",
+        "amber14/GLYCAM_06j-1.xml": "e8ae14c0bc3f20e91fe92e927d7e636a7639b210dc11aabf4a1e800e44b1a53f",
+        "amber14/RNA.OL3.xml": "61b793a49ded3c9c3bd9fbab328bc1b20b2b4ce7bc2358d537892ca64b085127",
+        "amber14/lipid17.xml": "f974506df14202973637cf5e1d094af5e6098eb04afd2b68c523589ffcf2e780",
+        "amber14/opc.xml": "39d6fec3c760b79e36c1e1b8fa53b1c3ff10c343ebcd0729a629e548f792d101",
+        "amber14/opc3.xml": "5a759a7180734dbb4f4f4e43ccb14b23a4d2bda8961bea12e30d4bc815175b6a",
+        "amber14/protein.ff14SB.xml": "d9f9779c09d67cd5f8bc657692f174ffab14c469dfd06d560ac1899fa7e976b8",
+        "amber14/protein.ff15ipq.xml": "0085c9dc2818a28501f6074a0bb46b994a9787bf4010ff86417fe014b11ab622",
+        "amber14/spce.xml": "b964862a2f11f30bff45d2e0cfad6edea98d96ad701078e5eb1bb8ae258a4577",
+        "amber14/tip3p.xml": "3f4b188dbcb6c02863230eaca231e927fb6bf3307ce947d8a50d0f46f6dd83d9",
+        "amber14/tip3pfb.xml": "6d8e47161b69da99d1f01982939ae078cd7399a5344c7513eef3a207ca6f6128",
+        "amber14/tip4pew.xml": "0638b2492b0be288a63d8ba81e1d98091d9847b09b5598e8fa2cff1123c83546",
+        "amber14/tip4pfb.xml": "b965f0aaa584255e485b4fd3b7448e0848326493d3c8a3dde2a3addbe7c0421c"
+      },
+      "particles": 504,
+      "constraints": 253,
+      "periodic": false
+    },
+    "internal_s": 54.49595649726689,
+    "artifacts": {
+      "system.xml": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "initial.pdb": "48740d97172eb2262355e5d7bc2d5c4d698206cb86465a84e07ef50becd7910a",
+      "minimized.pdb": "a95d6b494a222ecbfc1a7b7477bb94301400d933403c67107d42d499076b19ce",
+      "sim.dcd": "a6429eccbe9ea4205d84b1e1fc8ea8afbfe6112853046d633f73263a920ed157",
+      "sim.csv": "26decc03a41beecde5a87b90b12d8644f61a4285459465893279f7d8b66df2b1",
+      "final.chk": "6b27df1a61e288f59b76c0cff3d3db97f706379cfecb19b9fc93c0d789664412",
+      "final.pdb": "75752abd4cfcb586cd858e3f19e23a14f17812732e6670cb93873176433a50ca"
+    },
+    "worker_elapsed_s": 54.79274942539632,
+    "quality": {
+      "frames": 2000,
+      "temperature_K_min_median_max": [
+        198.49333148365565,
+        299.3610535377263,
+        338.64296636085805
+      ],
+      "temperature_K_mean": 299.4468410720207,
+      "potential_kJ_mol_min_median_max": [
+        -6090.684305340512,
+        -5668.916566130751,
+        -5432.132484232412
+      ],
+      "CA_adjacent_max_A": 4.130101203918457,
+      "peptide_CN_max_A": 1.4618324041366577,
+      "nonlocal_heavy_min_A_sampled_5ps": 2.5067546367645264,
+      "sidechain_chirality_flips_max_sampled_5ps": 0,
+      "constraint_distance_max_error_A": 8.020401000896626e-06,
+      "angle_columns": [
+        "1-GLU-psi",
+        "2-GLN-phi",
+        "2-GLN-psi",
+        "3-TYR-phi",
+        "3-TYR-psi",
+        "4-THR-phi",
+        "4-THR-psi",
+        "5-ALA-phi",
+        "5-ALA-psi",
+        "6-LYS-phi",
+        "6-LYS-psi",
+        "7-TYR-phi",
+        "7-TYR-psi",
+        "8-LYS-phi",
+        "8-LYS-psi",
+        "9-GLY-phi",
+        "9-GLY-psi",
+        "10-ARG-phi",
+        "10-ARG-psi",
+        "11-THR-phi",
+        "11-THR-psi",
+        "12-PHE-phi",
+        "12-PHE-psi",
+        "13-ARG-phi",
+        "13-ARG-psi",
+        "14-ASN-phi",
+        "14-ASN-psi",
+        "15-GLU-phi",
+        "15-GLU-psi",
+        "16-LYS-phi",
+        "16-LYS-psi",
+        "17-GLU-phi",
+        "17-GLU-psi",
+        "18-LEU-phi",
+        "18-LEU-psi",
+        "19-ARG-phi",
+        "19-ARG-psi",
+        "20-ASP-phi",
+        "20-ASP-psi",
+        "21-PHE-phi",
+        "21-PHE-psi",
+        "22-ILE-phi",
+        "22-ILE-psi",
+        "23-GLU-phi",
+        "23-GLU-psi",
+        "24-LYS-phi",
+        "24-LYS-psi",
+        "25-PHE-phi",
+        "25-PHE-psi",
+        "26-LYS-phi",
+        "26-LYS-psi",
+        "27-GLY-phi",
+        "27-GLY-psi",
+        "28-ARG-phi"
+      ],
+      "angle_nonfinite_count": 0,
+      "hard_geometry_warning": false,
+      "soft_warning": false
+    },
+    "post100ps_frames": 1800,
+    "Rg_A_min_median_max": [
+      9.04711741906757,
+      10.162073200359183,
+      11.961809868548386
+    ],
+    "Q8_min_median_max": [
+      0.03333333333333333,
+      0.07333333333333333,
+      0.11666666666666667
+    ],
+    "dRMSD_to_first_A_min_median_max": [
+      0.0,
+      3.053461257496015,
+      5.509284188764056
+    ],
+    "Rg_lag1": 0.9735957284672204,
+    "Q_lag1": 0.8707552159213368,
+    "dihedral_circular_change_from_first_abs_deg_median_p95": [
+      22.97169767524784,
+      112.5087890557541
+    ],
+    "block_100ps": [
+      {
+        "start_ps": 0.5,
+        "Rg_mean_A": 10.045574725010544,
+        "Q8_mean": 0.091,
+        "potential_mean_kJ_mol": -5653.435795759278,
+        "temperature_mean_K": 298.93634951493124
+      },
+      {
+        "start_ps": 100.5,
+        "Rg_mean_A": 9.909875109161387,
+        "Q8_mean": 0.08723333333333334,
+        "potential_mean_kJ_mol": -5644.709306109546,
+        "temperature_mean_K": 296.72751359477
+      },
+      {
+        "start_ps": 200.5,
+        "Rg_mean_A": 10.246271050509476,
+        "Q8_mean": 0.07428333333333334,
+        "potential_mean_kJ_mol": -5636.189665501227,
+        "temperature_mean_K": 299.624894521272
+      },
+      {
+        "start_ps": 300.5,
+        "Rg_mean_A": 10.73795511306864,
+        "Q8_mean": 0.06481666666666668,
+        "potential_mean_kJ_mol": -5650.852476264816,
+        "temperature_mean_K": 300.82326176315155
+      },
+      {
+        "start_ps": 400.5,
+        "Rg_mean_A": 10.513919133564423,
+        "Q8_mean": 0.058216666666666674,
+        "potential_mean_kJ_mol": -5650.107892663662,
+        "temperature_mean_K": 297.6915840116555
+      },
+      {
+        "start_ps": 500.5,
+        "Rg_mean_A": 9.762046526591984,
+        "Q8_mean": 0.06455000000000001,
+        "potential_mean_kJ_mol": -5663.084804899562,
+        "temperature_mean_K": 301.23194866144337
+      },
+      {
+        "start_ps": 600.5,
+        "Rg_mean_A": 9.798393295476979,
+        "Q8_mean": 0.06966666666666667,
+        "potential_mean_kJ_mol": -5681.347335176797,
+        "temperature_mean_K": 300.43924467654085
+      },
+      {
+        "start_ps": 700.5,
+        "Rg_mean_A": 10.329362189434075,
+        "Q8_mean": 0.07941666666666666,
+        "potential_mean_kJ_mol": -5710.9273657125,
+        "temperature_mean_K": 297.59961599621784
+      },
+      {
+        "start_ps": 800.5,
+        "Rg_mean_A": 10.547947973227144,
+        "Q8_mean": 0.08178333333333333,
+        "potential_mean_kJ_mol": -5688.4497357675355,
+        "temperature_mean_K": 301.5642683822718
+      },
+      {
+        "start_ps": 900.5,
+        "Rg_mean_A": 10.434523607924957,
+        "Q8_mean": 0.09143333333333332,
+        "potential_mean_kJ_mol": -5709.761810819062,
+        "temperature_mean_K": 299.82972959795296
+      }
+    ]
+  },
+  {
+    "task": "root-12-1ns",
+    "status": "success",
+    "method": "no_cutoff",
+    "seed": 2026102612,
+    "length_ns": 1.0,
+    "initial_ns": 0.0,
+    "final_ns": 1.0,
+    "restart": "minimized_coordinates_and_seeded_velocities",
+    "initialization_s": 2.2157433535903692,
+    "integration_reporter_checkpoint_s": 51.95674536470324,
+    "expected_frames": 2000,
+    "systems": {
+      "system_sha256": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "forces": [
+        {
+          "class": "HarmonicBondForce",
+          "group": 2
+        },
+        {
+          "class": "PeriodicTorsionForce",
+          "group": 2
+        },
+        {
+          "class": "NonbondedForce",
+          "group": 0,
+          "getNonbondedMethod": "0",
+          "getCutoffDistance": "1.0 nm",
+          "getReactionFieldDielectric": "1.0",
+          "getUseSwitchingFunction": "False",
+          "getUseDispersionCorrection": "True",
+          "global_parameters": {}
+        },
+        {
+          "class": "CMMotionRemover",
+          "group": 2
+        },
+        {
+          "class": "HarmonicAngleForce",
+          "group": 2
+        },
+        {
+          "class": "CustomGBForce",
+          "group": 1,
+          "getNonbondedMethod": "0",
+          "getCutoffDistance": "1.0 nm",
+          "global_parameters": {}
+        }
+      ],
+      "forcefield_sha256": {
+        "amber14-all.xml": "96d635545c36ce248e37d23ea82fa05ce4d2e1a6a42cd6d0ec5db3cfe30ca44c",
+        "implicit/gbn2.xml": "172fe56b43343e26f5483f55a276dbcf351b759f3abca2a12891778bf08e560b",
+        "amber14/DNA.OL15.xml": "200e7cd116481fb47ed50bfd29deefb84a1e488d73d262c3f3f278b36b80ffa5",
+        "amber14/DNA.bsc1.xml": "4ef74475a35fa6a2ae016df926c25eec6ad86a5b15c7e41820b64dd278a0e122",
+        "amber14/GLYCAM_06j-1.xml": "e8ae14c0bc3f20e91fe92e927d7e636a7639b210dc11aabf4a1e800e44b1a53f",
+        "amber14/RNA.OL3.xml": "61b793a49ded3c9c3bd9fbab328bc1b20b2b4ce7bc2358d537892ca64b085127",
+        "amber14/lipid17.xml": "f974506df14202973637cf5e1d094af5e6098eb04afd2b68c523589ffcf2e780",
+        "amber14/opc.xml": "39d6fec3c760b79e36c1e1b8fa53b1c3ff10c343ebcd0729a629e548f792d101",
+        "amber14/opc3.xml": "5a759a7180734dbb4f4f4e43ccb14b23a4d2bda8961bea12e30d4bc815175b6a",
+        "amber14/protein.ff14SB.xml": "d9f9779c09d67cd5f8bc657692f174ffab14c469dfd06d560ac1899fa7e976b8",
+        "amber14/protein.ff15ipq.xml": "0085c9dc2818a28501f6074a0bb46b994a9787bf4010ff86417fe014b11ab622",
+        "amber14/spce.xml": "b964862a2f11f30bff45d2e0cfad6edea98d96ad701078e5eb1bb8ae258a4577",
+        "amber14/tip3p.xml": "3f4b188dbcb6c02863230eaca231e927fb6bf3307ce947d8a50d0f46f6dd83d9",
+        "amber14/tip3pfb.xml": "6d8e47161b69da99d1f01982939ae078cd7399a5344c7513eef3a207ca6f6128",
+        "amber14/tip4pew.xml": "0638b2492b0be288a63d8ba81e1d98091d9847b09b5598e8fa2cff1123c83546",
+        "amber14/tip4pfb.xml": "b965f0aaa584255e485b4fd3b7448e0848326493d3c8a3dde2a3addbe7c0421c"
+      },
+      "particles": 504,
+      "constraints": 253,
+      "periodic": false
+    },
+    "internal_s": 54.22379921004176,
+    "artifacts": {
+      "system.xml": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "initial.pdb": "48740d97172eb2262355e5d7bc2d5c4d698206cb86465a84e07ef50becd7910a",
+      "minimized.pdb": "ca6a5ee2881c9e32fee111edbef60cb4decd0db2244749663f23a9eeb0978b7e",
+      "sim.dcd": "09fc1acc5a39e47c7c7e95a83079d6b6d1d84fbf633aba0ef1ecb82719096b9a",
+      "sim.csv": "05033f0d80b7a8fcb096318de183b2cb8a9128e32748812e0507ba270d4e7e2e",
+      "final.chk": "5967116cde02aa24b9a773e3fc9b63e8deca602386e81d6787bcb9fa54f9c67d",
+      "final.pdb": "3a0ec7f9ebf229ede9c061008a75144a9ded26165c7697ff98a05810be4bab97"
+    },
+    "worker_elapsed_s": 54.39648874476552,
+    "quality": {
+      "frames": 2000,
+      "temperature_K_min_median_max": [
+        234.76772283824292,
+        300.1680034662419,
+        336.46500647870835
+      ],
+      "temperature_K_mean": 300.2672272590385,
+      "potential_kJ_mol_min_median_max": [
+        -6145.650936967568,
+        -5631.9762414606685,
+        -5384.343465104832
+      ],
+      "CA_adjacent_max_A": 4.106640338897705,
+      "peptide_CN_max_A": 1.4422621726989746,
+      "nonlocal_heavy_min_A_sampled_5ps": 2.434779644012451,
+      "sidechain_chirality_flips_max_sampled_5ps": 0,
+      "constraint_distance_max_error_A": 7.4338912963156645e-06,
+      "angle_columns": [
+        "1-GLU-psi",
+        "2-GLN-phi",
+        "2-GLN-psi",
+        "3-TYR-phi",
+        "3-TYR-psi",
+        "4-THR-phi",
+        "4-THR-psi",
+        "5-ALA-phi",
+        "5-ALA-psi",
+        "6-LYS-phi",
+        "6-LYS-psi",
+        "7-TYR-phi",
+        "7-TYR-psi",
+        "8-LYS-phi",
+        "8-LYS-psi",
+        "9-GLY-phi",
+        "9-GLY-psi",
+        "10-ARG-phi",
+        "10-ARG-psi",
+        "11-THR-phi",
+        "11-THR-psi",
+        "12-PHE-phi",
+        "12-PHE-psi",
+        "13-ARG-phi",
+        "13-ARG-psi",
+        "14-ASN-phi",
+        "14-ASN-psi",
+        "15-GLU-phi",
+        "15-GLU-psi",
+        "16-LYS-phi",
+        "16-LYS-psi",
+        "17-GLU-phi",
+        "17-GLU-psi",
+        "18-LEU-phi",
+        "18-LEU-psi",
+        "19-ARG-phi",
+        "19-ARG-psi",
+        "20-ASP-phi",
+        "20-ASP-psi",
+        "21-PHE-phi",
+        "21-PHE-psi",
+        "22-ILE-phi",
+        "22-ILE-psi",
+        "23-GLU-phi",
+        "23-GLU-psi",
+        "24-LYS-phi",
+        "24-LYS-psi",
+        "25-PHE-phi",
+        "25-PHE-psi",
+        "26-LYS-phi",
+        "26-LYS-psi",
+        "27-GLY-phi",
+        "27-GLY-psi",
+        "28-ARG-phi"
+      ],
+      "angle_nonfinite_count": 0,
+      "hard_geometry_warning": false,
+      "soft_warning": false
+    },
+    "post100ps_frames": 1800,
+    "Rg_A_min_median_max": [
+      9.031440722812984,
+      10.064358097138289,
+      11.690452734781474
+    ],
+    "Q8_min_median_max": [
+      0.02,
+      0.06333333333333334,
+      0.13
+    ],
+    "dRMSD_to_first_A_min_median_max": [
+      0.0,
+      3.807766730136466,
+      5.329820448575681
+    ],
+    "Rg_lag1": 0.978721050596501,
+    "Q_lag1": 0.8811773476250506,
+    "dihedral_circular_change_from_first_abs_deg_median_p95": [
+      23.27058831072516,
+      132.4523940071105
+    ],
+    "block_100ps": [
+      {
+        "start_ps": 0.5,
+        "Rg_mean_A": 10.174444917115945,
+        "Q8_mean": 0.06911666666666667,
+        "potential_mean_kJ_mol": -5654.234735932131,
+        "temperature_mean_K": 299.17593169574167
+      },
+      {
+        "start_ps": 100.5,
+        "Rg_mean_A": 10.035478470377255,
+        "Q8_mean": 0.07245,
+        "potential_mean_kJ_mol": -5627.7443451354,
+        "temperature_mean_K": 302.9350691152794
+      },
+      {
+        "start_ps": 200.5,
+        "Rg_mean_A": 10.928039719831094,
+        "Q8_mean": 0.06845000000000001,
+        "potential_mean_kJ_mol": -5580.445326703377,
+        "temperature_mean_K": 299.893672466362
+      },
+      {
+        "start_ps": 300.5,
+        "Rg_mean_A": 9.898697020108251,
+        "Q8_mean": 0.08691666666666667,
+        "potential_mean_kJ_mol": -5627.166098447647,
+        "temperature_mean_K": 298.6714538472639
+      },
+      {
+        "start_ps": 400.5,
+        "Rg_mean_A": 10.202502174499877,
+        "Q8_mean": 0.05753333333333334,
+        "potential_mean_kJ_mol": -5618.377042462649,
+        "temperature_mean_K": 299.11557442173654
+      },
+      {
+        "start_ps": 500.5,
+        "Rg_mean_A": 10.341160148575964,
+        "Q8_mean": 0.05305,
+        "potential_mean_kJ_mol": -5561.161892504777,
+        "temperature_mean_K": 300.74862095320583
+      },
+      {
+        "start_ps": 600.5,
+        "Rg_mean_A": 9.888958534297393,
+        "Q8_mean": 0.06235,
+        "potential_mean_kJ_mol": -5626.206225239201,
+        "temperature_mean_K": 302.98631705047643
+      },
+      {
+        "start_ps": 700.5,
+        "Rg_mean_A": 9.841885814350055,
+        "Q8_mean": 0.0671,
+        "potential_mean_kJ_mol": -5680.010285788643,
+        "temperature_mean_K": 298.62634588432337
+      },
+      {
+        "start_ps": 800.5,
+        "Rg_mean_A": 10.461110207960335,
+        "Q8_mean": 0.048883333333333334,
+        "potential_mean_kJ_mol": -5643.0553486899635,
+        "temperature_mean_K": 300.2847403823497
+      },
+      {
+        "start_ps": 900.5,
+        "Rg_mean_A": 9.638516523024325,
+        "Q8_mean": 0.07156666666666667,
+        "potential_mean_kJ_mol": -5689.18360990396,
+        "temperature_mean_K": 300.23454677364646
+      }
+    ]
+  },
+  {
+    "task": "root-13-1ns",
+    "status": "success",
+    "method": "no_cutoff",
+    "seed": 2026102613,
+    "length_ns": 1.0,
+    "initial_ns": 0.0,
+    "final_ns": 1.0,
+    "restart": "minimized_coordinates_and_seeded_velocities",
+    "initialization_s": 2.4439671393483877,
+    "integration_reporter_checkpoint_s": 52.1215215055272,
+    "expected_frames": 2000,
+    "systems": {
+      "system_sha256": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "forces": [
+        {
+          "class": "HarmonicBondForce",
+          "group": 2
+        },
+        {
+          "class": "PeriodicTorsionForce",
+          "group": 2
+        },
+        {
+          "class": "NonbondedForce",
+          "group": 0,
+          "getNonbondedMethod": "0",
+          "getCutoffDistance": "1.0 nm",
+          "getReactionFieldDielectric": "1.0",
+          "getUseSwitchingFunction": "False",
+          "getUseDispersionCorrection": "True",
+          "global_parameters": {}
+        },
+        {
+          "class": "CMMotionRemover",
+          "group": 2
+        },
+        {
+          "class": "HarmonicAngleForce",
+          "group": 2
+        },
+        {
+          "class": "CustomGBForce",
+          "group": 1,
+          "getNonbondedMethod": "0",
+          "getCutoffDistance": "1.0 nm",
+          "global_parameters": {}
+        }
+      ],
+      "forcefield_sha256": {
+        "amber14-all.xml": "96d635545c36ce248e37d23ea82fa05ce4d2e1a6a42cd6d0ec5db3cfe30ca44c",
+        "implicit/gbn2.xml": "172fe56b43343e26f5483f55a276dbcf351b759f3abca2a12891778bf08e560b",
+        "amber14/DNA.OL15.xml": "200e7cd116481fb47ed50bfd29deefb84a1e488d73d262c3f3f278b36b80ffa5",
+        "amber14/DNA.bsc1.xml": "4ef74475a35fa6a2ae016df926c25eec6ad86a5b15c7e41820b64dd278a0e122",
+        "amber14/GLYCAM_06j-1.xml": "e8ae14c0bc3f20e91fe92e927d7e636a7639b210dc11aabf4a1e800e44b1a53f",
+        "amber14/RNA.OL3.xml": "61b793a49ded3c9c3bd9fbab328bc1b20b2b4ce7bc2358d537892ca64b085127",
+        "amber14/lipid17.xml": "f974506df14202973637cf5e1d094af5e6098eb04afd2b68c523589ffcf2e780",
+        "amber14/opc.xml": "39d6fec3c760b79e36c1e1b8fa53b1c3ff10c343ebcd0729a629e548f792d101",
+        "amber14/opc3.xml": "5a759a7180734dbb4f4f4e43ccb14b23a4d2bda8961bea12e30d4bc815175b6a",
+        "amber14/protein.ff14SB.xml": "d9f9779c09d67cd5f8bc657692f174ffab14c469dfd06d560ac1899fa7e976b8",
+        "amber14/protein.ff15ipq.xml": "0085c9dc2818a28501f6074a0bb46b994a9787bf4010ff86417fe014b11ab622",
+        "amber14/spce.xml": "b964862a2f11f30bff45d2e0cfad6edea98d96ad701078e5eb1bb8ae258a4577",
+        "amber14/tip3p.xml": "3f4b188dbcb6c02863230eaca231e927fb6bf3307ce947d8a50d0f46f6dd83d9",
+        "amber14/tip3pfb.xml": "6d8e47161b69da99d1f01982939ae078cd7399a5344c7513eef3a207ca6f6128",
+        "amber14/tip4pew.xml": "0638b2492b0be288a63d8ba81e1d98091d9847b09b5598e8fa2cff1123c83546",
+        "amber14/tip4pfb.xml": "b965f0aaa584255e485b4fd3b7448e0848326493d3c8a3dde2a3addbe7c0421c"
+      },
+      "particles": 504,
+      "constraints": 253,
+      "periodic": false
+    },
+    "internal_s": 54.617296393960714,
+    "artifacts": {
+      "system.xml": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "initial.pdb": "48740d97172eb2262355e5d7bc2d5c4d698206cb86465a84e07ef50becd7910a",
+      "minimized.pdb": "75a7c1ccefe7bdd39f9a5c5409bff5d08fa99b47497843316dc2d70033739c2b",
+      "sim.dcd": "fdb0ccc2334ec8274cb869c3fa2277d351f71e46c9c38469d26b4ceb72bf5328",
+      "sim.csv": "4bbd84d1a7fa43041fc11e0390aa2ff71bfce2d8ddd0bf3503a5beb0c281ff51",
+      "final.chk": "0dc2ac56c94fb954cccbbea3447be474902d20ebae4c4b967cc79f43ef01c8f8",
+      "final.pdb": "e4109e477a9c17b832e6d434ca8682d4a93529ad46dc3eb345c57602bc5ba55d"
+    },
+    "worker_elapsed_s": 54.79658425413072,
+    "quality": {
+      "frames": 2000,
+      "temperature_K_min_median_max": [
+        227.88878237070185,
+        300.2433544501206,
+        338.2422361875051
+      ],
+      "temperature_K_mean": 299.74072043082214,
+      "potential_kJ_mol_min_median_max": [
+        -5952.368411141037,
+        -5663.2118038836325,
+        -5449.4524765305305
+      ],
+      "CA_adjacent_max_A": 4.117889881134033,
+      "peptide_CN_max_A": 1.4568201303482056,
+      "nonlocal_heavy_min_A_sampled_5ps": 2.481963872909546,
+      "sidechain_chirality_flips_max_sampled_5ps": 0,
+      "constraint_distance_max_error_A": 7.662773132244283e-06,
+      "angle_columns": [
+        "1-GLU-psi",
+        "2-GLN-phi",
+        "2-GLN-psi",
+        "3-TYR-phi",
+        "3-TYR-psi",
+        "4-THR-phi",
+        "4-THR-psi",
+        "5-ALA-phi",
+        "5-ALA-psi",
+        "6-LYS-phi",
+        "6-LYS-psi",
+        "7-TYR-phi",
+        "7-TYR-psi",
+        "8-LYS-phi",
+        "8-LYS-psi",
+        "9-GLY-phi",
+        "9-GLY-psi",
+        "10-ARG-phi",
+        "10-ARG-psi",
+        "11-THR-phi",
+        "11-THR-psi",
+        "12-PHE-phi",
+        "12-PHE-psi",
+        "13-ARG-phi",
+        "13-ARG-psi",
+        "14-ASN-phi",
+        "14-ASN-psi",
+        "15-GLU-phi",
+        "15-GLU-psi",
+        "16-LYS-phi",
+        "16-LYS-psi",
+        "17-GLU-phi",
+        "17-GLU-psi",
+        "18-LEU-phi",
+        "18-LEU-psi",
+        "19-ARG-phi",
+        "19-ARG-psi",
+        "20-ASP-phi",
+        "20-ASP-psi",
+        "21-PHE-phi",
+        "21-PHE-psi",
+        "22-ILE-phi",
+        "22-ILE-psi",
+        "23-GLU-phi",
+        "23-GLU-psi",
+        "24-LYS-phi",
+        "24-LYS-psi",
+        "25-PHE-phi",
+        "25-PHE-psi",
+        "26-LYS-phi",
+        "26-LYS-psi",
+        "27-GLY-phi",
+        "27-GLY-psi",
+        "28-ARG-phi"
+      ],
+      "angle_nonfinite_count": 0,
+      "hard_geometry_warning": false,
+      "soft_warning": false
+    },
+    "post100ps_frames": 1800,
+    "Rg_A_min_median_max": [
+      8.167013949043094,
+      9.749750014409344,
+      12.412993113299535
+    ],
+    "Q8_min_median_max": [
+      0.02666666666666667,
+      0.06,
+      0.12333333333333334
+    ],
+    "dRMSD_to_first_A_min_median_max": [
+      0.0,
+      2.4215173616180716,
+      5.508650796658497
+    ],
+    "Rg_lag1": 0.979037754757237,
+    "Q_lag1": 0.8835384054618574,
+    "dihedral_circular_change_from_first_abs_deg_median_p95": [
+      20.641942693043084,
+      121.73888950339106
+    ],
+    "block_100ps": [
+      {
+        "start_ps": 0.5,
+        "Rg_mean_A": 10.16446736149378,
+        "Q8_mean": 0.06683333333333334,
+        "potential_mean_kJ_mol": -5605.392734283982,
+        "temperature_mean_K": 299.939294207606
+      },
+      {
+        "start_ps": 100.5,
+        "Rg_mean_A": 10.4970967419719,
+        "Q8_mean": 0.04821666666666667,
+        "potential_mean_kJ_mol": -5635.192084005098,
+        "temperature_mean_K": 298.76380904752983
+      },
+      {
+        "start_ps": 200.5,
+        "Rg_mean_A": 9.694768773239424,
+        "Q8_mean": 0.0562,
+        "potential_mean_kJ_mol": -5688.275470915682,
+        "temperature_mean_K": 301.3000030115486
+      },
+      {
+        "start_ps": 300.5,
+        "Rg_mean_A": 9.713471105017042,
+        "Q8_mean": 0.0539,
+        "potential_mean_kJ_mol": -5706.458411501653,
+        "temperature_mean_K": 301.03885141217677
+      },
+      {
+        "start_ps": 400.5,
+        "Rg_mean_A": 9.850605360438674,
+        "Q8_mean": 0.051966666666666675,
+        "potential_mean_kJ_mol": -5669.26535347702,
+        "temperature_mean_K": 301.19512943275777
+      },
+      {
+        "start_ps": 500.5,
+        "Rg_mean_A": 9.845395975539903,
+        "Q8_mean": 0.07519999999999999,
+        "potential_mean_kJ_mol": -5681.406155192195,
+        "temperature_mean_K": 299.49862696526185
+      },
+      {
+        "start_ps": 600.5,
+        "Rg_mean_A": 9.519134417643144,
+        "Q8_mean": 0.07233333333333332,
+        "potential_mean_kJ_mol": -5657.282581546104,
+        "temperature_mean_K": 298.2762596668371
+      },
+      {
+        "start_ps": 700.5,
+        "Rg_mean_A": 10.357729528502814,
+        "Q8_mean": 0.06043333333333334,
+        "potential_mean_kJ_mol": -5653.208659402731,
+        "temperature_mean_K": 298.86054371994965
+      },
+      {
+        "start_ps": 800.5,
+        "Rg_mean_A": 9.19037685943003,
+        "Q8_mean": 0.07838333333333333,
+        "potential_mean_kJ_mol": -5674.701271381993,
+        "temperature_mean_K": 300.34134425313545
+      },
+      {
+        "start_ps": 900.5,
+        "Rg_mean_A": 8.87859266507497,
+        "Q8_mean": 0.08323333333333334,
+        "potential_mean_kJ_mol": -5681.870286415025,
+        "temperature_mean_K": 298.19334259141857
+      }
+    ]
+  },
+  {
+    "task": "root-14-1ns",
+    "status": "success",
+    "method": "no_cutoff",
+    "seed": 2026102614,
+    "length_ns": 1.0,
+    "initial_ns": 0.0,
+    "final_ns": 1.0,
+    "restart": "minimized_coordinates_and_seeded_velocities",
+    "initialization_s": 2.269296742975712,
+    "integration_reporter_checkpoint_s": 52.06911428645253,
+    "expected_frames": 2000,
+    "systems": {
+      "system_sha256": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "forces": [
+        {
+          "class": "HarmonicBondForce",
+          "group": 2
+        },
+        {
+          "class": "PeriodicTorsionForce",
+          "group": 2
+        },
+        {
+          "class": "NonbondedForce",
+          "group": 0,
+          "getNonbondedMethod": "0",
+          "getCutoffDistance": "1.0 nm",
+          "getReactionFieldDielectric": "1.0",
+          "getUseSwitchingFunction": "False",
+          "getUseDispersionCorrection": "True",
+          "global_parameters": {}
+        },
+        {
+          "class": "CMMotionRemover",
+          "group": 2
+        },
+        {
+          "class": "HarmonicAngleForce",
+          "group": 2
+        },
+        {
+          "class": "CustomGBForce",
+          "group": 1,
+          "getNonbondedMethod": "0",
+          "getCutoffDistance": "1.0 nm",
+          "global_parameters": {}
+        }
+      ],
+      "forcefield_sha256": {
+        "amber14-all.xml": "96d635545c36ce248e37d23ea82fa05ce4d2e1a6a42cd6d0ec5db3cfe30ca44c",
+        "implicit/gbn2.xml": "172fe56b43343e26f5483f55a276dbcf351b759f3abca2a12891778bf08e560b",
+        "amber14/DNA.OL15.xml": "200e7cd116481fb47ed50bfd29deefb84a1e488d73d262c3f3f278b36b80ffa5",
+        "amber14/DNA.bsc1.xml": "4ef74475a35fa6a2ae016df926c25eec6ad86a5b15c7e41820b64dd278a0e122",
+        "amber14/GLYCAM_06j-1.xml": "e8ae14c0bc3f20e91fe92e927d7e636a7639b210dc11aabf4a1e800e44b1a53f",
+        "amber14/RNA.OL3.xml": "61b793a49ded3c9c3bd9fbab328bc1b20b2b4ce7bc2358d537892ca64b085127",
+        "amber14/lipid17.xml": "f974506df14202973637cf5e1d094af5e6098eb04afd2b68c523589ffcf2e780",
+        "amber14/opc.xml": "39d6fec3c760b79e36c1e1b8fa53b1c3ff10c343ebcd0729a629e548f792d101",
+        "amber14/opc3.xml": "5a759a7180734dbb4f4f4e43ccb14b23a4d2bda8961bea12e30d4bc815175b6a",
+        "amber14/protein.ff14SB.xml": "d9f9779c09d67cd5f8bc657692f174ffab14c469dfd06d560ac1899fa7e976b8",
+        "amber14/protein.ff15ipq.xml": "0085c9dc2818a28501f6074a0bb46b994a9787bf4010ff86417fe014b11ab622",
+        "amber14/spce.xml": "b964862a2f11f30bff45d2e0cfad6edea98d96ad701078e5eb1bb8ae258a4577",
+        "amber14/tip3p.xml": "3f4b188dbcb6c02863230eaca231e927fb6bf3307ce947d8a50d0f46f6dd83d9",
+        "amber14/tip3pfb.xml": "6d8e47161b69da99d1f01982939ae078cd7399a5344c7513eef3a207ca6f6128",
+        "amber14/tip4pew.xml": "0638b2492b0be288a63d8ba81e1d98091d9847b09b5598e8fa2cff1123c83546",
+        "amber14/tip4pfb.xml": "b965f0aaa584255e485b4fd3b7448e0848326493d3c8a3dde2a3addbe7c0421c"
+      },
+      "particles": 504,
+      "constraints": 253,
+      "periodic": false
+    },
+    "internal_s": 54.38928394205868,
+    "artifacts": {
+      "system.xml": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "initial.pdb": "48740d97172eb2262355e5d7bc2d5c4d698206cb86465a84e07ef50becd7910a",
+      "minimized.pdb": "24d841dbe0208586b39487b8b258e43fcbad92396f15732ce29f3e321ddc786c",
+      "sim.dcd": "ae5f6005bf17d837fd592e0191d112e67eb70244dad2891166130ea239a40c04",
+      "sim.csv": "8c3f52011ed1a42228322249571e9c94ee932914c6b68552c49e629de562e6d6",
+      "final.chk": "969bbec20e342c1642ee7ee83273670ea5c8014f6023a8e23b2c63d21d59f564",
+      "final.pdb": "fc3c803daa4a03f25cd9da845073294775deff08552d47afb347c15f395a92a4"
+    },
+    "worker_elapsed_s": 54.56633751746267,
+    "quality": {
+      "frames": 2000,
+      "temperature_K_min_median_max": [
+        227.10329364968314,
+        299.46812309467634,
+        345.0869677310887
+      ],
+      "temperature_K_mean": 299.63575152440995,
+      "potential_kJ_mol_min_median_max": [
+        -6043.769697343683,
+        -5684.103956403322,
+        -5449.773725283681
+      ],
+      "CA_adjacent_max_A": 4.135017395019531,
+      "peptide_CN_max_A": 1.4519705772399902,
+      "nonlocal_heavy_min_A_sampled_5ps": 2.528848171234131,
+      "sidechain_chirality_flips_max_sampled_5ps": 0,
+      "constraint_distance_max_error_A": 7.901191711345845e-06,
+      "angle_columns": [
+        "1-GLU-psi",
+        "2-GLN-phi",
+        "2-GLN-psi",
+        "3-TYR-phi",
+        "3-TYR-psi",
+        "4-THR-phi",
+        "4-THR-psi",
+        "5-ALA-phi",
+        "5-ALA-psi",
+        "6-LYS-phi",
+        "6-LYS-psi",
+        "7-TYR-phi",
+        "7-TYR-psi",
+        "8-LYS-phi",
+        "8-LYS-psi",
+        "9-GLY-phi",
+        "9-GLY-psi",
+        "10-ARG-phi",
+        "10-ARG-psi",
+        "11-THR-phi",
+        "11-THR-psi",
+        "12-PHE-phi",
+        "12-PHE-psi",
+        "13-ARG-phi",
+        "13-ARG-psi",
+        "14-ASN-phi",
+        "14-ASN-psi",
+        "15-GLU-phi",
+        "15-GLU-psi",
+        "16-LYS-phi",
+        "16-LYS-psi",
+        "17-GLU-phi",
+        "17-GLU-psi",
+        "18-LEU-phi",
+        "18-LEU-psi",
+        "19-ARG-phi",
+        "19-ARG-psi",
+        "20-ASP-phi",
+        "20-ASP-psi",
+        "21-PHE-phi",
+        "21-PHE-psi",
+        "22-ILE-phi",
+        "22-ILE-psi",
+        "23-GLU-phi",
+        "23-GLU-psi",
+        "24-LYS-phi",
+        "24-LYS-psi",
+        "25-PHE-phi",
+        "25-PHE-psi",
+        "26-LYS-phi",
+        "26-LYS-psi",
+        "27-GLY-phi",
+        "27-GLY-psi",
+        "28-ARG-phi"
+      ],
+      "angle_nonfinite_count": 0,
+      "hard_geometry_warning": false,
+      "soft_warning": false
+    },
+    "post100ps_frames": 1800,
+    "Rg_A_min_median_max": [
+      8.19216656812895,
+      9.156304460268466,
+      10.59329811500895
+    ],
+    "Q8_min_median_max": [
+      0.04,
+      0.08333333333333333,
+      0.12666666666666668
+    ],
+    "dRMSD_to_first_A_min_median_max": [
+      0.0,
+      4.438372411810617,
+      6.395314383980809
+    ],
+    "Rg_lag1": 0.9723588492617001,
+    "Q_lag1": 0.7570748157802687,
+    "dihedral_circular_change_from_first_abs_deg_median_p95": [
+      24.1830477261095,
+      155.89350601789508
+    ],
+    "block_100ps": [
+      {
+        "start_ps": 0.5,
+        "Rg_mean_A": 9.906722312545174,
+        "Q8_mean": 0.0597,
+        "potential_mean_kJ_mol": -5618.6980157625185,
+        "temperature_mean_K": 296.4664798581291
+      },
+      {
+        "start_ps": 100.5,
+        "Rg_mean_A": 9.283184306010847,
+        "Q8_mean": 0.07266666666666667,
+        "potential_mean_kJ_mol": -5706.958970674803,
+        "temperature_mean_K": 297.1263255720594
+      },
+      {
+        "start_ps": 200.5,
+        "Rg_mean_A": 9.986868045339223,
+        "Q8_mean": 0.06841666666666667,
+        "potential_mean_kJ_mol": -5653.383475098999,
+        "temperature_mean_K": 300.58693005643966
+      },
+      {
+        "start_ps": 300.5,
+        "Rg_mean_A": 9.851704357363845,
+        "Q8_mean": 0.08086666666666666,
+        "potential_mean_kJ_mol": -5685.319645642807,
+        "temperature_mean_K": 298.1785993992473
+      },
+      {
+        "start_ps": 400.5,
+        "Rg_mean_A": 9.093477060536905,
+        "Q8_mean": 0.08881666666666668,
+        "potential_mean_kJ_mol": -5691.240535051492,
+        "temperature_mean_K": 300.6928473852562
+      },
+      {
+        "start_ps": 500.5,
+        "Rg_mean_A": 9.044675599202735,
+        "Q8_mean": 0.08366666666666667,
+        "potential_mean_kJ_mol": -5662.13037548563,
+        "temperature_mean_K": 303.06723060999116
+      },
+      {
+        "start_ps": 600.5,
+        "Rg_mean_A": 9.107505158968578,
+        "Q8_mean": 0.09311666666666668,
+        "potential_mean_kJ_mol": -5713.392158335858,
+        "temperature_mean_K": 299.25957460437536
+      },
+      {
+        "start_ps": 700.5,
+        "Rg_mean_A": 8.932794051153115,
+        "Q8_mean": 0.09024999999999998,
+        "potential_mean_kJ_mol": -5704.98924754994,
+        "temperature_mean_K": 300.5495728976988
+      },
+      {
+        "start_ps": 800.5,
+        "Rg_mean_A": 8.931418989594208,
+        "Q8_mean": 0.07998333333333334,
+        "potential_mean_kJ_mol": -5694.728736382257,
+        "temperature_mean_K": 299.0085283127592
+      },
+      {
+        "start_ps": 900.5,
+        "Rg_mean_A": 8.96708711695137,
+        "Q8_mean": 0.08001666666666667,
+        "potential_mean_kJ_mol": -5697.9712884711835,
+        "temperature_mean_K": 301.4214265481437
+      }
+    ]
+  }
+]

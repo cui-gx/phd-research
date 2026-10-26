@@ -1,0 +1,62 @@
+[
+  {
+    "seed": 2026102611,
+    "main_stride_U": {
+      "1": 13,
+      "2": 12,
+      "4": 12,
+      "10": 11
+    },
+    "all_grid_U_min_max": [
+      3,
+      49
+    ],
+    "all_grid_U_over_N_max": 0.05131578947368421,
+    "all_grid_max_bin_fraction": 0.7973684210526316
+  },
+  {
+    "seed": 2026102612,
+    "main_stride_U": {
+      "1": 11,
+      "2": 11,
+      "4": 11,
+      "10": 10
+    },
+    "all_grid_U_min_max": [
+      3,
+      54
+    ],
+    "all_grid_U_over_N_max": 0.056578947368421055,
+    "all_grid_max_bin_fraction": 0.8671052631578947
+  },
+  {
+    "seed": 2026102613,
+    "main_stride_U": {
+      "1": 14,
+      "2": 13,
+      "4": 12,
+      "10": 12
+    },
+    "all_grid_U_min_max": [
+      3,
+      52
+    ],
+    "all_grid_U_over_N_max": 0.05263157894736842,
+    "all_grid_max_bin_fraction": 0.8973684210526316
+  },
+  {
+    "seed": 2026102614,
+    "main_stride_U": {
+      "1": 10,
+      "2": 9,
+      "4": 9,
+      "10": 6
+    },
+    "all_grid_U_min_max": [
+      2,
+      40
+    ],
+    "all_grid_U_over_N_max": 0.0425,
+    "all_grid_max_bin_fraction": 0.9628205128205128
+  }
+]

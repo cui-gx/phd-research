@@ -1,0 +1,38 @@
+[
+  {
+    "seed": 2026102611,
+    "max_same_grid_drmsd_A": 6.618948732823546,
+    "frames": [
+      330,
+      5390
+    ],
+    "subsample_ps": 5
+  },
+  {
+    "seed": 2026102612,
+    "max_same_grid_drmsd_A": 7.83016269159326,
+    "frames": [
+      3640,
+      7240
+    ],
+    "subsample_ps": 5
+  },
+  {
+    "seed": 2026102613,
+    "max_same_grid_drmsd_A": 8.534207383704098,
+    "frames": [
+      1570,
+      7250
+    ],
+    "subsample_ps": 5
+  },
+  {
+    "seed": 2026102614,
+    "max_same_grid_drmsd_A": 8.37415940008237,
+    "frames": [
+      2380,
+      4470
+    ],
+    "subsample_ps": 5
+  }
+]

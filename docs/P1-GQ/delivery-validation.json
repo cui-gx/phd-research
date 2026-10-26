@@ -1,0 +1,24 @@
+{
+  "status": "PASS_DELIVERY_INTEGRITY_ONLY",
+  "required_reports": 9,
+  "document_SHA256": {
+    "analysis-plan.md": "2194f13d9d01e43b2d8ef679c61591c7e551307e9856f4871685c1923239affc",
+    "amendments.md": "97df458483a0b51ac59f45a4323be78a79c98a8f5681fac5d2d643d72cf41909",
+    "physics-protocol.md": "07b0dcc02790269286809f8da889b380cc7b46b37d838781d6121f0982f31975",
+    "reproduce.md": "871a4829a66d66ee120d6bf4dab76238fa543f041389750bd4666c5c1e16bd28",
+    "execution-report.md": "0f8ee1753a2482f45835af6414e438f3f2b8bb7ebf1c2532d1f31cfe827d8cb7",
+    "trajectory-diagnostics.md": "ba2de51cad2a67c654552412b23ae1b55941ca20d5a840b76017c1b0e5a50ab8",
+    "evaluation-readiness.md": "9264e007ee6f38d674cf9d4bb9f9ab828620cd162b076cb5105f6702da0e7505",
+    "cost-and-runtime.md": "060cbe056723bdbd21cbc45d633f898791b3d904ecca024a5019a041915e505d",
+    "next-stage-recommendation.md": "a5fc8f989b66a351b1bb9c9e038674e1c9ca16ba915a900358a86eb9d1edea43",
+    "supervisor-summary-ja.md": "4f2251cb74a46ec1ab1e5753eec273d010766704ce1d1dfb7993a98e1bb7edd3",
+    "README.md": "2064f4456efde071aa3dcb4ce11925eb88c7a03771aaba02c5d541313bfe58cf"
+  },
+  "relative_link_errors": [],
+  "GPU_used_s": 928.6962251588702,
+  "raw_backup_verified": true,
+  "cleanup_verified": true,
+  "scientific_evaluation_ready": false,
+  "S3": "NOT_APPROVED",
+  "independent_review": "old_S2_INCOMPLETE; current_GQ_author_self_check_only"
+}

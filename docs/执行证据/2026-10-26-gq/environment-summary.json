@@ -1,0 +1,18 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "packages": {
+    "openmm": "8.5.2",
+    "torch": "2.7.1+cu128",
+    "numpy": "1.26.4",
+    "MDAnalysis": "2.9.0",
+    "mdlearn": "0.0.10a1",
+    "parsl": "2025.10.20",
+    "scikit-learn": "1.6.1",
+    "matplotlib": "3.10.1",
+    "psutil": "7.0.0"
+  },
+  "openmm_build": "8.5.2.dev-36a30cb",
+  "gpu_inventory_without_private_identifiers": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition, 97887 MiB, 590.48.01",
+  "CPU_affinity_count": 3,
+  "numerical_threads": 2
+}

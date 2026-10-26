@@ -23,7 +23,7 @@
 5. 每项执行使用`python -B -m p1.server.gq_control --root <唯一round目录> --name <唯一task> --stage <gq1/gq2/gq3/reserve> --request <冻结JSON> --lease <私有许可> --timeout <本次上限>`。worker请求与执行记录为精确参数来源，禁止复制命令后擅自增加任务。
 6. GQ1固定坐标→3×100ps→服务器分析并写准入依据；GQ2按seed顺序4×1ns→分析；只有预定条件满足才进行GQ3续算。
 7. 服务器CPU分析：`python -B -m p1.server.gq_analysis --root <round> --output <新的不可覆盖分析目录>`，固定最多3逻辑CPU、2数值线程；该进程不持有GPU上下文。保留每次新分析及旧失败。
-8. 必要AI成本测试使用原有science.run_request接口，对固定已有S2池匹配输入与初始checkpoint；结果仅资格/耗时，不从选中构象启动MD。
+8. 必要AI成本测试使用既有mdlearn公共fit/predict及checkpoint恢复接口，对固定已有S2池匹配输入与初始checkpoint，并保留原MD配置ID；结果仅资格/耗时，不从选中构象启动MD。
 9. 结束检查预算、缺失、SHA和原始证据，输出JSON/CSV及图，远端保留大文件并做授权本地备份，双端SHA核验。
 
 ## 4. 文件类型
@@ -35,3 +35,5 @@ GitHub仅放报告、代码、紧凑派生表和脱敏manifest，不上传DCD、
 ## 5. 计算与统计解释
 
 全部力/结构数值和图在服务器计算，Mac只进行文件/JSON组织、传输、SHA和文档完整性检查。frame非独立重复、续算非新根。四个速度/噪声流共用同一准备结构，只条件于该结构；校准/留出不代表外部科学验证。所有阈值是本次探索候选，正式协议尚未合格。
+
+结束收据：[双端备份SHA核验](../执行证据/2026-10-26-gq/backup-verification.json)、[环境清理核验](../执行证据/2026-10-26-gq/cleanup-verification.json)、[完整依赖锁（安装私有路径已去除）](../执行证据/2026-10-26-gq/requirements.lock.txt)。473,059,853字节归档双端SHA一致，解包后263原始文件逐项匹配；仅移除本人GQ环境/缓存，旧336文件清理后仍一致。

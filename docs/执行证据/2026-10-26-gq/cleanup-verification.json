@@ -1,0 +1,12 @@
+{
+  "status": "clean",
+  "removed_runtime_relative": "source/.runtime/gq-r1-20261026",
+  "logical_file_bytes_removed": 9055780007,
+  "runtime_absent": true,
+  "own_GQ_processes_remaining": [],
+  "old_S1_S2_files_verified_after_cleanup": 336,
+  "raw_runs_and_archives_preserved": true,
+  "shared_system_or_global_git_modified": false,
+  "other_users_processes_stopped": false,
+  "GPU_total_s": 928.6962251588702
+}

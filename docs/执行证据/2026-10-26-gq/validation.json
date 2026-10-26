@@ -1,0 +1,12 @@
+{
+  "status": "PASS_ARTIFACT_AND_BUDGET_CHECKS_ONLY",
+  "scientific_evaluation_ready": false,
+  "S3": "NOT_APPROVED",
+  "task_count": 21,
+  "raw_files": 263,
+  "original_files_verified": 336,
+  "failed_GPU_tasks": 0,
+  "missing_pending_tasks": false,
+  "phase_caps_respected": true,
+  "source_role": "exploratory_GQ_not_BC_effect_data"
+}

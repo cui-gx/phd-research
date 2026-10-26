@@ -1,0 +1,367 @@
+[
+  {
+    "calibration_horizon_ns": 1.0,
+    "validation_horizon_ns": 1.0,
+    "validation_seed": 2026102613,
+    "epsilon_A": 1.0,
+    "K": 237,
+    "visited_centers": [],
+    "visited": 0,
+    "visited_over_K": 0.0,
+    "out_of_library_frames": 1800,
+    "out_of_library_fraction": 1.0,
+    "nearest_D_A_median_p90_max": [
+      2.1988713180389623,
+      3.3822219341802846,
+      4.1146454599877655
+    ]
+  },
+  {
+    "calibration_horizon_ns": 1.0,
+    "validation_horizon_ns": 3.999999999990177,
+    "validation_seed": 2026102613,
+    "epsilon_A": 1.0,
+    "K": 237,
+    "visited_centers": [],
+    "visited": 0,
+    "visited_over_K": 0.0,
+    "out_of_library_frames": 7800,
+    "out_of_library_fraction": 1.0,
+    "nearest_D_A_median_p90_max": [
+      3.399066746295891,
+      5.275562986987759,
+      6.046103448623553
+    ]
+  },
+  {
+    "calibration_horizon_ns": 1.0,
+    "validation_horizon_ns": 1.0,
+    "validation_seed": 2026102614,
+    "epsilon_A": 1.0,
+    "K": 237,
+    "visited_centers": [],
+    "visited": 0,
+    "visited_over_K": 0.0,
+    "out_of_library_frames": 1800,
+    "out_of_library_fraction": 1.0,
+    "nearest_D_A_median_p90_max": [
+      3.3878635640295856,
+      4.206722496030654,
+      4.7359381580244575
+    ]
+  },
+  {
+    "calibration_horizon_ns": 1.0,
+    "validation_horizon_ns": 3.999999999990177,
+    "validation_seed": 2026102614,
+    "epsilon_A": 1.0,
+    "K": 237,
+    "visited_centers": [],
+    "visited": 0,
+    "visited_over_K": 0.0,
+    "out_of_library_frames": 7800,
+    "out_of_library_fraction": 1.0,
+    "nearest_D_A_median_p90_max": [
+      4.157724798978579,
+      4.85876599463665,
+      5.746810973470453
+    ]
+  },
+  {
+    "calibration_horizon_ns": 1.0,
+    "validation_horizon_ns": 1.0,
+    "validation_seed": 2026102613,
+    "epsilon_A": 2.0,
+    "K": 41,
+    "visited_centers": [
+      4,
+      7,
+      16,
+      17,
+      23
+    ],
+    "visited": 5,
+    "visited_over_K": 0.12195121951219512,
+    "out_of_library_frames": 1745,
+    "out_of_library_fraction": 0.9694444444444444,
+    "nearest_D_A_median_p90_max": [
+      2.5215891379708975,
+      3.8760317140802423,
+      4.234913251211669
+    ]
+  },
+  {
+    "calibration_horizon_ns": 1.0,
+    "validation_horizon_ns": 3.999999999990177,
+    "validation_seed": 2026102613,
+    "epsilon_A": 2.0,
+    "K": 41,
+    "visited_centers": [
+      4,
+      7,
+      16,
+      17,
+      23
+    ],
+    "visited": 5,
+    "visited_over_K": 0.12195121951219512,
+    "out_of_library_frames": 7745,
+    "out_of_library_fraction": 0.992948717948718,
+    "nearest_D_A_median_p90_max": [
+      3.7349923077511296,
+      5.416113164438645,
+      6.3344943592433
+    ]
+  },
+  {
+    "calibration_horizon_ns": 1.0,
+    "validation_horizon_ns": 1.0,
+    "validation_seed": 2026102614,
+    "epsilon_A": 2.0,
+    "K": 41,
+    "visited_centers": [],
+    "visited": 0,
+    "visited_over_K": 0.0,
+    "out_of_library_frames": 1800,
+    "out_of_library_fraction": 1.0,
+    "nearest_D_A_median_p90_max": [
+      3.52880422177238,
+      4.333654603604314,
+      5.008690966672352
+    ]
+  },
+  {
+    "calibration_horizon_ns": 1.0,
+    "validation_horizon_ns": 3.999999999990177,
+    "validation_seed": 2026102614,
+    "epsilon_A": 2.0,
+    "K": 41,
+    "visited_centers": [],
+    "visited": 0,
+    "visited_over_K": 0.0,
+    "out_of_library_frames": 7800,
+    "out_of_library_fraction": 1.0,
+    "nearest_D_A_median_p90_max": [
+      4.284114414123097,
+      5.023667396396902,
+      5.9431556553044755
+    ]
+  },
+  {
+    "calibration_horizon_ns": 1.0,
+    "validation_horizon_ns": 1.0,
+    "validation_seed": 2026102613,
+    "epsilon_A": 4.0,
+    "K": 5,
+    "visited_centers": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "visited": 5,
+    "visited_over_K": 1.0,
+    "out_of_library_frames": 309,
+    "out_of_library_fraction": 0.17166666666666666,
+    "nearest_D_A_median_p90_max": [
+      2.9992592524142427,
+      4.560770423248463,
+      5.033491590903243
+    ]
+  },
+  {
+    "calibration_horizon_ns": 1.0,
+    "validation_horizon_ns": 3.999999999990177,
+    "validation_seed": 2026102613,
+    "epsilon_A": 4.0,
+    "K": 5,
+    "visited_centers": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "visited": 5,
+    "visited_over_K": 1.0,
+    "out_of_library_frames": 4953,
+    "out_of_library_fraction": 0.635,
+    "nearest_D_A_median_p90_max": [
+      4.233390464356951,
+      6.1876014813411455,
+      7.273082905990779
+    ]
+  },
+  {
+    "calibration_horizon_ns": 1.0,
+    "validation_horizon_ns": 1.0,
+    "validation_seed": 2026102614,
+    "epsilon_A": 4.0,
+    "K": 5,
+    "visited_centers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "visited": 4,
+    "visited_over_K": 0.8,
+    "out_of_library_frames": 918,
+    "out_of_library_fraction": 0.51,
+    "nearest_D_A_median_p90_max": [
+      4.014687002741759,
+      5.143750108981017,
+      5.761657723151482
+    ]
+  },
+  {
+    "calibration_horizon_ns": 1.0,
+    "validation_horizon_ns": 3.999999999990177,
+    "validation_seed": 2026102614,
+    "epsilon_A": 4.0,
+    "K": 5,
+    "visited_centers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "visited": 4,
+    "visited_over_K": 0.8,
+    "out_of_library_frames": 6918,
+    "out_of_library_fraction": 0.8869230769230769,
+    "nearest_D_A_median_p90_max": [
+      4.862793915840729,
+      5.587722073557714,
+      6.406378281921291
+    ]
+  },
+  {
+    "calibration_horizon_ns": 3.999999999990177,
+    "validation_horizon_ns": 3.999999999990177,
+    "validation_seed": 2026102613,
+    "epsilon_A": 1.0,
+    "K": 607,
+    "visited_centers": [],
+    "visited": 0,
+    "visited_over_K": 0.0,
+    "out_of_library_frames": 7800,
+    "out_of_library_fraction": 1.0,
+    "nearest_D_A_median_p90_max": [
+      2.9549414220675088,
+      3.2293632298774626,
+      4.262386856211593
+    ]
+  },
+  {
+    "calibration_horizon_ns": 3.999999999990177,
+    "validation_horizon_ns": 3.999999999990177,
+    "validation_seed": 2026102614,
+    "epsilon_A": 1.0,
+    "K": 607,
+    "visited_centers": [],
+    "visited": 0,
+    "visited_over_K": 0.0,
+    "out_of_library_frames": 7800,
+    "out_of_library_fraction": 1.0,
+    "nearest_D_A_median_p90_max": [
+      3.5856690177461648,
+      3.9163539424673384,
+      4.3473615342100045
+    ]
+  },
+  {
+    "calibration_horizon_ns": 3.999999999990177,
+    "validation_horizon_ns": 3.999999999990177,
+    "validation_seed": 2026102613,
+    "epsilon_A": 2.0,
+    "K": 86,
+    "visited_centers": [
+      4,
+      7,
+      38,
+      39,
+      45
+    ],
+    "visited": 5,
+    "visited_over_K": 0.05813953488372093,
+    "out_of_library_frames": 7745,
+    "out_of_library_fraction": 0.992948717948718,
+    "nearest_D_A_median_p90_max": [
+      3.0548535004637403,
+      3.365706090285442,
+      4.479615333134803
+    ]
+  },
+  {
+    "calibration_horizon_ns": 3.999999999990177,
+    "validation_horizon_ns": 3.999999999990177,
+    "validation_seed": 2026102614,
+    "epsilon_A": 2.0,
+    "K": 86,
+    "visited_centers": [],
+    "visited": 0,
+    "visited_over_K": 0.0,
+    "out_of_library_frames": 7800,
+    "out_of_library_fraction": 1.0,
+    "nearest_D_A_median_p90_max": [
+      3.6581436481324685,
+      4.0581773478785585,
+      4.724006301901718
+    ]
+  },
+  {
+    "calibration_horizon_ns": 3.999999999990177,
+    "validation_horizon_ns": 3.999999999990177,
+    "validation_seed": 2026102613,
+    "epsilon_A": 4.0,
+    "K": 9,
+    "visited_centers": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "visited": 9,
+    "visited_over_K": 1.0,
+    "out_of_library_frames": 225,
+    "out_of_library_fraction": 0.028846153846153848,
+    "nearest_D_A_median_p90_max": [
+      3.348658125817117,
+      3.8368752386445864,
+      4.480071398052418
+    ]
+  },
+  {
+    "calibration_horizon_ns": 3.999999999990177,
+    "validation_horizon_ns": 3.999999999990177,
+    "validation_seed": 2026102614,
+    "epsilon_A": 4.0,
+    "K": 9,
+    "visited_centers": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8
+    ],
+    "visited": 8,
+    "visited_over_K": 0.8888888888888888,
+    "out_of_library_frames": 4369,
+    "out_of_library_fraction": 0.5601282051282052,
+    "nearest_D_A_median_p90_max": [
+      4.4634070565011665,
+      4.938969279878948,
+      5.543301181390537
+    ]
+  }
+]

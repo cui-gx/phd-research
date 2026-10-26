@@ -1,5 +1,13 @@
 # Doctoral Research — Codex Instructions
 
+## GQ round 1 delivered and stopped (2026-10-26)
+
+- Completed approved exploratory GQ round: 21 successful GPU tasks, 16.3ns total MD, 928.696225s cumulative GPU occupation of 3600s cap. All phase caps respected. Unused budget is NOT permission to continue. See `docs/P1-GQ/README.md`.
+- NoCutoff is an exploratory candidate, not a certified formal MD protocol. Coarse Rg/Q is descriptive; fine fixed libraries still fail held-out representativeness and low-dimensional shape aliasing remains. `evaluation_ready=false`.
+- Main science/analysis executed on server. Old S1/S2 integrity verified; stage report, compact evidence, archive and cleanup receipts distinguish local and GitHub contents.
+- Stop for researcher/planning review. S2 independent final review remains INCOMPLETE. B1/B2/C effect studies and S3 remain NOT APPROVED; do not reuse the remaining 2671.303775s as a new authorization.
+
+
 ## GQ round 1 approval (2026-10-26)
 
 - Researcher APPROVED a bounded exploratory GQ round, cumulative single-GPU occupation at most 3600s, including failures/retries/warmup. Stage caps: GQ1 600s, GQ2 1200s, GQ3 1200s, reserve 600s; never reset or transfer scope. See `docs/P1-GQ/analysis-plan.md`.

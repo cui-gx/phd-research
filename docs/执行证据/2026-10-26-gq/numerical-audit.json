@@ -1,0 +1,7 @@
+{
+  "component_energy_sum_max_abs_kJ_mol": 0.0001514267423772253,
+  "component_force_sum_max_abs_kJ_mol_nm": 0.00134364515542984,
+  "component_checks": 60,
+  "new_MD_artifact_hash_mismatches": [],
+  "component_force_sum_max_relative_L2": 9.184493466000725e-08
+}

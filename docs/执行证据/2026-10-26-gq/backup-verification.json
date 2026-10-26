@@ -1,0 +1,9 @@
+{
+  "archive_sha256": "10060d3b0eca53b29834a39f271e0fb8abe053efaad5e492eaf46e0e9f6b8548",
+  "archive_bytes": 473059853,
+  "server_and_Mac_archive_SHA_match": true,
+  "raw_files_verified_after_extraction": 263,
+  "local_backup": "results/raw/remote/2026-10-26-P1-GQ",
+  "raw_data_uploaded_to_GitHub": false,
+  "GPU_used_s": 928.6962251588702
+}
