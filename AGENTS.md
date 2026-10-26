@@ -1,6 +1,6 @@
 # Doctoral Research — Codex Instructions
 
-> 最新状態：2026-10-26のB1 Pilotは承認範囲の数値計算を完了した。下部の完了記録と `docs/P1-B1-Pilot/README.md` を読み、研究者審査を待つ。新しい計算・正式B1/B2/C/S3への拡大は未承認。旧GQ60分上限は長期GPU規則として復活させない。
+> 最新承認：B1 Expansion（2026-10-26）。下部の新承認と docs/P1-B1-Expansion/analysis-plan.md を優先する。旧Pilot停止は今回の明示範囲を妨げない。B2/C正式予測/S3は禁止。
 
 ## GQ round 1 delivered and stopped (2026-10-26)
 
@@ -142,3 +142,10 @@ Read `research-workflow/local-workspace-instructions.md` for local safety, stage
 - 本Pilotの承認済み科学計算は終了した。バックアップ・清掃・同期の状態は個別の検証記録を確認し、追加解析/MD/学習を自動実行しない。次は研究者/計画側の審査のみ。正式B1/B2/C/S3未承認、S2独立終審INCOMPLETEを維持する。
 
 - **MEASURED閉鎖**：B1の完全アーカイブはサーバ/Mac双方SHA一致、登録済み一時環境とキャッシュを清掃済み。原始証拠と旧結果を再照合した。詳細はB1報告のbackup/cleanup検証を参照。次の計算には新たな研究者承認が必要。
+
+## B1 Expansion の承認（2026-10-26）
+
+- **CONFIRMED**：研究者が8根×連続8 ns、4/8 nsの16状態、F0共有3本・F1/F2各2学習seed×3MDseed、各4 ns（下流240本/960 ns、履歴64 ns）を承認した。既存Pilot完了停止をこの範囲で更新する。唯一の絶対指標は要件としない。
+- 事前計画・全乱数/順序/指標・X/Z/WをGPU計算前にpushし回読する。8祖先根を頂点単位とし、同根2状態と共有F0を独立複製としない。固定MD量でありB2純利益ではない。
+- GPU合計の人為上限なし、共有資源の再検査・範囲・RSS/ディスク/単体異常保護は維持する。主数値はサーバ、Macは開発/同期/SHA。本人領域のみ、旧証拠は不変。
+- X/Z/Wの前置診断のみ許可。正式C価値予測器/B2/オンライン方策/S3、16状態/240本を超える追加科学実験は未承認。今回全範囲を評価・保存・清掃・同期した後停止して審査を待つ。S2独立終審INCOMPLETEを維持する。

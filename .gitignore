@@ -289,3 +289,19 @@
 !/p1/server/b1_*.py
 !/tests/p1/test_b1_pilot.py
 ._*
+
+# B1拡張：事前計画・コード・小規模証拠のみ共有する
+!/docs/P1-B1-Expansion/
+/docs/P1-B1-Expansion/*
+!/docs/P1-B1-Expansion/*.md
+!/docs/P1-B1-Expansion/*.json
+!/docs/P1-B1-Expansion/*.csv
+!/p1/server/expansion_*.py
+!/tests/p1/test_b1_expansion.py
+!/docs/执行证据/2026-10-26-b1-expansion/
+/docs/执行证据/2026-10-26-b1-expansion/*
+!/docs/执行证据/2026-10-26-b1-expansion/*.json
+!/docs/执行证据/2026-10-26-b1-expansion/*.csv
+!/docs/执行证据/2026-10-26-b1-expansion/*.txt
+!/docs/执行证据/2026-10-26-b1-expansion/*.png
+._*
