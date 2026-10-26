@@ -1,0 +1,14 @@
+{
+  "phase": "quality",
+  "wall_s": 35.99118660017848,
+  "cpu_s": 36.034634318,
+  "peak_RSS_KiB": 227680,
+  "affinity": [
+    0,
+    1,
+    2
+  ],
+  "GPU_compute": false,
+  "source_sha256": "f1c2306e10d3bb71dc220b1b3ea17f8ac9d8a71be699dfc7bec8db23ad5d852b",
+  "plan_commit": "94d96bc24c8c35dca7f08452809b2a35239a9da3"
+}

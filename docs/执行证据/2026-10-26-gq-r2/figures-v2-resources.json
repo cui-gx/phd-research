@@ -1,0 +1,12 @@
+{
+  "time_UTC": "2026-10-26T02:51:43Z",
+  "CPU_0_1_2_percent": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "available_memory_bytes": 124086038528,
+  "GPU_process_count": 0,
+  "GPU_query_returncode": 0,
+  "kind": "CPU\u9650\u5b9a\u3002GPU\u306e\u4f7f\u7528\u6a29\u3092\u4e3b\u5f35\u3057\u306a\u3044\u3002"
+}

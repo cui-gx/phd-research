@@ -1,0 +1,28 @@
+{
+  "status": "DERIVED",
+  "sensitivity_rows": 1536,
+  "expected_rows": 1536,
+  "regions_min_max": [
+    1,
+    4743
+  ],
+  "all_raw_hashes_unchanged": true,
+  "source_sha256": {
+    "p1/server/gq_r2.py": "0621e81df75ccd8a61a842ef42e13b2d01d0e8c3c6b7190298a3a9e3c8f5426d",
+    "p1/server/gq_r2_run.py": "5431cf683f234ad10bd3f042f012a25e8b7a29a35e16140b1428184bac434098",
+    "p1/server/gq_r2_publish.py": "bf900c6ee0ac07af9b069564ac9975e431a240fa7778f08285bbad797ece94de",
+    "tests/p1/test_gq_r2.py": "72d4c293ef172af8db059a52c6b96aee4f4e6ba90795540f37f483cd851a0c21",
+    "quality-source.py": "f1c2306e10d3bb71dc220b1b3ea17f8ac9d8a71be699dfc7bec8db23ad5d852b",
+    "calibration-v1-source.py": "b83020a9dc487eb28a8245a2568a9033de09cd11288e60facdc676fb3ea21420"
+  },
+  "scientific_strategy_comparisons": false,
+  "GPU_compute_seconds": 0,
+  "execution_wall_s_including_failure": 152.1388211864978,
+  "max_sampled_peak_RSS_bytes": 264237056,
+  "artifact_storage_bytes": 344077690,
+  "environment_storage_bytes": 501470566,
+  "limits_met": true,
+  "evidence_type": "derived analysis / server CPU measurement",
+  "S2_independent_final_review": "INCOMPLETE",
+  "S3": "NOT APPROVED"
+}

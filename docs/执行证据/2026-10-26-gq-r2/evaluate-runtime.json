@@ -1,0 +1,14 @@
+{
+  "phase": "evaluate",
+  "wall_s": 103.95596177037805,
+  "cpu_s": 104.021103658,
+  "peak_RSS_KiB": 266708,
+  "affinity": [
+    0,
+    1,
+    2
+  ],
+  "GPU_compute": false,
+  "source_sha256": "0621e81df75ccd8a61a842ef42e13b2d01d0e8c3c6b7190298a3a9e3c8f5426d",
+  "plan_commit": "94d96bc24c8c35dca7f08452809b2a35239a9da3"
+}

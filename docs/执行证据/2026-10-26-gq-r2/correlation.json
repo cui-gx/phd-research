@@ -1,0 +1,30 @@
+[
+  {
+    "seed": 11,
+    "Rg_lag0p5ps": 0.9863953310535486,
+    "first_nonpositive_ps": 878.0,
+    "truncated_integrated_time_ps": 324.8676892836318,
+    "caution": "非定常性のある有限系列の記述。ESSや平衡性の認証ではない。"
+  },
+  {
+    "seed": 12,
+    "Rg_lag0p5ps": 0.9886390957573858,
+    "first_nonpositive_ps": 1126.0,
+    "truncated_integrated_time_ps": 352.66358045564283,
+    "caution": "非定常性のある有限系列の記述。ESSや平衡性の認証ではない。"
+  },
+  {
+    "seed": 13,
+    "Rg_lag0p5ps": 0.9769465223450565,
+    "first_nonpositive_ps": 377.5,
+    "truncated_integrated_time_ps": 79.03292226157899,
+    "caution": "非定常性のある有限系列の記述。ESSや平衡性の認証ではない。"
+  },
+  {
+    "seed": 14,
+    "Rg_lag0p5ps": 0.9755278676297179,
+    "first_nonpositive_ps": 647.5,
+    "truncated_integrated_time_ps": 153.68255907055732,
+    "caution": "非定常性のある有限系列の記述。ESSや平衡性の認証ではない。"
+  }
+]

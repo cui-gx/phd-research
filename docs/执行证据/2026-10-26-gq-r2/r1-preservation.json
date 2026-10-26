@@ -1,0 +1,1321 @@
+{
+  "files": 263,
+  "all_unchanged": true,
+  "artifacts": [
+    {
+      "artifact": "budget-ledger.json",
+      "sha256": "0961f5ab3e92e23eb98723c2b60d4203384fd58ad1ebae496531d6cece3f9c9f",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-01/occupancy.json",
+      "sha256": "abcbc5038c99a7c5d833cc047a5e4239a710c7c2082c888603b5c8dbbfb109d6",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-01/request.json",
+      "sha256": "43360ab0ffa0aa30b46100d4664b50f064761edd7a3095bc34699d93ca90a5fc",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-01/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-01/stderr.txt",
+      "sha256": "7d5e94bb82abe231ec26d0c497fd6dcac8ec83e65926afd86b6fe7d8cf9e641d",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-01/gpu.csv",
+      "sha256": "a31b1bc182e4c4c5fd7557eeda0b155b4c710a152785153500cf74fd4f621cd7",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-01/process.json",
+      "sha256": "de1f2522ff6587071662906897e6c33be825acd96ff333239bd5d02a1f560892",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-01/execution.json",
+      "sha256": "eac68d3d8e4f62271d8387927e01ab6b33cbf11c76a1f972e36fe47141413063",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_1nm/occupancy.json",
+      "sha256": "b0f77278a94f2a39714fb247b46cbefb6fd2074d43d65fac6f0ecd7de69a7709",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_1nm/request.json",
+      "sha256": "893ed61befff9f3cfcf195f671837351296cd3591675b6f929f9e33e736d096d",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_1nm/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_1nm/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_1nm/gpu.csv",
+      "sha256": "04acf2984c1e8392a69af3a2c1007f41b7812fc4cd19db45f5abb42d1273e2fe",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_1nm/process.json",
+      "sha256": "f4b10f3c070bc6390b5c0bd5e6b984d72662da45462f2f15a8ad882bb8c83c27",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_1nm/execution.json",
+      "sha256": "d5742eb83462d39af9ff04e60dbdd91f2471d8956b0a4eda3c32a3e5f20bdd6a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_2nm/occupancy.json",
+      "sha256": "0a33082a355c719937e0f0499f766a6dd5eb6dca3e9444949ebe5066a126cb4f",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_2nm/request.json",
+      "sha256": "51acb176cc4c1eb0846bc4d8f0ed65409a5faa791a19d324e087d256a755b47e",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_2nm/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_2nm/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_2nm/gpu.csv",
+      "sha256": "807bb8dc36cbc413d025c413ebbc1d315a099511d5a4a17ad34f525615b34955",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_2nm/process.json",
+      "sha256": "0474bfae948b4816d28ef9b9d8e4eeda5f411fbc0d351706349897f34dd5700f",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_2nm/execution.json",
+      "sha256": "af0bb2172a34b1428f05b92924cfaa94cf583d26e8b0e4a545a7ef967fa69f50",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-no_cutoff/occupancy.json",
+      "sha256": "7181fe39bfcf81d07ac60719c22f9adca9049712d41978222a033a5d03f09683",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-no_cutoff/request.json",
+      "sha256": "5e5df98d61a56d42c08a60533eae7c1ac1e77dc547221f40919d8c8f9d96159a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-no_cutoff/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-no_cutoff/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-no_cutoff/gpu.csv",
+      "sha256": "88b67332d6b1a1e973489aab2724d4fb241438aa9c28cf830e1beaf820b1a047",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-no_cutoff/process.json",
+      "sha256": "d0fdf75da60da7d7f4008df4711dc3ef22e0403faac408eb744d6f5a4af893fb",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-no_cutoff/execution.json",
+      "sha256": "640c34e66270ce6424f56e757c8e2694923bc3b1067d378b3a671eed8e6c0f6b",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-11-1ns/occupancy.json",
+      "sha256": "8a5f451fbd07dfee1891c66a48a76cc14cca0000313e7ef45dfd340448325d3b",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-11-1ns/request.json",
+      "sha256": "593030c7c331bec1a1bdf16a68f946d3e80993665f861ffdf18b8b77c48679b7",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-11-1ns/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-11-1ns/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-11-1ns/gpu.csv",
+      "sha256": "ccf89224aa64a8f6a11818513c3b2ca06d2dfcea0c0c306735ab4ebebc360143",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-11-1ns/process.json",
+      "sha256": "c04c1b9afc64edd77ae21e9e15bd104134a5472b44fb54acae1c0d83ee6f2234",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-11-1ns/execution.json",
+      "sha256": "2e93bbf7ee628d912d7a2b3fe3750bfd0afd22143500651bfc3a9fc0f4d86b09",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-12-1ns/occupancy.json",
+      "sha256": "62195cf760044d1de40ea6ead51b02713c6086dcfa3e4f83a88ba22dd69a4207",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-12-1ns/request.json",
+      "sha256": "84ea0972b87a11f7b9892cd8bc7adf086ce1f70b4abcf82540329cf15dcaca41",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-12-1ns/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-12-1ns/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-12-1ns/gpu.csv",
+      "sha256": "33fad8df0f4463f5252366e83c8f176afa691fb8f6f24869f69b1d83500d4611",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-12-1ns/process.json",
+      "sha256": "950bff416497d18115ba297619d6e7c7732d4a4add512c9765e4afeda469dfa1",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-12-1ns/execution.json",
+      "sha256": "5fdc2647c9099737723c286c288adcf474e3b8c5e4b6e4ee6026c3fb93be655c",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-13-1ns/occupancy.json",
+      "sha256": "811bc7b733205438434d95c35a3a6336663245bfa50c73e12ad416b9bb7948ca",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-13-1ns/request.json",
+      "sha256": "704175b269ffc142dbdc3a5485eaa63af5f02f1180b24b9a6fea6dfc8a1e1c03",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-13-1ns/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-13-1ns/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-13-1ns/gpu.csv",
+      "sha256": "082df338d7dd58cf5519dcae9f80bfd7f54200de2caf86b1245a5a0d858bc096",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-13-1ns/process.json",
+      "sha256": "54880cccc51d5d98f0a51283c2a10a48f3900fcff53bc7db628d408f827561ec",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-13-1ns/execution.json",
+      "sha256": "c0493a0b45cfb7af1ebaa7ce7fa65dc7de0b34ed6d0fd80b86652b7f4d1cda0a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-14-1ns/occupancy.json",
+      "sha256": "239a128d58f34c9089bc56cec4964c9ce07391914e9651d328fe8746c36e9dcf",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-14-1ns/request.json",
+      "sha256": "d6b875b85e6ec418f7ccdc0dcc2b38664739258894cedda1b36920b64fec8303",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-14-1ns/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-14-1ns/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-14-1ns/gpu.csv",
+      "sha256": "7c57924d363632d27f45806d5deb650d22199d46f36853de91df1de4fed32b12",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-14-1ns/process.json",
+      "sha256": "0a486bba3ae9a00c62749080b0e762b701caedf61cf329f3fe3ea4e8e91881bc",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-14-1ns/execution.json",
+      "sha256": "28a2ec644ef6be7ca32dd69d726edd8256c1cb14300454e9ebe8f22a4c950c1b",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-11-to4ns/occupancy.json",
+      "sha256": "8fd85f14c27277885b3f869e967afc5f2569bea0f677729ccea6472e84c144d2",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-11-to4ns/request.json",
+      "sha256": "ebb13288779c77d4659d52c74852bdfa009bbbd93506e8c9d92c6fb40bb04723",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-11-to4ns/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-11-to4ns/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-11-to4ns/gpu.csv",
+      "sha256": "0d8da33c04b313c502387e4d48ea5280c9aadccde3dda549daaaa43fb294d048",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-11-to4ns/process.json",
+      "sha256": "78a67f44431ba4fc27cdd7c699eaa5255c555cc1c9eeb814e4ca6d45adb4646a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-11-to4ns/execution.json",
+      "sha256": "bc2951aa1256d5d60ff375cfed8266b8e7cea5bb789c46cfc432c19afce9729c",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-13-to4ns/occupancy.json",
+      "sha256": "4581d7c15f5a525abe7d58fa27fa555f078d3324550519cb275a0594ec07ab2e",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-13-to4ns/request.json",
+      "sha256": "b538dd65938f912d1eea5da7ee1f219bb46a13aadf2fc05028ea7616ec0a91ee",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-13-to4ns/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-13-to4ns/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-13-to4ns/gpu.csv",
+      "sha256": "9b979f3247d1fb7b388cbe1055a6557ee197f21ddbd5c901ebdea85684c5ee59",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-13-to4ns/process.json",
+      "sha256": "57e30daf004c95305d188b5b5c3e2d2e9bec516492237f6853184da90b1ce73c",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-13-to4ns/execution.json",
+      "sha256": "48aa7b49afadde02a07da49f4ddfc5196afc447a79f366ea0d4b07a689bf329d",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-12-to4ns/occupancy.json",
+      "sha256": "1a82c6cd66d9dfdaeca39ace573c81a0cdaf36a6fe36834b0ea3b9f0ba2a968f",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-12-to4ns/request.json",
+      "sha256": "706f21efc6f05d6ccc65718bde92f5cfe9309716a20242eef331b8e0050b7a8b",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-12-to4ns/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-12-to4ns/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-12-to4ns/gpu.csv",
+      "sha256": "41541500a574a23ede3888eb4c28f8e0f7269abf00bab765667b418742e023f8",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-12-to4ns/process.json",
+      "sha256": "e6999cd32370d970f628b626a9daf49a4bfe2e7852c8323e7d108bfd08bdcda5",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-12-to4ns/execution.json",
+      "sha256": "d3302801d81c891ae874d7a55967069624e1752f6470715271d09102dd981e13",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-14-to4ns/occupancy.json",
+      "sha256": "5e9227467bf24c1bd58c95fde5373f5b8c3dc7cb0b44a7852a56e0913e041128",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-14-to4ns/request.json",
+      "sha256": "503a0d3c420ffd1049544fd69fdd4dcc6d5f7bc242d31a4f3c47ac387d095fc6",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-14-to4ns/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-14-to4ns/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-14-to4ns/gpu.csv",
+      "sha256": "cdeefbc4d7f0a68b68906ec7bde156c4532c397130780069ef60ca2ead98799b",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-14-to4ns/process.json",
+      "sha256": "5d4d0b10fc20223e7294b1c887f87249fd001099b98056642e429a839216d208",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-14-to4ns/execution.json",
+      "sha256": "357497867a7afcd429ff23488dc36a80b7ec5d4e1d9d4d0a62cf3df9bd9b5c35",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-recheck-01/occupancy.json",
+      "sha256": "fae9881863bc6e47a87defec5d95b67e6ac73fbe01b160843d55de415c2a7be7",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-recheck-01/request.json",
+      "sha256": "d45a5fbd10a1d759e90bcc9973b29534bd7fc1ed58f4244f85ee3e50709a5dbb",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-recheck-01/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-recheck-01/stderr.txt",
+      "sha256": "7d5e94bb82abe231ec26d0c497fd6dcac8ec83e65926afd86b6fe7d8cf9e641d",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-recheck-01/gpu.csv",
+      "sha256": "0ff1b3bf3d2489726bd3c394469753485bb035e32565f328d0f614e4a374e75b",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-recheck-01/process.json",
+      "sha256": "7bdb2669edeac4f2b56d5bb7185cb57bf3fd0cd48537c6cb7dfa4f21d24c08c7",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-recheck-01/execution.json",
+      "sha256": "11fcab4b16301d57a4cc549292f4efdc84543ac0655e449d6a36f5b69eb41e59",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e1-s51/occupancy.json",
+      "sha256": "aea41f23105ebd2db2bd6e2a87ac86da53303e8130e6c63e57d442b51eb4ba25",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e1-s51/request.json",
+      "sha256": "772c2278272bbb4567af999bf8552025b2534e8f6619f7d028ddd6b3be08204a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e1-s51/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e1-s51/stderr.txt",
+      "sha256": "9b4c3fbbaf79eebd03491984895a03b67787f24fe082609bbbf33ad14240ebf4",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e1-s51/gpu.csv",
+      "sha256": "4ab143ec0959dc018046e405946e2ba6a855e6631303a425e7f46899f03d7659",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e1-s51/process.json",
+      "sha256": "730295e84ceeebdf20c1aee4ade2e05718f29184984280702e6ec257d1cf3053",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e1-s51/execution.json",
+      "sha256": "aefbfc589980e564a974d533fbee99fbdc1d8553601a042f52e2371885e0bdce",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e1-s51/occupancy.json",
+      "sha256": "1a316847acc494068c9822ddf08c001ae58e02d7f2334721875f7e9ee3e602f1",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e1-s51/request.json",
+      "sha256": "083e0920c6b87cbda09a044029141191bcfb107659d9cbfb03df432ba4642e91",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e1-s51/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e1-s51/stderr.txt",
+      "sha256": "a310b3e0d28391d1cd42a1f79d26a943a3d446058af73fa2ce3df96be752d37a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e1-s51/gpu.csv",
+      "sha256": "a417f6e24eca87d7765c4ad93437915b08313a8c20ef53ad207a3c5e1728dfb4",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e1-s51/process.json",
+      "sha256": "bef6f54a4a99f89116ae8f7f5d5a04af6d65af4d462ae51275061d0bd877b920",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e1-s51/execution.json",
+      "sha256": "6db77e2631cbab427bbc8b68959331dc38af0b03dc2550f67bd0511d6769df28",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e1-s52/occupancy.json",
+      "sha256": "dde6c44f91d68017a8fd21a54ca303aad98157d88de08d910f167508b160038b",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e1-s52/request.json",
+      "sha256": "9120b649e50ad53b62991b0d601b4bf0a6da3ecff611ac4a793af0aceafc3b40",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e1-s52/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e1-s52/stderr.txt",
+      "sha256": "9b4c3fbbaf79eebd03491984895a03b67787f24fe082609bbbf33ad14240ebf4",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e1-s52/gpu.csv",
+      "sha256": "7acaf2d06c6740357e32e5acc18d07ff9c0598fa8b9fe8bef7222487421ada31",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e1-s52/process.json",
+      "sha256": "a670d10b288d5d01bbe19f2deaa2e423037832ecf45663de161c9dfb265a4abe",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e1-s52/execution.json",
+      "sha256": "0ec50ffcffd8ee77749ccc57d1f0c378bd5bf0a1c96f984f887d2425337c8b73",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e1-s52/occupancy.json",
+      "sha256": "9dae4bae2f233ac912386b42209f459bf2746f910ebef9f7ac7f1cecd98efa99",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e1-s52/request.json",
+      "sha256": "a69545ea89bc90993279c91d0f5804615f678a2540618750d9a7b3b12a75c3e5",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e1-s52/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e1-s52/stderr.txt",
+      "sha256": "a310b3e0d28391d1cd42a1f79d26a943a3d446058af73fa2ce3df96be752d37a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e1-s52/gpu.csv",
+      "sha256": "d274eed35901145acb2ead652dd09e78a2b49e88f94cfdbb12a10a32ad63b18b",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e1-s52/process.json",
+      "sha256": "fb4814c2b5539b65c232b88c7b2c03f328df3ebd590dda592a52b424da8ac5ea",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e1-s52/execution.json",
+      "sha256": "3fb6009906d88fdb15b25374b6b5900bb28a7799b9cbbc759251ede237b51b2f",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e5-s51/occupancy.json",
+      "sha256": "21de2c6510206ad4a3fccb5a0f11a5193bac5d9768a86024dd089322fea60b5e",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e5-s51/request.json",
+      "sha256": "01e5ef68ce5bccc1513ef9212ca290b500c7898116545bb96ad45759ea5c2712",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e5-s51/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e5-s51/stderr.txt",
+      "sha256": "9b4c3fbbaf79eebd03491984895a03b67787f24fe082609bbbf33ad14240ebf4",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e5-s51/gpu.csv",
+      "sha256": "35afb0f4fca2c4812a60552efc6ca6f0ef56dba547a45dfda95b8be1b1bf8b26",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e5-s51/process.json",
+      "sha256": "381eed30eddef2126bd48720ef1509a3708706a208b5c35ac9077a31d78eadc3",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e5-s51/execution.json",
+      "sha256": "2aa593847ac5778ae55cfb03382f5b51c99cccfec33857e16f5e5510059da3a4",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e5-s51/occupancy.json",
+      "sha256": "916d3b257af1984175a6c4913655425da9f3921216f900ecb46fdf790de0b025",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e5-s51/request.json",
+      "sha256": "6f6aa1ed43edb1ca7bb0b8a34bce14f1647d68f0eaacbcf5eaf9545081e7394d",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e5-s51/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e5-s51/stderr.txt",
+      "sha256": "a310b3e0d28391d1cd42a1f79d26a943a3d446058af73fa2ce3df96be752d37a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e5-s51/gpu.csv",
+      "sha256": "575ebb15f169844d7e610498089aef72e0b41236d0891b0372fd8fa9d313aaff",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e5-s51/process.json",
+      "sha256": "f22889d2df84da0b1bdccf9ccd0a144464d5f65c2cb7a62348e9a592c7c9603d",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e5-s51/execution.json",
+      "sha256": "6535fa522df5d08f2d46e50b2bd02899dc5106abeb29e8110ceb6a06837f7bed",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e5-s52/occupancy.json",
+      "sha256": "f0479220d0acdff9c881701b921c17ef094994de1f46fadd25648b9c3f895c90",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e5-s52/request.json",
+      "sha256": "ec2b60b21dd604b04d444f3aa0fbcae1f0c0e750b19aff7e72a63ab98e67f18e",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e5-s52/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e5-s52/stderr.txt",
+      "sha256": "9b4c3fbbaf79eebd03491984895a03b67787f24fe082609bbbf33ad14240ebf4",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e5-s52/gpu.csv",
+      "sha256": "ee77f4acec477a2a876a71ebc4191a7ee6d09242b3f6543b422d3f49eaad2d96",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e5-s52/process.json",
+      "sha256": "eb00321fe7f9332a99aaadfe1f7e4203d00b35e3c177ca3947fb33bd060b9a21",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e5-s52/execution.json",
+      "sha256": "0c12c35a319bb3d024c4ac50ceea70e15c35ec6567770b6932616102927b21a3",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e5-s52/occupancy.json",
+      "sha256": "233505e23321dfd093e7621400e1c54a0fcedbb7daa39b22ee9e7e50c70ac68e",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e5-s52/request.json",
+      "sha256": "844872ec56427a1c3358d294cfa5c9f095db0c4addd4373c031a36b3cbf30959",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e5-s52/stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e5-s52/stderr.txt",
+      "sha256": "a310b3e0d28391d1cd42a1f79d26a943a3d446058af73fa2ce3df96be752d37a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e5-s52/gpu.csv",
+      "sha256": "1f7a519fd7242382d4066bc623bc417fc0653a9fd491c6969a4c8c07274ef5d5",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e5-s52/process.json",
+      "sha256": "d6aaab7d910594c054b0b3933a991ac9132e1f3b2da1b7e6b452cb4badbf3290",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e5-s52/execution.json",
+      "sha256": "1dd08fcb063bf82475d5e1998ed75d9d1e2fa1445e309b90efa04fd4fb603ee0",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-01/science/forces.npz",
+      "sha256": "75978155c6b270befed1d0a31b74fa05d08d59e90a3392dab715e59e2c125d49",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-01/science/evaluations.json",
+      "sha256": "e7bfc764de910125c576343d57b0865606f7b9279b4337173baf47df2d6741d2",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-01/science/protocols.json",
+      "sha256": "78d72f98ea17b3b282cd9c20ccf70689d4e890972aae8583cf5aa3d859e7d11c",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-01/science/result.json",
+      "sha256": "ea37bada70b81ad99f7e3fb17320fb0a02b7f429a7625635e1fa2bec0417ca60",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-01/science/cutoff_1nm/system.xml",
+      "sha256": "bfc0099bceeecc7e80c32c328323c019054ae5aeb348f4657013a5b9c3755159",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-01/science/cutoff_2nm/system.xml",
+      "sha256": "85f478953a2889095cb398c101a8f4efda74ab087319566b5cea84c04225523a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-01/science/no_cutoff/system.xml",
+      "sha256": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_1nm/science/system.xml",
+      "sha256": "bfc0099bceeecc7e80c32c328323c019054ae5aeb348f4657013a5b9c3755159",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_1nm/science/initial.pdb",
+      "sha256": "48740d97172eb2262355e5d7bc2d5c4d698206cb86465a84e07ef50becd7910a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_1nm/science/minimized.pdb",
+      "sha256": "39d085fe92bcccb6fb17ca509636bc1d1c58e486ecdecd5bddbfeda1f1e61f67",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_1nm/science/sim.dcd",
+      "sha256": "eda1b0f404923b5816d45d5590b0918cbb71608d022561e277bdff2e4b26f738",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_1nm/science/sim.csv",
+      "sha256": "65988eed993d1de0dcb70eacb8411ea7af22d4c2faaf0403ad284c443736a55c",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_1nm/science/final.chk",
+      "sha256": "45f0fef70228ef510091949fc50a65bcafa57fc259a708e0489b8027aee6e731",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_1nm/science/final.pdb",
+      "sha256": "6faa98d79b44b4fcf2323f12e7bcc2aef8e7112ebf75afca5482a3c741bb9067",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_1nm/science/result.json",
+      "sha256": "bddb2a49904480054931d0c007457e125d59d02db785a64874d516abd33a5091",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_2nm/science/system.xml",
+      "sha256": "85f478953a2889095cb398c101a8f4efda74ab087319566b5cea84c04225523a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_2nm/science/initial.pdb",
+      "sha256": "48740d97172eb2262355e5d7bc2d5c4d698206cb86465a84e07ef50becd7910a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_2nm/science/minimized.pdb",
+      "sha256": "9be7ef71d5037cd0954c6a0280a7027c3311d98a3e6bc8167946b41b718f0363",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_2nm/science/sim.dcd",
+      "sha256": "002c882e99040516a9cc67c9f7430080e6c39d7320fd2475703198bef6a033cc",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_2nm/science/sim.csv",
+      "sha256": "6a86705fe0ac5d84537079c3e1514d63430a9bdd2cb629827fa66b4169afb6c7",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_2nm/science/final.chk",
+      "sha256": "156665fe5c6f987bc886c0295854528166ec1942ed5701c6b1f7c0e78dabbdf6",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_2nm/science/final.pdb",
+      "sha256": "a5f97f7c3bdf80c9d9c312fb74a20f990b1669bd5ca9095206e3af923992e81a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-cutoff_2nm/science/result.json",
+      "sha256": "3014ca05a2a83555ed01357ce37135708de00d43fab6b441f07495214660d040",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-no_cutoff/science/system.xml",
+      "sha256": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-no_cutoff/science/initial.pdb",
+      "sha256": "48740d97172eb2262355e5d7bc2d5c4d698206cb86465a84e07ef50becd7910a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-no_cutoff/science/minimized.pdb",
+      "sha256": "a600b55f52f9ac369450fd922f0c82f8901cc0499307b02bc2ef632623af590c",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-no_cutoff/science/sim.dcd",
+      "sha256": "f81b232bbfa67b84da6c2f7769639441148b3ce85171bcde93714fb3c1575927",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-no_cutoff/science/sim.csv",
+      "sha256": "a49a2d17d42ee0680c60806a1c771358392c9d22546625d8020bba04fdc410ee",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-no_cutoff/science/final.chk",
+      "sha256": "75be8e5905e1ad0f54b56c0d2df3f29a30a521d53410178d3bedaf3fb468fe71",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-no_cutoff/science/final.pdb",
+      "sha256": "9707cacbfd73d5070f8e8e0b6a5340f3d5554993fbe102046d9da8f0d5f85068",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/probe-no_cutoff/science/result.json",
+      "sha256": "1cd4961fff674bba096320677b7760af4881a988070f8d840274b4328c7e02c0",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-11-1ns/science/system.xml",
+      "sha256": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-11-1ns/science/initial.pdb",
+      "sha256": "48740d97172eb2262355e5d7bc2d5c4d698206cb86465a84e07ef50becd7910a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-11-1ns/science/minimized.pdb",
+      "sha256": "a95d6b494a222ecbfc1a7b7477bb94301400d933403c67107d42d499076b19ce",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-11-1ns/science/sim.dcd",
+      "sha256": "a6429eccbe9ea4205d84b1e1fc8ea8afbfe6112853046d633f73263a920ed157",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-11-1ns/science/sim.csv",
+      "sha256": "26decc03a41beecde5a87b90b12d8644f61a4285459465893279f7d8b66df2b1",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-11-1ns/science/final.chk",
+      "sha256": "6b27df1a61e288f59b76c0cff3d3db97f706379cfecb19b9fc93c0d789664412",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-11-1ns/science/final.pdb",
+      "sha256": "75752abd4cfcb586cd858e3f19e23a14f17812732e6670cb93873176433a50ca",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-11-1ns/science/result.json",
+      "sha256": "a5a5764b94035835e7b49c456ce63d2c8454b6955cf06522bfb12df1bdd93383",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-12-1ns/science/system.xml",
+      "sha256": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-12-1ns/science/initial.pdb",
+      "sha256": "48740d97172eb2262355e5d7bc2d5c4d698206cb86465a84e07ef50becd7910a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-12-1ns/science/minimized.pdb",
+      "sha256": "ca6a5ee2881c9e32fee111edbef60cb4decd0db2244749663f23a9eeb0978b7e",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-12-1ns/science/sim.dcd",
+      "sha256": "09fc1acc5a39e47c7c7e95a83079d6b6d1d84fbf633aba0ef1ecb82719096b9a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-12-1ns/science/sim.csv",
+      "sha256": "05033f0d80b7a8fcb096318de183b2cb8a9128e32748812e0507ba270d4e7e2e",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-12-1ns/science/final.chk",
+      "sha256": "5967116cde02aa24b9a773e3fc9b63e8deca602386e81d6787bcb9fa54f9c67d",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-12-1ns/science/final.pdb",
+      "sha256": "3a0ec7f9ebf229ede9c061008a75144a9ded26165c7697ff98a05810be4bab97",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-12-1ns/science/result.json",
+      "sha256": "b8c4c67d6cae23a5b98cb032c81c53223bec4e485bfcad8199dea31886a6ab53",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-13-1ns/science/system.xml",
+      "sha256": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-13-1ns/science/initial.pdb",
+      "sha256": "48740d97172eb2262355e5d7bc2d5c4d698206cb86465a84e07ef50becd7910a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-13-1ns/science/minimized.pdb",
+      "sha256": "75a7c1ccefe7bdd39f9a5c5409bff5d08fa99b47497843316dc2d70033739c2b",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-13-1ns/science/sim.dcd",
+      "sha256": "fdb0ccc2334ec8274cb869c3fa2277d351f71e46c9c38469d26b4ceb72bf5328",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-13-1ns/science/sim.csv",
+      "sha256": "4bbd84d1a7fa43041fc11e0390aa2ff71bfce2d8ddd0bf3503a5beb0c281ff51",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-13-1ns/science/final.chk",
+      "sha256": "0dc2ac56c94fb954cccbbea3447be474902d20ebae4c4b967cc79f43ef01c8f8",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-13-1ns/science/final.pdb",
+      "sha256": "e4109e477a9c17b832e6d434ca8682d4a93529ad46dc3eb345c57602bc5ba55d",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-13-1ns/science/result.json",
+      "sha256": "910ac69eca29cb23cf019673dc37afeafc0183c9b448737496668e10310dcdd6",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-14-1ns/science/system.xml",
+      "sha256": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-14-1ns/science/initial.pdb",
+      "sha256": "48740d97172eb2262355e5d7bc2d5c4d698206cb86465a84e07ef50becd7910a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-14-1ns/science/minimized.pdb",
+      "sha256": "24d841dbe0208586b39487b8b258e43fcbad92396f15732ce29f3e321ddc786c",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-14-1ns/science/sim.dcd",
+      "sha256": "ae5f6005bf17d837fd592e0191d112e67eb70244dad2891166130ea239a40c04",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-14-1ns/science/sim.csv",
+      "sha256": "8c3f52011ed1a42228322249571e9c94ee932914c6b68552c49e629de562e6d6",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-14-1ns/science/final.chk",
+      "sha256": "969bbec20e342c1642ee7ee83273670ea5c8014f6023a8e23b2c63d21d59f564",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-14-1ns/science/final.pdb",
+      "sha256": "fc3c803daa4a03f25cd9da845073294775deff08552d47afb347c15f395a92a4",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/root-14-1ns/science/result.json",
+      "sha256": "305c2f7f86979323a769c5d052c84be7b16ee616500390e587ca7b3882619d40",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-11-to4ns/science/system.xml",
+      "sha256": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-11-to4ns/science/initial.pdb",
+      "sha256": "48740d97172eb2262355e5d7bc2d5c4d698206cb86465a84e07ef50becd7910a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-11-to4ns/science/sim.dcd",
+      "sha256": "43b651d44b187ebce7f135cc624dd4d0463663fd1bdf02f72225191cd555c1b8",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-11-to4ns/science/sim.csv",
+      "sha256": "f84d4bfc5f1fee9486a00f725882535d3b806e0c16314d9606e044bcd82be561",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-11-to4ns/science/final.chk",
+      "sha256": "fa713810b8b51a6c14024fc07bf505547fafde685db77bb9fe662a9cd7b1a9db",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-11-to4ns/science/final.pdb",
+      "sha256": "ea649b27ef650cb0796d238d1912a5e08900c87825c5b7194e9b5723bc22fc99",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-11-to4ns/science/result.json",
+      "sha256": "ffcf9cfa617445485c12984d168cab9ee180f1c7ae2c73bdd85de246a875298e",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-13-to4ns/science/system.xml",
+      "sha256": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-13-to4ns/science/initial.pdb",
+      "sha256": "48740d97172eb2262355e5d7bc2d5c4d698206cb86465a84e07ef50becd7910a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-13-to4ns/science/sim.dcd",
+      "sha256": "5bb2e6aac053c0adbcfe066d17360aec46d119b3d9e00cd1c13778b5b52fb626",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-13-to4ns/science/sim.csv",
+      "sha256": "d478d90c4cd67fd5d983a8af2a1ca89ceffc032387635d06d09aef4d9fac0a09",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-13-to4ns/science/final.chk",
+      "sha256": "c6f4faa72c01196e30745362015348a91ec501f5135dfc0d960d42958a3c82f1",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-13-to4ns/science/final.pdb",
+      "sha256": "00a6831f09a205a54caa898962774336ba9715fcbfe02c3f3ff791756895e56c",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-13-to4ns/science/result.json",
+      "sha256": "8b7c1215d1b13ded626e99d5f8f0baf2914b5e2dedd0b671b75ac3545785d860",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-12-to4ns/science/system.xml",
+      "sha256": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-12-to4ns/science/initial.pdb",
+      "sha256": "48740d97172eb2262355e5d7bc2d5c4d698206cb86465a84e07ef50becd7910a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-12-to4ns/science/sim.dcd",
+      "sha256": "f0b74559ba5a2575d050e4f378e44a663d6f39f088e32e07bbebff97f7b41d9c",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-12-to4ns/science/sim.csv",
+      "sha256": "11b934304eb0ac8435b08acb184db8aad9a7767ba239c28b9e0954197ae65c3a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-12-to4ns/science/final.chk",
+      "sha256": "fc4b42dd91f14375b3ec52bfc6dd0f54eb41a93a43d58dfc67b31e95d5441b10",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-12-to4ns/science/final.pdb",
+      "sha256": "12956ffe19006bf35517e761766981edf304584eee812b9e4e26746f5def2dbf",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-12-to4ns/science/result.json",
+      "sha256": "f3f523c88ea174953146b4b89e02f7963e8c9e053ae1e4ca6056f0b90493bfd6",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-14-to4ns/science/system.xml",
+      "sha256": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-14-to4ns/science/initial.pdb",
+      "sha256": "48740d97172eb2262355e5d7bc2d5c4d698206cb86465a84e07ef50becd7910a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-14-to4ns/science/sim.dcd",
+      "sha256": "cfc9e69beafc55657328eb7455e7619d16073faf5aa6d9ba73ae40e21b52517d",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-14-to4ns/science/sim.csv",
+      "sha256": "ea60315ee70dd8599d294f9af6b0e12d550f68a0dd7c9ad22ae553ef7aa9f239",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-14-to4ns/science/final.chk",
+      "sha256": "ff39e0c717f6d516cc91dc0f7a338b41009137c4d22936c0583728fa7b7984e2",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-14-to4ns/science/final.pdb",
+      "sha256": "144731e8a8afd5043cf6945ea34a5bb3d7e107bed502d524e7aad5de92668f4a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/extend-14-to4ns/science/result.json",
+      "sha256": "4c9fc020646f9c5aebd4f67597bcc715ffaa844afe9c5bac0c3812f5f328b6df",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-recheck-01/science/forces.npz",
+      "sha256": "75978155c6b270befed1d0a31b74fa05d08d59e90a3392dab715e59e2c125d49",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-recheck-01/science/fixed-coordinates.npz",
+      "sha256": "df2053e3539aa2d2060597432124d6ce309dc1d7cde301e68c8070dfaf143362",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-recheck-01/science/evaluations.json",
+      "sha256": "ad66eb9b11ea10288f3621c3a5d636e7a7c6f3dd7bac0981a06af34171734492",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-recheck-01/science/protocols.json",
+      "sha256": "78d72f98ea17b3b282cd9c20ccf70689d4e890972aae8583cf5aa3d859e7d11c",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-recheck-01/science/result.json",
+      "sha256": "c107ebe495e8e38d6961227e9958fcff20ac7b7a3ad354c175f6d7cec2af9a06",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-recheck-01/science/cutoff_1nm/system.xml",
+      "sha256": "bfc0099bceeecc7e80c32c328323c019054ae5aeb348f4657013a5b9c3755159",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-recheck-01/science/cutoff_2nm/system.xml",
+      "sha256": "85f478953a2889095cb398c101a8f4efda74ab087319566b5cea84c04225523a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/physics-recheck-01/science/no_cutoff/system.xml",
+      "sha256": "583da010378f99a00621164b9ef1adae412bdac8d3b0bdc842f4a7bafdf9a241",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e1-s51/science/result.json",
+      "sha256": "c9b7b532610b8150721b955b17172c11b1eb7155e52d08e9c3b5d9917c7bc0f9",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e1-s51/science/model/checkpoints/checkpoint-epoch-2.pt",
+      "sha256": "d0efe165fbe33924a4fc31fad88c2c6ed4fde36d027a69971a8949c4076c730e",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e1-s51/science/inference.npz",
+      "sha256": "730ac0ba35c51f0a3086a14d94ef5d65058a1b4e7193255e611f0f74146f7850",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e1-s51/science/result.json",
+      "sha256": "ba074e191c6203af108b3fb52f23de8a64d5e953fdd33499699329cbbb81f672",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e1-s52/science/result.json",
+      "sha256": "7f2946836212d981a688bd13db744328550d315cc7e5dc154074d3b9b7f89929",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e1-s52/science/model/checkpoints/checkpoint-epoch-2.pt",
+      "sha256": "f1aa225099a2a6172d63c70004a63625c7cd393fce6b4bb28f39d0e36972572a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e1-s52/science/inference.npz",
+      "sha256": "a61bc5eac3f4f9fbe994928f7769fb4c66d029fdbfd311ca65e1772b66199d3b",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e1-s52/science/result.json",
+      "sha256": "ccb23419cffa0b3a53dc385b63fdc5db24ddb9694d134e1ac538f1a5d655c15e",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e5-s51/science/result.json",
+      "sha256": "39d50d0d8fb61fe13325c5b0f8b02ade030fa8688758c4ce163546ace160166e",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e5-s51/science/model/checkpoints/checkpoint-epoch-6.pt",
+      "sha256": "769778192955c1562ca0f4d73fba6169da471beebe073d30b24c5de60672ee85",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e5-s51/science/inference.npz",
+      "sha256": "77ed3cc47e062246d6261eb3f62c606a4f1d143131ec0b4be7a57ee750ccd92c",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e5-s51/science/result.json",
+      "sha256": "7b75f8dbd8a4ae251208177c2e277a7f41e13b135c15c73ca7f6fc4b76812d7a",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e5-s52/science/result.json",
+      "sha256": "4e5481c96106b5df93fde329569ba4552bec367a0147c61a7f272d702303b402",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-train-e5-s52/science/model/checkpoints/checkpoint-epoch-6.pt",
+      "sha256": "db9991b945869af24361db0928059f6d6229a760e7ece76b1ce16faf5dd5ce16",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e5-s52/science/inference.npz",
+      "sha256": "76e1e3fff3adb24ac487c8250711bc370579820fe0251a5ec2c47f865ad749ac",
+      "unchanged": true
+    },
+    {
+      "artifact": "tasks/cost-infer-e5-s52/science/result.json",
+      "sha256": "948ab9ece49401c089381ae4148a9d51152a8752f932e96a0386c3d0ab800093",
+      "unchanged": true
+    }
+  ]
+}

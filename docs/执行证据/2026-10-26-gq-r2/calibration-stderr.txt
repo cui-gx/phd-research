@@ -1,0 +1,30 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "<PROJECT>/source/p1/server/gq_r2.py", line 455, in <module>
+    main()
+  File "<PROJECT>/source/p1/server/gq_r2.py", line 443, in main
+    else:globals()[args.phase](args.out)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<PROJECT>/source/p1/server/gq_r2.py", line 279, in calibration
+    dRMSD_q0_q50_q90_q95_q100_A=quantiles(dd), angle_RMS_q0_q50_q90_q95_q100_deg=quantiles(angle)))
+                                ^^^^^^^^^^^^^
+  File "<PROJECT>/source/p1/server/gq_r2.py", line 145, in quantiles
+    return [float(v) for v in np.quantile(x, [0, .5, .9, .95, 1])]
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<PROJECT>/source/.runtime/gq-r2-20261026/lib/python3.12/site-packages/numpy/lib/function_base.py", line 4543, in quantile
+    return _quantile_unchecked(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "<PROJECT>/source/.runtime/gq-r2-20261026/lib/python3.12/site-packages/numpy/lib/function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+           ^^^^^^^^^^^
+  File "<PROJECT>/source/.runtime/gq-r2-20261026/lib/python3.12/site-packages/numpy/lib/function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+        ^^^^^^^^^^^^^^^^^
+  File "<PROJECT>/source/.runtime/gq-r2-20261026/lib/python3.12/site-packages/numpy/lib/function_base.py", line 4722, in _quantile_ureduce_func
+    result = _quantile(arr,
+             ^^^^^^^^^^^^^^
+  File "<PROJECT>/source/.runtime/gq-r2-20261026/lib/python3.12/site-packages/numpy/lib/function_base.py", line 4831, in _quantile
+    slices_having_nans = np.isnan(arr[-1, ...])
+                                  ~~~^^^^^^^^^
+IndexError: index -1 is out of bounds for axis 0 with size 0

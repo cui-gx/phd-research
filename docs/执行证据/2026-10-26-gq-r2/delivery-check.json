@@ -1,0 +1,11 @@
+{
+  "status": "MEASURED",
+  "required_reports": 12,
+  "all_present": true,
+  "links_valid": true,
+  "server_public_manifest_verified_files": 59,
+  "local_scientific_execution": false,
+  "removed_unprotected_platform_metadata_this_pass": 661,
+  "protected_configuration_metadata_not_touched": 965,
+  "original_README_modification_preserved": true
+}

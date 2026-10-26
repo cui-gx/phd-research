@@ -1,0 +1,33 @@
+{
+  "phase": "quality",
+  "returncode": 0,
+  "wall_s": 36.52077560592443,
+  "sampled_peak_process_tree_RSS_bytes": 229724160,
+  "stop_reason": null,
+  "GPU_compute": false,
+  "command": [
+    "taskset",
+    "-c",
+    "0,1,2",
+    "<PROJECT>/source/.runtime/gq-r2-20261026/bin/python",
+    "-B",
+    "-m",
+    "p1.server.gq_r2",
+    "--phase",
+    "quality",
+    "--out",
+    "<PROJECT>/artifacts/gq-r2-20261026/analysis-v1",
+    "--root",
+    "<PROJECT>/runs/gq-r1-20261026",
+    "--prior",
+    "<PROJECT>/artifacts/gq-r1-20261026/analysis-final-v2",
+    "--manifest",
+    "<PROJECT>/artifacts/gq-r2-20261026/r1-raw-sha256.json"
+  ],
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "-1",
+    "OPENBLAS_NUM_THREADS": "2",
+    "OMP_NUM_THREADS": "2",
+    "MPLCONFIGDIR": "<PROJECT>/artifacts/gq-r2-20261026/mpl-cache"
+  }
+}

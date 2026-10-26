@@ -1,0 +1,410 @@
+[
+  {
+    "seed": 11,
+    "epsilon_A": 0.5,
+    "library_centers": 3678,
+    "frames": 1950,
+    "visited_centers": 1859,
+    "outside_frames": 0,
+    "outside_fraction": 0.0,
+    "nearest_dRMSD_A": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.4997945723906256
+    ],
+    "dataset_role": "校正・構庫"
+  },
+  {
+    "seed": 12,
+    "epsilon_A": 0.5,
+    "library_centers": 3678,
+    "frames": 1950,
+    "visited_centers": 1819,
+    "outside_frames": 0,
+    "outside_fraction": 0.0,
+    "nearest_dRMSD_A": [
+      0.0,
+      0.0,
+      0.0,
+      0.44327751753509437,
+      0.49943811999251964
+    ],
+    "dataset_role": "校正・構庫"
+  },
+  {
+    "seed": 13,
+    "epsilon_A": 0.5,
+    "library_centers": 3678,
+    "frames": 1950,
+    "visited_centers": 0,
+    "outside_frames": 1950,
+    "outside_fraction": 1.0,
+    "nearest_dRMSD_A": [
+      1.309742862129881,
+      2.852186970963602,
+      3.108595519451305,
+      3.1799257120380853,
+      3.860103889210756
+    ],
+    "dataset_role": "既知の探索的別系列"
+  },
+  {
+    "seed": 14,
+    "epsilon_A": 0.5,
+    "library_centers": 3678,
+    "frames": 1950,
+    "visited_centers": 0,
+    "outside_frames": 1950,
+    "outside_fraction": 1.0,
+    "nearest_dRMSD_A": [
+      2.0316191465346973,
+      3.470964369160593,
+      3.80797860403648,
+      3.890827008669116,
+      4.2347601316698436
+    ],
+    "dataset_role": "既知の探索的別系列"
+  },
+  {
+    "seed": 11,
+    "epsilon_A": 1.0,
+    "library_centers": 854,
+    "frames": 1950,
+    "visited_centers": 429,
+    "outside_frames": 0,
+    "outside_fraction": 0.0,
+    "nearest_dRMSD_A": [
+      0.0,
+      0.7340796885105516,
+      0.8988075051870759,
+      0.9373424112489009,
+      0.9999848689017374
+    ],
+    "dataset_role": "校正・構庫"
+  },
+  {
+    "seed": 12,
+    "epsilon_A": 1.0,
+    "library_centers": 854,
+    "frames": 1950,
+    "visited_centers": 425,
+    "outside_frames": 0,
+    "outside_fraction": 0.0,
+    "nearest_dRMSD_A": [
+      0.0,
+      0.7480370111024195,
+      0.9055868221088978,
+      0.9420953525718021,
+      0.9999449759384532
+    ],
+    "dataset_role": "校正・構庫"
+  },
+  {
+    "seed": 13,
+    "epsilon_A": 1.0,
+    "library_centers": 854,
+    "frames": 1950,
+    "visited_centers": 0,
+    "outside_frames": 1950,
+    "outside_fraction": 1.0,
+    "nearest_dRMSD_A": [
+      1.5716036122540085,
+      2.8960010879030467,
+      3.1504832193967083,
+      3.2153881100466686,
+      3.860103889210756
+    ],
+    "dataset_role": "既知の探索的別系列"
+  },
+  {
+    "seed": 14,
+    "epsilon_A": 1.0,
+    "library_centers": 854,
+    "frames": 1950,
+    "visited_centers": 0,
+    "outside_frames": 1950,
+    "outside_fraction": 1.0,
+    "nearest_dRMSD_A": [
+      2.0316191465346973,
+      3.533867377821422,
+      3.8745138962641588,
+      3.9565099390775442,
+      4.303998699745246
+    ],
+    "dataset_role": "既知の探索的別系列"
+  },
+  {
+    "seed": 11,
+    "epsilon_A": 1.5,
+    "library_centers": 241,
+    "frames": 1950,
+    "visited_centers": 112,
+    "outside_frames": 0,
+    "outside_fraction": 0.0,
+    "nearest_dRMSD_A": [
+      0.0,
+      1.035756808803705,
+      1.2674981022750187,
+      1.3304084816427464,
+      1.4978106309240982
+    ],
+    "dataset_role": "校正・構庫"
+  },
+  {
+    "seed": 12,
+    "epsilon_A": 1.5,
+    "library_centers": 241,
+    "frames": 1950,
+    "visited_centers": 129,
+    "outside_frames": 0,
+    "outside_fraction": 0.0,
+    "nearest_dRMSD_A": [
+      0.0,
+      1.0136086960992157,
+      1.2565058583625006,
+      1.3333939025386081,
+      1.4936988220683145
+    ],
+    "dataset_role": "校正・構庫"
+  },
+  {
+    "seed": 13,
+    "epsilon_A": 1.5,
+    "library_centers": 241,
+    "frames": 1950,
+    "visited_centers": 0,
+    "outside_frames": 1950,
+    "outside_fraction": 1.0,
+    "nearest_dRMSD_A": [
+      1.5748082653007198,
+      2.9856027151808586,
+      3.2505612631530396,
+      3.3195131234376904,
+      3.860103889210756
+    ],
+    "dataset_role": "既知の探索的別系列"
+  },
+  {
+    "seed": 14,
+    "epsilon_A": 1.5,
+    "library_centers": 241,
+    "frames": 1950,
+    "visited_centers": 0,
+    "outside_frames": 1950,
+    "outside_fraction": 1.0,
+    "nearest_dRMSD_A": [
+      2.350939760349904,
+      3.5894052968642547,
+      3.9331242805643645,
+      4.020044613421236,
+      4.436512531087295
+    ],
+    "dataset_role": "既知の探索的別系列"
+  },
+  {
+    "seed": 11,
+    "epsilon_A": 2.0,
+    "library_centers": 99,
+    "frames": 1950,
+    "visited_centers": 41,
+    "outside_frames": 0,
+    "outside_fraction": 0.0,
+    "nearest_dRMSD_A": [
+      0.0,
+      1.3231307670132813,
+      1.630803734501915,
+      1.699988387588004,
+      1.9945590108901965
+    ],
+    "dataset_role": "校正・構庫"
+  },
+  {
+    "seed": 12,
+    "epsilon_A": 2.0,
+    "library_centers": 99,
+    "frames": 1950,
+    "visited_centers": 58,
+    "outside_frames": 0,
+    "outside_fraction": 0.0,
+    "nearest_dRMSD_A": [
+      0.0,
+      1.2752628049509018,
+      1.598486347374466,
+      1.6926748218966077,
+      1.9379632277382857
+    ],
+    "dataset_role": "校正・構庫"
+  },
+  {
+    "seed": 13,
+    "epsilon_A": 2.0,
+    "library_centers": 99,
+    "frames": 1950,
+    "visited_centers": 4,
+    "outside_frames": 1930,
+    "outside_fraction": 0.9897435897435898,
+    "nearest_dRMSD_A": [
+      1.7568516440941995,
+      3.0412682311079804,
+      3.335399023819363,
+      3.4355192011822364,
+      3.860103889210756
+    ],
+    "dataset_role": "既知の探索的別系列"
+  },
+  {
+    "seed": 14,
+    "epsilon_A": 2.0,
+    "library_centers": 99,
+    "frames": 1950,
+    "visited_centers": 0,
+    "outside_frames": 1950,
+    "outside_fraction": 1.0,
+    "nearest_dRMSD_A": [
+      2.0316191465346973,
+      3.6498198328316094,
+      4.047760966499034,
+      4.150115684759275,
+      4.532856079132803
+    ],
+    "dataset_role": "既知の探索的別系列"
+  },
+  {
+    "seed": 11,
+    "epsilon_A": 3.0,
+    "library_centers": 25,
+    "frames": 1950,
+    "visited_centers": 12,
+    "outside_frames": 0,
+    "outside_fraction": 0.0,
+    "nearest_dRMSD_A": [
+      0.0,
+      1.8523709810003053,
+      2.379704999716616,
+      2.496783956603917,
+      2.898647128853059
+    ],
+    "dataset_role": "校正・構庫"
+  },
+  {
+    "seed": 12,
+    "epsilon_A": 3.0,
+    "library_centers": 25,
+    "frames": 1950,
+    "visited_centers": 13,
+    "outside_frames": 0,
+    "outside_fraction": 0.0,
+    "nearest_dRMSD_A": [
+      0.0,
+      1.9531743351564335,
+      2.397719695829185,
+      2.517148830168583,
+      2.9880799963907694
+    ],
+    "dataset_role": "校正・構庫"
+  },
+  {
+    "seed": 13,
+    "epsilon_A": 3.0,
+    "library_centers": 25,
+    "frames": 1950,
+    "visited_centers": 11,
+    "outside_frames": 1579,
+    "outside_fraction": 0.8097435897435897,
+    "nearest_dRMSD_A": [
+      2.0199765770561107,
+      3.2952985373891925,
+      3.692485526576489,
+      3.8359151311674666,
+      5.030911049279778
+    ],
+    "dataset_role": "既知の探索的別系列"
+  },
+  {
+    "seed": 14,
+    "epsilon_A": 3.0,
+    "library_centers": 25,
+    "frames": 1950,
+    "visited_centers": 7,
+    "outside_frames": 1912,
+    "outside_fraction": 0.9805128205128205,
+    "nearest_dRMSD_A": [
+      2.6245314563292212,
+      3.8137718497962734,
+      4.27353601929953,
+      4.451454098969644,
+      4.959466573313862
+    ],
+    "dataset_role": "既知の探索的別系列"
+  },
+  {
+    "seed": 11,
+    "epsilon_A": 4.0,
+    "library_centers": 10,
+    "frames": 1950,
+    "visited_centers": 4,
+    "outside_frames": 0,
+    "outside_fraction": 0.0,
+    "nearest_dRMSD_A": [
+      0.0,
+      2.352635125243878,
+      2.8815331466216367,
+      3.021029812923534,
+      3.6283296539592036
+    ],
+    "dataset_role": "校正・構庫"
+  },
+  {
+    "seed": 12,
+    "epsilon_A": 4.0,
+    "library_centers": 10,
+    "frames": 1950,
+    "visited_centers": 8,
+    "outside_frames": 0,
+    "outside_fraction": 0.0,
+    "nearest_dRMSD_A": [
+      0.0,
+      2.7608676170041857,
+      3.291773939166707,
+      3.4231070651491624,
+      3.9382740150429743
+    ],
+    "dataset_role": "校正・構庫"
+  },
+  {
+    "seed": 13,
+    "epsilon_A": 4.0,
+    "library_centers": 10,
+    "frames": 1950,
+    "visited_centers": 9,
+    "outside_frames": 97,
+    "outside_fraction": 0.04974358974358974,
+    "nearest_dRMSD_A": [
+      2.0199765770561107,
+      3.6115700926999423,
+      3.9299899610596802,
+      3.998626090539632,
+      4.444907869835537
+    ],
+    "dataset_role": "既知の探索的別系列"
+  },
+  {
+    "seed": 14,
+    "epsilon_A": 4.0,
+    "library_centers": 10,
+    "frames": 1950,
+    "visited_centers": 9,
+    "outside_frames": 901,
+    "outside_fraction": 0.46205128205128204,
+    "nearest_dRMSD_A": [
+      2.6245314563292212,
+      3.9695988118033823,
+      4.392536997895923,
+      4.496961030850134,
+      4.962333897183631
+    ],
+    "dataset_role": "既知の探索的別系列"
+  }
+]

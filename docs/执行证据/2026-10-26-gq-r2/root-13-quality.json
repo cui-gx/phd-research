@@ -1,0 +1,29 @@
+{
+  "seed": 13,
+  "qualified": 8000,
+  "exclusions_by_burn": [
+    {
+      "burn_ps": 0,
+      "qualified": 8000,
+      "retained_sample_duration_ns": 4.0
+    },
+    {
+      "burn_ps": 100,
+      "qualified": 7800,
+      "retained_sample_duration_ns": 3.9
+    },
+    {
+      "burn_ps": 200,
+      "qualified": 7600,
+      "retained_sample_duration_ns": 3.8000000000000003
+    },
+    {
+      "burn_ps": 500,
+      "qualified": 7000,
+      "retained_sample_duration_ns": 3.5
+    }
+  ],
+  "energy_warning_frame_ids": [],
+  "energy_median_kJ_mol": -5702.465264583077,
+  "energy_MAD_kJ_mol": 51.6692563621682
+}

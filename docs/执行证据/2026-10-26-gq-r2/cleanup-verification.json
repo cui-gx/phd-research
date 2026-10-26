@@ -1,0 +1,57 @@
+{
+  "status": "MEASURED",
+  "cleanup": "clean",
+  "removed": [
+    {
+      "path": "source/.runtime/gq-r2-20261026",
+      "bytes": 501470566,
+      "absent": true
+    },
+    {
+      "path": "artifacts/gq-r2-20261026/pip-cache",
+      "bytes": 116764624,
+      "absent": true
+    },
+    {
+      "path": "artifacts/gq-r2-20261026/mpl-cache",
+      "bytes": 204276,
+      "absent": true
+    },
+    {
+      "path": "artifacts/gq-r2-20261026/pip-25.0.1-py3-none-any.whl",
+      "bytes": 1841526,
+      "absent": true
+    }
+  ],
+  "remaining_own_analysis_processes": [],
+  "R1_raw_files_verified": 263,
+  "S1_S2_raw_files_verified": 336,
+  "all_originals_unchanged": true,
+  "derived_array_sha256": {
+    "analysis-v1/synthetic-source.npz": "53bd1ca4f33765a9382a605edacec9c6ce4e8dcd660b7848e0ca85bef6dd3d50",
+    "analysis-v1/root-11.npz": "990cf982e1c74a4f43191d0714cae227c53ce4b435567fafc4fbee92b9f6b1a1",
+    "analysis-v1/root-12.npz": "bc350cf82f4e2c414c08a0a4e9e4e4e019b9504fc8e909673416d09cecec4ef5",
+    "analysis-v1/root-13.npz": "d769c6e3becd13618b50de7bc8da8e32d96f40ec6ec77927947f11b233d61627",
+    "analysis-v1/root-14.npz": "8040f8006ccc51cde64e85eba5c6a3a61be5efb3cda31cb08ee1fa7d10c65bdd",
+    "analysis-v2/synthetic-source.npz": "53bd1ca4f33765a9382a605edacec9c6ce4e8dcd660b7848e0ca85bef6dd3d50",
+    "analysis-v2/root-11.npz": "990cf982e1c74a4f43191d0714cae227c53ce4b435567fafc4fbee92b9f6b1a1",
+    "analysis-v2/root-12.npz": "bc350cf82f4e2c414c08a0a4e9e4e4e019b9504fc8e909673416d09cecec4ef5",
+    "analysis-v2/root-13.npz": "d769c6e3becd13618b50de7bc8da8e32d96f40ec6ec77927947f11b233d61627",
+    "analysis-v2/root-14.npz": "8040f8006ccc51cde64e85eba5c6a3a61be5efb3cda31cb08ee1fa7d10c65bdd",
+    "analysis-v2/library-0.5.npz": "a8527e0eee3aee3728384723e18998852347659975fff958f8712c4a070ed9cd",
+    "analysis-v2/library-1.0.npz": "a6d60b89cb7fdf82dd96d7f2a18a77006a07c9f03f032555f392d0dafe483f09",
+    "analysis-v2/library-1.5.npz": "c0f66d17cd2ddd519c1e6cd77a3525040b7ba3011bd63974c2b6f0e4105649b1",
+    "analysis-v2/library-2.0.npz": "23adcc12ad79aaadd6c9321cb93766e92f02006066a8ed88768f73dc4d8fb654",
+    "analysis-v2/library-3.0.npz": "780265bc29aac4040f2bf31b573630586166ee5d6bfa13328e7f9d73dafbc5fd",
+    "analysis-v2/library-4.0.npz": "987bb6fcae26674b4dfa5d1ff761ba1800227f03873fe9eb1c4fd5b1c0f1370c"
+  },
+  "archive_sha256": "e81b85eaffec8356fd502b918726eb9bcc1162ec88e34d11fe6d8dda5b8d4ffc",
+  "archive_bytes": 224340738,
+  "total_added_file_bytes_before_cleanup_including_archive": 1069933080,
+  "storage_cap_bytes": 5368709120,
+  "GPU_compute_seconds": 0,
+  "other_users_processes_stopped": false,
+  "shared_system_or_global_git_modified": false,
+  "artifact_evidence_preserved": true,
+  "closed_time_UTC": "2026-10-26T03:08:24Z"
+}

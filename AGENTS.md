@@ -118,8 +118,10 @@ Read `research-workflow/local-workspace-instructions.md` for local safety, stage
 - A text prompt **does not force a Codex model switch**. Do not claim any automatic reconfiguration; the researcher should choose models in their UI unless the client independently supports switching.
 - This changes only the presentation and execution efficiency, **not** current S2-SUPPLEMENT approval, scientific scope, access permissions, or S3 status.
 
-## Public Japanese language and GQ-R2 scope (2026-10-26)
+## 公開資料の日本語規範とGQ-R2の範囲（2026-10-26）
 
 - **CONFIRMED**: 本研究の公開用コメント、docstring、README、利用案内、再現手順、技術資料、利用者向けメッセージは日本語を基本とする。英語の識別子・API・ファイル名は維持する。内部研究記録は中国語でもよいが、公開最終資料には完全な日本語版を用意する。既存の歴史報告や原証拠を一括上書きしない。詳細は `docs/collaboration-policy.md`。
 - **CONFIRMED GQ-R2**: 物理的に意味のある局所構造多様性と新構造領域の探索を評価する。折り畳み・天然構造回復・準安定状態発見は必要目標ではない。既存16 ns NoCutoff軌跡のサーバCPU解析のみ承認。GPU計算、新MD、CVAE訓練/推論、B1/B2/C効果実験、S3は禁止。R1残GPU時間は再利用しない。
 - 新しい系統的解析は `docs/P1-GQ-R2/analysis-plan.md` のcommit/push/遠隔確認後に行う。数値・図はサーバで作成する。完了後停止して審査を待つ。S2補充独立終審はINCOMPLETEのまま。
+
+- GQ-R2は本輪終了後に閉鎖する。実行端判定は工学PASS、唯一の確認的科学指標NOT READY。`docs/P1-GQ-R2/README.md` の研究者審査を待ち、CPU解析も無断再実行しない。独立校正の提案は新計算許可ではない。

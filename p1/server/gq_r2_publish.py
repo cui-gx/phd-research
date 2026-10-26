@@ -11,24 +11,35 @@ from .gq_r2 import dump, sha, table, nearest, descriptors
 
 def publish(project):
     art=project/'artifacts/gq-r2-20261026';out=art/'analysis-v2'
-    public=art/'public';public.mkdir(exist_ok=False)
+    public=art/'public-v2';public.mkdir(exist_ok=False)
     for p in out.iterdir():
         if p.suffix in ('.json','.csv','.png'):
             shutil.copy2(p,public/p.name)
     for p in art.iterdir():
         if p.suffix in ('.json','.txt') and p.name!='r1-raw-sha256.json':
-            shutil.copy2(p,public/p.name)
+            (public/p.name).write_text(p.read_text().replace(str(project),'<PROJECT>'))
+    for p in (art/'analysis-v1').glob('calibration-failure.json'):
+        shutil.copy2(p,public/('v1-'+p.name))
     raw=project/'runs/gq-r1-20261026'
     expected=json.loads((art/'r1-raw-sha256.json').read_text())
     comparisons=[dict(artifact=p,sha256=d,unchanged=(sha(raw/p)==d)) for p,d in expected.items()]
     if not all(x['unchanged'] for x in comparisons):
         raise RuntimeError('R1の原資料が変化しています。')
     dump(public/'r1-preservation.json',dict(files=len(comparisons),all_unchanged=True,artifacts=comparisons))
+    baseline=json.loads((art/'r1-feature-baseline.json').read_text())
     inputs=json.loads((out/'input-verification.json').read_text())
     for row in inputs['files']:
         if row['artifact'].startswith('R1-derived/'):
             p=project/'artifacts/gq-r1-20261026/analysis-final-v2'/Path(row['artifact']).name
-            if sha(p)!=row['sha256']:raise RuntimeError('R1特徴量が変化しています。')
+            if sha(p)!=row['sha256'] or sha(p)!=baseline[p.name]:raise RuntimeError('R1特徴量が変化しています。')
+    before=json.loads((project/'artifacts/gq-r1-20261026/original-evidence-before.json').read_text())
+    old_count=0
+    for run,items in before.items():
+        for rel,expected_sha in items.items():
+            if sha(project/'runs'/run/rel)!=expected_sha:raise RuntimeError('S1/S2の原証拠が変化しています。')
+            old_count+=1
+    dump(public/'legacy-preservation.json',dict(old_S1_S2_files=old_count,all_unchanged=True,
+         R1_cached_features_against_prior_backup=len(baseline),public_logs='個人領域パスを<PROJECT>へ置換。原ログは非公開アーカイブに保存。'))
     primary=json.loads((out/'primary-regions.json').read_text())
     library=json.loads((out/'fixed-library.json').read_text())
     sensitivity=list(csv.DictReader((out/'sensitivity.csv').open()))

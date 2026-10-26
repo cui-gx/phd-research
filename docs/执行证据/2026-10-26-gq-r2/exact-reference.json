@@ -1,0 +1,194 @@
+[
+  {
+    "seed": 11,
+    "epsilon_A": 0.5,
+    "sample_frames": 512,
+    "centers": 508,
+    "exact_block_max_abs_A": 0.0,
+    "cover_radius_A": 0.49759557180741326
+  },
+  {
+    "seed": 11,
+    "epsilon_A": 1.0,
+    "sample_frames": 512,
+    "centers": 240,
+    "exact_block_max_abs_A": 0.0,
+    "cover_radius_A": 0.9995856157973219
+  },
+  {
+    "seed": 11,
+    "epsilon_A": 1.5,
+    "sample_frames": 512,
+    "centers": 89,
+    "exact_block_max_abs_A": 0.0,
+    "cover_radius_A": 1.4989656656097001
+  },
+  {
+    "seed": 11,
+    "epsilon_A": 2.0,
+    "sample_frames": 512,
+    "centers": 34,
+    "exact_block_max_abs_A": 0.0,
+    "cover_radius_A": 1.9945590108901965
+  },
+  {
+    "seed": 11,
+    "epsilon_A": 3.0,
+    "sample_frames": 512,
+    "centers": 11,
+    "exact_block_max_abs_A": 0.0,
+    "cover_radius_A": 2.896904601860307
+  },
+  {
+    "seed": 11,
+    "epsilon_A": 4.0,
+    "sample_frames": 512,
+    "centers": 4,
+    "exact_block_max_abs_A": 0.0,
+    "cover_radius_A": 3.872590927509742
+  },
+  {
+    "seed": 12,
+    "epsilon_A": 0.5,
+    "sample_frames": 512,
+    "centers": 502,
+    "exact_block_max_abs_A": 0.0,
+    "cover_radius_A": 0.4987473798312813
+  },
+  {
+    "seed": 12,
+    "epsilon_A": 1.0,
+    "sample_frames": 512,
+    "centers": 228,
+    "exact_block_max_abs_A": 0.0,
+    "cover_radius_A": 0.9973082355194414
+  },
+  {
+    "seed": 12,
+    "epsilon_A": 1.5,
+    "sample_frames": 512,
+    "centers": 100,
+    "exact_block_max_abs_A": 0.0,
+    "cover_radius_A": 1.4967997993836064
+  },
+  {
+    "seed": 12,
+    "epsilon_A": 2.0,
+    "sample_frames": 512,
+    "centers": 48,
+    "exact_block_max_abs_A": 0.0,
+    "cover_radius_A": 1.9970662598031117
+  },
+  {
+    "seed": 12,
+    "epsilon_A": 3.0,
+    "sample_frames": 512,
+    "centers": 16,
+    "exact_block_max_abs_A": 0.0,
+    "cover_radius_A": 2.959580203206698
+  },
+  {
+    "seed": 12,
+    "epsilon_A": 4.0,
+    "sample_frames": 512,
+    "centers": 6,
+    "exact_block_max_abs_A": 0.0,
+    "cover_radius_A": 3.9085267952580716
+  },
+  {
+    "seed": 13,
+    "epsilon_A": 0.5,
+    "sample_frames": 512,
+    "centers": 507,
+    "exact_block_max_abs_A": 0.0,
+    "cover_radius_A": 0.49118000707772497
+  },
+  {
+    "seed": 13,
+    "epsilon_A": 1.0,
+    "sample_frames": 512,
+    "centers": 255,
+    "exact_block_max_abs_A": 0.0,
+    "cover_radius_A": 0.9999307465033409
+  },
+  {
+    "seed": 13,
+    "epsilon_A": 1.5,
+    "sample_frames": 512,
+    "centers": 94,
+    "exact_block_max_abs_A": 0.0,
+    "cover_radius_A": 1.4928749313186322
+  },
+  {
+    "seed": 13,
+    "epsilon_A": 2.0,
+    "sample_frames": 512,
+    "centers": 39,
+    "exact_block_max_abs_A": 0.0,
+    "cover_radius_A": 1.9793005508200656
+  },
+  {
+    "seed": 13,
+    "epsilon_A": 3.0,
+    "sample_frames": 512,
+    "centers": 11,
+    "exact_block_max_abs_A": 0.0,
+    "cover_radius_A": 2.9665054018855477
+  },
+  {
+    "seed": 13,
+    "epsilon_A": 4.0,
+    "sample_frames": 512,
+    "centers": 7,
+    "exact_block_max_abs_A": 0.0,
+    "cover_radius_A": 3.489223628909015
+  },
+  {
+    "seed": 14,
+    "epsilon_A": 0.5,
+    "sample_frames": 512,
+    "centers": 496,
+    "exact_block_max_abs_A": 0.0,
+    "cover_radius_A": 0.486806402229373
+  },
+  {
+    "seed": 14,
+    "epsilon_A": 1.0,
+    "sample_frames": 512,
+    "centers": 235,
+    "exact_block_max_abs_A": 0.0,
+    "cover_radius_A": 0.9980168623627285
+  },
+  {
+    "seed": 14,
+    "epsilon_A": 1.5,
+    "sample_frames": 512,
+    "centers": 89,
+    "exact_block_max_abs_A": 0.0,
+    "cover_radius_A": 1.4720616702913119
+  },
+  {
+    "seed": 14,
+    "epsilon_A": 2.0,
+    "sample_frames": 512,
+    "centers": 40,
+    "exact_block_max_abs_A": 0.0,
+    "cover_radius_A": 1.994234278629667
+  },
+  {
+    "seed": 14,
+    "epsilon_A": 3.0,
+    "sample_frames": 512,
+    "centers": 11,
+    "exact_block_max_abs_A": 0.0,
+    "cover_radius_A": 2.9498830939106595
+  },
+  {
+    "seed": 14,
+    "epsilon_A": 4.0,
+    "sample_frames": 512,
+    "centers": 7,
+    "exact_block_max_abs_A": 0.0,
+    "cover_radius_A": 3.4879480423306117
+  }
+]

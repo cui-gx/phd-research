@@ -1,0 +1,11 @@
+{
+  "status": "MEASURED",
+  "archive_logical_id": "gq-r2-evidence-20261026.tar.gz",
+  "sha256": "e81b85eaffec8356fd502b918726eb9bcc1162ec88e34d11fe6d8dda5b8d4ffc",
+  "bytes": 224340738,
+  "remote_and_local_sha_equal": true,
+  "archive_members": 207,
+  "contains_original_failures_and_source_versions": true,
+  "raw_R1_archive_separate": true,
+  "Mac_scientific_analysis": false
+}

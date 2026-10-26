@@ -1,0 +1,4 @@
+{
+  "type": "IndexError",
+  "message": "index -1 is out of bounds for axis 0 with size 0"
+}

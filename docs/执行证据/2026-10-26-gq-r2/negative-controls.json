@@ -1,0 +1,124 @@
+[
+  {
+    "control": "同一時刻の反復",
+    "epsilon_A": 0.5,
+    "original": 1,
+    "duplicated": 1,
+    "passed": true
+  },
+  {
+    "control": "同一時刻の反復",
+    "epsilon_A": 1.0,
+    "original": 27,
+    "duplicated": 27,
+    "passed": true
+  },
+  {
+    "control": "同一時刻の反復",
+    "epsilon_A": 1.5,
+    "original": 25,
+    "duplicated": 25,
+    "passed": true
+  },
+  {
+    "control": "同一時刻の反復",
+    "epsilon_A": 2.0,
+    "original": 13,
+    "duplicated": 13,
+    "passed": true
+  },
+  {
+    "control": "同一時刻の反復",
+    "epsilon_A": 3.0,
+    "original": 6,
+    "duplicated": 6,
+    "passed": true
+  },
+  {
+    "control": "同一時刻の反復",
+    "epsilon_A": 4.0,
+    "original": 2,
+    "duplicated": 2,
+    "passed": true
+  },
+  {
+    "control": "剛体変換",
+    "max_dRMSD_A": 1.7446459417289307e-15,
+    "passed": true
+  },
+  {
+    "control": "鏡像距離の既知の盲点",
+    "dRMSD_A": 0.0,
+    "passed": true
+  },
+  {
+    "control": "人工Cαガウス摂動（MDではない）",
+    "sigma_A": 1e-06,
+    "dRMSD_A": [
+      1.1307378526803457e-06,
+      1.3794049535029825e-06,
+      1.5947050763650963e-06,
+      1.6675379968790022e-06,
+      1.7937956019156923e-06
+    ],
+    "epsilon0p5_regions": 1
+  },
+  {
+    "control": "人工Cαガウス摂動（MDではない）",
+    "sigma_A": 0.01,
+    "dRMSD_A": [
+      0.010419143481458223,
+      0.014322626991965692,
+      0.016025318014543134,
+      0.016247833322306178,
+      0.017691388098711517
+    ],
+    "epsilon0p5_regions": 1
+  },
+  {
+    "control": "人工Cαガウス摂動（MDではない）",
+    "sigma_A": 0.05,
+    "dRMSD_A": [
+      0.04616820997532264,
+      0.07093397773763149,
+      0.0818526762967702,
+      0.08448116518045397,
+      0.09007276525720039
+    ],
+    "epsilon0p5_regions": 1
+  },
+  {
+    "control": "人工Cαガウス摂動（MDではない）",
+    "sigma_A": 0.1,
+    "dRMSD_A": [
+      0.11006456143539008,
+      0.14129475246487166,
+      0.15553136099349918,
+      0.16050385745500326,
+      0.17571935153796422
+    ],
+    "epsilon0p5_regions": 1
+  },
+  {
+    "control": "全原子鏡像",
+    "chirality_flips": 26,
+    "rejected": true
+  },
+  {
+    "control": "ペプチドNの人工10Å移動",
+    "rejected": true,
+    "reasons": [
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "control": "同一構造100回",
+    "regions": 1,
+    "passed": true
+  }
+]

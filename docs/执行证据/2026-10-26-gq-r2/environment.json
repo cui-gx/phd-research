@@ -1,0 +1,12 @@
+{
+  "python": "Python 3.12.3",
+  "packages_requested": [
+    "numpy==1.26.4",
+    "scipy==1.15.2",
+    "MDAnalysis==2.9.0",
+    "matplotlib==3.10.1",
+    "openmm==8.5.2",
+    "psutil==7.0.0"
+  ],
+  "GPU_compute": false
+}
