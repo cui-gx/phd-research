@@ -1,0 +1,47 @@
+{
+  "integrity": {
+    "status": "MEASURED",
+    "UTC": "2026-10-26T23:17:53.063674+00:00",
+    "prior_server_status": {
+      "status": "STOPPED_REQUIRES_INSPECTION",
+      "completed_downstream_MD": 53,
+      "evaluated_branches": 52,
+      "expected_downstream_MD": 240,
+      "completed_task_count": 461,
+      "last_completed": "r02-s4-F0-t0-m3-md",
+      "error": "RuntimeError('Shared CPU/memory use exceeds bounded pilot gate')",
+      "updated_UTC": "2026-10-26T14:05:31Z",
+      "S3": "NOT APPROVED",
+      "B2_and_C_predictor": "NOT APPROVED"
+    },
+    "original_scientific_processes_absent": true,
+    "run_lock_unheld": true,
+    "source_and_matrix_SHA_match": true,
+    "successful_tasks_checked": 461,
+    "artifact_hash_entries_checked": 2428,
+    "input_hash_entries_checked": 1471,
+    "unique_files_hashed": 3398,
+    "bytes_hashed": 7441252725,
+    "unfinished_task_directories": [],
+    "missing_next_task": "r02-s4-F0-t0-m3-md-prep",
+    "stop_before_next_directory_creation": true,
+    "events_request_result_SHA_match": true,
+    "wall_s": 4.640220656991005,
+    "scientific_conditions_changed": false,
+    "successful_tasks_rerun": false,
+    "backup_complete": false
+  },
+  "launch": {
+    "status": "MEASURED",
+    "UTC": "2026-10-26T23:18:31.862295+00:00",
+    "phase": "remaining",
+    "same_run": true,
+    "new_scientific_batch": false,
+    "source_commit": "40a911e1f36d1365fc5ee7d8753a7feb1edd964d",
+    "pre_resume_checked_tasks": 461,
+    "successful_tasks_rerun": false,
+    "scientific_conditions_changed": false,
+    "occupancy_passed": true,
+    "shared_gate_unchanged": true
+  }
+}
