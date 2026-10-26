@@ -167,14 +167,58 @@ def md(req, out):
 
 
 def ai(req, out):
-    from .science import run_request, load_config
+    import numpy as np
+    import torch
+    from sklearn.neighbors import LocalOutlierFactor
+    from .science import load_config, freeze_snapshot, _trainer, sha256_file
+    begin=time.perf_counter()
+    records=req["inputs"]["results"]
+    # MD provenance is checked against its original MD config. Training epochs
+    # are a separate cost-probe recipe, never a rewrite of historical records.
+    snapshot=freeze_snapshot(records,records[0]["science_config_id"])
+    contacts=[]
+    for member in snapshot["results"]:
+        contacts.extend(np.load(member["contact_map_path"],allow_pickle=True))
+    x=np.empty(len(contacts),dtype=object)
+    for i,v in enumerate(contacts):x[i]=v
+    data_s=time.perf_counter()-begin
     cfg = load_config()
-    cfg["cvae"]["epochs"] = req["epochs"]
-    cfg["cvae"]["checkpoint_log_every"] = req["epochs"]
-    base = {"task_type": req["task_type"], "task_id": req["task_id"], "seed": req["seed"],
-            "device": "cuda", "purpose": "qualification", "cpu_threads": 2,
-            "science_config": cfg, "inputs": req["inputs"], "output_dir": str(out/"adapter")}
-    return run_request(base)
+    model=req["inputs"]["model"]
+    cp=Path(model["model_weight_path"])
+    if sha256_file(cp)!=model["model_weight_sha256"]:raise ValueError("Cost-probe checkpoint SHA mismatch")
+    state=torch.load(cp,map_location="cpu",weights_only=True)
+    initial_epoch=int(state["epoch"])
+    final_epoch=initial_epoch+req["epochs"] if req["task_type"]=="train" else initial_epoch
+    cfg["cvae"]["epochs"]=final_epoch
+    cfg["cvae"]["checkpoint_log_every"]=final_epoch
+    trainer,torch=_trainer(dict(science_config=cfg,device="cuda",seed=req["seed"],cpu_threads=2))
+    torch.cuda.synchronize()
+    setup_s=time.perf_counter()-begin-data_s
+    operation=time.perf_counter()
+    if req["task_type"]=="train":
+        trainer.fit(X=x,output_path=out/"model",checkpoint=str(cp))
+        torch.cuda.synchronize()
+        curve={k:[float(v) for v in values] for k,values in trainer.loss_curve_.items()}
+        if not curve or any(not np.isfinite(values).all() for values in curve.values()):raise RuntimeError("Nonfinite training cost probe")
+        checkpoint=out/"model/checkpoints"/f"checkpoint-epoch-{final_epoch}.pt"
+        if not checkpoint.exists():raise RuntimeError("Missing final cost-probe checkpoint")
+        result=dict(model_weight_path=str(checkpoint),model_weight_sha256=sha256_file(checkpoint),loss_curve=curve,
+                    initial_epoch=initial_epoch,final_epoch=final_epoch,incremental_epochs=req["epochs"])
+    else:
+        trainer.model.load_state_dict(state["model_state_dict"])
+        torch.cuda.synchronize()
+        embeddings,*_=trainer.predict(X=x,inference_batch_size=64)
+        torch.cuda.synchronize()
+        lof=LocalOutlierFactor(n_neighbors=20,n_jobs=2).fit(embeddings)
+        if not np.isfinite(embeddings).all() or not np.isfinite(lof.negative_outlier_factor_).all():raise RuntimeError("Nonfinite inference cost probe")
+        np.savez_compressed(out/"inference.npz",embeddings=embeddings,lof=lof.negative_outlier_factor_)
+        result=dict(embedding_shape=list(embeddings.shape),candidate_pool=len(x),native_reference_used=False)
+    result.update(status="success",valid=True,task_type=req["task_type"],seed=req["seed"],training_frames=len(x),
+                  data_preparation_s=data_s,model_initialization_s=setup_s,operation_including_output_s=time.perf_counter()-operation,
+                  internal_s=time.perf_counter()-begin,input_snapshot_id=snapshot["snapshot_id"],
+                  parent_checkpoint_sha256=model["model_weight_sha256"],input_MD_config_id=records[0]["science_config_id"],
+                  device="cuda",cost_only=True,exploration_effect_evaluated=False)
+    return result
 
 
 def main():
