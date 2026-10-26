@@ -81,6 +81,26 @@ def publish(root, analysis, output, artifacts):
             if not p.exists() or sha(p)!=expected:mismatch.append(run_name+'/'+rel)
     dump('original-evidence-integrity.json',dict(checked_files=count,mismatches=mismatch,originals_preserved=not mismatch))
     if mismatch:raise RuntimeError('Original evidence changed')
+    # Independent arithmetic checks on saved component arrays. These numerical
+    # residuals are not scientific acceptance thresholds for a solvent model.
+    import numpy as np
+    physics=root/'tasks/physics-recheck-01/science'
+    evaluations=json.loads((physics/'evaluations.json').read_text())
+    arrays=np.load(physics/'forces.npz')['forces'];energy_errors=[];force_errors=[]
+    for method in ('cutoff_1nm','cutoff_2nm','no_cutoff'):
+        for source in sorted({r['source'] for r in evaluations}):
+            for repetition in range(4):
+                indexed={r['group']:i for i,r in enumerate(evaluations) if r['method']==method and r['source']==source and r['repetition']==repetition}
+                energy_errors.append(abs(evaluations[indexed[-1]]['energy_kJ_mol']-sum(evaluations[indexed[g]]['energy_kJ_mol'] for g in (0,1,2))))
+                force_errors.append(float(np.max(np.abs(arrays[indexed[-1]]-sum(arrays[indexed[g]] for g in (0,1,2))))))
+    artifact_errors=[]
+    for item in rows:
+        base=root/'tasks'/item['name']/'science';result=json.loads((base/'result.json').read_text())
+        for name,expected in result.get('artifacts',{}).items():
+            if sha(base/name)!=expected:artifact_errors.append(item['name']+'/'+name)
+    if artifact_errors:raise RuntimeError('New MD immutable artifact hash mismatch')
+    dump('numerical-audit.json',dict(component_energy_sum_max_abs_kJ_mol=max(energy_errors),
+         component_force_sum_max_abs_kJ_mol_nm=max(force_errors),component_checks=len(energy_errors),new_MD_artifact_hash_mismatches=artifact_errors))
     manifest={str(p.relative_to(root)):sha(p) for p in root.rglob('*') if p.is_file() and p.name!='round.lock'}
     dump('raw-artifact-sha256.json',manifest)
     dump('validation.json',dict(status='PASS_ARTIFACT_AND_BUDGET_CHECKS_ONLY',scientific_evaluation_ready=False,S3='NOT_APPROVED',
