@@ -1,0 +1,10 @@
+{
+  "status": "MEASURED",
+  "purpose": "one_off_collection_for_fixed_authorized_batch",
+  "helper_sha256": "c3326d0658fa7e4a2630b8d8ec2b92fb6c17690983c13397838718580108aa07",
+  "scientific_computation_on_Mac": false,
+  "waiting_for_server": true,
+  "full_backup_verified": false,
+  "cleanup_complete": false,
+  "scientific_review": "NOT_PERFORMED"
+}

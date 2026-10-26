@@ -1,0 +1,50 @@
+{
+  "status": "MEASURED",
+  "scope": "r01のみの実工程読戻し。全8根の完了ではない。",
+  "states": [
+    {
+      "state_id": "r01-s4",
+      "old_count": 800,
+      "new_count": 400,
+      "validation_count": 200,
+      "candidate_count": 7800,
+      "M0_steps": 200,
+      "M0_exposures": 800,
+      "M0_initial_model_digest": "6a8e26aea8656b804b76c60f4ad65f8478881a94054e1c35a65190c662473f54",
+      "M0_before_new_MD": true,
+      "new_min_frame_id": 4000,
+      "new_source_start_frame": 4000,
+      "no_old_frames_in_new": true,
+      "selection_verified": true
+    },
+    {
+      "state_id": "r01-s8",
+      "old_count": 800,
+      "new_count": 400,
+      "validation_count": 200,
+      "candidate_count": 15800,
+      "M0_steps": 200,
+      "M0_exposures": 800,
+      "M0_initial_model_digest": "6a8e26aea8656b804b76c60f4ad65f8478881a94054e1c35a65190c662473f54",
+      "M0_before_new_MD": true,
+      "new_min_frame_id": 12000,
+      "new_source_start_frame": 12000,
+      "no_old_frames_in_new": true,
+      "selection_verified": true
+    }
+  ],
+  "history_MD_ns": 8,
+  "live_status": {
+    "status": "RUNNING",
+    "completed_downstream_MD": 0,
+    "evaluated_branches": 0,
+    "expected_downstream_MD": 240,
+    "completed_task_count": 38,
+    "last_completed": "r01-s8-selection",
+    "error": null,
+    "updated_UTC": "2026-10-26T09:29:04Z",
+    "S3": "NOT APPROVED",
+    "B2_and_C_predictor": "NOT APPROVED"
+  },
+  "UTC": "2026-10-26T09:29:45Z"
+}

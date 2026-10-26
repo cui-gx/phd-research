@@ -1,0 +1,32 @@
+{
+  "status": "MEASURED",
+  "scope": "予定240枝内の最初の1枝の工程核証。処理比較の研究結論ではない。",
+  "branch_id": "r01-s4-F0-t0-m2",
+  "first_registered_branch_marker_present": true,
+  "history_MD_ns": 8,
+  "downstream_length_ns": 4,
+  "GPU_occupation_s": 209.68348791915923,
+  "frames": 8000,
+  "qualified_frames": 8000,
+  "history_reference_frames": 7800,
+  "selected_coordinates_exact": true,
+  "small_exact_error_A": 0.0,
+  "continuous_rows": 12,
+  "discrete_rows": 72,
+  "F0_repeat_exact_all_two_states": true,
+  "matched_training_all_two_states": true,
+  "live_status": {
+    "status": "RUNNING",
+    "completed_downstream_MD": 1,
+    "evaluated_branches": 1,
+    "expected_downstream_MD": 240,
+    "completed_task_count": 45,
+    "last_completed": "r02-s4-M0",
+    "error": null,
+    "updated_UTC": "2026-10-26T09:34:57Z",
+    "S3": "NOT APPROVED",
+    "B2_and_C_predictor": "NOT APPROVED"
+  },
+  "UTC": "2026-10-26T09:35:17Z",
+  "implementation_commit": "40a911e1f36d1365fc5ee7d8753a7feb1edd964d"
+}
