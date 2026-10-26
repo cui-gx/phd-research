@@ -105,10 +105,10 @@ def run(out):
     costs=[]
     for folder in sorted((root/'tasks').iterdir()):
         req=json.loads((folder/'request.json').read_text());ex=json.loads((folder/'execution.json').read_text());tim=json.loads((folder/'science/timing.json').read_text())
-        result=json.loads((folder/'science/result.json').read_text())
+        result=json.loads((folder/'science/result.json').read_text()) if (folder/'science/result.json').exists() else dict(status='failure',artifacts={})
         for n,expected in result['artifacts'].items():
             if sha(folder/'science'/n)!=expected:raise ValueError('原タスク出力SHAが変化しています。')
-        costs.append(dict(task=folder.name,kind=req['kind'],**ex,worker_wall_s=tim['worker_wall_s'],CPU_s=tim['cpu_s'],peak_worker_RSS_KiB=tim['peak_RSS_KiB'],
+        costs.append(dict(**ex,status=result['status'],worker_wall_s=tim['worker_wall_s'],CPU_s=tim['cpu_s'],peak_worker_RSS_KiB=tim['peak_RSS_KiB'],
                           components={k:v for k,v in result.items() if k.endswith('_s')}))
     dump(out/'costs.json',costs)
     table(out/'costs.csv',[{k:v for k,v in c.items() if k not in ['components']} for c in costs])
