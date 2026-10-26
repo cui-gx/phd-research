@@ -23,6 +23,12 @@ def trajectory(task):
     import MDAnalysis as mda
     from MDAnalysis.lib.distances import calc_dihedrals
     out = task/"science"
+    import openmm as mm
+    from openmm import unit as unit
+    system=mm.XmlSerializer.deserialize((out/"system.xml").read_text())
+    constraints=[system.getConstraintParameters(i) for i in range(system.getNumConstraints())]
+    ci=np.array([int(c[0]) for c in constraints]);cj=np.array([int(c[1]) for c in constraints])
+    lengths=np.array([c[2].value_in_unit(unit.angstrom) for c in constraints])
     result = json.loads((out/"result.json").read_text())
     u = mda.Universe(str(out/"initial.pdb"), str(out/"sim.dcd"))
     ca = u.select_atoms("protein and name CA")
@@ -43,7 +49,7 @@ def trajectory(task):
         n = right.atoms.select_atoms("name N")[0].index
         cn_pairs.append((c, n))
     cn_pairs = np.asarray(cn_pairs)
-    cn_max, heavy_min, chirality_flip = [], [], []
+    cn_max, heavy_min, chirality_flip, constraint_errors = [], [], [], []
     heavy = u.select_atoms("not name H* and not name D*")
     hi, hj = np.triu_indices(len(heavy), 1)
     # Exclude same-residue and adjacent-residue pairs: clash check is conservative,
@@ -63,6 +69,7 @@ def trajectory(task):
         all_xyz.append(x)
         ca_adj.append(float(np.max(np.linalg.norm(np.diff(x, axis=0), axis=1))))
         cn_max.append(float(np.max(np.linalg.norm(xyz[cn_pairs[:, 0]]-xyz[cn_pairs[:, 1]], axis=1))))
+        constraint_errors.append(float(np.max(np.abs(np.linalg.norm(xyz[ci]-xyz[cj],axis=1)-lengths))))
         dihedrals.append(calc_dihedrals(*[xyz[groups[:, k]] for k in range(4)]))
         if frame % 10 == 0:
             heavy_xyz = heavy.positions
@@ -83,8 +90,9 @@ def trajectory(task):
                "CA_adjacent_max_A": float(max(ca_adj)), "peptide_CN_max_A": float(max(cn_max)),
                "nonlocal_heavy_min_A_sampled_5ps": float(min(heavy_min)),
                "sidechain_chirality_flips_max_sampled_5ps": max(chirality_flip),
+               "constraint_distance_max_error_A":max(constraint_errors),
                "angle_columns": angle_names, "angle_nonfinite_count": int(np.count_nonzero(~np.isfinite(angles)))}
-    quality["hard_geometry_warning"] = quality["CA_adjacent_max_A"] > 5 or quality["peptide_CN_max_A"] > 2 or quality["nonlocal_heavy_min_A_sampled_5ps"] < .8
+    quality["hard_geometry_warning"] = quality["CA_adjacent_max_A"] > 5 or quality["peptide_CN_max_A"] > 2 or quality["nonlocal_heavy_min_A_sampled_5ps"] < .8 or max(constraint_errors) > .01
     quality["soft_warning"] = not 200 < float(temp.mean()) < 400 or max(chirality_flip) > 0
     return result, xyz, angles, state, quality
 
