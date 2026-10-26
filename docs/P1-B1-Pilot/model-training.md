@@ -11,3 +11,5 @@ checkpointにはweight、optimizer、epoch/追加歩数、torch CPU/CUDA RNG、P
 学習前のweight/optimizer/RNG digest、各stepのloss、実step数、全曝光IDと800位置のpermutation、最終checkpointSHAを保存する。loss記録は既存損失値を観測し、損失を再実装したり無意味な学習を追加して費用を増やしたりしない。
 
 M0の200歩は実測済みで[凍結資料](recipe-freeze.md)に記載。F1/F2の実測対応は最終証拠表を参照する。loss低下や候補の変化だけでは科学的探索改善を証明しない。1回曝光の学習が十分かどうかも本Pilotの結論範囲に含めず、陰性結果を一般的なAI無効論にしない。
+
+固定版の追加既定値：ReLU、decoder末端Sigmoid、clip_grad_max_norm=10、train/valid_subsample_pct=1、schedulerなし。optimizerの全param_groups（alpha/eps/momentum等を含む）は保存checkpointから読み戻して公開モデル来歴表に記録する。checkpointをCPUに読戻し、weight/optimizer内容digestの一致も独立の保存検査として実行する。

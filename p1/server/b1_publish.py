@@ -19,10 +19,21 @@ def publish():
         return v
     for p in out.iterdir():
         if p.suffix in ('.json','.csv','.png'):shutil.copy2(p,public/p.name)
+    import numpy as np
+    enhanced=json.loads((out/'discrete.json').read_text())
+    for row in enhanced:
+        feature=root/'tasks'/f"prepare-md-{row['arm']}-b{row['block']}"/'science/features.npz'
+        with np.load(feature) as z:
+            times=z['time_ps']
+            row['representative_time_ps']=times[row['representative_frame_ids']].tolist()
+            row['confirmation_time_ps']=times[row['confirmation_frame_ids']].tolist()
+    dump(public/'discrete-with-times.json',enhanced)
     for name in ['state-freeze.json','selection-freeze.json','attempt-map.json','source-amendment-01.json','source-amendment-02.json']:
         dump(public/name,redacted(json.loads((root/name).read_text())))
     events=[json.loads(s) for s in (root/'events.jsonl').read_text().splitlines()]
     dump(public/'events.json',redacted(events))
+    import torch
+    from .supplement_selection import tensor_digest,optimizer_digest
     models=[];inputs=[];failures=[]
     manifest={}
     for task in sorted((root/'tasks').iterdir()):
@@ -37,7 +48,12 @@ def publish():
                             execution=json.loads((task/'execution.json').read_text())))
             (public/(task.name+'-failure.txt')).write_text((science/'failure.txt').read_text().replace(str(project),'<PROJECT>'))
         if req['kind']=='ai' and req['operation']=='train' and result:
-            models.append(dict(task=task.name,result=result,loss=json.loads((science/'loss.json').read_text()),exposure=json.loads((science/'exposure.json').read_text())))
+            saved=torch.load(science/'checkpoint.pt',map_location='cpu',weights_only=True)
+            if tensor_digest(torch,saved['model_state_dict'])!=result['final_model_digest']:raise RuntimeError('保存モデル内容が不一致です。')
+            if optimizer_digest(torch,saved['optimizer_state_dict'])!=result['final_optimizer_digest']:raise RuntimeError('保存optimizer内容が不一致です。')
+            models.append(dict(task=task.name,result=result,optimizer_param_groups=saved['optimizer_state_dict']['param_groups'],
+                saved_rng_digest=optimizer_digest(torch,saved['rng']),saved_checkpoint_verified=True,
+                loss=json.loads((science/'loss.json').read_text()),exposure=json.loads((science/'exposure.json').read_text())))
         for p in task.rglob('*'):
             if p.is_file() and 'runtime-cache' not in p.parts:manifest[str(p.relative_to(root))]=sha(p)
     dump(public/'model-provenance.json',models);dump(public/'task-requests.json',inputs);dump(public/'failures.json',failures)
