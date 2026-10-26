@@ -2,6 +2,16 @@
 
 > 最新承認：B1 Expansion（2026-10-26）。下部の新承認と docs/P1-B1-Expansion/analysis-plan.md を優先する。旧Pilot停止は今回の明示範囲を妨げない。B2/C正式予測/S3は禁止。
 
+## 科学審査資料とChatGPTへの完全引継ぎ（2026-10-26、CONFIRMED）
+
+- 研究者は方向・実験目標・重要な科学判断を決め、Codexは実装・実験・処理・検証・再現・保管を担当し、ChatGPTは計画・方法論審査・解釈・論文構成・次段階設計を担当する。Codexは毎回、ChatGPTが独立に確認できる引継ぎを残す。詳細は [共同作業規範](docs/collaboration-policy.md)。
+- 大規模実験の終了時には、対応する `review-dossier.md` と固定入口 `handoff-to-chatgpt.md` を新規作成または更新する。公開資料は正確で自然な日本語とし、中国語の研究討議と区別する。要約だけで原証拠を置き換えない。
+- B1 Expansionでは、既定の全計算・集計・完全性監査・バックアップの完了後、`docs/P1-B1-Expansion/review-dossier.md` と `docs/P1-B1-Expansion/handoff-to-chatgpt.md` を完成する。18項目の審査事項とA–Gの引継ぎ必須項目は [本輪の交付要件](docs/P1-B1-Expansion/review-delivery-requirements.md) を厳守する。
+- 重要な結論を実際のCSV/JSON・ソース・実行ログ・manifestへ有効な相対リンクで結び、主要値・単位・分母・統計単位・不確実性を本文にも示す。有利な結果だけでなく、陰性・不一致・未解決・識別不能な部分を記す。
+- `CONFIRMED / MEASURED / DERIVED / PROPOSED / UNVERIFIED` を維持する。進行中の実行状態は `RUNNING`、未完了の交付は `PARTIAL` と明記し、計算完了・保管完了・科学審査・研究者受入れを別々に記録する。技術的な自動収集だけで研究交付全体を `COMPLETE` としない。
+- 報告作成を理由に凍結条件、seed、評価規則、実行順序、旧証拠を変更しない。追加MD・学習・GPUタスクや無許可の再計算を行わない。大きな軌跡・重み・完全ログは許可された保管先に残し、GitHubには簡潔な証拠・SHA・出典索引を置く。秘密鍵・内部ネットワーク・個人資源情報は載せない。
+- 最終返信は、遠隔回読済みの実在する最終commit SHA、二文書のパス、主要な科学的知見、主要な不確実性、研究者に委ねる次の判断を含める。B2/C/S3の提案を承認扱いにせず、自動的に実行しない。
+
 ## GQ round 1 delivered and stopped (2026-10-26)
 
 - Completed approved exploratory GQ round: 21 successful GPU tasks, 16.3ns total MD, 928.696225s cumulative GPU occupation of 3600s cap. All phase caps respected. Unused budget is NOT permission to continue. See `docs/P1-GQ/README.md`.
