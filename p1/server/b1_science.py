@@ -38,7 +38,7 @@ def md(req,out):
     if req.get('checkpoint'):
         require_hash(req['checkpoint'],req['checkpoint_sha256']);sim.loadCheckpoint(req['checkpoint'])
         initial=float(sim.context.getState().getTime().value_in_unit(u.picosecond))
-        if abs(initial-2000)>1e-5:raise ValueError('継続の時間境界が不正です。')
+        if abs(initial-req.get('expected_initial_time_ps',2000))>1e-5:raise ValueError('継続の時間境界が不正です。')
         mode='full_checkpoint_continuation'
     else:
         xyz=np.array(pdb.positions.value_in_unit(u.angstrom),dtype=float)

@@ -26,7 +26,10 @@ def execute_b1(request_path):
     start=time.monotonic();child=None;peak=0;reason=None
     with (task/'stdout.txt').open('x') as stdout,(task/'stderr.txt').open('x') as stderr,(task/'telemetry.jsonl').open('x') as telemetry:
         try:
-            child=subprocess.Popen(['taskset','-c','1,2',sys.executable,'-B','-m','p1.server.b1_science',str(p)],
+            module=req.get('worker_module','p1.server.b1_science')
+            if module not in ('p1.server.b1_science','p1.server.expansion_science'):
+                raise ValueError('未承認の科学workerです。')
+            child=subprocess.Popen(['taskset','-c','1,2',sys.executable,'-B','-m',module,str(p)],
                                    cwd=ROOT,env=env,stdout=stdout,stderr=stderr,start_new_session=True)
             dump(task/'process.json',dict(owned_pid=child.pid,GPU=gpu))
             while child.poll() is None:
@@ -40,12 +43,18 @@ def execute_b1(request_path):
                     if query.returncode:raise RuntimeError('GPU共有状態を確認できません。')
                     listed=[int(v.strip()) for v in query.stdout.splitlines() if v.strip()]
                     if any(v not in ids for v in listed):reason='他利用者のGPUプロセスを検出'
-                telemetry.write(json.dumps(dict(elapsed_s=time.monotonic()-start,RSS_bytes=peak))+'\n');telemetry.flush()
+                diagnostic=None
+                if gpu and req.get('GPU_diagnostics'):
+                    sample=subprocess.run(['nvidia-smi','--query-gpu=utilization.gpu,memory.used,power.draw','--format=csv,noheader,nounits'],capture_output=True,text=True,timeout=10)
+                    diagnostic=dict(query_returncode=sample.returncode,utilization_memory_power=sample.stdout.strip())
+                if req.get('minimum_free_bytes') and shutil.disk_usage(task).free<req['minimum_free_bytes']:
+                    reason='保存先の空き容量保護に達しました。'
+                telemetry.write(json.dumps(dict(elapsed_s=time.monotonic()-start,RSS_bytes=peak,GPU_diagnostic=diagnostic))+'\n');telemetry.flush()
                 if time.monotonic()-start>req['timeout_s']:reason='単体異常監視時間超過'
                 if peak>16*1024**3:reason='RSS上限超過'
                 if (task.parents[1]/'STOP').exists():reason='研究者または実行端STOP'
                 if reason:_terminate_owned_group(child);break
-                time.sleep(.2)
+                time.sleep(req.get('supervision_interval_s',.2))
             child.wait()
         except BaseException as e:
             reason=repr(e)

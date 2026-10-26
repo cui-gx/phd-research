@@ -1,0 +1,29 @@
+test_constant_correlation_is_missing (test_b1_expansion.ExpansionTests.test_constant_correlation_is_missing) ... ok
+test_crossed_noise_description (test_b1_expansion.ExpansionTests.test_crossed_noise_description) ... ok
+test_fixed_physical_bins_and_JS (test_b1_expansion.ExpansionTests.test_fixed_physical_bins_and_JS) ... ok
+test_full_matrix_aggregation_and_shared_baseline (test_b1_expansion.ExpansionTests.test_full_matrix_aggregation_and_shared_baseline) ... /home/guoxuan.cui/phd-research-p1-20261024/source/.runtime/b1-expansion-20261026/lib/python3.12/site-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+  prop = Group((name + Suppress("=") + comma_separated(value)) | oneOf(_CONSTANTS))
+/home/guoxuan.cui/phd-research-p1-20261024/source/.runtime/b1-expansion-20261026/lib/python3.12/site-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+  parse = parser.parseString(pattern)
+/home/guoxuan.cui/phd-research-p1-20261024/source/.runtime/b1-expansion-20261026/lib/python3.12/site-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+  parser.resetCache()
+/home/guoxuan.cui/phd-research-p1-20261024/source/.runtime/b1-expansion-20261026/lib/python3.12/site-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+  ParserElement.enablePackrat()
+In /home/guoxuan.cui/phd-research-p1-20261024/source/.runtime/b1-expansion-20261026/lib/python3.12/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+In /home/guoxuan.cui/phd-research-p1-20261024/source/.runtime/b1-expansion-20261026/lib/python3.12/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+ok
+test_future_data_rejected_before_reading (test_b1_expansion.ExpansionTests.test_future_data_rejected_before_reading) ... ok
+test_relative_windows_at_eight_ns (test_b1_expansion.ExpansionTests.test_relative_windows_at_eight_ns) ... ok
+test_role_seeds_disjoint (test_b1_expansion.ExpansionTests.test_role_seeds_disjoint) ... ok
+test_scope_and_shared_F0 (test_b1_expansion.ExpansionTests.test_scope_and_shared_F0) ... ok
+test_history_cache_identical_and_no_free_seed (test_b1_pilot.B1Tests.test_history_cache_identical_and_no_free_seed) ... ok
+test_invalid_cache_rejected (test_b1_pilot.B1Tests.test_invalid_cache_rejected) ... ok
+test_restoration_helpers_import (test_b1_pilot.B1Tests.test_restoration_helpers_import) ... ok
+test_sha_change_rejected (test_b1_pilot.B1Tests.test_sha_change_rejected) ... ok
+test_shortage_stops (test_b1_pilot.B1Tests.test_shortage_stops) ... ok
+test_time_split_and_no_replacement (test_b1_pilot.B1Tests.test_time_split_and_no_replacement) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 1.938s
+
+OK
