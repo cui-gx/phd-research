@@ -90,10 +90,13 @@ def trajectory(task):
 
 
 def analyze(root, output):
+    from .qualification import occupancy
+    resource_check = occupancy()
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
     output.mkdir(parents=True, exist_ok=False)
+    dump(output/"resource-check.json",resource_check)
     started = time.monotonic()
     physics_dir = root/"tasks/physics-01/science"
     if (physics_dir/"evaluations.json").exists():
