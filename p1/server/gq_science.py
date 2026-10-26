@@ -77,7 +77,7 @@ def physics(req, out):
         for frame in (0, 1999):
             universe.trajectory[frame]
             snapshots.append((f"old-r{rep}-frame{frame}", universe.atoms.positions.copy()/10, r["artifact_sha256"]["dcd_path"]))
-    rows, arrays, protocols = [], [], []
+    rows, arrays, protocols, coordinate_inputs, coordinate_projected = [], [], [], [], []
     for method in ("cutoff_1nm", "cutoff_2nm", "no_cutoff"):
         sim, pdb, details = build(method, 2026102601)
         sub = out/method
@@ -89,6 +89,9 @@ def physics(req, out):
                 sim.context.setPositions(xyz*u.nanometer)
                 sim.context.applyConstraints(1e-5)
                 corrected = sim.context.getState(getPositions=True).getPositions(asNumpy=True).value_in_unit(u.nanometer)
+                coordinate_index=len(coordinate_inputs)
+                coordinate_inputs.append(np.array(xyz,copy=True))
+                coordinate_projected.append(np.array(corrected,copy=True))
                 for group in (-1, 0, 1, 2):
                     state = sim.context.getState(getEnergy=True, getForces=True, groups=-1 if group == -1 else 1 << group)
                     e = float(state.getPotentialEnergy().value_in_unit(u.kilojoule_per_mole))
@@ -97,11 +100,13 @@ def physics(req, out):
                         raise RuntimeError("Nonfinite fixed-coordinate state")
                     rows.append(dict(method=method, source=source, input_sha256=sha, repetition=repeat,
                                      warmup=repeat == 0, group=group, energy_kJ_mol=e,
+                                     coordinate_index=coordinate_index,
                                      elapsed_from_setPositions_s=time.perf_counter()-begin,
                                      position_correction_max_nm=float(np.max(np.linalg.norm(corrected-xyz, axis=1)))))
                     arrays.append(f)
         del sim
     np.savez_compressed(out/"forces.npz", forces=np.array(arrays))
+    np.savez_compressed(out/"fixed-coordinates.npz",input_nm=np.array(coordinate_inputs),projected_nm=np.array(coordinate_projected))
     save(out/"evaluations.json", rows)
     save(out/"protocols.json", protocols)
     return {"status": "success", "evaluations": len(rows), "fixed_structures": len(snapshots), "MD_steps": 0}

@@ -106,7 +106,8 @@ def analyze(root, output):
     output.mkdir(parents=True, exist_ok=False)
     dump(output/"resource-check.json",resource_check)
     started = time.monotonic()
-    physics_dir = root/"tasks/physics-01/science"
+    physics_task="physics-recheck-01" if (root/"tasks/physics-recheck-01/science/result.json").exists() else "physics-01"
+    physics_dir = root/"tasks"/physics_task/"science"
     if (physics_dir/"evaluations.json").exists():
         evaluations = json.loads((physics_dir/"evaluations.json").read_text())
         forces = np.load(physics_dir/"forces.npz")["forces"]
@@ -122,7 +123,7 @@ def analyze(root, output):
                 for method,(e,f) in batches.items():
                     delta=f.mean(axis=0)-reference
                     den=np.sum(reference**2)
-                    comparisons.append(dict(source=source,group=group,method=method,
+                    comparisons.append(dict(physics_task=physics_task,source=source,group=group,method=method,
                       energy_mean_kJ_mol=float(e.mean()),energy_range_kJ_mol=float(np.ptp(e)),
                       delta_energy_mean_vs_NC_kJ_mol=float(e.mean()-e0.mean()),
                       force_rms_delta_kJ_mol_nm=float(np.sqrt(np.mean(np.sum(delta**2,axis=1)))),
