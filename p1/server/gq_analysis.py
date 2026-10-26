@@ -224,17 +224,19 @@ def analyze(root, output):
     dump(output/"invariance.json", invariance)
     fig,axes=plt.subplots(2,2,figsize=(10,7))
     for seed,(x,f,t) in joined.items():
-        rg,q,_,c=ca_measures(x);labels=bins(rg,q,1.,.05,q_contact_counts=c);seen=set();curve=[]
+        rg,q,_,c=ca_measures(x);mask=t>100
+        labels=bins(rg[mask],q[mask],1.,.05,q_contact_counts=c[mask]);seen=set();curve=[]
         for key in labels:
             seen.add(tuple(key));curve.append(len(seen))
         axes[0,0].plot(t/1000,rg,label=str(seed)[-2:],lw=.6)
         axes[0,1].plot(t/1000,q,lw=.6)
-        axes[1,0].plot(t/1000,curve,lw=1)
+        axes[1,0].plot(t[mask]/1000,curve,lw=1)
         axes[1,1].scatter(rg[::10],q[::10],s=2)
     for ax in axes.ravel():ax.grid(alpha=.2)
+    for ax in (axes[0,0],axes[0,1],axes[1,0]):ax.axvspan(0,.1,color='gray',alpha=.15)
     axes[0,0].legend(title='stream seed suffix');axes[0,0].set(ylabel='CA geometric Rg (A)',xlabel='MD time (ns)')
     axes[0,1].set(ylabel='Nonlocal contact fraction',xlabel='MD time (ns)')
-    axes[1,0].set(ylabel='Visited projection cells (diagnostic)',xlabel='MD time (ns)')
+    axes[1,0].set(ylabel='Visited cells after 100 ps (diagnostic)',xlabel='MD time (ns)')
     axes[1,1].set(xlabel='Rg (A)',ylabel='Q at 8 A')
     fig.suptitle('GQ exploratory streams; no CVAE/policy comparison')
     fig.tight_layout();fig.savefig(output/'trajectory-diagnostics.png',dpi=160);plt.close(fig)
