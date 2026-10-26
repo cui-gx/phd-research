@@ -1,0 +1,27 @@
+{
+  "arm": "M0",
+  "seed": 2026102670,
+  "initial_model_digest": "a917628451d1b7c0990f42a2cd3dada99da2f9249085a7facf608ce95514cbfc",
+  "initial_optimizer_digest": "e347061ca1f540121f0d7faa66505884acbc5ae559d5e2e36d8dbcfd670049ef",
+  "parent_checkpoint_sha256": null,
+  "initial_rng_digest": "8099a97980477c7a5ab462ba1ddfd65c433a99ffdd70a5f2abd8c85acec82747",
+  "final_model_digest": "a5d0ee2d964325d87f2308272aae43c608a21c5b1dddaf9507c3866cdf2dd886",
+  "final_optimizer_digest": "35e988fb9484946be24dbbf44935bd1cfba37cdd23a9fd48770d28228555bd76",
+  "checkpoint_sha256": "571a46a91646c469699b93cdac559639cdc18d8a44e602c32943a0ad00dd7a79",
+  "optimizer_steps": 200,
+  "exposures": 800,
+  "training_unique": 800,
+  "setup_and_data_s": 0.8552604541182518,
+  "fit_s": 0.8416790496557951,
+  "checkpoint_s": 0.006224765442311764,
+  "validation_s": 0.035601656883955,
+  "internal_s": 1.7709587905555964,
+  "status": "success",
+  "artifacts": {
+    "recipe.json": "dfa9ba7e05193d302d4edaa324831fa47154f17a1a70a8439388974ff85ab76c",
+    "checkpoint.pt": "571a46a91646c469699b93cdac559639cdc18d8a44e602c32943a0ad00dd7a79",
+    "loss.json": "0d0f43b8d868a07c60156ee6604eab3fb5935b02771505bffadf1e98c21dac0d",
+    "exposure.json": "d6a4ff8cc659fb6b55a67343ed86095a3a709c559ba19557169ae50110fcf33f",
+    "timing.json": "ee8f1495f0e46aa1c6b819071085282936240e13de811afdd8c7a06c44d56581"
+  }
+}

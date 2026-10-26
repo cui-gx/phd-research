@@ -1,5 +1,7 @@
 # Doctoral Research — Codex Instructions
 
+> 最新承認：2026-10-26のB1 Pilot。下部の「B1 Pilot の最新承認」と本輪計画を優先する。旧GQ/R2の停止・時間上限は歴史的範囲であり、本Pilotの許可を否定しない。範囲拡大は未承認。
+
 ## GQ round 1 delivered and stopped (2026-10-26)
 
 - Completed approved exploratory GQ round: 21 successful GPU tasks, 16.3ns total MD, 928.696225s cumulative GPU occupation of 3600s cap. All phase caps respected. Unused budget is NOT permission to continue. See `docs/P1-GQ/README.md`.

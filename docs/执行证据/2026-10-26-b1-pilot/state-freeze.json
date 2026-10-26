@@ -1,0 +1,14 @@
+{
+  "M0_checkpoint_sha256": "571a46a91646c469699b93cdac559639cdc18d8a44e602c32943a0ad00dd7a79",
+  "old_pool_sha256": "68349dee752e6a9c7c59a47c28916f7c62e31423b02614168c7fe58be96bb865",
+  "decision_pool_sha256": "d588efc5303f43c29ec81c3407ac0fdb735a40d2aa7b37c61cb4267350ae40ae",
+  "history_DCD_sha256": [
+    "08f0cb17f3e4f0f74444f5efb10e09f7924dd217b894edd0e792ca5e7d38f9f0",
+    "5fa30937f3e54467d7e67896f4545564af18bc166069eed7c7522b222f74e22f"
+  ],
+  "data_legality": "M0完了後にhistory-newを生成・公開",
+  "recipe_compatible": true,
+  "K": 200,
+  "batch": 4,
+  "exposures": 800
+}
