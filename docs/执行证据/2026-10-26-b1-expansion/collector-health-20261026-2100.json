@@ -1,0 +1,24 @@
+{
+  "status": "MEASURED",
+  "UTC": "2026-10-26T11:58:55.238241+00:00",
+  "registered_process_alive": true,
+  "helper_SHA_match": true,
+  "helper_sha256": "c3326d0658fa7e4a2630b8d8ec2b92fb6c17690983c13397838718580108aa07",
+  "collector_state": "WAITING_FOR_FIXED_SERVER_BATCH",
+  "last_check_UTC": "2026-10-26T11:54:24.005410+00:00",
+  "last_server_snapshot": {
+    "status": "RUNNING",
+    "completed_downstream_MD": 19,
+    "evaluated_branches": 19,
+    "expected_downstream_MD": 240,
+    "completed_task_count": 361,
+    "last_completed": "r02-s8-F0-t0-m1-analysis",
+    "error": null,
+    "updated_UTC": "2026-10-26T11:50:52Z",
+    "S3": "NOT APPROVED",
+    "B2_and_C_predictor": "NOT APPROVED"
+  },
+  "stderr_bytes": 0,
+  "scientific_analysis_on_Mac": false,
+  "final_reports_complete": false
+}
