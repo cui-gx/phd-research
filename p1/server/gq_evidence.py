@@ -86,13 +86,14 @@ def publish(root, analysis, output, artifacts):
     import numpy as np
     physics=root/'tasks/physics-recheck-01/science'
     evaluations=json.loads((physics/'evaluations.json').read_text())
-    arrays=np.load(physics/'forces.npz')['forces'];energy_errors=[];force_errors=[]
+    arrays=np.load(physics/'forces.npz')['forces'];energy_errors=[];force_errors=[];relative_force_errors=[]
     for method in ('cutoff_1nm','cutoff_2nm','no_cutoff'):
         for source in sorted({r['source'] for r in evaluations}):
             for repetition in range(4):
                 indexed={r['group']:i for i,r in enumerate(evaluations) if r['method']==method and r['source']==source and r['repetition']==repetition}
                 energy_errors.append(abs(evaluations[indexed[-1]]['energy_kJ_mol']-sum(evaluations[indexed[g]]['energy_kJ_mol'] for g in (0,1,2))))
                 force_errors.append(float(np.max(np.abs(arrays[indexed[-1]]-sum(arrays[indexed[g]] for g in (0,1,2))))))
+                relative_force_errors.append(float(np.linalg.norm(arrays[indexed[-1]]-sum(arrays[indexed[g]] for g in (0,1,2)))/max(1,np.linalg.norm(arrays[indexed[-1]]))))
     artifact_errors=[]
     for item in rows:
         base=root/'tasks'/item['name']/'science';result=json.loads((base/'result.json').read_text())
@@ -101,6 +102,26 @@ def publish(root, analysis, output, artifacts):
     if artifact_errors:raise RuntimeError('New MD immutable artifact hash mismatch')
     dump('numerical-audit.json',dict(component_energy_sum_max_abs_kJ_mol=max(energy_errors),
          component_force_sum_max_abs_kJ_mol_nm=max(force_errors),component_checks=len(energy_errors),new_MD_artifact_hash_mismatches=artifact_errors))
+    audit=json.loads((output/'numerical-audit.json').read_text());audit['component_force_sum_max_relative_L2']=max(relative_force_errors);dump('numerical-audit.json',audit)
+    old_grids=json.loads((artifacts/'analysis-gq2/grid-sensitivity.json').read_text())
+    trajectories=json.loads((analysis/'trajectory-summary.json').read_text());bytask={r['task']:r for r in trajectories}
+    prefix=[]
+    for suffix in (11,12,13,14):
+        seed=2026102600+suffix
+        one=next(r for r in old_grids if r['seed']==seed and r['burn_ps']==100 and r['stride']==1 and r['radius_A']==8 and r['rg_width_A']==1 and r['q_width']==.05 and not r['shifted'])
+        four=next(r for r in summaries if r['seed']==seed)
+        first=bytask[f'root-{suffix}-1ns'];extended=bytask[f'extend-{suffix}-to4ns']
+        original=np.load(analysis/f'root-{suffix}-1ns-features.npz');continuation=np.load(analysis/f'extend-{suffix}-to4ns-features.npz')
+        d=np.concatenate((original['distances_A'],continuation['distances_A']))
+        from .supplement_coverage import drmsd
+        distance=drmsd(d,d[0])
+        prefix.append(dict(seed=seed,one_ns_U=one['U'],four_ns_U=four['main_stride_U']['1'],
+          full_dRMSD_to_initial_A_min_median_max=[float(distance.min()),float(np.median(distance)),float(distance.max())],
+          continuation_dihedral_change_abs_deg_median_p95=extended['dihedral_circular_change_from_first_abs_deg_median_p95'],
+          nominal_total_ns=4,nominal_post100ps_ns=3.9,
+          mean_temperature_K=(first['quality']['temperature_K_mean']+3*extended['quality']['temperature_K_mean'])/4,
+          max_constraint_error_A=max(first['quality']['constraint_distance_max_error_A'],extended['quality']['constraint_distance_max_error_A'])))
+    dump('one-ns-vs-four-ns.json',prefix)
     manifest={str(p.relative_to(root)):sha(p) for p in root.rglob('*') if p.is_file() and p.name!='round.lock'}
     dump('raw-artifact-sha256.json',manifest)
     dump('validation.json',dict(status='PASS_ARTIFACT_AND_BUDGET_CHECKS_ONLY',scientific_evaluation_ready=False,S3='NOT_APPROVED',
