@@ -11,17 +11,27 @@ from . import b1_science as core
 from .gq_r2 import dump,sha,nearest,distances,circular
 
 
+
+def temporal_indices(times,valid,boundary_ps,final=True):
+    """保存元の区間で新旧を分け、浮動小数時刻の末端誤差による混入を防ぐ。"""
+    frame=np.arange(len(times));boundary_frame=round(boundary_ps/.5)
+    old_valid=np.asarray(valid)&(frame<boundary_frame)
+    new_valid=np.asarray(valid)&(frame>=boundary_frame)
+    old=core.indices(times,old_valid,boundary_ps-1900,boundary_ps-400+1e-5,800)
+    validation=core.indices(times,old_valid,boundary_ps-300,boundary_ps+1e-5,200)
+    new=core.indices(times,new_valid,boundary_ps,boundary_ps+1600+1e-5,400) if final else np.array([],int)
+    return old,validation,new
+
+
 def combine_pool(req,out):
     """公開済み履歴だけを連結し、相対窓の学習IDを固定する。"""
     dirs=[Path(p) for p in req['prepared']]
     data=[dict(np.load(p/'features.npz')) for p in dirs]
     a={k:np.concatenate([d[k] for d in data]) for k in data[0]}
     x=np.concatenate([np.load(p/'contacts.npy',allow_pickle=True) for p in dirs])
-    b=req['boundary_ps'];old=core.indices(a['time_ps'],a['valid'],b-1900,b-400+1e-5,800)
-    val=core.indices(a['time_ps'],a['valid'],b-300,b+1e-5,200)
-    final=req['pool_stage']=='decision'
+    b=req['boundary_ps'];final=req['pool_stage']=='decision'
+    old,val,new=temporal_indices(a['time_ps'],a['valid'],b,final)
     if not final and a['time_ps'].max()>b+1e-5:raise ValueError('M0用poolに未来データがあります。')
-    new=core.indices(a['time_ps'],a['valid'],b,b+1600+1e-5,400) if final else np.array([],int)
     for ids in (old,val,new):
         if len({np.ascontiguousarray(a['ca'][i]).tobytes() for i in ids})!=len(ids):raise ValueError('同一座標で容量を補充できません。')
     candidate=np.flatnonzero((a['time_ps']>100)&a['valid'])
@@ -58,7 +68,7 @@ def state_features(req,out):
     dd,_=nearest(a['distances_A'][new],a['distances_A'][old])
     cells=grid_cells(a['rg_A'],a['q']);o=[cells[i] for i in old];n=[cells[i] for i in new]
     ii=np.flatnonzero(a['time_ps']>100)[::4];ii=ii[a['valid'][ii]]
-    earlier=ii[a['time_ps'][ii]<=b+1e-5];recent=ii[a['time_ps'][ii]>b]
+    earlier=ii[ii<round(b/.5)];recent=ii[ii>=round(b/.5)]
     previous=set(cells[i] for i in earlier);current=set(cells[i] for i in ii);recent_cells=[cells[i] for i in recent]
     X=dict(new_nonrepeat_fraction_eps2=float(np.mean(dd>2+1e-10)),new_to_old_distance_mean_A=float(dd.mean()),
            Rg_Q_JS_bits=js_bits(o,n),recent_grid_increment_per_ns=(len(current)-len(previous))/2,

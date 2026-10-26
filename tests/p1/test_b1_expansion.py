@@ -3,7 +3,7 @@ import unittest
 import numpy as np
 from p1.server.expansion_contract import experiment_matrix
 from p1.server.b1_science import indices
-from p1.server.expansion_science import grid_cells,js_bits,state_features
+from p1.server.expansion_science import grid_cells,js_bits,state_features,temporal_indices
 from p1.server.expansion_analysis import randomness_summary,safe_correlation
 
 
@@ -32,6 +32,12 @@ class ExpansionTests(unittest.TestCase):
         self.assertTrue(np.all((time[new]>6000)&(time[new]<=7600)))
         self.assertFalse(set(old)&set(new) or set(old)&set(val))
         with self.assertRaises(ValueError):indices(time[:4000],valid[:4000],6000,7600,400)
+
+    def test_float_clock_drift_does_not_mix_old_into_new(self):
+        t=np.arange(1,16001)*.5;t[11999]=6000.+3e-7
+        old,val,new=temporal_indices(t,np.ones(16000,bool),6000,True)
+        self.assertTrue(np.all(new>=12000));self.assertTrue(np.all(old<12000));self.assertTrue(np.all(val<12000))
+        self.assertEqual(new[0],12000)
 
     def test_fixed_physical_bins_and_JS(self):
         self.assertEqual(grid_cells([0,.49,.5,1.],[0,.049,.05,1.]),[(0,0),(0,0),(1,1),(2,20)])
