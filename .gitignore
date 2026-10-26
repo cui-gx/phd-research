@@ -261,3 +261,17 @@
 !/p1/server/gq_*.py
 !/tests/p1/test_gq.py
 ._*
+
+# GQ-R2の日本語資料と小規模証拠
+!/docs/collaboration-policy.md
+!/docs/P1-GQ-R2/
+/docs/P1-GQ-R2/*
+!/docs/P1-GQ-R2/*.md
+!/docs/执行证据/2026-10-26-gq-r2/
+/docs/执行证据/2026-10-26-gq-r2/*
+!/docs/执行证据/2026-10-26-gq-r2/*.json
+!/docs/执行证据/2026-10-26-gq-r2/*.csv
+!/docs/执行证据/2026-10-26-gq-r2/*.png
+!/docs/执行证据/2026-10-26-gq-r2/*.txt
+!/tests/p1/test_gq_r2.py
+._*
