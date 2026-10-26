@@ -125,3 +125,10 @@ Read `research-workflow/local-workspace-instructions.md` for local safety, stage
 - 新しい系統的解析は `docs/P1-GQ-R2/analysis-plan.md` のcommit/push/遠隔確認後に行う。数値・図はサーバで作成する。完了後停止して審査を待つ。S2補充独立終審はINCOMPLETEのまま。
 
 - GQ-R2は本輪終了後に閉鎖する。実行端判定は工学PASS、唯一の確認的科学指標NOT READY。`docs/P1-GQ-R2/README.md` の研究者審査を待ち、CPU解析も無断再実行しない。独立校正の提案は新計算許可ではない。
+
+## B1 Pilot の最新承認（2026-10-26）
+
+- **CONFIRMED**：研究者が1共同歴史（NoCutoff 2+2 ns）、F0/F1/F2、2対応乱数ブロック×下流4 ns（計24 ns）の探索的B1を承認。最新指示は旧R2の実行禁止に優先する。`docs/P1-B1-Pilot/analysis-plan.md` をGPU計算前にcommit/push/遠隔確認する。
+- **CONFIRMED**：唯一の絶対的構象指標を前提にせず、事前固定した複数の解釈可能な物理代理指標で診断する。R2の負の結果/未確認の物理条件は保持する。B1は等MD量の効果であり固定wall-clock純利益ではない。
+- **CONFIRMED長期GPU規則**：本研究のGPU研究計算は、研究者が今後明示しない限り人為的な総時間上限を設けない。旧GQ60分を適用しない。範囲/共有資源許可/単体異常監視/メモリ・保存量保護は必須で、時間無上限を範囲拡大と解釈しない。
+- 本Pilot完了後停止。正式B1、B2、C予測/S3は未承認。日本語公開規範、本人領域のみの操作、旧証拠保護、S2独立終審INCOMPLETEを維持。

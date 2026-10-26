@@ -275,3 +275,17 @@
 !/docs/执行证据/2026-10-26-gq-r2/*.txt
 !/tests/p1/test_gq_r2.py
 ._*
+
+# 承認済みB1 Pilot：公開用日本語資料と小規模証拠
+!/docs/P1-B1-Pilot/
+/docs/P1-B1-Pilot/*
+!/docs/P1-B1-Pilot/*.md
+!/docs/执行证据/2026-10-26-b1-pilot/
+/docs/执行证据/2026-10-26-b1-pilot/*
+!/docs/执行证据/2026-10-26-b1-pilot/*.json
+!/docs/执行证据/2026-10-26-b1-pilot/*.csv
+!/docs/执行证据/2026-10-26-b1-pilot/*.txt
+!/docs/执行证据/2026-10-26-b1-pilot/*.png
+!/p1/server/b1_*.py
+!/tests/p1/test_b1_pilot.py
+._*
