@@ -1,0 +1,47 @@
+{
+  "status": "MEASURED",
+  "cleanup": "clean",
+  "removed": [
+    {
+      "path": "source/.runtime/b1-pilot-20261026",
+      "bytes": 7611687110,
+      "absent": true
+    },
+    {
+      "path": "artifacts/b1-pilot-20261026/pip-cache",
+      "bytes": 1431590211,
+      "absent": true
+    },
+    {
+      "path": "artifacts/b1-pilot-20261026/mpl-cache",
+      "bytes": 204276,
+      "absent": true
+    },
+    {
+      "path": "artifacts/b1-pilot-20261026/pip-25.0.1-py3-none-any.whl",
+      "bytes": 1841526,
+      "absent": true
+    },
+    {
+      "path": "artifacts/b1-pilot-20261026/mdlearn-build",
+      "bytes": 460950,
+      "absent": true
+    }
+  ],
+  "remaining_own_scientific_processes": [],
+  "B1_raw_files_verified": 388,
+  "old_S1_S2_files_verified": 336,
+  "GQ_files_verified": 263,
+  "R2_arrays_verified": 16,
+  "all_originals_unchanged": true,
+  "R2_archive_unchanged": true,
+  "archive_sha256": "07acba4d1e973f7eaaf6be55ce3e56cc8d8303a694e9e996654d29678886a90a",
+  "archive_bytes": 581720607,
+  "total_added_file_bytes_before_cleanup": 10278098736,
+  "storage_cap_bytes": 26843545600,
+  "GPU_total_time_cap": null,
+  "other_users_processes_stopped": false,
+  "shared_system_or_global_git_modified": false,
+  "raw_data_weights_failures_and_archive_preserved": true,
+  "closed_UTC": "2026-10-26T07:31:35Z"
+}

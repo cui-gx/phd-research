@@ -43,3 +43,9 @@
 全trajectory/checkpoint/embedding/完全順位/optimizer/RNGは本人サーバとバックアップ（完了状態は検証記録を参照）に保存する。GitHubはコード・報告・有限表・ハッシュ参照であり、生データの公開配布ではない。
 
 生eventsのtaskは論理名である。失敗M0と復元M0-attempt2は異なるrequest SHAとattempt-mapで区別する。元イベントを書き換えず、監査ではrequest/result SHAと実taskディレクトリを結び付ける。
+
+## 本Pilotの保管・清掃実績
+
+2026-10-26、完全原データアーカイブ581,720,607 bytesのサーバ/Mac双方SHA-256が一致した（`07acba4d1e973f7eaaf6be55ce3e56cc8d8303a694e9e996654d29678886a90a`）。8 MD軌跡、5モデルcheckpoint、初回失敗、保存ソース、全解析配列を確認した。本人の登録済み一時環境・キャッシュだけを削除し、B1の原データ388ファイル、旧S1/S2 336・GQ 263・R2配列16と既存R2アーカイブを再照合した。原始証拠・モデル・アーカイブは保管する。追加科学計算は行わず、研究者審査を待つ。
+
+[バックアップ検証](../执行证据/2026-10-26-b1-pilot/backup-verification.json)、[清掃検証](../执行证据/2026-10-26-b1-pilot/cleanup-verification.json)。公開SHAの当初39ファイルはそのまま保ち、後から取得した閉鎖記録はdelivery-manifest.jsonで別に照合する。

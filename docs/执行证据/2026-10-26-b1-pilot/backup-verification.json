@@ -1,0 +1,19 @@
+{
+  "status": "MEASURED",
+  "archive_bytes": 581720607,
+  "archive_sha256": "07acba4d1e973f7eaaf6be55ce3e56cc8d8303a694e9e996654d29678886a90a",
+  "server_and_local_sha256_match": true,
+  "local_archive_relative_path": "results/raw/remote/2026-10-26-P1-B1-Pilot/b1-pilot-evidence-20261026.tar.gz",
+  "archive_members": 707,
+  "content_presence_checks": {
+    "eight_MD_trajectories": true,
+    "five_model_checkpoints": true,
+    "failed_M0_directory": true,
+    "successful_M0_attempt2": true,
+    "saved_executed_sources": true,
+    "requirements_lock": true,
+    "analysis_arrays": true
+  },
+  "verification_UTC": "2026-10-26T07:31:22.730258+00:00",
+  "scope": "ファイルの転送・SHAとアーカイブ項目の検査。科学数値をMacで再計算しない。"
+}
