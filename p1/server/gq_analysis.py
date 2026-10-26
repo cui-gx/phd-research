@@ -95,6 +95,29 @@ def analyze(root, output):
     import matplotlib.pyplot as plt
     output.mkdir(parents=True, exist_ok=False)
     started = time.monotonic()
+    physics_dir = root/"tasks/physics-01/science"
+    if (physics_dir/"evaluations.json").exists():
+        evaluations = json.loads((physics_dir/"evaluations.json").read_text())
+        forces = np.load(physics_dir/"forces.npz")["forces"]
+        comparisons = []
+        for source in sorted({v["source"] for v in evaluations}):
+            for group in (-1,0,1,2):
+                batches = {}
+                for method in ("cutoff_1nm","cutoff_2nm","no_cutoff"):
+                    indices = [i for i,v in enumerate(evaluations) if v["source"]==source and v["group"]==group and v["method"]==method and not v["warmup"]]
+                    e=np.array([evaluations[i]["energy_kJ_mol"] for i in indices]); f=forces[indices]
+                    batches[method]=(e,f)
+                e0,f0=batches["no_cutoff"];reference=f0.mean(axis=0)
+                for method,(e,f) in batches.items():
+                    delta=f.mean(axis=0)-reference
+                    den=np.sum(reference**2)
+                    comparisons.append(dict(source=source,group=group,method=method,
+                      energy_mean_kJ_mol=float(e.mean()),energy_range_kJ_mol=float(np.ptp(e)),
+                      delta_energy_mean_vs_NC_kJ_mol=float(e.mean()-e0.mean()),
+                      force_rms_delta_kJ_mol_nm=float(np.sqrt(np.mean(np.sum(delta**2,axis=1)))),
+                      force_relative_l2_delta=float(np.sqrt(np.sum(delta**2)/den)) if den else None,
+                      technical_force_max_repeat_delta=float(np.max(np.abs(f-f[0])))))
+        dump(output/"physics-comparisons.json",comparisons)
     items, feature_arrays = [], {}
     for task in sorted((root/"tasks").iterdir()):
         req = json.loads((task/"request.json").read_text())
@@ -170,12 +193,14 @@ def analyze(root, output):
                     if not centers or np.min(drmsd(calibration[centers],feature)) > epsilon:centers.append(i)
                 lib=calibration[centers]
                 for seed in seeds[2:]:
-                    x,f,t=joined[seed]; use=f[(t>100)&(t<=horizon*1000)]
-                    if len(use):
+                    x,f,t=joined[seed]
+                    for validation_horizon in sorted({min(horizon,float(t[-1]/1000)),float(t[-1]/1000)}):
+                        use=f[(t>100)&(t<=validation_horizon*1000)]
+                        if not len(use): continue
                         v=center_visits(use,lib,list(range(len(lib))),epsilon)
                         # Long per-frame diagnostics stay server/local, not in the compact JSON.
-                        np.savez_compressed(output/f'library-{horizon}-{epsilon}-{seed}.npz',nearest_A=v.pop('nearest_D_A'),center_id=v.pop('nearest_center_frame_id_0based'))
-                        libraries.append(dict(calibration_horizon_ns=horizon,validation_seed=seed,epsilon_A=epsilon,**v))
+                        np.savez_compressed(output/f'library-{horizon}-{validation_horizon}-{epsilon}-{seed}.npz',nearest_A=v.pop('nearest_D_A'),center_id=v.pop('nearest_center_frame_id_0based'))
+                        libraries.append(dict(calibration_horizon_ns=horizon,validation_horizon_ns=validation_horizon,validation_seed=seed,epsilon_A=epsilon,**v))
     dump(output/"grid-sensitivity.json", sensitivity)
     dump(output/"library-validation.json", libraries)
     dump(output/"shape-alias.json", alias)
