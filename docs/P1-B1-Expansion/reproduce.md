@@ -11,3 +11,9 @@
 7. `status.json`、原イベント、root/state/task IDとGPU診断を見る。SHA/公開順序/資源競合/容量違反を無視して続行しない。接続失敗時はVPNを依頼し、別原因や別ホストを推測しない。
 8. 完了後、raw DCD/model/配列/原ログは本人serverと検証済みMac backupへ保管する。公開JSONでは不要なパス/UUIDを除くため、raw SHAは私有原ファイルに対する参照であり脱敏後JSONのSHAではない。public manifestは公開版自身のSHAを示す。
 9. 双端backup検証後に登録環境/キャッシュのみ清掃し、全結果/失敗/日語報告/交接記録をGitHubへ通常push・遠隔回読して停止する。B2/C正式予測/S3へ自動的に進まない。
+
+## 既存資格資産への依存
+
+現在の適応は既存GQのNoCutoff `system.xml` と、R2の固定幾何テンプレート `synthetic-source.npz`（SHA53bd1ca4f33765a9382a605edacec9c6ce4e8dcd660b7848e0ca85bef6dd3d50）を照合に用いる。後者の元座標を取り除き、原子対応/拘束/手性の定義だけを再利用する。旧MDを本輪の学習やA0へ混ぜることとは異なる。
+
+新規環境では旧GQ/R2の検証済みarchiveからこれらの依存資産も復元する必要がある。本輪の新しいコードだけをcloneすれば全入力が自動取得できる、というstandalone公開artifactの資格はまだ主張しない。旧資産は保管・SHA照合を続け、公開配布の整理は別作業とする。
