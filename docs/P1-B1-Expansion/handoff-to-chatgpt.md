@@ -4,6 +4,8 @@
 
 ## A. 現在の状態と版
 
+**報告本文の固定版：b77d7110a8a78fd66c32438b3f99507061472fe4（GitHub遠隔回読済み）**。本版以降は回読証跡の追記。最後の同期commitは最終返信/Git履歴とdelivery-verification.jsonで照合する。
+
 バッチ `b1-expansion-20261026`。確認時刻：サーバCPU表再照合23:25 JST、ローカル保存23:27 JST。最終文書のGitHub反映はpush後の遠隔回読で確認し、[交付監査](delivery-audit.md)・同ディレクトリの同期証跡・Git履歴・最終返信の実在SHAを照合する。commit自己参照を事前に捏造しない。手元のcheckoutでは `git log -1 --format=%H -- docs/P1-B1-Expansion/handoff-to-chatgpt.md` と `git rev-parse HEAD` を区別して確認できる。
 
 |段階|状態と実績|

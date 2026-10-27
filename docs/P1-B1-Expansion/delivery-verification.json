@@ -1,8 +1,21 @@
 {
-  "status": "PENDING_PUSH",
-  "purpose": "実際のpushと遠隔回読後にだけ検証済みSHAへ更新する。",
+  "status": "VERIFIED_report_content_snapshot",
+  "verified_JST": "2026-10-27T23:53:53.122194+09:00",
+  "repository": "cui-gx/phd-research",
+  "branch": "main",
+  "verified_content_commit": "b77d7110a8a78fd66c32438b3f99507061472fe4",
+  "verification_method": "GitHub connector fetch_fileでcommit固定の本文を回読し、返されたblob SHAをローカルGit objectと照合。",
+  "verified_blobs": {
+    "docs/P1-B1-Expansion/review-dossier.md": "54254d4976b094732c6bdcb07af71658d8919822",
+    "docs/P1-B1-Expansion/handoff-to-chatgpt.md": "7e60f5db9b3a70b6e05d1b4321c4b6190d555eda",
+    "docs/执行证据/2026-10-26-b1-expansion/report-delivery-audit.json": "74a25e5a620899cc686abb9cfaabaae7fd72b8d9"
+  },
+  "receipt_commit_policy": "この回読証跡を後続commitへ保存する。最後の同期commitはGit履歴と最終返信で照合し、本文自己参照SHAを捏造しない。",
   "scientific_source_commit": "40a911e1f36d1365fc5ee7d8753a7feb1edd964d",
+  "reports": "COMPLETE",
   "overall_delivery": "PARTIAL",
-  "full_local_backup_verified": false,
-  "independent_scientific_review": "PENDING"
+  "full_local_archives_verified": "0/9",
+  "cleanup": "NOT_PERFORMED",
+  "independent_scientific_review": "PENDING",
+  "researcher_acceptance": "PENDING"
 }

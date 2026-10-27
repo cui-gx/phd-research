@@ -1,6 +1,6 @@
 {
   "status": "PASS_document_and_evidence_checks_not_independent_scientific_review",
-  "checked_JST": "2026-10-27T23:52:00.702612+09:00",
+  "checked_JST": "2026-10-27T23:53:54.189300+09:00",
   "dossier_numbered_sections": 18,
   "handoff_sections": [
     "A",
@@ -61,7 +61,7 @@
     "docs/P1-B1-Expansion/supervisor-summary-ja.md": "5567ddcc120bc6428e0748ae9db1305ac3c835a4db71a838a7d9f2c3016ddf33",
     "docs/P1-B1-Expansion/execution-progress.md": "b36f7cb8f9a6ebc9383728aa0bd6f1071a4ef20f991fd3a0eb83552dc2010196",
     "docs/P1-B1-Expansion/implementation-errata.md": "b44ca47e85b41b4c617bd26934336e3b80e40cbec90a7e7f29b7d26658ea68b6",
-    "docs/P1-B1-Expansion/handoff-to-chatgpt.md": "9171fd11473c2fd2467a5c46ccd85a8e440dccfb457bc4091b6562d4b8a4e94f",
+    "docs/P1-B1-Expansion/handoff-to-chatgpt.md": "7e58d9384317ab57d1cc4db3c85132e3ea8cf25893850eea20a387767439fdff",
     "docs/P1-B1-Expansion/figure-and-table-audit.md": "174c53150f2a49048cbb59dc44534d6f17bb1bc4b0a581fc0abc4b2b7dddc750",
     "docs/P1-B1-Expansion/delivery-audit.md": "d269bf90aae94df1ebd3f6db6ac857e443bf526fd92993547965640a0c761177"
   },
