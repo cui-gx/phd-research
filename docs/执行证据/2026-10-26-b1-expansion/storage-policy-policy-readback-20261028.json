@@ -1,0 +1,183 @@
+{
+  "status": "PASS",
+  "verified_policy_commit": "ecf013469898399976cfb2e65a73a428d4506a27",
+  "baseline_commit": "9f5630694ebac131a4a94d58a089771817477c06",
+  "baseline_files_fully_verified": 166,
+  "policy_files_remotely_read": 24,
+  "verification_method": "GitHub fetch_fileで変更24ファイルの本文を取得し、remote blob SHAをcommit内の期待SHAと照合。既存166ファイルは独立した新規Git領域で全bytesを検証済み。",
+  "all_matched": true,
+  "files": [
+    {
+      "path": "docs/P1-B1-Expansion/automatic-collection-status.md",
+      "expected_blob_sha": "9c47e8fe95820dea6056a3a919b322e0cada3f3b",
+      "remote_blob_sha": "9c47e8fe95820dea6056a3a919b322e0cada3f3b",
+      "matched": true,
+      "content_received": true
+    },
+    {
+      "path": "AGENTS.md",
+      "expected_blob_sha": "c3ec3d4f76251c746f27f1f5f64c78f75ab9f59c",
+      "remote_blob_sha": "c3ec3d4f76251c746f27f1f5f64c78f75ab9f59c",
+      "matched": true,
+      "content_received": true
+    },
+    {
+      "path": "docs/P1-B1-Expansion/README.md",
+      "expected_blob_sha": "475b2c0e28787a34e75d6a55310cd2c95d93becf",
+      "remote_blob_sha": "475b2c0e28787a34e75d6a55310cd2c95d93becf",
+      "matched": true,
+      "content_received": true
+    },
+    {
+      "path": "docs/P1-B1-Expansion/data-quality.md",
+      "expected_blob_sha": "e18733551cd3ed4463f3c5c0f01e4b4f90cd8586",
+      "remote_blob_sha": "e18733551cd3ed4463f3c5c0f01e4b4f90cd8586",
+      "matched": true,
+      "content_received": true
+    },
+    {
+      "path": "docs/P1-B1-Expansion/cost-and-runtime.md",
+      "expected_blob_sha": "15fe532bb354ef9ab6dd44e63f499857e154fd2d",
+      "remote_blob_sha": "15fe532bb354ef9ab6dd44e63f499857e154fd2d",
+      "matched": true,
+      "content_received": true
+    },
+    {
+      "path": "docs/P1-B1-Expansion/delivery-audit.md",
+      "expected_blob_sha": "0277196712ccffb2a0ab4c3a82a4ad919f7b785f",
+      "remote_blob_sha": "0277196712ccffb2a0ab4c3a82a4ad919f7b785f",
+      "matched": true,
+      "content_received": true
+    },
+    {
+      "path": "docs/P1-B1-Expansion/execution-progress.md",
+      "expected_blob_sha": "e4850f1a2f3471ff46a6c00a6280bfb759a500a5",
+      "remote_blob_sha": "e4850f1a2f3471ff46a6c00a6280bfb759a500a5",
+      "matched": true,
+      "content_received": true
+    },
+    {
+      "path": "docs/P1-B1-Expansion/next-stage-recommendation.md",
+      "expected_blob_sha": "b8703587b75e7d19746bfac894595d8ac5653f96",
+      "remote_blob_sha": "b8703587b75e7d19746bfac894595d8ac5653f96",
+      "matched": true,
+      "content_received": true
+    },
+    {
+      "path": "docs/P1-B1-Expansion/handoff-to-chatgpt.md",
+      "expected_blob_sha": "b54c5fec42961dfc2f68aed6031b5a760c821e8f",
+      "remote_blob_sha": "b54c5fec42961dfc2f68aed6031b5a760c821e8f",
+      "matched": true,
+      "content_received": true
+    },
+    {
+      "path": "docs/P1-B1-Expansion/delivery-status.json",
+      "expected_blob_sha": "a13d0c0832ebe50b792bef6d6b7bddee1aed433d",
+      "remote_blob_sha": "a13d0c0832ebe50b792bef6d6b7bddee1aed433d",
+      "matched": true,
+      "content_received": true
+    },
+    {
+      "path": "docs/P1-B1-Expansion/review-dossier.md",
+      "expected_blob_sha": "1ea486a03080ec10e042489620085f01378dca20",
+      "remote_blob_sha": "1ea486a03080ec10e042489620085f01378dca20",
+      "matched": true,
+      "content_received": true
+    },
+    {
+      "path": "docs/P1-B1-Expansion/statistical-limitations.md",
+      "expected_blob_sha": "50b76b819555b56c0e454cc651705521b65764e4",
+      "remote_blob_sha": "50b76b819555b56c0e454cc651705521b65764e4",
+      "matched": true,
+      "content_received": true
+    },
+    {
+      "path": "docs/P1-B1-Expansion/reproduce.md",
+      "expected_blob_sha": "4bfcebfe3bb65f3ddba1459973fc4af54c016de3",
+      "remote_blob_sha": "4bfcebfe3bb65f3ddba1459973fc4af54c016de3",
+      "matched": true,
+      "content_received": true
+    },
+    {
+      "path": "docs/P1-B1-Expansion/storage-and-delivery-policy.md",
+      "expected_blob_sha": "08541d7e5e91d966f395ef1b9f99a57d60bf2fac",
+      "remote_blob_sha": "08541d7e5e91d966f395ef1b9f99a57d60bf2fac",
+      "matched": true,
+      "content_received": true
+    },
+    {
+      "path": "docs/P1-B1-Expansion/review-delivery-requirements.md",
+      "expected_blob_sha": "2b6d72d172d9e1d43fe9e9f852eabe9d45b3a178",
+      "remote_blob_sha": "2b6d72d172d9e1d43fe9e9f852eabe9d45b3a178",
+      "matched": true,
+      "content_received": true
+    },
+    {
+      "path": "docs/collaboration-policy.md",
+      "expected_blob_sha": "4e6f5c18972371524022eaa9562c8bc5ddbdae39",
+      "remote_blob_sha": "4e6f5c18972371524022eaa9562c8bc5ddbdae39",
+      "matched": true,
+      "content_received": true
+    },
+    {
+      "path": "docs/P1-B1-Expansion/supervisor-summary-ja.md",
+      "expected_blob_sha": "24a1f747215bb38ced1e2462a247509379bbbecc",
+      "remote_blob_sha": "24a1f747215bb38ced1e2462a247509379bbbecc",
+      "matched": true,
+      "content_received": true
+    },
+    {
+      "path": "docs/协作交接记录.md",
+      "expected_blob_sha": "e090362f47396e83c5cd68c4cde50d2915448cfd",
+      "remote_blob_sha": "e090362f47396e83c5cd68c4cde50d2915448cfd",
+      "matched": true,
+      "content_received": true
+    },
+    {
+      "path": "docs/执行证据/2026-10-26-b1-expansion/storage-policy-collector-check-20261028.json",
+      "expected_blob_sha": "563d7a33798682977b07662fe34790f002baca24",
+      "remote_blob_sha": "563d7a33798682977b07662fe34790f002baca24",
+      "matched": true,
+      "content_received": true
+    },
+    {
+      "path": "docs/博士研究_全局总档案.md",
+      "expected_blob_sha": "8ef0ea4f93dbe7bb49cd8a54b2696b3a67a9eeba",
+      "remote_blob_sha": "8ef0ea4f93dbe7bb49cd8a54b2696b3a67a9eeba",
+      "matched": true,
+      "content_received": true
+    },
+    {
+      "path": "docs/执行证据/2026-10-26-b1-expansion/storage-policy-local-audit-20261028.json",
+      "expected_blob_sha": "95366edfa64d46dec1d12189020686e5fbf90653",
+      "remote_blob_sha": "95366edfa64d46dec1d12189020686e5fbf90653",
+      "matched": true,
+      "content_received": true
+    },
+    {
+      "path": "docs/执行证据/2026-10-26-b1-expansion/storage-policy-git-content-verification-20261028.json",
+      "expected_blob_sha": "83332b19957bcf6fcfba246d8a81e32176dd8c49",
+      "remote_blob_sha": "83332b19957bcf6fcfba246d8a81e32176dd8c49",
+      "matched": true,
+      "content_received": true
+    },
+    {
+      "path": "docs/执行证据/2026-10-26-b1-expansion/storage-policy-server-verification-20261028.json",
+      "expected_blob_sha": "55d33e9593c0c0cc18bd1c0838485d7c79f3a48f",
+      "remote_blob_sha": "55d33e9593c0c0cc18bd1c0838485d7c79f3a48f",
+      "matched": true,
+      "content_received": true
+    },
+    {
+      "path": "docs/执行证据/2026-10-26-b1-expansion/storage-policy-github-baseline-readback-20261028.json",
+      "expected_blob_sha": "7f15505afd867d1e0b2d23b1143526381682d50b",
+      "remote_blob_sha": "7f15505afd867d1e0b2d23b1143526381682d50b",
+      "matched": true,
+      "content_received": true
+    }
+  ],
+  "technical_delivery": "COMPLETE",
+  "independent_scientific_review": "PENDING",
+  "researcher_scientific_acceptance": "PENDING",
+  "self_reference_note": "実検証済みの政策本文commitを保存する。証跡/状態を記録する最後のcommitはGit履歴と最終返信で確認し、自己参照SHAを捏造しない。"
+}

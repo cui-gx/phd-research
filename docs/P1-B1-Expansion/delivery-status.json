@@ -2,12 +2,12 @@
   "policy": "CONFIRMED_2026-10-28",
   "SCIENTIFIC_COMPUTE": "COMPLETE",
   "RESULT_AUDIT": "PASS",
-  "GITHUB_EVIDENCE_DELIVERY": "PENDING_POLICY_REMOTE_READBACK",
+  "GITHUB_EVIDENCE_DELIVERY": "PASS_REMOTE_READBACK_VERIFIED",
   "MAC_RAW_BACKUP": "WAIVED_BY_RESEARCHER",
   "SERVER_RAW_ARCHIVES": "RETAINED_SHA256_VERIFIED",
   "INDEPENDENT_SCIENTIFIC_REVIEW": "PENDING",
   "RESEARCHER_SCIENTIFIC_ACCEPTANCE": "PENDING",
-  "TECHNICAL_DELIVERY": "PENDING_REMOTE_VERIFICATION",
+  "TECHNICAL_DELIVERY": "COMPLETE",
   "server_archive_count": 9,
   "server_archive_bytes": 20223932863,
   "server_archive_verification": "../执行证据/2026-10-26-b1-expansion/storage-policy-server-verification-20261028.json",
@@ -19,5 +19,12 @@
   "raw_archives_deleted": false,
   "cleanup": "NOT_PERFORMED_NOT_AUTHORIZED_BY_THIS_TASK",
   "new_scientific_compute": false,
-  "status_scope": "技術交付と独立科学審査/研究者科学受入れを別のゲートとして扱う。"
+  "status_scope": "技術交付と独立科学審査/研究者科学受入れを別のゲートとして扱う。",
+  "checked_JST": "2026-10-28T00:59:54.027579+09:00",
+  "github_verified_baseline_commit": "9f5630694ebac131a4a94d58a089771817477c06",
+  "github_verified_policy_commit": "ecf013469898399976cfb2e65a73a428d4506a27",
+  "github_full_content_baseline_files": 166,
+  "github_policy_files_readback": 24,
+  "github_verification_evidence": "../执行证据/2026-10-26-b1-expansion/storage-policy-policy-readback-20261028.json",
+  "closure_note": "新しい保存規則に基づく技術交付のみ完了。独立科学審査・研究者科学受入れはPENDING。Mac0/9は履歴として保持し必須残件にしない。"
 }
