@@ -6,7 +6,8 @@
 
 - 研究者は方向・実験目標・重要な科学判断を決め、Codexは実装・実験・処理・検証・再現・保管を担当し、ChatGPTは計画・方法論審査・解釈・論文構成・次段階設計を担当する。Codexは毎回、ChatGPTが独立に確認できる引継ぎを残す。詳細は [共同作業規範](docs/collaboration-policy.md)。
 - 大規模実験の終了時には、対応する `review-dossier.md` と固定入口 `handoff-to-chatgpt.md` を新規作成または更新する。公開資料は正確で自然な日本語とし、中国語の研究討議と区別する。要約だけで原証拠を置き換えない。
-- B1 Expansionでは、既定の全計算・集計・完全性監査・バックアップの完了後、`docs/P1-B1-Expansion/review-dossier.md` と `docs/P1-B1-Expansion/handoff-to-chatgpt.md` を完成する。18項目の審査事項とA–Gの引継ぎ必須項目は [本輪の交付要件](docs/P1-B1-Expansion/review-delivery-requirements.md) を厳守する。
+- B1 Expansionでは、`docs/P1-B1-Expansion/review-dossier.md` と `docs/P1-B1-Expansion/handoff-to-chatgpt.md` を完成する。18項目とA–Gは [本輪の交付要件](docs/P1-B1-Expansion/review-delivery-requirements.md) を厳守する。**2026-10-27の研究者追加承認により、既存表のCPU照合・文書作成はバックアップと並行できる**。旧「バックアップ後に文書作成」の順序だけを置き換え、未完了backup・清掃・独立審査・受入れは別々にPARTIAL/未完了と明示する。
+- 本輪の正式文書作業は新MD・CVAE訓練・GPU推論・新バッチを許可しない。必要な既存統計のCPU照合はサーバで実施し、元の表を上書きしない。収集の故障は残件として記録し、この文書作業を伝送の再開や別の移行作業へ変更しない。文書完成後は停止する。
 - 重要な結論を実際のCSV/JSON・ソース・実行ログ・manifestへ有効な相対リンクで結び、主要値・単位・分母・統計単位・不確実性を本文にも示す。有利な結果だけでなく、陰性・不一致・未解決・識別不能な部分を記す。
 - `CONFIRMED / MEASURED / DERIVED / PROPOSED / UNVERIFIED` を維持する。進行中の実行状態は `RUNNING`、未完了の交付は `PARTIAL` と明記し、計算完了・保管完了・科学審査・研究者受入れを別々に記録する。技術的な自動収集だけで研究交付全体を `COMPLETE` としない。
 - 報告作成を理由に凍結条件、seed、評価規則、実行順序、旧証拠を変更しない。追加MD・学習・GPUタスクや無許可の再計算を行わない。大きな軌跡・重み・完全ログは許可された保管先に残し、GitHubには簡潔な証拠・SHA・出典索引を置く。秘密鍵・内部ネットワーク・個人資源情報は載せない。
