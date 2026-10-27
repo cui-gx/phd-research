@@ -1,0 +1,14 @@
+{
+  "status": "MEASURED",
+  "UTC": "2026-10-27T13:45:29.852896+00:00",
+  "purpose": "同一バッチの検証済みexport再利用と完全archiveバックアップ継続",
+  "attempt": 5,
+  "prior_helper_SHA256": "c3326d0658fa7e4a2630b8d8ec2b92fb6c17690983c13397838718580108aa07",
+  "helper_SHA256": "c5102f7d2096a6ff91fbdedf9a3463fbece9655ff819128b23aac4f5299c18c7",
+  "import_module": "p1/collection_import.py",
+  "import_module_commit": "344d59d995c2f9b99d6ced600440662ea3481edb",
+  "prior_state_and_logs_preserved": true,
+  "scientific_source_or_conditions_changed": false,
+  "new_scientific_batch": false,
+  "backup_complete": false
+}
