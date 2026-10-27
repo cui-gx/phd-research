@@ -1,0 +1,319 @@
+{
+  "status": "PASS_STATIC_ONLY",
+  "checked_at_JST": "2026-10-28T08:53:11.581141+09:00",
+  "source_commit": "e7f438c074d02452d57b7602bba810173b22f9b1",
+  "scope": "文書・schema・SHA・差分の静的点検のみ。科学的な数値再評価は未実施。",
+  "input_files_registered": 156,
+  "protected_input_files_sha256_verified": 153,
+  "protected_input_paths": [
+    "docs/P1-B1-Expansion/README.md",
+    "docs/P1-B1-Expansion/analysis-plan.md",
+    "docs/P1-B1-Expansion/automatic-collection-status.md",
+    "docs/P1-B1-Expansion/candidate-selection.md",
+    "docs/P1-B1-Expansion/cost-and-runtime.md",
+    "docs/P1-B1-Expansion/data-lineage-plan.md",
+    "docs/P1-B1-Expansion/data-lineage.md",
+    "docs/P1-B1-Expansion/data-quality.md",
+    "docs/P1-B1-Expansion/delivery-audit.md",
+    "docs/P1-B1-Expansion/delivery-status.json",
+    "docs/P1-B1-Expansion/delivery-verification.json",
+    "docs/P1-B1-Expansion/execution-progress.md",
+    "docs/P1-B1-Expansion/experiment-matrix.csv",
+    "docs/P1-B1-Expansion/experiment-matrix.json",
+    "docs/P1-B1-Expansion/experiment-matrix.md",
+    "docs/P1-B1-Expansion/failures-and-amendments.md",
+    "docs/P1-B1-Expansion/figure-and-table-audit.md",
+    "docs/P1-B1-Expansion/handoff-to-chatgpt.md",
+    "docs/P1-B1-Expansion/implementation-and-preflight.md",
+    "docs/P1-B1-Expansion/implementation-errata.md",
+    "docs/P1-B1-Expansion/metric-contract.md",
+    "docs/P1-B1-Expansion/model-training.md",
+    "docs/P1-B1-Expansion/next-stage-recommendation.md",
+    "docs/P1-B1-Expansion/paired-results.md",
+    "docs/P1-B1-Expansion/randomization-plan.md",
+    "docs/P1-B1-Expansion/randomness-analysis.md",
+    "docs/P1-B1-Expansion/reproduce.md",
+    "docs/P1-B1-Expansion/resource-and-recovery-plan.md",
+    "docs/P1-B1-Expansion/review-delivery-requirements.md",
+    "docs/P1-B1-Expansion/review-dossier.md",
+    "docs/P1-B1-Expansion/scientific-metrics.md",
+    "docs/P1-B1-Expansion/state-dependence-analysis.md",
+    "docs/P1-B1-Expansion/statistical-limitations.md",
+    "docs/P1-B1-Expansion/storage-and-delivery-policy.md",
+    "docs/P1-B1-Expansion/supervisor-summary-ja.md",
+    "docs/collaboration-policy.md",
+    "docs/执行证据/2026-10-26-b1-expansion/GPU-diagnostics.csv",
+    "docs/执行证据/2026-10-26-b1-expansion/all-histories-readback-01.json",
+    "docs/执行证据/2026-10-26-b1-expansion/autocorrelation.json",
+    "docs/执行证据/2026-10-26-b1-expansion/branch-status.csv",
+    "docs/执行证据/2026-10-26-b1-expansion/checkpoint-readback.json",
+    "docs/执行证据/2026-10-26-b1-expansion/collection-import-repair.json",
+    "docs/执行证据/2026-10-26-b1-expansion/collection-registration.json",
+    "docs/执行证据/2026-10-26-b1-expansion/collection-resume-v2-20261027.json",
+    "docs/执行证据/2026-10-26-b1-expansion/collector-health-20261026-2100.json",
+    "docs/执行证据/2026-10-26-b1-expansion/continuous.csv",
+    "docs/执行证据/2026-10-26-b1-expansion/controller-health-20261026-2059.json",
+    "docs/执行证据/2026-10-26-b1-expansion/costs.json",
+    "docs/执行证据/2026-10-26-b1-expansion/discrete-counts.csv",
+    "docs/执行证据/2026-10-26-b1-expansion/environment.json",
+    "docs/执行证据/2026-10-26-b1-expansion/events.json",
+    "docs/执行证据/2026-10-26-b1-expansion/executed-source-sha256.json",
+    "docs/执行证据/2026-10-26-b1-expansion/failures.json",
+    "docs/执行证据/2026-10-26-b1-expansion/feature-variation.csv",
+    "docs/执行证据/2026-10-26-b1-expansion/features.json",
+    "docs/执行证据/2026-10-26-b1-expansion/feedback-diagnostic.png",
+    "docs/执行证据/2026-10-26-b1-expansion/finalization-runtime.json",
+    "docs/执行证据/2026-10-26-b1-expansion/first-branch-verification.json",
+    "docs/执行证据/2026-10-26-b1-expansion/first-history-readback.json",
+    "docs/执行证据/2026-10-26-b1-expansion/models.json",
+    "docs/执行证据/2026-10-26-b1-expansion/multiscale-effects.png",
+    "docs/执行证据/2026-10-26-b1-expansion/paired-effects.csv",
+    "docs/执行证据/2026-10-26-b1-expansion/post-compute-status-20261027.json",
+    "docs/执行证据/2026-10-26-b1-expansion/preflight-final-02.json",
+    "docs/执行证据/2026-10-26-b1-expansion/preflight-final-03.json",
+    "docs/执行证据/2026-10-26-b1-expansion/preflight-final.json",
+    "docs/执行证据/2026-10-26-b1-expansion/preflight.json",
+    "docs/执行证据/2026-10-26-b1-expansion/progress-20261026-224712.json",
+    "docs/执行证据/2026-10-26-b1-expansion/progress-20261027-092447.json",
+    "docs/执行证据/2026-10-26-b1-expansion/progress-20261027-103835.json",
+    "docs/执行证据/2026-10-26-b1-expansion/progress-20261027-131352.json",
+    "docs/执行证据/2026-10-26-b1-expansion/progress-20261027-144232.json",
+    "docs/执行证据/2026-10-26-b1-expansion/progress-20261027-200716.json",
+    "docs/执行证据/2026-10-26-b1-expansion/progress-20261027-221415.json",
+    "docs/执行证据/2026-10-26-b1-expansion/public-export-index.json",
+    "docs/执行证据/2026-10-26-b1-expansion/publication-runtime.json",
+    "docs/执行证据/2026-10-26-b1-expansion/quality.json",
+    "docs/执行证据/2026-10-26-b1-expansion/randomness-decomposition.json",
+    "docs/执行证据/2026-10-26-b1-expansion/raw-artifact-sha256.json",
+    "docs/执行证据/2026-10-26-b1-expansion/recovery-20261027-02-integrity.json",
+    "docs/执行证据/2026-10-26-b1-expansion/recovery-20261027-integrity.json",
+    "docs/执行证据/2026-10-26-b1-expansion/recovery-20261027-progress.json",
+    "docs/执行证据/2026-10-26-b1-expansion/report-archive-runtime-readback.json",
+    "docs/执行证据/2026-10-26-b1-expansion/report-backup-status.json",
+    "docs/执行证据/2026-10-26-b1-expansion/report-delivery-audit.json",
+    "docs/执行证据/2026-10-26-b1-expansion/report-document-check-failure.json",
+    "docs/执行证据/2026-10-26-b1-expansion/report-main-root-effects.csv",
+    "docs/执行证据/2026-10-26-b1-expansion/report-review-cpu-stdout.log",
+    "docs/执行证据/2026-10-26-b1-expansion/report-review-statistics.json",
+    "docs/执行证据/2026-10-26-b1-expansion/requirements.lock.txt",
+    "docs/执行证据/2026-10-26-b1-expansion/root-effects.csv",
+    "docs/执行证据/2026-10-26-b1-expansion/root-state-effects.png",
+    "docs/执行证据/2026-10-26-b1-expansion/root-summary.csv",
+    "docs/执行证据/2026-10-26-b1-expansion/selection-comparisons.csv",
+    "docs/执行证据/2026-10-26-b1-expansion/server-final-export-v1-public-sha256.json",
+    "docs/执行证据/2026-10-26-b1-expansion/server-final-export-v1-unit-b1-final.txt",
+    "docs/执行证据/2026-10-26-b1-expansion/server-final-export-v1-unit-b1-full-matrix.txt",
+    "docs/执行证据/2026-10-26-b1-expansion/state-diagnostics.csv",
+    "docs/执行证据/2026-10-26-b1-expansion/state-effects.csv",
+    "docs/执行证据/2026-10-26-b1-expansion/state-time-differences.csv",
+    "docs/执行证据/2026-10-26-b1-expansion/storage-policy-collector-check-20261028.json",
+    "docs/执行证据/2026-10-26-b1-expansion/storage-policy-git-content-verification-20261028.json",
+    "docs/执行证据/2026-10-26-b1-expansion/storage-policy-github-baseline-readback-20261028.json",
+    "docs/执行证据/2026-10-26-b1-expansion/storage-policy-local-audit-20261028.json",
+    "docs/执行证据/2026-10-26-b1-expansion/storage-policy-policy-readback-20261028.json",
+    "docs/执行证据/2026-10-26-b1-expansion/storage-policy-server-verification-20261028.json",
+    "docs/执行证据/2026-10-26-b1-expansion/task-manifest.json",
+    "docs/执行证据/2026-10-26-b1-expansion/temporal-and-SHA-audit.json",
+    "docs/执行证据/2026-10-26-b1-expansion/time-windows.csv",
+    "docs/执行证据/2026-10-26-b1-expansion/unit-b1-boundary.txt",
+    "docs/执行证据/2026-10-26-b1-expansion/unit-b1-final.txt",
+    "docs/执行证据/2026-10-26-b1-expansion/unit-b1-full-matrix.txt",
+    "docs/执行证据/2026-10-26-b1-expansion/unit-b1-launch.txt",
+    "docs/执行证据/2026-10-26-b1-expansion/unit-b1.txt",
+    "docs/执行证据/2026-10-26-b1-expansion/unit-r2.txt",
+    "docs/执行证据/2026-10-26-b1-expansion/validation.json",
+    "p1/server/__init__.py",
+    "p1/server/__main__.py",
+    "p1/server/analysis.py",
+    "p1/server/b1_analysis.py",
+    "p1/server/b1_publish.py",
+    "p1/server/b1_run.py",
+    "p1/server/b1_science.py",
+    "p1/server/bootstrap.py",
+    "p1/server/events.py",
+    "p1/server/expansion_analysis.py",
+    "p1/server/expansion_contract.py",
+    "p1/server/expansion_publish.py",
+    "p1/server/expansion_run.py",
+    "p1/server/expansion_science.py",
+    "p1/server/gq_analysis.py",
+    "p1/server/gq_control.py",
+    "p1/server/gq_evidence.py",
+    "p1/server/gq_r2.py",
+    "p1/server/gq_r2_publish.py",
+    "p1/server/gq_r2_run.py",
+    "p1/server/gq_science.py",
+    "p1/server/pack.py",
+    "p1/server/policy.py",
+    "p1/server/qualification.py",
+    "p1/server/qualification_analysis.py",
+    "p1/server/runner.py",
+    "p1/server/science.py",
+    "p1/server/science_sources.md",
+    "p1/server/supplement_coverage.py",
+    "p1/server/supplement_physics.py",
+    "p1/server/supplement_publish.py",
+    "p1/server/supplement_run.py",
+    "p1/server/supplement_selection.py",
+    "p1/server/support.py",
+    "p1/server/worker.py",
+    "vendor/mdlearn-938cb80/mdlearn/nn/models/vae/model.py",
+    "vendor/mdlearn-938cb80/mdlearn/nn/models/vae/symmetric_conv2d_vae.py"
+  ],
+  "approved_canonical_document_updates": [
+    "AGENTS.md",
+    "docs/协作交接记录.md",
+    "docs/博士研究_全局总档案.md"
+  ],
+  "csv_full_parse": [
+    {
+      "path": "docs/P1-B1-Expansion/experiment-matrix.csv",
+      "rows": 240,
+      "schema": "PASS"
+    },
+    {
+      "path": "docs/执行证据/2026-10-26-b1-expansion/GPU-diagnostics.csv",
+      "rows": 448,
+      "schema": "PASS"
+    },
+    {
+      "path": "docs/执行证据/2026-10-26-b1-expansion/branch-status.csv",
+      "rows": 240,
+      "schema": "PASS"
+    },
+    {
+      "path": "docs/执行证据/2026-10-26-b1-expansion/continuous.csv",
+      "rows": 2880,
+      "schema": "PASS"
+    },
+    {
+      "path": "docs/执行证据/2026-10-26-b1-expansion/discrete-counts.csv",
+      "rows": 17280,
+      "schema": "PASS"
+    },
+    {
+      "path": "docs/执行证据/2026-10-26-b1-expansion/feature-variation.csv",
+      "rows": 10,
+      "schema": "PASS"
+    },
+    {
+      "path": "docs/执行证据/2026-10-26-b1-expansion/paired-effects.csv",
+      "rows": 41472,
+      "schema": "PASS"
+    },
+    {
+      "path": "docs/执行证据/2026-10-26-b1-expansion/report-main-root-effects.csv",
+      "rows": 24,
+      "schema": "PASS"
+    },
+    {
+      "path": "docs/执行证据/2026-10-26-b1-expansion/root-effects.csv",
+      "rows": 3456,
+      "schema": "PASS"
+    },
+    {
+      "path": "docs/执行证据/2026-10-26-b1-expansion/root-summary.csv",
+      "rows": 432,
+      "schema": "PASS"
+    },
+    {
+      "path": "docs/执行证据/2026-10-26-b1-expansion/selection-comparisons.csv",
+      "rows": 96,
+      "schema": "PASS"
+    },
+    {
+      "path": "docs/执行证据/2026-10-26-b1-expansion/state-diagnostics.csv",
+      "rows": 120,
+      "schema": "PASS"
+    },
+    {
+      "path": "docs/执行证据/2026-10-26-b1-expansion/state-effects.csv",
+      "rows": 6912,
+      "schema": "PASS"
+    },
+    {
+      "path": "docs/执行证据/2026-10-26-b1-expansion/state-time-differences.csv",
+      "rows": 3456,
+      "schema": "PASS"
+    },
+    {
+      "path": "docs/执行证据/2026-10-26-b1-expansion/time-windows.csv",
+      "rows": 9600,
+      "schema": "PASS"
+    }
+  ],
+  "csv_scientific_statistics_recomputed": false,
+  "raw_manifest_entries_indexed": 928,
+  "raw_server_presence_rechecked": false,
+  "local_markdown_links_checked": 95,
+  "broken_links": [],
+  "json_syntax": "PASS",
+  "local_workflow_yaml_syntax": "PASS_ruby_YAML_parse_file",
+  "old_B1_reports_evidence_scientific_source_diff": "EMPTY",
+  "existing_user_change_excluded_from_commit": [
+    "README.md"
+  ],
+  "existing_README_sha256_at_final_static_check": "7942e3c12cc0fd9988c40b1424d218b73c4c09c2b57ef9141052ad18c116cadd",
+  "new_documents_sha256": [
+    {
+      "path": "docs/P1-B1-R1/README.md",
+      "sha256": "9ff76caaa0a3f3b89917ba8e96e8d97e59965aee9cbdf06c53c72c9bb049f4dc"
+    },
+    {
+      "path": "docs/P1-B1-R1/analysis-plan.md",
+      "sha256": "2e64913dbf53cbafb6e31a5da44d8c843071f054c030e2574d0d89e20009a190"
+    },
+    {
+      "path": "docs/P1-B1-R1/cost-and-scope.md",
+      "sha256": "92994585d03221106c37ea46756568431dd593e32bb97bebf1f2699d710b990f"
+    },
+    {
+      "path": "docs/P1-B1-R1/data-index.md",
+      "sha256": "d9d22b5a10f350d28daa85f98483d301f8ba2e7aa8833bfd9ce7fb56d43d4cc0"
+    },
+    {
+      "path": "docs/P1-B1-R1/decision-criteria.md",
+      "sha256": "eb6611daa6c341f725eb698909399f1ebb4797aec73d8fb1985808fe076a0144"
+    },
+    {
+      "path": "docs/P1-B1-R1/handoff-to-chatgpt.md",
+      "sha256": "1c4119e740a25184342537fbe7e09960a4c2128dd80f53ec0d979ad19fbad4f0"
+    },
+    {
+      "path": "docs/P1-B1-R1/proposed-execution-prompt.md",
+      "sha256": "d6edfda3b92e67c41616c29fd29f6015a97226cd959f7e600b076584ecc807f2"
+    },
+    {
+      "path": "docs/P1-B1-R1/script-design.md",
+      "sha256": "39f40743c1646c747a13411aa23fc47cb4e58ab483ef1376140ec4723d174727"
+    },
+    {
+      "path": "docs/P1-B1-R1/sources-and-review-notes.md",
+      "sha256": "13a92564e51a42c91b5944f9775cb1ee9fa8208e85d5e8878f0d6fa4094720f6"
+    },
+    {
+      "path": "docs/P1-B1-R1/unidentified-confounders.md",
+      "sha256": "d572da95a1e95fd6af069e50626c52418597beccf3df8a18674bf5ae41f417b0"
+    },
+    {
+      "path": "docs/P1-B1-R1/input-inventory.json",
+      "sha256": "0315c6a61940531e37679c00ef3df43fbd60d4abc38a07641eb44424efc03715"
+    }
+  ],
+  "failures_and_resolution": [
+    {
+      "failure": "AppleDoubleの._*.mdを初回静的走査で誤読しUnicodeDecodeError",
+      "resolution": "実Markdownだけを対象にして再実行。科学ファイルへの変更なし。"
+    }
+  ],
+  "new_scientific_results": 0,
+  "server_sessions": 0,
+  "raw_array_reads": 0,
+  "MD_tasks": 0,
+  "training_tasks": 0,
+  "inference_tasks": 0,
+  "LOF_fits": 0,
+  "scientific_acceptance": "PENDING",
+  "CPU_analysis_authorization": "NOT_APPROVED",
+  "remote_readback": "PENDING_PUSH; 実際の最終SHAと検証はGit履歴・最終返信およびローカル回読記録を参照"
+}

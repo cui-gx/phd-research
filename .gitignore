@@ -312,3 +312,10 @@
 !/docs/执行证据/2026-10-26-b1-expansion/report-review-cpu-stdout.log
 
 !/.gitattributes
+
+# B1-R1：文書と静的点検の記録のみ。科学計算は未承認。
+!/docs/P1-B1-R1/
+/docs/P1-B1-R1/*
+!/docs/P1-B1-R1/*.md
+!/docs/P1-B1-R1/*.json
+._*
