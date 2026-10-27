@@ -1,10 +1,16 @@
 # B1 Expansion：完了結果と科学審査の入口
 
+> **2026-10-28・保存/技術交付の更新（CONFIRMED）**：Mac原archive全量複製は `WAIVED_BY_RESEARCHER`。旧0/9とPARTIALは2026-10-27の正しい履歴で、Mac複製は現在の必須残件ではない。サーバ9archiveは全SHA一致で保持し、収集は退出済み、転送/削除/清掃を行わない。現行の7状態と技術交付は[delivery-status.json](delivery-status.json)、[保存方針](storage-and-delivery-policy.md)を参照。独立科学審査と研究者科学受入れはPENDING。以下の科学結果・履歴本文は変更しない。
+
 2026-10-27。**科学計算COMPLETE、文書作成完了、研究交付PARTIAL。独立科学審査・研究者受入れはPENDING。** 8根/16状態/240下流MD・評価、共通履歴64 ns＋下流960 nsを完了。科学task成功1,024/失敗0、共有資源保護停止2回。サーバ9archiveは生成済みですが、Mac完全検証backupは0/9で清掃も未実施です。
 
 最初に[完全科学審査報告（18項目）](review-dossier.md)と[ChatGPTへの固定引継ぎ（A–G）](handoff-to-chatgpt.md)を読んでください。[教員向け日本語概要](supervisor-summary-ja.md)も用意しました。
 
 主幾何量の全体F2−F1は−0.0141 Å、探索的95%区間[−0.2092,+0.2105] Å（8根、下流4 ns/先頭100 ps除外）。S4−0.3636 Å/S8+0.3355 Åの時点差を認めますが、候補数・学習窓・M0・評価A0も異なります。一般的なF2優位、科学状態Xの独立価値、B2の等wall-clock純利益はまだ結論できません。
+
+## 現行の保存・交付状態
+
+[保存方針](storage-and-delivery-policy.md)と[機械可読の7状態](delivery-status.json)が2026-10-28以降の運用入口。下の2026-10-27説明と表は履歴を含み、Mac0/9を現在の必須残件と読まない。技術交付の終了はGitHub回読で確定し、独立科学審査/研究者受入れとは分ける。
 
 ## 最終報告と証拠
 

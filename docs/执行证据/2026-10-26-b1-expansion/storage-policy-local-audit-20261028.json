@@ -1,0 +1,17 @@
+{
+  "status": "PASS_policy_file_and_immutable_evidence_checks",
+  "checked_JST": "2026-10-28T00:57:18.619369+09:00",
+  "previous_commit": "9f5630694ebac131a4a94d58a089771817477c06",
+  "original_public_export_files_unchanged": 41,
+  "frozen_scientific_source_files_unchanged": 31,
+  "pre_registered_plan_matrix_seed_files_unchanged": 7,
+  "relative_links_checked": 355,
+  "broken_links": [],
+  "server_archives_compared_to_previous_public_manifest": 9,
+  "all_archive_SHA_and_bytes_match": true,
+  "collector_exited": true,
+  "scientific_compute": false,
+  "archive_transfer_or_cleanup": false,
+  "policy_not_scientific_acceptance": true,
+  "baseline_GitHub_content_verification": "storage-policy-git-content-verification-20261028.json"
+}

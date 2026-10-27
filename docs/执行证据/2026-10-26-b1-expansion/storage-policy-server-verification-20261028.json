@@ -1,0 +1,104 @@
+{
+  "status": "MEASURED",
+  "checked_JST": "2026-10-28T00:30:27.836227+09:00",
+  "archive_count": 9,
+  "archive_bytes": 20223932863,
+  "all_archive_SHA256_match": true,
+  "archives": [
+    {
+      "name": "metadata.tar.gz",
+      "expected_sha256": "c7cb7e8c1e9a0655093a1a46ffb4db4343c5d8cc2245cbc7cfc26db7b9866613",
+      "expected_bytes": 8265563,
+      "exists": true,
+      "is_symlink": false,
+      "actual_bytes": 8265563,
+      "actual_sha256": "c7cb7e8c1e9a0655093a1a46ffb4db4343c5d8cc2245cbc7cfc26db7b9866613",
+      "matches": true
+    },
+    {
+      "name": "r01.tar.gz",
+      "expected_sha256": "c100f64efc74351911100d9cfc2a0a8b82cfda11e5de7f36164f293e7bf732a5",
+      "expected_bytes": 2528044626,
+      "exists": true,
+      "is_symlink": false,
+      "actual_bytes": 2528044626,
+      "actual_sha256": "c100f64efc74351911100d9cfc2a0a8b82cfda11e5de7f36164f293e7bf732a5",
+      "matches": true
+    },
+    {
+      "name": "r02.tar.gz",
+      "expected_sha256": "9114f80bc13cade99fea22c43bb55db59e9a9dd22b54479776c8aa2b57123b69",
+      "expected_bytes": 2526798997,
+      "exists": true,
+      "is_symlink": false,
+      "actual_bytes": 2526798997,
+      "actual_sha256": "9114f80bc13cade99fea22c43bb55db59e9a9dd22b54479776c8aa2b57123b69",
+      "matches": true
+    },
+    {
+      "name": "r03.tar.gz",
+      "expected_sha256": "cb76e39c605fc2faa416426ae4ae21fdaea6a5ecfebe20f3d599e404d702a211",
+      "expected_bytes": 2528026022,
+      "exists": true,
+      "is_symlink": false,
+      "actual_bytes": 2528026022,
+      "actual_sha256": "cb76e39c605fc2faa416426ae4ae21fdaea6a5ecfebe20f3d599e404d702a211",
+      "matches": true
+    },
+    {
+      "name": "r04.tar.gz",
+      "expected_sha256": "ebb4c3a9db3cbb51c7bdec1cb3c5bf5807ee72b85f6848248ccb5a7dbb8e9890",
+      "expected_bytes": 2526185600,
+      "exists": true,
+      "is_symlink": false,
+      "actual_bytes": 2526185600,
+      "actual_sha256": "ebb4c3a9db3cbb51c7bdec1cb3c5bf5807ee72b85f6848248ccb5a7dbb8e9890",
+      "matches": true
+    },
+    {
+      "name": "r05.tar.gz",
+      "expected_sha256": "047b5b43ecaf254c47205b703a051d49c3a477600f44928ae0ff2ac1cd98c0f8",
+      "expected_bytes": 2525834533,
+      "exists": true,
+      "is_symlink": false,
+      "actual_bytes": 2525834533,
+      "actual_sha256": "047b5b43ecaf254c47205b703a051d49c3a477600f44928ae0ff2ac1cd98c0f8",
+      "matches": true
+    },
+    {
+      "name": "r06.tar.gz",
+      "expected_sha256": "2eaa47b4d1578ff15cd49291bff2d6b064c66e65ab6ece391493e431dd205bb8",
+      "expected_bytes": 2525220210,
+      "exists": true,
+      "is_symlink": false,
+      "actual_bytes": 2525220210,
+      "actual_sha256": "2eaa47b4d1578ff15cd49291bff2d6b064c66e65ab6ece391493e431dd205bb8",
+      "matches": true
+    },
+    {
+      "name": "r07.tar.gz",
+      "expected_sha256": "b5e1f8823581d46375f469823fdc711f1fb5e277db8088e54e4cfc539cb445ec",
+      "expected_bytes": 2527341863,
+      "exists": true,
+      "is_symlink": false,
+      "actual_bytes": 2527341863,
+      "actual_sha256": "b5e1f8823581d46375f469823fdc711f1fb5e277db8088e54e4cfc539cb445ec",
+      "matches": true
+    },
+    {
+      "name": "r08.tar.gz",
+      "expected_sha256": "153e9f0f20a5335c76f33c41f85dc1b78aa172166fb6018766f88c8007b37e61",
+      "expected_bytes": 2528215449,
+      "exists": true,
+      "is_symlink": false,
+      "actual_bytes": 2528215449,
+      "actual_sha256": "153e9f0f20a5335c76f33c41f85dc1b78aa172166fb6018766f88c8007b37e61",
+      "matches": true
+    }
+  ],
+  "archive_manifest_SHA256": "2bbc37949aff5d85bd2afc8fb5d4845e2659b00846c34e17e3c48bc42697d13b",
+  "archive_storage_role": "既存の許可保管先で保持。作成・削除・変更・Mac転送なし。",
+  "verification_wall_s": 11.647159059531987,
+  "scientific_compute": false,
+  "new_GPU_tasks": 0
+}

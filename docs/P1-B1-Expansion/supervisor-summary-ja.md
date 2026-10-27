@@ -1,5 +1,7 @@
 # 指導教員向け研究概要：AI更新判断と下流MDの探索的比較
 
+> **2026-10-28・保存/技術交付の更新（CONFIRMED）**：Mac原archive全量複製は `WAIVED_BY_RESEARCHER`。旧0/9とPARTIALは2026-10-27の正しい履歴で、Mac複製は現在の必須残件ではない。サーバ9archiveは全SHA一致で保持し、収集は退出済み、転送/削除/清掃を行わない。現行の7状態と技術交付は[delivery-status.json](delivery-status.json)、[保存方針](storage-and-delivery-policy.md)を参照。独立科学審査と研究者科学受入れはPENDING。以下の科学結果・履歴本文は変更しない。
+
 2026年10月27日。科学計算は完了しましたが、独立科学審査・研究者受入れは未了です。原データのMac側完全バックアップは0/9で、研究交付全体はPARTIALです。
 
 ## 問題と今回の位置づけ

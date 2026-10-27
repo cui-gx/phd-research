@@ -1,5 +1,15 @@
 # 共同作業・公開資料の規範
 
+## B1 Expansion保存・技術交付方針の変更（2026-10-28、CONFIRMED）
+
+研究者は本輪のMacへの原科学archive全量複製を必須条件から外した。**MAC_RAW_BACKUP=WAIVED_BY_RESEARCHER**。GitHubは全報告・コード・行列・完全な構造化統計・図・SHA索引・実行/監査証拠を保持し、実際の遠隔回読を必須とする。GitHubに置かないDCD・重み・原ログ等は、既存の許可サーバのarchiveに保持する。9個のMac転送を続けず、元収集が退出済みであることを確認し、新収集を開始しない。
+
+旧「Mac完全backup0/9」は2026-10-27の正しい実測履歴として残すが、今後の必須残件ではない。旧Mac複製/双端照合を技術交付の条件とする記述は、この本輪の運用要件についてのみSUPERSEDED。**サーバ原archiveを削除する許可ではない**。環境・cache・断片も本タスクでは削除/清掃しない。凍結コード・科学データ・条件・結果は変更しない。
+
+技術交付はGitHub証拠とサーバ原archiveの実在/SHAを検証後に閉じられる。SCIENTIFIC_COMPUTE、RESULT_AUDIT、GITHUB_EVIDENCE_DELIVERY、MAC_RAW_BACKUP、SERVER_RAW_ARCHIVES、INDEPENDENT_SCIENTIFIC_REVIEW、RESEARCHER_SCIENTIFIC_ACCEPTANCEを分離する。独立科学審査/研究者科学受入れはPENDINGのまま。詳細と最新状態は[保存方針](P1-B1-Expansion/storage-and-delivery-policy.md)と[機械可読状態](P1-B1-Expansion/delivery-status.json)。新MD・訓練・推論・B2・C・S3は一切開始しない。
+
+以下の2026-10-26/27規範は履歴を含む。B1 ExpansionのMac必須複製に関する記述には上の最新方針を優先する。
+
 2026-10-26、研究者による確認（CONFIRMED）。公開予定であり、現在の非公開リポジトリを公開する権限を与えるものではない。
 
 新規・修正する公開用コードのコメント、docstring、README、利用案内、再現手順、技術資料、利用者向けメッセージは、自然で正確な学術日本語を基本とする。識別子、API、ファイル名、標準的な技術用語には英語の慣例を用いる。数式・単位・科学的意味を翻訳で変えない。

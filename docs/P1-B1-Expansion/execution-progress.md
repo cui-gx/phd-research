@@ -1,5 +1,7 @@
 # 最新確認：2026-10-27 23:42 JST — 文書とCPU再照合を完了
 
+> **2026-10-28・保存/技術交付の更新（CONFIRMED）**：Mac原archive全量複製は `WAIVED_BY_RESEARCHER`。旧0/9とPARTIALは2026-10-27の正しい履歴で、Mac複製は現在の必須残件ではない。サーバ9archiveは全SHA一致で保持し、収集は退出済み、転送/削除/清掃を行わない。現行の7状態と技術交付は[delivery-status.json](delivery-status.json)、[保存方針](storage-and-delivery-policy.md)を参照。独立科学審査と研究者科学受入れはPENDING。以下の科学結果・履歴本文は変更しない。
+
 **科学計算COMPLETE、文書作成完了、研究交付PARTIAL。** 8根/16状態/240下流MD・評価、履歴64 ns＋下流960 ns、科学task成功1,024/失敗0、共有保護停止2回。時間/SHA監査に加え、今回サーバ単一CPUで41,472対応差・432根要約/区間等の数値を再照合しPASS。新MD・訓練・GPU推論0。
 
 [18項目完全報告](review-dossier.md)、[A–G引継ぎ](handoff-to-chatgpt.md)、全主題資料・日本語教員概要・図表点検を作成した。全体Δ21平均−0.0141 Å/探索的95%区間[−0.2092,+0.2105] Å。時点束の差をXの因果性/C増分予測に読み替えず、独立科学審査・研究者受入れPENDINGを維持する。

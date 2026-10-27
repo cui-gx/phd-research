@@ -1,5 +1,7 @@
 # B1 Expansion：文書交付の点検
 
+> **2026-10-28・保存/技術交付の更新（CONFIRMED）**：Mac原archive全量複製は `WAIVED_BY_RESEARCHER`。旧0/9とPARTIALは2026-10-27の正しい履歴で、Mac複製は現在の必須残件ではない。サーバ9archiveは全SHA一致で保持し、収集は退出済み、転送/削除/清掃を行わない。現行の7状態と技術交付は[delivery-status.json](delivery-status.json)、[保存方針](storage-and-delivery-policy.md)を参照。独立科学審査と研究者科学受入れはPENDING。以下の科学結果・履歴本文は変更しない。
+
 2026-10-27。技術点検であり、独立科学審査・研究者受入れではない。最終の機械点検とSHAは[交付点検JSON](../执行证据/2026-10-26-b1-expansion/report-delivery-audit.json)、同期はpush後のGit履歴と[回読証跡](delivery-verification.json)を参照する。回読証跡は実際の成功後にのみ登録する。
 
 ## 18要件とA–G
@@ -30,3 +32,7 @@
 ## 残件と停止
 
 保存の閉鎖は未完了。次の判断は①独立科学審査、②バックアップを別途再開するか、③次の問いと新しい限定仕様を承認するか。現在の文書作成許可では追加計算/転送を行わない。点検合格は科学的優越性や全研究段階PASSを意味しない。終了後に停止する。
+
+## 2026-10-28の技術交付再判定
+
+Mac必須複製だけを研究者が取消した。0/9を9/9へ書き換えず、旧report-backup-status.jsonも変更しない。現在はGitHubの報告/コード/行列/全構造化統計/図/SHA/実行監査証拠の回読、サーバ全9archiveの実SHA、収集退出を検証し、その結果をdelivery-status.jsonと新しいstorage-policy-接頭証拠へ保存する。清掃は実施しない。技術交付をCOMPLETEにした後も、独立科学審査と研究者科学受入れはPENDINGを維持する。新科学計算は0。

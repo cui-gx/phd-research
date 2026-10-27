@@ -1,5 +1,7 @@
 # 実測費用、計時境界、保存状態
 
+> **2026-10-28・保存/技術交付の更新（CONFIRMED）**：Mac原archive全量複製は `WAIVED_BY_RESEARCHER`。旧0/9とPARTIALは2026-10-27の正しい履歴で、Mac複製は現在の必須残件ではない。サーバ9archiveは全SHA一致で保持し、収集は退出済み、転送/削除/清掃を行わない。現行の7状態と技術交付は[delivery-status.json](delivery-status.json)、[保存方針](storage-and-delivery-policy.md)を参照。独立科学審査と研究者科学受入れはPENDING。以下の科学結果・履歴本文は変更しない。
+
 2026-10-27。MEASUREDはサーバ実行記録、合計・分類はDERIVED。[costs.json](../执行证据/2026-10-26-b1-expansion/costs.json)の1,024成功タスクを分類し、CPUのみで原validationとの合計を再照合した。
 
 |分類|件数|GPU指定プロセス占有合計 [s]|実行wall合計 [s]|worker CPU合計 [s]|1件wall平均 [s]（最小–最大）|

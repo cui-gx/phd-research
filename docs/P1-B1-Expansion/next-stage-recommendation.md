@@ -1,5 +1,7 @@
 # 次段階に必要な判断（全てPROPOSED）
 
+> **2026-10-28・保存/技術交付の更新（CONFIRMED）**：Mac原archive全量複製は `WAIVED_BY_RESEARCHER`。旧0/9とPARTIALは2026-10-27の正しい履歴で、Mac複製は現在の必須残件ではない。サーバ9archiveは全SHA一致で保持し、収集は退出済み、転送/削除/清掃を行わない。現行の7状態と技術交付は[delivery-status.json](delivery-status.json)、[保存方針](storage-and-delivery-policy.md)を参照。独立科学審査と研究者科学受入れはPENDING。以下の科学結果・履歴本文は変更しない。
+
 2026-10-27。以下はCodexの選択肢整理であり研究者の承認ではない。今回の許可は文書・既存CPU統計の照合まで。B2、正式C予測器、オンライン方策、S3、新MD/訓練/推論は開始しない。
 
 ## 現状から可能なこと

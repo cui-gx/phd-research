@@ -1,8 +1,27 @@
 # ChatGPTへの固定引継ぎ：P1-B1 Expansion
 
+> **2026-10-28・保存/技術交付の更新（CONFIRMED）**：Mac原archive全量複製は `WAIVED_BY_RESEARCHER`。旧0/9とPARTIALは2026-10-27の正しい履歴で、Mac複製は現在の必須残件ではない。サーバ9archiveは全SHA一致で保持し、収集は退出済み、転送/削除/清掃を行わない。現行の7状態と技術交付は[delivery-status.json](delivery-status.json)、[保存方針](storage-and-delivery-policy.md)を参照。独立科学審査と研究者科学受入れはPENDING。以下の科学結果・履歴本文は変更しない。
+
 2026-10-27。最初にこの文書、次に[完全審査報告](review-dossier.md)を読む。会話の記憶を前提にしない。科学計算は終わったが、研究交付はPARTIAL。計画側の独立科学審査と研究者受入れを依頼する。新しい計算の依頼ではない。
 
 ## A. 現在の状態と版
+
+### 2026-10-28の現行状態（保存規則の確認済み変更）
+
+|指定項目|状態|
+|---|---|
+|SCIENTIFIC_COMPUTE|COMPLETE|
+|RESULT_AUDIT|PASS|
+|GITHUB_EVIDENCE_DELIVERY|[実検証状態](delivery-status.json)と回読証跡を参照|
+|MAC_RAW_BACKUP|WAIVED_BY_RESEARCHER|
+|SERVER_RAW_ARCHIVES|RETAINED_SHA256_VERIFIED：全9個、20,223,932,863 bytes|
+|INDEPENDENT_SCIENTIFIC_REVIEW|PENDING|
+|RESEARCHER_SCIENTIFIC_ACCEPTANCE|PENDING|
+
+Mac全量複製は本輪の技術交付条件から取消済み。GitHub全証拠とサーバraw保持が検証できれば技術交付を閉じる。元収集は退出、再開なし、archive/環境の削除・清掃なし。以下の旧0/9・PARTIAL・伝送再開提案は**2026-10-27時点の履歴（Mac要件はSUPERSEDED）**である。科学的リスクや結果の未確認は取消さない。
+
+### 以下は2026-10-27の版・実測履歴
+
 
 **報告本文の固定版：b77d7110a8a78fd66c32438b3f99507061472fe4（GitHub遠隔回読済み）**。本版以降は回読証跡の追記。最後の同期commitは最終返信/Git履歴とdelivery-verification.jsonで照合する。
 

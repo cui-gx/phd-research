@@ -1,5 +1,7 @@
 # 現在の自動収集状態：退出・転送未完了
 
+> **2026-10-28・保存/技術交付の更新（CONFIRMED）**：Mac原archive全量複製は `WAIVED_BY_RESEARCHER`。旧0/9とPARTIALは2026-10-27の正しい履歴で、Mac複製は現在の必須残件ではない。サーバ9archiveは全SHA一致で保持し、収集は退出済み、転送/削除/清掃を行わない。現行の7状態と技術交付は[delivery-status.json](delivery-status.json)、[保存方針](storage-and-delivery-policy.md)を参照。独立科学審査と研究者科学受入れはPENDING。以下の科学結果・履歴本文は変更しない。
+
 2026-10-27 23:27 JST。旧22:45の「転送中」記録は以下に保存するが、現在は収集attempt5が22:53にNEEDS_VPNで退出、Mac完全archive0/9。未検証断片103,972,864 bytesのみ。VPN復旧後も本輪指示で再開していない。清掃未実施、研究交付PARTIAL。文書作成は[完全報告](review-dossier.md)と[固定引継ぎ](handoff-to-chatgpt.md)に完了した。独立科学審査と研究者受入れは未了。[実測保存記録](../执行证据/2026-10-26-b1-expansion/report-backup-status.json)。
 
 ## 以下は22:45時点の自動記録（履歴）

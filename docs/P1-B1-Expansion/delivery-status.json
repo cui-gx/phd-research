@@ -1,0 +1,23 @@
+{
+  "policy": "CONFIRMED_2026-10-28",
+  "SCIENTIFIC_COMPUTE": "COMPLETE",
+  "RESULT_AUDIT": "PASS",
+  "GITHUB_EVIDENCE_DELIVERY": "PENDING_POLICY_REMOTE_READBACK",
+  "MAC_RAW_BACKUP": "WAIVED_BY_RESEARCHER",
+  "SERVER_RAW_ARCHIVES": "RETAINED_SHA256_VERIFIED",
+  "INDEPENDENT_SCIENTIFIC_REVIEW": "PENDING",
+  "RESEARCHER_SCIENTIFIC_ACCEPTANCE": "PENDING",
+  "TECHNICAL_DELIVERY": "PENDING_REMOTE_VERIFICATION",
+  "server_archive_count": 9,
+  "server_archive_bytes": 20223932863,
+  "server_archive_verification": "../执行证据/2026-10-26-b1-expansion/storage-policy-server-verification-20261028.json",
+  "historical_MAC_raw_backup": "0/9_verified_full_copies_as_of_2026-10-27",
+  "old_backup_status_evidence": "../执行证据/2026-10-26-b1-expansion/report-backup-status.json",
+  "collector": "EXITED",
+  "collector_verification": "../执行证据/2026-10-26-b1-expansion/storage-policy-collector-check-20261028.json",
+  "transfer_restarted": false,
+  "raw_archives_deleted": false,
+  "cleanup": "NOT_PERFORMED_NOT_AUTHORIZED_BY_THIS_TASK",
+  "new_scientific_compute": false,
+  "status_scope": "技術交付と独立科学審査/研究者科学受入れを別のゲートとして扱う。"
+}

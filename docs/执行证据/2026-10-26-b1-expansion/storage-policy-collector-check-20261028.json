@@ -1,0 +1,15 @@
+{
+  "status": "MEASURED",
+  "checked_JST": "2026-10-28T00:30:17.252755+09:00",
+  "registered_collector_PID_exists": false,
+  "matching_collector_process_count": 0,
+  "collector_exited": true,
+  "old_status": "NEEDS_VPN",
+  "old_status_UTC": "2026-10-27T13:53:12.934045+00:00",
+  "MAC_RAW_BACKUP": "WAIVED_BY_RESEARCHER",
+  "historical_verified_full_archives": "0/9",
+  "incomplete_fragment_bytes": 103972864,
+  "transfer_restarted": false,
+  "processes_started_or_stopped": false,
+  "fragment_deleted": false
+}

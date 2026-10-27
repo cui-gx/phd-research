@@ -1,5 +1,7 @@
 # 品質、完全性、科学資格と保存の判定
 
+> **2026-10-28・保存/技術交付の更新（CONFIRMED）**：Mac原archive全量複製は `WAIVED_BY_RESEARCHER`。旧0/9とPARTIALは2026-10-27の正しい履歴で、Mac複製は現在の必須残件ではない。サーバ9archiveは全SHA一致で保持し、収集は退出済み、転送/削除/清掃を行わない。現行の7状態と技術交付は[delivery-status.json](delivery-status.json)、[保存方針](storage-and-delivery-policy.md)を参照。独立科学審査と研究者科学受入れはPENDING。以下の科学結果・履歴本文は変更しない。
+
 2026-10-27。科学計算COMPLETE、研究交付PARTIAL。[実測validation](../执行证据/2026-10-26-b1-expansion/validation.json)は下流240/240 MD・240/240評価、16状態、1,024成功task/科学task失敗0を示す。予定値は削除していない。履歴32区間/64 ns、M0 16、追加学習64、推論96も完了。
 
 ## 固定品質規則と結果
