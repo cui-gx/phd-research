@@ -1,0 +1,6 @@
+{
+  "wall_s": 2.1457320852205157,
+  "CPU_s": 2.144839483000169,
+  "GPU_compute": false,
+  "checkpoint_readback_device": "CPU"
+}

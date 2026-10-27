@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "result_SHA_mismatches": [],
+  "states": [
+    {
+      "state_id": "r01-s4",
+      "M0_before_new_MD": true,
+      "state_freeze_sha_matches": true,
+      "features_before_branches": true
+    },
+    {
+      "state_id": "r01-s8",
+      "M0_before_new_MD": true,
+      "state_freeze_sha_matches": true,
+      "features_before_branches": true
+    },
+    {
+      "state_id": "r02-s4",
+      "M0_before_new_MD": true,
+      "state_freeze_sha_matches": true,
+      "features_before_branches": true
+    },
+    {
+      "state_id": "r02-s8",
+      "M0_before_new_MD": true,
+      "state_freeze_sha_matches": true,
+      "features_before_branches": true
+    },
+    {
+      "state_id": "r03-s4",
+      "M0_before_new_MD": true,
+      "state_freeze_sha_matches": true,
+      "features_before_branches": true
+    },
+    {
+      "state_id": "r03-s8",
+      "M0_before_new_MD": true,
+      "state_freeze_sha_matches": true,
+      "features_before_branches": true
+    },
+    {
+      "state_id": "r04-s4",
+      "M0_before_new_MD": true,
+      "state_freeze_sha_matches": true,
+      "features_before_branches": true
+    },
+    {
+      "state_id": "r04-s8",
+      "M0_before_new_MD": true,
+      "state_freeze_sha_matches": true,
+      "features_before_branches": true
+    },
+    {
+      "state_id": "r05-s4",
+      "M0_before_new_MD": true,
+      "state_freeze_sha_matches": true,
+      "features_before_branches": true
+    },
+    {
+      "state_id": "r05-s8",
+      "M0_before_new_MD": true,
+      "state_freeze_sha_matches": true,
+      "features_before_branches": true
+    },
+    {
+      "state_id": "r06-s4",
+      "M0_before_new_MD": true,
+      "state_freeze_sha_matches": true,
+      "features_before_branches": true
+    },
+    {
+      "state_id": "r06-s8",
+      "M0_before_new_MD": true,
+      "state_freeze_sha_matches": true,
+      "features_before_branches": true
+    },
+    {
+      "state_id": "r07-s4",
+      "M0_before_new_MD": true,
+      "state_freeze_sha_matches": true,
+      "features_before_branches": true
+    },
+    {
+      "state_id": "r07-s8",
+      "M0_before_new_MD": true,
+      "state_freeze_sha_matches": true,
+      "features_before_branches": true
+    },
+    {
+      "state_id": "r08-s4",
+      "M0_before_new_MD": true,
+      "state_freeze_sha_matches": true,
+      "features_before_branches": true
+    },
+    {
+      "state_id": "r08-s8",
+      "M0_before_new_MD": true,
+      "state_freeze_sha_matches": true,
+      "features_before_branches": true
+    }
+  ],
+  "source": "保存イベントと凍結ファイルを最終時に再読した診断"
+}

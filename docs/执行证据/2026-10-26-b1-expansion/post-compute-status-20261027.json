@@ -1,0 +1,121 @@
+{
+  "status": "MEASURED",
+  "UTC": "2026-10-27T13:34:47.822902+00:00",
+  "server_status": {
+    "status": "ANALYSIS_ARCHIVED_AWAITING_LOCAL_BACKUP",
+    "completed_downstream_MD": 240,
+    "evaluated_branches": 240,
+    "expected_downstream_MD": 240,
+    "completed_task_count": 1024,
+    "last_completed": "r03-s8-F1-t2-m1-analysis",
+    "error": null,
+    "updated_UTC": "2026-10-27T13:29:46Z",
+    "S3": "NOT APPROVED",
+    "B2_and_C_predictor": "NOT APPROVED"
+  },
+  "validation": {
+    "status": "MEASURED",
+    "expected_roots": 8,
+    "expected_states": 16,
+    "expected_downstream": 240,
+    "completed_downstream": 240,
+    "completed_downstream_MD": 240,
+    "downstream_MD_ns": 960,
+    "common_history_MD_ns": 64,
+    "completed_states": 16,
+    "qualified_frames": 1920000,
+    "GPU_occupation_s": 54422.92938700318,
+    "task_execution_wall_s": 61071.645465482026,
+    "success_tasks": 1024,
+    "failed_tasks": 0,
+    "top_level_independent_units": 8,
+    "F0_shared_observations_not_duplicated": true,
+    "C_predictor_trained": false,
+    "B2_executed": false,
+    "S3": "NOT APPROVED",
+    "analysis_s": 29.193219961598516,
+    "analysis_source_sha256": "ac42981078a3a82a8252df37f2f4701c67060dc6674e3371e90299a47b74098b",
+    "temporal_and_SHA_audit_passed": true
+  },
+  "public_files_SHA_verified": 41,
+  "executed_source_SHA_match": true,
+  "server_archive_manifest": {
+    "r01.tar.gz": {
+      "sha256": "c100f64efc74351911100d9cfc2a0a8b82cfda11e5de7f36164f293e7bf732a5",
+      "bytes": 2528044626,
+      "roots": [
+        "r01"
+      ],
+      "state": "server_archive_verified_local_copy_pending"
+    },
+    "r02.tar.gz": {
+      "sha256": "9114f80bc13cade99fea22c43bb55db59e9a9dd22b54479776c8aa2b57123b69",
+      "bytes": 2526798997,
+      "roots": [
+        "r02"
+      ],
+      "state": "server_archive_verified_local_copy_pending"
+    },
+    "r03.tar.gz": {
+      "sha256": "cb76e39c605fc2faa416426ae4ae21fdaea6a5ecfebe20f3d599e404d702a211",
+      "bytes": 2528026022,
+      "roots": [
+        "r03"
+      ],
+      "state": "server_archive_verified_local_copy_pending"
+    },
+    "r04.tar.gz": {
+      "sha256": "ebb4c3a9db3cbb51c7bdec1cb3c5bf5807ee72b85f6848248ccb5a7dbb8e9890",
+      "bytes": 2526185600,
+      "roots": [
+        "r04"
+      ],
+      "state": "server_archive_verified_local_copy_pending"
+    },
+    "r05.tar.gz": {
+      "sha256": "047b5b43ecaf254c47205b703a051d49c3a477600f44928ae0ff2ac1cd98c0f8",
+      "bytes": 2525834533,
+      "roots": [
+        "r05"
+      ],
+      "state": "server_archive_verified_local_copy_pending"
+    },
+    "r06.tar.gz": {
+      "sha256": "2eaa47b4d1578ff15cd49291bff2d6b064c66e65ab6ece391493e431dd205bb8",
+      "bytes": 2525220210,
+      "roots": [
+        "r06"
+      ],
+      "state": "server_archive_verified_local_copy_pending"
+    },
+    "r07.tar.gz": {
+      "sha256": "b5e1f8823581d46375f469823fdc711f1fb5e277db8088e54e4cfc539cb445ec",
+      "bytes": 2527341863,
+      "roots": [
+        "r07"
+      ],
+      "state": "server_archive_verified_local_copy_pending"
+    },
+    "r08.tar.gz": {
+      "sha256": "153e9f0f20a5335c76f33c41f85dc1b78aa172166fb6018766f88c8007b37e61",
+      "bytes": 2528215449,
+      "roots": [
+        "r08"
+      ],
+      "state": "server_archive_verified_local_copy_pending"
+    },
+    "metadata.tar.gz": {
+      "sha256": "c7cb7e8c1e9a0655093a1a46ffb4db4343c5d8cc2245cbc7cfc26db7b9866613",
+      "bytes": 8265563,
+      "roots": [],
+      "state": "server_archive_verified_local_copy_pending"
+    }
+  },
+  "archive_count": 9,
+  "archive_bytes": 20223932863,
+  "archive_sizes_match_manifest": true,
+  "local_backup_verified": false,
+  "cleanup_complete": false,
+  "scientific_review": "NOT_PERFORMED",
+  "delivery_status": "PARTIAL"
+}

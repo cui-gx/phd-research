@@ -1,0 +1,21 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "packages": {
+    "openmm": "8.5.2",
+    "MDAnalysis": "2.9.0",
+    "torch": "2.7.1+cu128",
+    "mdlearn": "0.0.10a1",
+    "parsl": "2025.10.20",
+    "numpy": "1.26.4",
+    "scikit-learn": "1.6.1"
+  },
+  "GPU_inventory": "0, GPU_REDACTED, NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition, 97887, 590.48.01\n",
+  "CPU_quota": [
+    0,
+    1,
+    2
+  ],
+  "numeric_threads": 2,
+  "supervision_interval_target_s": 1.0,
+  "private_identifiers_removed": true
+}

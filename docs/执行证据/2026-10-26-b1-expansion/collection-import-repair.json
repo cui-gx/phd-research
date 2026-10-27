@@ -1,0 +1,18 @@
+{
+  "status": "MEASURED",
+  "UTC": "2026-10-27T13:41:35.978287+00:00",
+  "scope": "Macファイル管理のみ。科学再計算なし。",
+  "cached_export_imported": true,
+  "export_files_verified": 41,
+  "conflicts_preserved_under_aliases": [
+    "unit-b1-final.txt",
+    "unit-b1-full-matrix.txt"
+  ],
+  "prior_files_unchanged": 53,
+  "unit_tests_passed": 6,
+  "scientific_source_changed": false,
+  "source_SHA256": "89453c39baace7757399f3f6c9c40ec44f370f1d4e8c91f66946d713ee95a07e",
+  "tests_SHA256": "d0197a0a1b1e20573360f3df063b57bbe7ce93e47f2fdb532a07b5b11324b99b",
+  "file_map": "public-export-index.json",
+  "backup_complete": false
+}

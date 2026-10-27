@@ -298,6 +298,8 @@
 !/docs/P1-B1-Expansion/*.csv
 !/p1/server/expansion_*.py
 !/tests/p1/test_b1_expansion.py
+!/p1/collection_import.py
+!/tests/p1/test_collection_import.py
 !/docs/执行证据/2026-10-26-b1-expansion/
 /docs/执行证据/2026-10-26-b1-expansion/*
 !/docs/执行证据/2026-10-26-b1-expansion/*.json
