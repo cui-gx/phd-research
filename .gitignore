@@ -308,3 +308,7 @@
 !/docs/执行证据/2026-10-26-b1-expansion/*.txt
 !/docs/执行证据/2026-10-26-b1-expansion/*.png
 ._*
+
+!/docs/执行证据/2026-10-26-b1-expansion/report-review-cpu-stdout.log
+
+!/.gitattributes

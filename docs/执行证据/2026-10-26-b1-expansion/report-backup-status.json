@@ -1,0 +1,15 @@
+{
+  "status": "MEASURED",
+  "checked_JST": "2026-10-27T23:27:35.306435+09:00",
+  "collector_stage": "NEEDS_VPN",
+  "collector_status_UTC": "2026-10-27T13:53:12.934045+00:00",
+  "collector_process_exists": false,
+  "verified_full_archives": 0,
+  "expected_full_archives": 9,
+  "incomplete_fragment_bytes": 103972864,
+  "incomplete_fragment_SHA_verified": false,
+  "transfer_restarted_this_task": false,
+  "cleanup_complete": false,
+  "report_writing_parallel_authorized": true,
+  "server_archive_manifest": "post-compute-status-20261027.json"
+}

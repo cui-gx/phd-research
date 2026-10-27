@@ -1,0 +1,8 @@
+{
+  "status": "PENDING_PUSH",
+  "purpose": "実際のpushと遠隔回読後にだけ検証済みSHAへ更新する。",
+  "scientific_source_commit": "40a911e1f36d1365fc5ee7d8753a7feb1edd964d",
+  "overall_delivery": "PARTIAL",
+  "full_local_backup_verified": false,
+  "independent_scientific_review": "PENDING"
+}

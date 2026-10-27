@@ -1,0 +1,52 @@
+{
+  "status": "PASS_既存集計との数値照合",
+  "checks": {
+    "pair_high": 41472,
+    "pair_low": 41472,
+    "pair_difference": 41472,
+    "state_mean": 6912,
+    "root_mean": 3456,
+    "state_time_difference": 3456,
+    "global_mean": 432,
+    "root_SD": 432,
+    "bootstrap_low": 432,
+    "bootstrap_high": 432,
+    "noise_mean": 6912,
+    "noise_training_difference": 6912,
+    "noise_training_SD": 6912,
+    "noise_residual": 6912,
+    "noise_MD_SD": 13824,
+    "noise_F0_mean": 2304,
+    "noise_F0_MD_SD": 2304,
+    "descriptive_correlation": 240,
+    "GPU_total": 1,
+    "task_wall_total": 1
+  },
+  "max_abs_errors": {
+    "pair_high": 0.0,
+    "pair_low": 0.0,
+    "pair_difference": 0.0,
+    "state_mean": 0.0,
+    "root_mean": 0.0,
+    "state_time_difference": 0.0,
+    "global_mean": 0.0,
+    "root_SD": 0.0,
+    "bootstrap_low": 0.0,
+    "bootstrap_high": 0.0,
+    "noise_mean": 0.0,
+    "noise_training_difference": 0.0,
+    "noise_training_SD": 0.0,
+    "noise_residual": 0.0,
+    "noise_MD_SD": 0.0,
+    "noise_F0_mean": 0.0,
+    "noise_F0_MD_SD": 0.0,
+    "descriptive_correlation": 1.1102230246251565e-16,
+    "GPU_total": 0.0,
+    "task_wall_total": 0.0
+  },
+  "wall_s": 0.9003365337848663,
+  "output_files": [
+    "review-statistics.json",
+    "main-root-effects.csv"
+  ]
+}

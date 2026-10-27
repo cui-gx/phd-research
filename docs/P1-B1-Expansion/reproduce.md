@@ -1,3 +1,17 @@
+# 今回の報告統計だけを再照合する手順
+
+2026-10-27。今回実行したのはGPU不可視の既存表CPU照合だけである。下のMD起動手順は歴史的な全実験復元方法であり、現在の追加計算許可ではない。転送や全実験を自動再開しない。
+
+```sh
+CUDA_VISIBLE_DEVICES=-1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1   <ENV>/bin/python -B p1/report_review_audit.py   --input-dir <PUBLIC_V1> --output-dir <NEW_REVIEW_OUTPUT>
+```
+
+`<PUBLIC_V1>`は許可保管先の既存公開表一式、出力は必ず未存在の新領域。共有CPU/メモリ/GPU占有を先に読み取り専用で確認し、許可されたCPUへ制限する。インストール、MD、学習、GPU推論は呼ばない。コード版4771d2197af3e90609375ff3f8708cc2d3797395、使用入力/コードSHA、Python/NumPy版、全照合数は[report-review-statistics.json](../执行证据/2026-10-26-b1-expansion/report-review-statistics.json)にある。既存432要約の全区間も同じbootstrap乱数で復核する。結果が不一致なら元表を変更せず失敗ログを残す。
+
+Macではこの数値照合を代行せず、取得ファイルのSHA/リンク検査と表示整形のみ行った。raw全体は0/9Mac完全複製で、standaloneな原データ外部再現を認定しない。
+
+## 以下は既定科学実験の復元仕様（履歴・別承認が必要）
+
 # 再現・途中再開
 
 これは新しい実行許可ではない。最新AGENTS、研究者の範囲承認、共有資源調整を先に確認する。Macで科学計算を代行しない。

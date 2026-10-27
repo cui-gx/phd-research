@@ -1,0 +1,3 @@
+
+# サーバから取得した報告用CSVのCRLFとSHAをそのまま保持する。
+docs/执行证据/2026-10-26-b1-expansion/report-main-root-effects.csv -text whitespace=cr-at-eol

@@ -1,21 +1,36 @@
-# B1 Expansion：独立履歴と更新効果の探索的検証
+# B1 Expansion：完了結果と科学審査の入口
 
-2026-10-26。研究者承認済みの実験範囲を登録する。**18:19 JSTに実科学計算を開始した。実行中、全結果は未確定。** Sol Highを手動選択して継続し、自動変更しない。
+2026-10-27。**科学計算COMPLETE、文書作成完了、研究交付PARTIAL。独立科学審査・研究者受入れはPENDING。** 8根/16状態/240下流MD・評価、共通履歴64 ns＋下流960 nsを完了。科学task成功1,024/失敗0、共有資源保護停止2回。サーバ9archiveは生成済みですが、Mac完全検証backupは0/9で清掃も未実施です。
 
-8根×連続8 ns、各4/8 nsで16状態。F0は3 MD、F1/F2は各2学習seed×3 MDseed、各4 ns、下流240本/960 ns、履歴64 ns。合計1,024 ns。F0を二つの学習ブロックへ複製して独立数を増やさない。B1の等MD量と、未承認のB2固定壁時計を区別する。
+最初に[完全科学審査報告（18項目）](review-dossier.md)と[ChatGPTへの固定引継ぎ（A–G）](handoff-to-chatgpt.md)を読んでください。[教員向け日本語概要](supervisor-summary-ja.md)も用意しました。
 
-[事前計画](analysis-plan.md)、[全行列](experiment-matrix.md)、[乱数](randomization-plan.md)、[指標契約](metric-contract.md)、[データ系譜](data-lineage-plan.md)、[資源と復元](resource-and-recovery-plan.md)を最初の科学GPU実行前にpushし、遠隔回読する。生物学的最適値の認定ではなく、承認範囲内の実行用パラメータ固定である。
+主幾何量の全体F2−F1は−0.0141 Å、探索的95%区間[−0.2092,+0.2105] Å（8根、下流4 ns/先頭100 ps除外）。S4−0.3636 Å/S8+0.3355 Åの時点差を認めますが、候補数・学習窓・M0・評価A0も異なります。一般的なF2優位、科学状態Xの独立価値、B2の等wall-clock純利益はまだ結論できません。
 
-Cの前置診断として決定前X/Z/Wと効果・ノイズを記述する。正式C予測器、B2/オンライン方策/S3、独立準備構造の追加は実行しない。陰性、不一致、欠損も保存して終了後に審査を待つ。旧S2独立終審はINCOMPLETEのまま。
+## 最終報告と証拠
 
-## 実装と審査資料
+|主題|資料|
+|---|---|
+|目的・全18要件・結論の限界|[review-dossier.md](review-dossier.md)|
+|別助手が読む固定入口|[handoff-to-chatgpt.md](handoff-to-chatgpt.md)|
+|全3比較・連続/離散・根/状態値|[paired-results.md](paired-results.md)|
+|学習seedとMDseedの変動|[randomness-analysis.md](randomness-analysis.md)|
+|S4/S8・決定前X/Z/W・Cの未検証部分|[state-dependence-analysis.md](state-dependence-analysis.md)|
+|時間合法性と祖先|[data-lineage.md](data-lineage.md)|
+|M0/optimizer・全16状態seed|[model-training.md](model-training.md)|
+|参照なしLOF・起点の構造差|[candidate-selection.md](candidate-selection.md)|
+|物理代理の式・単位・適用範囲|[scientific-metrics.md](scientific-metrics.md)|
+|粗品質・完全性・保存ゲート|[data-quality.md](data-quality.md)|
+|統計単位・交絡・外挿|[statistical-limitations.md](statistical-limitations.md)|
+|GPU/CPU/wall・archive/backup|[cost-and-runtime.md](cost-and-runtime.md)|
+|失敗・復元・名称訂正|[failures-and-amendments.md](failures-and-amendments.md)、[implementation-errata.md](implementation-errata.md)|
+|図表と数値・交付点検|[figure-and-table-audit.md](figure-and-table-audit.md)、[delivery-audit.md](delivery-audit.md)|
+|固定版の再現と入力依存|[reproduce.md](reproduce.md)|
+|日本の指導教員向け概要|[supervisor-summary-ja.md](supervisor-summary-ja.md)|
+|次の判断（PROPOSED）|[next-stage-recommendation.md](next-stage-recommendation.md)|
+|時点別の工程履歴・旧自動収集|[execution-progress.md](execution-progress.md)、[automatic-collection-status.md](automatic-collection-status.md)|
 
-[実機前検証](implementation-and-preflight.md)、[データ系譜](data-lineage.md)、[学習](model-training.md)、[候補選択](candidate-selection.md)、[物理代理](scientific-metrics.md)、[品質](data-quality.md)、[統計上の限界](statistical-limitations.md)、[再現](reproduce.md)、[教員向け概要](supervisor-summary-ja.md)、[修正記録](failures-and-amendments.md)。結果・費用・ランダム性の集計は完了後に追記する。開始時刻は実制御器記録で、完了を意味しない。
+## 変更しない事前登録資料
 
-[最新の実行進捗と収集境界](execution-progress.md)。全行列・最終科学審査の完了とは異なる。
+[analysis-plan](analysis-plan.md)、[全行列](experiment-matrix.md)、[CSV](experiment-matrix.csv)、[JSON](experiment-matrix.json)、[乱数](randomization-plan.md)、[指標契約](metric-contract.md)、[系譜計画](data-lineage-plan.md)、[資源/復元](resource-and-recovery-plan.md)、[実機前検証](implementation-and-preflight.md)、[交付要件](review-delivery-requirements.md)。主実装は既存OpenMM/mdlearn/DeepDriveMD科学部品とParsl適応層で、S1/S2原証拠を保護しています。
 
-重要：[モデル年齢フィールドの名称訂正](implementation-errata.md)。原データと凍結数値は変更しない。
-
-## 最終引継ぎの追加要件（CONFIRMED）
-
-研究者の追加指示により、全既定計算・集計・完全性監査・バックアップの完了後に `review-dossier.md` と `handoff-to-chatgpt.md` を日本語で作成する。[18項目とA–Gの交付要件](review-delivery-requirements.md) に従う。二文書は現時点で未作成であり、自動技術収集が終わっても最終研究交付は未完了である。実行中の条件・seed・評価規則を変更せず、報告のための追加科学計算は行わない。
+今回の追加作業は報告と既存表CPU照合だけです。新MD・訓練・GPU推論・転送再開はありません。B1は等MD量の効果で、B2/C正式予測/オンライン方策/S3は未承認。S2独立終審もINCOMPLETEです。交付後は研究者・計画側の審査を待ちます。

@@ -1,9 +1,22 @@
-# データ系譜と公開時刻
+# データ系譜と情報時刻の最終照合
 
-本輪は実行中。確定済み方法は[data-lineage-plan](data-lineage-plan.md)とcommit40a911e以前の事前記録を参照する。S4のM0は0–2 ns品質確定後、新2–4 nsの生成前に構築する。S8のM0は4–6 ns旧窓から、新6–8 nsの生成前に別途構築する。M0初期化規則/200歩は共通で、連続8 nsのAIオンライン更新履歴を再現したとは主張しない。
+2026-10-27、MEASURED/DERIVED。全8根、16状態、240下流枝を完了。凍結定義は[data-lineage-plan.md](data-lineage-plan.md)で、原データを報告に合わせて変更しない。
 
-4区間は同じMD checkpointの継続で、8 ns状態は4 ns分枝結果を読まない。global IDと元2 ns区間/local IDを維持する。時刻の累積浮動小数誤差で旧側末尾フレームを新側へ移さないよう、元区間IDで排他的に制限する。原時刻は保存する。
+## 祖先と連続性
 
-各状態はM0/optimizer、候補/特徴、歴史checkpoint、全DCD、X/Z/WのSHAと公開時刻を保存する。特徴は状態分枝より前に凍結される。`temporal-and-SHA-audit.json`は最後にイベントと保存ファイルを独立再読する。監査が未完了/不合格なら科学的解釈を確定しない。
+各根r01–r08は同じ準備unfolded構造から異なる乱数で開始し、0–2→2–4→4–6→6–8 nsを完全OpenMM checkpointで連続する。履歴seedは1600000100+r。区間継続で再最小化/再速度生成をしない。S4とS8は同根、S8はS4の下流枝を読まない。下流240枝は選択座標から再最小化し、対応MDseedで速度を再生成する。根内の履歴継続と、下流の座標reseedは異なる物理操作である。
 
-イベントの`qualified`はMD特徴生成の品質確定を示す。モデル/pool等の別種タスクのfalseを科学的不合格と読み替えず、task kind・status・依存関係と共に読む。
+## 全状態共通の固定窓
+
+|状態|M0より前の旧学習800 [ns]|時間分離検証200 [ns]|M0より後の新400 [ns]|候補/A0|
+|---|---|---|---|---|
+|S4（境界b=2 ns）|(0.1,1.6]|(1.7,2.0]|(2.0,3.6]|(0.1,4.0]の7,800点|
+|S8（境界b=6 ns）|(4.1,5.6]|(5.7,6.0]|(6.0,7.6]|(0.1,8.0]の15,800点|
+
+旧800から偶数位置400をF2旧成分へ使う。各窓は等間隔の異なるframe IDで抽出し、同座標や重複IDで不足を補わない。境界の時刻丸め漏洩を防ぐため、新側ID≥b/0.5 ps、旧側ID<b/0.5 psと元2 ns区間を併用する。原時刻は不変。候補と訓練の重なりはオンライン設定の一部で、汎化試験の独立splitではない。
+
+## 監査と公開の境界
+
+[temporal-and-SHA-audit.json](../执行证据/2026-10-26-b1-expansion/temporal-and-SHA-audit.json)は16/16状態でM0が新MD生成前、特徴が枝実行前、freeze SHA一致を確認し、結果SHA不一致0。[all-histories-readback-01.json](../执行证据/2026-10-26-b1-expansion/all-histories-readback-01.json)は連続checkpoint、全M0、対応訓練・F0再推論の工程読戻し。イベントのqualifiedはMD特徴の品質確定を示し、別task kindのfalseを科学的不合格としない。
+
+各raw入力・出力のSHAは [raw-artifact-sha256.json](../执行证据/2026-10-26-b1-expansion/raw-artifact-sha256.json)、公開JSONのSHAと原JSONのSHAは脱敏により別物で、[public-export-index.json](../执行证据/2026-10-26-b1-expansion/public-export-index.json)が公開論理名と保存名を対応付ける。全DCD/indices/recipe/exposure/重みは許可保管先の根archiveとmetadataに残り、GitHubには全フレームを複製していない。Mac完全archiveは0/9、[保存状態](cost-and-runtime.md)を参照。
