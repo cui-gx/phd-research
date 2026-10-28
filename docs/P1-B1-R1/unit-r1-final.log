@@ -1,0 +1,14 @@
+test_all_registered_scales_present (test_r1_cpu_review_final.ReviewTests.test_all_registered_scales_present) ... ok
+test_count_matching_keeps_global_IDs (test_r1_cpu_review_final.ReviewTests.test_count_matching_keeps_global_IDs) ... ok
+test_invalid_gap_resets_persistence_support (test_r1_cpu_review_final.ReviewTests.test_invalid_gap_resets_persistence_support) ... ok
+test_known_nearest_tie_uses_first_reference (test_r1_cpu_review_final.ReviewTests.test_known_nearest_tie_uses_first_reference) ... ok
+test_missing_quality_mask_cannot_be_zero_effect (test_r1_cpu_review_final.ReviewTests.test_missing_quality_mask_cannot_be_zero_effect) ... ok
+test_nested_reference_distance_only_is_monotone (test_r1_cpu_review_final.ReviewTests.test_nested_reference_distance_only_is_monotone) ... ok
+test_original_geometry_invariance (test_r1_cpu_review_final.ReviewTests.test_original_geometry_invariance) ... ok
+test_root_bootstrap_does_not_treat_frames_as_roots (test_r1_cpu_review_final.ReviewTests.test_root_bootstrap_does_not_treat_frames_as_roots) ... ok
+test_shared_F0_and_duplicate_hierarchy_are_guarded (test_r1_cpu_review_final.ReviewTests.test_shared_F0_and_duplicate_hierarchy_are_guarded) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.079s
+
+OK

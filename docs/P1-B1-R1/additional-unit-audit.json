@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "tests": 9,
+  "runner_reported_s": 0.079,
+  "scope": "保存点の科学効果を再計算しない小fixture/行列/境界検査。初期5テストとは版を分けて記録。",
+  "code_commit": "71d4ec5",
+  "test_source_sha256": "2f0e944dd2b4e646365d61b9a19adeef9c1c7a38c903ae365603ad9dc6b33269",
+  "GPU_MD_training_inference": 0
+}

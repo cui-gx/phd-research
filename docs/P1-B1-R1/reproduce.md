@@ -6,7 +6,7 @@
 
 既存許可サーバの論理batch `b1-expansion-20261026` を読取り専用で使用する。8根/16状態/240枝、原raw SHA15,208件、9archiveの実在/SHAを検査する。旧B1の `summary-v1`、元ソース、原データ、seedは書き換えない。新出力の論理batchは `b1-r1-cpu-20261028-v1`。Macでrawを読み込んだり科学数値を計算したりしない。
 
-新解析に必要な配備bundleはCPUソース、5境界テスト、元matrix、期待raw SHA、期待固定ソースSHA、期待根集計だけである。Macの `._*` を除外したallowlistを使い、実ファイル6件のSHAを検査する。原データの再作成・インストール・モデルloadは不要。既存B1環境のNumPy/SciPy/scikit-learnを再利用する。Python、ライブラリ版、thread条件は最終environment.jsonに実測保存する。
+初回配備bundleは評価core（e703b69）、初期5境界テスト、元matrix、期待raw SHA、期待固定ソースSHA、期待根集計の6実ファイルだった。Macの `._*` を除外したallowlistを使い全SHAを検査した。後段の報告生成/直列実行器/追加9境界テストは別のsource snapshotとamendmentに保存する。最終コードを再利用するときはそれらも含めた新しいallowlistを作り、初回6件のmanifestをそのまま流用しない。原データの再作成・インストール・モデルloadは不要。既存B1環境のNumPy/SciPy/scikit-learnを再利用する。Python、ライブラリ版、thread条件は最終environment.jsonに実測保存する。
 
 ## 段階的な起動
 
@@ -19,12 +19,13 @@ export OMP_NUM_THREADS=1
 export MKL_NUM_THREADS=1
 export NUMEXPR_NUM_THREADS=1
 export PYTHONDONTWRITEBYTECODE=1
-export R1_MATRIX="$BUNDLE/experiment-matrix.json"
 ```
 
 `PROJECT` は本人プロジェクト、`OUTPUT` は原B1とは別の新出力、`BUNDLE` は検証済み小型配備入力、`PYTHON` は既存許可環境の実行ファイルを指す。CPU worker/threadは1、単一CPU affinity、nice10。利用者・CPU/RAM/GPU/ディスクと利用記録を先に読取り専用で確認する。旧B1環境やarchiveを削除しない。
 
 ```bash
+export R1_MATRIX="$BUNDLE/experiment-matrix.json"
+export R1_FROZEN_GQ_SOURCE="$PROJECT/artifacts/b1-expansion-20261026/executed-source/p1/server/gq_r2.py"
 "$PYTHON" -m unittest discover -s tests/p1 -p test_r1_cpu_review.py -v
 "$PYTHON" -m p1.r1_cpu_review --project "$PROJECT" --output "$OUTPUT" --bundle "$BUNDLE" --stage audit
 "$PYTHON" -m p1.r1_cpu_review --project "$PROJECT" --output "$OUTPUT" --bundle "$BUNDLE" --stage original
