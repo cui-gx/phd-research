@@ -1,6 +1,6 @@
 {
   "status": "LOCAL_PRECOMMIT_MANIFEST",
-  "checked_at_JST": "2026-10-28T16:31:14.777408+09:00",
+  "checked_at_JST": "2026-10-28T16:36:23.552846+09:00",
   "scope": "本輪の公開結果/再現コード/引継ぎのSHA。自己索引と後段GitHub回読証跡は自己参照を避け除外する。サーバ65ファイルの原索引は別に不変保持。",
   "files": [
     {
@@ -25,8 +25,8 @@
     },
     {
       "path": "docs/P1-B1-R1/README.md",
-      "bytes": 5778,
-      "sha256": "59d4c2000c988c570e06690239d22a3e62322bfc1032eb0e0955751510052a84"
+      "bytes": 6218,
+      "sha256": "6ed0c8ee12aecfc7dacadda8ba403e866e91ae473e2a09bf20db6feaa6715481"
     },
     {
       "path": "docs/P1-B1-R1/additional-unit-audit.json",

@@ -2,6 +2,8 @@
 
 2026-10-28 JST。**承認済みCPU再解析と結果監査は完了。独立科学審査・研究者の科学的受入れはPENDING。** 最終GitHub同期は、実在する最終commitと遠隔回読で確認する。本輪を閉じ、次の科学計算は開始しない。
 
+**GITHUB_EVIDENCE_DELIVERY：PASS。** 結果交付commit `a7d0b3d5a21276f35b7ea45eb5a2d133656db2be` を独立した空Git領域へGitHubから取得し、97本文/77,320,235 bytesのSHA-256と大きさを全照合した。[遠隔回読証跡](github-remote-readback.json)を参照。後段の検証記録commitを含む最終SHAはGit履歴と最終返信で示す。独立科学審査・研究者受入れはPENDINGのままである。
+
 ## 審査の入口
 
 1. [完全科学報告](review-dossier.md)：数学定義、全参照・全尺度、8根の結果、乱数、費用、限界。
