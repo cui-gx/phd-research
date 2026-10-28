@@ -19,6 +19,7 @@ export OMP_NUM_THREADS=1
 export MKL_NUM_THREADS=1
 export NUMEXPR_NUM_THREADS=1
 export PYTHONDONTWRITEBYTECODE=1
+export R1_MATRIX="$BUNDLE/experiment-matrix.json"
 ```
 
 `PROJECT` は本人プロジェクト、`OUTPUT` は原B1とは別の新出力、`BUNDLE` は検証済み小型配備入力、`PYTHON` は既存許可環境の実行ファイルを指す。CPU worker/threadは1、単一CPU affinity、nice10。利用者・CPU/RAM/GPU/ディスクと利用記録を先に読取り専用で確認する。旧B1環境やarchiveを削除しない。

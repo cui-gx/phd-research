@@ -1,12 +1,15 @@
 """R1の参照・階層・物理距離に対する小さな境界検査。サーバCPU専用。"""
 import importlib.util
+import copy
+import json
 import os
 from pathlib import Path
 import unittest
 
 import numpy as np
 
-from p1.r1_cpu_review import matched_ids, metric_keys, root_statistics, atom_identity
+from p1.r1_cpu_review import matched_ids, metric_keys, root_statistics, Review
+from p1.r1_cpu_report import validate_hierarchy
 
 
 class ReviewTests(unittest.TestCase):
@@ -19,6 +22,61 @@ class ReviewTests(unittest.TestCase):
             matched_ids(ids, 8)
         with self.assertRaises(ValueError):
             matched_ids(np.array([1, 1, 2]), 2)
+        with self.assertRaises(ValueError):
+            matched_ids(np.array([], dtype=int), 2)
+
+    def frozen_geometry(self):
+        """副作用のない固定数値関数だけをロードする。"""
+        source = Path(os.environ['R1_FROZEN_GQ_SOURCE'])
+        spec = importlib.util.spec_from_file_location('frozen_extra_gq', source)
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        return module
+
+    def test_missing_quality_mask_cannot_be_zero_effect(self):
+        review = Review.__new__(Review)
+        review.gq = self.frozen_geometry()
+        a = dict(distances_A=np.zeros((4, 325)), angles_rad=np.zeros((4, 54)),
+                 time_ps=np.arange(1, 5)*.5, valid=np.zeros(4, dtype=bool))
+        with self.assertRaises(ValueError):
+            review.metrics(a, a, np.array([0]))
+
+    def test_known_nearest_tie_uses_first_reference(self):
+        gq = self.frozen_geometry()
+        query = np.array([[1., 1.]])
+        reference = np.array([[0., 0.], [2., 2.]])
+        for block in (1, 64):
+            distance, ids = gq.nearest(query, reference, block)
+            self.assertEqual(ids.tolist(), [0])
+            self.assertEqual(distance.tolist(), [1.])
+
+    def test_invalid_gap_resets_persistence_support(self):
+        gq = self.frozen_geometry()
+        features = np.ones((4, 2))*3
+        times = np.array([0., 2., 4., 6.])
+        known = np.zeros((1, 2))
+        reps, confirmation = gq.regions(features, times, 1., 5., history=known)
+        self.assertEqual((reps, confirmation), ([0], [3]))
+        reps, confirmation = gq.regions(features, times, 1., 5., history=known,
+                                        valid=np.array([True, True, False, True]))
+        self.assertEqual((reps, confirmation), ([], []))
+
+    def test_shared_F0_and_duplicate_hierarchy_are_guarded(self):
+        matrix = json.loads(Path(os.environ['R1_MATRIX']).read_text())
+        self.assertEqual(validate_hierarchy(matrix)['unique_F0_branches'], 48)
+        duplicated = copy.deepcopy(matrix)
+        duplicated['roots'][1]['root_id'] = duplicated['roots'][0]['root_id']
+        with self.assertRaises(ValueError):
+            validate_hierarchy(duplicated)
+        duplicated = copy.deepcopy(matrix)
+        duplicated['states'][1] = duplicated['states'][0]
+        with self.assertRaises(ValueError):
+            validate_hierarchy(duplicated)
+        duplicated = copy.deepcopy(matrix)
+        b = next(b for b in duplicated['branches'] if b['arm'] == 'F0')
+        b['training_block'] = 1
+        with self.assertRaises(ValueError):
+            validate_hierarchy(duplicated)
 
     def test_all_registered_scales_present(self):
         keys = metric_keys()

@@ -47,6 +47,31 @@ def interval(row):
     return f"{number(row['mean'])} [{number(row['bootstrap95_low'])}, {number(row['bootstrap95_high'])}]"
 
 
+def validate_hierarchy(matrix):
+    """根/状態の重複と共有F0の水増しを、報告前に独立に拒否する。"""
+    roots = [r['root_id'] for r in matrix['roots']]
+    states = matrix['states']
+    branches = matrix['branches']
+    if sorted(roots) != list(ROOTS) or len(set(roots)) != 8:
+        raise ValueError('根IDの欠損または重複があります。')
+    expected_states = {f'{r}-s{s}' for r in ROOTS for s in (4, 8)}
+    if len(states) != 16 or {s['state_id'] for s in states} != expected_states:
+        raise ValueError('16状態のIDが一致しません。')
+    if len(branches) != 240 or len({b['branch_id'] for b in branches}) != 240:
+        raise ValueError('240実MD枝に欠損または重複があります。')
+    expected_cells = {('F0', 0, m) for m in (1, 2, 3)}
+    expected_cells |= {(a, t, m) for a in ('F1', 'F2') for t in (1, 2) for m in (1, 2, 3)}
+    for s in states:
+        bs = [b for b in branches if b['state_id'] == s['state_id']]
+        cells = {(b['arm'], b['training_block'], b['MD_block']) for b in bs}
+        if len(bs) != 15 or cells != expected_cells or any(b['root_id'] != s['root_id'] for b in bs):
+            raise ValueError('共有F0/2×3/根の所属が不正です。')
+        if any(b['MD_seed'] != s['MD_seeds'][str(b['MD_block'])] for b in bs):
+            raise ValueError('対応MDseedが変わっています。')
+    return dict(roots=8, paired_states=16, unique_MD_branches=240,
+                unique_F0_branches=48, F0_as_six_independent_observations=False)
+
+
 def finalize_delivery(out):
     """最終監査後の費用・イベント・公開索引を追記する。科学値を再計算しない。"""
     if json_read(out/'status.json')['status'] != 'COMPLETE':
@@ -131,6 +156,10 @@ def main():
     original_check = json_read(out/'original-reproduction.json')
     if any(x['status'] != 'PASS' for x in (input_audit, result_audit, lof_audit, original_check)):
         raise RuntimeError('完全な入力/原再現/結果/LOF監査が必要です。')
+    matrix_path = root/'artifacts/b1-r1-cpu-20261028-v1/code/experiment-matrix.json'
+    if hashlib.sha256(matrix_path.read_bytes()).hexdigest() != json_read(out/'execution-manifest.json')['input_matrix_sha256']:
+        raise RuntimeError('報告用行列のSHAが実行時と一致しません。')
+    write_json(out/'hierarchy-audit.json', dict(status='PASS', **validate_hierarchy(json_read(matrix_path))))
     spec = importlib.util.spec_from_file_location('frozen_r1_report_gq',
           root/'artifacts/b1-expansion-20261026/executed-source/p1/server/gq_r2.py')
     gq = importlib.util.module_from_spec(spec)
