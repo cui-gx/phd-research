@@ -1,6 +1,12 @@
 # Doctoral Research — Codex Instructions
 
-> 最新承認：2026-10-28 P1-B1-R1の方法論的再検証設計・文書のみ。CPU再解析を含む科学計算は未承認。B2/C正式予測/S3は禁止。
+> 最新承認：2026-10-28 P1-B1-R1の限定CPU再解析。承認設計59f97821に厳密に従う。新MD/学習/モデル推論/B2/C予測器/S3は禁止。
+
+## P1-B1-R1：限定CPU実行の承認（2026-10-28、CONFIRMED）
+
+研究者は設計commit `59f97821ae6ffe283c371f710546abf84f691642` のCPU再解析を明示承認した。四参照・全指標/全時間窓・8根階層・保存embedding LOF診断を維持する。まず原入力の実SHA/ID/原子順/時刻/完全性を検査し、ORIGINAL_HISTORYを再現する。不一致なら証拠を保存して停止する。元B1ソース/原データ/旧出力は不変、新CPUモジュール/独立出力を使う。GPU不可視、単worker/数値thread1、計画のメモリ・ディスク・6時間再審査条件を守る。実行カードは [execution-approval.md](docs/P1-B1-R1/execution-approval.md)。
+
+新MD、CVAE学習、CPU/GPUモデル推論、B2/C予測器/S3は禁止。9原archive保持、Mac raw転送なし。終了後は日本語完全報告・A–G引継ぎ・全表/図/SHA/費用/失敗とGitHub回読を完了し、独立科学審査を待つ。下記の設計のみ/未承認という記録は、このCPU実行範囲についてSUPERSEDEDな履歴として残す。
 
 ## P1-B1-R1：設計だけの承認（2026-10-28、CONFIRMED）
 

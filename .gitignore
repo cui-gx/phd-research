@@ -319,3 +319,11 @@
 !/docs/P1-B1-R1/*.md
 !/docs/P1-B1-R1/*.json
 ._*
+
+# B1-R1：承認されたCPU解析コードと簡潔な派生証拠
+!/p1/r1_cpu_review.py
+!/tests/p1/test_r1_cpu_review.py
+!/docs/P1-B1-R1/*.csv
+!/docs/P1-B1-R1/*.png
+!/docs/P1-B1-R1/*.txt
+!/docs/P1-B1-R1/*.log
