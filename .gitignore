@@ -329,3 +329,5 @@
 !/docs/P1-B1-R1/*.log
 
 !/p1/r1_cpu_report.py
+
+!/p1/r1_cpu_pipeline.sh

@@ -51,6 +51,10 @@ def finalize_delivery(out):
     """最終監査後の費用・イベント・公開索引を追記する。科学値を再計算しない。"""
     if json_read(out/'status.json')['status'] != 'COMPLETE':
         raise RuntimeError('最終不変監査の完了が必要です。')
+    if (out/'public-evidence-index.json').exists():
+        raise RuntimeError('最終交付索引は既に存在します。上書きしません。')
+    if json_read(out/'final-integrity.json')['status'] != 'PASS':
+        raise RuntimeError('原入力の最終不変監査がPASSではありません。')
     events = [json.loads(line) for line in (out/'events.jsonl').read_text().splitlines()]
     stages = [r for r in events if r['event'] == 'stage_complete']
     generation = json_read(out/'report-generation-cost.json')
@@ -70,8 +74,14 @@ def finalize_delivery(out):
         unperformed_conditions=0, ignored_negative_results=0))
     notice = '''\n\n## 最終技術検証の追記\n\n原入力15,208ファイルと9archiveの最終SHA再照合PASS、原B1保持。CPU全工程と日本語資料生成は完了し、GitHub同期/本文回読で最終技術交付を確定する。費用はdelivery-costs.json、全イベントはexecution-events.json、失敗はfailures.json、公開ファイルはpublic-evidence-index.jsonを参照。独立科学審査・研究者科学受入れはPENDINGのまま停止する。\n'''
     for name in ('review-dossier.md', 'handoff-to-chatgpt.md'):
-        with (out/name).open('a') as f:
-            f.write(notice)
+        path = out/name
+        path.write_text('> 最終状態：CPU復核・全結果監査・原入力/9archive再照合は完了。独立科学審査/研究者受入れはPENDING。GitHub同期は遠隔回読証跡と最終返信で確定する。\n\n'+path.read_text()+notice)
+    old_manifest = out/'output-sha256.json'
+    (out/'output-sha256-core-final.json').write_bytes(old_manifest.read_bytes())
+    hashes = {str(p.relative_to(out)): hashlib.sha256(p.read_bytes()).hexdigest()
+              for p in sorted(out.rglob('*')) if p.is_file() and
+              p.name not in ('output-sha256.json', 'public-evidence-index.json', 'run.lock')}
+    write_json(old_manifest, hashes)
     allowed = ('.md', '.csv', '.json', '.png', '.txt', '.log')
     rows = []
     for path in sorted(out.iterdir()):
