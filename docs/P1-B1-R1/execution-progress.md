@@ -5,8 +5,8 @@
 - 共有CPU/メモリ/ディスク確認済み。GPU不可視、worker1/thread1。
 - サーバ初期検査5/5 PASS、追加境界/階層検査9/9 PASS（unit-r1-final.log、additional-unit-audit.json）。
 - 入力：15,208 raw SHA一致、8根/16状態/240枝のshape/有限性/atom順/選点/凍結時刻/seed一致、9archive SHA一致。監査wall63.118034 s、CPU62.749205 s。
-- ORIGINAL_HISTORY：実行中。全枝PASS前に他参照を実行しない。
-- COMMON_A4/A2/MATCHED_COUNT、LOF、階層集計、最終不変監査：未実施。
+- ORIGINAL_HISTORY：240/240 PASS。全連続/離散/時間条件・最近傍/代表/確認IDを再現。実測wall 3404.376768 s、CPU 3402.828265 s。original-reproduction.jsonとoriginal-stage-cost.jsonを参照。
+- COMMON_A4/A2/MATCHED_COUNT：単workerで実行中。LOF/階層集計/最終不変監査/最終文書は未完了。
 - 配備時にMac AppleDoubleメタデータをmanifestへ誤登録して転送SHA検査が1回失敗。実コード/入力は不変で、メタデータを除いたv2 allowlistを全6実ファイルで検査して修正。科学結果の修正なし。
 
 最終科学結論・独立審査・研究者受入れは未完了。B2/C予測器/S3へ進まない。

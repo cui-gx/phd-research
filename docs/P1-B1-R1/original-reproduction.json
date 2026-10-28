@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "branches": 240,
+  "continuous_rows": 2880,
+  "discrete_rows": 17280,
+  "all_scales": true,
+  "nearest_ID_exact": true
+}
