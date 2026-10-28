@@ -1,0 +1,180 @@
+{
+  "status": "PASS",
+  "raw_files": 15208,
+  "roots": 8,
+  "states": [
+    {
+      "state_id": "r01-s4",
+      "candidate_points": 7800,
+      "history_points": 8000,
+      "prefix_H4_exact": true,
+      "publication_before_freeze": true
+    },
+    {
+      "state_id": "r01-s8",
+      "candidate_points": 15800,
+      "history_points": 16000,
+      "prefix_H4_exact": true,
+      "publication_before_freeze": true
+    },
+    {
+      "state_id": "r02-s4",
+      "candidate_points": 7800,
+      "history_points": 8000,
+      "prefix_H4_exact": true,
+      "publication_before_freeze": true
+    },
+    {
+      "state_id": "r02-s8",
+      "candidate_points": 15800,
+      "history_points": 16000,
+      "prefix_H4_exact": true,
+      "publication_before_freeze": true
+    },
+    {
+      "state_id": "r03-s4",
+      "candidate_points": 7800,
+      "history_points": 8000,
+      "prefix_H4_exact": true,
+      "publication_before_freeze": true
+    },
+    {
+      "state_id": "r03-s8",
+      "candidate_points": 15800,
+      "history_points": 16000,
+      "prefix_H4_exact": true,
+      "publication_before_freeze": true
+    },
+    {
+      "state_id": "r04-s4",
+      "candidate_points": 7800,
+      "history_points": 8000,
+      "prefix_H4_exact": true,
+      "publication_before_freeze": true
+    },
+    {
+      "state_id": "r04-s8",
+      "candidate_points": 15800,
+      "history_points": 16000,
+      "prefix_H4_exact": true,
+      "publication_before_freeze": true
+    },
+    {
+      "state_id": "r05-s4",
+      "candidate_points": 7800,
+      "history_points": 8000,
+      "prefix_H4_exact": true,
+      "publication_before_freeze": true
+    },
+    {
+      "state_id": "r05-s8",
+      "candidate_points": 15800,
+      "history_points": 16000,
+      "prefix_H4_exact": true,
+      "publication_before_freeze": true
+    },
+    {
+      "state_id": "r06-s4",
+      "candidate_points": 7800,
+      "history_points": 8000,
+      "prefix_H4_exact": true,
+      "publication_before_freeze": true
+    },
+    {
+      "state_id": "r06-s8",
+      "candidate_points": 15800,
+      "history_points": 16000,
+      "prefix_H4_exact": true,
+      "publication_before_freeze": true
+    },
+    {
+      "state_id": "r07-s4",
+      "candidate_points": 7800,
+      "history_points": 8000,
+      "prefix_H4_exact": true,
+      "publication_before_freeze": true
+    },
+    {
+      "state_id": "r07-s8",
+      "candidate_points": 15800,
+      "history_points": 16000,
+      "prefix_H4_exact": true,
+      "publication_before_freeze": true
+    },
+    {
+      "state_id": "r08-s4",
+      "candidate_points": 7800,
+      "history_points": 8000,
+      "prefix_H4_exact": true,
+      "publication_before_freeze": true
+    },
+    {
+      "state_id": "r08-s8",
+      "candidate_points": 15800,
+      "history_points": 16000,
+      "prefix_H4_exact": true,
+      "publication_before_freeze": true
+    }
+  ],
+  "branches": 240,
+  "atom_order_atoms": 504,
+  "C_alpha_atoms": 28,
+  "archives": [
+    {
+      "name": "r01.tar.gz",
+      "bytes": 2528044626,
+      "sha256": "c100f64efc74351911100d9cfc2a0a8b82cfda11e5de7f36164f293e7bf732a5",
+      "matches": true
+    },
+    {
+      "name": "r02.tar.gz",
+      "bytes": 2526798997,
+      "sha256": "9114f80bc13cade99fea22c43bb55db59e9a9dd22b54479776c8aa2b57123b69",
+      "matches": true
+    },
+    {
+      "name": "r03.tar.gz",
+      "bytes": 2528026022,
+      "sha256": "cb76e39c605fc2faa416426ae4ae21fdaea6a5ecfebe20f3d599e404d702a211",
+      "matches": true
+    },
+    {
+      "name": "r04.tar.gz",
+      "bytes": 2526185600,
+      "sha256": "ebb4c3a9db3cbb51c7bdec1cb3c5bf5807ee72b85f6848248ccb5a7dbb8e9890",
+      "matches": true
+    },
+    {
+      "name": "r05.tar.gz",
+      "bytes": 2525834533,
+      "sha256": "047b5b43ecaf254c47205b703a051d49c3a477600f44928ae0ff2ac1cd98c0f8",
+      "matches": true
+    },
+    {
+      "name": "r06.tar.gz",
+      "bytes": 2525220210,
+      "sha256": "2eaa47b4d1578ff15cd49291bff2d6b064c66e65ab6ece391493e431dd205bb8",
+      "matches": true
+    },
+    {
+      "name": "r07.tar.gz",
+      "bytes": 2527341863,
+      "sha256": "b5e1f8823581d46375f469823fdc711f1fb5e277db8088e54e4cfc539cb445ec",
+      "matches": true
+    },
+    {
+      "name": "r08.tar.gz",
+      "bytes": 2528215449,
+      "sha256": "153e9f0f20a5335c76f33c41f85dc1b78aa172166fb6018766f88c8007b37e61",
+      "matches": true
+    },
+    {
+      "name": "metadata.tar.gz",
+      "bytes": 8265563,
+      "sha256": "c7cb7e8c1e9a0655093a1a46ffb4db4343c5d8cc2245cbc7cfc26db7b9866613",
+      "matches": true
+    }
+  ],
+  "raw_modified": false,
+  "server_raw_retained": true
+}

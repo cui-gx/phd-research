@@ -1,0 +1,10 @@
+test_all_registered_scales_present (test_r1_cpu_review.ReviewTests.test_all_registered_scales_present) ... ok
+test_count_matching_keeps_global_IDs (test_r1_cpu_review.ReviewTests.test_count_matching_keeps_global_IDs) ... ok
+test_nested_reference_distance_only_is_monotone (test_r1_cpu_review.ReviewTests.test_nested_reference_distance_only_is_monotone) ... ok
+test_original_geometry_invariance (test_r1_cpu_review.ReviewTests.test_original_geometry_invariance) ... ok
+test_root_bootstrap_does_not_treat_frames_as_roots (test_r1_cpu_review.ReviewTests.test_root_bootstrap_does_not_treat_frames_as_roots) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.027s
+
+OK

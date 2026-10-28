@@ -1,0 +1,8 @@
+{
+  "first_branch": "r01-s4-F0-t0-m2",
+  "wall_s": 9.619190409779549,
+  "estimated_total_scientific_CPU_wall_s": 10525.817095041275,
+  "estimate_not_measurement": true,
+  "rule": "720実参照評価＋補助60分という保守的投影",
+  "continue_within_6h": true
+}

@@ -327,3 +327,5 @@
 !/docs/P1-B1-R1/*.png
 !/docs/P1-B1-R1/*.txt
 !/docs/P1-B1-R1/*.log
+
+!/p1/r1_cpu_report.py

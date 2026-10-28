@@ -1,3 +1,9 @@
+# CPU実行中の追加状態
+
+2026-10-28 / RUNNING、交付PARTIAL。研究者が59f97821設計のCPU実行を承認した。入力監査PASS、ORIGINAL_HISTORY復現中。以下は[元設計交付版](design-handoff-to-chatgpt-59f97821.md)の履歴であり、現在の承認状態は[実行カード](execution-approval.md)・[進捗](execution-progress.md)を優先する。最終数値とA–Gは全工程の監査後に更新する。
+
+## 以下は設計交付時のA–G
+
 # P1-B1-R1：ChatGPTへの引継ぎ
 
 ## A. 現在の状態
