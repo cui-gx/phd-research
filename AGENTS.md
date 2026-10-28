@@ -1,6 +1,10 @@
 # Doctoral Research — Codex Instructions
 
-> 最新承認：2026-10-28 P1-B1-R1の限定CPU再解析。承認設計59f97821に厳密に従う。新MD/学習/モデル推論/B2/C予測器/S3は禁止。
+> 最新承認：2026-10-28 R1後の科学資格審査・次段階設計・日本語文書のみ。既存B1/R1不変、新しい科学計算は禁止。
+
+## R1後の科学資格審査・設計（2026-10-28、CONFIRMEDな作業範囲）
+
+研究者はMD準備/物理条件、CVAE学習資格、H4/H2の評価依存、主成果候補、候補・密度fit・M0・学習窓の対照、共通支持下の最小C問題の文書審査を依頼した。[審査入口](docs/P1-Post-R1-Qualification/README.md)と[A–G引継ぎ](docs/P1-Post-R1-Qualification/handoff-to-chatgpt.md)を参照。本輪は科学再解析・MD・訓練・推論を実行しない。旧B1/R1のデータ/表/凍結ソース/報告を保護する。新しいG_R、Q0/P/L/O/N/C設計、件数・数値は全てPROPOSEDであり、採用/実行を承認しない。Mac原backup免除・サーバ原archive保持を維持。交付後は研究者/ChatGPT審査で停止し、B2/C予測器/S3へ進まない。独立科学審査と研究者受入れを、依頼題名だけでPASSに変更しない。
 
 ## P1-B1-R1：CPU復核完了・審査待ち（2026-10-28、MEASURED / DERIVED）
 

@@ -339,3 +339,10 @@
 
 !/p1/r1_cpu_delivery.py
 ._*
+
+# R1後の科学資格審査：文書・静的検証だけを共有する
+!/docs/P1-Post-R1-Qualification/
+/docs/P1-Post-R1-Qualification/*
+!/docs/P1-Post-R1-Qualification/*.md
+!/docs/P1-Post-R1-Qualification/*.json
+._*

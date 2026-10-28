@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "checked_at_JST": "2026-10-28T21:15:21.555736+09:00",
+  "base_commit": "d43e606755b83ddb9e71399860ef27e550662c57",
+  "scope": "文書・転記・静的ソース/SHA検査のみ。科学再解析なし。",
+  "documents": {
+    "docs/P1-Post-R1-Qualification/README.md": {
+      "bytes": 2597,
+      "sha256": "0727d45578c717148d73739fed5b2c5bc56e0040f6ee27e91f80de2ba03e614d"
+    },
+    "docs/P1-Post-R1-Qualification/evidence-and-sources.md": {
+      "bytes": 8800,
+      "sha256": "d977d8d002d36d6d873544da43df72cda422fbca81eac4f622ddf7d7f5160b7a"
+    },
+    "docs/P1-Post-R1-Qualification/qualification-review.md": {
+      "bytes": 19358,
+      "sha256": "3f7d4a0fb4e3c1b12acb5c3911ad87e94a778670ce758f1cdc21ed58ea3f6bab"
+    },
+    "docs/P1-Post-R1-Qualification/outcome-definition.md": {
+      "bytes": 10895,
+      "sha256": "3ef0df7e493e6bf4114b336d7d31e836c71d517f3bfb64a23b2159ee8fb4e581"
+    },
+    "docs/P1-Post-R1-Qualification/minimal-design.md": {
+      "bytes": 16702,
+      "sha256": "e731b8b2ac447b56fdf17c19f5c7a5282ead1360317613425f20e243d571e112"
+    },
+    "docs/P1-Post-R1-Qualification/cost-and-gates.md": {
+      "bytes": 7069,
+      "sha256": "987f74c2538007399acf0000bbe874b6dc0f5737d406021cd10ce8fc54abd76d"
+    },
+    "docs/P1-Post-R1-Qualification/supervisor-summary.md": {
+      "bytes": 5222,
+      "sha256": "03a894d23a51b9ac85eb1bf587bc94a6938d4683ee1bd4663d951f199c72d73d"
+    },
+    "docs/P1-Post-R1-Qualification/proposed-q0-prompt.md": {
+      "bytes": 3654,
+      "sha256": "2cad9d649173865f217b68bfd830685ca760edffec66936007047e426846f68f"
+    },
+    "docs/P1-Post-R1-Qualification/handoff-to-chatgpt.md": {
+      "bytes": 8166,
+      "sha256": "106afd6292958efab9b4d9d6d19b8329db798bd2ac3bc8d63d1ce074eb2240cb"
+    }
+  },
+  "relative_links_checked": 117,
+  "protected_files_checked": 303,
+  "protected_bytes_checked": 100293373,
+  "protected_sources_results_inputs_unchanged": true,
+  "preexisting_root_README_sha256": "7942e3c12cc0fd9988c40b1424d218b73c4c09c2b57ef9141052ad18c116cadd",
+  "quoted_existing_cells": [
+    {
+      "reference_mode": "ORIGINAL_HISTORY",
+      "source": "docs/P1-B1-R1/main-root-summary.csv",
+      "cells": {
+        "mean": "0.6990651269461053",
+        "bootstrap95_low": "0.3339872372233178",
+        "bootstrap95_high": "1.0685217218195158"
+      }
+    },
+    {
+      "reference_mode": "COMMON_A4",
+      "source": "docs/P1-B1-R1/main-root-summary.csv",
+      "cells": {
+        "mean": "0.6796622193075568",
+        "bootstrap95_low": "0.28496252852492476",
+        "bootstrap95_high": "1.09030744464763"
+      }
+    },
+    {
+      "reference_mode": "COMMON_A2",
+      "source": "docs/P1-B1-R1/main-root-summary.csv",
+      "cells": {
+        "mean": "-0.10144329594530536",
+        "bootstrap95_low": "-0.5531367000411458",
+        "bootstrap95_high": "0.30214342733647426"
+      }
+    },
+    {
+      "reference_mode": "MATCHED_COUNT",
+      "source": "docs/P1-B1-R1/main-root-summary.csv",
+      "cells": {
+        "mean": "0.6980412216861954",
+        "bootstrap95_low": "0.335141473938011",
+        "bootstrap95_high": "1.0674812043422044"
+      }
+    }
+  ],
+  "new_scientific_compute": 0,
+  "server_sessions": 0,
+  "errors": [],
+  "document_tooling_failures": [
+    {
+      "event": "最初の静的点検がAppleDoubleの._*.mdを誤読しUnicodeDecodeErrorで停止",
+      "resolution": "通常のMarkdownファイルのみを対象に変更。科学計算・証拠変更なし。"
+    }
+  ],
+  "remote_readback": {
+    "status": "PENDING_COMMIT_PUSH",
+    "final_delivery_commit": "Git履歴と最終返信で取得。自己参照SHAは記入しない。"
+  },
+  "scientific_acceptance": "PENDING",
+  "proposed_methods_approved": false
+}
