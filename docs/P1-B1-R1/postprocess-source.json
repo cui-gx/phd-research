@@ -1,0 +1,9 @@
+{
+  "core_commit": "e703b69c7556eeebc1d1b5ab0381ed37b82aaa27",
+  "postprocess_commit": "f57715668f771234a48f1362c318e9f5c0cb1b09",
+  "source_sha256": {
+    "p1/r1_cpu_review.py": "743293eabeb2cb608c2e631196b161d9cfc657c59da6667a12e93a69db05e195",
+    "p1/r1_cpu_report.py": "4123d292b78804c9328f1893b2dc1a9e31921bb48e383ee85f313423c336de21",
+    "p1/r1_cpu_pipeline.sh": "e24d46a5db8bd9165f07a8e33ce6aad5fb78ef852511cd0b502603d5dde46e9d"
+  }
+}

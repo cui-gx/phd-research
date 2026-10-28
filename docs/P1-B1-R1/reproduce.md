@@ -53,3 +53,14 @@ export R1_FROZEN_GQ_SOURCE="$PROJECT/artifacts/b1-expansion-20261026/executed-so
 全CSV/JSONの数値はサーバ生成物から取得する。原NPZ/DCD/モデル/9archiveはMacへ転送しない。新しい最小距離配列、全代表/確認ID、完全ログは許可サーバへ保持し、GitHubには可読全表・図・監査・SHA索引と再現コードを置く。新出力SHAと元入力再照合を完了し、通常のcommit/pushと遠隔本文回読を行う。原B1保存政策は変更しない。
 
 科学的受入れと独立審査はPENDING。完了後は審査で停止し、新MD/学習/モデル推論/B2/C予測器/S3を実行しない。
+
+## 最終文書と小型閲覧表
+
+初回server-v1の報告とSHA索引を保全した後、次の2処理を同じサーバで実行する。前者は共通H2の不一致・離散尺度の不確実性・起点/乱数の解釈を文書へ追記するだけで、数値表/図のSHA不変を検査する。後者は事前指定の100 ps除外/4 ns行を転記する小型viewで、全参照・全比較・全尺度を残し、完全表も保持する。科学値の再推定は行わない。
+
+```bash
+"$PYTHON" -m p1.r1_cpu_editorial --output "$OUTPUT"
+"$PYTHON" -m p1.r1_cpu_delivery --output "$OUTPUT"
+```
+
+版はeditorial-audit.json、compact-view-audit.jsonとGit履歴で確認する。server-v1の索引は歴史snapshotであり、現在の整合性照合には最新public-evidence-index.json/output-sha256.jsonを使う。CVAE学習/推論0と、許可されたCPU LOF fit160回は別の計数である。

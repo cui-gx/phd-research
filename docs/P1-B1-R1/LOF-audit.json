@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "full_fits": 80,
+  "subset_fits": 80,
+  "diagnostic_rows": 240,
+  "original_selections": 80,
+  "original_repeats_checked": 16,
+  "CPU_s": 10.497087709,
+  "wall_s": 10.501567319966853,
+  "no_model_inference": true,
+  "no_counterfactual_MD_outcome_imputed": true
+}

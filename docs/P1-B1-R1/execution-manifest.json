@@ -1,0 +1,19 @@
+{
+  "plan_commit": "59f97821ae6ffe283c371f710546abf84f691642",
+  "code_sha256": "743293eabeb2cb608c2e631196b161d9cfc657c59da6667a12e93a69db05e195",
+  "input_matrix_sha256": "8e8709daa5844f072d99a66c864b6b20825ad4b0cbd370195edb8c215cce18a3",
+  "expected_raw_manifest_sha256": "4e4a185c9b660cd5882c825cb613de2f5f4140012c1863194abc69a260673786",
+  "frozen_gq_source_sha256": "1f0b699c130ec273ff12978058fc8f597de3bfd06a3909a003887b54b99d477e",
+  "modes": [
+    "ORIGINAL_HISTORY",
+    "COMMON_A4",
+    "COMMON_A2",
+    "MATCHED_COUNT"
+  ],
+  "worker_count": 1,
+  "numeric_threads": 1,
+  "GPU_visible": false,
+  "MD": 0,
+  "training": 0,
+  "model_inference": 0
+}

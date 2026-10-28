@@ -1,0 +1,63 @@
+{
+  "status": "MEASURED_AND_DERIVED",
+  "stage_costs": [
+    {
+      "event": "stage_complete",
+      "UTC": "2026-10-28T04:57:36.392910+00:00",
+      "stage": "audit",
+      "wall_s": 63.11803371086717,
+      "CPU_s": 62.749205057000005
+    },
+    {
+      "event": "stage_complete",
+      "UTC": "2026-10-28T05:55:17.643950+00:00",
+      "stage": "original",
+      "wall_s": 3404.3767678411677,
+      "CPU_s": 3402.8282652939997
+    },
+    {
+      "event": "stage_complete",
+      "UTC": "2026-10-28T06:53:33.476718+00:00",
+      "stage": "references",
+      "wall_s": 3488.696739169769,
+      "CPU_s": 3487.485398532
+    },
+    {
+      "event": "stage_complete",
+      "UTC": "2026-10-28T06:53:44.511634+00:00",
+      "stage": "lof",
+      "wall_s": 10.704960503615439,
+      "CPU_s": 10.700307403
+    },
+    {
+      "event": "stage_complete",
+      "UTC": "2026-10-28T06:53:52.304067+00:00",
+      "stage": "summary",
+      "wall_s": 7.420560967177153,
+      "CPU_s": 7.417731698
+    },
+    {
+      "event": "stage_complete",
+      "UTC": "2026-10-28T06:54:23.819523+00:00",
+      "stage": "finish",
+      "wall_s": 25.132599871605635,
+      "CPU_s": 25.117628207
+    }
+  ],
+  "stage_wall_sum_s": 6999.449662064202,
+  "stage_CPU_sum_s": 6996.298536191,
+  "report_generation": {
+    "wall_s": 5.82495460473001,
+    "CPU_s": 5.808943210000001,
+    "numerical_results_generated_on_server": true,
+    "new_MD_training_inference": 0,
+    "report_source_sha256": "69f8a7dcf3b928d02b3794802d37c5e0a191d0760fe2b2dd9d70fb3c00b58158"
+  },
+  "scope": "工程内wall/CPU合計と報告生成を別記。シェル起動・配備・人の待機は含まない。",
+  "first_execution_UTC": "2026-10-28T04:56:33.270805+00:00",
+  "last_execution_UTC": "2026-10-28T06:54:23.819523+00:00",
+  "GPU_s": 0,
+  "MD": 0,
+  "training": 0,
+  "model_inference": 0
+}

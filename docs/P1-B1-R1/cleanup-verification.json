@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "checked_UTC": "2026-10-28T07:23:45Z",
+  "active_R1_scientific_processes": [],
+  "processes_killed": 0,
+  "new_registered_plot_cache_removed": true,
+  "new_plot_cache_removed_bytes": 204276,
+  "existing_environment_and_caches_touched": false,
+  "raw_archives_deleted": 0,
+  "server_raw_archive_retention": "PASS_FINAL_SHA_AUDIT_9",
+  "retention_evidence": "final-integrity.json",
+  "server_scientific_output_retained": true,
+  "resource_snapshot_checked_before_action": true,
+  "private_server_details_in_receipt": false,
+  "compact_export_verification": {
+    "derived-public-evidence-v1.tar.gz": {
+      "bytes": 11620528,
+      "sha256": "448efd886fc015e087488d8d196b0f730efc60dc8046acfcf0285ca889e6edfe",
+      "status": "PASS",
+      "raw_archive": false
+    },
+    "derived-public-evidence-v2.tar.gz": {
+      "bytes": 11900187,
+      "sha256": "2d38418617734644417141b5f604116b39cb2d2e1f09b39c1a9cf10ca15ab95b",
+      "status": "PASS",
+      "raw_archive": false
+    }
+  },
+  "local_inspection_temp_removed": true,
+  "local_registered_packaging_temporary_directory_removed": true,
+  "local_task_metadata_files_removed": 80,
+  "Mac_raw_transfer": false
+}

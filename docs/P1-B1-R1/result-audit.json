@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "counts": {
+    "continuous": 11520,
+    "discrete": 69120,
+    "paired": 165888,
+    "states": 27648,
+    "root_stage": 13824,
+    "summary": 6912,
+    "reference_decomposition": 3456,
+    "randomness": 36864
+  },
+  "all_preregistered_metrics": true,
+  "all_roots": true,
+  "original_root_summary": "PASS",
+  "shared_F0_preserved": true,
+  "reference_identity": "PASS",
+  "missing": 0,
+  "independent_scientific_review": "PENDING",
+  "researcher_acceptance": "PENDING"
+}

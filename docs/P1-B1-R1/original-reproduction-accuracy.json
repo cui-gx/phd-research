@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "continuous_value_checks": 17280,
+  "max_absolute_error_by_metric": {
+    "distance_mean_A": 0.0,
+    "distance_median_A": 0.0,
+    "distance_p90_A": 0.0,
+    "Rg_mean_A": 0.0,
+    "Q8_mean": 0.0,
+    "angle_to_geometric_neighbor_median_deg": 0.0
+  },
+  "max_frame_min_distance_absolute_error_A": 0.0,
+  "nearest_global_IDs_exact": true,
+  "branches": 240,
+  "scope": "原値と再現済み値の差の監査。MD/距離/LOFを再実行していない。"
+}

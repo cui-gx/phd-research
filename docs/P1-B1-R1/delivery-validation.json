@@ -1,0 +1,204 @@
+{
+  "status": "PASS_STATIC_DELIVERY",
+  "checked_at_JST": "2026-10-28T16:30:50.282174+09:00",
+  "scope": "派生ファイルのSHA/構造/リンク/旧証拠不変の静的照合。科学値の再推定なし。",
+  "server_export_files_verified": 65,
+  "server_export_total_bytes": 76709620,
+  "server_public_index_sha256": "91341489ed4c454907ad7dd19d40f4a116116edcd64915a3c0922ddd8f7f778c",
+  "json_parse": {
+    "cleanup-verification.json": "PASS",
+    "input-inventory.json": "PASS",
+    "input-audit.json": "PASS",
+    "static-checks.json": "PASS",
+    "cost-checkpoint.json": "PASS",
+    "additional-unit-audit.json": "PASS",
+    "original-reproduction.json": "PASS",
+    "original-stage-cost.json": "PASS",
+    "CPU-profile.json": "PASS",
+    "LOF-audit.json": "PASS",
+    "bootstrap-design.json": "PASS",
+    "costs.json": "PASS",
+    "delivery-costs.json": "PASS",
+    "environment.json": "PASS",
+    "execution-events.json": "PASS",
+    "execution-manifest.json": "PASS",
+    "failures.json": "PASS",
+    "final-integrity.json": "PASS",
+    "hierarchy-audit.json": "PASS",
+    "original-reproduction-accuracy.json": "PASS",
+    "output-sha256-core-final.json": "PASS",
+    "output-sha256.json": "PASS",
+    "postprocess-source-amendment-01.json": "PASS",
+    "postprocess-source-amendment-02.json": "PASS",
+    "postprocess-source.json": "PASS",
+    "randomness-decomposition.json": "PASS",
+    "reference-manifest.json": "PASS",
+    "report-generation-cost.json": "PASS",
+    "result-audit.json": "PASS",
+    "status.json": "PASS",
+    "public-evidence-index.json": "PASS",
+    "compact-view-audit.json": "PASS",
+    "editorial-audit.json": "PASS",
+    "output-sha256-server-v1.json": "PASS",
+    "public-evidence-index-server-v1.json": "PASS"
+  },
+  "csv_schema_and_row_counts": {
+    "LOF-full-reproduction.csv": {
+      "rows": 80,
+      "columns": 7,
+      "schema": "PASS"
+    },
+    "all-scale-stage-differences.csv": {
+      "rows": 576,
+      "columns": 21,
+      "schema": "PASS"
+    },
+    "autocorrelation.csv": {
+      "rows": 11520,
+      "columns": 16,
+      "schema": "PASS"
+    },
+    "branch-input-audit.csv": {
+      "rows": 240,
+      "columns": 6,
+      "schema": "PASS"
+    },
+    "continuous.csv": {
+      "rows": 11520,
+      "columns": 21,
+      "schema": "PASS"
+    },
+    "discrete-counts.csv": {
+      "rows": 69120,
+      "columns": 17,
+      "schema": "PASS"
+    },
+    "evaluation-costs.csv": {
+      "rows": 720,
+      "columns": 5,
+      "schema": "PASS"
+    },
+    "input-file-sha256.csv": {
+      "rows": 15208,
+      "columns": 5,
+      "schema": "PASS"
+    },
+    "main-continuous.csv": {
+      "rows": 960,
+      "columns": 21,
+      "schema": "PASS"
+    },
+    "main-discrete-counts.csv": {
+      "rows": 5760,
+      "columns": 12,
+      "schema": "PASS"
+    },
+    "main-randomness-diagnostic.csv": {
+      "rows": 64,
+      "columns": 10,
+      "schema": "PASS"
+    },
+    "main-reference-decomposition.csv": {
+      "rows": 288,
+      "columns": 11,
+      "schema": "PASS"
+    },
+    "main-root-stage-effects.csv": {
+      "rows": 1152,
+      "columns": 12,
+      "schema": "PASS"
+    },
+    "main-root-summary.csv": {
+      "rows": 576,
+      "columns": 21,
+      "schema": "PASS"
+    },
+    "original-reproduction-accuracy.csv": {
+      "rows": 17280,
+      "columns": 6,
+      "schema": "PASS"
+    },
+    "paired-effects.csv": {
+      "rows": 165888,
+      "columns": 16,
+      "schema": "PASS"
+    },
+    "pool-selection-diagnostic.csv": {
+      "rows": 240,
+      "columns": 24,
+      "schema": "PASS"
+    },
+    "reference-decomposition-summary.csv": {
+      "rows": 1296,
+      "columns": 20,
+      "schema": "PASS"
+    },
+    "reference-decomposition.csv": {
+      "rows": 3456,
+      "columns": 11,
+      "schema": "PASS"
+    },
+    "root-stage-effects.csv": {
+      "rows": 13824,
+      "columns": 12,
+      "schema": "PASS"
+    },
+    "root-summary.csv": {
+      "rows": 6912,
+      "columns": 21,
+      "schema": "PASS"
+    },
+    "selected-origins.csv": {
+      "rows": 80,
+      "columns": 20,
+      "schema": "PASS"
+    },
+    "selection-effect-links.csv": {
+      "rows": 32,
+      "columns": 17,
+      "schema": "PASS"
+    },
+    "state-effects.csv": {
+      "rows": 27648,
+      "columns": 13,
+      "schema": "PASS"
+    },
+    "time-windows.csv": {
+      "rows": 38400,
+      "columns": 17,
+      "schema": "PASS"
+    }
+  },
+  "randomness_records": 36864,
+  "protected_old_B1_source_reports_and_evidence_files_unchanged": 152,
+  "approved_policy_updates_excluded_from_frozen_scientific_inputs": [
+    "docs/collaboration-policy.md"
+  ],
+  "approved_design_sha256": {
+    "analysis-plan.md": "2e64913dbf53cbafb6e31a5da44d8c843071f054c030e2574d0d89e20009a190",
+    "script-design.md": "39f40743c1646c747a13411aa23fc47cb4e58ab483ef1376140ec4723d174727",
+    "decision-criteria.md": "eb6611daa6c341f725eb698909399f1ebb4797aec73d8fb1985808fe076a0144",
+    "cost-and-scope.md": "92994585d03221106c37ea46756568431dd593e32bb97bebf1f2699d710b990f",
+    "data-index.md": "d9d22b5a10f350d28daa85f98483d301f8ba2e7aa8833bfd9ce7fb56d43d4cc0",
+    "unidentified-confounders.md": "d572da95a1e95fd6af069e50626c52418597beccf3df8a18674bf5ae41f417b0",
+    "sources-and-review-notes.md": "13a92564e51a42c91b5944f9775cb1ee9fa8208e85d5e8878f0d6fa4094720f6",
+    "input-inventory.json": "0315c6a61940531e37679c00ef3df43fbd60d4abc38a07641eb44424efc03715",
+    "static-checks.json": "8374e224dc0f6259eefe4fa0e8e50759e75d125b0d278b6ae8b045e947127eec",
+    "proposed-execution-prompt.md": "d6edfda3b92e67c41616c29fd29f6015a97226cd959f7e600b076584ecc807f2"
+  },
+  "existing_user_root_README_preserved_sha256": "7942e3c12cc0fd9988c40b1424d218b73c4c09c2b57ef9141052ad18c116cadd",
+  "root_README_excluded_from_commit": true,
+  "relative_links_checked": 416,
+  "broken_links": [],
+  "Python_source_AST_parse": "PASS_5_files",
+  "local_workflow_YAML_parse": "PASS_4_files_ruby_YAML_parse_file",
+  "scientific_tests": "サーバ初期5件/追加9件PASS。Macで再実行せず既存ログを保持。",
+  "local_scientific_statistics_recomputed": false,
+  "independent_scientific_review": "PENDING",
+  "researcher_scientific_acceptance": "PENDING",
+  "remote_readback": "PENDING_PUSH; 実在する最終SHA/回読証跡で確定する",
+  "static_check_failure_and_resolution": {
+    "initial_check": "設計時保護目録に含まれる共同作業規範も不変として検査したため停止。",
+    "resolution": "本輪で明示承認済みのCPU実行方針追記を科学入力から分離。152科学ソース/既存報告・証拠と10設計ファイルは不変を確認。数値/原結果を変更していない。"
+  }
+}

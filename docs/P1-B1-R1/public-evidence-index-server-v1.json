@@ -1,0 +1,268 @@
+{
+  "status": "SERVER_GENERATED",
+  "files": [
+    {
+      "path": "CPU-profile.json",
+      "bytes": 327,
+      "sha256": "dc61cbc606b0cf695e6b0b00a7dce3580176f46f162963ca1fbcb34d3e6a94f5"
+    },
+    {
+      "path": "LOF-audit.json",
+      "bytes": 287,
+      "sha256": "deb101f2714e0543d680c1f37e5ebe7f95ceb1b958021f36c3a9e2f08815caac"
+    },
+    {
+      "path": "LOF-full-reproduction.csv",
+      "bytes": 3499,
+      "sha256": "f6fab5127c78b853a91b7b950e4030c2c9088539b204b2149e0f701d49aac8cd"
+    },
+    {
+      "path": "additional-unit-audit.json",
+      "bytes": 360,
+      "sha256": "bbfb2988e577573650f334df3d204b176bb6934ea23735e6d5959514401063de"
+    },
+    {
+      "path": "all-metric-stage-differences.png",
+      "bytes": 244484,
+      "sha256": "f52f0c278aeb8793446f9003dca95be24858ad51ade222529ffd13d90cf8a9ef"
+    },
+    {
+      "path": "all-scale-stage-differences.csv",
+      "bytes": 264286,
+      "sha256": "44d4e0a47c1f7a70fbf3ad3b0b4f25a9053eeaeec03ebbbd355e08e0a1f276f7"
+    },
+    {
+      "path": "autocorrelation.csv",
+      "bytes": 1244726,
+      "sha256": "5d41e057bd10b0654dad63d87f74dcdbcaff4de8e6e7ab976cdbfb7f80d612cb"
+    },
+    {
+      "path": "bootstrap-design.json",
+      "bytes": 264,
+      "sha256": "029e8566f3378cd7d64a7416b9771299b989484e030a58f9a9cf571d395d19c3"
+    },
+    {
+      "path": "branch-input-audit.csv",
+      "bytes": 9916,
+      "sha256": "134ad2a6e3b5c7496501c44ce558c68337c0db30a10d47074d1ca2bb68e6433c"
+    },
+    {
+      "path": "continuous.csv",
+      "bytes": 2283171,
+      "sha256": "b45b07be3287a148c6d4f75fa985f347dc7cbf576c7fd1c6baba240123e5bf86"
+    },
+    {
+      "path": "cost-checkpoint.json",
+      "bytes": 270,
+      "sha256": "bff4eb2d843dd5fd8d4a9993648c5d09cb293627e67e94471f3213e53d2d08c6"
+    },
+    {
+      "path": "costs.json",
+      "bytes": 170,
+      "sha256": "784a222951d67fc9e79f2e359ad091caec0dc81f785aa3e3dfca8e9e9f24dad5"
+    },
+    {
+      "path": "delivery-costs.json",
+      "bytes": 1842,
+      "sha256": "a0454d8f007cb20ae0d0cb584b3683a6b3882a1f5a029cfa1c4dbb55586dcd2b"
+    },
+    {
+      "path": "discrete-counts.csv",
+      "bytes": 6225361,
+      "sha256": "10df37212d420d262c2bc194db7936cb2900b8d7c4fbd13b393d68b9a12ce820"
+    },
+    {
+      "path": "environment.json",
+      "bytes": 438,
+      "sha256": "05a927778c6bc9d6d3b78ac5be852b1a7d70cfb496648049bde527723166353b"
+    },
+    {
+      "path": "evaluation-costs.csv",
+      "bytes": 54026,
+      "sha256": "410e7c27087711153f358ba357215ffa3d4fb77f59c88163755da1853cbda64f"
+    },
+    {
+      "path": "execution-events.json",
+      "bytes": 544044,
+      "sha256": "2ee394701b6c12c592bac5518248897dc08f0f85cae07738b78593a04fd0824c"
+    },
+    {
+      "path": "execution-manifest.json",
+      "bytes": 658,
+      "sha256": "ce2ac10f1d2c96d0039546ce471912980f31960144560ddd889f2f4db601ddac"
+    },
+    {
+      "path": "failures.json",
+      "bytes": 351,
+      "sha256": "297a1b4299f355352d4d2516f6ac7b6aaf845368f697813bcde342d8b75f2a99"
+    },
+    {
+      "path": "final-integrity.json",
+      "bytes": 245,
+      "sha256": "d03d259e3aa6ef9f92b10ed8cfe1eeb0f57a4290b2cbd0826f3dbdf8f385535b"
+    },
+    {
+      "path": "handoff-to-chatgpt.md",
+      "bytes": 5245,
+      "sha256": "25fd2f914bbc6ecfb5abd26dc7e846d50f2990d1899c2b490a22e517e073765e"
+    },
+    {
+      "path": "hierarchy-audit.json",
+      "bytes": 164,
+      "sha256": "ec08616b977f3e43e5bbbd6319ae8a08351401236056308c11b738dbdc191cb0"
+    },
+    {
+      "path": "input-audit.json",
+      "bytes": 4590,
+      "sha256": "ce623d96ffc838c23f0a8f4c5efc54ea2202eacb68d91b446ff4542f49ff0583"
+    },
+    {
+      "path": "input-file-sha256.csv",
+      "bytes": 2800307,
+      "sha256": "3de041cc82b7ecd801f7188f46895115ff2c90ad9e0bb06cbc7544d6921676da"
+    },
+    {
+      "path": "main-randomness-diagnostic.csv",
+      "bytes": 9970,
+      "sha256": "2e667c1ef9dfca1de930bf2b9571d5dc3e7d3d2d5fac2fc7bd210273b4c95868"
+    },
+    {
+      "path": "original-reproduction-accuracy.csv",
+      "bytes": 866947,
+      "sha256": "c1e6a210ab62b2babafe6849f5e229ddacc67c48df54a018d1b9b0b391e3aea5"
+    },
+    {
+      "path": "original-reproduction-accuracy.json",
+      "bytes": 482,
+      "sha256": "b1c5abe2cffe72a31076cc30e48afed8214a2880e8afb997d54f898f8cfa1ca5"
+    },
+    {
+      "path": "original-reproduction.json",
+      "bytes": 145,
+      "sha256": "8a200fe9a2196bed40850d7f5e0d795f39174125ad3ca49274ae0b476446edf9"
+    },
+    {
+      "path": "original-stage-cost.json",
+      "bytes": 163,
+      "sha256": "c57f8347eb7ab1cedf284d4382c1e01a58cc3ce3970c2c7d9349e94083ca2266"
+    },
+    {
+      "path": "output-sha256-core-final.json",
+      "bytes": 199277,
+      "sha256": "2d4d8eb74fa4bc5a8e3d53e019c4da886692909d798ff67fda1e0fba0d929e68"
+    },
+    {
+      "path": "output-sha256.json",
+      "bytes": 199741,
+      "sha256": "3c75a27bd5c0bbf541dce743e109185f0807bc8edef3cfdd27873821732f548b"
+    },
+    {
+      "path": "paired-effects.csv",
+      "bytes": 17616703,
+      "sha256": "30a0d1ace618c260a180131fff3ec22f0c4b3b9ad2284e1cd9b3e6c9b97f49e7"
+    },
+    {
+      "path": "pool-selection-diagnostic.csv",
+      "bytes": 258978,
+      "sha256": "caf7da0b322affea93cdafd0d26e15436759b436205214b6f80338ef97c0f451"
+    },
+    {
+      "path": "postprocess-source-amendment-01.json",
+      "bytes": 818,
+      "sha256": "d40ae71ffebb39c84066803d5681fe208d28c9571d62ec376636acb204713920"
+    },
+    {
+      "path": "postprocess-source-amendment-02.json",
+      "bytes": 466,
+      "sha256": "ebbd134b6c5d275dbb383e86973e4bac387f16d222758f8f684b7e0e87924a86"
+    },
+    {
+      "path": "postprocess-source.json",
+      "bytes": 444,
+      "sha256": "d8e8819667cc327af33e2196f51370ecc5c0602fddfc86c99593a8688f86e379"
+    },
+    {
+      "path": "randomness-decomposition.json",
+      "bytes": 23202335,
+      "sha256": "f0421a9d6772f26e39b4656749ffef3328785f2e80502b45a9372e74d8441998"
+    },
+    {
+      "path": "reference-decomposition-summary.csv",
+      "bytes": 561775,
+      "sha256": "415c935a22f55e4b1d98a209a5df9c3ec02a996eb547533d4a14eafad72b9be3"
+    },
+    {
+      "path": "reference-decomposition.csv",
+      "bytes": 329455,
+      "sha256": "48f8fd98ffcbcc206b9dfcad9181cbf45d47d0ae718f9442e71eb247a40a6a56"
+    },
+    {
+      "path": "reference-manifest.json",
+      "bytes": 6033187,
+      "sha256": "a8bdaaee5edcba830b492b580fbce373c95d7c12e5e68e5bf6dcc12f1533dfcc"
+    },
+    {
+      "path": "report-generation-cost.json",
+      "bytes": 240,
+      "sha256": "1bcb2be98d1c43b1aed60fd5d0daea682b57327eefc875dc8c1cf3db305847cf"
+    },
+    {
+      "path": "result-audit.json",
+      "bytes": 496,
+      "sha256": "a171051bc048682fef9ba247a8ea6b6ff746b35930f470e3996ac8f9c8fe810e"
+    },
+    {
+      "path": "review-dossier.md",
+      "bytes": 24783,
+      "sha256": "b918711702503ac31268ad488239dda1cecce95c25a10c0d6fef73dff2303592"
+    },
+    {
+      "path": "root-reference-decomposition.png",
+      "bytes": 175108,
+      "sha256": "f0ae98563725d47fc5d87a0296edd98afc86276dfe6ae9bc8e049b0025a9fdeb"
+    },
+    {
+      "path": "root-stage-effects.csv",
+      "bytes": 1645812,
+      "sha256": "f511f1e7e032503f5bb43e01becb18a50cc50738578f381b91ecfaa5102e1389"
+    },
+    {
+      "path": "root-summary.csv",
+      "bytes": 3138647,
+      "sha256": "b2a9050ebd0b79895f9719b6e6e081e514e047482da9d09f4046f52c96f8d53b"
+    },
+    {
+      "path": "selected-origins.csv",
+      "bytes": 20472,
+      "sha256": "ee7a0bbf26a963a42731a0dcde8efe693773a915414cf2da41a1bd72a3da46fe"
+    },
+    {
+      "path": "selection-effect-links.csv",
+      "bytes": 6845,
+      "sha256": "ead4b28fbddfb3419233e4fc7afcb583ccd6c7171509d0a5f563f11ff830fa9a"
+    },
+    {
+      "path": "state-effects.csv",
+      "bytes": 2217237,
+      "sha256": "18e832b25b7568e65d24e48e3882346e4274c6a6678af0d49d7838a1e1f437d2"
+    },
+    {
+      "path": "status.json",
+      "bytes": 232,
+      "sha256": "b980e0ea11d0e0a6879b480b04770423b66d56785f803e3a575b00ebe1bfb505"
+    },
+    {
+      "path": "time-windows.csv",
+      "bytes": 5270195,
+      "sha256": "c8a3215c7fe0b9d2503226956b09875849af6742304c91d6c352ccc15ed9ba63"
+    },
+    {
+      "path": "unit-r1-final.log",
+      "bytes": 1296,
+      "sha256": "202fe58d6124fb7ec74ef8a1f60c2ed1c814544f45e7f95aad005e7e958ee41a"
+    }
+  ],
+  "raw_arrays_included": false,
+  "original_archives_retained": true,
+  "scope": "トップレベルの派生表・図・報告・監査。branches/distancesの完全配列はサーバ保持。"
+}

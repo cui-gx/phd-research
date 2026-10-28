@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE",
+  "independent_scientific_review": "PENDING",
+  "original_branches": 240,
+  "logical_branch_reference_conditions": 960,
+  "new_MD": 0,
+  "training": 0,
+  "model_inference": 0,
+  "B2_C_S3": "NOT_APPROVED"
+}

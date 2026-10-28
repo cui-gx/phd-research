@@ -1,0 +1,12 @@
+{
+  "scientific_stops": [],
+  "deployment_failures": [
+    {
+      "kind": "AppleDouble_manifest_mismatch",
+      "resolved": "科学解析前にv2 allowlistからメタデータを除外し、全6実ファイルSHA一致。",
+      "original_scientific_data_changed": false
+    }
+  ],
+  "unperformed_conditions": 0,
+  "ignored_negative_results": 0
+}

@@ -1,0 +1,13 @@
+{
+  "change": "報告前の根/状態/共有F0監査と境界fixtureを補強。科学計算パラメータ/原B1/実行中の評価coreは不変。報告生成はまだ開始前。",
+  "core_commit": "e703b69c7556eeebc1d1b5ab0381ed37b82aaa27",
+  "report_and_final_tests_commit": "71d4ec5",
+  "pipeline_commit": "f57715668f771234a48f1362c318e9f5c0cb1b09",
+  "source_sha256": {
+    "p1/r1_cpu_review.py": "743293eabeb2cb608c2e631196b161d9cfc657c59da6667a12e93a69db05e195",
+    "p1/r1_cpu_report.py": "54688d7159e3833c68ce990386c9257561bc10f5c6b88e06656eadea792cdf23",
+    "p1/r1_cpu_pipeline.sh": "e24d46a5db8bd9165f07a8e33ce6aad5fb78ef852511cd0b502603d5dde46e9d",
+    "tests/p1/test_r1_cpu_review_final.py": "2f0e944dd2b4e646365d61b9a19adeef9c1c7a38c903ae365603ad9dc6b33269"
+  },
+  "previous_report_preserved": true
+}

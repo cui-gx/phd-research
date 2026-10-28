@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "roots": 8,
+  "paired_states": 16,
+  "unique_MD_branches": 240,
+  "unique_F0_branches": 48,
+  "F0_as_six_independent_observations": false
+}

@@ -1,0 +1,11 @@
+{
+  "status": "MEASURED",
+  "checked_UTC": "2026-10-28T05:50:18.728897+00:00",
+  "CPU_model": "Intel(R) Xeon(R) w7-3565X",
+  "logical_CPUs": 64,
+  "analysis_affinity_count": 1,
+  "analysis_nice": 10,
+  "numerical_threads": 1,
+  "exclusive_CPU_reservation_claimed": false,
+  "private_host_or_user_information_recorded": false
+}

@@ -1,0 +1,7 @@
+{
+  "change": "報告生成時に再現済み値の実誤差を監査して公開する。距離/MD/LOFの再計算ではなく、科学条件と実行coreは不変。追加9境界検査とCPU条件への参照を明記。",
+  "core_commit": "e703b69c7556eeebc1d1b5ab0381ed37b82aaa27",
+  "report_commit": "9105635",
+  "report_source_sha256": "69f8a7dcf3b928d02b3794802d37c5e0a191d0760fe2b2dd9d70fb3c00b58158",
+  "previous_unexecuted_report_source_preserved": true
+}

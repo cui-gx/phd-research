@@ -1,32 +1,60 @@
-# 現在のR1：承認済みCPU再解析
+# P1-B1-R1：評価参照と段階差のCPU科学復核
 
-2026-10-28 / RUNNING、交付PARTIAL。研究者が設計59f97821のCPU復核を承認した。[実行カード](execution-approval.md)と[進捗](execution-progress.md)を参照。旧B1のデータ/ソース/結果は不変、GPU/MD/学習/モデル推論なし。以下の未承認表示は設計交付時点の履歴である。
+2026-10-28 JST。**承認済みCPU再解析と結果監査は完了。独立科学審査・研究者の科学的受入れはPENDING。** 最終GitHub同期は、実在する最終commitと遠隔回読で確認する。本輪を閉じ、次の科学計算は開始しない。
 
-## 以下は設計交付時点の本文
+## 審査の入口
 
-# P1-B1-R1：評価基準と段階差の方法論的再検討
+1. [完全科学報告](review-dossier.md)：数学定義、全参照・全尺度、8根の結果、乱数、費用、限界。
+2. [ChatGPTへのA–G引継ぎ](handoff-to-chatgpt.md)：確認状態、主結果、技術情報、未解決事項、索引、次の判断。
+3. [統合的な読取り](interpretation-and-review.md)：共通H4とH2の不一致、陰性結果、事前判定表との対応。
+4. [最終進捗](execution-progress.md)、[再現手順](reproduce.md)、[交付静的検証](delivery-validation.json)、[後処理・保持記録](cleanup-verification.json)。
 
-2026-10-28。**設計・文書のみの交付。再解析、MD、学習、推論は未実施。** 研究者の本タスク指示はCONFIRMED、以下の再評価方法・費用・実装案はPROPOSEDであり、実行承認ではない。
+## 結果の要点と限界
 
-読取基準：GitHub main `e7f438c074d02452d57b7602bba810173b22f9b1`。凍結科学ソースは `40a911e1f36d1365fc5ee7d8753a7feb1edd964d`。元の[完全報告](../P1-B1-Expansion/review-dossier.md)、[引継ぎ](../P1-B1-Expansion/handoff-to-chatgpt.md)、[指標契約](../P1-B1-Expansion/metric-contract.md)を変更しない。
+DERIVED。事前指定の下流4 ns・先頭100 ps除外について、Δ21をF2−F1、Γを同根S8−S4の差とする。独立統計単位は8歴史根であり、保存フレームや960論理条件ではない。
 
-## 今回の判断
+|平均幾何距離の段階差 Γ [Å]|8根平均|探索的95%区間|
+|---|---:|---|
+|ORIGINAL_HISTORY|+0.699065|[+0.333987, +1.068522]|
+|COMMON_A4|+0.679662|[+0.284963, +1.090307]|
+|COMMON_A2|−0.101443|[−0.553137, +0.302143]|
+|MATCHED_COUNT|+0.698041|[+0.335141, +1.067481]|
 
-既存軌道を同じ履歴参照で測り直せば、S4/S8の差に含まれる**評価基準変更の数値的寄与**を調べられる。一方、当時の候補集合・学習窓・M0・起点は変わらないため、これだけで科学フィードバックXの独立効果を同定できない。候補集合を制限したLOFの再計算は選択機構の感度分析であり、その新しいTop1からのMD成果は未観測である。
+共通H4では7/8根で正だったが、共通H2と一致しない。全6離散尺度の段階差の区間は0を含む。共通H4のS4/S8を平均したF2−F1全体効果も−0.023775 [−0.216596, +0.199295] Åであり、更新の一般的優位は確認していない。参照寄与は主平均で+0.019403 [−0.047509, +0.080121] Åだが、等価性や「参照の影響は無視できる」を認定する値ではない。
 
-既報の主平均距離Δ21はS4 −0.363607 Å、S8 +0.335459 Å、同根差+0.699065 Å（8/8根で正）。これは[既存CSV](../执行证据/2026-10-26-b1-expansion/report-main-root-effects.csv)と[既報統計](../执行证据/2026-10-26-b1-expansion/report-review-statistics.json)の引用で、今回の再計算結果ではない。新しい共通参照でこの傾向が残るかはUNVERIFIED。
+評価A0の変更だけでは共通H4の差を説明しきれない一方、候補集合・M0・訓練窓・起点の交絡は残る。XのZ/Wを超える価値、B2固定wall-clock純利益、物理P・学習L資格は未確認。未実行の新Top1の下流はNOT_OBSERVEDのままである。
 
-## 読む順番
+## 全表と小型閲覧表
 
-1. [事前再検証計画](analysis-plan.md)：推定対象、共通参照、全指標、階層統計、時間合法性。
-2. [必要データ索引](data-index.md)：GitHubとサーバrawを分離し、実ファイル名・SHA索引・欠損時の扱いを記載。
-3. [解析スクリプト設計](script-design.md)：まだ実装しないCPU専用処理、出力schema、静的/将来の数値検査。
-4. [判定基準](decision-criteria.md)：支持、測定交絡の弱化、反証、C未識別を区別。
-5. [費用と実行範囲案](cost-and-scope.md)：根拠つきの見積り。測定値や計算許可ではない。
-6. [未識別交絡と独立資格ゲート](unidentified-confounders.md)：MD物理条件・CVAE学習十分性を別審査にする。
-7. [出典と読取範囲](sources-and-review-notes.md)、[静的入力目録](input-inventory.json)、[静的点検](static-checks.json)。
-8. [ChatGPT引継ぎ](handoff-to-chatgpt.md)、[承認後のみ使用する実装依頼案](proposed-execution-prompt.md)。
+小型表は事前指定の100 ps除外・4 ns行の転記で、数値の再推定や有利な尺度の選別をしていない。[view監査](compact-view-audit.json)に元表/転記表SHAと列・行数を記録する。
 
-「事前」は**新たな再評価の開始前**を意味する。既報の結果を知った上で組む事後感度分析であり、B1当初の事前登録や盲検・独立検証への格上げではない。本設計を独立した第三者による科学審査の合格と呼ばない。
+|内容|小型表|全12時間条件の完全表|
+|---|---|---|
+|全参照・全比較・全尺度の8根要約|[576行](main-root-summary.csv)|[6,912行](root-summary.csv)|
+|根別S4/S8・段階差|[1,152行](main-root-stage-effects.csv)|[13,824行](root-stage-effects.csv)|
+|評価参照変更の恒等分解|[288行](main-reference-decomposition.csv)|[3,456行](reference-decomposition.csv)、[要約](reference-decomposition-summary.csv)|
+|六連続量の枝単位評価|[960行](main-continuous.csv)|[11,520行](continuous.csv)|
+|六離散尺度の枝単位評価|[5,760行](main-discrete-counts.csv)|[69,120行](discrete-counts.csv)|
+|学習/MD乱数階層|[主量64行](main-randomness-diagnostic.csv)|[全36,864記録](randomness-decomposition.json)|
 
-本交付後は研究者・計画側審査で停止する。B1の技術交付COMPLETE、独立科学審査PENDING、研究者科学受入れPENDINGを維持し、B2・C予測器・S3へ進まない。Mac raw backupの免除とサーバ原archive保持も変更しない。
+[全165,888配対差](paired-effects.csv)、[状態27,648行](state-effects.csv)、[全尺度段階差](all-scale-stage-differences.csv)、[時間窓](time-windows.csv)、[時間相関](autocorrelation.csv)、[Top1出所](selected-origins.csv)、[FULL再現](LOF-full-reproduction.csv)、[候補制限診断](pool-selection-diagnostic.csv)、[選点と観測済み効果の連結](selection-effect-links.csv)も保管する。
+
+## 図
+
+[図表の読取りと監査](figure-and-table-audit.md)を参照。全6連続量・全6離散条件を示し、都合のよい尺度だけを選ばない。
+
+![全12尺度の段階差](all-metric-stage-differences.png)
+
+![8歴史根の参照依存と数値分解](root-reference-decomposition.png)
+
+## 完全性・費用・科学範囲
+
+MEASURED：15,208原ファイルと9原archiveのSHAを開始/終了時に照合。240/240枝の元評価を再現し、連続17,280値・フレーム最小距離の最大絶対誤差0、ID/整数は完全一致。全参照は960論理条件＝720実評価＋240同一参照alias、欠測0。LOFは保存embeddingの160 fitで、CVAE再推論ではない。科学段階wall合計6,999.449662 s、CPU合計6,996.298536 s、ピークRSS307.621 MiB。報告生成・配備・待機は別計数とする。
+
+[結果監査](result-audit.json)、[原再現の実誤差](original-reproduction-accuracy.json)、[最終不変監査](final-integrity.json)、[費用](delivery-costs.json)、[LOF監査](LOF-audit.json)、[環境](environment.json)、[実行manifest](execution-manifest.json)、[失敗と復旧](delivery-notes.md)、[最新公開SHA索引](public-evidence-index.json)を照合する。server-v1索引は編集前の歴史snapshotであり、現在のSHA索引ではない。
+
+GPU・MD・CVAE学習・モデル推論は0。原DCD/重み/原ログと9archiveはサーバに保持し、Mac raw backupはWAIVED_BY_RESEARCHER。B2・C予測器・S3は禁止。次は研究者とChatGPTの独立審査のみ。
+
+## 承認設計と履歴
+
+承認設計commitは`59f97821ae6ffe283c371f710546abf84f691642`。[analysis-plan](analysis-plan.md)、[script-design](script-design.md)、[decision-criteria](decision-criteria.md)、[cost-and-scope](cost-and-scope.md)、[data-index](data-index.md)、[未識別交絡](unidentified-confounders.md)は設計時の文面を保持する。その「未実行」は履歴で、現状は本入口と最終進捗に従う。[設計時README](design-README-59f97821.md)と[設計時引継ぎ](design-handoff-to-chatgpt-59f97821.md)も別名で保持した。

@@ -1,0 +1,17 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "numpy": "1.26.4",
+  "scipy": "1.15.2",
+  "sklearn": "1.6.1",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.39",
+  "GPU_visible": false,
+  "torch_imported": false,
+  "OpenMM_imported": false,
+  "numeric_threads": 1,
+  "worker_count": 1,
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

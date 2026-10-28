@@ -1,0 +1,9 @@
+{
+  "seed": 1604000001,
+  "draws": 10000,
+  "units": 8,
+  "resampling_indices_sha256": "38ccc539056173f7b19b77f93bbfcbc217564c667517decec16e8ae96cc3bc0f",
+  "same_draws_for_all_results": true,
+  "lower_level_resampled": false,
+  "independent_frames_used": false
+}

@@ -1,50 +1,51 @@
-# CPU実行中の追加状態
+> 最終状態：CPU復核・全結果監査・原入力/9archive再照合は完了。独立科学審査/研究者受入れはPENDING。GitHub同期は遠隔回読証跡と最終返信で確定する。
 
-2026-10-28 / RUNNING、交付PARTIAL。研究者が59f97821設計のCPU実行を承認した。入力監査PASS、ORIGINAL_HISTORY復現中。以下は[元設計交付版](design-handoff-to-chatgpt-59f97821.md)の履歴であり、現在の承認状態は[実行カード](execution-approval.md)・[進捗](execution-progress.md)を優先する。最終数値とA–Gは全工程の監査後に更新する。
+# B1-R1：ChatGPTへのA–G引継ぎ
 
-## 以下は設計交付時のA–G
+## A. 現在状態
 
-# P1-B1-R1：ChatGPTへの引継ぎ
+2026-10-28T15:53:56.884316+09:00。CPU解析完了、最終不変監査/GitHub交付は別証拠で確定する。承認設計59f97821、CPU実装 `e703b69c7556eeebc1d1b5ab0381ed37b82aaa27`、元B1科学生成40a911e。最終同期SHAはGit履歴/最終返信の実在値を参照。8根/16状態/240枝×四参照=960論理条件、欠測0。再現/結果/LOF監査PASS、独立科学審査PENDING、研究者科学受入れPENDING。GPU/MD/学習/モデル推論0。
 
-## A. 現在の状態
+## B. 確認状態
 
-2026-10-28 JST。**設計文書COMPLETE、CPU再解析NOT APPROVED / NOT RUN。** 読取基準commitは`e7f438c074d02452d57b7602bba810173b22f9b1`、科学実行版は`40a911e1f36d1365fc5ee7d8753a7feb1edd964d`。本交付の最終SHAはpush後のGit履歴・最終返信で確認する。自分を含むcommit SHAを事前に捏造しない。
+CONFIRMED：指定設計の限定CPU復核。MEASURED：入力SHA/実行時間/再現検査。DERIVED：四参照の全比較、根区間、参照寄与、候補診断。PROPOSED：将来のM0/候補交差対照や物理/学習資格確認。UNVERIFIED：XのZ/W条件付き価値、B2純利益、P/L資格、一般化。文書/工程完了を科学受入れにしない。
 
-既存B1の240下流MD・1024成功科学taskは完了済み。本R1では新task0、サーバ接続0、科学数値再計算0、GPU使用0、旧報告更新0。GitHubへ追加するのは日本語設計・静的入力目録/点検、研究協作規則と交接のみ。rawは元サーバarchive、Mac全量複製はWAIVED_BY_RESEARCHERのまま。
+## C. 科学的結果
 
-## B. 状態を分ける
+主平均距離Δ21の同根S8−S4 [Å]：当時参照 +0.699065 [+0.333987, +1.068522]、共通H4 +0.679662 [+0.284963, +1.090307]、評価参照寄与 +0.019403 [-0.047509, +0.080121]。統計単位8根、有限seed込みの探索的95%区間。正の根数は当時8/8、共通H4 7/8。全6連続/6離散尺度は完全報告表7–9で同じ優先度を維持する。指標ごとの逆方向と広い区間を落とさない。
 
-- **CONFIRMED**：研究者はR1の設計・文書・必要な静的点検とGit同期のみを承認。旧科学資料を保護し、終了後に停止する。
-- **MEASURED（既存）**：B1の実行/保存事実は[現行交付状態](../P1-B1-Expansion/delivery-status.json)とその証拠による。今回の新測定ではない。
-- **DERIVED（方法上）**：同じ枝の評価参照だけを変更した差は計算的に分離可能。候補/M0の生成効果は同時には分離できない。
-- **PROPOSED**：COMMON_A4主再検証、A2/等点数感度、保存embeddingのLOF診断、全指標/8根統計、CPU費用枠。
-- **UNVERIFIED**：共通参照での段階差、制限集合でのTop1、その下流効果、物理/CVAE資格、C/B2の成立。
+共通H4でも平均段階差は正で、探索的区間は正側にあった。評価参照変更だけではこの条件下の差を説明しきれないが、状態条件の組合せに関する記述に留まり、独立確認やXの増分価値を示さない。
 
-## C. 主要な科学的論点
+**反対結果・不確実性も併記する。** 共通H2の主幾何段階差は **-0.101443 [-0.553137, +0.302143] Å** で、共通H4と一致しない。全6離散尺度の段階差の探索区間は0を含む。共通H4の全体効果（同根S4/S8平均）は **-0.023775 [-0.216596, +0.199295] Å** で、F2の一般的優位を確認していない。主復核H4の指定を結果に応じて変えず、これらの補助条件と陰性結果を同じ重みで審査する。
 
-既報主幾何Δ21の同根S8−S4は平均+0.699065 Å、8/8根で正。一方全体Δ21は−0.014074 Å、探索的95%区間[−0.209151,+0.210466] Å。出典は[既存8根×3比較（24行）](../执行证据/2026-10-26-b1-expansion/report-main-root-effects.csv)と[既報統計](../执行证据/2026-10-26-b1-expansion/report-review-statistics.json)。本輪は数値を再生成していない。
-
-評価参照はS4=H4、S8=H8で、H8が増えると各枝の最小距離は下がるが、群差Δ21は上下どちらにも動ける。共通H4で両段階を測り直すことにより、ΓN−ΓC4=D8(H8)−D8(H4)を求める設計とした。ただしH4基準のS8成果は「S8でまだ未知だった領域」ではなく「早期履歴からの変化」である。
-
-候補集合制限は保存embedding上の選択機構だけを検査する。新Top1に実行済みMDがあるかを推測せず、未観測Yを作らない。全6連続量・全6離散尺度・元12時間窓を保持する。角指標は参照依存、Rg/Q8は参照不変である。
+保存embedding FULLの80再fitは原score/全順位を再現、F0-repeat16一致。候補制限の160行とFULL80行を保存し、新Top1のMD成果はNOT_OBSERVED。選点は処置後の媒介で、選点出所とΔを結んでも因果調整ではない。共通H4のS8は早期履歴からの変化であり、S8時点の未発見領域ではない。
 
 ## D. 技術情報
 
-元データのスキーマ・論理パス・SHAを[data-index](data-index.md)と[input-inventory.json](input-inventory.json)に登録した。下流特徴は`{branch}-md-prep/science/features.npz`、順位は`{state}-infer-{label}/science/ranking.npz`。公開CSVだけでは別参照への最近傍を復元できない。
+[実装](../../p1/r1_cpu_review.py)、[報告生成](../../p1/r1_cpu_report.py)、[実行カード](execution-approval.md)、[再現](reproduce.md)。原科学ソース/データ/seedは不変。単worker/thread1、GPU不可視。入力15,208 SHA、9archive、原子順504/28Cα、H4 prefix、候補ID、実MD起点、公開凍結時計を照合。原再現PASS後のみ追加参照を実行。bootstrap1604000001の同一8根抽出を全条件で共有、下位seed追加再標本化なし。純交互作用分散は識別不能。
 
-実装案は別CPUモジュールで旧ソースを保護する。科学seedは不変、解析bootstrapは元1604000001を提案。8根を再標本化し、同根S4/S8・全指標・参照法・共有F0を束ねる。学習/MDseedのブロック番号が同じでも段階間の実seedは異なる。1セル1本の2×3設計から純交互作用分散を主張しない。
+配備のAppleDouble manifest失敗1回はv2 allowlistで解決、科学条件変更なし。実行停止・未実施は失敗索引とイベントを照合する。9archiveはサーバに保持、Mac raw backupはWAIVED_BY_RESEARCHER。
 
-## E. 審査を依頼する点
+## E. 重点審査点
 
-1. 共通H4への問いの変更と、当時H_sに対する新規度の問いを並列に保つことに同意するか。
-2. A2と等点数の補助条件は十分か。結果を見て後から有利な参照を選ばない固定条件として妥当か。
-3. 候補の出所・LOF診断を機構記述に留め、反実仮想のYやX因果効果を作らない境界が十分か。
-4. MD物理資格とCVAE学習十分性をR1とは別審査にすること、既存8根を未見最終テストにしないことを確認する。
+1. 共通参照の測定対象変更と、元の当時履歴新規度を両立して解釈できているか。
+2. 全尺度/全根/seed変動を踏まえ、残る段階条件の組合せの記述をどこまで許すか。
+3. 候補数/密度、M0、訓練窓、選点媒介を評価寄与だけで同定済みにしていないか。
+4. X/Y表現共有、X/W重複、Z支持不足、全8根観測済みの下でCへ進む前に必要な独立対照は何か。
+5. 物理Pと学習Lを別資格ゲートとしてどう判断するか。
 
-## F. 全資料への入口
+## F. 索引
 
-[README](README.md)／[計画](analysis-plan.md)／[データ索引](data-index.md)／[スクリプト設計](script-design.md)／[判定表](decision-criteria.md)／[費用](cost-and-scope.md)／[未識別交絡・別資格](unidentified-confounders.md)／[出典](sources-and-review-notes.md)／[入力目録](input-inventory.json)／[静的検査](static-checks.json)／[未承認の次回依頼案](proposed-execution-prompt.md)。元B1報告は[こちら](../P1-B1-Expansion/review-dossier.md)。
+[完全報告](review-dossier.md)、[全連続](continuous.csv)、[全離散](discrete-counts.csv)、[全対応](paired-effects.csv)、[根段階](root-stage-effects.csv)、[根区間](root-summary.csv)、[参照分解](reference-decomposition.csv)、[分解区間](reference-decomposition-summary.csv)、[全感度](all-scale-stage-differences.csv)、[全乱数](randomness-decomposition.json)、[主乱数](main-randomness-diagnostic.csv)、[Top1出所](selected-origins.csv)、[起点と実効果](selection-effect-links.csv)、[LOF診断](pool-selection-diagnostic.csv)、[LOF再現](LOF-full-reproduction.csv)、[入力監査](input-audit.json)、[SHA](input-file-sha256.csv)、[結果監査](result-audit.json)、[元再現](original-reproduction.json)、[費用](delivery-costs.json)、[出力索引](public-evidence-index.json)。raw距離/embedding/DCD/重み/完全ログは許可サーバのみ、GitHubは可読派生表と図/監査。
 
 ## G. 次段階
 
-唯一の次の行動は研究者・計画側によるこの設計の審査。採用する場合は別途「CPU再評価を実行してよい」と明示承認し、対象版/条件/運用枠を確定する。単なる本設計の受取や文書COMPLETEを実行許可にしない。B2・C予測器・オンライン方策・S3、新MD/学習/推論は含まない。独立科学審査PENDING、研究者科学受入れPENDINGを維持して停止する。
+ChatGPTと研究者の独立科学審査で停止する。M0/候補の交差、P/L、C/B2を扱う新計算は全てPROPOSED/未承認。B2・C予測器・S3を自動開始しない。旧S2独立終審INCOMPLETEを維持する。
+
+
+## 最終技術検証の追記
+
+原入力15,208ファイルと9archiveの最終SHA再照合PASS、原B1保持。CPU全工程と日本語資料生成は完了し、GitHub同期/本文回読で最終技術交付を確定する。費用はdelivery-costs.json、全イベントはexecution-events.json、失敗はfailures.json、公開ファイルはpublic-evidence-index.jsonを参照。独立科学審査・研究者科学受入れはPENDINGのまま停止する。
+
+
+追加審査入口：[統合した読取り](interpretation-and-review.md)。初回server-v1報告とSHA索引を別名で保全し、今回の編集は既存表の転記・解釈だけである。

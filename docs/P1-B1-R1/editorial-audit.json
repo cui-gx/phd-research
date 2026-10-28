@@ -1,0 +1,15 @@
+{
+  "status": "PASS_DOCUMENT_ONLY",
+  "prior_server_v1_sha256": {
+    "review-dossier.md": "b918711702503ac31268ad488239dda1cecce95c25a10c0d6fef73dff2303592",
+    "handoff-to-chatgpt.md": "25fd2f914bbc6ecfb5abd26dc7e846d50f2990d1899c2b490a22e517e073765e",
+    "public-evidence-index.json": "f67e0609c253d4b322e11b80085b361c50a3393af68c4b0d776e18e04f884bf5",
+    "output-sha256.json": "3c75a27bd5c0bbf541dce743e109185f0807bc8edef3cfdd27873821732f548b"
+  },
+  "source_sha256": "5dc4bf0ab57c6814cfa81ef7766e7cc4c772c8982e97d0e1e1a220283176824d",
+  "scientific_tables_changed": false,
+  "figures_changed": false,
+  "MD_training_inference": 0,
+  "CPU_s": 0.029137412,
+  "wall_s": 0.02914613764733076
+}

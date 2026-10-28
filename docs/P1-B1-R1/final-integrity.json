@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "raw_files": 15208,
+  "raw_SHA_unchanged": true,
+  "archive_SHA_unchanged": true,
+  "archive_count": 9,
+  "raw_transfer_to_Mac": false,
+  "GPU_jobs": 0,
+  "MD_jobs": 0,
+  "training_jobs": 0,
+  "model_inference_jobs": 0
+}
