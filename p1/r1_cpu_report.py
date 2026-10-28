@@ -72,6 +72,44 @@ def validate_hierarchy(matrix):
                 unique_F0_branches=48, F0_as_six_independent_observations=False)
 
 
+def reproduction_accuracy(project, out, matrix):
+    """再現PASSの実際の最大数値誤差を保存する。原科学計算を再実行しない。"""
+    from p1.r1_cpu_review import close_value, write_table
+    raw = project/'runs/b1-expansion-20261026/tasks'
+    errors = []
+    max_by_metric = {m: 0. for m in CONT}
+    min_distance_max = 0.
+    for b in matrix['branches']:
+        bid = b['branch_id']
+        old = raw/(bid+'-analysis')/'science'
+        result = json_read(out/'branches'/bid/'ORIGINAL_HISTORY.json')
+        wanted = json_read(old/'continuous.json')
+        for got, ref in zip(result['continuous'], wanted):
+            if (got['burn_ps'], got['prefix_ns']) != (ref['burn_ps'], ref['prefix_ns']):
+                raise RuntimeError('再現誤差の時間窓結合が不正です。')
+            for metric in CONT:
+                error = abs(got[metric]-ref[metric])
+                if not close_value(got[metric], ref[metric]):
+                    raise RuntimeError('元再現の誤差監査が許容外です。')
+                max_by_metric[metric] = max(max_by_metric[metric], error)
+                errors.append(dict(branch_id=bid, burn_ps=got['burn_ps'], prefix_ns=got['prefix_ns'],
+                                   metric=metric, absolute_error=error, within_tolerance=True))
+        with np.load(old/'distances.npz', allow_pickle=False) as ref, np.load(out/'distances'/bid/'ORIGINAL_HISTORY.npz', allow_pickle=False) as got:
+            min_distance_max = max(min_distance_max, float(np.max(np.abs(ref['d_min_A']-got['d_min_A']))))
+            if not np.array_equal(got['reference_frame_ids'][ref['nearest_A0_id']], got['nearest_reference_frame_id']):
+                raise RuntimeError('再現後の最近傍global IDが不一致です。')
+    if len(errors) != 17280:
+        raise RuntimeError('再現誤差の全条件が揃っていません。')
+    write_table(out/'original-reproduction-accuracy.csv', errors)
+    result = dict(status='PASS', continuous_value_checks=len(errors),
+                  max_absolute_error_by_metric=max_by_metric,
+                  max_frame_min_distance_absolute_error_A=min_distance_max,
+                  nearest_global_IDs_exact=True, branches=240,
+                  scope='原値と再現済み値の差の監査。MD/距離/LOFを再実行していない。')
+    write_json(out/'original-reproduction-accuracy.json', result)
+    return result
+
+
 def finalize_delivery(out):
     """最終監査後の費用・イベント・公開索引を追記する。科学値を再計算しない。"""
     if json_read(out/'status.json')['status'] != 'COMPLETE':
@@ -159,7 +197,10 @@ def main():
     matrix_path = root/'artifacts/b1-r1-cpu-20261028-v1/code/experiment-matrix.json'
     if hashlib.sha256(matrix_path.read_bytes()).hexdigest() != json_read(out/'execution-manifest.json')['input_matrix_sha256']:
         raise RuntimeError('報告用行列のSHAが実行時と一致しません。')
-    write_json(out/'hierarchy-audit.json', dict(status='PASS', **validate_hierarchy(json_read(matrix_path))))
+    matrix = json_read(matrix_path)
+    write_json(out/'hierarchy-audit.json', dict(status='PASS', **validate_hierarchy(matrix)))
+    accuracy = reproduction_accuracy(root, out, matrix)
+    cpu_profile = json_read(out/'CPU-profile.json') if (out/'CPU-profile.json').exists() else {'CPU_model': '未取得'}
     spec = importlib.util.spec_from_file_location('frozen_r1_report_gq',
           root/'artifacts/b1-expansion-20261026/executed-source/p1/server/gq_r2.py')
     gq = importlib.util.module_from_spec(spec)
@@ -305,6 +346,10 @@ M0は同じ未学習初期重みseed1600000001から、各状態の旧800点をb
 
 入力検査は504原子/28Cα順序、保存Cαと325距離の単位対応、H4のH8内prefix完全一致、候補7,800/15,800点、選点のsegment/local/global IDと原時刻、実MD投入座標、凍結SHAと公開時計の順序を確認した。[input-audit.json](input-audit.json)、[全ファイルSHA](input-file-sha256.csv)、[枝監査](branch-input-audit.csv)、[参照ID](reference-manifest.json)を参照。相関保存点1,920,000個を独立反復と数えない。9原archiveは保持し、Macへコピーしていない。
 
+元評価の再現済み値について、全17,280連続値と全フレーム最小距離の実際の誤差も追加監査した。最小距離配列の最大絶対差は{accuracy['max_frame_min_distance_absolute_error_A']:.3e} Å、最近傍global IDは全枝で一致した。下表は各量の元単位での最大絶対差である。[完全誤差表](original-reproduction-accuracy.csv)と[要約](original-reproduction-accuracy.json)を参照。
+
+{table([[m, f"{accuracy['max_absolute_error_by_metric'][m]:.3e}", units[m]] for m in CONT], ['連続量','最大絶対誤差','単位'])}
+
 ## 3. 物理代理と数学定義
 
 28Cαの非周期座標[Å]から、P3={{(i,j):j−i≥3}}の325内部距離をv(x)とする。d(x,h)=sqrt(Σ_P3(v_ij(x)−v_ij(h))²/325) [Å]、m_A(x)=min_h∈A d(x,h)。並進・回転不変だが鏡像を識別せず、有限履歴への距離であって絶対的構象空間の被覆率ではない。
@@ -382,13 +427,13 @@ FULL80 fit、S8のPREFIX4/COUNT_MATCH各40 fit、計160 CPU LOF fit。保存floa
 
 ## 12. 実費用と実行上の失敗
 
-下表は報告生成前までに完了した工程の実測wall/CPU。1 worker、数値thread1、GPU不可視。後段の最終SHA再監査と報告作成時間は追加の費用証跡で区別する。
+CPUは{cpu_profile['CPU_model']}。下表は報告生成前までに完了した工程の実測wall/CPU。1 worker、数値thread1、GPU不可視。後段の最終SHA再監査と報告作成時間は追加の費用証跡で区別する。[CPU条件](CPU-profile.json)と[ソフトウェア版](environment.json)を参照。
 
 {table(cost_table, ['工程','wall s','CPU s'])}
 
 評価実計算{len(eval_costs)}条件、参照同一の240条件は論理aliasとして保持した。評価中最大RSSは{peak/1024**2:.3f} MiB。各条件費用は[evaluation-costs.csv](evaluation-costs.csv)、工程ログは[execution-events.json](execution-events.json)、報告生成費と最終検証は[delivery-costs.json](delivery-costs.json)を参照。これらは評価器のCPU費用で、学習の機会費用やB2純利益ではない。
 
-配備時、Mac AppleDoubleを初回転送manifestに誤登録し、メタデータの転送SHA検査が1回失敗した。実コード/入力を変更せず、メタデータを除いたv2 allowlist6ファイルを再照合した。5境界テストはPASS。科学再現の失敗を隠す修正ではなく、科学解析前の配備修正である。科学処理の停止/失敗はイベント・失敗索引に全件保存する。
+配備時、Mac AppleDoubleを初回転送manifestに誤登録し、メタデータの転送SHA検査が1回失敗した。実コード/入力を変更せず、メタデータを除いたv2 allowlist6ファイルを再照合した。開始前5境界テストはPASS、[追加9境界・階層検査](unit-r1-final.log)もPASS。科学再現の失敗を隠す修正ではなく、科学解析前の配備修正である。科学処理の停止/失敗はイベント・失敗索引に全件保存する。
 
 ## 13. 支持される記述、支持されない記述
 
