@@ -1,0 +1,8 @@
+{
+  "status": "READY",
+  "models": 80,
+  "states": 16,
+  "ID_rows": 6400,
+  "cohort_sha256": "3d006080bd91c462b881e98fd8de1666233baef3a8bba924533baa0c08c66f2a",
+  "model_loads": 0
+}

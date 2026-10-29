@@ -1,0 +1,11 @@
+[
+  {
+    "mode": "freeze",
+    "wall_s": 3.872017073445022,
+    "CPU_s": 3.870957298,
+    "peak_RSS_MiB": 44.72265625,
+    "code_sha256": "845d8b579793465b86a9193855c0adebbab14f2c1ea879e26086597abe15d100",
+    "affinity_count": 1,
+    "CUDA_VISIBLE_DEVICES": "-1"
+  }
+]
