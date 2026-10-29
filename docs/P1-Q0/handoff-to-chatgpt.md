@@ -2,7 +2,7 @@
 
 ## A. 現在の状態
 
-2026-10-29 JST。Q0限定CPU監査COMPLETE。80/80モデル、272/272 MD（32履歴+240下流）、2,048,000ログ行を検査した。基準3b8b7b25da85c5d5da055b093ee4c79f6ff850b7、初版計画9c360a9aa2fb92c4e15534789b8b74ddbebc9f42。最終commitは本資料のGit履歴と最終返信で取得する。科学生成版は40a911e。GitHubは派生表/図/コード/監査、原DCD・重み・ログ/9archiveと初回Q0版は旧許可サーバ。Mac raw backup免除を維持。
+2026-10-29 JST。Q0限定CPU監査COMPLETE。80/80モデル、272/272 MD（32履歴+240下流）、2,048,000ログ行を検査した。基準3b8b7b25da85c5d5da055b093ee4c79f6ff850b7、初版計画9c360a9aa2fb92c4e15534789b8b74ddbebc9f42。本文版8d01f6b2efc3e4e2cb6800059832b4619fcf7640の40交付ファイルはGitHub独立副本で全文SHA一致を確認済み。最終commitは本資料のGit履歴と最終返信で取得する。科学生成版は40a911e。GitHubは派生表/図/コード/監査、原DCD・重み・ログ/9archiveと初回Q0版は旧許可サーバ。Mac raw backup免除を維持。
 
 ## B. 確認事項
 

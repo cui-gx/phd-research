@@ -10,5 +10,217 @@
   "MD_log_rows": 2048000,
   "new_MD_train_inference_LOF_DCD": 0,
   "scientific_review": "PENDING",
-  "remote_readback": "PENDING_PUSH"
+  "remote_readback": {
+    "status": "PASS",
+    "verified_content_commit": "8d01f6b2efc3e4e2cb6800059832b4619fcf7640",
+    "files_checked": 40,
+    "files": [
+      {
+        "path": ".gitignore",
+        "sha256": "2dff8dcd9e315c77ed692cbf065091571d4e85784e86d3814f45f3543035a087",
+        "bytes": 12651
+      },
+      {
+        "path": "AGENTS.md",
+        "sha256": "770bc3f13ce35426d3e0866a56553d55edb731ce9f5240f280e1436bc1179fd6",
+        "bytes": 30022
+      },
+      {
+        "path": "docs/P1-Q0/README.md",
+        "sha256": "6c38e57d5b908e4d23d7becdd38df91d3ae2e503557bc14f7da86dbd7676f54a",
+        "bytes": 1263
+      },
+      {
+        "path": "docs/P1-Q0/analysis-plan.md",
+        "sha256": "e8e8f1e3c77f1cb7d5196538ed873886be3d89f0c8a4676edb39bd135db08321",
+        "bytes": 1463
+      },
+      {
+        "path": "docs/P1-Q0/costs.json",
+        "sha256": "0eb2014b8fa50a40304a8c51127a65fa748924bf5813be31198c44c4f514813e",
+        "bytes": 369
+      },
+      {
+        "path": "docs/P1-Q0/delivery-validation.json",
+        "sha256": "5bad57805f66e2624306ac175f4f6182638b330ee120d9313b6d81b6d9d9ec6f",
+        "bytes": 463
+      },
+      {
+        "path": "docs/P1-Q0/descriptive-summary.json",
+        "sha256": "fa2a94fcaa1c17820752906ed066cdaa904851747e49b076294c0b505392e5e5",
+        "bytes": 17707
+      },
+      {
+        "path": "docs/P1-Q0/existing-quality.csv",
+        "sha256": "b431b6651f692a92a55bbcb88a42d6f4d4153925d76b624818550a975db13bc4",
+        "bytes": 9669
+      },
+      {
+        "path": "docs/P1-Q0/failures.json",
+        "sha256": "9b127dd8200a59451a47bbe44e4ffd990ebae492334f20a8854f68c3ee2bcf83",
+        "bytes": 359
+      },
+      {
+        "path": "docs/P1-Q0/figure-costs.json",
+        "sha256": "633c155240456dee37473cb596d025b3dc2a1c8d855da62abf199cecd923596e",
+        "bytes": 278
+      },
+      {
+        "path": "docs/P1-Q0/handoff-to-chatgpt.md",
+        "sha256": "1d6f472fca3de92014833ab17b12564b6259c878a784a71b39198aa94eec04f5",
+        "bytes": 3970
+      },
+      {
+        "path": "docs/P1-Q0/history-continuity.csv",
+        "sha256": "f43e8220bfa264a65235abf85cef591900d6413a94dcfdbfd3790c2a8344fe29",
+        "bytes": 905
+      },
+      {
+        "path": "docs/P1-Q0/history-existing-quality.csv",
+        "sha256": "8b91de39c77cf7aa7c4ab39e2568ac273ad651612d4c2c65957527efbc50ac4d",
+        "bytes": 1534
+      },
+      {
+        "path": "docs/P1-Q0/input-sha256.csv",
+        "sha256": "9d381be767e7a5901c960adedc87b4e9b6f8463d461d705ab750b28460cf5a10",
+        "bytes": 146675
+      },
+      {
+        "path": "docs/P1-Q0/loss-curves.png",
+        "sha256": "b61c01122b8d0deb8f18ea95f367e22a2a8b46c50b291581845c3135eed01be6",
+        "bytes": 150160
+      },
+      {
+        "path": "docs/P1-Q0/md-root-diagnostics.csv",
+        "sha256": "d8b2e188678f25f0d5739231c2095fe999754cc3900e88c51893a8b31a0ca504",
+        "bytes": 4837
+      },
+      {
+        "path": "docs/P1-Q0/md-root-windows.png",
+        "sha256": "da960d6d0634c5d4d025beebb82a7769549c5deae9a6902e105b75c04e8c0fe7",
+        "bytes": 200731
+      },
+      {
+        "path": "docs/P1-Q0/md-task-diagnostics.csv",
+        "sha256": "1d48cbc89600e106b3c0e8fc085beb8f7e00c0d989e3908238b66a5fdc7020f1",
+        "bytes": 82180
+      },
+      {
+        "path": "docs/P1-Q0/md-timeseries-10ps.csv",
+        "sha256": "77ae4f44ed44b636bc8d7fb3168ac63132d7d54d3f950bac6e480e14abf221cc",
+        "bytes": 6810615
+      },
+      {
+        "path": "docs/P1-Q0/md-window-diagnostics.csv",
+        "sha256": "d30d793427cbd5fbda688a232394dc6c8ca725d06d17405f88e879f49a8ddf4e",
+        "bytes": 144779
+      },
+      {
+        "path": "docs/P1-Q0/missing-and-limitations.json",
+        "sha256": "a7b2e437e870233bf7cac5caaf5c8c13b267378dd7155bccb8dc56f3447677e1",
+        "bytes": 426
+      },
+      {
+        "path": "docs/P1-Q0/model-exposures.csv",
+        "sha256": "da7ecd9d693a8b634d684c83537e1a7bc06c69ce9b59316c6c63ee360b0caf21",
+        "bytes": 1681854
+      },
+      {
+        "path": "docs/P1-Q0/model-lineage.csv",
+        "sha256": "94c6b5d28dddd149869cd5b3eb6a97e39489721c9a8e002b64b13922558acbbe",
+        "bytes": 39058
+      },
+      {
+        "path": "docs/P1-Q0/model-loss-per-step.csv",
+        "sha256": "e894fd599edd4a00e381dd9eb39a3602ae6296dd8da341df6dedf34ecc90da08",
+        "bytes": 1278343
+      },
+      {
+        "path": "docs/P1-Q0/model-loss-summary.csv",
+        "sha256": "c25211c3154cdf67fafd08569a81978171c2968100ad02ed226df1fc0661cefe",
+        "bytes": 29649
+      },
+      {
+        "path": "docs/P1-Q0/model-recipes.json",
+        "sha256": "6a50fa276972b9765667631aabff91865741a64b2032a056befc43974f8e407a",
+        "bytes": 90515
+      },
+      {
+        "path": "docs/P1-Q0/output-sha256.json",
+        "sha256": "123021c63aec473e49059d93d200b7ee3d9cf42112d3349a9100ac1638059cf6",
+        "bytes": 2265
+      },
+      {
+        "path": "docs/P1-Q0/preparation-inventory.json",
+        "sha256": "02c5b20f4ddd7a2170fb6dde4c03bc099399673a43fcfd09722b8fe4423c3cda",
+        "bytes": 929
+      },
+      {
+        "path": "docs/P1-Q0/prior-pass-costs.json",
+        "sha256": "d75a644910344113ba6b736794a158d108d7cc0628f1e499ccd26f41593ef6d8",
+        "bytes": 761
+      },
+      {
+        "path": "docs/P1-Q0/reproduce.md",
+        "sha256": "a4e870ad33d68173f687ebc6d787a0008d64ea37076ca3d87a62917731043d1c",
+        "bytes": 1729
+      },
+      {
+        "path": "docs/P1-Q0/review-dossier.md",
+        "sha256": "d4ea70b11bdfa3fe2fd311e4f636536c5eb6f79e275887e221cabaf45ebb4aee",
+        "bytes": 15055
+      },
+      {
+        "path": "docs/P1-Q0/status.json",
+        "sha256": "15f5d92e53e7a7e6a88a2f359488210688edb01bc9065e96038cd28833a2b033",
+        "bytes": 304
+      },
+      {
+        "path": "docs/P1-Q0/supplemental-costs.json",
+        "sha256": "c4d678e471eeb18d0002b933b8a53dcb1df340e1ec7962564fffe370d69ff978",
+        "bytes": 216
+      },
+      {
+        "path": "docs/P1-Q0/supplemental-input-audit.json",
+        "sha256": "be0812c03c51761643e8a4c753ddb395545448ad6264b544a19893532419c9a5",
+        "bytes": 51747
+      },
+      {
+        "path": "docs/collaboration-policy.md",
+        "sha256": "f6d9f3f8d50d8f286b2544b42cbc651ba24da498519d4760b885c4096c573673",
+        "bytes": 10229
+      },
+      {
+        "path": "docs/协作交接记录.md",
+        "sha256": "4f3746c0b50a8983b8e99f53b5e2483ab67e3d4893d9c0ce1b28c4a25ec38c4b",
+        "bytes": 80626
+      },
+      {
+        "path": "docs/博士研究_全局总档案.md",
+        "sha256": "65b6cb0872e9d68916e6dff9eeff1c8219a16ef3255bee48d507feffdb061e6b",
+        "bytes": 66924
+      },
+      {
+        "path": "p1/q0_log_audit.py",
+        "sha256": "40f08f5f7c492228cc3da11f16dcc465cdc6c7cec08bd8e6f65bbf48b0930bee",
+        "bytes": 10832
+      },
+      {
+        "path": "p1/q0_log_figures.py",
+        "sha256": "17e413042dc72f6381df1c84343c1e888e9353f5c3d08ee9222268a05baca55f",
+        "bytes": 2980
+      },
+      {
+        "path": "p1/q0_log_summary.py",
+        "sha256": "e091bacde20123a80ab30359fbb88ea74a08e866bdbacade5638f430b37b3e2f",
+        "bytes": 5879
+      }
+    ],
+    "method": "independent filtered Git clone; full body SHA comparison",
+    "verification_transport_notes": [
+      "Unfiltered clone cancelled to reduce download",
+      "Explicit batch blob fetch failed; normal promisor fetch used"
+    ]
+  },
+  "CSV_line_endings": "Original server CRLF preserved for byte/SHA identity; Git check with cr-at-eol PASS"
 }
