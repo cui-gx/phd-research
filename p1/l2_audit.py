@@ -1,5 +1,6 @@
 """L2全checkpointの系譜・実exposure・RNGを前向なしで照合する。"""
 import argparse
+import hashlib
 import json
 from pathlib import Path
 import time
@@ -13,10 +14,19 @@ def audit(a):
     torch.set_num_threads(1);begin=time.monotonic()
     original=read(a.output/'engineering/input-freeze.json')['original_file_sha256'];raw=a.project/'runs/b1-expansion-20261026'
     for rel,h in original.items():assert sha(raw/rel)==h
+    def full_rng(v):
+        if isinstance(v,np.ndarray):
+            return dict(numpy_dtype=str(v.dtype),shape=list(v.shape),sha256=hashlib.sha256(v.tobytes()).hexdigest())
+        if isinstance(v,dict):return {k:full_rng(x) for k,x in v.items()}
+        if isinstance(v,(tuple,list)):return [full_rng(x) for x in v]
+        return v
+    toy=np.arange(4096);other=toy.copy();other[2000]+=1
+    assert opt_digest(torch,full_rng(toy))!=opt_digest(torch,full_rng(other))
     matrix=rows(a.plan/'checkpoint-matrix.csv');chains=rows(a.plan/'experiment-matrix.csv');data={};auditrows=[]
     memberships=rows(a.plan/'training-membership.csv');initial={}
     for cp in matrix:
         assert time.monotonic()-begin<300,'監査300秒復核点'
+        assert int(Path('/proc/self/status').read_text().split('VmRSS:')[1].split()[0])*1024<=2*1024**3,'監査RSS2GiB超過'
         path=a.output/'chains'/cp['chain_id']/(cp['checkpoint_id']+'.pt');result=read(path.parent/'result.json')
         assert sha(path)==result['checkpoints'][path.name]
         s=torch.load(path,map_location='cpu',weights_only=False)
@@ -29,7 +39,7 @@ def audit(a):
             k=cp['init_id'];h=s['model_digest']
             if k in initial:assert initial[k]==h
             initial[k]=h
-        data[(cp['chain_id'],int(cp['chain_steps']))]=(s['model_digest'],s['optimizer_digest'],opt_digest(torch,s['rng']))
+        data[(cp['chain_id'],int(cp['chain_steps']))]=(s['model_digest'],s['optimizer_digest'],opt_digest(torch,full_rng(s['rng'])))
         auditrows.append(dict(checkpoint=cp['checkpoint_id'],sha256=sha(path),chain_steps=s['chain_steps'],lifetime_steps=s['lifetime_steps'],tensor_digest_matches=True,optimizer_digest_matches=True,RNG_digest=data[(cp['chain_id'],int(cp['chain_steps']))][2]))
     assert len(set(initial.values()))==3
     parentrows=[]
