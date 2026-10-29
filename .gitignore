@@ -397,3 +397,7 @@
 
 !/p1/l2_audit.py
 ._*
+
+!/p1/l2_figures.py
+!/docs/P1-L2/*.png
+._*
