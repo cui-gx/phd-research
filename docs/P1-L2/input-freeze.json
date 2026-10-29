@@ -1,0 +1,305 @@
+{
+  "status": "PASS",
+  "design_commit": "8d34e3714e246afb0bd74fe6943abeafd8f89c5b",
+  "states": [
+    {
+      "state_id": "r01-s4",
+      "frames": 8000,
+      "candidates": 7800,
+      "training": 800,
+      "OLD": 200,
+      "RECENT": 200
+    },
+    {
+      "state_id": "r01-s8",
+      "frames": 16000,
+      "candidates": 15800,
+      "training": 800,
+      "OLD": 200,
+      "RECENT": 200
+    },
+    {
+      "state_id": "r02-s4",
+      "frames": 8000,
+      "candidates": 7800,
+      "training": 800,
+      "OLD": 200,
+      "RECENT": 200
+    },
+    {
+      "state_id": "r02-s8",
+      "frames": 16000,
+      "candidates": 15800,
+      "training": 800,
+      "OLD": 200,
+      "RECENT": 200
+    }
+  ],
+  "original_file_sha256": {
+    "tasks/r01-h1-md/science/initial.pdb": "48740d97172eb2262355e5d7bc2d5c4d698206cb86465a84e07ef50becd7910a",
+    "tasks/r01-h1-md/science/final.pdb": "bdd3f932a51fcf9af55db2454bb5b506bbbc0611c6da90d3453cc850406f7ee6",
+    "tasks/r01-h2-md/science/initial.pdb": "bdd3f932a51fcf9af55db2454bb5b506bbbc0611c6da90d3453cc850406f7ee6",
+    "tasks/r01-h2-md/science/final.pdb": "8d05ce73c7db7c6d249364e9a327bf9a0ba975ae2380142b204fa3de717bfb60",
+    "tasks/r01-h3-md/science/initial.pdb": "8d05ce73c7db7c6d249364e9a327bf9a0ba975ae2380142b204fa3de717bfb60",
+    "tasks/r01-h3-md/science/final.pdb": "012b7d33f20c6edbc53ca8b08c9a135e7b723f0bb89a89f00094827eeeaa6ef1",
+    "tasks/r01-h4-md/science/initial.pdb": "012b7d33f20c6edbc53ca8b08c9a135e7b723f0bb89a89f00094827eeeaa6ef1",
+    "tasks/r01-h4-md/science/final.pdb": "5e87a8cf58a839ecdb61d41cc910d3221e0931709260e4bbf44f2bdb6eaa4fec",
+    "tasks/r02-h1-md/science/initial.pdb": "48740d97172eb2262355e5d7bc2d5c4d698206cb86465a84e07ef50becd7910a",
+    "tasks/r02-h1-md/science/final.pdb": "2a4bcbda85d30ee22cda17471ea47e5e8b462a08c087ac05fefe40a98aad9c72",
+    "tasks/r02-h2-md/science/initial.pdb": "2a4bcbda85d30ee22cda17471ea47e5e8b462a08c087ac05fefe40a98aad9c72",
+    "tasks/r02-h2-md/science/final.pdb": "20c1382b310f301d8b2f6c06a420cd2f7200ae79929fc1664407bac6d707526f",
+    "tasks/r02-h3-md/science/initial.pdb": "20c1382b310f301d8b2f6c06a420cd2f7200ae79929fc1664407bac6d707526f",
+    "tasks/r02-h3-md/science/final.pdb": "336add80f2899d56b528659c2c930488d8dc12c05fcedee878bd33562f0b72d2",
+    "tasks/r02-h4-md/science/initial.pdb": "336add80f2899d56b528659c2c930488d8dc12c05fcedee878bd33562f0b72d2",
+    "tasks/r02-h4-md/science/final.pdb": "2861d25f1b58a07b0b303d939bf2e3ce45ac1fb9f163ca8d69723249899ff006",
+    "tasks/r01-s4-decision-pool/science/indices.json": "b59fc06b574414bfb0e43da371fb85a8f890e948cfeee254ad2324ff9898bbe2",
+    "tasks/r01-s4-decision-pool/science/contacts.npy": "d73048568a6f9667fe87fcf85c13e60cd710559bddf8fea1e632e9bcdcb69187",
+    "tasks/r01-s4-decision-pool/science/features.npz": "62a73da02b9be07b1e8f3eb38fbf8cc042ff564c01ec111777d37ea01379db71",
+    "tasks/r01-s8-decision-pool/science/indices.json": "70e487dab908b2a78975a3caf0d3a10baca8ea97259aca39e7c3a55c34d904c4",
+    "tasks/r01-s8-decision-pool/science/contacts.npy": "826d81dc5003bc18f7b395ee085c69cd17d0146790375ad1ce9ad654b2842c97",
+    "tasks/r01-s8-decision-pool/science/features.npz": "3cae7fccf17647c9aa16e6ebeaf895bdb7a15616a53f2d81cd892c827ac3e438",
+    "tasks/r02-s4-decision-pool/science/indices.json": "b59fc06b574414bfb0e43da371fb85a8f890e948cfeee254ad2324ff9898bbe2",
+    "tasks/r02-s4-decision-pool/science/contacts.npy": "1b622906a49b2f184abb1443329b355636818e232b80d91fd5cd63cffc00591a",
+    "tasks/r02-s4-decision-pool/science/features.npz": "98767722a7d3e3a4264c3c4e07d259f2c32d72a226f8411cf9c41f22b9ae416e",
+    "tasks/r02-s8-decision-pool/science/indices.json": "70e487dab908b2a78975a3caf0d3a10baca8ea97259aca39e7c3a55c34d904c4",
+    "tasks/r02-s8-decision-pool/science/contacts.npy": "68ff3038c7e6d5252c14b3e7b248b26dd29a070c436f0e363e8c6bc74961af29",
+    "tasks/r02-s8-decision-pool/science/features.npz": "5b8aceb935f943444dd01842f34fb5ebbabd07d4fb1d7cae7a475e599c44c4a9",
+    "tasks/r01-s4-M0/science/checkpoint.pt": "7acfd35960d10d518116f2c0679b164a8d77325ca674b40a0027cb62a934bf6c",
+    "tasks/r01-s4-M0/science/recipe.json": "dfa9ba7e05193d302d4edaa324831fa47154f17a1a70a8439388974ff85ab76c",
+    "tasks/r01-s4-M0/science/exposure.json": "6474d93159c47ce1ad62963245bd64680832700c84c7d75167e5e7c3f853b1d6",
+    "tasks/r01-s4-M0/science/result.json": "d2dfd100729d112bb633babfb26eaf12a8883d4792dab4fd50016c68e042d2df",
+    "tasks/r01-s4-F1-t1/science/checkpoint.pt": "bd047522971a8ba5917a04d33f9bed97b95cbf4a4b387f72d2667ae0a4f85b24",
+    "tasks/r01-s4-F1-t1/science/recipe.json": "dfa9ba7e05193d302d4edaa324831fa47154f17a1a70a8439388974ff85ab76c",
+    "tasks/r01-s4-F1-t1/science/exposure.json": "bf00e9321af12399ede39a9a5d96a7e110d11928850122b3159ffc588d6fe540",
+    "tasks/r01-s4-F1-t1/science/result.json": "7b4ea8fd8b4a7157fa6d47cbbf151c8db90d88d883bca9511a8f17856e9f35e4",
+    "tasks/r01-s4-F1-t2/science/checkpoint.pt": "d847742f7224b1a826daf94072693f82d3a91f3ef958d1bd84a6215a36f154d4",
+    "tasks/r01-s4-F1-t2/science/recipe.json": "dfa9ba7e05193d302d4edaa324831fa47154f17a1a70a8439388974ff85ab76c",
+    "tasks/r01-s4-F1-t2/science/exposure.json": "e709dbc1ee014bf32d055575dc0e18ecc7f1a3ba835b07b5c3b2244f84d84d0e",
+    "tasks/r01-s4-F1-t2/science/result.json": "0e0120d32ecb2fc37e5f759741053b9090d2f483df2d6ecd2af175acf93c2ec3",
+    "tasks/r01-s4-F2-t1/science/checkpoint.pt": "543c7bba3e1c62f4eacf745837bdbad170f876853536fb3c6a841531d14d6a74",
+    "tasks/r01-s4-F2-t1/science/recipe.json": "dfa9ba7e05193d302d4edaa324831fa47154f17a1a70a8439388974ff85ab76c",
+    "tasks/r01-s4-F2-t1/science/exposure.json": "a47861eccaa38bc4776be3976b932b48535e222cee2692c0e48ffdc41fa650c7",
+    "tasks/r01-s4-F2-t1/science/result.json": "4b5bb847da19982547f7a9bfdc069de554c858b77f9ffcd7e50056035dfcbccf",
+    "tasks/r01-s4-F2-t2/science/checkpoint.pt": "6af43566d8d3d80c2e5a6e6c1603c5fe09efa81865de64c21e136985fdc74007",
+    "tasks/r01-s4-F2-t2/science/recipe.json": "dfa9ba7e05193d302d4edaa324831fa47154f17a1a70a8439388974ff85ab76c",
+    "tasks/r01-s4-F2-t2/science/exposure.json": "b183925732714fd2c83e62086b51f8ea6739ad154470d58459160e163a176023",
+    "tasks/r01-s4-F2-t2/science/result.json": "6e2b45c7879dfc45b877fbf480e40acd6c16bb30dbb0cd8bdf9a59753d43e3b0",
+    "tasks/r01-s8-M0/science/checkpoint.pt": "f77c9809ed26b5f4dfaf16e26bc5cae68baf3a6c1602b5ec71e4388c87ee04cb",
+    "tasks/r01-s8-M0/science/recipe.json": "dfa9ba7e05193d302d4edaa324831fa47154f17a1a70a8439388974ff85ab76c",
+    "tasks/r01-s8-M0/science/exposure.json": "94f7bb8c4f6c4b7b5b1fced506fc808c46e053945adebefb493c4023ff926e1b",
+    "tasks/r01-s8-M0/science/result.json": "e49638aaa7bb5071b3484d17e05d48fa16c957da4617919d1591db03066cbca4",
+    "tasks/r01-s8-F1-t1/science/checkpoint.pt": "496373e8f5c219bc0124bb43e2d5f280ffd1f64c35ed897de062287044e11ab2",
+    "tasks/r01-s8-F1-t1/science/recipe.json": "dfa9ba7e05193d302d4edaa324831fa47154f17a1a70a8439388974ff85ab76c",
+    "tasks/r01-s8-F1-t1/science/exposure.json": "dab7f999b3ebbb688688ab97f4ad2e0cf53ff435c04da1e0f07050b2a0a8a81c",
+    "tasks/r01-s8-F1-t1/science/result.json": "35fb8e1d2dd1e139dd06d296bcc17011404d0568adff4ea4ec003eeba1e646cd",
+    "tasks/r01-s8-F1-t2/science/checkpoint.pt": "bdc2d9343f2565d4821945cfe2613098f2c0a1b5481036256006492310605a8e",
+    "tasks/r01-s8-F1-t2/science/recipe.json": "dfa9ba7e05193d302d4edaa324831fa47154f17a1a70a8439388974ff85ab76c",
+    "tasks/r01-s8-F1-t2/science/exposure.json": "ef20de8eb9ae92a83bdc5b65d6f090663024a480d1c7c1787f1783fe9460b6bb",
+    "tasks/r01-s8-F1-t2/science/result.json": "e971c15a2efa894a1e018549c5129117c2f0640838ed94a33a086fb9069b662d",
+    "tasks/r01-s8-F2-t1/science/checkpoint.pt": "b1545ff10c7a77b8f93171f12917c98564d1ef573b6f07a078e147dbc4d0a69b",
+    "tasks/r01-s8-F2-t1/science/recipe.json": "dfa9ba7e05193d302d4edaa324831fa47154f17a1a70a8439388974ff85ab76c",
+    "tasks/r01-s8-F2-t1/science/exposure.json": "c82d93ecd944f4c1d53a60bc77df4be6176ab60759eb2ca050c6a4dd5cd033a6",
+    "tasks/r01-s8-F2-t1/science/result.json": "262a702b924c515b23de9c2d291643ec3304e9fb515456dcfc3e88b94b99c126",
+    "tasks/r01-s8-F2-t2/science/checkpoint.pt": "a29b4124dafb6c0ebc97ecde9a950f90bbcea7fb63b47a8c13e8169760ba256e",
+    "tasks/r01-s8-F2-t2/science/recipe.json": "dfa9ba7e05193d302d4edaa324831fa47154f17a1a70a8439388974ff85ab76c",
+    "tasks/r01-s8-F2-t2/science/exposure.json": "e56f3ec48b84b22903d43d79b92453299f95349f3b8f13986239aa98318fbdbb",
+    "tasks/r01-s8-F2-t2/science/result.json": "51e2b8416cb8bb221a3e9b0223d9d7cbb39b4dbae51820998dce27ab53b18a59",
+    "tasks/r02-s4-M0/science/checkpoint.pt": "831d9a479e1c6fccf23447345cbbe3f72ada211c7efb57165975f5b4eb4203f9",
+    "tasks/r02-s4-M0/science/recipe.json": "dfa9ba7e05193d302d4edaa324831fa47154f17a1a70a8439388974ff85ab76c",
+    "tasks/r02-s4-M0/science/exposure.json": "6474d93159c47ce1ad62963245bd64680832700c84c7d75167e5e7c3f853b1d6",
+    "tasks/r02-s4-M0/science/result.json": "d63e5062d2e7d4c6d3fe188a88cb660cb425dfdba6b5b843def0c014b080e354",
+    "tasks/r02-s4-F1-t1/science/checkpoint.pt": "619ab2619e9397cc5e2a16ba1acfd655f32ab652496560d02415d402ba75a6fd",
+    "tasks/r02-s4-F1-t1/science/recipe.json": "dfa9ba7e05193d302d4edaa324831fa47154f17a1a70a8439388974ff85ab76c",
+    "tasks/r02-s4-F1-t1/science/exposure.json": "997b0074428cf3fb55bde3b94c1f47401e19d0c46ff26102c7ba8888267f611c",
+    "tasks/r02-s4-F1-t1/science/result.json": "d6d1340e9c9df80dc3bd1da7f80ac3fb4d4837a95f359262f9f6c83b709ac069",
+    "tasks/r02-s4-F1-t2/science/checkpoint.pt": "655b5674e21e30b1dbee576b0852a23345666a4f5196ebc81fe79168cb96e53f",
+    "tasks/r02-s4-F1-t2/science/recipe.json": "dfa9ba7e05193d302d4edaa324831fa47154f17a1a70a8439388974ff85ab76c",
+    "tasks/r02-s4-F1-t2/science/exposure.json": "39ae12c332bfc5e452e369e11d5d0bd2e118e0e3513ffcde6897f13c3ae33f49",
+    "tasks/r02-s4-F1-t2/science/result.json": "87edd2d980bb926f480e463e337b594531166eb2c8d3ad95f771a3039320f4af",
+    "tasks/r02-s4-F2-t1/science/checkpoint.pt": "b95647f799fb7a6b79442235db256d12b54c41ff87d700cde8ab2b3a2084c182",
+    "tasks/r02-s4-F2-t1/science/recipe.json": "dfa9ba7e05193d302d4edaa324831fa47154f17a1a70a8439388974ff85ab76c",
+    "tasks/r02-s4-F2-t1/science/exposure.json": "2edeb8ce8a00bf057a3cd1a61b0f22a06859805693e92acda374b803e8dd4bda",
+    "tasks/r02-s4-F2-t1/science/result.json": "3980bf43ba916dbb12316686659e1b5e234f87c3e51a80e4a0c8ad55147b8320",
+    "tasks/r02-s4-F2-t2/science/checkpoint.pt": "bec1e14856eabaeb641d5c5994af6fbb71570e70ff9eb996ff3952295428e0c0",
+    "tasks/r02-s4-F2-t2/science/recipe.json": "dfa9ba7e05193d302d4edaa324831fa47154f17a1a70a8439388974ff85ab76c",
+    "tasks/r02-s4-F2-t2/science/exposure.json": "b74836c3bdace20dadce349d0d3b2deb17d0f263c1ad15385ca114900d9a4a20",
+    "tasks/r02-s4-F2-t2/science/result.json": "95f4e8b7ef1ba58f78b7d2a11bf350aa6f3815b5e4d6ec51b5e1f612ca515808",
+    "tasks/r02-s8-M0/science/checkpoint.pt": "50aa945ea43589077fa35137582bbfe162ec1419becf9c846a63f658cbfc2805",
+    "tasks/r02-s8-M0/science/recipe.json": "dfa9ba7e05193d302d4edaa324831fa47154f17a1a70a8439388974ff85ab76c",
+    "tasks/r02-s8-M0/science/exposure.json": "94f7bb8c4f6c4b7b5b1fced506fc808c46e053945adebefb493c4023ff926e1b",
+    "tasks/r02-s8-M0/science/result.json": "b021f6d4c0dc6a9c3288f750f6ea114df2ce9f58e2e01e1e9709d6b960792e73",
+    "tasks/r02-s8-F1-t1/science/checkpoint.pt": "43b7d7850f59b467836d999156bdab3b88745c49e8145c4b7b6b8f25f6e8cc58",
+    "tasks/r02-s8-F1-t1/science/recipe.json": "dfa9ba7e05193d302d4edaa324831fa47154f17a1a70a8439388974ff85ab76c",
+    "tasks/r02-s8-F1-t1/science/exposure.json": "a871f1cb5922b5aeff0ca57dba68787c4334c1b61eb81d62f63d0fe904e922f4",
+    "tasks/r02-s8-F1-t1/science/result.json": "d57bed375ccd511f8f350f68c337a00dea1198c3dda99bfa949da86f632d3af0",
+    "tasks/r02-s8-F1-t2/science/checkpoint.pt": "4a9328824655621e6d44ed6ebba1a0720b89b39ec48aa73545415fb83f30bef1",
+    "tasks/r02-s8-F1-t2/science/recipe.json": "dfa9ba7e05193d302d4edaa324831fa47154f17a1a70a8439388974ff85ab76c",
+    "tasks/r02-s8-F1-t2/science/exposure.json": "54f3cb42396e3adf2732c6f414a2cec26432d722788a759b2e19f82e6a1dfcff",
+    "tasks/r02-s8-F1-t2/science/result.json": "0ff9f9b209b4e98d404d9a2282d6806abaa7cb9756fdcd36710616ca52f8030a",
+    "tasks/r02-s8-F2-t1/science/checkpoint.pt": "a9fd42651308da70261652d8f6dc865cbb7925bcb81f4cf30e369dc8c0e538e5",
+    "tasks/r02-s8-F2-t1/science/recipe.json": "dfa9ba7e05193d302d4edaa324831fa47154f17a1a70a8439388974ff85ab76c",
+    "tasks/r02-s8-F2-t1/science/exposure.json": "2365c760463f530f1e998a10d8d6f4a0347a6803a62f8bf09929fd33ec62984f",
+    "tasks/r02-s8-F2-t1/science/result.json": "9ba34523cb83867eca1f92cad3e303e53ddaa88be67f3185105ecda99db96727",
+    "tasks/r02-s8-F2-t2/science/checkpoint.pt": "ca83a8ceceb702270098baee3ca9930552bd0393bf5acadbb63b14f818a503de",
+    "tasks/r02-s8-F2-t2/science/recipe.json": "dfa9ba7e05193d302d4edaa324831fa47154f17a1a70a8439388974ff85ab76c",
+    "tasks/r02-s8-F2-t2/science/exposure.json": "5159cbb5e2d8030686fd9b45cf64fd7f62fb5783fb0400b5bb85c88ee079b7c1",
+    "tasks/r02-s8-F2-t2/science/result.json": "4ecf27caf3ef93fe88eb055fc5a9d3a9639d625435285728202de04c8c1270ab"
+  },
+  "CA_order": [
+    [
+      "CA",
+      "GLU",
+      "A   1 "
+    ],
+    [
+      "CA",
+      "GLN",
+      "A   2 "
+    ],
+    [
+      "CA",
+      "TYR",
+      "A   3 "
+    ],
+    [
+      "CA",
+      "THR",
+      "A   4 "
+    ],
+    [
+      "CA",
+      "ALA",
+      "A   5 "
+    ],
+    [
+      "CA",
+      "LYS",
+      "A   6 "
+    ],
+    [
+      "CA",
+      "TYR",
+      "A   7 "
+    ],
+    [
+      "CA",
+      "LYS",
+      "A   8 "
+    ],
+    [
+      "CA",
+      "GLY",
+      "A   9 "
+    ],
+    [
+      "CA",
+      "ARG",
+      "A  10 "
+    ],
+    [
+      "CA",
+      "THR",
+      "A  11 "
+    ],
+    [
+      "CA",
+      "PHE",
+      "A  12 "
+    ],
+    [
+      "CA",
+      "ARG",
+      "A  13 "
+    ],
+    [
+      "CA",
+      "ASN",
+      "A  14 "
+    ],
+    [
+      "CA",
+      "GLU",
+      "A  15 "
+    ],
+    [
+      "CA",
+      "LYS",
+      "A  16 "
+    ],
+    [
+      "CA",
+      "GLU",
+      "A  17 "
+    ],
+    [
+      "CA",
+      "LEU",
+      "A  18 "
+    ],
+    [
+      "CA",
+      "ARG",
+      "A  19 "
+    ],
+    [
+      "CA",
+      "ASP",
+      "A  20 "
+    ],
+    [
+      "CA",
+      "PHE",
+      "A  21 "
+    ],
+    [
+      "CA",
+      "ILE",
+      "A  22 "
+    ],
+    [
+      "CA",
+      "GLU",
+      "A  23 "
+    ],
+    [
+      "CA",
+      "LYS",
+      "A  24 "
+    ],
+    [
+      "CA",
+      "PHE",
+      "A  25 "
+    ],
+    [
+      "CA",
+      "LYS",
+      "A  26 "
+    ],
+    [
+      "CA",
+      "GLY",
+      "A  27 "
+    ],
+    [
+      "CA",
+      "ARG",
+      "A  28 "
+    ]
+  ],
+  "mdlearn_sha256": {
+    "mdlearn/nn/models/vae/symmetric_conv2d_vae.py": "df099022af7e38162371eff5abd607ccc31bba22b5f714838b6ea96d0ac4297a",
+    "mdlearn/nn/models/vae/model.py": "bca1065432106a1cebd911dfc17c32fb4ae5b76e59b991e2df133a8122831117",
+    "mdlearn/nn/models/ae/model.py": "56ddfbd871823c5b95585d9dce35fa875c45924b35326f62478419a17f96bb25",
+    "mdlearn/nn/modules/conv2d_encoder.py": "5c1a0beabe05f99289e16d5e4ccc3fd258d5fbdc9173cafc592f8607e5665d1a",
+    "mdlearn/nn/modules/conv2d_decoder.py": "9eb3f3a1d0bb43598100474f8e28684e22d0a5ea2b0be955d1c5d38344c7907c"
+  },
+  "environment": {
+    "torch": "2.7.1+cu128",
+    "numpy": "1.26.4",
+    "scikit-learn": "1.6.1",
+    "mdlearn": "0.0.10a1"
+  },
+  "new_scientific_steps": 0,
+  "new_MD": 0
+}

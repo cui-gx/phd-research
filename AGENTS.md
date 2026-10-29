@@ -1,6 +1,10 @@
 # Doctoral Research — Codex Instructions
 
-> 最新状態：2026-10-29 L2学習資格の設計交付・審査待ち。計算は未承認。旧L1/B1/R1/Q0不変。
+> 最新状態：2026-10-29 L2-design-v1の限定実行を研究者が承認。工程資格・入力凍結後に固定行列のみ実行する。
+
+## L2限定実行の承認（2026-10-29、CONFIRMED）
+
+研究者は設計commit `8d34e3714e246afb0bd74fe6943abeafd8f89c5b` の36chain/57,600歩、144学習点+12未学習対照、固定OLD/RECENT・三mask・ablation・幾何・FULL LOFを承認した。[実行カード](docs/P1-L2/execution-approval.md)。旧設計未承認の記載はこの限定範囲のみSUPERSEDED。旧原証拠・科学実装不変、GPUは訓練のみ、診断CPU/GPU不可視、単worker/thread、RSS2GiB/VRAM8GiB/出力2GiB、2時間/単工程300秒復核点を守る。入力/SHA/親/時刻/復現不一致は停止。新MD/P/O/C/B2/S3は禁止、全結果/陰性/費用/日語報告/A–G/GitHub回読後に停止する。
 
 ## L2設計のみ・交付後停止（2026-10-29、CONFIRMED）
 

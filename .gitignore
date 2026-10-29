@@ -381,3 +381,9 @@
 !/docs/P1-L2/*.csv
 !/docs/P1-L2/*.json
 ._*
+
+# L2限定実行の独立adapter
+!/p1/l2_engineering.py
+!/p1/l2_train.py
+!/p1/l2_evaluate.py
+._*

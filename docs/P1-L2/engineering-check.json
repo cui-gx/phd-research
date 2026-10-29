@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "device": "cpu",
+  "artificial_tensor": true,
+  "continuous_equals_resume": true,
+  "model_optimizer_RNG_bit_equal": true,
+  "parent_unmodified": true,
+  "eval_repeat_equal": true,
+  "scientific_optimizer_steps": 0,
+  "synthetic_optimizer_steps": 12,
+  "adapter_sha256": "c4b74108def60f8b70a552ef3797e6dffc20f649f32d3dd2f22b96b4c6e61227"
+}
