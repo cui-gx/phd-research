@@ -2,7 +2,7 @@
 
 ## A. 現在の状態
 
-2026-10-29 JST。COMPLETE：80/80モデル、160 model-set、480 model-mask行、288状態行、32,000frame行。基準6730e493bddce42fb4d86ed93fab05cc88810268、計画3054dafaece0fd855c397b6fb21e91a3d815fa30、前向前ID凍結296752d。最終配送SHAは本資料のGit履歴と最終返信。GitHubは表/図/コード/SHA、全再構成配列と原モデル/9archiveは許可サーバ。Mac原backup免除継続。
+最終本文確認 2026-10-29T10:43:03.294234+09:00。COMPLETE：80/80モデル、160 model-set、480 model-mask行、288状態行、32,000frame行。基準6730e493bddce42fb4d86ed93fab05cc88810268、計画3054dafaece0fd855c397b6fb21e91a3d815fa30、前向前ID凍結296752d。本文版409bcc547540344212c5b6f487eba7245364d109の36交付ファイルは独立Git副本で全文SHA一致を確認済み。最終配送SHAは本資料のGit履歴と最終返信。GitHubは表/図/コード/SHA、全再構成配列と原モデル/9archiveは許可サーバ。Mac原backup免除継続。
 
 ## B. 状態
 

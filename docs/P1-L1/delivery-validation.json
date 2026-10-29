@@ -11,5 +11,192 @@
   "frame_rows": 32000,
   "new_training_MD_LOF": 0,
   "scientific_review": "PENDING",
-  "remote_readback": "PENDING_PUSH"
+  "remote_readback": {
+    "status": "PASS",
+    "verified_content_commit": "409bcc547540344212c5b6f487eba7245364d109",
+    "files_checked": 36,
+    "method": "independent filtered Git clone; full body SHA comparison",
+    "files": [
+      {
+        "path": ".gitignore",
+        "bytes": 12839,
+        "sha256": "bc1b7fc7611a80ca5bad7627abe438e9be0c6df50d50cb480228e7ea4bec78d3"
+      },
+      {
+        "path": "AGENTS.md",
+        "bytes": 30922,
+        "sha256": "65d40a52e45a520822e111c8a353ecb502b5edbc84816a6cbb3cef26dbedf423"
+      },
+      {
+        "path": "docs/P1-L1/README.md",
+        "bytes": 1242,
+        "sha256": "e3e00f0ce6cc5c7030143d11abba84a0d39729cfd46ca9a6d744efacb3f9898e"
+      },
+      {
+        "path": "docs/P1-L1/analysis-plan.md",
+        "bytes": 4359,
+        "sha256": "81a6bb50e73012bfc45150b3406049227f7fb9b95fa8bc85b5e46aa54ef39f03"
+      },
+      {
+        "path": "docs/P1-L1/array-sha256.json",
+        "bytes": 36451,
+        "sha256": "0e54ba539be17081f3eb43a1f839640b9f1f62aff61a1682a6837a75446e8088"
+      },
+      {
+        "path": "docs/P1-L1/checkpoint-audit.csv",
+        "bytes": 8321,
+        "sha256": "2f16893f760cf3b624daebe9bddb072cc2a3f314ed007ed23d76530eb3b2a575"
+      },
+      {
+        "path": "docs/P1-L1/cost-ledger.json",
+        "bytes": 771,
+        "sha256": "72ba55170ae66dea8d4c2326ca92728b8cb3b6db829c5f1bb07910f86956a24c"
+      },
+      {
+        "path": "docs/P1-L1/covariance-eigenvalues.csv",
+        "bytes": 14746,
+        "sha256": "d1eb50876c3899234fe4373450a9ecff347d0890b50d618de3d2151a5e016854"
+      },
+      {
+        "path": "docs/P1-L1/delivery-validation.json",
+        "bytes": 418,
+        "sha256": "9f82dbb533ce997c3b235a41c1a12d879415677cff2cceefc2876cc1556cd195"
+      },
+      {
+        "path": "docs/P1-L1/execution-status.json",
+        "bytes": 321,
+        "sha256": "9a87edf4c314616725db7527bbeeb75ca7a1c1352adbec393b8554181a7d94e7"
+      },
+      {
+        "path": "docs/P1-L1/expected-mdlearn-sha256.json",
+        "bytes": 549,
+        "sha256": "3e8310a9952a49e94b3e7bc8c7cf2514355673e263a7965c4df9a91519ef4557"
+      },
+      {
+        "path": "docs/P1-L1/failures-and-missing.json",
+        "bytes": 454,
+        "sha256": "51ea8fbc568b044f9260ee64c5af78806285fcd92683b4e480fc3aa33991c4a2"
+      },
+      {
+        "path": "docs/P1-L1/frame-diagnostics.csv",
+        "bytes": 5243997,
+        "sha256": "29e1d060a8f76a43eef3c423bde52859801ca9cae82cdd2e83d72e53ff47803b"
+      },
+      {
+        "path": "docs/P1-L1/freeze-input-sha256.json",
+        "bytes": 41779,
+        "sha256": "45814bdc75c92124e0ed0247ce2475230367419de08634d4e2a771685f94dc40"
+      },
+      {
+        "path": "docs/P1-L1/freeze-status.json",
+        "bytes": 182,
+        "sha256": "9c7557766a35fbcaef0eac2bcdbdf7e674bcf7a2f8ba91a3e8c01578114908fa"
+      },
+      {
+        "path": "docs/P1-L1/frozen-cohorts.json",
+        "bytes": 81251,
+        "sha256": "3d006080bd91c462b881e98fd8de1666233baef3a8bba924533baa0c08c66f2a"
+      },
+      {
+        "path": "docs/P1-L1/geometry-overview.csv",
+        "bytes": 2682,
+        "sha256": "b50a22ec8cad0eee2fb32d8216276074d96bb59b50ccee534f208da65cd6f5e0"
+      },
+      {
+        "path": "docs/P1-L1/handoff-to-chatgpt.md",
+        "bytes": 4056,
+        "sha256": "7fe30dc95ada1d06b878620fab5578b2e06d5de201820226345c36e080cb0300"
+      },
+      {
+        "path": "docs/P1-L1/latent-diagnostics.csv",
+        "bytes": 89755,
+        "sha256": "e87b896d0335988890a70b74070e1ac7f38c8ddf90fc84e2c001c05bf9396f59"
+      },
+      {
+        "path": "docs/P1-L1/model-metrics.csv",
+        "bytes": 123771,
+        "sha256": "f31a6640c56f8e738b790ee65129c4d80b5f20bd3c824c344d13929102717da8"
+      },
+      {
+        "path": "docs/P1-L1/output-sha256.json",
+        "bytes": 1857,
+        "sha256": "717c8e0ebe5824822e2951fbd929ee29653bdceecb971e030a46b20032dab1f8"
+      },
+      {
+        "path": "docs/P1-L1/overview.csv",
+        "bytes": 7149,
+        "sha256": "22fb06128650a725f96b64f947d7bedfedc53f6bab350a57ce11bcd8c369d08c"
+      },
+      {
+        "path": "docs/P1-L1/progress.json",
+        "bytes": 46,
+        "sha256": "763a487bb60e94ab42c2321e5e74d7be480ac51ce2638d114054c7c966faea4d"
+      },
+      {
+        "path": "docs/P1-L1/r07-s4-case.csv",
+        "bytes": 2945,
+        "sha256": "09a97a42acfec7bd28bb6ef5e4ec465aa37e0df67c18e1db9889e7dcfc481371"
+      },
+      {
+        "path": "docs/P1-L1/reconstruction-baseline.png",
+        "bytes": 115543,
+        "sha256": "90febdb0c22aaf8c8dfa0132583eea48f9a5642421c8b6df19da5564e1858b8b"
+      },
+      {
+        "path": "docs/P1-L1/reproduce.md",
+        "bytes": 1594,
+        "sha256": "18c6300cfed38ca2d0820ea4e1fe7dab63e65feadc134efe99f4d81b9f4e7d2a"
+      },
+      {
+        "path": "docs/P1-L1/review-dossier.md",
+        "bytes": 14414,
+        "sha256": "cca3ccb8c9ee14c1f15aab7f39a9177862a718cbaf34b22e873986f7883b4970"
+      },
+      {
+        "path": "docs/P1-L1/seed-stability.csv",
+        "bytes": 3707,
+        "sha256": "f43927c2967bdab317058884bc0fd0daee39d1c29edc49315c0b4ee0132cbf84"
+      },
+      {
+        "path": "docs/P1-L1/state-metrics.csv",
+        "bytes": 41309,
+        "sha256": "cfd77dacd884412634ec1c7226478388a3e47da1d8adf0971d0b6fb4f8d03a1f"
+      },
+      {
+        "path": "docs/P1-L1/summary.json",
+        "bytes": 51851,
+        "sha256": "5d2b247e3c121a39f497224d6650547faf8b87edac4eb80e9a94acb0c6584239"
+      },
+      {
+        "path": "docs/P1-L1/validation-ids.csv",
+        "bytes": 453265,
+        "sha256": "1440f1112def2f845143416659b17ce6554b8359a3b81827ed233ea03197dba4"
+      },
+      {
+        "path": "docs/collaboration-policy.md",
+        "bytes": 10640,
+        "sha256": "cf813f036852110bd321e43f5abf29a415639078573507827bd6b2131e37ff0d"
+      },
+      {
+        "path": "docs/协作交接记录.md",
+        "bytes": 81821,
+        "sha256": "6357afe9edb06dde5754de7d1caab3a877fc2ecb09fe753b5557d4a43f6f2569"
+      },
+      {
+        "path": "docs/博士研究_全局总档案.md",
+        "bytes": 67769,
+        "sha256": "8082c521e1bfda7549053e76497abe21de71d3e112d38539a888c5faf2a60a58"
+      },
+      {
+        "path": "p1/l1_frozen_diagnostic.py",
+        "bytes": 12878,
+        "sha256": "845d8b579793465b86a9193855c0adebbab14f2c1ea879e26086597abe15d100"
+      },
+      {
+        "path": "p1/l1_report_tables.py",
+        "bytes": 4260,
+        "sha256": "5aeebc62cc06b2ab0599759b12103a35659799192fdd60eb44d6de71749ba920"
+      }
+    ]
+  }
 }
