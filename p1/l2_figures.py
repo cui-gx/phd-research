@@ -26,10 +26,12 @@ def figures(a):
                 ax.plot(x,[float(r['MODEL_BCE_per_frame_mean']) for r in rr],color=color,marker='o',lw=2,label=arm)
                 ax.plot(x,[float(r['TRAIN_FREQUENCY_BCE_per_frame_mean']) for r in rr],color=color,ls='--',lw=1,label=arm+' 訓練頻度')
             ax.set_title(label);ax.set_xlabel('chain内の最適化step');ax.set_ylim(bottom=0);ax.set_xticks([0,200,400,800,1600]);ax.grid(alpha=.15)
-        axs[0].set_ylabel('再構成BCE [nats/フレーム]');axs[1].legend(fontsize=8)
+        upper=max(float(r['MODEL_BCE_per_frame']) for r in metrics if r['mask']==mask)*1.08
+        for ax in axs:ax.set_ylim(0,upper)
+        axs[0].set_ylabel('再構成BCE [nats/フレーム]');axs[1].legend(fontsize=8,loc='upper left',bbox_to_anchor=(1.01,1))
         fig.suptitle(mask+'：細線は個別状態・初期化、太線は記述平均')
         fig.text(.5,.01,'2歴史根・4状態・3初期化。F1/F2の累計stepは横軸+200。信頼区間ではない。',ha='center',fontsize=9)
-        fig.tight_layout(rect=[0,.05,1,.92]);fig.savefig(public/('reconstruction-'+mask.lower()+'.png'),dpi=180);plt.close(fig)
+        fig.tight_layout(rect=[0,.05,.87,.92]);fig.savefig(public/('reconstruction-'+mask.lower()+'-v2.png'),dpi=180);plt.close(fig)
     fig,axs=plt.subplots(1,2,figsize=(11,4),sharey=True)
     for ax,label in zip(axs,['OLD_VALIDATION','RECENT_HELDOUT']):
         for arm,color in colors.items():
@@ -47,7 +49,7 @@ def figures(a):
     axs[0].set_ylabel('RAW潜在と物理10近傍の重複率');axs[1].legend(fontsize=8)
     fig.suptitle('再構成とは別に検査する物理近傍保存')
     fig.text(.5,.01,'細線は全個別結果、太線は記述平均。独立標本数はフレーム数・checkpoint数ではない。',ha='center',fontsize=9)
-    fig.tight_layout(rect=[0,.05,1,.92]);fig.savefig(public/'physical-neighbors.png',dpi=180);plt.close(fig)
+    fig.tight_layout(rect=[0,.05,1,.92]);fig.savefig(public/'physical-neighbors-v2.png',dpi=180);plt.close(fig)
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('output',type=Path);figures(p.parse_args())
