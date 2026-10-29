@@ -66,6 +66,7 @@ def aggregate(a):
             with np.load(a.output/'evaluations'/name/'ranking.npz') as data:
                 ranks_cache[name]={k:data[k].copy() for k in ['frame_ids','lof','order']}
         return ranks_cache[name]
+    physical_cache={}
     for kind,left,right in pairs:
         guard()
         state=lookup[left]['state_id']
@@ -81,8 +82,10 @@ def aggregate(a):
             stability.append(stable)
         x=ranking(left);y=ranking(right);assert np.array_equal(x['frame_ids'],y['frame_ids'])
         xi=x['frame_ids'][x['order']];yi=y['frame_ids'][y['order']]
-        with np.load(a.project/'runs/b1-expansion-20261026/tasks'/(state+'-decision-pool')/'science/features.npz') as feat:
-            physical=float(np.linalg.norm(feat['distances_A'][xi[0]]-feat['distances_A'][yi[0]])/math.sqrt(325))
+        if state not in physical_cache:
+            with np.load(a.project/'runs/b1-expansion-20261026/tasks'/(state+'-decision-pool')/'science/features.npz') as feat:
+                physical_cache[state]=feat['distances_A'].copy()
+        physical=float(np.linalg.norm(physical_cache[state][xi[0]]-physical_cache[state][yi[0]])/math.sqrt(325))
         rankpairs.append(dict(kind=kind,state_id=state,left=left,right=right,score_spearman=corr(x['lof'],y['lof']),Top1_identical=bool(xi[0]==yi[0]),Top10_overlap=len(set(xi[:10])&set(yi[:10]))/10,Top100_overlap=len(set(xi[:100])&set(yi[:100]))/100,Top1_distance_A=physical,downstream_MD='NOT_OBSERVED'))
     table(public/'paired-contrasts.csv',contrasts);table(public/'representation-stability.csv',stability);table(public/'LOF-comparisons.csv',rankpairs)
     # 状態ごとの初期化平均は記述値であり、独立標本CIを作らない。

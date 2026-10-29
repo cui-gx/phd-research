@@ -1,12 +1,14 @@
 {
-  "status": "CONTROLLER_STOPPED_ENGINEERING_FIX",
+  "status": "TRAINING_COMPLETE_CPU_EVALUATION_RUNNING",
   "approved_design_commit": "8d34e3714e246afb0bd74fe6943abeafd8f89c5b",
-  "training_chains_complete": 1,
+  "training_chains_complete": 36,
   "expected_chains": 36,
-  "scientific_optimizer_steps": 1600,
-  "evaluation_points_complete": 1,
+  "scientific_optimizer_steps": 57600,
+  "evaluation_points_complete": 47,
   "expected_evaluations": 156,
   "input_audit": "PASS_108_FILES",
   "synthetic_check": "PASS",
-  "new_MD": 0
+  "new_MD": 0,
+  "all_36_archived_recipes_match": true,
+  "scientific_acceptance": "PENDING"
 }
