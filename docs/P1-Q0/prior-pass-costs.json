@@ -1,0 +1,22 @@
+{
+  "main": {
+    "wall_s": 9.851702540181577,
+    "CPU_s": 9.84873685,
+    "peak_RSS_MiB": 84.23046875,
+    "affinity_count": 1,
+    "CUDA_VISIBLE_DEVICES": "-1",
+    "output_bytes": 8632885,
+    "review_point_s": 7200,
+    "code_sha256": "f23adca579cdf9fc97ed2bb9e7aca9de5e3778362088842543275761f84e0b1e",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "platform": "linux"
+  },
+  "summary": {
+    "wall_s": 0.030909997411072254,
+    "CPU_s": 0.030906737000000004,
+    "peak_RSS_MiB": 24.77734375,
+    "code_sha256": "68672495c77bccd20bf90808d7e8c4ac3e9bd2932b5c0ddb3b05594d42e75969",
+    "CUDA_VISIBLE_DEVICES": "-1"
+  },
+  "one_intermediate_summary_timing": "NOT_RETAINED; final costs are not an exact all-process cumulative total"
+}

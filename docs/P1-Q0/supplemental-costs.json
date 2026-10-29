@@ -1,0 +1,7 @@
+{
+  "wall_s": 0.13480688072741032,
+  "CPU_s": 0.13416552399999998,
+  "peak_RSS_MiB": 39.60546875,
+  "code_sha256": "e091bacde20123a80ab30359fbb88ea74a08e866bdbacade5638f430b37b3e2f",
+  "CUDA_VISIBLE_DEVICES": "-1"
+}

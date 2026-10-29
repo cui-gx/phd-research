@@ -355,3 +355,8 @@
 !/docs/P1-Q0/*.json
 !/p1/q0_log_audit.py
 ._*
+
+!/p1/q0_log_summary.py
+!/p1/q0_log_figures.py
+!/docs/P1-Q0/*.png
+._*

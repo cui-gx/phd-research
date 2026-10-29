@@ -1,0 +1,6 @@
+[
+  {
+    "type": "inspection_path_error",
+    "detail": "初回の読取りでtask直下result.jsonを想定し欠落。science/result.jsonへ訂正。さらに窓境界の浮動小数点重複を防ぐため、検証済み0.5ps報告indexで排他的分類へ変更。最初のQ0出力はoutput-before-boundary-fixに保持。原B1/R1変更なし。"
+  }
+]

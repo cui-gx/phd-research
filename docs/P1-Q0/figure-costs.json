@@ -1,0 +1,9 @@
+{
+  "wall_s": 0.6504271160811186,
+  "CPU_s": 0.649803864,
+  "peak_RSS_MiB": 91.05078125,
+  "code_sha256": "17e413042dc72f6381df1c84343c1e888e9353f5c3d08ee9222268a05baca55f",
+  "CUDA_VISIBLE_DEVICES": "-1",
+  "matplotlib": "3.10.1",
+  "startup_and_import_time_included": false
+}

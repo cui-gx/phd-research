@@ -1,0 +1,448 @@
+{
+  "models": [
+    {
+      "arm": "M0",
+      "n": 16,
+      "last20_lower_than_first20": 16,
+      "values": {
+        "train_BCE_per_frame": {
+          "mean": 144.01777236819268,
+          "minimum": 103.09548885345458,
+          "maximum": 212.98620502471923
+        },
+        "validation_BCE_per_frame": {
+          "mean": 109.68529642105102,
+          "minimum": 62.38167434692383,
+          "maximum": 173.30198974609374
+        },
+        "train_KL_batchmean_mean": {
+          "mean": 41351.0799949174,
+          "minimum": 13.401672991514205,
+          "maximum": 654412.987044833
+        },
+        "validation_KL_batchmean_mean": {
+          "mean": 5.416591862216592,
+          "minimum": 1.7022715508937836,
+          "maximum": 7.827652931213379
+        },
+        "first20_total_mean": {
+          "mean": 415613.2905574799,
+          "minimum": 1375.3312927246093,
+          "maximum": 6548472.233816529
+        },
+        "last20_total_mean": {
+          "mean": 347.085672044754,
+          "minimum": 250.5183334350586,
+          "maximum": 499.4212646484375
+        },
+        "maximum_step_total": {
+          "mean": 8280662.688735962,
+          "minimum": 2753.344970703125,
+          "maximum": 130942008.0
+        }
+      }
+    },
+    {
+      "arm": "F1",
+      "n": 32,
+      "last20_lower_than_first20": 31,
+      "values": {
+        "train_BCE_per_frame": {
+          "mean": 78.48565620064736,
+          "minimum": 61.57156576156616,
+          "maximum": 115.06066478729248
+        },
+        "validation_BCE_per_frame": {
+          "mean": 101.21580781459808,
+          "minimum": 55.941363220214846,
+          "maximum": 173.30575073242187
+        },
+        "train_KL_batchmean_mean": {
+          "mean": 5.07932593270205,
+          "minimum": 3.131147189736366,
+          "maximum": 9.5239505982399
+        },
+        "validation_KL_batchmean_mean": {
+          "mean": 3.9841572544537485,
+          "minimum": 0.6457483172416687,
+          "maximum": 10.02173900604248
+        },
+        "first20_total_mean": {
+          "mean": 336.59635655879976,
+          "minimum": 250.05314865112305,
+          "maximum": 478.6244400024414
+        },
+        "last20_total_mean": {
+          "mean": 304.56769332885744,
+          "minimum": 235.2805046081543,
+          "maximum": 464.9150024414063
+        },
+        "maximum_step_total": {
+          "mean": 484.9354591369629,
+          "minimum": 358.7713317871094,
+          "maximum": 629.1940307617188
+        }
+      }
+    },
+    {
+      "arm": "F2",
+      "n": 32,
+      "last20_lower_than_first20": 32,
+      "values": {
+        "train_BCE_per_frame": {
+          "mean": 87.75244803607464,
+          "minimum": 61.82398189544678,
+          "maximum": 119.30248218536377
+        },
+        "validation_BCE_per_frame": {
+          "mean": 85.42477459430694,
+          "minimum": 45.84018951416016,
+          "maximum": 121.84328338623047
+        },
+        "train_KL_batchmean_mean": {
+          "mean": 5.176125805866905,
+          "minimum": 3.060049160122871,
+          "maximum": 9.216857367753983
+        },
+        "validation_KL_batchmean_mean": {
+          "mean": 4.692648224183358,
+          "minimum": 1.2077991999685764,
+          "maximum": 10.397966861724854
+        },
+        "first20_total_mean": {
+          "mean": 422.70912635326385,
+          "minimum": 262.8911811828613,
+          "maximum": 656.1299865722656
+        },
+        "last20_total_mean": {
+          "mean": 324.4425995349884,
+          "minimum": 240.08166580200196,
+          "maximum": 461.3224822998047
+        },
+        "maximum_step_total": {
+          "mean": 653.0854091644287,
+          "minimum": 407.2457275390625,
+          "maximum": 1251.158203125
+        }
+      }
+    }
+  ],
+  "MD_tasks": 272,
+  "MD_report_rows": 2048000,
+  "all_log_numeric_finite": true,
+  "history_task_temperature_mean_range": [
+    299.61068317329034,
+    300.6960669121172
+  ],
+  "downstream_task_temperature_mean_range": [
+    299.54930991834976,
+    300.9229477968897
+  ],
+  "root_records": [
+    {
+      "root_id": "r01",
+      "kind": "history",
+      "n": 4,
+      "temperature_K_mean_mean": 300.1506736298132,
+      "temperature_K_mean_minimum": 299.8725576154015,
+      "temperature_K_mean_maximum": 300.54355216086793,
+      "potential_kJ_mol_mean_mean": -5711.883386114543,
+      "potential_kJ_mol_mean_minimum": -5735.281227262379,
+      "potential_kJ_mol_mean_maximum": -5684.253090615889,
+      "temperature_K_window_0": 300.03268573824334,
+      "potential_kJ_mol_window_0": -5689.861824104416,
+      "temperature_K_window_100": 300.22333534154797,
+      "potential_kJ_mol_window_100": -5682.943760650931,
+      "temperature_K_window_200": 300.6519207396877,
+      "potential_kJ_mol_window_200": -5702.180137288181,
+      "temperature_K_window_500": 300.05344595316063,
+      "potential_kJ_mol_window_500": -5717.221448378064
+    },
+    {
+      "root_id": "r01",
+      "kind": "downstream",
+      "n": 30,
+      "temperature_K_mean_mean": 300.1561022447915,
+      "temperature_K_mean_minimum": 299.62341393735636,
+      "temperature_K_mean_maximum": 300.6935984172074,
+      "potential_kJ_mol_mean_mean": -5750.481543359669,
+      "potential_kJ_mol_mean_minimum": -5790.849679677791,
+      "potential_kJ_mol_mean_maximum": -5719.485269531644,
+      "temperature_K_window_0": 299.1289549060929,
+      "potential_kJ_mol_window_0": -5712.294860116253,
+      "temperature_K_window_100": 300.3212299242723,
+      "potential_kJ_mol_window_100": -5709.932805965702,
+      "temperature_K_window_200": 300.3104228929867,
+      "potential_kJ_mol_window_200": -5722.684935664205,
+      "temperature_K_window_500": 300.16750389378103,
+      "potential_kJ_mol_window_500": -5755.1136931803485
+    },
+    {
+      "root_id": "r02",
+      "kind": "history",
+      "n": 4,
+      "temperature_K_mean_mean": 300.0962363998649,
+      "temperature_K_mean_minimum": 299.88760968479676,
+      "temperature_K_mean_maximum": 300.32528607123567,
+      "potential_kJ_mol_mean_mean": -5701.298718182097,
+      "potential_kJ_mol_mean_minimum": -5718.940506769844,
+      "potential_kJ_mol_mean_maximum": -5677.162670763373,
+      "temperature_K_window_0": 298.79299154199884,
+      "potential_kJ_mol_window_0": -5692.403669949436,
+      "temperature_K_window_100": 299.4860453982483,
+      "potential_kJ_mol_window_100": -5692.157278038455,
+      "temperature_K_window_200": 299.7069362346155,
+      "potential_kJ_mol_window_200": -5695.834381409586,
+      "temperature_K_window_500": 300.301658823547,
+      "potential_kJ_mol_window_500": -5703.594018095019
+    },
+    {
+      "root_id": "r02",
+      "kind": "downstream",
+      "n": 30,
+      "temperature_K_mean_mean": 300.0903486481002,
+      "temperature_K_mean_minimum": 299.7413426372229,
+      "temperature_K_mean_maximum": 300.4557482211001,
+      "potential_kJ_mol_mean_mean": -5738.5364002725355,
+      "potential_kJ_mol_mean_minimum": -5820.220224057039,
+      "potential_kJ_mol_mean_maximum": -5692.192034661363,
+      "temperature_K_window_0": 298.9184215927304,
+      "potential_kJ_mol_window_0": -5716.414412917633,
+      "temperature_K_window_100": 300.1332041277181,
+      "potential_kJ_mol_window_100": -5709.225962931132,
+      "temperature_K_window_200": 300.14883785111925,
+      "potential_kJ_mol_window_200": -5714.437379157297,
+      "temperature_K_window_500": 300.11759447572,
+      "potential_kJ_mol_window_500": -5742.071528502306
+    },
+    {
+      "root_id": "r03",
+      "kind": "history",
+      "n": 4,
+      "temperature_K_mean_mean": 300.3112603824278,
+      "temperature_K_mean_minimum": 300.1397063699943,
+      "temperature_K_mean_maximum": 300.5546646555202,
+      "potential_kJ_mol_mean_mean": -5742.58652706113,
+      "potential_kJ_mol_mean_minimum": -5778.280592658209,
+      "potential_kJ_mol_mean_maximum": -5679.018794989025,
+      "temperature_K_window_0": 299.1429947606766,
+      "potential_kJ_mol_window_0": -5719.46183842792,
+      "temperature_K_window_100": 299.41130733836434,
+      "potential_kJ_mol_window_100": -5718.699452321401,
+      "temperature_K_window_200": 300.53895963923515,
+      "potential_kJ_mol_window_200": -5735.093929828093,
+      "temperature_K_window_500": 300.403601775454,
+      "potential_kJ_mol_window_500": -5747.219164065935
+    },
+    {
+      "root_id": "r03",
+      "kind": "downstream",
+      "n": 30,
+      "temperature_K_mean_mean": 300.1449030520731,
+      "temperature_K_mean_minimum": 299.69230425926054,
+      "temperature_K_mean_maximum": 300.46804998202447,
+      "potential_kJ_mol_mean_mean": -5757.8628794458,
+      "potential_kJ_mol_mean_minimum": -5794.831372220779,
+      "potential_kJ_mol_mean_maximum": -5695.312415381207,
+      "temperature_K_window_0": 298.58544506179385,
+      "potential_kJ_mol_window_0": -5741.694056126802,
+      "temperature_K_window_100": 300.0471039213137,
+      "potential_kJ_mol_window_100": -5734.275334947765,
+      "temperature_K_window_200": 300.532762581811,
+      "potential_kJ_mol_window_200": -5741.364654436074,
+      "temperature_K_window_500": 300.1590081529824,
+      "potential_kJ_mol_window_500": -5760.412909241406
+    },
+    {
+      "root_id": "r04",
+      "kind": "history",
+      "n": 4,
+      "temperature_K_mean_mean": 299.8450608413367,
+      "temperature_K_mean_minimum": 299.7465525537636,
+      "temperature_K_mean_maximum": 300.126259035118,
+      "potential_kJ_mol_mean_mean": -5777.796838317867,
+      "potential_kJ_mol_mean_minimum": -5798.7463225093215,
+      "potential_kJ_mol_mean_maximum": -5751.6650510629015,
+      "temperature_K_window_0": 300.1154232799686,
+      "potential_kJ_mol_window_0": -5738.540844189682,
+      "temperature_K_window_100": 300.1520482390372,
+      "potential_kJ_mol_window_100": -5753.989007570638,
+      "temperature_K_window_200": 299.93664046659035,
+      "potential_kJ_mol_window_200": -5759.763128819911,
+      "temperature_K_window_500": 299.78825492719716,
+      "potential_kJ_mol_window_500": -5785.607835209152
+    },
+    {
+      "root_id": "r04",
+      "kind": "downstream",
+      "n": 30,
+      "temperature_K_mean_mean": 300.1460017747958,
+      "temperature_K_mean_minimum": 299.86241510563826,
+      "temperature_K_mean_maximum": 300.383229220446,
+      "potential_kJ_mol_mean_mean": -5791.488800324374,
+      "potential_kJ_mol_mean_minimum": -5843.396788650476,
+      "potential_kJ_mol_mean_maximum": -5715.584560457129,
+      "temperature_K_window_0": 298.78263470136034,
+      "potential_kJ_mol_window_0": -5795.072610545629,
+      "temperature_K_window_100": 299.87217851326034,
+      "potential_kJ_mol_window_100": -5797.157959341493,
+      "temperature_K_window_200": 300.17773968051586,
+      "potential_kJ_mol_window_200": -5791.293739345104,
+      "temperature_K_window_500": 300.1900582495904,
+      "potential_kJ_mol_window_500": -5791.241149287215
+    },
+    {
+      "root_id": "r05",
+      "kind": "history",
+      "n": 4,
+      "temperature_K_mean_mean": 300.06269306139546,
+      "temperature_K_mean_minimum": 299.7528039241035,
+      "temperature_K_mean_maximum": 300.4585400592442,
+      "potential_kJ_mol_mean_mean": -5772.868356288368,
+      "potential_kJ_mol_mean_minimum": -5802.008687375039,
+      "potential_kJ_mol_mean_maximum": -5728.448560952923,
+      "temperature_K_window_0": 299.39054774691624,
+      "potential_kJ_mol_window_0": -5743.666748738861,
+      "temperature_K_window_100": 299.872310242696,
+      "potential_kJ_mol_window_100": -5741.955707569486,
+      "temperature_K_window_200": 299.6895071749611,
+      "potential_kJ_mol_window_200": -5750.055356098256,
+      "temperature_K_window_500": 300.1948321142276,
+      "potential_kJ_mol_window_500": -5781.43857341095
+    },
+    {
+      "root_id": "r05",
+      "kind": "downstream",
+      "n": 30,
+      "temperature_K_mean_mean": 300.15763751633557,
+      "temperature_K_mean_minimum": 299.61253723224405,
+      "temperature_K_mean_maximum": 300.707357568193,
+      "potential_kJ_mol_mean_mean": -5770.1477323999425,
+      "potential_kJ_mol_mean_minimum": -5821.87259381203,
+      "potential_kJ_mol_mean_maximum": -5727.457021556725,
+      "temperature_K_window_0": 299.3675283385362,
+      "potential_kJ_mol_window_0": -5784.650003219976,
+      "temperature_K_window_100": 300.33074905124806,
+      "potential_kJ_mol_window_100": -5768.923199051826,
+      "temperature_K_window_200": 300.1966613673725,
+      "potential_kJ_mol_window_200": -5767.412000266549,
+      "temperature_K_window_500": 300.17192111890057,
+      "potential_kJ_mol_window_500": -5770.0028597978935
+    },
+    {
+      "root_id": "r06",
+      "kind": "history",
+      "n": 4,
+      "temperature_K_mean_mean": 300.3041780540103,
+      "temperature_K_mean_minimum": 299.9283731837325,
+      "temperature_K_mean_maximum": 300.6960669121172,
+      "potential_kJ_mol_mean_mean": -5748.952332564217,
+      "potential_kJ_mol_mean_minimum": -5770.481770148409,
+      "potential_kJ_mol_mean_maximum": -5711.245431291119,
+      "temperature_K_window_0": 300.1533315682622,
+      "potential_kJ_mol_window_0": -5720.949040063838,
+      "temperature_K_window_100": 299.340442725204,
+      "potential_kJ_mol_window_100": -5729.814892634957,
+      "temperature_K_window_200": 299.92506456709395,
+      "potential_kJ_mol_window_200": -5743.629147468434,
+      "temperature_K_window_500": 300.4543062056972,
+      "potential_kJ_mol_window_500": -5753.159685078682
+    },
+    {
+      "root_id": "r06",
+      "kind": "downstream",
+      "n": 30,
+      "temperature_K_mean_mean": 300.1277866578697,
+      "temperature_K_mean_minimum": 299.7556982521948,
+      "temperature_K_mean_maximum": 300.43601030489646,
+      "potential_kJ_mol_mean_mean": -5760.816560859378,
+      "potential_kJ_mol_mean_minimum": -5813.835098579732,
+      "potential_kJ_mol_mean_maximum": -5695.876482170321,
+      "temperature_K_window_0": 298.9463524535607,
+      "potential_kJ_mol_window_0": -5736.57390661199,
+      "temperature_K_window_100": 300.22111062763736,
+      "potential_kJ_mol_window_100": -5734.807741969999,
+      "temperature_K_window_200": 300.381059051663,
+      "potential_kJ_mol_window_200": -5732.932738735587,
+      "temperature_K_window_500": 300.13716645938865,
+      "potential_kJ_mol_window_500": -5764.6423591310395
+    },
+    {
+      "root_id": "r07",
+      "kind": "history",
+      "n": 4,
+      "temperature_K_mean_mean": 300.10963565823533,
+      "temperature_K_mean_minimum": 299.702287817961,
+      "temperature_K_mean_maximum": 300.3542684196267,
+      "potential_kJ_mol_mean_mean": -5748.8562412150895,
+      "potential_kJ_mol_mean_minimum": -5775.369672970076,
+      "potential_kJ_mol_mean_maximum": -5687.4600604510115,
+      "temperature_K_window_0": 300.5824547017927,
+      "potential_kJ_mol_window_0": -5740.82956402741,
+      "temperature_K_window_100": 299.9814210652657,
+      "potential_kJ_mol_window_100": -5725.762039568353,
+      "temperature_K_window_200": 299.8504559990681,
+      "potential_kJ_mol_window_200": -5723.400068605643,
+      "temperature_K_window_500": 300.1384979600296,
+      "potential_kJ_mol_window_500": -5756.0222009926065
+    },
+    {
+      "root_id": "r07",
+      "kind": "downstream",
+      "n": 30,
+      "temperature_K_mean_mean": 300.14771002435884,
+      "temperature_K_mean_minimum": 299.54930991834976,
+      "temperature_K_mean_maximum": 300.9229477968897,
+      "potential_kJ_mol_mean_mean": -5758.93426958861,
+      "potential_kJ_mol_mean_minimum": -5802.7405741365355,
+      "potential_kJ_mol_mean_maximum": -5730.874518789067,
+      "temperature_K_window_0": 299.3565533750014,
+      "potential_kJ_mol_window_0": -5723.552418926926,
+      "temperature_K_window_100": 300.1708371510351,
+      "potential_kJ_mol_window_100": -5722.7446175415635,
+      "temperature_K_window_200": 300.09185275923454,
+      "potential_kJ_mol_window_200": -5730.02700101976,
+      "temperature_K_window_500": 300.17444149058895,
+      "potential_kJ_mol_window_500": -5763.456935543332
+    },
+    {
+      "root_id": "r08",
+      "kind": "history",
+      "n": 4,
+      "temperature_K_mean_mean": 299.9078227611177,
+      "temperature_K_mean_minimum": 299.61068317329034,
+      "temperature_K_mean_maximum": 300.56602671128286,
+      "potential_kJ_mol_mean_mean": -5745.675533151046,
+      "potential_kJ_mol_mean_minimum": -5774.299044021035,
+      "potential_kJ_mol_mean_maximum": -5684.516855129608,
+      "temperature_K_window_0": 299.1619742382022,
+      "potential_kJ_mol_window_0": -5743.428028694952,
+      "temperature_K_window_100": 300.15316527774115,
+      "potential_kJ_mol_window_100": -5740.364452758447,
+      "temperature_K_window_200": 299.46615029332554,
+      "potential_kJ_mol_window_200": -5732.904806872257,
+      "temperature_K_window_500": 300.0295243217623,
+      "potential_kJ_mol_window_500": -5748.733584063382
+    },
+    {
+      "root_id": "r08",
+      "kind": "downstream",
+      "n": 30,
+      "temperature_K_mean_mean": 300.18446124791177,
+      "temperature_K_mean_minimum": 299.7305890345679,
+      "temperature_K_mean_maximum": 300.64909528750695,
+      "potential_kJ_mol_mean_mean": -5737.263759832239,
+      "potential_kJ_mol_mean_minimum": -5765.699900899702,
+      "potential_kJ_mol_mean_maximum": -5696.174915597807,
+      "temperature_K_window_0": 299.00119992571473,
+      "potential_kJ_mol_window_0": -5700.536273130854,
+      "temperature_K_window_100": 300.2968108080139,
+      "potential_kJ_mol_window_100": -5699.682636899177,
+      "temperature_K_window_200": 300.4420614845149,
+      "potential_kJ_mol_window_200": -5708.770386161505,
+      "temperature_K_window_500": 300.1929787065485,
+      "potential_kJ_mol_window_500": -5741.82915213643
+    }
+  ],
+  "statistical_tests": false
+}

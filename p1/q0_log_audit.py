@@ -94,7 +94,7 @@ def main(project,out,bundle):
         mdrows.append(row)
         # 既登録の窓と10ps表示集約。平衡判定の新閾値は設けない。
         for lo,hi in [(0,100),(100,200),(200,500),(500,req['length_ns']*1000)]:
-            a=[r for r in arr if lo<r['Time (ps)']-res['initial_time_ps']<=hi+1e-5]
+            a=[r for i,r in enumerate(arr,1) if lo<i*0.5<=hi]
             z=dict(**base,local_start_ps=lo,local_end_ps=hi,rows=len(a))
             for k,short in zip(keys,['temperature_K','potential_kJ_mol']):z[short+'_mean']=avg([r[k] for r in a]) if a else ''
             windows.append(z)
@@ -117,7 +117,7 @@ def main(project,out,bundle):
     table(out/'existing-quality.csv',qrows)
     for rel,old in verified.items():assert digest(raw/rel)==old
     table(out/'input-sha256.csv',[dict(path=k,sha256=v,post_readback_matches=True) for k,v in sorted(verified.items())])
-    write(out/'failures.json',[{'type':'inspection_path_error','detail':'初回の読取りでtask直下result.jsonを想定し欠落。science/result.jsonへ訂正。原証拠変更なし。'}])
+    write(out/'failures.json',[{'type':'inspection_path_error','detail':'初回の読取りでtask直下result.jsonを想定し欠落。science/result.jsonへ訂正。さらに窓境界の浮動小数点重複を防ぐため、検証済み0.5ps報告indexで排他的分類へ変更。最初のQ0出力はoutput-before-boundary-fixに保持。原B1/R1変更なし。'}])
     peak=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss/1024
     write(out/'status.json',dict(status='COMPLETE',models=80,MD_tasks=272,history_MD=32,downstream_MD=240,MD_log_rows=sum(r['rows'] for r in mdrows),raw_SHA_checked=len(verified),raw_unmodified=True,per_step_BCE_KL='NOT_SAVED',model_loading=False,DCD_read=False,scientific_acceptance='PENDING'))
     write(out/'costs.json',dict(wall_s=time.monotonic()-start,CPU_s=time.process_time()-cpu,peak_RSS_MiB=peak,affinity_count=len(os.sched_getaffinity(0)),CUDA_VISIBLE_DEVICES=os.environ['CUDA_VISIBLE_DEVICES'],output_bytes=sum(p.stat().st_size for p in out.rglob('*') if p.is_file()),review_point_s=7200,code_sha256=digest(Path(__file__)),python=sys.version,platform=sys.platform))

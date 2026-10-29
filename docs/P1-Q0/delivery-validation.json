@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "base": "3b8b7b25da85c5d5da055b093ee4c79f6ff850b7",
+  "protected_old_files_unchanged": 223,
+  "source_and_server_derived_SHA_match": true,
+  "derived_transfer_sha256": "cc8e49a448e9c47e184a82cf27bbf4045a269cca181045bf8e6d6a60519762e7",
+  "model_rows": 80,
+  "loss_step_rows": 16000,
+  "MD_tasks": 272,
+  "MD_log_rows": 2048000,
+  "new_MD_train_inference_LOF_DCD": 0,
+  "scientific_review": "PENDING",
+  "remote_readback": "PENDING_PUSH"
+}

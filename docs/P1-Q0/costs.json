@@ -1,0 +1,12 @@
+{
+  "wall_s": 9.791941112838686,
+  "CPU_s": 9.789134918,
+  "peak_RSS_MiB": 84.2578125,
+  "affinity_count": 1,
+  "CUDA_VISIBLE_DEVICES": "-1",
+  "output_bytes": 8633051,
+  "review_point_s": 7200,
+  "code_sha256": "40f08f5f7c492228cc3da11f16dcc465cdc6c7cec08bd8e6f65bbf48b0930bee",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "linux"
+}

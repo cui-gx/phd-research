@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE",
+  "models": 80,
+  "MD_tasks": 272,
+  "history_MD": 32,
+  "downstream_MD": 240,
+  "MD_log_rows": 2048000,
+  "raw_SHA_checked": 1328,
+  "raw_unmodified": true,
+  "per_step_BCE_KL": "NOT_SAVED",
+  "model_loading": false,
+  "DCD_read": false,
+  "scientific_acceptance": "PENDING"
+}

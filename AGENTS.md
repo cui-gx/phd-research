@@ -1,6 +1,10 @@
 # Doctoral Research — Codex Instructions
 
-> 最新承認：2026-10-29 Q0限定CPUログ監査。新MD/学習/推論/LOF/DCD処理は禁止。
+> 最新状態：2026-10-29 Q0限定CPUログ監査完了、独立科学審査待ち。新MD/学習/推論/LOF/DCD処理は禁止。
+
+## Q0交付完了・停止（2026-10-29）
+
+[完全報告](docs/P1-Q0/review-dossier.md)と[A–G](docs/P1-Q0/handoff-to-chatgpt.md)を参照。80モデル/272 MDのログ・SHA監査を完了。P/L資格はUNVERIFIED、科学受入PENDING。Q0を再実行せず、P/L/O/C/B2/S3へ進まず研究者審査を待つ。
 
 ## Q0限定ログ監査の承認（2026-10-29、CONFIRMED）
 

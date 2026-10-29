@@ -1,0 +1,4402 @@
+[
+  {
+    "task_id": "r01-s4-M0",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r01-s4-F1-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r01-s4-F1-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r01-s4-F2-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r01-s4-F2-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r01-s8-M0",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r01-s8-F1-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r01-s8-F1-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r01-s8-F2-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r01-s8-F2-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r02-s4-M0",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r02-s4-F1-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r02-s4-F1-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r02-s4-F2-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r02-s4-F2-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r02-s8-M0",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r02-s8-F1-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r02-s8-F1-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r02-s8-F2-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r02-s8-F2-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r03-s4-M0",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r03-s4-F1-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r03-s4-F1-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r03-s4-F2-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r03-s4-F2-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r03-s8-M0",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r03-s8-F1-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r03-s8-F1-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r03-s8-F2-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r03-s8-F2-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r04-s4-M0",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r04-s4-F1-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r04-s4-F1-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r04-s4-F2-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r04-s4-F2-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r04-s8-M0",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r04-s8-F1-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r04-s8-F1-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r04-s8-F2-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r04-s8-F2-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r05-s4-M0",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r05-s4-F1-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r05-s4-F1-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r05-s4-F2-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r05-s4-F2-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r05-s8-M0",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r05-s8-F1-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r05-s8-F1-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r05-s8-F2-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r05-s8-F2-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r06-s4-M0",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r06-s4-F1-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r06-s4-F1-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r06-s4-F2-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r06-s4-F2-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r06-s8-M0",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r06-s8-F1-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r06-s8-F1-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r06-s8-F2-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r06-s8-F2-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r07-s4-M0",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r07-s4-F1-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r07-s4-F1-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r07-s4-F2-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r07-s4-F2-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r07-s8-M0",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r07-s8-F1-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r07-s8-F1-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r07-s8-F2-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r07-s8-F2-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r08-s4-M0",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r08-s4-F1-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r08-s4-F1-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r08-s4-F2-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r08-s4-F2-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r08-s8-M0",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r08-s8-F1-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r08-s8-F1-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r08-s8-F2-t1",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  },
+  {
+    "task_id": "r08-s8-F2-t2",
+    "recipe": {
+      "cvae": {
+        "input_shape": [
+          1,
+          28,
+          28
+        ],
+        "filters": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "kernels": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "strides": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "affine_widths": [
+          128
+        ],
+        "affine_dropouts": [
+          0.5
+        ],
+        "latent_dim": 3,
+        "lambda_rec": 1.0,
+        "num_data_workers": 0,
+        "prefetch_factor": null,
+        "split_pct": 0.8,
+        "split_method": "random",
+        "batch_size": 4,
+        "optimizer_name": "RMSprop",
+        "optimizer_hparams": {
+          "lr": 0.001,
+          "weight_decay": 1e-05
+        },
+        "epochs": 1,
+        "checkpoint_log_every": 1,
+        "plot_log_every": 1,
+        "plot_method": null,
+        "use_wandb": false
+      },
+      "effective_split": "事前時間split、fit既定splitは不使用",
+      "normalization": "binary_contact_no_learned_scaling"
+    }
+  }
+]

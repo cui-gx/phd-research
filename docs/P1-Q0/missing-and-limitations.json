@@ -1,0 +1,12 @@
+{
+  "per_step_BCE": "NOT_SAVED",
+  "per_step_KL": "NOT_SAVED",
+  "validation_time_series": "NOT_SAVED; endpoint only",
+  "sample_weighted_validation_KL": "NOT_RECOVERABLE",
+  "pH": "UNVERIFIED",
+  "unfolding_protonation_preparation_commands": "UNVERIFIED",
+  "one_intermediate_summary_exact_timing": "NOT_RETAINED",
+  "convergence": "UNVERIFIED",
+  "equilibration": "UNVERIFIED",
+  "new_science_experiment": "NOT_PERFORMED"
+}
