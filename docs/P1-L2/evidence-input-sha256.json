@@ -1,0 +1,31 @@
+{
+  "baseline_commit": "83bac631c007366d1492330fe3355677d4f5eeaf",
+  "scope": "設計前のローカルGit取得版。サーバ原データの再監査ではない。",
+  "files": {
+    "AGENTS.md": "65d40a52e45a520822e111c8a353ecb502b5edbc84816a6cbb3cef26dbedf423",
+    "docs/collaboration-policy.md": "cf813f036852110bd321e43f5abf29a415639078573507827bd6b2131e37ff0d",
+    "docs/博士研究_全局总档案.md": "8082c521e1bfda7549053e76497abe21de71d3e112d38539a888c5faf2a60a58",
+    "docs/协作交接记录.md": "6357afe9edb06dde5754de7d1caab3a877fc2ecb09fe753b5557d4a43f6f2569",
+    "docs/P1-L1/review-dossier.md": "cca3ccb8c9ee14c1f15aab7f39a9177862a718cbaf34b22e873986f7883b4970",
+    "docs/P1-L1/analysis-plan.md": "81a6bb50e73012bfc45150b3406049227f7fb9b95fa8bc85b5e46aa54ef39f03",
+    "docs/P1-L1/handoff-to-chatgpt.md": "58640ffbd466f0951d41179e8ca95a3d7f34fa0c93cc6b999660d9793bd45454",
+    "docs/P1-L1/validation-ids.csv": "1440f1112def2f845143416659b17ce6554b8359a3b81827ed233ea03197dba4",
+    "docs/P1-L1/frozen-cohorts.json": "3d006080bd91c462b881e98fd8de1666233baef3a8bba924533baa0c08c66f2a",
+    "docs/P1-L1/array-sha256.json": "0e54ba539be17081f3eb43a1f839640b9f1f62aff61a1682a6837a75446e8088",
+    "docs/P1-L1/checkpoint-audit.csv": "2f16893f760cf3b624daebe9bddb072cc2a3f314ed007ed23d76530eb3b2a575",
+    "docs/P1-L1/cost-ledger.json": "72ba55170ae66dea8d4c2326ca92728b8cb3b6db829c5f1bb07910f86956a24c",
+    "docs/P1-Q0/model-exposures.csv": "da7ecd9d693a8b634d684c83537e1a7bc06c69ce9b59316c6c63ee360b0caf21",
+    "docs/P1-Q0/model-recipes.json": "6a50fa276972b9765667631aabff91865741a64b2032a056befc43974f8e407a",
+    "docs/P1-Q0/model-lineage.csv": "94c6b5d28dddd149869cd5b3eb6a97e39489721c9a8e002b64b13922558acbbe",
+    "docs/P1-Q0/review-dossier.md": "d4ea70b11bdfa3fe2fd311e4f636536c5eb6f79e275887e221cabaf45ebb4aee",
+    "docs/P1-B1-Expansion/review-dossier.md": "3ba82c8a9bf8577a22da4a424ef71701ae8da437719dc12f372d51ad9a03501c",
+    "docs/P1-B1-R1/review-dossier.md": "e436cb2158ba7fe4b99eec8779ee17c5a8f42f8d859aa56acedf43402bbb795a",
+    "docs/P1-Post-R1-Qualification/minimal-design.md": "e731b8b2ac447b56fdf17c19f5c7a5282ead1360317613425f20e243d571e112",
+    "docs/P1-Post-R1-Qualification/cost-and-gates.md": "987f74c2538007399acf0000bbe874b6dc0f5737d406021cd10ce8fc54abd76d",
+    "docs/执行证据/2026-10-26-b1-expansion/models.json": "3db45eccaee86c267cfc3e8158e1f649cad26512b83a3900576b0340373772d2",
+    "p1/server/b1_science.py": "e95aaf6e851a3866743fbdc9f6faebc840bc00c0091eb29cfcfbfdfa48e7f88b",
+    "p1/l1_frozen_diagnostic.py": "845d8b579793465b86a9193855c0adebbab14f2c1ea879e26086597abe15d100",
+    "vendor/mdlearn-938cb80/mdlearn/nn/models/vae/model.py": "bca1065432106a1cebd911dfc17c32fb4ae5b76e59b991e2df133a8122831117",
+    "vendor/mdlearn-938cb80/mdlearn/nn/models/vae/symmetric_conv2d_vae.py": "df099022af7e38162371eff5abd607ccc31bba22b5f714838b6ea96d0ac4297a"
+  }
+}

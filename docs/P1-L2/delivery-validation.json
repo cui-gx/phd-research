@@ -1,0 +1,33 @@
+{
+  "static_validation": "PASS",
+  "verified_at_JST": "2026-10-29T20:20:26.861052+09:00",
+  "scope": "文書、設計行列、既存IDの転記、リンク、原科学ファイル不変性。科学解析なし。",
+  "baseline_commit": "83bac631c007366d1492330fe3355677d4f5eeaf",
+  "protected_tracked_files": 601,
+  "protected_file_changes": [],
+  "protected_hash_manifest_sha256": "5d399dc1adda7849d67def37639e2f70c467e2aa7235ea26cd1a800c65f3181b",
+  "root_README_preexisting_change_preserved": true,
+  "chains": 36,
+  "trained_endpoints": 144,
+  "untrained_controls": 12,
+  "proposed_optimizer_steps": 57600,
+  "training_membership_rows": 9600,
+  "evaluation_ID_rows": 1600,
+  "training_evaluation_ID_intersection": 0,
+  "local_document_links_checked": 84,
+  "missing_local_links": [],
+  "A_to_G_sections": "PASS",
+  "git_diff_check": "PASS",
+  "new_science_runs": 0,
+  "server_sessions": 0,
+  "scientific_execution": "NOT_APPROVED",
+  "remote_readback": "PENDING",
+  "original_server_archives_rechecked_this_session": false,
+  "failures": [
+    {
+      "type": "STATIC_FORMAT",
+      "status": "RESOLVED",
+      "detail": "新設計CSVのCRLFをstaged diff検査が末尾空白として検出。新CSV4件だけをLFへ正規化し、原CSV/全field値は不変。"
+    }
+  ]
+}

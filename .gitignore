@@ -373,3 +373,11 @@
 
 !/p1/l1_report_tables.py
 ._*
+
+# L2の設計文書・予定行列・既存ID転記・静的監査のみ
+!/docs/P1-L2/
+/docs/P1-L2/*
+!/docs/P1-L2/*.md
+!/docs/P1-L2/*.csv
+!/docs/P1-L2/*.json
+._*

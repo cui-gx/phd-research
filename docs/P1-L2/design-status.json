@@ -1,0 +1,21 @@
+{
+  "design_version": "L2-design-v1",
+  "baseline_commit": "83bac631c007366d1492330fe3355677d4f5eeaf",
+  "date_JST": "2026-10-29",
+  "design_status": "COMPLETE_PENDING_REVIEW",
+  "scientific_execution": "NOT_APPROVED",
+  "completed_training_chains": 0,
+  "proposed_training_chains": 36,
+  "proposed_new_optimizer_steps": 57600,
+  "trained_endpoint_count": 144,
+  "untrained_control_count": 12,
+  "new_MD": 0,
+  "new_training": 0,
+  "new_forward": 0,
+  "new_LOF": 0,
+  "new_scientific_reanalysis": 0,
+  "server_sessions": 0,
+  "researcher_acceptance": "PENDING",
+  "MAC_RAW_BACKUP": "WAIVED_BY_RESEARCHER",
+  "server_archive_deletion_authorized": false
+}
