@@ -1,5 +1,5 @@
 {
-  "status": "FIRST_TRAINING_AND_FULL_EVALUATION_COMPLETE",
+  "status": "CONTROLLER_STOPPED_ENGINEERING_FIX",
   "approved_design_commit": "8d34e3714e246afb0bd74fe6943abeafd8f89c5b",
   "training_chains_complete": 1,
   "expected_chains": 36,

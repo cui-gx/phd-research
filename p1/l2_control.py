@@ -18,7 +18,7 @@ def main(a):
     for name,h in release['plan_sha256'].items():assert sha(a.plan/name)==h
     for name,h in release['adapter_sha256'].items():assert sha(Path(__file__).parent/name)==h
     events=(a.output/'events.jsonl').open('a',buffering=1)
-    def event(kind,**kw):events.write(json.dumps(dict(event=kind,time_unix=time.time(),**kw),ensure_ascii=False)+'\n')
+    def event(event_type,**kw):events.write(json.dumps(dict(event=event_type,time_unix=time.time(),**kw),ensure_ascii=False)+'\n')
     def status(state,unit=None):
         chains=list((a.output/'chains').glob('*/result.json'));points=list((a.output/'evaluations').glob('*/result.json'))
         write(a.output/'status.json',dict(status=state,current=unit,controller_pid=os.getpid(),chains_complete=len(chains),expected_chains=36,evaluations_complete=len(points),expected_evaluations=156,scientific_optimizer_steps=sum(read(p)['steps'] for p in chains)))

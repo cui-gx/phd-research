@@ -1,0 +1,11 @@
+[
+  {
+    "type": "CONTROLLER_LOG_PARAMETER_COLLISION",
+    "status": "FIXED_PENDING_REMOTE_READBACK",
+    "failed_implementation_commit": "05016a200c8ca797520e297308342f6cfbde0126",
+    "details_ja": "event関数の第一引数kindと追加フィールドkindが重複し、既存成功単位のskip記録でTypeError。科学追加step0。引数をevent_typeへ変更、行列・モデル・乱数・科学adapter不変。",
+    "successful_chains_preserved": 1,
+    "scientific_optimizer_steps": 1600,
+    "successful_evaluations_preserved": 1
+  }
+]

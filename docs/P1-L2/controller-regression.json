@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "synthetic_metadata_only": true,
+  "successful_units_skipped": 192,
+  "real_training_or_inference": 0,
+  "real_scientific_results_used": false
+}
