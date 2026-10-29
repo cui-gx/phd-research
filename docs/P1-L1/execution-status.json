@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE",
+  "models": 80,
+  "model_sets": 160,
+  "metric_rows": 480,
+  "frame_rows": 32000,
+  "new_train_MD_LOF": 0,
+  "optimizer_steps": 0,
+  "raw_unmodified": true,
+  "determinism": "PASS_same_CPU_same_batch",
+  "torch": "2.7.1+cu128",
+  "numpy": "1.26.4",
+  "new_scientific_qualification": "PENDING"
+}

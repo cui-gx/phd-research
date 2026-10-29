@@ -3,5 +3,20 @@
   "frozen-cohorts.json": "3d006080bd91c462b881e98fd8de1666233baef3a8bba924533baa0c08c66f2a",
   "freeze-input-sha256.json": "45814bdc75c92124e0ed0247ce2475230367419de08634d4e2a771685f94dc40",
   "freeze-status.json": "9c7557766a35fbcaef0eac2bcdbdf7e674bcf7a2f8ba91a3e8c01578114908fa",
-  "cost-ledger.json": "66e18e39dda78c08ebdb0fa006e9f61db1be322c4bb7dd3ccdd08d3593024aa0"
+  "cost-ledger.json": "72ba55170ae66dea8d4c2326ca92728b8cb3b6db829c5f1bb07910f86956a24c",
+  "progress.json": "763a487bb60e94ab42c2321e5e74d7be480ac51ce2638d114054c7c966faea4d",
+  "model-metrics.csv": "f31a6640c56f8e738b790ee65129c4d80b5f20bd3c824c344d13929102717da8",
+  "latent-diagnostics.csv": "e87b896d0335988890a70b74070e1ac7f38c8ddf90fc84e2c001c05bf9396f59",
+  "frame-diagnostics.csv": "29e1d060a8f76a43eef3c423bde52859801ca9cae82cdd2e83d72e53ff47803b",
+  "seed-stability.csv": "f43927c2967bdab317058884bc0fd0daee39d1c29edc49315c0b4ee0132cbf84",
+  "checkpoint-audit.csv": "2f16893f760cf3b624daebe9bddb072cc2a3f314ed007ed23d76530eb3b2a575",
+  "state-metrics.csv": "cfd77dacd884412634ec1c7226478388a3e47da1d8adf0971d0b6fb4f8d03a1f",
+  "execution-status.json": "9a87edf4c314616725db7527bbeeb75ca7a1c1352adbec393b8554181a7d94e7",
+  "array-sha256.json": "0e54ba539be17081f3eb43a1f839640b9f1f62aff61a1682a6837a75446e8088",
+  "overview.csv": "22fb06128650a725f96b64f947d7bedfedc53f6bab350a57ce11bcd8c369d08c",
+  "geometry-overview.csv": "b50a22ec8cad0eee2fb32d8216276074d96bb59b50ccee534f208da65cd6f5e0",
+  "r07-s4-case.csv": "09a97a42acfec7bd28bb6ef5e4ec465aa37e0df67c18e1db9889e7dcfc481371",
+  "covariance-eigenvalues.csv": "d1eb50876c3899234fe4373450a9ecff347d0890b50d618de3d2151a5e016854",
+  "summary.json": "5d2b247e3c121a39f497224d6650547faf8b87edac4eb80e9a94acb0c6584239",
+  "reconstruction-baseline.png": "90febdb0c22aaf8c8dfa0132583eea48f9a5642421c8b6df19da5564e1858b8b"
 }

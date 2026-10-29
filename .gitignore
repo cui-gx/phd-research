@@ -370,3 +370,6 @@
 !/docs/P1-L1/*.png
 !/p1/l1_frozen_diagnostic.py
 ._*
+
+!/p1/l1_report_tables.py
+._*

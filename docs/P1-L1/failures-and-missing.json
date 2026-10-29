@@ -1,0 +1,17 @@
+{
+  "execution_failures": [],
+  "missing_models": 0,
+  "nonfinite_outputs": 0,
+  "not_performed": [
+    "new training",
+    "MD",
+    "LOF",
+    "scientific exploration evaluation",
+    "new initialization controls",
+    "mean-code ablation",
+    "independent-root validation",
+    "convergence assessment"
+  ],
+  "not_applicable_cells": "DIMENSION rows have no geometry fields; RAW rows have no per-dimension fields",
+  "scientific_review": "PENDING"
+}

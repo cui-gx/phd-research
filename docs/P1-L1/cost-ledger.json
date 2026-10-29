@@ -7,5 +7,21 @@
     "code_sha256": "845d8b579793465b86a9193855c0adebbab14f2c1ea879e26086597abe15d100",
     "affinity_count": 1,
     "CUDA_VISIBLE_DEVICES": "-1"
+  },
+  {
+    "mode": "evaluate",
+    "wall_s": 134.207110975869,
+    "CPU_s": 134.15753739,
+    "peak_RSS_MiB": 721.44921875,
+    "code_sha256": "845d8b579793465b86a9193855c0adebbab14f2c1ea879e26086597abe15d100",
+    "affinity_count": 1,
+    "CUDA_VISIBLE_DEVICES": "-1"
+  },
+  {
+    "mode": "summary_and_figures",
+    "wall_s": 0.8019594391807914,
+    "CPU_s": 0.7858759989999999,
+    "peak_RSS_MiB": 77.3671875,
+    "code_sha256": "5aeebc62cc06b2ab0599759b12103a35659799192fdd60eb44d6de71749ba920"
   }
 ]

@@ -1,6 +1,10 @@
 # Doctoral Research — Codex Instructions
 
-> 最新承認：2026-10-29 L1既存凍結80モデルの限定CPU前向評価。新訓練/MD/LOFは禁止。
+> 最新状態：2026-10-29 L1凍結80モデル診断完了・審査待ち。新訓練/MD/LOFは禁止。
+
+## L1交付・停止（2026-10-29）
+
+[完全報告](docs/P1-L1/review-dossier.md)と[A–G](docs/P1-L1/handoff-to-chatgpt.md)。80/80の実行完全性/決定性/不変性PASS。再構成は限定支持、物理近傍保存とseed安定性に制限、表現全面合格ではない。独立審査/科学受入PENDING。再実行/L2/P/O/C/B2を自動開始しない。
 
 ## L1限定凍結モデル診断（2026-10-29、CONFIRMED）
 

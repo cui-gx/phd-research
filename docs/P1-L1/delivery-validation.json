@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "links_checked": 80,
+  "protected_old_files": 258,
+  "old_files_unchanged": true,
+  "server_derived_SHA_match": true,
+  "transfer_sha256": "36011cdb2abb3f38dc86a93457c3f963084f9d730e039d5aea0304a81c1e6f5c",
+  "model_count": 80,
+  "metric_rows": 480,
+  "state_rows": 288,
+  "frame_rows": 32000,
+  "new_training_MD_LOF": 0,
+  "scientific_review": "PENDING",
+  "remote_readback": "PENDING_PUSH"
+}
