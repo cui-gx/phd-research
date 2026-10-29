@@ -5,8 +5,8 @@
 - 作業ID：P1-POST-R1-QUALIFICATION-20261028。実行状態：**COMPLETE（文書審査・設計）**。科学計算の完了を表すものではない。
 - 基準main：d43e606755b83ddb9e71399860ef27e550662c57。入力B1：e7f438c074d02452d57b7602bba810173b22f9b1。R1設計：59f97821ae6ffe283c371f710546abf84f691642。
 - 六つの依頼事項を[資格審査](qualification-review.md)、[成果指標](outcome-definition.md)、[最小設計](minimal-design.md)で完了。新しいMD/学習/推論/LOF/CPU科学再解析は0、サーバ接続0。未完了実験を完了扱いしていない。
-- 最終確認日は2026-10-28 JST。本輪に関する独立科学審査・研究者の新提案採択はPENDING。
-- 最終配送SHAは本ファイルを含むGit commitから取得する。自己参照SHAを捏造しない。push後の検証済み本文版と証拠は[交付検証](delivery-validation.json)に記録し、最終配送commitは研究者への返信とGit履歴で確認する。
+- 最終配送確認日は2026-10-29 JST（クライアント日付）。本輪に関する独立科学審査・研究者の新提案採択はPENDING。
+- 本文版commit `9bbd1e984c758c2e0cc39e3bae086d6d6860a163` の配送対象16ファイルは、GitHub接続から全文を回読し、byte数・SHA-256・Git blob SHAを照合済み。最終配送SHAは本ファイルを含むGit commitから取得する。自己参照SHAを捏造しない。push後の検証済み本文版と証拠は[交付検証](delivery-validation.json)に記録し、最終配送commitは研究者への返信とGit履歴で確認する。
 - GitHubには本資料と小型証拠索引。原DCD、モデル、全loss/MDログは旧サーバarchiveに保持。現存/SHAはR1最終監査の既報に依拠し、今回の再確認ではない。MAC_RAW_BACKUP=WAIVED_BY_RESEARCHERを維持。
 
 ## B. 確認済み事項と未確認事項

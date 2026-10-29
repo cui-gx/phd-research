@@ -1,6 +1,7 @@
 {
   "status": "PASS",
-  "checked_at_JST": "2026-10-28T21:15:21.555736+09:00",
+  "checked_at_JST": "2026-10-29T09:27:49.958171+09:00",
+  "client_delivery_date_JST": "2026-10-29",
   "base_commit": "d43e606755b83ddb9e71399860ef27e550662c57",
   "scope": "文書・転記・静的ソース/SHA検査のみ。科学再解析なし。",
   "documents": {
@@ -37,8 +38,8 @@
       "sha256": "2cad9d649173865f217b68bfd830685ca760edffec66936007047e426846f68f"
     },
     "docs/P1-Post-R1-Qualification/handoff-to-chatgpt.md": {
-      "bytes": 8166,
-      "sha256": "106afd6292958efab9b4d9d6d19b8329db798bd2ac3bc8d63d1ce074eb2240cb"
+      "bytes": 8385,
+      "sha256": "fe50bbbca6d7d9958e8c3f35599dcb0e9b30c06b738b5dcfc050a0764728d85c"
     }
   },
   "relative_links_checked": 117,
@@ -94,8 +95,127 @@
     }
   ],
   "remote_readback": {
-    "status": "PENDING_COMMIT_PUSH",
-    "final_delivery_commit": "Git履歴と最終返信で取得。自己参照SHAは記入しない。"
+    "status": "PASS",
+    "checked_at_JST": "2026-10-28T21:18:00.732154+09:00",
+    "verified_content_commit": "9bbd1e984c758c2e0cc39e3bae086d6d6860a163",
+    "remote_main_at_check": "9bbd1e984c758c2e0cc39e3bae086d6d6860a163",
+    "method": "GitHub connector full UTF-8 response",
+    "files_checked": 16,
+    "files": [
+      {
+        "path": ".gitignore",
+        "bytes": 12453,
+        "sha256": "75e5158ba653d9b7719023430c28b1106a7210b93148a361953ce67ee144cab1",
+        "git_blob_sha": "aa5a03a45cda84422428bc145eac44507e1523c0",
+        "full_body_matches_commit": true
+      },
+      {
+        "path": "AGENTS.md",
+        "bytes": 29313,
+        "sha256": "d071b0b54bde0a7f4adfcbe1101e3ecc9dc8bf62eb8ff38660623e064ecfdf77",
+        "git_blob_sha": "25297a77cec52c9d5197ca4f95ca7fa099bf7845",
+        "full_body_matches_commit": true
+      },
+      {
+        "path": "docs/collaboration-policy.md",
+        "bytes": 9836,
+        "sha256": "2e8365293a0097ab3e2d403174e2b0ac40f8d8647c4cfff51c5bdd201414ed96",
+        "git_blob_sha": "0feb190c028d6555b6059361380dd5e69d53cdc5",
+        "full_body_matches_commit": true
+      },
+      {
+        "path": "docs/博士研究_全局总档案.md",
+        "bytes": 66023,
+        "sha256": "85f16f8aec948fcbdbef04a6bec44c625e7738f6805692611b425239597f7451",
+        "git_blob_sha": "197f8eea8539fbae537323bc79a26bfd24746a23",
+        "full_body_matches_commit": true
+      },
+      {
+        "path": "docs/协作交接记录.md",
+        "bytes": 78984,
+        "sha256": "9dfe4621eca90192bbd9b0a410f2a1e1e8216f3a51df05a5216bff247f7914cb",
+        "git_blob_sha": "df0e3a1c3ca9e5759a640240aa4952693d7edcb8",
+        "full_body_matches_commit": true
+      },
+      {
+        "path": "教程/研究规范/术语与定义.md",
+        "bytes": 36546,
+        "sha256": "37f6f5015bb547fbfb5afaaa4552703ee04caa56b80721292a518ac412aefbce",
+        "git_blob_sha": "467ee38f1235b4adc9c4479ea8a725928f111878",
+        "full_body_matches_commit": true
+      },
+      {
+        "path": "docs/P1-Post-R1-Qualification/README.md",
+        "bytes": 2597,
+        "sha256": "0727d45578c717148d73739fed5b2c5bc56e0040f6ee27e91f80de2ba03e614d",
+        "git_blob_sha": "48776e88e05821d732c59c4d2d890f9c3dc6510e",
+        "full_body_matches_commit": true
+      },
+      {
+        "path": "docs/P1-Post-R1-Qualification/cost-and-gates.md",
+        "bytes": 7069,
+        "sha256": "987f74c2538007399acf0000bbe874b6dc0f5737d406021cd10ce8fc54abd76d",
+        "git_blob_sha": "36e0455a231fa98d4b441e6f0275016649a5761f",
+        "full_body_matches_commit": true
+      },
+      {
+        "path": "docs/P1-Post-R1-Qualification/delivery-validation.json",
+        "bytes": 3745,
+        "sha256": "37eb00fcb22cdc9c130e3ac70b033fcd248a559f0b71d2ddcd5e395a1e9c9177",
+        "git_blob_sha": "4181084ca78b74cfd1c929ebf314c5c057ace5b7",
+        "full_body_matches_commit": true
+      },
+      {
+        "path": "docs/P1-Post-R1-Qualification/evidence-and-sources.md",
+        "bytes": 8800,
+        "sha256": "d977d8d002d36d6d873544da43df72cda422fbca81eac4f622ddf7d7f5160b7a",
+        "git_blob_sha": "7faa737f5d2000ddd66c4e404c76cb4ee199ad75",
+        "full_body_matches_commit": true
+      },
+      {
+        "path": "docs/P1-Post-R1-Qualification/handoff-to-chatgpt.md",
+        "bytes": 8166,
+        "sha256": "106afd6292958efab9b4d9d6d19b8329db798bd2ac3bc8d63d1ce074eb2240cb",
+        "git_blob_sha": "b22f61c367b1f963341012701dfcd24424854dc2",
+        "full_body_matches_commit": true
+      },
+      {
+        "path": "docs/P1-Post-R1-Qualification/minimal-design.md",
+        "bytes": 16702,
+        "sha256": "e731b8b2ac447b56fdf17c19f5c7a5282ead1360317613425f20e243d571e112",
+        "git_blob_sha": "88897a4faa9310dd4daf7b9d0b425cfd990d77a4",
+        "full_body_matches_commit": true
+      },
+      {
+        "path": "docs/P1-Post-R1-Qualification/outcome-definition.md",
+        "bytes": 10895,
+        "sha256": "3ef0df7e493e6bf4114b336d7d31e836c71d517f3bfb64a23b2159ee8fb4e581",
+        "git_blob_sha": "3a0019d28d48fccf881347876b42eea3534f4999",
+        "full_body_matches_commit": true
+      },
+      {
+        "path": "docs/P1-Post-R1-Qualification/proposed-q0-prompt.md",
+        "bytes": 3654,
+        "sha256": "2cad9d649173865f217b68bfd830685ca760edffec66936007047e426846f68f",
+        "git_blob_sha": "6a9782458e4381837e0f1eb2f9154967cd8bc777",
+        "full_body_matches_commit": true
+      },
+      {
+        "path": "docs/P1-Post-R1-Qualification/qualification-review.md",
+        "bytes": 19358,
+        "sha256": "3f7d4a0fb4e3c1b12acb5c3911ad87e94a778670ce758f1cdc21ed58ea3f6bab",
+        "git_blob_sha": "40e22c28dc02b2527c779f77e9c364442c015891",
+        "full_body_matches_commit": true
+      },
+      {
+        "path": "docs/P1-Post-R1-Qualification/supervisor-summary.md",
+        "bytes": 5222,
+        "sha256": "03a894d23a51b9ac85eb1bf587bc94a6938d4683ee1bd4663d951f199c72d73d",
+        "git_blob_sha": "c7b8875745b88fca71b29d0d3559702c81fa0f84",
+        "full_body_matches_commit": true
+      }
+    ],
+    "note": "この記録は本文版commitの全16ファイルを実際に回読した証拠。記録自身を含む最終commitは最終返信とローカル最終回読記録で示す。"
   },
   "scientific_acceptance": "PENDING",
   "proposed_methods_approved": false
