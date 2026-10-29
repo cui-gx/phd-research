@@ -1,6 +1,10 @@
 # Doctoral Research — Codex Instructions
 
-> 最新承認：2026-10-28 R1後の科学資格審査・次段階設計・日本語文書のみ。既存B1/R1不変、新しい科学計算は禁止。
+> 最新承認：2026-10-29 Q0限定CPUログ監査。新MD/学習/推論/LOF/DCD処理は禁止。
+
+## Q0限定ログ監査の承認（2026-10-29、CONFIRMED）
+
+研究者は[Q0計画](docs/P1-Q0/analysis-plan.md)の80モデル/272 MD保存ログ監査を承認した。GPU不可視、単CPU/thread、RAM2GiB、出力1GiB、2時間資源復核点。旧証拠を保持し新出力を使用する。P/L/O新計算、C/B2/S3を自動実行しない。旧Q0未承認記録はこの限定範囲のみSUPERSEDED。
 
 ## R1後の科学資格審査・設計（2026-10-28、CONFIRMEDな作業範囲）
 

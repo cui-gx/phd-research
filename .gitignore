@@ -346,3 +346,12 @@
 !/docs/P1-Post-R1-Qualification/*.md
 !/docs/P1-Post-R1-Qualification/*.json
 ._*
+
+# Q0公開証拠
+!/docs/P1-Q0/
+/docs/P1-Q0/*
+!/docs/P1-Q0/*.md
+!/docs/P1-Q0/*.csv
+!/docs/P1-Q0/*.json
+!/p1/q0_log_audit.py
+._*
