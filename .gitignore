@@ -360,3 +360,13 @@
 !/p1/q0_log_figures.py
 !/docs/P1-Q0/*.png
 ._*
+
+# L1の公開資料
+!/docs/P1-L1/
+/docs/P1-L1/*
+!/docs/P1-L1/*.md
+!/docs/P1-L1/*.json
+!/docs/P1-L1/*.csv
+!/docs/P1-L1/*.png
+!/p1/l1_frozen_diagnostic.py
+._*

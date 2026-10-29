@@ -1,6 +1,10 @@
 # Doctoral Research — Codex Instructions
 
-> 最新状態：2026-10-29 Q0限定CPUログ監査完了、独立科学審査待ち。新MD/学習/推論/LOF/DCD処理は禁止。
+> 最新承認：2026-10-29 L1既存凍結80モデルの限定CPU前向評価。新訓練/MD/LOFは禁止。
+
+## L1限定凍結モデル診断（2026-10-29、CONFIRMED）
+
+研究者は[事前計画](docs/P1-L1/analysis-plan.md)に基づく既存80checkpointのeval/no_grad CPU診断を承認した。固定共通ID、接触頻度基線、BCE/KL/潜在・近傍診断。重み/optimizer/原証拠を変更しない。単CPU/thread、GPU不可視、RSS/出力保護、2時間復核点。科学的合格閾値を新規承認せず、方法変更時停止。L2/P/O/C/B2は未承認、完了後停止する。旧前向推論禁止はこの限定範囲のみSUPERSEDED。
 
 ## Q0交付完了・停止（2026-10-29）
 
