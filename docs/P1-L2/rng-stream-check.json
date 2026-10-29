@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "streams": {
+    "1701000001": {
+      "epoch_orders_sha256": "2fcb2038636c388d66f09d468fd8d42b0980d61074e8b049b8ae5aaa40f0649a",
+      "numpy_resume_equal": true,
+      "loader_generator_resume_equal": true
+    },
+    "1702000001": {
+      "epoch_orders_sha256": "ef09be99a82863c69a2dec33902f74a9374a1792da928f91a6ec82a8dedea040",
+      "numpy_resume_equal": true,
+      "loader_generator_resume_equal": true
+    }
+  },
+  "scientific_optimizer_steps": 0
+}

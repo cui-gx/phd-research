@@ -13,3 +13,9 @@
 科学計算前にこの入力/実装をcommit/pushして遠隔全文を照合する。首M0とFULL評価実費を測定し、予定保護値を超える見込みなら次セルへ進まず停止。RSS2GiB、GPU8GiB、出力2GiB、科学工程累計2時間、単工程300秒の復核点。異常・不一致で停止し、結果の良否で行列を選別しない。B2/C/S3や新MDを行わない。
 
 現在は工程資格PASS、科学訓練0/36。実行状態はexecution-progress.jsonで追跡する。本文の工程合格は学習十分性/科学探索価値の認定ではない。
+
+## 首単位の実費による復核（2026-10-29、MEASURED / DERIVED）
+
+[首単位費用](first-unit-costs.json)：M0の1600歩はadapter内部wall6.3434秒、peakRSS1635.41MiB、GPU reserved113,246,208bytes。未学習対照のOLD/RECENTとFULL評価は内部wall3.4805秒、peakRSS668.95MiB。両方とも保護値内。FULL単独の時間はserver selection.jsonへ別保存。これはprocess起動/一部importを含まない内部時間であり、全経過時間としない。以後のcontrollerでは子process全wallを追加記録する。全156評価の候補数は状態によって異なるため単純比例を実測としないが、現在の件数は2時間復核点を下回る見込み。残件も同じ順序/条件で進め、悪化条件は除外しない。
+
+[乱数stream検査](rng-stream-check.json)：8epoch permutationの保存/復元とDataLoader generator stateの再開も一致した。科学追加step0、元12人工stepを増やしていない。

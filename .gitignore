@@ -387,3 +387,7 @@
 !/p1/l2_train.py
 !/p1/l2_evaluate.py
 ._*
+
+!/p1/l2_control.py
+!/p1/l2_aggregate.py
+._*
