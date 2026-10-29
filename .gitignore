@@ -401,3 +401,6 @@
 !/p1/l2_figures.py
 !/docs/P1-L2/*.png
 ._*
+
+!/p1/l2_postprocess.py
+._*
