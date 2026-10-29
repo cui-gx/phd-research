@@ -21,7 +21,183 @@
   "new_science_runs": 0,
   "server_sessions": 0,
   "scientific_execution": "NOT_APPROVED",
-  "remote_readback": "PENDING",
+  "remote_readback": {
+    "status": "PASS",
+    "verified_at_JST": "2026-10-29T20:22:36.747158+09:00",
+    "commit": "f5aaeca5a26d5a415fbf2e1b5f92d6ce7de1ee90",
+    "method": "GitHubから独立bare cloneし全配送blobを読み、ローカル全文・byte数・SHA-256を照合",
+    "files_verified": 24,
+    "files": [
+      {
+        "path": ".gitignore",
+        "bytes": 13002,
+        "sha256": "61cad7602327da3dabb904363352a185bdf1b904e470b76f435bc17d8f109c2f",
+        "git_blob_sha": "39321ce7aa1d6ac5de88d45ea5865726029ae698",
+        "full_body_match": true
+      },
+      {
+        "path": "AGENTS.md",
+        "bytes": 31911,
+        "sha256": "01db4f70028b884fcc66f3e23bafb4c7297b848a9ebe89b8a670743601dbf3be",
+        "git_blob_sha": "d0f979416924af6563a5938ca6fcd37029873f42",
+        "full_body_match": true
+      },
+      {
+        "path": "docs/collaboration-policy.md",
+        "bytes": 11229,
+        "sha256": "f0fc364f1ae6532ad699a1d44015993ce8fdaa102217fab24467cdafc701ef9b",
+        "git_blob_sha": "4f2f291f9558a36a9ef68ed88323b03380666b54",
+        "full_body_match": true
+      },
+      {
+        "path": "docs/博士研究_全局总档案.md",
+        "bytes": 69762,
+        "sha256": "459e99315c314b410cf64dec8ee26a3ad9ee213c4a69f4cbfe1ae8f6b776a850",
+        "git_blob_sha": "77ca1fba03d086b1c18c5d4198b7b107105e2bbf",
+        "full_body_match": true
+      },
+      {
+        "path": "docs/协作交接记录.md",
+        "bytes": 83534,
+        "sha256": "c33a0592daa9d032dfe1fbef07308cc1f477f94767fab8c2071b105d5f206009",
+        "git_blob_sha": "c308dd29e0d5c638164e2ab21cd72d05d4b6208d",
+        "full_body_match": true
+      },
+      {
+        "path": "教程/研究规范/术语与定义.md",
+        "bytes": 39334,
+        "sha256": "63b5c4ec369642eb1d27f38d2e6eb62bb7b2edc6b343fb80e04046c2a77a7785",
+        "git_blob_sha": "cca6348b9bf9e16356f66e1c0a2c6d14e5c08fc8",
+        "full_body_match": true
+      },
+      {
+        "path": "docs/P1-L2/README.md",
+        "bytes": 3170,
+        "sha256": "e9c5eadbadc261ecdbb8f2649211c36e680bc8669d555abb2db49588be080437",
+        "git_blob_sha": "b9201de93badb6a5701742e21134b4aaeaf72cdf",
+        "full_body_match": true
+      },
+      {
+        "path": "docs/P1-L2/analysis-plan.md",
+        "bytes": 7669,
+        "sha256": "44eb15892c9f9e5e9c4e3ef9f4960b8337ace6c9c3fac6753587976dfa3a565e",
+        "git_blob_sha": "eac4e29057631f2189bae8ee0fdac36e15cd9b18",
+        "full_body_match": true
+      },
+      {
+        "path": "docs/P1-L2/checkpoint-matrix.csv",
+        "bytes": 17410,
+        "sha256": "922e24e255bb4d2d23eaa7a51ac9eb14adf508b4b1f7d773d8b9b6549c560c2b",
+        "git_blob_sha": "c2f5e8212fb11a7b85db166d46af5658bc771512",
+        "full_body_match": true
+      },
+      {
+        "path": "docs/P1-L2/cost-and-scope.md",
+        "bytes": 5299,
+        "sha256": "7aa166168d1805078df94ddf424d942d46d15d2b55facf0f5099748377a55cfb",
+        "git_blob_sha": "d9ba7f4f375ad1673f1cbfc4e413510a839f50b5",
+        "full_body_match": true
+      },
+      {
+        "path": "docs/P1-L2/decision-criteria.md",
+        "bytes": 5166,
+        "sha256": "af463db44d41e69329dd88b31c271a8565f6f733e3135d0ebcfb7c7680d7af47",
+        "git_blob_sha": "4abbce5c427cfa1499278fb2f6bc3539f2dd52f9",
+        "full_body_match": true
+      },
+      {
+        "path": "docs/P1-L2/delivery-validation.json",
+        "bytes": 1281,
+        "sha256": "2ccab37c39964b4bad8f30f10597428644c45cd4d7b1a81b7e2065dd9fa7de46",
+        "git_blob_sha": "619a013ad3636e9710b663a085ff797256c337e5",
+        "full_body_match": true
+      },
+      {
+        "path": "docs/P1-L2/design-status.json",
+        "bytes": 654,
+        "sha256": "c22c4ef28a74042daf959e6c9dac92430f472072ecf365a769ea9eba0c1d22a3",
+        "git_blob_sha": "16ea9e781c0037db64df9cc085c8ac3dbed40b56",
+        "full_body_match": true
+      },
+      {
+        "path": "docs/P1-L2/evaluation-ids.csv",
+        "bytes": 113377,
+        "sha256": "0f0149ac8845fa82e860688be3f4d36280285785c77ca9b6b9b8cb134fef90bb",
+        "git_blob_sha": "4d28c7052b9a479a99cffd41655eb6ff84c45e0b",
+        "full_body_match": true
+      },
+      {
+        "path": "docs/P1-L2/evidence-and-sources.md",
+        "bytes": 5738,
+        "sha256": "b51b11bc7e4b2a2deaf72beae57436ff3d499bbf9c51250d3cb3536055864603",
+        "git_blob_sha": "81a80cec96a987eddc229989485666582b8dde76",
+        "full_body_match": true
+      },
+      {
+        "path": "docs/P1-L2/evidence-input-sha256.json",
+        "bytes": 2919,
+        "sha256": "e9c4ad1e0ef05fcc950fdd60292b6309370ff0c7120a59b568b6a48221fd8235",
+        "git_blob_sha": "3a8afdd08d84de29c5e8c813b90e2e2f5b71ee44",
+        "full_body_match": true
+      },
+      {
+        "path": "docs/P1-L2/experiment-design.md",
+        "bytes": 5970,
+        "sha256": "bdceeb931a70e67c62fcf326a4c0492f095d2c250d244b9e9e7e850b9b1d2bb9",
+        "git_blob_sha": "bcb9644b2343e5a9ff0272ee22f0020b7c93c510",
+        "full_body_match": true
+      },
+      {
+        "path": "docs/P1-L2/experiment-matrix.csv",
+        "bytes": 4055,
+        "sha256": "28857d7c0fca7c8095bef21f52e1724bd2d0db309d6b64f52f78c9a865cd0d48",
+        "git_blob_sha": "a5044688259c1961bdaa7af8f9f10e821f037319",
+        "full_body_match": true
+      },
+      {
+        "path": "docs/P1-L2/handoff-to-chatgpt.md",
+        "bytes": 6674,
+        "sha256": "a84c7dd03f51fe9211b7e81ff40659d39530958f5f3f0c0e42f52142b7bdeebc",
+        "git_blob_sha": "09804cb4a5bdf735ef336201384b105f3e814356",
+        "full_body_match": true
+      },
+      {
+        "path": "docs/P1-L2/metric-contract.md",
+        "bytes": 8976,
+        "sha256": "a6e846bc6280a3afc63047bdb91f786dd7fe50d36817681a836665275ea632e3",
+        "git_blob_sha": "123b2efffe77e98656dee6d8d6ddc8154c60c6db",
+        "full_body_match": true
+      },
+      {
+        "path": "docs/P1-L2/proposed-execution-prompt.md",
+        "bytes": 3143,
+        "sha256": "595c0938dd87c14ece5243016bc006c26e665d1803f32e48007421aa28046249",
+        "git_blob_sha": "0c3eb00fb07a1aaf296a3d6d8d80884507d72e74",
+        "full_body_match": true
+      },
+      {
+        "path": "docs/P1-L2/risks-and-unidentified.md",
+        "bytes": 3208,
+        "sha256": "2cb3cbbcae9edd76296f6b4f1b37e98c073686f1f7c5061a68384623d32672c0",
+        "git_blob_sha": "f15b8b44067e9db50a35937977af9c598373d944",
+        "full_body_match": true
+      },
+      {
+        "path": "docs/P1-L2/script-design.md",
+        "bytes": 6337,
+        "sha256": "43973986ababc6825a79ee75865a5f36b5101eaeebe6cc04e1dd1b80c16ac7b7",
+        "git_blob_sha": "04903f75825a49d96ea7f81797c3936267d1fb1a",
+        "full_body_match": true
+      },
+      {
+        "path": "docs/P1-L2/training-membership.csv",
+        "bytes": 297670,
+        "sha256": "7243a706300ed5c0e686dcfade21437e839b15e2cdfe3f8bf5111cf0abadb8ec",
+        "git_blob_sha": "0dd11874c30cde3f59dd521682a389b3ac78ff32",
+        "full_body_match": true
+      }
+    ]
+  },
   "original_server_archives_rechecked_this_session": false,
   "failures": [
     {
@@ -29,5 +205,6 @@
       "status": "RESOLVED",
       "detail": "新設計CSVのCRLFをstaged diff検査が末尾空白として検出。新CSV4件だけをLFへ正規化し、原CSV/全field値は不変。"
     }
-  ]
+  ],
+  "final_delivery_commit_note": "最終配送commitは、この本文版回読記録を含むcommit。push後に再回読し、Git履歴・研究者への返信・ローカル最終receiptで特定する。"
 }
