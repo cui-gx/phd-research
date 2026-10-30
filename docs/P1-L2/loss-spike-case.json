@@ -1,0 +1,21 @@
+{
+  "source_relative_path": "chains/r02-s8-i2-M0/loss-steps.csv",
+  "source_sha256": "1034dd05dc8554e8dd3e812d93cf3a602eb980678d3621bbd79cc8545d32f6a0",
+  "rows": 1600,
+  "selection_rule": "全288 epochの最大値から特定した全57600 step中の最大total case。新しい閾値分類ではない。",
+  "maximum_row": {
+    "chain_steps": "5",
+    "lifetime_steps": "5",
+    "epoch": "1",
+    "batch": "4",
+    "BCE_sum": "88600.0",
+    "KL_mean": "242598880.0",
+    "raw_total": "242687488.0",
+    "BCE_per_frame": "22150.0",
+    "BCE_per_element": "28.252551020408163",
+    "gradient_norm_before_clip": "1467631.625"
+  },
+  "model_excluded": false,
+  "rerun": false,
+  "cause_beyond_BCE_KL_components": "UNVERIFIED"
+}

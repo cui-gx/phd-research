@@ -1,0 +1,38 @@
+{
+  "observed_prior_wall_s": 4215.009706830606,
+  "initial_process_startup_not_fully_measured": true,
+  "phases": [
+    {
+      "phase": "audit",
+      "wall_s": 4.50759310554713,
+      "CPU_s": 4.4793400000000005,
+      "peak_RSS_sampled_MiB": 502.3046875,
+      "return_code": 0,
+      "source_sha256": "7fc01f2ad7aa6591e60c0a69a8c2afc60dd299891430ece4a1f41582095a60b3"
+    },
+    {
+      "phase": "aggregate",
+      "wall_s": 8.258667637594044,
+      "CPU_s": 8.069906999999999,
+      "peak_RSS_sampled_MiB": 273.15625,
+      "return_code": 0,
+      "source_sha256": "aeda25f71a042edcee67a170d3b7e8ecb6e9089cd27fe141345cce1fc8986ac5"
+    },
+    {
+      "phase": "review-summary",
+      "wall_s": 1.254746195860207,
+      "CPU_s": 1.116617000000001,
+      "peak_RSS_sampled_MiB": 46.40234375,
+      "return_code": 0,
+      "source_sha256": "92ad5a038c35157979ee0ecc168aa7b796321149ce186f86fb818c37f77a75dd"
+    },
+    {
+      "phase": "figures",
+      "wall_s": 1.2547331368550658,
+      "CPU_s": 1.2195629999999993,
+      "peak_RSS_sampled_MiB": 93.50390625,
+      "return_code": 0,
+      "source_sha256": "85fbd8c20145f46623e1eadf9b104bf3690d170dd6dff7fb40dfa09784b9512f"
+    }
+  ]
+}

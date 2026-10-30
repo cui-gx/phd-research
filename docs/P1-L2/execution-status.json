@@ -1,0 +1,9 @@
+{
+  "status": "SCIENTIFIC_UNITS_COMPLETE",
+  "current": null,
+  "chains_complete": 36,
+  "expected_chains": 36,
+  "evaluations_complete": 156,
+  "expected_evaluations": 156,
+  "scientific_optimizer_steps": 57600
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "original_files_rehashed": 108,
+  "checkpoints": 156,
+  "parent_pairs": 24,
+  "F1_F2_RNG_pairs": 48,
+  "exposure_rows": 230400,
+  "loss_rows": 57600,
+  "independent_initial_weights": 3,
+  "initial_child_RNG_direct_snapshot": "NOT_SAVED_at_step0; identical reseeding is source-controlled; actual saved same-step F1/F2 RNGs were compared",
+  "wall_s": 3.2833798760548234
+}

@@ -410,3 +410,9 @@
 
 !/p1/l2_optimizer_audit.py
 ._*
+
+# L2交付の文書整形・静的検証と保護SHA。科学rawは含めない。
+!/research-workflow/l2-write-final-docs.py
+!/research-workflow/l2-delivery-static-check.py
+!/research-workflow/l2-protected-baseline.json
+._*

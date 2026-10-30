@@ -1,0 +1,32 @@
+[
+  {
+    "arm": "M0",
+    "cells": 48,
+    "reconstruction_cells": 33,
+    "input_dependence_cells": 30,
+    "geometry_cells": 44,
+    "joint_cells": 26,
+    "claim": "PARTIAL_INCONCLUSIVE",
+    "learning_convergence": "UNVERIFIED"
+  },
+  {
+    "arm": "F1",
+    "cells": 48,
+    "reconstruction_cells": 37,
+    "input_dependence_cells": 30,
+    "geometry_cells": 42,
+    "joint_cells": 26,
+    "claim": "PARTIAL_INCONCLUSIVE",
+    "learning_convergence": "UNVERIFIED"
+  },
+  {
+    "arm": "F2",
+    "cells": 48,
+    "reconstruction_cells": 47,
+    "input_dependence_cells": 48,
+    "geometry_cells": 46,
+    "joint_cells": 45,
+    "claim": "PARTIAL_INCONCLUSIVE",
+    "learning_convergence": "UNVERIFIED"
+  }
+]

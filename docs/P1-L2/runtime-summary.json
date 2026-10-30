@@ -1,0 +1,38 @@
+{
+  "GPU_training": {
+    "units": 36,
+    "adapter_wall_s": 223.8047972312197,
+    "CPU_s": 223.48173982699998,
+    "adapter_min_s": 6.131982292048633,
+    "adapter_max_s": 6.447809509932995,
+    "adapter_mean_s": 6.216799923089436,
+    "peak_RSS_MiB": 1636.13671875,
+    "outer_wall_observed_units": 35,
+    "outer_wall_s": 263.60237669572234,
+    "peak_allocated_bytes": 103462400,
+    "peak_reserved_bytes": 113246208
+  },
+  "CPU_evaluation": {
+    "units": 156,
+    "adapter_wall_s": 3706.232238953002,
+    "CPU_s": 3705.026538326,
+    "adapter_min_s": 3.4804607909172773,
+    "adapter_max_s": 67.64302279613912,
+    "adapter_mean_s": 23.757898967647446,
+    "peak_RSS_MiB": 708.9921875,
+    "outer_wall_observed_units": 155,
+    "outer_wall_s": 3938.75687078014
+  },
+  "controller_span_s": 4344.121057987213,
+  "controller_process_wall_s": 4202.3592474758625,
+  "controller_outside_process_s": 141.76181051135063,
+  "controller_start_JST": "2026-10-29T20:47:16.514184+09:00",
+  "controller_end_JST": "2026-10-29T21:59:40.635242+09:00",
+  "postprocess_wall_s": 15.275740075856447,
+  "report_completion_wall_s": 3.515189223922789,
+  "observed_accounted_wall_s": 4233.800636130385,
+  "first_two_manual_process_startup_fully_measured": false,
+  "code_and_document_and_Git_wall_excluded": true,
+  "disk_bytes_current": 1229390385,
+  "new_MD": 0
+}

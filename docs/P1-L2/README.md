@@ -1,6 +1,20 @@
-# P1-L2：CVAEの学習量と潜在表現の資格診断
+# P1-L2：CVAE学習量・初期化と表現資格 — 実行完了、審査待ち
 
-2026-10-29 最新：研究者がv1の限定実行を承認し、入力/工程資格と首単位を検証済み。[実行カード](execution-approval.md)、[進捗](execution-progress.json)、[首単位費用](first-unit-costs.json)。以下の「設計のみ・未承認」は8d34e371時点の履歴で、承認範囲は実行カードを優先する。
+2026-10-30 JST。**36/36 chain、156/156評価、57,600新規optimizer stepsを完了**。新MD0。技術監査PASS、表現資格は全臂PARTIAL_INCONCLUSIVE、独立科学審査・研究者受入れPENDING。制御器・後処理は終了済みで、同じ行列を再実行しない。
+
+最初に読む資料：
+
+- [完全科学報告](review-dossier.md)：数学、全歩数・全尺度、陰性結果、費用、限界。
+- [A–G固定交接](handoff-to-chatgpt.md)：ChatGPT独立審査の入口と全証拠索引。
+- [指導教員向け概要](supervisor-summary.md)：短い正確な説明。
+- [完了状態](execution-progress.json)、[実行証拠](execution-status.json)、[交付監査](execution-delivery-validation.json)、[最終サーバ確認](final-server-check.json)、[GitHub回読](remote-readback.json)。
+- [再現手順](reproduce.md)、[全モデル](model-metrics.csv)、[幾何](geometry.csv)、[全対比](paired-contrasts.csv)、[LOF](LOF-comparisons.csv)、[実費用](runtime-summary.json)、[raw SHA](raw-output-sha256.json)。
+
+F2の近期BCEは改善したが、局所物理近傍と初期化安定性は限定的。最終48判定セルの同時支持はM0 26、F1 26、F2 45。巨大な有限KL峰も全結果に保持した。**低loss・Top1変化を探索利益、C、B2、収束と解釈しない**。正式閲覧図は`*-v2.png`。旧再構成図の軸切断は修正済み、旧図と数値は履歴として保持する。
+
+以下は設計時の原文履歴。未承認・実施0という記載はその時点の状態であり、今回の限定実行承認・完了状態が優先する。[元設計A–G](design-handoff-8d34e371.md)も保持した。
+
+---
 
 設計時記録（2026-10-29 JST）。基準：`83bac631c007366d1492330fe3355677d4f5eeaf`。
 **本輪は設計・証拠読取り・静的点検だけである。実験の実行はNOT APPROVED。**

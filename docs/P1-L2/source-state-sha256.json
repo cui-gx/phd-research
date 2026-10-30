@@ -1,0 +1,14 @@
+{
+  "code/p1/l2_engineering.py": "c4b74108def60f8b70a552ef3797e6dffc20f649f32d3dd2f22b96b4c6e61227",
+  "code/p1/l1_frozen_diagnostic.py": "845d8b579793465b86a9193855c0adebbab14f2c1ea879e26086597abe15d100",
+  "code/p1/l2_train.py": "84ffdbb55e22631c4836243f1e447687e3f22e4a77b891cb01a21a25145794e4",
+  "code/p1/l2_evaluate.py": "8bc530cd863b48c20204740d3dbcd8227cfdaa57854a7149ab827d6f84556abc",
+  "code/p1/l2_control.py": "458ccf879fb02010b6615b744b61aa82358113b9064d483fd364e6c2b4c4bd2a",
+  "code/p1/l2_aggregate.py": "aeda25f71a042edcee67a170d3b7e8ecb6e9089cd27fe141345cce1fc8986ac5",
+  "code/p1/l2_review_summary.py": "92ad5a038c35157979ee0ecc168aa7b796321149ce186f86fb818c37f77a75dd",
+  "code/p1/l2_audit.py": "7fc01f2ad7aa6591e60c0a69a8c2afc60dd299891430ece4a1f41582095a60b3",
+  "code/p1/l2_figures.py": "b47896647ee212498d72b8a6f6d2c54d6211cf6e03b47c717f27cb3df674a01f",
+  "code/p1/l2_postprocess.py": "fde757ce7bc5589eda5fa791cc5d2295ac4d21e4fc063282115cf39064f390f8",
+  "code/p1/l2_report_facts.py": "79931ef19efd196f73164098bf90f6aa8489c6108403fe7afdd87b4c58fb7240",
+  "code/p1/l2_optimizer_audit.py": "5393af3b863b34c9d12566b8569b6ed2cedc7cbf4fb4621c18c3d4c95dd26126"
+}

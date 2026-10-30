@@ -1,0 +1,109 @@
+{
+  "checked_JST": "2026-10-30T09:18:57.387112+09:00",
+  "status": "PASS",
+  "scope": "終了・lock・小型証拠SHA・既存archiveの存在/サイズだけを点検。科学再実行なし。",
+  "statuses": {
+    "status.json": {
+      "status": "SCIENTIFIC_UNITS_COMPLETE",
+      "current": null,
+      "chains_complete": 36,
+      "expected_chains": 36,
+      "evaluations_complete": 156,
+      "expected_evaluations": 156,
+      "scientific_optimizer_steps": 57600
+    },
+    "postprocess-status.json": {
+      "status": "COMPLETE",
+      "phase": "ALL",
+      "new_MD": 0,
+      "new_training": 0,
+      "new_forward": 0
+    },
+    "report-completion-status.json": {
+      "status": "COMPLETE",
+      "phase": "ALL",
+      "new_MD": 0,
+      "new_training": 0,
+      "new_forward": 0
+    }
+  },
+  "locks": [
+    {
+      "file": "training.run.lock",
+      "held": false
+    },
+    {
+      "file": "cpu.run.lock",
+      "held": false
+    },
+    {
+      "file": "controller.run.lock",
+      "held": false
+    },
+    {
+      "file": "postprocess.run.lock",
+      "held": false
+    },
+    {
+      "file": "engineering/run.lock",
+      "held": false
+    }
+  ],
+  "active_L2_workers": 0,
+  "output_bytes": 1230157897,
+  "late_output_sha256": {
+    "latent-loss-range-summary.json": "4cfd04d32f0d04b6051df13dce511d1b5278e7811def39e516fb7fb4d2ca7ae1",
+    "loss-spike-case-r02-s8-i2-M0.csv": "1034dd05dc8554e8dd3e812d93cf3a602eb980678d3621bbd79cc8545d32f6a0",
+    "loss-spike-case.json": "c6f0e363c77f7622d8c5f19c651c97fb75700e3c98ea4416e487748d9f6e874e"
+  },
+  "old_archive_candidates": [
+    {
+      "name": "r01.tar.gz",
+      "bytes": 2528044626,
+      "path": "artifacts/b1-expansion-20261026/archives/r01.tar.gz"
+    },
+    {
+      "name": "r02.tar.gz",
+      "bytes": 2526798997,
+      "path": "artifacts/b1-expansion-20261026/archives/r02.tar.gz"
+    },
+    {
+      "name": "r03.tar.gz",
+      "bytes": 2528026022,
+      "path": "artifacts/b1-expansion-20261026/archives/r03.tar.gz"
+    },
+    {
+      "name": "r04.tar.gz",
+      "bytes": 2526185600,
+      "path": "artifacts/b1-expansion-20261026/archives/r04.tar.gz"
+    },
+    {
+      "name": "r05.tar.gz",
+      "bytes": 2525834533,
+      "path": "artifacts/b1-expansion-20261026/archives/r05.tar.gz"
+    },
+    {
+      "name": "r06.tar.gz",
+      "bytes": 2525220210,
+      "path": "artifacts/b1-expansion-20261026/archives/r06.tar.gz"
+    },
+    {
+      "name": "r07.tar.gz",
+      "bytes": 2527341863,
+      "path": "artifacts/b1-expansion-20261026/archives/r07.tar.gz"
+    },
+    {
+      "name": "r08.tar.gz",
+      "bytes": 2528215449,
+      "path": "artifacts/b1-expansion-20261026/archives/r08.tar.gz"
+    },
+    {
+      "name": "metadata.tar.gz",
+      "bytes": 8265563,
+      "path": "artifacts/b1-expansion-20261026/archives/metadata.tar.gz"
+    }
+  ],
+  "old_archive_full_rehash_this_check": false,
+  "new_MD_training_forward_LOF": 0,
+  "old_archives_exist_and_size_match": true
+}

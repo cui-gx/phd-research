@@ -1,14 +1,20 @@
 {
-  "status": "TRAINING_COMPLETE_CPU_EVALUATION_RUNNING",
+  "status": "SCIENTIFIC_COMPUTE_COMPLETE_REPORT_COMPLETE_WAITING_REVIEW",
   "approved_design_commit": "8d34e3714e246afb0bd74fe6943abeafd8f89c5b",
   "training_chains_complete": 36,
   "expected_chains": 36,
   "scientific_optimizer_steps": 57600,
-  "evaluation_points_complete": 47,
+  "evaluation_points_complete": 156,
   "expected_evaluations": 156,
   "input_audit": "PASS_108_FILES",
-  "synthetic_check": "PASS",
+  "synthetic_check": "PASS_CPU_BIT_RESTORE",
+  "result_audit": "PASS",
   "new_MD": 0,
   "all_36_archived_recipes_match": true,
-  "scientific_acceptance": "PENDING"
+  "representation_qualification": "PARTIAL_INCONCLUSIVE_ALL_ARMS",
+  "convergence": "UNVERIFIED",
+  "independent_scientific_review": "PENDING",
+  "scientific_acceptance": "PENDING",
+  "next_action": "researcher_and_ChatGPT_review_only",
+  "checked_JST": "2026-10-30T09:18:57.387112+09:00"
 }

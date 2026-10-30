@@ -15,5 +15,11 @@
     "new_training": 0,
     "new_forward": 0,
     "new_MD": 0
+  },
+  {
+    "type": "DOCUMENT_STATIC_CHECK_APPLEDOUBLE_JSON_GLOB",
+    "status": "RESOLVED_STATIC_ONLY",
+    "details_ja": "文書用静的検査が._*.jsonを実JSONとして読んでUnicodeDecodeError。AppleDoubleを除外し本輪metadataを清掃。科学データ/実験/数値は不変。",
+    "new_scientific_computation": 0
   }
 ]

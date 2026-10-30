@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE",
+  "chains": 36,
+  "scientific_optimizer_steps": 57600,
+  "evaluation_points": 156,
+  "metric_rows": 936,
+  "geometry_rows": 624,
+  "latent_rows": 936,
+  "paired_conditions": 660,
+  "paired_metric_rows": 3960,
+  "LOF_comparisons": 660,
+  "new_MD": 0,
+  "independent_roots": 2,
+  "scientific_acceptance": "PENDING",
+  "wall_s": 3930.0370361842215
+}

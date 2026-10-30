@@ -1,0 +1,27 @@
+{
+  "remote_readback": "PASS",
+  "implementation_commit": "fea7500e735b6376e23e7cfe89e95bc976ca880e",
+  "design_commit": "8d34e3714e246afb0bd74fe6943abeafd8f89c5b",
+  "files_verified": 14,
+  "method": "authenticated GitHub connector full contents and blob SHA verification",
+  "train_adapter_sha256": "84ffdbb55e22631c4836243f1e447687e3f22e4a77b891cb01a21a25145794e4",
+  "evaluate_adapter_sha256": "8bc530cd863b48c20204740d3dbcd8227cfdaa57854a7149ab827d6f84556abc",
+  "controller_commit": "79ab95016b881e8294837137985cc77cd2208af4",
+  "controller_readback": "PASS_5_FULL_FILES",
+  "plan_sha256": {
+    "experiment-matrix.csv": "28857d7c0fca7c8095bef21f52e1724bd2d0db309d6b64f52f78c9a865cd0d48",
+    "checkpoint-matrix.csv": "922e24e255bb4d2d23eaa7a51ac9eb14adf508b4b1f7d773d8b9b6549c560c2b",
+    "training-membership.csv": "7243a706300ed5c0e686dcfade21437e839b15e2cdfe3f8bf5111cf0abadb8ec",
+    "evaluation-ids.csv": "0f0149ac8845fa82e860688be3f4d36280285785c77ca9b6b9b8cb134fef90bb",
+    "metric-contract.md": "a6e846bc6280a3afc63047bdb91f786dd7fe50d36817681a836665275ea632e3",
+    "experiment-design.md": "bdceeb931a70e67c62fcf326a4c0492f095d2c250d244b9e9e7e850b9b1d2bb9"
+  },
+  "adapter_sha256": {
+    "l2_engineering.py": "c4b74108def60f8b70a552ef3797e6dffc20f649f32d3dd2f22b96b4c6e61227",
+    "l2_train.py": "84ffdbb55e22631c4836243f1e447687e3f22e4a77b891cb01a21a25145794e4",
+    "l2_evaluate.py": "8bc530cd863b48c20204740d3dbcd8227cfdaa57854a7149ab827d6f84556abc",
+    "l2_control.py": "458ccf879fb02010b6615b744b61aa82358113b9064d483fd364e6c2b4c4bd2a",
+    "l2_aggregate.py": "09bf75f1a75aa34e3f4ae71290ee8f08da0a17a48733b7696355b52641729899",
+    "l1_frozen_diagnostic.py": "845d8b579793465b86a9193855c0adebbab14f2c1ea879e26086597abe15d100"
+  }
+}

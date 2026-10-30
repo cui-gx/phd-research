@@ -1,6 +1,6 @@
 # L2の再現手順と証拠の境界
 
-2026-10-29。現在は承認済みv1を実行中であり、本書は新しい再実行の承認ではない。成功済み出力へ再度コマンドを実行しない。全checkpoint/完全logは許可サーバの本輪専用領域、公開側は表・SHA・コードを保持する。
+2026-10-30。承認済みv1の全36chain・156評価と監査は終了した。本書は新しい再実行の承認ではない。成功済み出力へ再度コマンドを実行しない。全checkpoint/完全logは許可サーバの本輪専用領域、公開側は表・SHA・コードを保持する。
 
 ## 固定する版
 
@@ -8,7 +8,10 @@
 - 入力凍結・人工CVAE資格・訓練/評価実装：`fea7500e735b6376e23e7cfe89e95bc976ca880e`。
 - 制御器修正：`79ab95016b881e8294837137985cc77cd2208af4`。旧05016a2のログ引数衝突は[失敗台帳](execution-failures.json)に残す。
 - 記述表・損失曲線の集約：`3d638eba728ce3badd5ec718f7683b9532bd2380`。
-- checkpoint/実exposure/RNG監査：`09110f122b27925ed2b74343172f0e4e8785e2ed`。
+- checkpoint/実exposure/RNG監査の最終版：`bd7a0983adf8c0deaf1bb243010587ef1cabc917`。NumPyの省略reprでなく実状態全配列をhashする。
+- 集約の固定feature cache：`eb177efb05590643d47d71db671c7d03d8b7dd5e`。評価量は不変。
+- 実RMSprop counter・判定集計・図v2と報告補足wrapper：`a9d42afbc6ae2603c0ab1b06d6f22f63baf9ec86`。
+- 実配備SHA：[source-state](source-state-sha256.json)、[後処理release](postprocess-release.json)、[報告補足release](report-completion-release.json)。一つのHEADを全過去実行へ流用せず工程別版を使う。
 
 環境はTorch2.7.1+cu128、NumPy1.26.4、scikit-learn1.6.1、mdlearn0.0.10a1（ソース938cb80）。GPUはRTX PRO 6000 Blackwell Max-Q 96GB一枚。実際にimportされたmdlearn5ファイルのSHAは[input-freeze.json](input-freeze.json)。共有システムへの依存追加/更新はしていない。
 
@@ -44,6 +47,27 @@ GPU訓練の入口は`p1.l2_train PROJECT PLAN OUTPUT CHAIN_ID`、CPU評価の�
 
 制御器終了を確認してから、同じ単CPU/GPU不可視条件で`p1.l2_audit`、`p1.l2_aggregate`、`p1.l2_review_summary`を順次実行する。計算中の第二解析workerを並走させない。入力108 SHA、156 checkpoint/optimizer digest、24親関係、48同step更新RNG組、230,400提示、57,600loss行を検査する。原archive全体の新規SHA監査とは異なる。
 
-全936のモデル×集合×mask行、全624の幾何行、全936次元行を保ち、全step/臂/init対を出す。root単位は2、同root二状態、3init、同chain checkpoint、相関frameという階層を保つ。未知根CI/p値や科学探索利益を新規算出しない。
+全936のモデル×集合×mask行、全624の幾何行、全936次元行を保ち、全step/条件群/init対を出す。root単位は2、同root二状態、3init、同chain checkpoint、相関frameという階層を保つ。未知根CI/p値や科学探索利益を新規算出しない。
 
 公開表とサーバrawへの相対索引をSHAで結び、旧証拠不変性・費用・欠測・陰性結果を報告する。別機種/異なるlibraryのbit再現性は保証しない。Mac原archive免除と原9archive保持を維持する。
+
+## 5. 今回実行済みの後処理と図の復元
+
+実行済み入口は`p1.l2_postprocess PROJECT PLAN OUTPUT`で、監査・全対比集計・記述要約・初版図を単CPUで順次処理した。続いて同入口へ`--report-completion`を付け、実optimizer audit、固定判定/要約、図v2を処理した。既存結果は排他的作成で保護されるため、同じOUTPUTへ再実行しない。[postprocess-costs](postprocess-costs.json)、[report-completion-costs](report-completion-costs.json)にwall/CPU/RSS監視がある。モデルloadはauditでdigest/counter確認だけ、これらの後処理は新訓練・新forward・MD・LOF refitを行わない。
+
+- `p1.l2_audit PROJECT PLAN OUTPUT`：使用108入力と全checkpoint/親/RNG/exposureの照合。
+- `p1.l2_aggregate PROJECT PLAN OUTPUT`：全660対比、全mask/集合、幾何・LOF・安定性。保存配列を使い、新しい選点のMDを割り当てない。
+- `p1.l2_review_summary PLAN OUTPUT`：overview、状態対応差、288epochの平均/min/max、raw SHA。
+- `p1.l2_optimizer_audit PLAN OUTPUT`：保存されたRMSpropの実stepと累積学習量の照合。
+- `p1.l2_report_facts OUTPUT`：全48セル/条件群の事前方向判定、歩数/更新/初期化/LOFの記述要約。
+- `p1.l2_figures OUTPUT`：保存CSVから日本語図を作る。最新ソースはv2別名を使用し、全個別線を共通最大y値内へ収める。
+
+コマンドの正確な引数は各固定版の`argparse`を参照し、別途の再実行承認後、新規OUTPUTを用意する。環境変数`MPLCONFIGDIR`は本人の本輪専用cacheへ設定する。別機種で図のPNG bit一致を保証しないが、入力CSVとプロット値の一致を確認できる。
+
+潜在範囲JSONは保存`latent.csv`の1600行だけを条件群・集合でグループ化し、母分散・Eσ²・次元KL・固有値のmin/maxを記述した。最大loss caseは全288epoch extremaから最大totalを特定し、該当chainの原`loss-steps.csv`1600行をbyte転記して元SHAと照合した。これらは新しい閾値分類・モデル実行ではない。[case](loss-spike-case.json)、[range](latent-loss-range-summary.json)。
+
+日本語本文の表はサーバCSVの既存要約列を`research-workflow/l2-write-final-docs.py`で整形した。Macで科学値を新計算しない。[最終交付監査](execution-delivery-validation.json)は表件数・保護SHA・相対リンク等の静的検証であり、科学再実験ではない。
+
+## 6. 証拠の保存と停止
+
+原9archiveは削除せず、最新終了点検は存在とサイズを確認した。全量SHAの過去検証と区別する。L2 raw weights/arrays/loss/exposure/logsも専用サーバ領域に保持し、[raw SHA](raw-output-sha256.json)、[ログSHA](execution-log-sha256.json)で特定する。原archiveをMacへ転送しない。GitHubは全統計・コード・図・索引だけを保存し、[遠隔回読](remote-readback.json)で公開側の実内容を検証する。独立科学審査・研究者受入れはPENDING。完了した制御器や科学単位を再始動しない。

@@ -1,6 +1,10 @@
 # Doctoral Research — Codex Instructions
 
-> 最新状態：2026-10-29 L2-design-v1の限定実行を研究者が承認。工程資格・入力凍結後に固定行列のみ実行する。
+> 最新状態：2026-10-30 L2固定科学実行・報告交付完了。独立科学審査・研究者受入れ待ちで停止。再実行・追加計算を自動開始しない。
+
+## L2実行完了・審査待ち（2026-10-30、MEASURED / DERIVED）
+
+[完全報告](docs/P1-L2/review-dossier.md)・[A–G](docs/P1-L2/handoff-to-chatgpt.md)。36/36chain、156/156評価、57,600新規歩、230,400提示、108使用原入力/156checkpoint/24親/48RNG/実optimizer監査PASS。旧科学証拠は不変。全臂PARTIAL_INCONCLUSIVE、F2三条件同時支持45/48、巨大有限KL峰と初期化/LOF不安定を保持する。有限性・低loss・選点変化は収束/探索利益/C/B2の証明ではない。制御器・全後処理は終了しlock非保持。新MD0、原9archive保持、Mac原backup免除継続。独立科学審査・研究者受入れPENDING。次は審査のみ。L2再実行/1600超/P/O/C/B2/S3を自動開始しない。以下の実行承認は完了済み履歴で、再計算許可ではない。
 
 ## L2限定実行の承認（2026-10-29、CONFIRMED）
 

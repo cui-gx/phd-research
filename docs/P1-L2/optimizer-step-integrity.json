@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "checkpoints": 156,
+  "actual_RMSprop_state_counters_match": true,
+  "new_forward": 0,
+  "new_optimizer_steps": 0,
+  "wall_s": 1.032953497953713
+}

@@ -1,0 +1,20 @@
+{
+  "optimizer-step-audit.csv": "c1fbe532c12bba35c1719b5d51352a5de395579f3665f611be7f021e6047fe32",
+  "optimizer-step-integrity.json": "408accbfc3e1a65962bd4baac1ea86fa1e012547a42832fafb7763e72f249584",
+  "decision-cells.csv": "ce0445c6fc3ddc95821699070172268f8d0b57fbcc5f46302b394a38df26d797",
+  "qualification-checks.json": "3edd4514e6b7b9cfc17168fb3451fe96c67cdb70c4d51682babab32462a9bfe5",
+  "step-improvement-summary.csv": "343846eb03a3970e09f9db378ef060ad90f2cd8a9433696264666edacc642d76",
+  "update-effects-summary.csv": "9f34d8bc1665b5bb7c43ee3d605894d08e8922116ffdaff0632a805cf2d0d898",
+  "initialization-summary.csv": "0361e4c3b41ebcee3ec7443f1f926588ce844a1bfa1b4fa673b6261422439aee",
+  "LOF-summary.csv": "aa091ac527bb8f67ef1eb440a1c5db6fddb682e87358e6fbf5a9e1d4a3a2751c",
+  "numeric-validation.json": "92a396aac114feb72c04ddf430357f89b2034431a5415bccd3ba7d918fc4941f",
+  "reconstruction-nonlocal-v2.png": "3fe80992b33b908294805e85068be87d4b954c2323d6b81648809b97aa5382e6",
+  "reconstruction-long-v2.png": "5576e4fe41bd2fe043b88ff44a93a2be5b1832d237f5c56494f998ad9126ff1e",
+  "physical-neighbors-v2.png": "1ba89ee495743c6a4bd7be0c2c0e42edf4d96ce024888acff5fbe54ed7ade45e",
+  "report-completion-costs.json": "e37b9489196605268ab087afe454a2bed87d34d09c4430ca1d53fde87438111d",
+  "report-completion-status.json": "14c1cb2fc5e5e3ae68b7b0fa49173994a30a86b8ed4015d3534196b26818a77e",
+  "report-completion-release.json": "28f8936342d927b19928f4b4fa252229b8af0c7eac5c873e51bdc5859a047321",
+  "runtime-summary.json": "ba5f39eeebeabd2220fd32cf1d69f9c21ab702c4d498885f5388c841cb4dc449",
+  "execution-log-sha256.json": "35a6a4a2ce2f46b07704f41a6b42456c565ef43227576b5666d5e2f3abf134b0",
+  "source-state-sha256.json": "86765e54480ce0bae731ed818b9d94b0d5a6654a0bd0a752ae5c63e11e1efadb"
+}

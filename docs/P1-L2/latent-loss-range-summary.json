@@ -1,0 +1,103 @@
+{
+  "scope": "各臂1600step・12モデル×3次元の全範囲。閾値分類なし。",
+  "latent_final_ranges": [
+    {
+      "arm": "M0",
+      "set": "OLD_VALIDATION",
+      "model_dimensions": 36,
+      "mu_population_variance_min": 0.013397378847002983,
+      "mu_population_variance_max": 0.7763411402702332,
+      "posterior_variance_mean_min": 0.01142460573464632,
+      "posterior_variance_mean_max": 0.5492033958435059,
+      "KL_dimension_mean_min": 0.13490945100784302,
+      "KL_dimension_mean_max": 4.290981769561768,
+      "cov_eigenvalue_min": 0.0035946394463918004,
+      "cov_eigenvalue_max": 1.1480750496548606
+    },
+    {
+      "arm": "M0",
+      "set": "RECENT_HELDOUT",
+      "model_dimensions": 36,
+      "mu_population_variance_min": 0.0066275205463171005,
+      "mu_population_variance_max": 0.3697133958339691,
+      "posterior_variance_mean_min": 0.013589323498308659,
+      "posterior_variance_mean_max": 0.5633914470672607,
+      "KL_dimension_mean_min": 0.1536332666873932,
+      "KL_dimension_mean_max": 2.9145166873931885,
+      "cov_eigenvalue_min": 0.0016485016712551356,
+      "cov_eigenvalue_max": 0.4605098617286467
+    },
+    {
+      "arm": "F1",
+      "set": "OLD_VALIDATION",
+      "model_dimensions": 36,
+      "mu_population_variance_min": 0.02878814935684204,
+      "mu_population_variance_max": 0.7137969732284546,
+      "posterior_variance_mean_min": 0.010570470243692398,
+      "posterior_variance_mean_max": 0.4040094316005707,
+      "KL_dimension_mean_min": 0.2630622982978821,
+      "KL_dimension_mean_max": 5.48091983795166,
+      "cov_eigenvalue_min": 0.007805751523761673,
+      "cov_eigenvalue_max": 0.8812107743286761
+    },
+    {
+      "arm": "F1",
+      "set": "RECENT_HELDOUT",
+      "model_dimensions": 36,
+      "mu_population_variance_min": 0.008064460009336472,
+      "mu_population_variance_max": 0.39373424649238586,
+      "posterior_variance_mean_min": 0.013020128011703491,
+      "posterior_variance_mean_max": 0.6040989756584167,
+      "KL_dimension_mean_min": 0.08747432380914688,
+      "KL_dimension_mean_max": 2.8485260009765625,
+      "cov_eigenvalue_min": 0.0016939137631511918,
+      "cov_eigenvalue_max": 0.42532115321835184
+    },
+    {
+      "arm": "F2",
+      "set": "OLD_VALIDATION",
+      "model_dimensions": 36,
+      "mu_population_variance_min": 0.0245023425668478,
+      "mu_population_variance_max": 0.9608428478240967,
+      "posterior_variance_mean_min": 0.0014583519659936428,
+      "posterior_variance_mean_max": 0.4144178628921509,
+      "KL_dimension_mean_min": 0.17148324847221375,
+      "KL_dimension_mean_max": 4.852545261383057,
+      "cov_eigenvalue_min": 0.001726383035362821,
+      "cov_eigenvalue_max": 1.0593241010001235
+    },
+    {
+      "arm": "F2",
+      "set": "RECENT_HELDOUT",
+      "model_dimensions": 36,
+      "mu_population_variance_min": 0.0032296127174049616,
+      "mu_population_variance_max": 0.8322650790214539,
+      "posterior_variance_mean_min": 0.00796325784176588,
+      "posterior_variance_mean_max": 0.21092823147773743,
+      "KL_dimension_mean_min": 0.39010727405548096,
+      "KL_dimension_mean_max": 4.47318172454834,
+      "cov_eigenvalue_min": 0.00014198249765106993,
+      "cov_eigenvalue_max": 1.2526888922938773
+    }
+  ],
+  "largest_per_step_training_total_from_all_epoch_extrema": {
+    "chain_id": "r02-s8-i2-M0",
+    "state_id": "r02-s8",
+    "arm": "M0",
+    "init_id": "2",
+    "epoch": "1",
+    "steps": "200",
+    "BCE_sum_mean": "1003.3994621276855",
+    "BCE_sum_min": "224.14065551757812",
+    "BCE_sum_max": "88600.0",
+    "KL_mean_mean": "1516439.7362549966",
+    "KL_mean_min": "0.028244800865650177",
+    "KL_mean_max": "242598880.0",
+    "raw_total_mean": "1517443.1819460297",
+    "raw_total_min": "230.26580810546875",
+    "raw_total_max": "242687488.0",
+    "gradient_norm_before_clip_mean": "28822.75263885498",
+    "gradient_norm_before_clip_min": "227.722900390625",
+    "gradient_norm_before_clip_max": "3902219.75"
+  }
+}

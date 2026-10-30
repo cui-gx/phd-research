@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "numeric_cells_checked": 160248,
+  "nonfinite_numeric_cells": 0,
+  "blank_cells": 0,
+  "blank_cell_index": [],
+  "blanks_meaning": "非該当class条件または定数距離/scoreの未定義相関。欠測モデルを意味しない。",
+  "scientific_units_missing": 0
+}

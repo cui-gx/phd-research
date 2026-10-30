@@ -1,0 +1,30 @@
+{
+  "observed_prior_wall_s": 4230.285446906462,
+  "initial_process_startup_not_fully_measured": true,
+  "phases": [
+    {
+      "phase": "optimizer-audit",
+      "wall_s": 2.255951400846243,
+      "CPU_s": 2.230983,
+      "peak_RSS_sampled_MiB": 490.90234375,
+      "return_code": 0,
+      "source_sha256": "5393af3b863b34c9d12566b8569b6ed2cedc7cbf4fb4621c18c3d4c95dd26126"
+    },
+    {
+      "phase": "report-facts",
+      "wall_s": 0.25443509314209223,
+      "CPU_s": 0.14357599999999993,
+      "peak_RSS_sampled_MiB": 7.38671875,
+      "return_code": 0,
+      "source_sha256": "79931ef19efd196f73164098bf90f6aa8489c6108403fe7afdd87b4c58fb7240"
+    },
+    {
+      "phase": "figures-v2",
+      "wall_s": 1.004802729934454,
+      "CPU_s": 0.8168510000000002,
+      "peak_RSS_sampled_MiB": 101.86328125,
+      "return_code": 0,
+      "source_sha256": "b47896647ee212498d72b8a6f6d2c54d6211cf6e03b47c717f27cb3df674a01f"
+    }
+  ]
+}

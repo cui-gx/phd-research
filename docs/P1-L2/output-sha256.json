@@ -1,0 +1,17 @@
+{
+  "model-metrics.csv": "5dc1a2356adf434f2d2c58cce465481c60b86ae9d1c6b239774d2cadea6ddf59",
+  "geometry.csv": "26c5d7eb6a4f9670cf665ad2376c12f7e4fbe50bedfe4eac86a95e68a5c61820",
+  "latent.csv": "1fa655afb35610824e4599f3040c77300ff783fb633105269f15580b6cb8d211",
+  "selection-summary.csv": "5999e05ff428a1e32f5637c6c4b134f508e473cad77ff87318b5b3b021ef1b38",
+  "checkpoint-audit.csv": "527d7b628e09d110d1b4b94fc5ec37a021a89f49083da5ee9b0e8013368e3f68",
+  "paired-contrasts.csv": "63b5d10829ef1b579dd7495da62761af3d3832633d58a4fc3f05ff518fb7af84",
+  "representation-stability.csv": "9b2c667c4d7baa923aebb9d20e8359d2396214235ed111ab2fc5443deeb9e2be",
+  "LOF-comparisons.csv": "3f65e0709ca989c104c5779edfdcd35ce743c3fef12bfceabf473a716eb7b264",
+  "state-metrics.csv": "854dd2fc13fbffdbac0b67ddcafe6a074c52c3f13f388ba1e6db2a05a42ac1cd",
+  "cost-ledger.json": "d34b304d90d14efb7242f655358bc2a09d52403863700c8757f623df2817a32f",
+  "summary.json": "dbc4db6b4b8ad1088793eb695c26d2a9b1a16c8dce0763bc77e3a187182daa63",
+  "overview.csv": "5870d1c00c7f5925426e7faa93eec73c710b5b891612600cff29e41100ffc18d",
+  "root-effects.csv": "196de5ccb0d04e806bbce4938881f9b365f56a44fe4bfb2069a8c6d39bb6c362",
+  "loss-curves.csv": "7869d819aced66b27264ad77b716fd2261371c4f0d205dd33eb673495fb1cbe8",
+  "raw-output-sha256.json": "73209230d17c9e77f23b4c6406ecdc5e7fb92eb5b1fa08a092343766ee3587bb"
+}

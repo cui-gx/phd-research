@@ -1,0 +1,13 @@
+{
+  "GPU_model": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "driver_version": "590.48.01",
+  "GPU_total_MiB": 97887,
+  "Python": "3.12.3",
+  "kernel_release": "6.8.0-138-generic",
+  "machine": "x86_64",
+  "numerical_threads": 1,
+  "GPU_for_training_only": true,
+  "CPU_RSS_limit_MiB": 2048,
+  "GPU_reserved_limit_MiB": 8192,
+  "output_limit_GiB": 2
+}

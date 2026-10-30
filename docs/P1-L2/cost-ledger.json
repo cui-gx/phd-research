@@ -1,0 +1,1226 @@
+[
+  {
+    "chain_id": "r01-s4-i1-M0",
+    "wall_s": 6.343397254124284,
+    "CPU_s": 6.3322112079999995,
+    "peak_RSS_MiB": 1635.41015625,
+    "peak_GPU_allocated_bytes": 90293760,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "checkpoint": "r01-s4-i1-M0-step0000",
+    "wall_s": 3.4804607909172773,
+    "CPU_s": 3.4789903439999996,
+    "peak_RSS_MiB": 668.9453125
+  },
+  {
+    "chain_id": "r01-s4-i1-F1",
+    "wall_s": 6.447809509932995,
+    "CPU_s": 6.4385610259999995,
+    "peak_RSS_MiB": 1627.671875,
+    "peak_GPU_allocated_bytes": 96878080,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r01-s4-i1-F2",
+    "wall_s": 6.225102138705552,
+    "CPU_s": 6.217056278,
+    "peak_RSS_MiB": 1627.609375,
+    "peak_GPU_allocated_bytes": 96878080,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r01-s4-i2-M0",
+    "wall_s": 6.131982292048633,
+    "CPU_s": 6.122054689,
+    "peak_RSS_MiB": 1620.046875,
+    "peak_GPU_allocated_bytes": 90293760,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r01-s4-i2-F2",
+    "wall_s": 6.19017026014626,
+    "CPU_s": 6.181977049,
+    "peak_RSS_MiB": 1627.7109375,
+    "peak_GPU_allocated_bytes": 96878080,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r01-s4-i2-F1",
+    "wall_s": 6.170610778965056,
+    "CPU_s": 6.162084553,
+    "peak_RSS_MiB": 1627.1328125,
+    "peak_GPU_allocated_bytes": 96878080,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r01-s4-i3-M0",
+    "wall_s": 6.157988619059324,
+    "CPU_s": 6.148395174999999,
+    "peak_RSS_MiB": 1620.59765625,
+    "peak_GPU_allocated_bytes": 90293760,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r01-s4-i3-F1",
+    "wall_s": 6.177843208424747,
+    "CPU_s": 6.169438748,
+    "peak_RSS_MiB": 1627.0234375,
+    "peak_GPU_allocated_bytes": 96878080,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r01-s4-i3-F2",
+    "wall_s": 6.209275488741696,
+    "CPU_s": 6.199564650999999,
+    "peak_RSS_MiB": 1626.64453125,
+    "peak_GPU_allocated_bytes": 96878080,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r01-s8-i1-M0",
+    "wall_s": 6.223215535283089,
+    "CPU_s": 6.213847372,
+    "peak_RSS_MiB": 1629.87109375,
+    "peak_GPU_allocated_bytes": 90293760,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r01-s8-i1-F2",
+    "wall_s": 6.194338391534984,
+    "CPU_s": 6.185503074,
+    "peak_RSS_MiB": 1635.9609375,
+    "peak_GPU_allocated_bytes": 96878080,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r01-s8-i1-F1",
+    "wall_s": 6.18797517567873,
+    "CPU_s": 6.178654705,
+    "peak_RSS_MiB": 1635.4140625,
+    "peak_GPU_allocated_bytes": 96878080,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r01-s8-i2-M0",
+    "wall_s": 6.153091618791223,
+    "CPU_s": 6.144526782,
+    "peak_RSS_MiB": 1629.8125,
+    "peak_GPU_allocated_bytes": 90293760,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r01-s8-i2-F1",
+    "wall_s": 6.259900719858706,
+    "CPU_s": 6.251682378,
+    "peak_RSS_MiB": 1635.65234375,
+    "peak_GPU_allocated_bytes": 96878080,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r01-s8-i2-F2",
+    "wall_s": 6.225769238546491,
+    "CPU_s": 6.217574418,
+    "peak_RSS_MiB": 1635.8984375,
+    "peak_GPU_allocated_bytes": 96878080,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r01-s8-i3-M0",
+    "wall_s": 6.20578835811466,
+    "CPU_s": 6.196437675,
+    "peak_RSS_MiB": 1629.0703125,
+    "peak_GPU_allocated_bytes": 90293760,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r01-s8-i3-F2",
+    "wall_s": 6.219704638235271,
+    "CPU_s": 6.2114270739999995,
+    "peak_RSS_MiB": 1635.47265625,
+    "peak_GPU_allocated_bytes": 96878080,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r01-s8-i3-F1",
+    "wall_s": 6.246711637824774,
+    "CPU_s": 6.237614766,
+    "peak_RSS_MiB": 1635.9921875,
+    "peak_GPU_allocated_bytes": 96878080,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r02-s4-i1-M0",
+    "wall_s": 6.157181294634938,
+    "CPU_s": 6.148583958,
+    "peak_RSS_MiB": 1620.04296875,
+    "peak_GPU_allocated_bytes": 90293760,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r02-s4-i1-F1",
+    "wall_s": 6.19673765450716,
+    "CPU_s": 6.1866664579999995,
+    "peak_RSS_MiB": 1627.7578125,
+    "peak_GPU_allocated_bytes": 96878080,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r02-s4-i1-F2",
+    "wall_s": 6.205118208192289,
+    "CPU_s": 6.19665016,
+    "peak_RSS_MiB": 1627.20703125,
+    "peak_GPU_allocated_bytes": 96878080,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r02-s4-i2-M0",
+    "wall_s": 6.137754336930811,
+    "CPU_s": 6.129227545,
+    "peak_RSS_MiB": 1621.14453125,
+    "peak_GPU_allocated_bytes": 90293760,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r02-s4-i2-F2",
+    "wall_s": 6.212141636759043,
+    "CPU_s": 6.202892215,
+    "peak_RSS_MiB": 1627.2734375,
+    "peak_GPU_allocated_bytes": 96878080,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r02-s4-i2-F1",
+    "wall_s": 6.316411565989256,
+    "CPU_s": 6.307806388,
+    "peak_RSS_MiB": 1627.2109375,
+    "peak_GPU_allocated_bytes": 96878080,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r02-s4-i3-M0",
+    "wall_s": 6.143673998303711,
+    "CPU_s": 6.132563997999999,
+    "peak_RSS_MiB": 1621.37109375,
+    "peak_GPU_allocated_bytes": 90293760,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r02-s4-i3-F1",
+    "wall_s": 6.221196157857776,
+    "CPU_s": 6.211874274,
+    "peak_RSS_MiB": 1626.91015625,
+    "peak_GPU_allocated_bytes": 96878080,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r02-s4-i3-F2",
+    "wall_s": 6.167565864510834,
+    "CPU_s": 6.159213302,
+    "peak_RSS_MiB": 1627.1640625,
+    "peak_GPU_allocated_bytes": 96878080,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r02-s8-i1-M0",
+    "wall_s": 6.216652376577258,
+    "CPU_s": 6.20834372,
+    "peak_RSS_MiB": 1627.43359375,
+    "peak_GPU_allocated_bytes": 90293760,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r02-s8-i1-F2",
+    "wall_s": 6.249136072583497,
+    "CPU_s": 6.240654311999999,
+    "peak_RSS_MiB": 1635.953125,
+    "peak_GPU_allocated_bytes": 96878080,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r02-s8-i1-F1",
+    "wall_s": 6.256206554360688,
+    "CPU_s": 6.247670139999999,
+    "peak_RSS_MiB": 1635.35546875,
+    "peak_GPU_allocated_bytes": 96878080,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r02-s8-i2-M0",
+    "wall_s": 6.186954377219081,
+    "CPU_s": 6.178616208,
+    "peak_RSS_MiB": 1629.17578125,
+    "peak_GPU_allocated_bytes": 103462400,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r02-s8-i2-F1",
+    "wall_s": 6.200838353484869,
+    "CPU_s": 6.192000384,
+    "peak_RSS_MiB": 1636.13671875,
+    "peak_GPU_allocated_bytes": 96878080,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r02-s8-i2-F2",
+    "wall_s": 6.1945499842986465,
+    "CPU_s": 6.184602195,
+    "peak_RSS_MiB": 1635.3046875,
+    "peak_GPU_allocated_bytes": 96878080,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r02-s8-i3-M0",
+    "wall_s": 6.2321442710235715,
+    "CPU_s": 6.223733589,
+    "peak_RSS_MiB": 1628.9609375,
+    "peak_GPU_allocated_bytes": 103462400,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r02-s8-i3-F2",
+    "wall_s": 6.263457966037095,
+    "CPU_s": 6.255162336,
+    "peak_RSS_MiB": 1635.14453125,
+    "peak_GPU_allocated_bytes": 96878080,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "chain_id": "r02-s8-i3-F1",
+    "wall_s": 6.276401693932712,
+    "CPU_s": 6.266867024,
+    "peak_RSS_MiB": 1635.55078125,
+    "peak_GPU_allocated_bytes": 96878080,
+    "peak_GPU_reserved_bytes": 113246208
+  },
+  {
+    "checkpoint": "r01-s4-i1-M0-step0200",
+    "wall_s": 10.131993582472205,
+    "CPU_s": 10.128533658,
+    "peak_RSS_MiB": 672.2578125
+  },
+  {
+    "checkpoint": "r01-s4-i1-M0-step0400",
+    "wall_s": 13.441944628022611,
+    "CPU_s": 13.437842041,
+    "peak_RSS_MiB": 670.24609375
+  },
+  {
+    "checkpoint": "r01-s4-i1-M0-step0800",
+    "wall_s": 25.96997493132949,
+    "CPU_s": 25.961892424000002,
+    "peak_RSS_MiB": 671.23046875
+  },
+  {
+    "checkpoint": "r01-s4-i1-M0-step1600",
+    "wall_s": 30.59390132781118,
+    "CPU_s": 30.584332830999998,
+    "peak_RSS_MiB": 670.05859375
+  },
+  {
+    "checkpoint": "r01-s4-i1-F1-step0200",
+    "wall_s": 13.52621679008007,
+    "CPU_s": 13.521858733,
+    "peak_RSS_MiB": 671.46484375
+  },
+  {
+    "checkpoint": "r01-s4-i1-F1-step0400",
+    "wall_s": 19.83715485688299,
+    "CPU_s": 19.83106861,
+    "peak_RSS_MiB": 671.08984375
+  },
+  {
+    "checkpoint": "r01-s4-i1-F1-step0800",
+    "wall_s": 28.703226309269667,
+    "CPU_s": 28.694568611,
+    "peak_RSS_MiB": 670.5234375
+  },
+  {
+    "checkpoint": "r01-s4-i1-F1-step1600",
+    "wall_s": 28.933114582672715,
+    "CPU_s": 28.924006894,
+    "peak_RSS_MiB": 671.56640625
+  },
+  {
+    "checkpoint": "r01-s4-i1-F2-step0200",
+    "wall_s": 14.431994327344,
+    "CPU_s": 14.427037779,
+    "peak_RSS_MiB": 671.28125
+  },
+  {
+    "checkpoint": "r01-s4-i1-F2-step0400",
+    "wall_s": 17.561456074006855,
+    "CPU_s": 17.556072867,
+    "peak_RSS_MiB": 671.13671875
+  },
+  {
+    "checkpoint": "r01-s4-i1-F2-step0800",
+    "wall_s": 27.326340476982296,
+    "CPU_s": 27.317833364000002,
+    "peak_RSS_MiB": 670.3984375
+  },
+  {
+    "checkpoint": "r01-s4-i1-F2-step1600",
+    "wall_s": 27.07820893265307,
+    "CPU_s": 27.070079277999998,
+    "peak_RSS_MiB": 670.73828125
+  },
+  {
+    "checkpoint": "r01-s4-i2-M0-step0000",
+    "wall_s": 4.116709908470511,
+    "CPU_s": 4.115423953,
+    "peak_RSS_MiB": 669.078125
+  },
+  {
+    "checkpoint": "r01-s4-i2-M0-step0200",
+    "wall_s": 8.559204190969467,
+    "CPU_s": 8.556291516,
+    "peak_RSS_MiB": 671.73828125
+  },
+  {
+    "checkpoint": "r01-s4-i2-M0-step0400",
+    "wall_s": 10.855063378810883,
+    "CPU_s": 10.851282742,
+    "peak_RSS_MiB": 671.53125
+  },
+  {
+    "checkpoint": "r01-s4-i2-M0-step0800",
+    "wall_s": 12.90781572740525,
+    "CPU_s": 12.903856508,
+    "peak_RSS_MiB": 671.5
+  },
+  {
+    "checkpoint": "r01-s4-i2-M0-step1600",
+    "wall_s": 18.84144579153508,
+    "CPU_s": 18.835480993,
+    "peak_RSS_MiB": 672.09765625
+  },
+  {
+    "checkpoint": "r01-s4-i2-F1-step0200",
+    "wall_s": 10.726472318172455,
+    "CPU_s": 10.723022533,
+    "peak_RSS_MiB": 670.42578125
+  },
+  {
+    "checkpoint": "r01-s4-i2-F1-step0400",
+    "wall_s": 11.734528618864715,
+    "CPU_s": 11.730804549,
+    "peak_RSS_MiB": 670.875
+  },
+  {
+    "checkpoint": "r01-s4-i2-F1-step0800",
+    "wall_s": 13.47173614334315,
+    "CPU_s": 13.467322618,
+    "peak_RSS_MiB": 671.6015625
+  },
+  {
+    "checkpoint": "r01-s4-i2-F1-step1600",
+    "wall_s": 26.73409236688167,
+    "CPU_s": 26.725789517,
+    "peak_RSS_MiB": 672.75390625
+  },
+  {
+    "checkpoint": "r01-s4-i2-F2-step0200",
+    "wall_s": 10.538348857313395,
+    "CPU_s": 10.534614297,
+    "peak_RSS_MiB": 672.13671875
+  },
+  {
+    "checkpoint": "r01-s4-i2-F2-step0400",
+    "wall_s": 10.593665711581707,
+    "CPU_s": 10.589896409,
+    "peak_RSS_MiB": 672.046875
+  },
+  {
+    "checkpoint": "r01-s4-i2-F2-step0800",
+    "wall_s": 11.266105722635984,
+    "CPU_s": 11.262298709,
+    "peak_RSS_MiB": 671.34375
+  },
+  {
+    "checkpoint": "r01-s4-i2-F2-step1600",
+    "wall_s": 25.962779834866524,
+    "CPU_s": 25.954444692,
+    "peak_RSS_MiB": 671.37109375
+  },
+  {
+    "checkpoint": "r01-s4-i3-M0-step0000",
+    "wall_s": 4.279203838668764,
+    "CPU_s": 4.277762854000001,
+    "peak_RSS_MiB": 667.546875
+  },
+  {
+    "checkpoint": "r01-s4-i3-M0-step0200",
+    "wall_s": 9.198042393662035,
+    "CPU_s": 9.195058843,
+    "peak_RSS_MiB": 672.21875
+  },
+  {
+    "checkpoint": "r01-s4-i3-M0-step0400",
+    "wall_s": 14.760574715211987,
+    "CPU_s": 14.755878357,
+    "peak_RSS_MiB": 671.22265625
+  },
+  {
+    "checkpoint": "r01-s4-i3-M0-step0800",
+    "wall_s": 26.739361363463104,
+    "CPU_s": 26.731114768999998,
+    "peak_RSS_MiB": 671.7265625
+  },
+  {
+    "checkpoint": "r01-s4-i3-M0-step1600",
+    "wall_s": 26.179315224289894,
+    "CPU_s": 26.171090665999998,
+    "peak_RSS_MiB": 671.296875
+  },
+  {
+    "checkpoint": "r01-s4-i3-F1-step0200",
+    "wall_s": 14.008365981280804,
+    "CPU_s": 14.003940127,
+    "peak_RSS_MiB": 670.5625
+  },
+  {
+    "checkpoint": "r01-s4-i3-F1-step0400",
+    "wall_s": 19.055896051228046,
+    "CPU_s": 19.049632395,
+    "peak_RSS_MiB": 671.86328125
+  },
+  {
+    "checkpoint": "r01-s4-i3-F1-step0800",
+    "wall_s": 27.301174470223486,
+    "CPU_s": 27.292558618999998,
+    "peak_RSS_MiB": 671.96484375
+  },
+  {
+    "checkpoint": "r01-s4-i3-F1-step1600",
+    "wall_s": 30.077420487999916,
+    "CPU_s": 30.067813003999998,
+    "peak_RSS_MiB": 671.98828125
+  },
+  {
+    "checkpoint": "r01-s4-i3-F2-step0200",
+    "wall_s": 14.183927630074322,
+    "CPU_s": 14.179492991,
+    "peak_RSS_MiB": 670.8515625
+  },
+  {
+    "checkpoint": "r01-s4-i3-F2-step0400",
+    "wall_s": 18.81574165262282,
+    "CPU_s": 18.809925724000003,
+    "peak_RSS_MiB": 671.86328125
+  },
+  {
+    "checkpoint": "r01-s4-i3-F2-step0800",
+    "wall_s": 24.083977406844497,
+    "CPU_s": 24.076294673,
+    "peak_RSS_MiB": 671.125
+  },
+  {
+    "checkpoint": "r01-s4-i3-F2-step1600",
+    "wall_s": 23.73620354104787,
+    "CPU_s": 23.728651112,
+    "peak_RSS_MiB": 671.015625
+  },
+  {
+    "checkpoint": "r01-s8-i1-M0-step0000",
+    "wall_s": 8.416795391589403,
+    "CPU_s": 8.414090665,
+    "peak_RSS_MiB": 704.8046875
+  },
+  {
+    "checkpoint": "r01-s8-i1-M0-step0200",
+    "wall_s": 18.80214373022318,
+    "CPU_s": 18.796104814,
+    "peak_RSS_MiB": 707.90625
+  },
+  {
+    "checkpoint": "r01-s8-i1-M0-step0400",
+    "wall_s": 21.441342339850962,
+    "CPU_s": 21.434162381,
+    "peak_RSS_MiB": 706.71484375
+  },
+  {
+    "checkpoint": "r01-s8-i1-M0-step0800",
+    "wall_s": 24.461847461760044,
+    "CPU_s": 24.453786892,
+    "peak_RSS_MiB": 707.0703125
+  },
+  {
+    "checkpoint": "r01-s8-i1-M0-step1600",
+    "wall_s": 38.16990483272821,
+    "CPU_s": 38.157319323,
+    "peak_RSS_MiB": 707.0703125
+  },
+  {
+    "checkpoint": "r01-s8-i1-F1-step0200",
+    "wall_s": 21.4070280212909,
+    "CPU_s": 21.399598903,
+    "peak_RSS_MiB": 707.04296875
+  },
+  {
+    "checkpoint": "r01-s8-i1-F1-step0400",
+    "wall_s": 23.7987193595618,
+    "CPU_s": 23.790249088000003,
+    "peak_RSS_MiB": 706.97265625
+  },
+  {
+    "checkpoint": "r01-s8-i1-F1-step0800",
+    "wall_s": 26.268682999536395,
+    "CPU_s": 26.260090408,
+    "peak_RSS_MiB": 707.203125
+  },
+  {
+    "checkpoint": "r01-s8-i1-F1-step1600",
+    "wall_s": 44.110214004293084,
+    "CPU_s": 44.096363843999995,
+    "peak_RSS_MiB": 707.125
+  },
+  {
+    "checkpoint": "r01-s8-i1-F2-step0200",
+    "wall_s": 22.088606037199497,
+    "CPU_s": 22.081491003,
+    "peak_RSS_MiB": 707.3125
+  },
+  {
+    "checkpoint": "r01-s8-i1-F2-step0400",
+    "wall_s": 22.66649179533124,
+    "CPU_s": 22.659229755,
+    "peak_RSS_MiB": 707.15625
+  },
+  {
+    "checkpoint": "r01-s8-i1-F2-step0800",
+    "wall_s": 24.341198199428618,
+    "CPU_s": 24.333524849,
+    "peak_RSS_MiB": 707.2421875
+  },
+  {
+    "checkpoint": "r01-s8-i1-F2-step1600",
+    "wall_s": 43.32819121144712,
+    "CPU_s": 43.314597329,
+    "peak_RSS_MiB": 707.27734375
+  },
+  {
+    "checkpoint": "r01-s8-i2-M0-step0000",
+    "wall_s": 8.754971371032298,
+    "CPU_s": 8.751897858,
+    "peak_RSS_MiB": 704.41796875
+  },
+  {
+    "checkpoint": "r01-s8-i2-M0-step0200",
+    "wall_s": 17.045059903524816,
+    "CPU_s": 17.039446937,
+    "peak_RSS_MiB": 707.2265625
+  },
+  {
+    "checkpoint": "r01-s8-i2-M0-step0400",
+    "wall_s": 20.356440865434706,
+    "CPU_s": 20.350129665999997,
+    "peak_RSS_MiB": 707.8671875
+  },
+  {
+    "checkpoint": "r01-s8-i2-M0-step0800",
+    "wall_s": 45.09282402228564,
+    "CPU_s": 45.079382700000004,
+    "peak_RSS_MiB": 708.10546875
+  },
+  {
+    "checkpoint": "r01-s8-i2-M0-step1600",
+    "wall_s": 53.96079406514764,
+    "CPU_s": 53.944074958,
+    "peak_RSS_MiB": 707.6875
+  },
+  {
+    "checkpoint": "r01-s8-i2-F1-step0200",
+    "wall_s": 21.102059246972203,
+    "CPU_s": 21.095044622,
+    "peak_RSS_MiB": 707.25
+  },
+  {
+    "checkpoint": "r01-s8-i2-F1-step0400",
+    "wall_s": 27.361694056540728,
+    "CPU_s": 27.353325841,
+    "peak_RSS_MiB": 706.40234375
+  },
+  {
+    "checkpoint": "r01-s8-i2-F1-step0800",
+    "wall_s": 56.22853081300855,
+    "CPU_s": 56.211964048999995,
+    "peak_RSS_MiB": 706.68359375
+  },
+  {
+    "checkpoint": "r01-s8-i2-F1-step1600",
+    "wall_s": 55.397726537659764,
+    "CPU_s": 55.380871607,
+    "peak_RSS_MiB": 706.94140625
+  },
+  {
+    "checkpoint": "r01-s8-i2-F2-step0200",
+    "wall_s": 20.517291554249823,
+    "CPU_s": 20.510873428,
+    "peak_RSS_MiB": 706.3046875
+  },
+  {
+    "checkpoint": "r01-s8-i2-F2-step0400",
+    "wall_s": 26.944532490335405,
+    "CPU_s": 26.935578325,
+    "peak_RSS_MiB": 707.99609375
+  },
+  {
+    "checkpoint": "r01-s8-i2-F2-step0800",
+    "wall_s": 55.40506802406162,
+    "CPU_s": 55.388220456999996,
+    "peak_RSS_MiB": 707.16015625
+  },
+  {
+    "checkpoint": "r01-s8-i2-F2-step1600",
+    "wall_s": 57.762390146031976,
+    "CPU_s": 57.745233023000004,
+    "peak_RSS_MiB": 707.28515625
+  },
+  {
+    "checkpoint": "r01-s8-i3-M0-step0000",
+    "wall_s": 9.200912897475064,
+    "CPU_s": 9.197896422,
+    "peak_RSS_MiB": 704.203125
+  },
+  {
+    "checkpoint": "r01-s8-i3-M0-step0200",
+    "wall_s": 18.87330054305494,
+    "CPU_s": 18.867339991,
+    "peak_RSS_MiB": 707.00390625
+  },
+  {
+    "checkpoint": "r01-s8-i3-M0-step0400",
+    "wall_s": 25.23088443093002,
+    "CPU_s": 25.222995416000003,
+    "peak_RSS_MiB": 707.67578125
+  },
+  {
+    "checkpoint": "r01-s8-i3-M0-step0800",
+    "wall_s": 39.21001935005188,
+    "CPU_s": 39.197360167,
+    "peak_RSS_MiB": 706.91796875
+  },
+  {
+    "checkpoint": "r01-s8-i3-M0-step1600",
+    "wall_s": 40.685760545544326,
+    "CPU_s": 40.67168438,
+    "peak_RSS_MiB": 707.84375
+  },
+  {
+    "checkpoint": "r01-s8-i3-F1-step0200",
+    "wall_s": 26.021613934077322,
+    "CPU_s": 26.013228062,
+    "peak_RSS_MiB": 705.65234375
+  },
+  {
+    "checkpoint": "r01-s8-i3-F1-step0400",
+    "wall_s": 29.73809660412371,
+    "CPU_s": 29.728306782,
+    "peak_RSS_MiB": 707.04296875
+  },
+  {
+    "checkpoint": "r01-s8-i3-F1-step0800",
+    "wall_s": 45.76785785984248,
+    "CPU_s": 45.753441882,
+    "peak_RSS_MiB": 707.2265625
+  },
+  {
+    "checkpoint": "r01-s8-i3-F1-step1600",
+    "wall_s": 63.784898615442216,
+    "CPU_s": 63.76393328099999,
+    "peak_RSS_MiB": 707.51953125
+  },
+  {
+    "checkpoint": "r01-s8-i3-F2-step0200",
+    "wall_s": 25.479476443491876,
+    "CPU_s": 25.470264788,
+    "peak_RSS_MiB": 706.11328125
+  },
+  {
+    "checkpoint": "r01-s8-i3-F2-step0400",
+    "wall_s": 28.2468966813758,
+    "CPU_s": 28.237490485,
+    "peak_RSS_MiB": 707.08203125
+  },
+  {
+    "checkpoint": "r01-s8-i3-F2-step0800",
+    "wall_s": 34.36534605361521,
+    "CPU_s": 34.354523198,
+    "peak_RSS_MiB": 707.4609375
+  },
+  {
+    "checkpoint": "r01-s8-i3-F2-step1600",
+    "wall_s": 38.16895166411996,
+    "CPU_s": 38.15640531,
+    "peak_RSS_MiB": 707.734375
+  },
+  {
+    "checkpoint": "r02-s4-i1-M0-step0000",
+    "wall_s": 4.973481146618724,
+    "CPU_s": 4.971563493,
+    "peak_RSS_MiB": 668.87109375
+  },
+  {
+    "checkpoint": "r02-s4-i1-M0-step0200",
+    "wall_s": 10.910382949747145,
+    "CPU_s": 10.906787506,
+    "peak_RSS_MiB": 671.01953125
+  },
+  {
+    "checkpoint": "r02-s4-i1-M0-step0400",
+    "wall_s": 14.899162008427083,
+    "CPU_s": 14.894300330999998,
+    "peak_RSS_MiB": 670.875
+  },
+  {
+    "checkpoint": "r02-s4-i1-M0-step0800",
+    "wall_s": 20.758194447495043,
+    "CPU_s": 20.751067422,
+    "peak_RSS_MiB": 670.36328125
+  },
+  {
+    "checkpoint": "r02-s4-i1-M0-step1600",
+    "wall_s": 31.366008427925408,
+    "CPU_s": 31.355829997999997,
+    "peak_RSS_MiB": 672.4453125
+  },
+  {
+    "checkpoint": "r02-s4-i1-F1-step0200",
+    "wall_s": 14.625580415129662,
+    "CPU_s": 14.620657768,
+    "peak_RSS_MiB": 670.93359375
+  },
+  {
+    "checkpoint": "r02-s4-i1-F1-step0400",
+    "wall_s": 15.7747718449682,
+    "CPU_s": 15.769446814000002,
+    "peak_RSS_MiB": 670.27734375
+  },
+  {
+    "checkpoint": "r02-s4-i1-F1-step0800",
+    "wall_s": 22.789640167728066,
+    "CPU_s": 22.782349132,
+    "peak_RSS_MiB": 670.53125
+  },
+  {
+    "checkpoint": "r02-s4-i1-F1-step1600",
+    "wall_s": 23.08932500425726,
+    "CPU_s": 23.082171134,
+    "peak_RSS_MiB": 670.640625
+  },
+  {
+    "checkpoint": "r02-s4-i1-F2-step0200",
+    "wall_s": 13.529273140244186,
+    "CPU_s": 13.524368606,
+    "peak_RSS_MiB": 671.19140625
+  },
+  {
+    "checkpoint": "r02-s4-i1-F2-step0400",
+    "wall_s": 13.954754138365388,
+    "CPU_s": 13.949871118999999,
+    "peak_RSS_MiB": 670.140625
+  },
+  {
+    "checkpoint": "r02-s4-i1-F2-step0800",
+    "wall_s": 21.317441585473716,
+    "CPU_s": 21.310233501,
+    "peak_RSS_MiB": 670.796875
+  },
+  {
+    "checkpoint": "r02-s4-i1-F2-step1600",
+    "wall_s": 20.943222142755985,
+    "CPU_s": 20.935819826,
+    "peak_RSS_MiB": 670.58203125
+  },
+  {
+    "checkpoint": "r02-s4-i2-M0-step0000",
+    "wall_s": 5.119207790121436,
+    "CPU_s": 5.11748772,
+    "peak_RSS_MiB": 669.109375
+  },
+  {
+    "checkpoint": "r02-s4-i2-M0-step0200",
+    "wall_s": 8.97275126259774,
+    "CPU_s": 8.969740104,
+    "peak_RSS_MiB": 671.19921875
+  },
+  {
+    "checkpoint": "r02-s4-i2-M0-step0400",
+    "wall_s": 12.123083679936826,
+    "CPU_s": 12.11925882,
+    "peak_RSS_MiB": 670.8671875
+  },
+  {
+    "checkpoint": "r02-s4-i2-M0-step0800",
+    "wall_s": 13.448556850664318,
+    "CPU_s": 13.443786095,
+    "peak_RSS_MiB": 671.9140625
+  },
+  {
+    "checkpoint": "r02-s4-i2-M0-step1600",
+    "wall_s": 16.474456565454602,
+    "CPU_s": 16.468851287,
+    "peak_RSS_MiB": 669.875
+  },
+  {
+    "checkpoint": "r02-s4-i2-F1-step0200",
+    "wall_s": 11.965624053031206,
+    "CPU_s": 11.96139789,
+    "peak_RSS_MiB": 671.7578125
+  },
+  {
+    "checkpoint": "r02-s4-i2-F1-step0400",
+    "wall_s": 14.483804906718433,
+    "CPU_s": 14.47872647,
+    "peak_RSS_MiB": 671.6796875
+  },
+  {
+    "checkpoint": "r02-s4-i2-F1-step0800",
+    "wall_s": 19.597807315178216,
+    "CPU_s": 19.591239184,
+    "peak_RSS_MiB": 671.2109375
+  },
+  {
+    "checkpoint": "r02-s4-i2-F1-step1600",
+    "wall_s": 36.65929762367159,
+    "CPU_s": 36.647785942,
+    "peak_RSS_MiB": 671.16015625
+  },
+  {
+    "checkpoint": "r02-s4-i2-F2-step0200",
+    "wall_s": 10.89742374792695,
+    "CPU_s": 10.893439833,
+    "peak_RSS_MiB": 670.7890625
+  },
+  {
+    "checkpoint": "r02-s4-i2-F2-step0400",
+    "wall_s": 13.29317092616111,
+    "CPU_s": 13.288102404,
+    "peak_RSS_MiB": 670.890625
+  },
+  {
+    "checkpoint": "r02-s4-i2-F2-step0800",
+    "wall_s": 16.72907759062946,
+    "CPU_s": 16.723567169000003,
+    "peak_RSS_MiB": 671.26953125
+  },
+  {
+    "checkpoint": "r02-s4-i2-F2-step1600",
+    "wall_s": 35.5992890605703,
+    "CPU_s": 35.587645806,
+    "peak_RSS_MiB": 670.98828125
+  },
+  {
+    "checkpoint": "r02-s4-i3-M0-step0000",
+    "wall_s": 5.2584662744775414,
+    "CPU_s": 5.256685941000001,
+    "peak_RSS_MiB": 668.71875
+  },
+  {
+    "checkpoint": "r02-s4-i3-M0-step0200",
+    "wall_s": 9.317289606668055,
+    "CPU_s": 9.313882432,
+    "peak_RSS_MiB": 671.76953125
+  },
+  {
+    "checkpoint": "r02-s4-i3-M0-step0400",
+    "wall_s": 10.3075902312994,
+    "CPU_s": 10.303933455000001,
+    "peak_RSS_MiB": 671.89453125
+  },
+  {
+    "checkpoint": "r02-s4-i3-M0-step0800",
+    "wall_s": 10.5198231684044,
+    "CPU_s": 10.515966127,
+    "peak_RSS_MiB": 670.51171875
+  },
+  {
+    "checkpoint": "r02-s4-i3-M0-step1600",
+    "wall_s": 13.63575457315892,
+    "CPU_s": 13.630836018,
+    "peak_RSS_MiB": 670.87109375
+  },
+  {
+    "checkpoint": "r02-s4-i3-F1-step0200",
+    "wall_s": 11.263775685802102,
+    "CPU_s": 11.259512336,
+    "peak_RSS_MiB": 670.9296875
+  },
+  {
+    "checkpoint": "r02-s4-i3-F1-step0400",
+    "wall_s": 11.341377546079457,
+    "CPU_s": 11.337181063000001,
+    "peak_RSS_MiB": 671.296875
+  },
+  {
+    "checkpoint": "r02-s4-i3-F1-step0800",
+    "wall_s": 10.698724076151848,
+    "CPU_s": 10.69485175,
+    "peak_RSS_MiB": 670.80859375
+  },
+  {
+    "checkpoint": "r02-s4-i3-F1-step1600",
+    "wall_s": 15.352049270644784,
+    "CPU_s": 15.346404501,
+    "peak_RSS_MiB": 671.37890625
+  },
+  {
+    "checkpoint": "r02-s4-i3-F2-step0200",
+    "wall_s": 10.631713278591633,
+    "CPU_s": 10.628078684,
+    "peak_RSS_MiB": 671.26953125
+  },
+  {
+    "checkpoint": "r02-s4-i3-F2-step0400",
+    "wall_s": 11.071703806519508,
+    "CPU_s": 11.067670160999999,
+    "peak_RSS_MiB": 671.859375
+  },
+  {
+    "checkpoint": "r02-s4-i3-F2-step0800",
+    "wall_s": 11.76919930614531,
+    "CPU_s": 11.765411353000001,
+    "peak_RSS_MiB": 670.609375
+  },
+  {
+    "checkpoint": "r02-s4-i3-F2-step1600",
+    "wall_s": 20.166405239142478,
+    "CPU_s": 20.159620100999998,
+    "peak_RSS_MiB": 670.83203125
+  },
+  {
+    "checkpoint": "r02-s8-i1-M0-step0000",
+    "wall_s": 10.539860727265477,
+    "CPU_s": 10.536228118,
+    "peak_RSS_MiB": 705.08984375
+  },
+  {
+    "checkpoint": "r02-s8-i1-M0-step0200",
+    "wall_s": 19.600725605152547,
+    "CPU_s": 19.594006847,
+    "peak_RSS_MiB": 707.1015625
+  },
+  {
+    "checkpoint": "r02-s8-i1-M0-step0400",
+    "wall_s": 23.684380467049778,
+    "CPU_s": 23.676747677999998,
+    "peak_RSS_MiB": 707.21875
+  },
+  {
+    "checkpoint": "r02-s8-i1-M0-step0800",
+    "wall_s": 31.08941385988146,
+    "CPU_s": 31.078601561,
+    "peak_RSS_MiB": 707.58203125
+  },
+  {
+    "checkpoint": "r02-s8-i1-M0-step1600",
+    "wall_s": 67.64302279613912,
+    "CPU_s": 67.622069901,
+    "peak_RSS_MiB": 708.9921875
+  },
+  {
+    "checkpoint": "r02-s8-i1-F1-step0200",
+    "wall_s": 25.107652288861573,
+    "CPU_s": 25.098924567,
+    "peak_RSS_MiB": 708.0390625
+  },
+  {
+    "checkpoint": "r02-s8-i1-F1-step0400",
+    "wall_s": 24.88467033021152,
+    "CPU_s": 24.877123239,
+    "peak_RSS_MiB": 706.390625
+  },
+  {
+    "checkpoint": "r02-s8-i1-F1-step0800",
+    "wall_s": 30.412521632388234,
+    "CPU_s": 30.402410996999997,
+    "peak_RSS_MiB": 707.71875
+  },
+  {
+    "checkpoint": "r02-s8-i1-F1-step1600",
+    "wall_s": 64.67499697580934,
+    "CPU_s": 64.65358856200001,
+    "peak_RSS_MiB": 707.2890625
+  },
+  {
+    "checkpoint": "r02-s8-i1-F2-step0200",
+    "wall_s": 22.313086157664657,
+    "CPU_s": 22.305195159,
+    "peak_RSS_MiB": 706.859375
+  },
+  {
+    "checkpoint": "r02-s8-i1-F2-step0400",
+    "wall_s": 21.641284752637148,
+    "CPU_s": 21.633931744999998,
+    "peak_RSS_MiB": 706.7578125
+  },
+  {
+    "checkpoint": "r02-s8-i1-F2-step0800",
+    "wall_s": 22.58132062666118,
+    "CPU_s": 22.573049706,
+    "peak_RSS_MiB": 706.88671875
+  },
+  {
+    "checkpoint": "r02-s8-i1-F2-step1600",
+    "wall_s": 47.790479329414666,
+    "CPU_s": 47.774535242,
+    "peak_RSS_MiB": 707.328125
+  },
+  {
+    "checkpoint": "r02-s8-i2-M0-step0000",
+    "wall_s": 10.918466441333294,
+    "CPU_s": 10.914592252,
+    "peak_RSS_MiB": 704.02734375
+  },
+  {
+    "checkpoint": "r02-s8-i2-M0-step0200",
+    "wall_s": 20.70736409071833,
+    "CPU_s": 20.699368306,
+    "peak_RSS_MiB": 707.4296875
+  },
+  {
+    "checkpoint": "r02-s8-i2-M0-step0400",
+    "wall_s": 21.096543413586915,
+    "CPU_s": 21.089361643,
+    "peak_RSS_MiB": 707.55078125
+  },
+  {
+    "checkpoint": "r02-s8-i2-M0-step0800",
+    "wall_s": 23.07027943711728,
+    "CPU_s": 23.062816105,
+    "peak_RSS_MiB": 706.8515625
+  },
+  {
+    "checkpoint": "r02-s8-i2-M0-step1600",
+    "wall_s": 24.767310282215476,
+    "CPU_s": 24.758792727,
+    "peak_RSS_MiB": 707.57421875
+  },
+  {
+    "checkpoint": "r02-s8-i2-F1-step0200",
+    "wall_s": 21.16190773062408,
+    "CPU_s": 21.154481712,
+    "peak_RSS_MiB": 707.94921875
+  },
+  {
+    "checkpoint": "r02-s8-i2-F1-step0400",
+    "wall_s": 23.21005032584071,
+    "CPU_s": 23.202549762,
+    "peak_RSS_MiB": 708.5
+  },
+  {
+    "checkpoint": "r02-s8-i2-F1-step0800",
+    "wall_s": 56.58844772912562,
+    "CPU_s": 56.570464183000006,
+    "peak_RSS_MiB": 708.2265625
+  },
+  {
+    "checkpoint": "r02-s8-i2-F1-step1600",
+    "wall_s": 58.689417886547744,
+    "CPU_s": 58.670952036,
+    "peak_RSS_MiB": 707.3984375
+  },
+  {
+    "checkpoint": "r02-s8-i2-F2-step0200",
+    "wall_s": 23.430928508751094,
+    "CPU_s": 23.423538029,
+    "peak_RSS_MiB": 707.24609375
+  },
+  {
+    "checkpoint": "r02-s8-i2-F2-step0400",
+    "wall_s": 26.58905505388975,
+    "CPU_s": 26.580317712,
+    "peak_RSS_MiB": 706.8203125
+  },
+  {
+    "checkpoint": "r02-s8-i2-F2-step0800",
+    "wall_s": 53.13304918911308,
+    "CPU_s": 53.11619881,
+    "peak_RSS_MiB": 707.57421875
+  },
+  {
+    "checkpoint": "r02-s8-i2-F2-step1600",
+    "wall_s": 55.661204567179084,
+    "CPU_s": 55.643607352,
+    "peak_RSS_MiB": 707.328125
+  },
+  {
+    "checkpoint": "r02-s8-i3-M0-step0000",
+    "wall_s": 11.254016442224383,
+    "CPU_s": 11.249968032,
+    "peak_RSS_MiB": 704.79296875
+  },
+  {
+    "checkpoint": "r02-s8-i3-M0-step0200",
+    "wall_s": 19.83624397125095,
+    "CPU_s": 19.829549119,
+    "peak_RSS_MiB": 707.5859375
+  },
+  {
+    "checkpoint": "r02-s8-i3-M0-step0400",
+    "wall_s": 23.30808277335018,
+    "CPU_s": 23.300508654,
+    "peak_RSS_MiB": 707.578125
+  },
+  {
+    "checkpoint": "r02-s8-i3-M0-step0800",
+    "wall_s": 26.15277506876737,
+    "CPU_s": 26.144549980999997,
+    "peak_RSS_MiB": 708.1875
+  },
+  {
+    "checkpoint": "r02-s8-i3-M0-step1600",
+    "wall_s": 38.1677660709247,
+    "CPU_s": 38.155652642,
+    "peak_RSS_MiB": 707.03515625
+  },
+  {
+    "checkpoint": "r02-s8-i3-F1-step0200",
+    "wall_s": 23.09344422351569,
+    "CPU_s": 23.085982196000003,
+    "peak_RSS_MiB": 707.77734375
+  },
+  {
+    "checkpoint": "r02-s8-i3-F1-step0400",
+    "wall_s": 23.61057327594608,
+    "CPU_s": 23.602798615,
+    "peak_RSS_MiB": 707.4609375
+  },
+  {
+    "checkpoint": "r02-s8-i3-F1-step0800",
+    "wall_s": 26.337300376966596,
+    "CPU_s": 26.329016952,
+    "peak_RSS_MiB": 706.91796875
+  },
+  {
+    "checkpoint": "r02-s8-i3-F1-step1600",
+    "wall_s": 48.89916381705552,
+    "CPU_s": 48.8838756,
+    "peak_RSS_MiB": 707.01953125
+  },
+  {
+    "checkpoint": "r02-s8-i3-F2-step0200",
+    "wall_s": 23.327598297037184,
+    "CPU_s": 23.319660403,
+    "peak_RSS_MiB": 707.40234375
+  },
+  {
+    "checkpoint": "r02-s8-i3-F2-step0400",
+    "wall_s": 23.361948016099632,
+    "CPU_s": 23.354144526000002,
+    "peak_RSS_MiB": 707.03515625
+  },
+  {
+    "checkpoint": "r02-s8-i3-F2-step0800",
+    "wall_s": 28.01047207135707,
+    "CPU_s": 28.001246683999998,
+    "peak_RSS_MiB": 706.3125
+  },
+  {
+    "checkpoint": "r02-s8-i3-F2-step1600",
+    "wall_s": 44.50902844686061,
+    "CPU_s": 44.495218181999995,
+    "peak_RSS_MiB": 708.1015625
+  }
+]
