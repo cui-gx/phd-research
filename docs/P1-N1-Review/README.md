@@ -25,3 +25,5 @@
 旧完全表の入口は[N1 CPU-v1](../P1-N1/CPU-v1/README.md)。転記CSVは独立な新結果ではない。静的監査は `python3 docs/P1-N1-Review/audit_existing_tables.py` で再現でき、DCD・モデルを読まず、bootstrapや相関を再計算しない。
 
 新しい文書の完成と研究者の科学的受入れを分離する。外部の独立査読は代替しない。NMR34全量、資源測定、C/B2及び物理系変更は、別の明示承認を必要とする。
+
+全文の公開先照合：[遠隔回読](remote-readback.json)。[交付の静的検査](delivery-check.json)、[追加出典SHA](review-source-manifest.json)、[作業環境の終了確認](delivery-cleanup.json)。

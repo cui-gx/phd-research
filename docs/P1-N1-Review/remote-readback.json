@@ -1,1 +1,212 @@
-{"status": "PENDING", "note": "実際の検証後に結果を記録する。"}
+{
+  "status": "PASS",
+  "checked_JST": "2026-10-30T20:07:15.639+09:00",
+  "repository": "cui-gx/phd-research",
+  "branch": "main",
+  "verified_content_commit": "307054b61b65c20dd9a88705d42b96dd6d87fc26",
+  "method": "GitHub connector fetch_file at explicit commit; full response body decoded; byte length and independently calculated Git blob SHA1 matched local committed bytes; API blob SHA also matched.",
+  "files_verified": 28,
+  "total_bytes": 602861,
+  "scientific_execution": "NONE",
+  "independent_external_scientific_review": "PENDING",
+  "researcher_scientific_acceptance": "PENDING",
+  "receipt_boundary": "この検証記録は上記の内容commitに対する回読。検証記録自身を含む最終commitはpush後に再回読し、最終返信とGit履歴で特定する。内容commitのremote-readback.jsonはPENDINGの仮記録であり、本ファイルが実検証後に置換する。",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 14270,
+      "remote_body_git_blob_sha1": "9d402dc6494665941ca2212790e3c270852cbc09",
+      "local_sha256": "904589328a2d96584eefd6b6641ee13d8702a46c2f1ce506e2baff212de1a4f5",
+      "status": "PASS"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 36844,
+      "remote_body_git_blob_sha1": "5057943bb33a2dbaa800d4585b796d4190491512",
+      "local_sha256": "5c70b5d63a00932b6a91305b2091184c37f7e8811ffd27a9a06be26d2d8d00f5",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/collaboration-policy.md",
+      "bytes": 13821,
+      "remote_body_git_blob_sha1": "cab8b5dc6f1498ef907e2111f4c583466f41f87a",
+      "local_sha256": "a16cbc52b528696e63558182570a591cafb851659314a2c0a0db71cdbd2c76e4",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1-Review/audit_existing_tables.py",
+      "bytes": 7032,
+      "remote_body_git_blob_sha1": "e5acd8f63e7f9200ad6b7bc008edce1a64730514",
+      "local_sha256": "46f9ff30d6920d801d2c4225bacb74c7a975ab72a584e92d796d77b668a05d31",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1-Review/budget-and-gates.md",
+      "bytes": 8798,
+      "remote_body_git_blob_sha1": "8c1c0100e2ea83e688467584e7b83090cd97547b",
+      "local_sha256": "1493e5d05ff2fed58caf9641a9074d748ce6cb15245da6c7f9659a9126110963",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1-Review/cb2-design.md",
+      "bytes": 10522,
+      "remote_body_git_blob_sha1": "e4adac1c884e23199065d9c81b4628482c2de40e",
+      "local_sha256": "43b1b5eff47ca081c03c62855811e1ed40e480c4883edb21825f05d34d3689ed",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1-Review/check_delivery.py",
+      "bytes": 4643,
+      "remote_body_git_blob_sha1": "53de2f7e186aedd236149531b3cdcc74ebc5ce78",
+      "local_sha256": "e4b7e2821cb8cd755e6b0774abe0c74867969b21726ef7f78be2c63c7012d4f1",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1-Review/delivery-check.json",
+      "bytes": 12005,
+      "remote_body_git_blob_sha1": "26a59c3984b86066418986657e77d6f32f4464d0",
+      "local_sha256": "a41317f8fb99ea723c3fffccdb4c763b18c5d1cf02cf02b091b005172ab515d6",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1-Review/delivery-cleanup.json",
+      "bytes": 329,
+      "remote_body_git_blob_sha1": "963ee437ccdbaf43ab32bd198fc0fc39de97b599",
+      "local_sha256": "87bc32b4db2970bde2510d52b1c20ccf01b109061df3ee70dc925fb79ddfb7e3",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "bytes": 9405,
+      "remote_body_git_blob_sha1": "939e3dbf6218142d6377fc60a097e04a64166ab3",
+      "local_sha256": "9d8a2f44245fe99d19ce4d62938d37c268765abed3cf581a35f306a4270d65aa",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1-Review/literature-evidence.md",
+      "bytes": 7033,
+      "remote_body_git_blob_sha1": "65866bab511f69824c256e66868c56c23599029d",
+      "local_sha256": "a898833dd2f0839a6bc0ad07eb0810f50ca3861c01bfafe7097c1a8f946c5222",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1-Review/next-execution-card.md",
+      "bytes": 4635,
+      "remote_body_git_blob_sha1": "9b40b2554a2b1129195336784565701a0d22d408",
+      "local_sha256": "8165a00810b4d5d2fdfe9b81a8aac2d9d08f4a66bba629cf1ababd8a0df0078e",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1-Review/nmr34-contract.md",
+      "bytes": 7366,
+      "remote_body_git_blob_sha1": "7027af32d09b5ce4565c9cf97bed67c189717086",
+      "local_sha256": "543f62daf48a4a5fe9174bedbb0a3613aadd345659457149db0d5cd082332d4a",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1-Review/README.md",
+      "bytes": 2748,
+      "remote_body_git_blob_sha1": "f15af1068d1d99921bfdb9486e0dff252d69b34b",
+      "local_sha256": "afd3be6940df84101c7adb65db6d38397c07a8130627eb0f6d510f51c36b7469",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1-Review/remote-readback.json",
+      "bytes": 79,
+      "remote_body_git_blob_sha1": "d822e14841e641ccfc28ddf59a9910e42ced9d0a",
+      "local_sha256": "c0f0859803ccd1f97c3e8129b8852c670aed7638b54d605b87adab5cb26bb75e",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1-Review/reported-all-window-F2-F1.csv",
+      "bytes": 159801,
+      "remote_body_git_blob_sha1": "d01d002f770b06ac2df250bc760597d8926e55f3",
+      "local_sha256": "54fcac52282aa96d8a18da517ca4b04ffddededdb12833e14e16f7f3a7997499",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1-Review/reported-primary-contrasts.csv",
+      "bytes": 20142,
+      "remote_body_git_blob_sha1": "ad15a7027c4d50b4621958126297f983d147546e",
+      "local_sha256": "3ecac40b9eb83fce0512b9aeeaf47c3842f693e9ef0ddf3f26aadb441b75f0d2",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1-Review/reported-primary-correlations.csv",
+      "bytes": 3715,
+      "remote_body_git_blob_sha1": "ca6b32285e80f52100e48fa4aeac141ab0de7d15",
+      "local_sha256": "fc2f106d3b1cf5057504131c9ab8cb68ade5256bd9c1758904f6471c409ddcdd",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1-Review/reported-root-primary.csv",
+      "bytes": 17188,
+      "remote_body_git_blob_sha1": "4457380af54f2cd28798b3d14dabc749dca5be94",
+      "local_sha256": "077803ec97c0e640720ac7402f84d3aaa4e78d4e18ed4de69543d79b32d14959",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1-Review/resource-measurement-plan.md",
+      "bytes": 7265,
+      "remote_body_git_blob_sha1": "e86874a8de9bb4f07cdaf399c8909362207aa2e0",
+      "local_sha256": "4a376fcc4e2908ff17c8459d857a4f32a3e9618e6d11153a1752f459ee7fac09",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1-Review/review-dossier.md",
+      "bytes": 16061,
+      "remote_body_git_blob_sha1": "ac1683ffdef0b99fca71a74830667df94ca570c7",
+      "local_sha256": "cb849e1556533431490e01334f020778026ec9cdbe8eb3ee4d62f222441e2095",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1-Review/review-input-inventory.json",
+      "bytes": 5144,
+      "remote_body_git_blob_sha1": "5c653a476deb7f628bc41de96f7e7298c1d8efa4",
+      "local_sha256": "d53df40c58dc3a321b06d4a1de16dfd71dcffb90561e14299fc5b510a3e9c4ef",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1-Review/review-source-manifest.json",
+      "bytes": 8257,
+      "remote_body_git_blob_sha1": "8bf33dba22ba014a4cc9d7a0d1a97f4c9159fdec",
+      "local_sha256": "52fcf76a6aa6ec225f01d520bf7c13fe6e594e696d968d274d8dff6c3ab33dce",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1-Review/static-table-audit.json",
+      "bytes": 1069,
+      "remote_body_git_blob_sha1": "f0451ebb6446ab51ae5ed7b7384e3a7c1831c85b",
+      "local_sha256": "8a8c9224e90194eb1a1ee0a202798fda864a860f364954bce276918b619f526d",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1-Review/supervisor-summary.md",
+      "bytes": 4133,
+      "remote_body_git_blob_sha1": "7ece0b0a5bf99982d850470892da518f8afdd415",
+      "local_sha256": "075dc336d77d129ee49b6804e649346729b5c446e59eb664346e2b391b9b8f9a",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/协作交接记录.md",
+      "bytes": 95086,
+      "remote_body_git_blob_sha1": "1f79ff787dcefc2856b7734c418a760a97e746bd",
+      "local_sha256": "ecd5337e1f8c68973eab03a323948a7dc75fd68f94e1c569c79fcf68e8f2cbbf",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/博士研究_全局总档案.md",
+      "bytes": 82869,
+      "remote_body_git_blob_sha1": "6e4db1c97175497d8a4c9511ccafa63dcf4623e9",
+      "local_sha256": "6b8681bc33d8c0e1f2049708686592f7adf6d9340b995b116d4887245dfd6df4",
+      "status": "PASS"
+    },
+    {
+      "path": "教程/研究规范/术语与定义.md",
+      "bytes": 42601,
+      "remote_body_git_blob_sha1": "06693bfe1e1ddb7060f36989c5c61fe1e4adeaf3",
+      "local_sha256": "688dc9b87293c4dbbf4323a8b135b5770febe7716e5356e2fc70e3868fde8df9",
+      "status": "PASS"
+    }
+  ]
+}

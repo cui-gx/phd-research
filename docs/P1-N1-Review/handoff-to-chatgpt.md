@@ -6,6 +6,7 @@
 - 作業状態：**COMPLETE（文献・文書・静的審査）**。新しい科学計算0、サーバ接続0、MD/訓練/推論/LOF/DCD再解析/NMR34計算0。新たな科学的受入れはPENDING。
 - 既報は272/272 MD、240下流/32履歴、8根/16状態/2,048,000frame。今回の達成件数をこれらの再実行と表現しない。
 - 静的確認：既報全9 CSV/JSON、30ファイルの読取り前後SHA、44,064算術等式を確認。最大差2.665e−15、bootstrap/相関の再計算なし。[確認時刻JSTと結果](static-table-audit.json)。
+- 内容commit：`307054b61b65c20dd9a88705d42b96dd6d87fc26`。28変更ファイルの全文602,861 bytesをGitHubから回読し、各Git blob SHAとサイズ一致を確認した。最終検証記録版は下記の版管理規則に従う。
 - GitHub：本ディレクトリの全文、原行抽出CSV、コード/文献索引・監査と共有記録。同期の実在commit、本文照合数と最終時刻は[遠隔回読記録](remote-readback.json)およびそのファイルを追加したGit commit/最終返信で照合する。自己のcommit SHAを自己文中へ再帰的に埋め込まない。
 - サーバのみ：DCD、model/optimizer、全ログ、N1全frame NPZ、9原archive。今回実在/SHAを再照合していない。N1時のarchiveは存在/サイズ検査、直近の全archive SHAは別のB1/R1保存記録。Mac raw backup免除は継続。原archiveを削除しない。
 

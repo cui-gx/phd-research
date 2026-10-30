@@ -1,7 +1,7 @@
 {
   "status": "PASS",
-  "checked_JST": "2026-10-30T20:05:08.191347+09:00",
-  "markdown_links": 90,
+  "checked_JST": "2026-10-30T20:07:31.274060+09:00",
+  "markdown_links": 94,
   "source_files_unchanged_from_baseline": 47,
   "row_copy_counts": {
     "reported-primary-contrasts.csv": 108,
@@ -83,6 +83,22 @@
     {
       "from": "docs/P1-N1-Review/README.md",
       "to": "docs/P1-N1/CPU-v1/README.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/README.md",
+      "to": "docs/P1-N1-Review/remote-readback.json"
+    },
+    {
+      "from": "docs/P1-N1-Review/README.md",
+      "to": "docs/P1-N1-Review/delivery-check.json"
+    },
+    {
+      "from": "docs/P1-N1-Review/README.md",
+      "to": "docs/P1-N1-Review/review-source-manifest.json"
+    },
+    {
+      "from": "docs/P1-N1-Review/README.md",
+      "to": "docs/P1-N1-Review/delivery-cleanup.json"
     },
     {
       "from": "docs/P1-N1-Review/budget-and-gates.md",
