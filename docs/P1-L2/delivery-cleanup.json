@@ -1,0 +1,51 @@
+{
+  "checked_JST": "2026-10-30T09:26:43.451660+09:00",
+  "status": "COMPLETE",
+  "verified_content_commit": "b3fdd3e6ccbe0b4838b010a3706a7602a8d78f1f",
+  "removed_owned_transfer_temporaries": [
+    {
+      "path": "research-workflow/l2-engineering-input.tar",
+      "bytes": 2488320,
+      "sha256": "9df16ef3545182c9d5d7bda114fc66b2ca64a4a2fd092ebb6a74c70a5a6217e5"
+    },
+    {
+      "path": "research-workflow/l2-compact-delivery.tar.gz",
+      "bytes": 1603097,
+      "sha256": "5e33aa4974bf3a4947e486f788445f65e6b38a130703a1c606269065d126a4e0"
+    },
+    {
+      "path": "research-workflow/l2-report-completion-delivery.tar.gz",
+      "bytes": 518429,
+      "sha256": "96e7c1f545d22628f1be6d1488c57d669f383098f941e8918bae09c480570a25"
+    }
+  ],
+  "removed_owned_l2_pyc": [
+    "p1/__pycache__/l2_control.cpython-314.pyc",
+    "p1/__pycache__/l2_engineering.cpython-314.pyc"
+  ],
+  "removed_owned_AppleDouble": [
+    "docs/P1-L2/._execution-failures.json",
+    "docs/P1-L2/._review-dossier.md",
+    "docs/P1-L2/._reproduce.md",
+    "docs/P1-L2/._handoff-to-chatgpt.md",
+    "docs/P1-L2/._supervisor-summary.md",
+    "docs/P1-L2/._remote-readback.json",
+    "docs/P1-L2/._execution-progress.json",
+    "docs/P1-L2/._execution-delivery-validation.json",
+    "p1/._l2_engineering.py",
+    "p1/._l2_train.py",
+    "p1/._l2_evaluate.py",
+    "p1/._l2_aggregate.py",
+    "p1/._l2_control.py",
+    "p1/._l2_review_summary.py",
+    "p1/._l2_audit.py",
+    "p1/._l2_figures.py",
+    "p1/._l2_postprocess.py",
+    "p1/._l2_report_facts.py",
+    "p1/._l2_optimizer_audit.py"
+  ],
+  "science_data_removed": false,
+  "server_raw_and_original_archives_retained": true,
+  "shared_runtime_removed": false,
+  "other_processes_terminated": false
+}

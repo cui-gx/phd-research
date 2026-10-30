@@ -78,3 +78,7 @@ Torch2.7.1+cu128、NumPy1.26.4、sklearn1.6.1、mdlearn0.0.10a1(source938cb80)�
 ## G. 次段階
 
 唯一の次行動は研究者/ChatGPTの科学審査。新実験、1600超への延長、良いseed選別、新レシピ採択、L2/P/O/C/B2/S3の自動開始をしない。将来の追加条件はPROPOSEDとして、必要な情報価値と境界を別に承認する。今回の技術交付完了は科学受入れではない。
+
+### 同期の実測確認
+
+報告内容commit `b3fdd3e6ccbe0b4838b010a3706a7602a8d78f1f` の設計以降89変更ファイルをGitHubから全文回読し、decoded byte数と計算したGit blob SHAを照合してPASS。大きいpaired-contrasts.csvもblob APIで全2,320,032 bytesを取得した。[回読収据](remote-readback.json)。この収据を追加した最終同期commitはGit履歴と最終返信で照合する。独立科学審査・研究者受入れは変わらずPENDING。

@@ -45,6 +45,8 @@
   "technical_audit": "PASS",
   "independent_scientific_review": "PENDING",
   "researcher_scientific_acceptance": "PENDING",
-  "GitHub_readback": "PENDING_SEPARATE_RECEIPT",
-  "new_scientific_computation_this_validation": 0
+  "GitHub_readback": "PASS_89_FULL_BODIES",
+  "new_scientific_computation_this_validation": 0,
+  "verified_content_commit": "b3fdd3e6ccbe0b4838b010a3706a7602a8d78f1f",
+  "remote_readback_receipt": "remote-readback.json"
 }
