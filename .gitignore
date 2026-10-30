@@ -441,3 +441,12 @@
 docs/P1-N1/CPU-v1/._*
 
 !p1/n1_cpu_final_audit.py
+
+# N1科学審査：文書・静的表照合・小型証拠のみ
+!/docs/P1-N1-Review/
+/docs/P1-N1-Review/*
+!/docs/P1-N1-Review/*.md
+!/docs/P1-N1-Review/*.json
+!/docs/P1-N1-Review/*.csv
+!/docs/P1-N1-Review/*.py
+._*

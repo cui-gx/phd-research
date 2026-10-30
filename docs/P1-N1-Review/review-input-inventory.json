@@ -1,0 +1,166 @@
+[
+  {
+    "path": "docs/P1-N1/CPU-v1/README.md",
+    "bytes": 1041,
+    "sha256": "33a91691a8d5b170c5312e033607eb8a54336399e0dfb0a2e022883551c508b6"
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/all-windows.csv",
+    "bytes": 2017431,
+    "sha256": "93d5a47b29c7e18b3ec61ec8c90a9923f2a51a12f6bd5c68a560c68b0d54c1ff"
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/costs.json",
+    "bytes": 437,
+    "sha256": "12671251f5a7cb97c6f3f3665a97253c17e813f67ee5742a26e813a7aa2eec8c",
+    "entries": 14
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/delivery-audit.json",
+    "bytes": 604,
+    "sha256": "56607a156960f109223e4303a961ed307836051514fc9f7d54bb28efdd769ca6",
+    "entries": 15
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/descriptive-facts.json",
+    "bytes": 627,
+    "sha256": "a830faf92dd814d2e48f36218cf20cb44a50d33a7c3485a1b5229ee27ffaae96",
+    "entries": 3
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/document-sha256.json",
+    "bytes": 2606,
+    "sha256": "585d53a66c3354181372bc8ab2207a2f06851bc3404b5e2cabde8dd422777a3b",
+    "entries": 28
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/execution-approval.md",
+    "bytes": 1947,
+    "sha256": "f486c422b51b1d8ee00284a223af9767ed5e070ca64d3ad0478e06b4af1c8f6d"
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/execution-status.json",
+    "bytes": 212,
+    "sha256": "9f6965d09cfb21bbf0ac9fe060e518b7fd209e5d227f03bc2bec8615f884b4ec",
+    "entries": 8
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/failures-and-missing.json",
+    "bytes": 517,
+    "sha256": "40545ed0f7edb75d93f21e891ee470af16e269f2fc2e595eaa42bfcd4b0cea99",
+    "entries": 8
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/final-server-audit.json",
+    "bytes": 29664,
+    "sha256": "2f1b3fb46abd265bbdbad091f9bd110dab611861c9062d00e4e12676be95db84",
+    "entries": 13
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/final-transfer-sha256.json",
+    "bytes": 1483,
+    "sha256": "3b5283348b742aa5892efc3a70d5293008ef62f3d5cb28337a2ef11090215dbc",
+    "entries": 16
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/first-unit-gate.json",
+    "bytes": 210,
+    "sha256": "4d94fa10c2b969fa09782cd51c3e1f70f03cd6d2181ef4906f1b7186764a371f",
+    "entries": 8
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/geometry-correlations.csv",
+    "bytes": 43615,
+    "sha256": "9decc88ea3b0badb919c7f6e9643a4ab19d8cdf45acc243311f534da4b4ca6f4"
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/geometry-native-joined.csv",
+    "bytes": 1430707,
+    "sha256": "92a801fec9769a4b725fdab9be6d7f43e3eba33f4a1896c51095415a90447f2d"
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/handoff-to-chatgpt.md",
+    "bytes": 3761,
+    "sha256": "96786e221b2cdc6cb37e2e589afc15fd0278a58af99a580a21a6a129cf1a73f1"
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/history-progress.csv",
+    "bytes": 26442,
+    "sha256": "50708d9200db884129ab62081f0b14f230decf6280a5c425c798b95a34594ab8"
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/model-windows.csv",
+    "bytes": 516831,
+    "sha256": "4a6d70e992e506a1f356c8ba6a7cb8d657ece9efece7e626bdad2209846b1aad"
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/native-overview.png",
+    "bytes": 249783,
+    "sha256": "944aeadb8d9262cf2abf31369b2cf0a7172b13d273e30987b4dc79acaff04c8f"
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/output-sha256.json",
+    "bytes": 1198,
+    "sha256": "fd7644cf51655fb4764f46f77adfde392690b4dacf2ae6926cd6e96c8b42754b",
+    "entries": 13
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/progress-and-pairs.png",
+    "bytes": 140932,
+    "sha256": "716446f06c8529f1a057dfcf78b45a0a081b9a4812c79a49786189f3d24c6a65"
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/reader-test.json",
+    "bytes": 300,
+    "sha256": "c44e6567ac48f478ada370790b9fd73c055331b45d062f6e8dac566d48a9e740",
+    "entries": 3
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/reference-test.json",
+    "bytes": 351,
+    "sha256": "f44df7f8e89d0aea66647a6715c7b260b2549138f94b814950c573f1f448762e",
+    "entries": 8
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/remote-readback.json",
+    "bytes": 10740,
+    "sha256": "119a63728a768003a122778052267282e6c15ea1446acdd276ef9c9ee2cd43b8",
+    "entries": 5
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/review-dossier.md",
+    "bytes": 12561,
+    "sha256": "f3abfdba5c604c1d30a3236ee3de582e9307d434480aee4359f471125bb80cdd"
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/root-paired.csv",
+    "bytes": 1219941,
+    "sha256": "0dffc0b07c1264c4af2f0c9f4fdfcb48a7f14c5d5e3ff88c96472befafbbc9c1"
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/root-summary.csv",
+    "bytes": 478098,
+    "sha256": "daa7fc100a35a8771e682016543ca383d86862c6ab642e92fa4235b3f53a491c"
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/state-paired.csv",
+    "bytes": 615290,
+    "sha256": "53044af269a4fdce244aa66d3fa8c80ff9bfe27238da96d7228bb2388fd1284e"
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/state-windows.csv",
+    "bytes": 221430,
+    "sha256": "24d499848aefb5bc0202cffa3cc53f3a8adc7da73e403bf3b5785797dfeea33f"
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/supervisor-summary.md",
+    "bytes": 1063,
+    "sha256": "dadfa15cc4dcbed49e0742e31b0dfbc8f34b7125cfa2cc1ce54eb8363862f1ff"
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/unit-audit.json",
+    "bytes": 373745,
+    "sha256": "44373cee799fa3995c9d9e187798646474383aa2ce3ac68116a9912d5b504094",
+    "entries": 272
+  }
+]

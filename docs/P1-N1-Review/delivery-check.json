@@ -1,0 +1,384 @@
+{
+  "status": "PASS",
+  "checked_JST": "2026-10-30T20:05:08.191347+09:00",
+  "markdown_links": 90,
+  "source_files_unchanged_from_baseline": 47,
+  "row_copy_counts": {
+    "reported-primary-contrasts.csv": 108,
+    "reported-all-window-F2-F1.csv": 864,
+    "reported-root-primary.csv": 288,
+    "reported-primary-correlations.csv": 36
+  },
+  "python_AST": "PASS",
+  "JSON_parse": "PASS",
+  "existing_root_README_preserved_sha256": "7942e3c12cc0fd9988c40b1424d218b73c4c09c2b57ef9141052ad18c116cadd",
+  "new_scientific_computations": 0,
+  "server_sessions": 0,
+  "external_review": "PENDING",
+  "researcher_scientific_acceptance": "PENDING",
+  "remote_delivery": "SEPARATE_RECEIPT",
+  "local_setup_note": "PyYAMLは未導入。import確認のみ失敗し、追加導入せず標準ライブラリの静的点検を使用した。科学処理の失敗ではない。",
+  "static_validator_repair": "初回のglobがmacOS AppleDoubleを本文と読んでUnicodeDecodeError。メタデータ除外を追加し再点検。転記CSVはGit空白検査でCRLFを指摘されLF出力に統一した。元値・原表は不変で、科学データの再解析はしていない。",
+  "links": [
+    {
+      "from": "docs/P1-N1-Review/README.md",
+      "to": "docs/P1-N1-Review/review-dossier.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/README.md",
+      "to": "docs/P1-N1-Review/supervisor-summary.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/README.md",
+      "to": "docs/P1-N1-Review/literature-evidence.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/README.md",
+      "to": "docs/P1-N1-Review/nmr34-contract.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/README.md",
+      "to": "docs/P1-N1-Review/cb2-design.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/README.md",
+      "to": "docs/P1-N1-Review/budget-and-gates.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/README.md",
+      "to": "docs/P1-N1-Review/resource-measurement-plan.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/README.md",
+      "to": "docs/P1-N1-Review/next-execution-card.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/README.md",
+      "to": "docs/P1-N1-Review/handoff-to-chatgpt.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/README.md",
+      "to": "docs/P1-N1-Review/static-table-audit.json"
+    },
+    {
+      "from": "docs/P1-N1-Review/README.md",
+      "to": "docs/P1-N1-Review/review-input-inventory.json"
+    },
+    {
+      "from": "docs/P1-N1-Review/README.md",
+      "to": "docs/P1-N1-Review/reported-primary-contrasts.csv"
+    },
+    {
+      "from": "docs/P1-N1-Review/README.md",
+      "to": "docs/P1-N1-Review/reported-all-window-F2-F1.csv"
+    },
+    {
+      "from": "docs/P1-N1-Review/README.md",
+      "to": "docs/P1-N1-Review/reported-root-primary.csv"
+    },
+    {
+      "from": "docs/P1-N1-Review/README.md",
+      "to": "docs/P1-N1-Review/reported-primary-correlations.csv"
+    },
+    {
+      "from": "docs/P1-N1-Review/README.md",
+      "to": "docs/P1-N1/CPU-v1/README.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/budget-and-gates.md",
+      "to": "docs/P1-B1-Expansion/cost-and-runtime.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/budget-and-gates.md",
+      "to": "docs/P1-N1-Review/resource-measurement-plan.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/cb2-design.md",
+      "to": "docs/P1-N1/cb2-minimal-design.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/cb2-design.md",
+      "to": "docs/P1-B1-Expansion/state-dependence-analysis.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/cb2-design.md",
+      "to": "docs/P1-N1-Review/budget-and-gates.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/cb2-design.md",
+      "to": "docs/P1-N1-Review/budget-and-gates.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1-Review/static-table-audit.json"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1-Review/remote-readback.json"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1/CPU-v1/unit-audit.json"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1-Review/reported-primary-contrasts.csv"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1-Review/reported-all-window-F2-F1.csv"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1-Review/reported-root-primary.csv"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1-Review/review-input-inventory.json"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1-Review/review-dossier.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1-Review/review-dossier.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1-Review/literature-evidence.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1-Review/nmr34-contract.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1-Review/cb2-design.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1-Review/budget-and-gates.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1-Review/resource-measurement-plan.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1-Review/next-execution-card.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1-Review/supervisor-summary.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1-Review/static-table-audit.json"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1-Review/review-input-inventory.json"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1-Review/reported-primary-contrasts.csv"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1-Review/reported-all-window-F2-F1.csv"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1-Review/reported-root-primary.csv"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1-Review/reported-primary-correlations.csv"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1/CPU-v1/README.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1/branch-index.csv"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-B1-Expansion/review-dossier.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-B1-R1/review-dossier.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-Q0/review-dossier.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-L1/review-dossier.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-L2/review-dossier.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-Post-R1-Qualification/qualification-review.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/研究打合せ/2026-10-30-速水先生-差別化と科学評価.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "p1/n1_native_metrics.py"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "p1/n1_cpu_evaluate.py"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "p1/n1_cpu_summarize.py"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1-Review/review-source-manifest.json"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1-Review/delivery-check.json"
+    },
+    {
+      "from": "docs/P1-N1-Review/handoff-to-chatgpt.md",
+      "to": "docs/P1-N1-Review/remote-readback.json"
+    },
+    {
+      "from": "docs/P1-N1-Review/literature-evidence.md",
+      "to": "docs/P1-N1/sources.json"
+    },
+    {
+      "from": "docs/P1-N1-Review/literature-evidence.md",
+      "to": "docs/P1-N1/related-work-matrix.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/literature-evidence.md",
+      "to": "docs/研究打合せ/2026-10-30-速水先生-差別化と科学評価.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/next-execution-card.md",
+      "to": "docs/P1-N1-Review/nmr34-contract.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/resource-measurement-plan.md",
+      "to": "docs/P1-B1-Expansion/cost-and-runtime.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/review-dossier.md",
+      "to": "docs/P1-N1-Review/static-table-audit.json"
+    },
+    {
+      "from": "docs/P1-N1-Review/review-dossier.md",
+      "to": "docs/P1-N1/CPU-v1/unit-audit.json"
+    },
+    {
+      "from": "docs/P1-N1-Review/review-dossier.md",
+      "to": "docs/P1-N1-Review/next-execution-card.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/review-dossier.md",
+      "to": "docs/P1-N1/native-metric-contract.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/review-dossier.md",
+      "to": "p1/n1_native_metrics.py"
+    },
+    {
+      "from": "docs/P1-N1-Review/review-dossier.md",
+      "to": "p1/n1_cpu_evaluate.py"
+    },
+    {
+      "from": "docs/P1-N1-Review/review-dossier.md",
+      "to": "docs/P1-N1/CPU-v1/reference-test.json"
+    },
+    {
+      "from": "docs/P1-N1-Review/review-dossier.md",
+      "to": "docs/P1-N1/branch-index.csv"
+    },
+    {
+      "from": "docs/P1-N1-Review/review-dossier.md",
+      "to": "p1/n1_cpu_summarize.py"
+    },
+    {
+      "from": "docs/P1-N1-Review/review-dossier.md",
+      "to": "docs/P1-N1/CPU-v1/root-summary.csv"
+    },
+    {
+      "from": "docs/P1-N1-Review/review-dossier.md",
+      "to": "docs/P1-N1-Review/reported-all-window-F2-F1.csv"
+    },
+    {
+      "from": "docs/P1-N1-Review/review-dossier.md",
+      "to": "docs/P1-N1-Review/reported-primary-contrasts.csv"
+    },
+    {
+      "from": "docs/P1-N1-Review/review-dossier.md",
+      "to": "docs/P1-N1-Review/reported-root-primary.csv"
+    },
+    {
+      "from": "docs/P1-N1-Review/review-dossier.md",
+      "to": "docs/P1-N1/CPU-v1/history-progress.csv"
+    },
+    {
+      "from": "docs/P1-N1-Review/review-dossier.md",
+      "to": "docs/P1-N1-Review/reported-primary-correlations.csv"
+    },
+    {
+      "from": "docs/P1-N1-Review/review-dossier.md",
+      "to": "docs/P1-B1-R1/review-dossier.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/review-dossier.md",
+      "to": "docs/P1-L1/review-dossier.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/review-dossier.md",
+      "to": "docs/P1-L2/review-dossier.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/review-dossier.md",
+      "to": "docs/P1-Q0/review-dossier.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/review-dossier.md",
+      "to": "docs/P1-Post-R1-Qualification/qualification-review.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/review-dossier.md",
+      "to": "docs/P1-B1-Expansion/cost-and-runtime.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/review-dossier.md",
+      "to": "docs/P1-N1-Review/cb2-design.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/review-dossier.md",
+      "to": "docs/P1-N1-Review/budget-and-gates.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/review-dossier.md",
+      "to": "docs/研究打合せ/2026-10-30-速水先生-差別化と科学評価.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/supervisor-summary.md",
+      "to": "docs/P1-N1-Review/review-dossier.md"
+    },
+    {
+      "from": "docs/P1-N1-Review/supervisor-summary.md",
+      "to": "docs/P1-N1-Review/literature-evidence.md"
+    }
+  ]
+}

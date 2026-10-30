@@ -1,6 +1,14 @@
 # Doctoral Research — Codex Instructions
 
-> 最新状態：2026-10-30 N1限定CPU評価272/272完了・事後探索として交付。新計算せず独立審査待ち。
+> 最新状態：2026-10-30 N1科学審査・C/B2準備の文書交付。NMR34を含む新計算は未承認。研究者/ChatGPT審査で停止。
+
+## N1後の独立審査・設計の限定範囲（2026-10-30、CONFIRMED）
+
+研究者は基準2d1e8a1の[N1科学審査](docs/P1-N1-Review/review-dossier.md)、原文献確認、NMR34契約、C/B2更新案、費用/停止門、次の限定カードと[A–G](docs/P1-N1-Review/handoff-to-chatgpt.md)を依頼した。承認は既報読取り・文書・静的照合・同期のみ。新MD/学習/推論/LOF/DCD/NMR34数値/GPU干渉は0、今後も別承認まで禁止する。
+
+DERIVED：主窓の根対応と集約は整合、最小RMSDのS4正/S8負は全体利益やX独立価値ではない。Qの不利な比較も保持する。burn200/500の副窓は理想格子より各1点多く、原表を修正せず記録する。原SHA/旧科学実装・結果不変。新adapterの改善は設計だけで、旧評価を無断再実行しない。
+
+次のNMR34首2単位900秒、R0、C/B2行列/時間/主成果は全てPROPOSED。文中の実行Promptは採択前の許可ではない。全272NMRへ自動拡張しない。強Z/Wを保ちXの情報価値と費用込みB2を区別する。Mac raw免除/原9archive保持を継続し、科学受入れPENDING、交付後は研究者/ChatGPT審査で停止する。
 
 ## N1 CPU完了・停止（MEASURED / DERIVED）
 

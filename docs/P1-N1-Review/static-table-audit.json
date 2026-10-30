@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "checked_JST": "2026-10-30T20:05:07.131510+09:00",
+  "scope": "STATIC_SAVED_TABLE_CONSISTENCY_AND_EXACT_ROW_COPY",
+  "table_rows": {
+    "all-windows.csv": 6528,
+    "model-windows.csv": 1920,
+    "state-windows.csv": 1152,
+    "state-paired.csv": 10368,
+    "root-paired.csv": 20736,
+    "root-summary.csv": 2592,
+    "geometry-native-joined.csv": 11520,
+    "geometry-correlations.csv": 432,
+    "history-progress.csv": 240
+  },
+  "checks": {
+    "arithmetic_equalities": 44064
+  },
+  "max_arithmetic_error": 2.6645352591003757e-15,
+  "bootstrap_recomputed": false,
+  "correlations_recomputed": false,
+  "DCD_or_NPZ_read": false,
+  "server_sessions": 0,
+  "new_scientific_results": 0,
+  "input_files_unchanged": 30,
+  "reported_4ns_window_counts": {
+    "0": [
+      8000
+    ],
+    "100": [
+      7800
+    ],
+    "200": [
+      7601
+    ],
+    "500": [
+      7001
+    ]
+  },
+  "window_boundary_note": "100ps主窓は7800点。200/500ps窓は7601/7001点で、理想格子の厳密除外より各1点多い。原表を修正せず記録。"
+}
