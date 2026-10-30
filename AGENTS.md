@@ -1,6 +1,12 @@
 # Doctoral Research — Codex Instructions
 
-> 最新状態：2026-10-30 N1準備資料・静的入力監査・人工testを交付。native科学評価、新MD/学習/C/B2は未承認。審査で停止。
+> 最新状態：2026-10-30 研究者はN1限定CPU実評価を承認。首2単位合格後のみ全272へ。新MD/train/inference/LOF/C/B2禁止。
+
+## N1限定CPU承認（CONFIRMED）
+
+[実行カード](docs/P1-N1/CPU-v1/execution-approval.md)。model1/28CA/proper RMSD/Q_CA8_M1_G3_LT、原品質/12窓、0.5/2ps。単CPU/thread、GPU不可視、RSS/出力各2GiB、科学2h復核。SHA/ID/数値不一致で停止。34参照/hit/dwell/第二Qは未承認。事後探索として全正負を交付して停止。旧未承認記載はこの限定CPU範囲のみSUPERSEDED。
+
+> 前回状態：2026-10-30 N1準備資料・静的入力監査・人工testを交付。native科学評価、新MD/学習/C/B2は未承認。審査で停止。
 
 ## N1準備の限定承認・交付（2026-10-30、CONFIRMEDな範囲／MEASUREDな準備）
 
