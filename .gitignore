@@ -435,3 +435,7 @@
 !p1/n1_cpu_evaluate.py
 !docs/P1-N1/CPU-v1/
 !docs/P1-N1/CPU-v1/**
+
+!p1/n1_cpu_summarize.py
+!p1/n1_reader_test.py
+docs/P1-N1/CPU-v1/._*
