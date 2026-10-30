@@ -450,3 +450,13 @@ docs/P1-N1/CPU-v1/._*
 !/docs/P1-N1-Review/*.csv
 !/docs/P1-N1-Review/*.py
 ._*
+
+# NMR34の限定CPU資格
+!/p1/nmr34_qa.py
+!/docs/P1-NMR34-QA/
+/docs/P1-NMR34-QA/*
+!/docs/P1-NMR34-QA/*.md
+!/docs/P1-NMR34-QA/*.json
+!/docs/P1-NMR34-QA/*.csv
+!/docs/P1-NMR34-QA/*.log
+._*

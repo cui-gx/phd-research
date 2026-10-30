@@ -1,5 +1,9 @@
 # Doctoral Research — Codex Instructions
 
+## NMR34-QA限定承認（2026-10-30、CONFIRMED）
+
+研究者は[NMR34-QA実行カード](docs/P1-NMR34-QA/execution-approval.md)の固定2単位のみ承認。旧NMR未承認はこの範囲のみ更新。900s/300s/RSS2GiB/出力256MiB/CPU1/GPU不可視、SHA/数値不一致で停止。全272/新MD/学習/推論/LOF/C/B2は未承認。原結果不変、完了後審査待ち。
+
 > 最新状態：2026-10-30 N1科学審査・C/B2準備の文書交付。NMR34を含む新計算は未承認。研究者/ChatGPT審査で停止。
 
 ## N1後の独立審査・設計の限定範囲（2026-10-30、CONFIRMED）
