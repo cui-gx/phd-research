@@ -1,0 +1,153 @@
+{
+  "date_JST": "2026-10-30",
+  "evidence_type": "source_and_method_review_no_new_science",
+  "papers": [
+    {
+      "id": "B2018",
+      "title": "Bhowmik et al., Deep clustering of protein folding simulations (2018)",
+      "url": "https://doi.org/10.1186/s12859-018-2507-5",
+      "local_source": "literature/p1-novelty-2026-10-25/bhowmik2018.pdf",
+      "availability": "LOCAL_REFERENCE_ONLY_NOT_COMMITTED",
+      "bytes": 2726133,
+      "sha256": "ab6bb724c2d8a8535d09a12290ee5355e7f345194d79c4d90d2923566fff99c3",
+      "read_scope": "Methods/Resultsの入力・Q、Table1、BBA Fig7/Discussion。固定PDFと公式HTML検索表示を照合。原解析code未取得。"
+    },
+    {
+      "id": "M2020_A2019",
+      "title": "Ma et al., Deep Generative Model Driven Protein Folding Simulations (2020 / author v1 2019)",
+      "url": "https://arxiv.org/abs/1908.00496v1",
+      "local_source": "literature/p1-n1-2026-10-30/ma2019-author.pdf",
+      "availability": "LOCAL_REFERENCE_ONLY_NOT_COMMITTED",
+      "bytes": 1516003,
+      "sha256": "7f8d7ddff9673987e7a0eb717c8c0c7cce9757a9dc5e84f4a3d4ca9f944ed4bc",
+      "read_scope": "著者版§2、§3.1、Table1/2、Discussion。2020書誌DOI10.3233/APC200023確認、正式全文との差は未確認。"
+    },
+    {
+      "id": "L2019",
+      "title": "Lee et al., DeepDriveMD (2019)",
+      "url": "https://arxiv.org/abs/1909.07817v1",
+      "local_source": "literature/p1-n1-2026-10-30/lee2019.pdf",
+      "availability": "LOCAL_REFERENCE_ONLY_NOT_COMMITTED",
+      "bytes": 1109617,
+      "sha256": "87eb2405e77ff78843088d40a3bfc81637b53a35d770cde375cb7e32816bfa60",
+      "read_scope": "§III–V、Fig1/3/4、Fs/VHP条件・学習/再開・scale、初期学習込みの解釈。"
+    },
+    {
+      "id": "D2022",
+      "title": "Brace et al., Coupling streaming AI and HPC ensembles (2022)",
+      "url": "https://arxiv.org/abs/2104.04797v5",
+      "local_source": "literature/first-part/papers/P03-DeepDriveMD.pdf",
+      "availability": "LOCAL_REFERENCE_ONLY_NOT_COMMITTED",
+      "bytes": 14472405,
+      "sha256": "f773af22b8759946b35723e8a9cec5e82420fbe6bef36bc26a0bfea301bbbb84",
+      "read_scope": "§III–VI、TableI/Fig3/5–7。F/S、native-guided対照、12h10試行、物理/ML条件。"
+    },
+    {
+      "id": "C2021",
+      "title": "Ward et al., Colmena (2021)",
+      "url": "https://arxiv.org/abs/2110.02827v1",
+      "local_source": "literature/p1-novelty-2026-10-25/colmena2021.pdf",
+      "availability": "LOCAL_REFERENCE_ONLY_NOT_COMMITTED",
+      "bytes": 1010804,
+      "sha256": "cc7e5f58a8fe079400598873f3159cb55a54315b9152ee0e5e5f40215efc51dc",
+      "read_scope": "§II–IV-CとFig4。update8、資源pool、分子QCの科学成果、通信/待機。"
+    },
+    {
+      "id": "C2025",
+      "title": "Ward et al., Employing AI to steer exascale workflows with Colmena (2025; online2024)",
+      "url": "https://arxiv.org/html/2408.14434",
+      "local_source": "literature/first-part/papers/P02-Colmena.pdf",
+      "availability": "LOCAL_REFERENCE_ONLY_NOT_COMMITTED",
+      "bytes": 1351912,
+      "sha256": "21a18ffcbed988f60d73d2f1a8089932523bc506402e2c5e992f08481ad1a3f0",
+      "read_scope": "著者v1と公式HTML§5.2/Fig6、stale/wait、非同期/streaming/resource steering。"
+    },
+    {
+      "id": "S2014",
+      "title": "Savol & Chennubhotla, Quantifying sources of kinetic frustration (2014)",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4132847/fullTextXML",
+      "local_source": "literature/p1-n1-2026-10-30/savol2014.xml",
+      "availability": "LOCAL_REFERENCE_ONLY_NOT_COMMITTED",
+      "bytes": 154803,
+      "sha256": "77f0754ab17e5c75f8d241a14e023d4319cb16cd0ad99c23e1c389e337d13aa2",
+      "read_scope": "原著のnative-contact定義段落を引用追跡。10Å/65%とsequence exclusion。全MSM結果の独立再現ではない。"
+    }
+  ],
+  "official_metadata": [
+    {
+      "url": "https://www.rcsb.org/structure/1FME",
+      "read_scope": "28残基、solutionNMR、34submitted/49calculated。原RCSB最新版と固定既存PDBの座標同一性は未検査。"
+    },
+    {
+      "url": "https://deepdrivemd-pipeline.readthedocs.io/en/stable/",
+      "read_scope": "0.0.2文書、F/Sの同期/非同期とRADICAL-EnTK"
+    }
+  ],
+  "code_snapshots": [
+    {
+      "repository": "DeepDriveMD/DeepDriveMD-pipeline",
+      "commit": "a44d394fa3dc500c4f02b6086ed5b1f87df2556a",
+      "path": "deepdrivemd/config.py",
+      "url": "https://raw.githubusercontent.com/DeepDriveMD/DeepDriveMD-pipeline/a44d394fa3dc500c4f02b6086ed5b1f87df2556a/deepdrivemd/config.py",
+      "local_path": "literature/p1-n1-2026-10-30/DeepDriveMD-pipeline-deepdrivemd_config.py",
+      "sha256": "f7519322acb9e6b6e95b4931ec7fbc0f6834996804826735826100cabd17f3f6",
+      "bytes": 8118
+    },
+    {
+      "repository": "DeepDriveMD/DeepDriveMD-pipeline",
+      "commit": "a44d394fa3dc500c4f02b6086ed5b1f87df2556a",
+      "path": "deepdrivemd/deepdrivemd.py",
+      "url": "https://raw.githubusercontent.com/DeepDriveMD/DeepDriveMD-pipeline/a44d394fa3dc500c4f02b6086ed5b1f87df2556a/deepdrivemd/deepdrivemd.py",
+      "local_path": "literature/p1-n1-2026-10-30/DeepDriveMD-pipeline-deepdrivemd_deepdrivemd.py",
+      "sha256": "0a095b2cd40e676175f4903107d6dca57c9d88264ee4837a2043ae13d82661ad",
+      "bytes": 10297
+    },
+    {
+      "repository": "DeepDriveMD/DeepDriveMD-pipeline",
+      "commit": "a44d394fa3dc500c4f02b6086ed5b1f87df2556a",
+      "path": "deepdrivemd/deepdrivemd_stream.py",
+      "url": "https://raw.githubusercontent.com/DeepDriveMD/DeepDriveMD-pipeline/a44d394fa3dc500c4f02b6086ed5b1f87df2556a/deepdrivemd/deepdrivemd_stream.py",
+      "local_path": "literature/p1-n1-2026-10-30/DeepDriveMD-pipeline-deepdrivemd_deepdrivemd_stream.py",
+      "sha256": "33cfa561859f10019dc322aab38057404c1fb2d8969cfccb8bc4d032f316a639",
+      "bytes": 10269
+    },
+    {
+      "repository": "DeepDriveMD/DeepDriveMD-pipeline",
+      "commit": "a44d394fa3dc500c4f02b6086ed5b1f87df2556a",
+      "path": "deepdrivemd/selection/latest/select_model.py",
+      "url": "https://raw.githubusercontent.com/DeepDriveMD/DeepDriveMD-pipeline/a44d394fa3dc500c4f02b6086ed5b1f87df2556a/deepdrivemd/selection/latest/select_model.py",
+      "local_path": "literature/p1-n1-2026-10-30/DeepDriveMD-pipeline-deepdrivemd_selection_latest_select_model.py",
+      "sha256": "47fce40ee31261482a97589cdf69742838df7a2eadbc1a03a19fd65442ce1445",
+      "bytes": 4633
+    },
+    {
+      "repository": "exalearn/colmena",
+      "error": "HTTP Error 422: Unprocessable Entity"
+    },
+    {
+      "repository": "exalearn/colmena",
+      "commit": "88314f341b18fc598c3124a1c246272f820b6829",
+      "path": "colmena/thinker/resources.py",
+      "url": "https://raw.githubusercontent.com/exalearn/colmena/88314f341b18fc598c3124a1c246272f820b6829/colmena/thinker/resources.py",
+      "sha256": "cfc9277e41a025451e9a5140ce03024934458849158495ac2f2b0e8e23ddf80b",
+      "bytes": 13241,
+      "local_path": "literature/p1-n1-2026-10-30/colmena-colmena_thinker_resources.py"
+    },
+    {
+      "repository": "exalearn/colmena",
+      "commit": "88314f341b18fc598c3124a1c246272f820b6829",
+      "path": "colmena/thinker/__init__.py",
+      "url": "https://raw.githubusercontent.com/exalearn/colmena/88314f341b18fc598c3124a1c246272f820b6829/colmena/thinker/__init__.py",
+      "sha256": "16333f39dd0dafa6c77847e327a12bb0de90fefab1d6aafcba07bad7b23395b9",
+      "bytes": 19328,
+      "local_path": "literature/p1-n1-2026-10-30/colmena-colmena_thinker___init__.py"
+    }
+  ],
+  "source_limitations": [
+    "原著Q解析コードと参照選択未取得",
+    "現在公開codeのsnapshotであり過去論文全実行版と同一と保証しない",
+    "Ma2020は出版書誌と2019著者原文の区別を保持",
+    "誤ったarXiv2204.10732は別論文につき除外",
+    "PMC/ACS閲覧制限、Ma DOI本文redirect制限、Colmena main422を記録。公式公開代替とdefault branchの確認で取得した。"
+  ]
+}

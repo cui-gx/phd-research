@@ -416,3 +416,18 @@
 !/research-workflow/l2-delivery-static-check.py
 !/research-workflow/l2-protected-baseline.json
 ._*
+
+# N1準備資料・独立純粋関数・metadata監査と人工test。rawは除外する。
+!/docs/P1-N1/
+/docs/P1-N1/*
+!/docs/P1-N1/*.md
+!/docs/P1-N1/*.csv
+!/docs/P1-N1/*.json
+!/docs/P1-N1/*.log
+!/p1/n1_native_metrics.py
+!/p1/n1_metadata_audit.py
+!/tests/p1/test_n1_native_metrics.py
+._*
+
+!/research-workflow/n1-static-validate.py
+._*

@@ -80,3 +80,7 @@ GitHub mainのAGENTS.md、全体研究記録、協作交接記録を毎回読み
 ## L2完了後の停止（2026-10-30）
 
 8d34e371の限定行列は完了。[L2完全報告](P1-L2/review-dossier.md)・[A–G](P1-L2/handoff-to-chatgpt.md)で技術完全性と部分的な表現支持、巨大KL/seed/幾何の限界を分離する。独立科学審査・研究者受入れはPENDING。既定計算の完了は新レシピ採択、追加学習/MDやP/O/C/B2/S3の承認ではない。報告・SHA・GitHub回読後は審査で停止する。
+
+## N1準備と新しい科学計算の分離（2026-10-30、CONFIRMED）
+
+研究者は[N1準備](P1-N1/README.md)で文献/設計/静的点検・byte SHA/header/文字列対応・人工座標testだけを許可。これらと実DCDのRMSD/Q/latent評価を別に記録する。旧B1の新native評価はPOST_HOC_EXPLORATORY、native情報をオンラインX/方策へ漏らさない。規則・閾値・policy/根数/時間/recipeの設計はPROPOSEDで実行承認ではない。原科学証拠・archiveを保持し、交付回読後は研究者/ChatGPT審査で停止する。

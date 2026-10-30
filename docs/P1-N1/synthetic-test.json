@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "tests": 22,
+  "failures": 0,
+  "errors": 0,
+  "scope": "人工座標と人工時系列のみ。実PDB/DCD/モデル読込0。",
+  "wall_s": 0.05899539776146412,
+  "CPU_s": 0.07891313,
+  "peak_RSS_MiB": 37.79296875,
+  "source_SHA256": {
+    "n1_native_metrics.py": "b309389ff681c91fa96fc4c99ac4c65e3c138dd6e946ccf488e7879d8ca69951",
+    "test_n1_native_metrics.py": "decca6f6f419d881c3b086d6c8cf0fba085802f3353c4cbe7cd33a80377bb004",
+    "n1_metadata_audit.py": "1a49967c9be2fcc1d0565193685b7863a37341f3f3e8b14476e72385e2155ffd"
+  }
+}

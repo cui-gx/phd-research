@@ -1,0 +1,17 @@
+{
+  "status": "PREPARATION_COMPLETE_SCIENTIFIC_REVIEW_PENDING",
+  "source_main": "73b93ed224b45b3f62e99e92447241e9af096d8a",
+  "L2_baseline": "65fb2acc8f99774269671ceca25a411ac9ce15cd",
+  "authorization": "LITERATURE_DESIGN_STATIC_METADATA_SYNTHETIC_TEST_ONLY",
+  "native_real_frames_evaluated": 0,
+  "new_MD_training_inference_LOF": 0,
+  "method_adoption": "PENDING",
+  "N1_CPU_evaluation": "NOT_APPROVED",
+  "C_B2_execution": "NOT_APPROVED",
+  "physical_system_change": "NOT_APPROVED",
+  "future_matrix": "PROPOSED_64_ROLLOUTS_NOT_POWER_CERTIFIED",
+  "MAC_RAW_BACKUP": "WAIVED_BY_RESEARCHER",
+  "SERVER_RAW_ARCHIVES": "9_EXIST_SIZE_MATCH_NO_NEW_ARCHIVE_REHASH",
+  "independent_scientific_review": "PENDING",
+  "researcher_scientific_acceptance": "PENDING"
+}

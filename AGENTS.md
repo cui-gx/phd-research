@@ -1,6 +1,10 @@
 # Doctoral Research — Codex Instructions
 
-> 最新状態：2026-10-30 L2固定科学実行・報告交付完了。独立科学審査・研究者受入れ待ちで停止。再実行・追加計算を自動開始しない。
+> 最新状態：2026-10-30 N1準備資料・静的入力監査・人工testを交付。native科学評価、新MD/学習/C/B2は未承認。審査で停止。
+
+## N1準備の限定承認・交付（2026-10-30、CONFIRMEDな範囲／MEASUREDな準備）
+
+研究者は[準備報告](docs/P1-N1/preparation-report.md)の文献・方法設計・静的code/data/SHA・人工testだけを承認した。272MDのbyte SHA/header/CA文字列、80重みbyte SHA、96保存ranking SHAを確認し、実DCD座標decode・native指標計算・model loadは0。人工22testsは工程資格だけで、実科学評価は未実施。[A–G](docs/P1-N1/handoff-to-chatgpt.md)を次の入口とする。native model1/34、Q二定義、閾値、policy、64rollout/新根/予算はPROPOSED。B1新native値は将来もPOST_HOC_EXPLORATORY。既存N0/B1/R1/Q0/L1/L2/先生記録を変更せず、原archive保持・Mac raw免除を継続。新DCD CPU科学評価、MD、訓練/推論/LOF、資源benchmark、C/B2/S3や物理系変更を自動実行しない。旧L2停止はこの新しい準備作業についてのみ更新され、L2再実行や科学受入れは承認しない。
 
 ## L2実行完了・審査待ち（2026-10-30、MEASURED / DERIVED）
 

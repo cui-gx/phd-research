@@ -1,0 +1,1174 @@
+{
+  "status": "PASS_METADATA_ONLY",
+  "MD_files": 272,
+  "history_files": 32,
+  "downstream_files": 240,
+  "model_byte_SHA_checked": 80,
+  "model_loads": 0,
+  "embedding_files_SHA_checked": 96,
+  "DCD_coordinate_frames_decoded": 0,
+  "new_native_scientific_values": 0,
+  "new_MD_train_inference_LOF": 0,
+  "models": [
+    {
+      "task_id": "r01-s4-F1-t1",
+      "checkpoint_sha256": "bd047522971a8ba5917a04d33f9bed97b95cbf4a4b387f72d2667ae0a4f85b24",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r01-s4-F1-t2",
+      "checkpoint_sha256": "d847742f7224b1a826daf94072693f82d3a91f3ef958d1bd84a6215a36f154d4",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r01-s4-F2-t1",
+      "checkpoint_sha256": "543c7bba3e1c62f4eacf745837bdbad170f876853536fb3c6a841531d14d6a74",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r01-s4-F2-t2",
+      "checkpoint_sha256": "6af43566d8d3d80c2e5a6e6c1603c5fe09efa81865de64c21e136985fdc74007",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r01-s4-M0",
+      "checkpoint_sha256": "7acfd35960d10d518116f2c0679b164a8d77325ca674b40a0027cb62a934bf6c",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r01-s8-F1-t1",
+      "checkpoint_sha256": "496373e8f5c219bc0124bb43e2d5f280ffd1f64c35ed897de062287044e11ab2",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r01-s8-F1-t2",
+      "checkpoint_sha256": "bdc2d9343f2565d4821945cfe2613098f2c0a1b5481036256006492310605a8e",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r01-s8-F2-t1",
+      "checkpoint_sha256": "b1545ff10c7a77b8f93171f12917c98564d1ef573b6f07a078e147dbc4d0a69b",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r01-s8-F2-t2",
+      "checkpoint_sha256": "a29b4124dafb6c0ebc97ecde9a950f90bbcea7fb63b47a8c13e8169760ba256e",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r01-s8-M0",
+      "checkpoint_sha256": "f77c9809ed26b5f4dfaf16e26bc5cae68baf3a6c1602b5ec71e4388c87ee04cb",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r02-s4-F1-t1",
+      "checkpoint_sha256": "619ab2619e9397cc5e2a16ba1acfd655f32ab652496560d02415d402ba75a6fd",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r02-s4-F1-t2",
+      "checkpoint_sha256": "655b5674e21e30b1dbee576b0852a23345666a4f5196ebc81fe79168cb96e53f",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r02-s4-F2-t1",
+      "checkpoint_sha256": "b95647f799fb7a6b79442235db256d12b54c41ff87d700cde8ab2b3a2084c182",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r02-s4-F2-t2",
+      "checkpoint_sha256": "bec1e14856eabaeb641d5c5994af6fbb71570e70ff9eb996ff3952295428e0c0",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r02-s4-M0",
+      "checkpoint_sha256": "831d9a479e1c6fccf23447345cbbe3f72ada211c7efb57165975f5b4eb4203f9",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r02-s8-F1-t1",
+      "checkpoint_sha256": "43b7d7850f59b467836d999156bdab3b88745c49e8145c4b7b6b8f25f6e8cc58",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r02-s8-F1-t2",
+      "checkpoint_sha256": "4a9328824655621e6d44ed6ebba1a0720b89b39ec48aa73545415fb83f30bef1",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r02-s8-F2-t1",
+      "checkpoint_sha256": "a9fd42651308da70261652d8f6dc865cbb7925bcb81f4cf30e369dc8c0e538e5",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r02-s8-F2-t2",
+      "checkpoint_sha256": "ca83a8ceceb702270098baee3ca9930552bd0393bf5acadbb63b14f818a503de",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r02-s8-M0",
+      "checkpoint_sha256": "50aa945ea43589077fa35137582bbfe162ec1419becf9c846a63f658cbfc2805",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r03-s4-F1-t1",
+      "checkpoint_sha256": "0d880efe2aef5c3b9c7dbf109e680f1d2a362e984df9df1c30cee303ec2f623d",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r03-s4-F1-t2",
+      "checkpoint_sha256": "936861c2ae18689f00c7415ba7bfec135c30ef5544cad336be37abd9c7c16e23",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r03-s4-F2-t1",
+      "checkpoint_sha256": "e382d940a615d365cbcdfc511a5853781307df9e9af1c799e639dc9c5a582de6",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r03-s4-F2-t2",
+      "checkpoint_sha256": "fa50f6fe94ae9f9f6d3ca03bf9a695397732d51a0402dfc9e83a50b00514c378",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r03-s4-M0",
+      "checkpoint_sha256": "c494aab826692285123d0b42e25119a23af5e53767464ccdc08240264508d80a",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r03-s8-F1-t1",
+      "checkpoint_sha256": "df0447aaa1cc1b8dedb9ee872c61df7b2f23c34ea404b2562ef51901d52c2597",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r03-s8-F1-t2",
+      "checkpoint_sha256": "e99dfc6fb2e01483a4b7b522aa6322fd47fc6e9b1db58790b6ae0c048a5e9d62",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r03-s8-F2-t1",
+      "checkpoint_sha256": "5cae4913192c1b49197e12c73b6236bc62413c67e0cfe60fa6deb70a10c4bfd9",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r03-s8-F2-t2",
+      "checkpoint_sha256": "50cdd809cab365267d5a4633fd8fbcab0f780f17d5ed5a320d664373dfe3b11c",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r03-s8-M0",
+      "checkpoint_sha256": "0d897f66889600a2749a95954205d0481b097866bdd57ea4bab70c3a7b60c7f8",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r04-s4-F1-t1",
+      "checkpoint_sha256": "00275003b108f9d76adc88756e6dedd6e1351d00ae9fe58a1fd9766b609e572b",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r04-s4-F1-t2",
+      "checkpoint_sha256": "6b7dbe22f15da4d7a73a156845d8f659246b824ab93e8e244c6277ef7b0c30a4",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r04-s4-F2-t1",
+      "checkpoint_sha256": "9652ccd6d55b8cc209aa3f808e2588d0a27c269f00edbd57bd29cac95e39ef6b",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r04-s4-F2-t2",
+      "checkpoint_sha256": "3e403c16119d5949d41f24256291f9214b48f29602b6eb2798658c142b6baaf6",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r04-s4-M0",
+      "checkpoint_sha256": "e64369ce2baf8868629307adb509f464750874abcc9308f54e1a8fb00d6c3056",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r04-s8-F1-t1",
+      "checkpoint_sha256": "9e66ef255944d53d7ff51d91f8c1f49f73af4a66ea6e6127bb77d8f3b9b73789",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r04-s8-F1-t2",
+      "checkpoint_sha256": "8a14aa4053d0b7280a2ed6c6dd99ebdb4851cb3bd786c1fb9bb985ade97a3f46",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r04-s8-F2-t1",
+      "checkpoint_sha256": "12fcdc2d3746b517dcb60703d80052db4c10802606d8dc047f5b7615731041e4",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r04-s8-F2-t2",
+      "checkpoint_sha256": "b583e613bbc13e083204863f057006115f56689aa326963179b96453b6466c40",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r04-s8-M0",
+      "checkpoint_sha256": "bc3f9fbf6bfb2b65665125d97fa9cbf791de92b238b6d0257bab96ed12cf6b24",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r05-s4-F1-t1",
+      "checkpoint_sha256": "d46f1bb4045bb598657d010c7aa92a369e3d400df47a1d87892edc37b75f155b",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r05-s4-F1-t2",
+      "checkpoint_sha256": "18d63c77aad254527c4d23dbc24c2184bf14d40d1d1d9a50fb4c33c46a6a120e",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r05-s4-F2-t1",
+      "checkpoint_sha256": "ed8a36b8eba39531ef0435383c36c44d5d9616e3bbe48abf1d89fcd128fc57c0",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r05-s4-F2-t2",
+      "checkpoint_sha256": "da6597893ea4586d3a03678ea41c24547cba2808648bcb040a7fac9a6a1d3889",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r05-s4-M0",
+      "checkpoint_sha256": "306ed464b0895dc14b0421f5b5e27f11dd8fe6080b935cad80f5cfa02b82fbbd",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r05-s8-F1-t1",
+      "checkpoint_sha256": "f15049f03949433a90b813fdc25b090b6bf57e17cfcba6f0643e51ef756c96db",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r05-s8-F1-t2",
+      "checkpoint_sha256": "6807aa2293a628729e44790332abaa794841d154874cab35aa9192388fb48ac5",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r05-s8-F2-t1",
+      "checkpoint_sha256": "398dde1edcf0126f0ec8a95231d6ddc044e27ce3510b8a3027056f9098ecc3f5",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r05-s8-F2-t2",
+      "checkpoint_sha256": "ef21f6f3edce276a85a63ea9e5f5f4bc5ccb7b77f73bc2eb969e5ab5509f2853",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r05-s8-M0",
+      "checkpoint_sha256": "922de50386444751dd6a8c2dc889c5d5605affe60b279f36653ff1c2a123db05",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r06-s4-F1-t1",
+      "checkpoint_sha256": "d3e08605cb529746d163f42fd961e8d5c11245c8642aa85bf780bfdf44a0be71",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r06-s4-F1-t2",
+      "checkpoint_sha256": "4e47d27b3dbb320b498db7ff1b93da68bb6774d38ca976a02ff3e8f9faf7e82d",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r06-s4-F2-t1",
+      "checkpoint_sha256": "549ce42e880625cbf24d1fcb3042e7ed738253f4b2c53ead18a2991ea178ab72",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r06-s4-F2-t2",
+      "checkpoint_sha256": "5eafc5c2f60521f17cfff5804a562eafc3f7c558cc1f8b2e36b1d3c61dde9d55",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r06-s4-M0",
+      "checkpoint_sha256": "1e644136c52b256f3a0efbd42460979b4cb0e8b1cd06d4246f8252567e44a86c",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r06-s8-F1-t1",
+      "checkpoint_sha256": "88fe5a66f96eae6e70f48380b99116f5cd241e67cf79ba87358b432248c9af07",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r06-s8-F1-t2",
+      "checkpoint_sha256": "70805851208d736df05c50a270a2726d88269046bcaecad6db01b5e30fe926a0",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r06-s8-F2-t1",
+      "checkpoint_sha256": "bac52677e51e4792c4959312fd289444479ec3fd70b34d69dc626cd565438032",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r06-s8-F2-t2",
+      "checkpoint_sha256": "96ad56665964b7bd5d911a6083560c08e5d51ea0f19a57adb20cdb172fd22bef",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r06-s8-M0",
+      "checkpoint_sha256": "be5cef68b510293b39ab4b3722e8797ac17affb2fbb2a9c0ccd826a0b45d1861",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r07-s4-F1-t1",
+      "checkpoint_sha256": "d2f34e0499ad5ef3ff9e1210666ba5461be22ee36dc8b93edc5c813032f142b5",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r07-s4-F1-t2",
+      "checkpoint_sha256": "0bfe882863f826aa25c47255294d349a75cb034403f1541b11d92bbf4a9d1408",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r07-s4-F2-t1",
+      "checkpoint_sha256": "2b98ad9baae71d66f1c17fb2ecea7e3deccc9ee99207c475c5a719e6bb2a5efa",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r07-s4-F2-t2",
+      "checkpoint_sha256": "a1d2cef63596226ec1a4e24315bdc52786b0206f020bd42be23af784cb7161bd",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r07-s4-M0",
+      "checkpoint_sha256": "b658fa81ce79299eca826d8014abc0eda928e7bcd76b4907fd2d50415cc6c741",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r07-s8-F1-t1",
+      "checkpoint_sha256": "b05b8faf7f1d1e1700af27a1a7d863594615dce2a81bf5af796f6ea6a5e235a6",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r07-s8-F1-t2",
+      "checkpoint_sha256": "c0edff8357da91d8f3d0bf7f7d1be54c06bb2089988a91489c938e26cf271139",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r07-s8-F2-t1",
+      "checkpoint_sha256": "8ff5dd5593f1dcd1befef2ff375c2fa98e54c2433b162b6e323db66bd15be5d3",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r07-s8-F2-t2",
+      "checkpoint_sha256": "7a0f894eff3e362be9b143ed1c9ee735077b1e16b83b356c48fd67ed8768f0c9",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r07-s8-M0",
+      "checkpoint_sha256": "b92220dc0f8ce61ae6c635a37d55a1764eac57e057c283babb33e11fdbe049e7",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r08-s4-F1-t1",
+      "checkpoint_sha256": "e4f41608c55ac6db763ce7cba9154b77b6870cd92511c8f53295958a29bc5bbe",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r08-s4-F1-t2",
+      "checkpoint_sha256": "79dcc57afaf72d9f1ab9fdc47e9526e2c5ab301c93c347b205f3c3afefacb085",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r08-s4-F2-t1",
+      "checkpoint_sha256": "41ed7b997e8dace47159f301cbb6ec99f221ec8384f3cc8908d2e12e8a9a1011",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r08-s4-F2-t2",
+      "checkpoint_sha256": "72712faf7ffe38050c944ce38f925e0e39768f40d859c42409590cab0998459a",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r08-s4-M0",
+      "checkpoint_sha256": "8087649b806848492c5144051b82e446080848b68f8d9375b1c91dc9d2a92715",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r08-s8-F1-t1",
+      "checkpoint_sha256": "542235e171e66e158e79370f856485e601c8ded06634dd7fd82ffc5c4207a491",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r08-s8-F1-t2",
+      "checkpoint_sha256": "82d855e0fe1d00f9ab2eac93f9ba25934aec5ad656b96d30591e24ff4d7cda5e",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r08-s8-F2-t1",
+      "checkpoint_sha256": "5e3cdbef48fa045d5616bafd363faafa6b17f73f8645386a89c02fd9970e2682",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r08-s8-F2-t2",
+      "checkpoint_sha256": "1779def61070779d5e8e739a45face3e9baa6b263f6b49d7d8973b3d337f67fd",
+      "loaded_model": false
+    },
+    {
+      "task_id": "r08-s8-M0",
+      "checkpoint_sha256": "3fdca64134f3a2b9228c4d3641a664a3d654b36c324d176976552181ac82098e",
+      "loaded_model": false
+    }
+  ],
+  "embedding": [
+    {
+      "task_id": "r01-s4-infer-F0",
+      "relative_path": "tasks/r01-s4-infer-F0/science/ranking.npz",
+      "sha256": "75c37fc64b709e316382fea969ebefb468957be06495c810a93f2ce237f650e0",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r01-s4-infer-F0-repeat",
+      "relative_path": "tasks/r01-s4-infer-F0-repeat/science/ranking.npz",
+      "sha256": "75c37fc64b709e316382fea969ebefb468957be06495c810a93f2ce237f650e0",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r01-s4-infer-F1-t1",
+      "relative_path": "tasks/r01-s4-infer-F1-t1/science/ranking.npz",
+      "sha256": "014c60c4ef15e560a4847713560e4afc253d1849ba831168db708d6b80e57029",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r01-s4-infer-F1-t2",
+      "relative_path": "tasks/r01-s4-infer-F1-t2/science/ranking.npz",
+      "sha256": "2807928e5adb7081a4d0175af60a18ddd74d20716f0a796b18e6cec9a060e104",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r01-s4-infer-F2-t1",
+      "relative_path": "tasks/r01-s4-infer-F2-t1/science/ranking.npz",
+      "sha256": "eeb6ef43407af4d753979df0c934ab24f90faafdf07964f324a71fb8b178c46f",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r01-s4-infer-F2-t2",
+      "relative_path": "tasks/r01-s4-infer-F2-t2/science/ranking.npz",
+      "sha256": "8ba3245b75845b8109f6d2df59621b0663dc47680d1db9342c6dcc68fed9a527",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r01-s8-infer-F0",
+      "relative_path": "tasks/r01-s8-infer-F0/science/ranking.npz",
+      "sha256": "9231df9ea26ec488288f62fdcf1187b038a7f3c1d1da34ceeaf83a2c01cbdd2d",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r01-s8-infer-F0-repeat",
+      "relative_path": "tasks/r01-s8-infer-F0-repeat/science/ranking.npz",
+      "sha256": "9231df9ea26ec488288f62fdcf1187b038a7f3c1d1da34ceeaf83a2c01cbdd2d",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r01-s8-infer-F1-t1",
+      "relative_path": "tasks/r01-s8-infer-F1-t1/science/ranking.npz",
+      "sha256": "0caf0a2eb3ec6a7eeb2a5370b4905149d1181b7ca21b733dfc76b10771f7f32b",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r01-s8-infer-F1-t2",
+      "relative_path": "tasks/r01-s8-infer-F1-t2/science/ranking.npz",
+      "sha256": "6ff5c649364f253755c1d08f4b490441aea4f9ebfc8b966cb71f3cca7f3a4043",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r01-s8-infer-F2-t1",
+      "relative_path": "tasks/r01-s8-infer-F2-t1/science/ranking.npz",
+      "sha256": "d6daa4a59a854dc249e6865846b24c31163437e230e68e9b511e5957e6b06c21",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r01-s8-infer-F2-t2",
+      "relative_path": "tasks/r01-s8-infer-F2-t2/science/ranking.npz",
+      "sha256": "1835f733f8be3aa1990d3fa02aeb78448beee3b2512083581c05141cd02ffa45",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r02-s4-infer-F0",
+      "relative_path": "tasks/r02-s4-infer-F0/science/ranking.npz",
+      "sha256": "060142efe0daea303f014999db0afc81ffcc7b7aa6f8f57b755137a799e370ef",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r02-s4-infer-F0-repeat",
+      "relative_path": "tasks/r02-s4-infer-F0-repeat/science/ranking.npz",
+      "sha256": "060142efe0daea303f014999db0afc81ffcc7b7aa6f8f57b755137a799e370ef",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r02-s4-infer-F1-t1",
+      "relative_path": "tasks/r02-s4-infer-F1-t1/science/ranking.npz",
+      "sha256": "da86af10974c9b6a301a89efbb524580db6810d580f6d73f2a894330b19ada09",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r02-s4-infer-F1-t2",
+      "relative_path": "tasks/r02-s4-infer-F1-t2/science/ranking.npz",
+      "sha256": "2456a97a56bb1b144bee3032446cc94ba19e6300c80642d59eed72a981ff133f",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r02-s4-infer-F2-t1",
+      "relative_path": "tasks/r02-s4-infer-F2-t1/science/ranking.npz",
+      "sha256": "8673d4d8435bf4aef5dece91a45316995746b0a5b89bb3651cb3c8b5841c26d4",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r02-s4-infer-F2-t2",
+      "relative_path": "tasks/r02-s4-infer-F2-t2/science/ranking.npz",
+      "sha256": "1507e36b2725785201064e89f8a77857d3af1d4d59f10f4a75d59eabf2cab04b",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r02-s8-infer-F0",
+      "relative_path": "tasks/r02-s8-infer-F0/science/ranking.npz",
+      "sha256": "025816189e5dcbad309dd353d7de666e594ec0e709cf8fc4074b53a6ebe2e316",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r02-s8-infer-F0-repeat",
+      "relative_path": "tasks/r02-s8-infer-F0-repeat/science/ranking.npz",
+      "sha256": "025816189e5dcbad309dd353d7de666e594ec0e709cf8fc4074b53a6ebe2e316",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r02-s8-infer-F1-t1",
+      "relative_path": "tasks/r02-s8-infer-F1-t1/science/ranking.npz",
+      "sha256": "495a3f934c797a5d9d3f67528d2ee773af3b5f6be9bceed5f6459bab5993586a",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r02-s8-infer-F1-t2",
+      "relative_path": "tasks/r02-s8-infer-F1-t2/science/ranking.npz",
+      "sha256": "0275a08f251ca59d71c90a592fa3cf194671252d124129115988a5be677b0a84",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r02-s8-infer-F2-t1",
+      "relative_path": "tasks/r02-s8-infer-F2-t1/science/ranking.npz",
+      "sha256": "53d67b14dddcd406a70775452e2f5a09e7cd0bbf7284418b062e62af6ab192d5",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r02-s8-infer-F2-t2",
+      "relative_path": "tasks/r02-s8-infer-F2-t2/science/ranking.npz",
+      "sha256": "080510ea4b4c7ffe808ec9f5607940a2603b6b4ecc74e5431df7fff5c7d317e1",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r03-s4-infer-F0",
+      "relative_path": "tasks/r03-s4-infer-F0/science/ranking.npz",
+      "sha256": "f2f5ed8716673ab52e6e548e105522327dcfd70e861bfdb596d713000a545e60",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r03-s4-infer-F0-repeat",
+      "relative_path": "tasks/r03-s4-infer-F0-repeat/science/ranking.npz",
+      "sha256": "f2f5ed8716673ab52e6e548e105522327dcfd70e861bfdb596d713000a545e60",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r03-s4-infer-F1-t1",
+      "relative_path": "tasks/r03-s4-infer-F1-t1/science/ranking.npz",
+      "sha256": "a219b1154a560d791c00333ea8f2aa997b81916d2f9fa550df2bc90d0213d1cd",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r03-s4-infer-F1-t2",
+      "relative_path": "tasks/r03-s4-infer-F1-t2/science/ranking.npz",
+      "sha256": "dda31d10175ad97f3c7ffc8c105a86fd235f6f6d9fb89e61e3a83d1c0a484e29",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r03-s4-infer-F2-t1",
+      "relative_path": "tasks/r03-s4-infer-F2-t1/science/ranking.npz",
+      "sha256": "24f869d03adecc3212da59ce593dd196d09344a01d3abe0a56013062fedeb3d3",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r03-s4-infer-F2-t2",
+      "relative_path": "tasks/r03-s4-infer-F2-t2/science/ranking.npz",
+      "sha256": "052859376b45624012b2640bd43b7810091c42f4971e6b60d5efa78df4d07e81",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r03-s8-infer-F0",
+      "relative_path": "tasks/r03-s8-infer-F0/science/ranking.npz",
+      "sha256": "c7a98638c3bb2304d849df8b4eaa23dee2c1b40dba1fecc81d553f0c37748855",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r03-s8-infer-F0-repeat",
+      "relative_path": "tasks/r03-s8-infer-F0-repeat/science/ranking.npz",
+      "sha256": "c7a98638c3bb2304d849df8b4eaa23dee2c1b40dba1fecc81d553f0c37748855",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r03-s8-infer-F1-t1",
+      "relative_path": "tasks/r03-s8-infer-F1-t1/science/ranking.npz",
+      "sha256": "2898bef6a9cff19f82b9c3c6d21c5f7adb22324f29dfe8a3f1428e676b53a13e",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r03-s8-infer-F1-t2",
+      "relative_path": "tasks/r03-s8-infer-F1-t2/science/ranking.npz",
+      "sha256": "5e8249ca81dc876180c7ea6f6a29ee7c6dc030ea647322a12a2184193319cbf4",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r03-s8-infer-F2-t1",
+      "relative_path": "tasks/r03-s8-infer-F2-t1/science/ranking.npz",
+      "sha256": "648c511f1034ccb57d1d947a2d6bc99f9b273260d5a6ba8a8d90fc8e463f7307",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r03-s8-infer-F2-t2",
+      "relative_path": "tasks/r03-s8-infer-F2-t2/science/ranking.npz",
+      "sha256": "48a3098ca5ba3f69513f035575220e0c8cbf13eeb2f854f8a9b8e797326a0cd7",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r04-s4-infer-F0",
+      "relative_path": "tasks/r04-s4-infer-F0/science/ranking.npz",
+      "sha256": "6e2466b1f0e3ba74738d6b3e8758ea020bd731d6f9f17dbd1d27b65a428bc67c",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r04-s4-infer-F0-repeat",
+      "relative_path": "tasks/r04-s4-infer-F0-repeat/science/ranking.npz",
+      "sha256": "6e2466b1f0e3ba74738d6b3e8758ea020bd731d6f9f17dbd1d27b65a428bc67c",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r04-s4-infer-F1-t1",
+      "relative_path": "tasks/r04-s4-infer-F1-t1/science/ranking.npz",
+      "sha256": "d4e81459770f9f1d4b7e27327460c3d2019ceb20fa6df29f9585fe6fdea16b30",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r04-s4-infer-F1-t2",
+      "relative_path": "tasks/r04-s4-infer-F1-t2/science/ranking.npz",
+      "sha256": "c990ccc277b08baa3980f7993a227c029c93f0c482095cb8cf1e4510497e1edd",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r04-s4-infer-F2-t1",
+      "relative_path": "tasks/r04-s4-infer-F2-t1/science/ranking.npz",
+      "sha256": "a8ec185ea71085da28dd14d3e7f56f679fe4e83eb82f8c54e069029c70f0b6e6",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r04-s4-infer-F2-t2",
+      "relative_path": "tasks/r04-s4-infer-F2-t2/science/ranking.npz",
+      "sha256": "b52b575a40bb869d15d1af1d0fee19d8988ac3aba5ac10985e986e8268f2c61c",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r04-s8-infer-F0",
+      "relative_path": "tasks/r04-s8-infer-F0/science/ranking.npz",
+      "sha256": "0c438ac1cd3fc79c652a385c533f1eecad2e6c68cced7ddcc1a4f3f7de49dd85",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r04-s8-infer-F0-repeat",
+      "relative_path": "tasks/r04-s8-infer-F0-repeat/science/ranking.npz",
+      "sha256": "0c438ac1cd3fc79c652a385c533f1eecad2e6c68cced7ddcc1a4f3f7de49dd85",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r04-s8-infer-F1-t1",
+      "relative_path": "tasks/r04-s8-infer-F1-t1/science/ranking.npz",
+      "sha256": "c67f827cf3c825166436041cca6550a9ea40f4c487996a4af059b7e6e9b02b4e",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r04-s8-infer-F1-t2",
+      "relative_path": "tasks/r04-s8-infer-F1-t2/science/ranking.npz",
+      "sha256": "6ab6f70170cc0b3c62ee41e89d461d89a27751dcfb0808d71391af5205a9d892",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r04-s8-infer-F2-t1",
+      "relative_path": "tasks/r04-s8-infer-F2-t1/science/ranking.npz",
+      "sha256": "71c235e690cd63d8c9fa8d18b1e230bf7d458ae8a898945d3d8e6b8d2192bc34",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r04-s8-infer-F2-t2",
+      "relative_path": "tasks/r04-s8-infer-F2-t2/science/ranking.npz",
+      "sha256": "0d96f3b75a9b109a3148c91d55140277f9eafecb40965e1c6ff50f4f4ddf9551",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r05-s4-infer-F0",
+      "relative_path": "tasks/r05-s4-infer-F0/science/ranking.npz",
+      "sha256": "28a09b9897a2b9889c7bd9dc481c67d54130aa2d34c5d3f2f7bc5c24267bc428",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r05-s4-infer-F0-repeat",
+      "relative_path": "tasks/r05-s4-infer-F0-repeat/science/ranking.npz",
+      "sha256": "28a09b9897a2b9889c7bd9dc481c67d54130aa2d34c5d3f2f7bc5c24267bc428",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r05-s4-infer-F1-t1",
+      "relative_path": "tasks/r05-s4-infer-F1-t1/science/ranking.npz",
+      "sha256": "2c6642feae5b39cda383899b9b8e2dcabcbee25770f5fbead19348bd7777e3b8",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r05-s4-infer-F1-t2",
+      "relative_path": "tasks/r05-s4-infer-F1-t2/science/ranking.npz",
+      "sha256": "5be77609d14f716caeb4079fe9603b28d7ba00b966dda9e66ded9dca9c5aeb3f",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r05-s4-infer-F2-t1",
+      "relative_path": "tasks/r05-s4-infer-F2-t1/science/ranking.npz",
+      "sha256": "0e2336f58c9e2f5b3bc36a93ff0b415d4cddb5770c0231318f2a4608ab19e27c",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r05-s4-infer-F2-t2",
+      "relative_path": "tasks/r05-s4-infer-F2-t2/science/ranking.npz",
+      "sha256": "ea9018f78e7990e3653db6317f28ade4850a8017d060f76ab77e24974d4f9f4a",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r05-s8-infer-F0",
+      "relative_path": "tasks/r05-s8-infer-F0/science/ranking.npz",
+      "sha256": "84efce25b2242ab944f13f0492f0f21ea9ce51025921eb60c9f5b494bd3029ba",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r05-s8-infer-F0-repeat",
+      "relative_path": "tasks/r05-s8-infer-F0-repeat/science/ranking.npz",
+      "sha256": "84efce25b2242ab944f13f0492f0f21ea9ce51025921eb60c9f5b494bd3029ba",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r05-s8-infer-F1-t1",
+      "relative_path": "tasks/r05-s8-infer-F1-t1/science/ranking.npz",
+      "sha256": "9adfa8887014a8d2c7e9742013006f60e6fb4561b2ef6998022dc65c07bbdeec",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r05-s8-infer-F1-t2",
+      "relative_path": "tasks/r05-s8-infer-F1-t2/science/ranking.npz",
+      "sha256": "2894e1d6212012695742eac9d167f2d4ab8f91e7779116a2180e802e233cd667",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r05-s8-infer-F2-t1",
+      "relative_path": "tasks/r05-s8-infer-F2-t1/science/ranking.npz",
+      "sha256": "1b242c87b0cd3d24e56a209063277757992affdbded3b24fb1c07346e8d7b30b",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r05-s8-infer-F2-t2",
+      "relative_path": "tasks/r05-s8-infer-F2-t2/science/ranking.npz",
+      "sha256": "f7010c601cf4a77bbc92a97427b8a433c48671b59502c7b7aed4a9a6e8e15c59",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r06-s4-infer-F0",
+      "relative_path": "tasks/r06-s4-infer-F0/science/ranking.npz",
+      "sha256": "6d69333eb9040400aa927de7fc9ef05c56f36d10e6c111a336f3abeb1aa19a66",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r06-s4-infer-F0-repeat",
+      "relative_path": "tasks/r06-s4-infer-F0-repeat/science/ranking.npz",
+      "sha256": "6d69333eb9040400aa927de7fc9ef05c56f36d10e6c111a336f3abeb1aa19a66",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r06-s4-infer-F1-t1",
+      "relative_path": "tasks/r06-s4-infer-F1-t1/science/ranking.npz",
+      "sha256": "cd61918692a0b17744c2c02c230d2755cf615ea8b393e5c186246167c4a9f2bd",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r06-s4-infer-F1-t2",
+      "relative_path": "tasks/r06-s4-infer-F1-t2/science/ranking.npz",
+      "sha256": "38288eac098b1c5782892eb4aa64a4c6310621ecca270650bfe66c66070d6ad7",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r06-s4-infer-F2-t1",
+      "relative_path": "tasks/r06-s4-infer-F2-t1/science/ranking.npz",
+      "sha256": "6ded6680e79405e559259f4b5d3fc993e09a3f3566be63cc8b7903acd37417d5",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r06-s4-infer-F2-t2",
+      "relative_path": "tasks/r06-s4-infer-F2-t2/science/ranking.npz",
+      "sha256": "4814ccda792fe380f88e39f9862a29419cd62ff92504ddb4ccb557190725874c",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r06-s8-infer-F0",
+      "relative_path": "tasks/r06-s8-infer-F0/science/ranking.npz",
+      "sha256": "cef3244b64b6b178f35361cafb10bd011ba44630daddde99da171d34f2207682",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r06-s8-infer-F0-repeat",
+      "relative_path": "tasks/r06-s8-infer-F0-repeat/science/ranking.npz",
+      "sha256": "cef3244b64b6b178f35361cafb10bd011ba44630daddde99da171d34f2207682",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r06-s8-infer-F1-t1",
+      "relative_path": "tasks/r06-s8-infer-F1-t1/science/ranking.npz",
+      "sha256": "3b0d1e7c6b072ba6b6b2c9b6b738193d153f9cc859fc7a79c1c697afa7ab475a",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r06-s8-infer-F1-t2",
+      "relative_path": "tasks/r06-s8-infer-F1-t2/science/ranking.npz",
+      "sha256": "cbbdc2cb2d069ffd664b6d7ca590ef4d06ed929daccfba2d41e826ac1163cd5c",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r06-s8-infer-F2-t1",
+      "relative_path": "tasks/r06-s8-infer-F2-t1/science/ranking.npz",
+      "sha256": "a00bb9b4f781b3c5fe12aaa6c016c0851ef8a22ffcfde46cf31412eedcac9444",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r06-s8-infer-F2-t2",
+      "relative_path": "tasks/r06-s8-infer-F2-t2/science/ranking.npz",
+      "sha256": "28660f789306e6866c4c9783d8d76d85d71fb8ccb323a5408dda5b33eaeece0a",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r07-s4-infer-F0",
+      "relative_path": "tasks/r07-s4-infer-F0/science/ranking.npz",
+      "sha256": "8d8256ea769b2324d258a96319ec5885686fb59293ffc7b55282e76f7084fc8d",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r07-s4-infer-F0-repeat",
+      "relative_path": "tasks/r07-s4-infer-F0-repeat/science/ranking.npz",
+      "sha256": "8d8256ea769b2324d258a96319ec5885686fb59293ffc7b55282e76f7084fc8d",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r07-s4-infer-F1-t1",
+      "relative_path": "tasks/r07-s4-infer-F1-t1/science/ranking.npz",
+      "sha256": "a9b2f5263eac0abfed7592275efd3aad3e43520560118c61ddc99bb479fdd1e1",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r07-s4-infer-F1-t2",
+      "relative_path": "tasks/r07-s4-infer-F1-t2/science/ranking.npz",
+      "sha256": "85392bde429b5cf65b6841b207a2566bc903ccc4fdcc53fa3279d168e635d980",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r07-s4-infer-F2-t1",
+      "relative_path": "tasks/r07-s4-infer-F2-t1/science/ranking.npz",
+      "sha256": "3bc9b8366f6528d8c404fc14447a0a6407b5e1e57fdb9f1561cc7272195d64fa",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r07-s4-infer-F2-t2",
+      "relative_path": "tasks/r07-s4-infer-F2-t2/science/ranking.npz",
+      "sha256": "756fb81529d0897d1177265ae2e224b7f3acafad9a850801360a10bb05873684",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r07-s8-infer-F0",
+      "relative_path": "tasks/r07-s8-infer-F0/science/ranking.npz",
+      "sha256": "fb5d054c6312673fdd5b68424cd050256a8b50bc2f564b0604851ebb858eef96",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r07-s8-infer-F0-repeat",
+      "relative_path": "tasks/r07-s8-infer-F0-repeat/science/ranking.npz",
+      "sha256": "fb5d054c6312673fdd5b68424cd050256a8b50bc2f564b0604851ebb858eef96",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r07-s8-infer-F1-t1",
+      "relative_path": "tasks/r07-s8-infer-F1-t1/science/ranking.npz",
+      "sha256": "856b368bc97b9e84818e3d68d973f0ca45348066356efcf96e0cc61f8b931d75",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r07-s8-infer-F1-t2",
+      "relative_path": "tasks/r07-s8-infer-F1-t2/science/ranking.npz",
+      "sha256": "ce2f77c4dce580f26745ca469dd2eb8548e0f93ad4d4e41148107e7adbdefb33",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r07-s8-infer-F2-t1",
+      "relative_path": "tasks/r07-s8-infer-F2-t1/science/ranking.npz",
+      "sha256": "828d41d8def480b6bbbb0a1b320644ee37e37bcad7a96c1bd6f65ecc0c9faf2b",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r07-s8-infer-F2-t2",
+      "relative_path": "tasks/r07-s8-infer-F2-t2/science/ranking.npz",
+      "sha256": "65770aeb5bfd12621195cc8482cf895bba27dd5ad8910861926756223ab989fb",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r08-s4-infer-F0",
+      "relative_path": "tasks/r08-s4-infer-F0/science/ranking.npz",
+      "sha256": "4caf8b165b3c9b27106203ad2edf4828de608ce13dc4b9f12694da763d1efd96",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r08-s4-infer-F0-repeat",
+      "relative_path": "tasks/r08-s4-infer-F0-repeat/science/ranking.npz",
+      "sha256": "4caf8b165b3c9b27106203ad2edf4828de608ce13dc4b9f12694da763d1efd96",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r08-s4-infer-F1-t1",
+      "relative_path": "tasks/r08-s4-infer-F1-t1/science/ranking.npz",
+      "sha256": "1e576950dfaff589b4cfaa07c0f193537aba199fb102dc10d5973c1b1251876d",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r08-s4-infer-F1-t2",
+      "relative_path": "tasks/r08-s4-infer-F1-t2/science/ranking.npz",
+      "sha256": "2a4818f176f87fbc21fe006aab897d3862e756f22f25073a626462ff31c55105",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r08-s4-infer-F2-t1",
+      "relative_path": "tasks/r08-s4-infer-F2-t1/science/ranking.npz",
+      "sha256": "3ef6f5bab0e0a5ca2f6b4c9158744838e6fe90c54dcefeaa609f868062d02325",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r08-s4-infer-F2-t2",
+      "relative_path": "tasks/r08-s4-infer-F2-t2/science/ranking.npz",
+      "sha256": "578e31008397eab5dc4ad1fe3c04f676fef070ab9c7132adfe0764054b87bf9e",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r08-s8-infer-F0",
+      "relative_path": "tasks/r08-s8-infer-F0/science/ranking.npz",
+      "sha256": "5d348323fb260f826b61571b82f3fedc3358430b6d2d76172f836eaadd993eca",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r08-s8-infer-F0-repeat",
+      "relative_path": "tasks/r08-s8-infer-F0-repeat/science/ranking.npz",
+      "sha256": "5d348323fb260f826b61571b82f3fedc3358430b6d2d76172f836eaadd993eca",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r08-s8-infer-F1-t1",
+      "relative_path": "tasks/r08-s8-infer-F1-t1/science/ranking.npz",
+      "sha256": "47dc4475fe14f51fb4fdc75dd5ce8ea845da68fe2f6d0011c1687d2caddb2cf6",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r08-s8-infer-F1-t2",
+      "relative_path": "tasks/r08-s8-infer-F1-t2/science/ranking.npz",
+      "sha256": "e02863f5aefb40c7bd6787ffff82c01cbb6f8d99ba8b101f17d7f7210d4bde49",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r08-s8-infer-F2-t1",
+      "relative_path": "tasks/r08-s8-infer-F2-t1/science/ranking.npz",
+      "sha256": "7ccaa0ce002b367aa5c2653f0a7df3f4569ade2d3a8337fa1b4677953a87d6aa",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    },
+    {
+      "task_id": "r08-s8-infer-F2-t2",
+      "relative_path": "tasks/r08-s8-infer-F2-t2/science/ranking.npz",
+      "sha256": "990b9c0ab171d93dae47da885ad99c856dbc1b790077a6d0ff9d555727d71481",
+      "rows_not_recomputed": true,
+      "role": "HISTORY_CANDIDATES_ONLY_NOT_DOWNSTREAM_EMBEDDING"
+    }
+  ],
+  "archives": [
+    {
+      "name": "r01.tar.gz",
+      "exists": true,
+      "size_match": true,
+      "bytes": 2528044626,
+      "expected_sha256": "c100f64efc74351911100d9cfc2a0a8b82cfda11e5de7f36164f293e7bf732a5",
+      "SHA_rehashed_this_audit": false
+    },
+    {
+      "name": "r02.tar.gz",
+      "exists": true,
+      "size_match": true,
+      "bytes": 2526798997,
+      "expected_sha256": "9114f80bc13cade99fea22c43bb55db59e9a9dd22b54479776c8aa2b57123b69",
+      "SHA_rehashed_this_audit": false
+    },
+    {
+      "name": "r03.tar.gz",
+      "exists": true,
+      "size_match": true,
+      "bytes": 2528026022,
+      "expected_sha256": "cb76e39c605fc2faa416426ae4ae21fdaea6a5ecfebe20f3d599e404d702a211",
+      "SHA_rehashed_this_audit": false
+    },
+    {
+      "name": "r04.tar.gz",
+      "exists": true,
+      "size_match": true,
+      "bytes": 2526185600,
+      "expected_sha256": "ebb4c3a9db3cbb51c7bdec1cb3c5bf5807ee72b85f6848248ccb5a7dbb8e9890",
+      "SHA_rehashed_this_audit": false
+    },
+    {
+      "name": "r05.tar.gz",
+      "exists": true,
+      "size_match": true,
+      "bytes": 2525834533,
+      "expected_sha256": "047b5b43ecaf254c47205b703a051d49c3a477600f44928ae0ff2ac1cd98c0f8",
+      "SHA_rehashed_this_audit": false
+    },
+    {
+      "name": "r06.tar.gz",
+      "exists": true,
+      "size_match": true,
+      "bytes": 2525220210,
+      "expected_sha256": "2eaa47b4d1578ff15cd49291bff2d6b064c66e65ab6ece391493e431dd205bb8",
+      "SHA_rehashed_this_audit": false
+    },
+    {
+      "name": "r07.tar.gz",
+      "exists": true,
+      "size_match": true,
+      "bytes": 2527341863,
+      "expected_sha256": "b5e1f8823581d46375f469823fdc711f1fb5e277db8088e54e4cfc539cb445ec",
+      "SHA_rehashed_this_audit": false
+    },
+    {
+      "name": "r08.tar.gz",
+      "exists": true,
+      "size_match": true,
+      "bytes": 2528215449,
+      "expected_sha256": "153e9f0f20a5335c76f33c41f85dc1b78aa172166fb6018766f88c8007b37e61",
+      "SHA_rehashed_this_audit": false
+    },
+    {
+      "name": "metadata.tar.gz",
+      "exists": true,
+      "size_match": true,
+      "bytes": 8265563,
+      "expected_sha256": "c7cb7e8c1e9a0655093a1a46ffb4db4343c5d8cc2245cbc7cfc26db7b9866613",
+      "SHA_rehashed_this_audit": false
+    }
+  ],
+  "versions": {
+    "numpy": "1.26.4",
+    "MDAnalysis": "2.9.0",
+    "openmm": "8.5.2",
+    "torch": "2.7.1+cu128",
+    "scikit-learn": "1.6.1",
+    "mdlearn": "0.0.10a1"
+  },
+  "wall_s": 8.725239245221019,
+  "CPU_s": 8.095469238,
+  "peak_RSS_MiB": 26.47265625,
+  "GPU_visible": false
+}

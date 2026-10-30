@@ -1,0 +1,27 @@
+test_atom_order_not_silently_sorted (synthetic_tests.NativeMetricsTest.test_atom_order_not_silently_sorted) ... ok
+test_bad_q_fails (synthetic_tests.NativeMetricsTest.test_bad_q_fails) ... ok
+test_censor_no_hit (synthetic_tests.NativeMetricsTest.test_censor_no_hit) ... ok
+test_combined_hit (synthetic_tests.NativeMetricsTest.test_combined_hit) ... ok
+test_consensus_75_boundary (synthetic_tests.NativeMetricsTest.test_consensus_75_boundary) ... ok
+test_consensus_empty (synthetic_tests.NativeMetricsTest.test_consensus_empty) ... ok
+test_duplicate_time_fails (synthetic_tests.NativeMetricsTest.test_duplicate_time_fails) ... ok
+test_empty_native_failure (synthetic_tests.NativeMetricsTest.test_empty_native_failure) ... ok
+test_exact_cutoff_strict_vs_inclusive (synthetic_tests.NativeMetricsTest.test_exact_cutoff_strict_vs_inclusive) ... ok
+test_extra_contacts_do_not_change_q_denominator (synthetic_tests.NativeMetricsTest.test_extra_contacts_do_not_change_q_denominator) ... ok
+test_identity (synthetic_tests.NativeMetricsTest.test_identity) ... ok
+test_invalid_mask (synthetic_tests.NativeMetricsTest.test_invalid_mask) ... ok
+test_masked_best (synthetic_tests.NativeMetricsTest.test_masked_best) ... ok
+test_nan_failure (synthetic_tests.NativeMetricsTest.test_nan_failure) ... ok
+test_no_bridge_across_invalid (synthetic_tests.NativeMetricsTest.test_no_bridge_across_invalid) ... ok
+test_proper_rotation (synthetic_tests.NativeMetricsTest.test_proper_rotation) ... ok
+test_reflection_not_rotation (synthetic_tests.NativeMetricsTest.test_reflection_not_rotation) ... ok
+test_scale_not_fit (synthetic_tests.NativeMetricsTest.test_scale_not_fit) ... ok
+test_self_q (synthetic_tests.NativeMetricsTest.test_self_q) ... ok
+test_shape_failure (synthetic_tests.NativeMetricsTest.test_shape_failure) ... ok
+test_threshold_unset_fails (synthetic_tests.NativeMetricsTest.test_threshold_unset_fails) ... ok
+test_translation (synthetic_tests.NativeMetricsTest.test_translation) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.021s
+
+OK
