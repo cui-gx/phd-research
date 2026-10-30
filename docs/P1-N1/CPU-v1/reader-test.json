@@ -1,0 +1,1 @@
+{"status": "PASS", "synthetic_checks": {"three_frames": true, "Angstrom_roundtrip": true, "nm_to_A_explicit": true, "missing_rejected": true, "proper_rotation": true, "mirror_prohibited": true, "missing_atom_rejected": true, "NaN_rejected": true, "native_self_Q": true}, "real_trajectories_read": 0}

@@ -84,3 +84,7 @@ GitHub mainのAGENTS.md、全体研究記録、協作交接記録を毎回読み
 ## N1準備と新しい科学計算の分離（2026-10-30、CONFIRMED）
 
 研究者は[N1準備](P1-N1/README.md)で文献/設計/静的点検・byte SHA/header/文字列対応・人工座標testだけを許可。これらと実DCDのRMSD/Q/latent評価を別に記録する。旧B1の新native評価はPOST_HOC_EXPLORATORY、native情報をオンラインX/方策へ漏らさない。規則・閾値・policy/根数/時間/recipeの設計はPROPOSEDで実行承認ではない。原科学証拠・archiveを保持し、交付回読後は研究者/ChatGPT審査で停止する。
+
+## N1限定CPU評価の完了（2026-10-30）
+
+[承認範囲](P1-N1/CPU-v1/execution-approval.md)は全272で完了。[交付](P1-N1/CPU-v1/README.md)を独立審査するまで新計算をしない。事後native/幾何/段階差と、未知根C価値/固定実時間B2を混同しない。旧準備の未承認記録は限定CPU範囲のみ履歴としてSUPERSEDED。

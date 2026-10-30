@@ -1,0 +1,23 @@
+{
+  "F0": {
+    "branches": 48,
+    "history_improving_branches": 22,
+    "mean_gain_A": 0.3595580078376824,
+    "minimum_branch_RMSD_A": 3.7380697177916584,
+    "maximum_branch_RMSD_A": 7.546566111066198
+  },
+  "F1": {
+    "branches": 96,
+    "history_improving_branches": 52,
+    "mean_gain_A": 0.3197424106158523,
+    "minimum_branch_RMSD_A": 3.7320920129404693,
+    "maximum_branch_RMSD_A": 8.188885918277048
+  },
+  "F2": {
+    "branches": 96,
+    "history_improving_branches": 47,
+    "mean_gain_A": 0.2854997075239695,
+    "minimum_branch_RMSD_A": 3.6144848764875057,
+    "maximum_branch_RMSD_A": 7.784225035813491
+  }
+}

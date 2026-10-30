@@ -1,0 +1,10 @@
+{
+  "native_contacts": 42,
+  "self_RMSD_A": 1.8390406599008586e-15,
+  "self_Q": 1,
+  "mirror_RMSD_A": 4.046078935936121,
+  "reference_sha256": "a5276b2752cd95555f7ca078c512c68f89b50893519e99347a1986fa63c82dc8",
+  "unit": "Angstrom",
+  "conversion": "MDAnalysis DCD reader convert_units=True; nm values would require explicit x10",
+  "phase": "full"
+}

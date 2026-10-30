@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE",
+  "units": 272,
+  "frames": 2048000,
+  "unit_wall_s": 329.99452273827046,
+  "unit_CPU_s": 329.93496252899996,
+  "max_RSS_MiB": 182.625,
+  "max_DCD_time_error_ps": 1.2004896234429907e-05,
+  "summary_wall_s": 2.371534033678472,
+  "summary_CPU_s": 2.3704615860000002,
+  "summary_RSS_MiB": 281.2265625,
+  "output_bytes": 48696589,
+  "failed_units": 0,
+  "scope": "POST_HOC_EXPLORATORY",
+  "NMR34": "NOT_EXECUTED"
+}

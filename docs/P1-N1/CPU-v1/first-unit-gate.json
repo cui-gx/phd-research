@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "completed_units": 2,
+  "expected": 2,
+  "wall_s": 1.8057086281478405,
+  "CPU_s": 1.797285997,
+  "peak_RSS_MiB": 179.0390625,
+  "scope": "POST_HOC_EXPLORATORY",
+  "GPU_visible": false
+}

@@ -1,6 +1,10 @@
 # Doctoral Research — Codex Instructions
 
-> 最新状態：2026-10-30 研究者はN1限定CPU実評価を承認。首2単位合格後のみ全272へ。新MD/train/inference/LOF/C/B2禁止。
+> 最新状態：2026-10-30 N1限定CPU評価272/272完了・事後探索として交付。新計算せず独立審査待ち。
+
+## N1 CPU完了・停止（MEASURED / DERIVED）
+
+[完全報告](docs/P1-N1/CPU-v1/review-dossier.md)・[A–G](docs/P1-N1/CPU-v1/handoff-to-chatgpt.md)。2,048,000frame、原SHA/CA/時刻/品質PASS。主窓F2−F1最小RMSDはS4正/S8負、全体ほぼ0、Qも一貫した優位を支持しない。POST_HOC_EXPLORATORY、C/B2/物理・学習資格を認定しない。34NMR/hit/dwell/第二Q未実行。原9archive保持、Mac raw免除、独立審査/研究者受入れPENDING。実行承認は完了済みで再実行許可ではない。
 
 ## N1限定CPU承認（CONFIRMED）
 

@@ -1,0 +1,16 @@
+{
+  "status": "PASS_COMPACT_AND_SOURCE_SHA",
+  "checked_JST": "2026-10-30T11:06:10.553188+09:00",
+  "protected_old_files": 404,
+  "source_SHA_match": true,
+  "server_compact_transfer_SHA": true,
+  "scientific_compute": "COMPLETE",
+  "units": 272,
+  "frames": 2048000,
+  "quality_valid": 2048000,
+  "NMR34": "NOT_EXECUTED_SEPARATE_AUTHORIZATION_REQUIRED",
+  "MD_training_inference_LOF": 0,
+  "independent_scientific_review": "PENDING",
+  "researcher_acceptance": "PENDING",
+  "GitHub_readback": "PENDING_AT_DELIVERY"
+}
