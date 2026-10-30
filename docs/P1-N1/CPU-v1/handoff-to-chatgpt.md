@@ -29,3 +29,5 @@ S4/S8反転は元実験の候補pool/M0/歴史交絡を含む。Qとrの不一�
 ## G 次段階
 
 独立科学審査と研究者判断のみ。native信号と不確実性を踏まえ、34NMRや物理・学習資格の追加必要性、C/B2に十分な時間尺度/独立根数を検討する。新MD/train/inference/LOF/C/B2/干渉/物理変更は未承認で、ここで停止する。
+
+内容commit`35d352c3833f6cd029b31b7f7ea2f5705c8bbb9c`の39変更ファイルをGitHubから全文回読し、byte数/Git blob SHA一致を確認。[回読記録](remote-readback.json)。受領記録commit自身の最終SHAはGit履歴と最終返信で照合する。

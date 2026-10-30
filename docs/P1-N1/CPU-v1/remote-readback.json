@@ -1,0 +1,281 @@
+{
+  "content_commit": "35d352c3833f6cd029b31b7f7ea2f5705c8bbb9c",
+  "checked_UTC": "2026-10-30T02:08:56.490Z",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 14055,
+      "body_git_blob_sha1": "cdeab297de538e03f8fd682522feedb51f0760c0",
+      "local_sha256": "2f38e9dcffe557e0ef4ebb3b878af7d6b5cda483dcfd8ee694c989b346155db8",
+      "status": "PASS"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 35607,
+      "body_git_blob_sha1": "af109183727f24f4dd8fe5e28e9519c73433036d",
+      "local_sha256": "7a6d237bfaf486fdf1f794d353f85699a222a6cd016431ebb261e2c1dddc694a",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/README.md",
+      "bytes": 1041,
+      "body_git_blob_sha1": "0f91ab1a28fd7d960dbd132aff33054d73649ea7",
+      "local_sha256": "33a91691a8d5b170c5312e033607eb8a54336399e0dfb0a2e022883551c508b6",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/all-windows.csv",
+      "bytes": 2017431,
+      "body_git_blob_sha1": "324ff4c424b249a6755b856a4ef24d474229f4ac",
+      "local_sha256": "93d5a47b29c7e18b3ec61ec8c90a9923f2a51a12f6bd5c68a560c68b0d54c1ff",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/costs.json",
+      "bytes": 437,
+      "body_git_blob_sha1": "0afa65596b41218fbf8e1ac2a47d69170b3ace0f",
+      "local_sha256": "12671251f5a7cb97c6f3f3665a97253c17e813f67ee5742a26e813a7aa2eec8c",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/delivery-audit.json",
+      "bytes": 518,
+      "body_git_blob_sha1": "ad222b7294b92f6035ec26c9836b80c967c01a1b",
+      "local_sha256": "082ff1d6b7f915d1f0e49dcf6ed093d0c74d6613f03bcd53eac5e8fe7b8109b3",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/descriptive-facts.json",
+      "bytes": 627,
+      "body_git_blob_sha1": "128e8324e7cf6b7f611ebddbeb2503954c46647e",
+      "local_sha256": "a830faf92dd814d2e48f36218cf20cb44a50d33a7c3485a1b5229ee27ffaae96",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/document-sha256.json",
+      "bytes": 2606,
+      "body_git_blob_sha1": "cc1e39637bee106e26e6c6d2daf2b4352d524fd7",
+      "local_sha256": "4c83bd5ac268fadd5a9ff09dc69554cfee5f2154c693e1255482f587fe0a8643",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/execution-approval.md",
+      "bytes": 1947,
+      "body_git_blob_sha1": "2bf119be39402bde2162368f1ff893dacd270855",
+      "local_sha256": "f486c422b51b1d8ee00284a223af9767ed5e070ca64d3ad0478e06b4af1c8f6d",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/execution-status.json",
+      "bytes": 212,
+      "body_git_blob_sha1": "2455ca5c19aede4d8b3c8e119ef020ee75425ee7",
+      "local_sha256": "9f6965d09cfb21bbf0ac9fe060e518b7fd209e5d227f03bc2bec8615f884b4ec",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/failures-and-missing.json",
+      "bytes": 517,
+      "body_git_blob_sha1": "defdc6164fec2231ded15b7fa91eb0fc8e1fd934",
+      "local_sha256": "40545ed0f7edb75d93f21e891ee470af16e269f2fc2e595eaa42bfcd4b0cea99",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/final-server-audit.json",
+      "bytes": 29664,
+      "body_git_blob_sha1": "bb45c6284e9231fdb0a46c374ffc2ef7bb2f31b8",
+      "local_sha256": "2f1b3fb46abd265bbdbad091f9bd110dab611861c9062d00e4e12676be95db84",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/final-transfer-sha256.json",
+      "bytes": 1483,
+      "body_git_blob_sha1": "e690da57c1c8e6375a348797cfdc7def83ae9184",
+      "local_sha256": "3b5283348b742aa5892efc3a70d5293008ef62f3d5cb28337a2ef11090215dbc",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/first-unit-gate.json",
+      "bytes": 210,
+      "body_git_blob_sha1": "3ac87373350da9efbe3347c8607f2a4c4bb4b657",
+      "local_sha256": "4d94fa10c2b969fa09782cd51c3e1f70f03cd6d2181ef4906f1b7186764a371f",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/geometry-correlations.csv",
+      "bytes": 43615,
+      "body_git_blob_sha1": "8dbbd6dc042e0b7a887c41a01ae3575b453165dd",
+      "local_sha256": "9decc88ea3b0badb919c7f6e9643a4ab19d8cdf45acc243311f534da4b4ca6f4",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/geometry-native-joined.csv",
+      "bytes": 1430707,
+      "body_git_blob_sha1": "82e3bcdd228a293c132e99213416bfaba17d7285",
+      "local_sha256": "92a801fec9769a4b725fdab9be6d7f43e3eba33f4a1896c51095415a90447f2d",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/handoff-to-chatgpt.md",
+      "bytes": 3491,
+      "body_git_blob_sha1": "9fa5379b261370677649d661dcd2d33f325504c9",
+      "local_sha256": "f84ff6434061790a62640f8cfa0e22267747d21e715431a3fc28c2da5bcff6e4",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/history-progress.csv",
+      "bytes": 26442,
+      "body_git_blob_sha1": "90d1590d1e7df5ec1d9e9a679f1346f5e5fdabf3",
+      "local_sha256": "50708d9200db884129ab62081f0b14f230decf6280a5c425c798b95a34594ab8",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/model-windows.csv",
+      "bytes": 516831,
+      "body_git_blob_sha1": "6315c8c288c360f109a45d9f7b8e6fa9b5a05564",
+      "local_sha256": "4a6d70e992e506a1f356c8ba6a7cb8d657ece9efece7e626bdad2209846b1aad",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/native-overview.png",
+      "bytes": 249783,
+      "body_git_blob_sha1": "82579cb17c16ec8cee1c2010293ac5e710ea01e0",
+      "local_sha256": "944aeadb8d9262cf2abf31369b2cf0a7172b13d273e30987b4dc79acaff04c8f",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/output-sha256.json",
+      "bytes": 1198,
+      "body_git_blob_sha1": "2db2fa26fc2cf2f109163ae4ec934483d0b792ff",
+      "local_sha256": "fd7644cf51655fb4764f46f77adfde392690b4dacf2ae6926cd6e96c8b42754b",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/progress-and-pairs.png",
+      "bytes": 140932,
+      "body_git_blob_sha1": "063325ef4a5d34bed61849b668fc0a386c0e9d11",
+      "local_sha256": "716446f06c8529f1a057dfcf78b45a0a081b9a4812c79a49786189f3d24c6a65",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/reader-test.json",
+      "bytes": 300,
+      "body_git_blob_sha1": "3819d09213f566e33dfce40ca121b01fd2de46d5",
+      "local_sha256": "c44e6567ac48f478ada370790b9fd73c055331b45d062f6e8dac566d48a9e740",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/reference-test.json",
+      "bytes": 351,
+      "body_git_blob_sha1": "d081616585d52bbede8c5cc2cc79a686eb1c98f4",
+      "local_sha256": "f44df7f8e89d0aea66647a6715c7b260b2549138f94b814950c573f1f448762e",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/review-dossier.md",
+      "bytes": 12561,
+      "body_git_blob_sha1": "7faabe4929a753a8cdaa9a5deaedd2e3221462ce",
+      "local_sha256": "f3abfdba5c604c1d30a3236ee3de582e9307d434480aee4359f471125bb80cdd",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/root-paired.csv",
+      "bytes": 1219941,
+      "body_git_blob_sha1": "09f467f6dc0d972e997e515b205be2288fcdf9a9",
+      "local_sha256": "0dffc0b07c1264c4af2f0c9f4fdfcb48a7f14c5d5e3ff88c96472befafbbc9c1",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/root-summary.csv",
+      "bytes": 478098,
+      "body_git_blob_sha1": "02e187dee3360341f74856fb1436635449ec037d",
+      "local_sha256": "daa7fc100a35a8771e682016543ca383d86862c6ab642e92fa4235b3f53a491c",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/state-paired.csv",
+      "bytes": 615290,
+      "body_git_blob_sha1": "218207802b68b9ab102255e233d874c7abf1ba86",
+      "local_sha256": "53044af269a4fdce244aa66d3fa8c80ff9bfe27238da96d7228bb2388fd1284e",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/state-windows.csv",
+      "bytes": 221430,
+      "body_git_blob_sha1": "6eb1e9eaf80922c7596f7ecaca7d5fe89d5aff41",
+      "local_sha256": "24d499848aefb5bc0202cffa3cc53f3a8adc7da73e403bf3b5785797dfeea33f",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/supervisor-summary.md",
+      "bytes": 1063,
+      "body_git_blob_sha1": "9dd763c8718f45757b04c2dc458eda37b29bfc8e",
+      "local_sha256": "dadfa15cc4dcbed49e0742e31b0dfbc8f34b7125cfa2cc1ce54eb8363862f1ff",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/CPU-v1/unit-audit.json",
+      "bytes": 373745,
+      "body_git_blob_sha1": "9372e2fb3a6cde059473cceb86a422ca3f29928b",
+      "local_sha256": "44373cee799fa3995c9d9e187798646474383aa2ce3ac68116a9912d5b504094",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/README.md",
+      "bytes": 2217,
+      "body_git_blob_sha1": "9ffb22fd3a67cfed1ef72b1de2657a99cf558837",
+      "local_sha256": "0f9a576477c6dc64c05f6c4d3911ac43c8a6ad82c612f468ebd5804739938cb1",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/collaboration-policy.md",
+      "bytes": 13001,
+      "body_git_blob_sha1": "e2246d3ca80c2ffff4f5159d8a0e95ab38115e9a",
+      "local_sha256": "aac36ceeb3fef92b85c9a2196343f54cc735a9828eb2b9394179e6ae237a4df9",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/协作交接记录.md",
+      "bytes": 93375,
+      "body_git_blob_sha1": "089c1ab1fc505525fafac59aa5bec172c112a410",
+      "local_sha256": "a06168a9d9b3ee2c82dbdbd6fd6b2c00bc8537db94c8bfdcf40d3748abcee93b",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/博士研究_全局总档案.md",
+      "bytes": 80278,
+      "body_git_blob_sha1": "b3a6609d175fd16ab95f96f85eab5b45f609fc8e",
+      "local_sha256": "a1d9a4bb502887eab1bc1391b8b25b9ff49c55d0d7888ba3e49728469cdc339f",
+      "status": "PASS"
+    },
+    {
+      "path": "p1/n1_cpu_evaluate.py",
+      "bytes": 8231,
+      "body_git_blob_sha1": "272831323e825fee0c29d5749dabf3bde33ef346",
+      "local_sha256": "8412271a36cb27ae5d92345a239c0e0d7df663f0079afb504ef9583723bfab56",
+      "status": "PASS"
+    },
+    {
+      "path": "p1/n1_cpu_final_audit.py",
+      "bytes": 2178,
+      "body_git_blob_sha1": "5f006ca8d921742ec07d2b8c6bcb6eaf434940e4",
+      "local_sha256": "4ef3ec9689500250cdd6fb21bac8f1e38e551d7064fa36e5d70da80daeede8e8",
+      "status": "PASS"
+    },
+    {
+      "path": "p1/n1_cpu_summarize.py",
+      "bytes": 9367,
+      "body_git_blob_sha1": "3b0188b023898c6feab014ede2248ff6a5de4f86",
+      "local_sha256": "ae77ebf643f76ec109eb259caab0fb20883567d0a06f5bc41e78f1df019ab81d",
+      "status": "PASS"
+    },
+    {
+      "path": "p1/n1_reader_test.py",
+      "bytes": 1514,
+      "body_git_blob_sha1": "1a10d17bed80be458f442c320db02f3595d6adfc",
+      "local_sha256": "eacb3cb5cb3693ca13095016b1e2f64ddf5b00515f570353373ea3e2bc2ef651",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "status": "PASS_FULL_BODY_39_FILES"
+}

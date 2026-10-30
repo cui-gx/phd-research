@@ -22,9 +22,9 @@
   "descriptive-facts.json": "a830faf92dd814d2e48f36218cf20cb44a50d33a7c3485a1b5229ee27ffaae96",
   "final-server-audit.json": "2f1b3fb46abd265bbdbad091f9bd110dab611861c9062d00e4e12676be95db84",
   "final-transfer-sha256.json": "3b5283348b742aa5892efc3a70d5293008ef62f3d5cb28337a2ef11090215dbc",
-  "delivery-audit.json": "082ff1d6b7f915d1f0e49dcf6ed093d0c74d6613f03bcd53eac5e8fe7b8109b3",
+  "delivery-audit.json": "56607a156960f109223e4303a961ed307836051514fc9f7d54bb28efdd769ca6",
   "failures-and-missing.json": "40545ed0f7edb75d93f21e891ee470af16e269f2fc2e595eaa42bfcd4b0cea99",
   "README.md": "33a91691a8d5b170c5312e033607eb8a54336399e0dfb0a2e022883551c508b6",
   "supervisor-summary.md": "dadfa15cc4dcbed49e0742e31b0dfbc8f34b7125cfa2cc1ce54eb8363862f1ff",
-  "handoff-to-chatgpt.md": "f84ff6434061790a62640f8cfa0e22267747d21e715431a3fc28c2da5bcff6e4"
+  "handoff-to-chatgpt.md": "96786e221b2cdc6cb37e2e589afc15fd0278a58af99a580a21a6a129cf1a73f1"
 }
