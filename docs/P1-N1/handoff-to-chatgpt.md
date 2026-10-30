@@ -4,7 +4,7 @@
 
 ## A. 現在の状態
 
-N1-PREP-20261030：**COMPLETE_PREPARATION_ONLY**。基準main73b93ed224b45b3f62e99e92447241e9af096d8a、L2基準65fb2acc8f99774269671ceca25a411ac9ce15cd。N1科学評価0、C/B2実行0、未完了の承認科学単位0。方法の採択・実科学実行はNOT APPROVED。最終チェックのJSTとGitHub実在内容commitは[交付検証](delivery-validation.json)、[回読](remote-readback.json)とGit履歴/最終返信で確認する。自分を含む未来の最終SHAを事前に作らない。
+N1-PREP-20261030：**COMPLETE_PREPARATION_ONLY**。基準main73b93ed224b45b3f62e99e92447241e9af096d8a、L2基準65fb2acc8f99774269671ceca25a411ac9ce15cd。N1科学評価0、C/B2実行0、未完了の承認科学単位0。方法の採択・実科学実行はNOT APPROVED。本文・コードを含む39ファイルのGitHub全文回読済み内容commitは`8f5ba10bb49e5245a3265d780eeaa85246a84149`。受領記録の最終commitはGit履歴と最終返信で確認する。最終チェックのJSTとGitHub実在内容commitは[交付検証](delivery-validation.json)、[回読](remote-readback.json)とGit履歴/最終返信で確認する。自分を含む未来の最終SHAを事前に作らない。
 
 GitHubは日本語資料、全240/32対応、272ファイル監査、候補64行列、pure functions/test、SHAとcompact evidenceを保存する。原DCD・モデル・ranking arraysと9archiveは許可サーバに保持。新しい論文PDF/原著XML・公開codeの参考コピーはlocalのみ、URL・SHA・確認範囲を共有する。Mac raw全量backup免除を保持する。
 

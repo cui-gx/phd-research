@@ -1,6 +1,6 @@
 {
   "status": "PASS_STATIC_PREPARATION_ONLY",
-  "checked_JST": "2026-10-30T10:28:08.055305+09:00",
+  "checked_JST": "2026-10-30T10:31:03.572548+09:00",
   "source_main": "73b93ed224b45b3f62e99e92447241e9af096d8a",
   "protected_old_files": 404,
   "protected_unchanged": true,
@@ -23,5 +23,8 @@
   "method_adoption": "PENDING",
   "independent_scientific_review": "PENDING",
   "researcher_acceptance": "PENDING",
-  "GitHub_readback": "PENDING_ACTUAL_VERIFICATION"
+  "GitHub_readback": "PASS_CONTENT_COMMIT",
+  "GitHub_verified_content_commit": "8f5ba10bb49e5245a3265d780eeaa85246a84149",
+  "GitHub_full_body_files": 39,
+  "receipt_commit_verification": "VERIFY_AT_FINAL_DELIVERY"
 }

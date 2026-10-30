@@ -1,0 +1,284 @@
+{
+  "content_commit": "8f5ba10bb49e5245a3265d780eeaa85246a84149",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 304,
+      "body_git_blob_sha1": "5b36f0afde71b67ebb03456eb599c9a0c3a3e8e0",
+      "local_sha256": "52c5596a8fb3f1893daebf67239c4d12e4ce92a37c1bb87d916a7e17fd9d6efd",
+      "status": "PASS"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 13893,
+      "body_git_blob_sha1": "7cd689e08082d474b297d64c55f3bffe9099092c",
+      "local_sha256": "14d2e11f5c8f1a9e5439fa49e51993570e80c554d93e21597add4ca758cc497d",
+      "status": "PASS"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 34506,
+      "body_git_blob_sha1": "005ad4fadb509e9041f9f573ab47e361ec54872f",
+      "local_sha256": "f89cbd8c9e804dd4d4edbd8ec60ac6edfe8c116557fabd4fa18dd03dce8ecb07",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/MD-file-audit.csv",
+      "bytes": 70518,
+      "body_git_blob_sha1": "f9e541cfa9985fdae3233a6773098716d2862a0f",
+      "local_sha256": "e085ab16543b27b8870e6c40832cfbd4bcf593b27f40f3088910a05ba937cafd",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/README.md",
+      "bytes": 1959,
+      "body_git_blob_sha1": "ee4e81e77d63645c3cbbf68e65c1c39abc5bebcd",
+      "local_sha256": "4e6b8f491aaee810793a00cb3f54469c2020b7ceeec935a6f2afe5afd3ea0965",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/branch-index.csv",
+      "bytes": 148984,
+      "body_git_blob_sha1": "8952ca207e3d74f73cb2a42ef1a5467d00766666",
+      "local_sha256": "baf951fef20e9d2c5042fafd75a34e1df9dbbe1de0ea0819d31741bfd7f8a81e",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/cb2-minimal-design.md",
+      "bytes": 8909,
+      "body_git_blob_sha1": "e52f30dffef8840fe2185b797e9778171c7abb7a",
+      "local_sha256": "6c7536b31962718268796829ad5970e840b3d5882fa28a7a730830016b4b8f4c",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/data-readiness.md",
+      "bytes": 3792,
+      "body_git_blob_sha1": "e55307afa5f5abe4d75303a8c88f5fb4b293a62a",
+      "local_sha256": "44e60b840939f27eb045d319f9173e1025471d70118db70697db0c47e2fff440",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/decision-and-stop.md",
+      "bytes": 2072,
+      "body_git_blob_sha1": "f480dd292f7390f080b1b3ff6acbc1fe82589712",
+      "local_sha256": "b35c964e1a9f3f4556fa45bab4fe369bc01289e43f52fe2f2110d6975fe8e59e",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/delivery-validation.json",
+      "bytes": 868,
+      "body_git_blob_sha1": "dc4bd5384edf53f617caafa903e8c95a7e92f885",
+      "local_sha256": "f3b9bb32eb0668af3c34d6991304e6965e2e6017dd480dd786d8d6d0b96d801b",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/evidence-boundary.md",
+      "bytes": 1777,
+      "body_git_blob_sha1": "620dce02c223587e3d06f56d99d99d391bf36eae",
+      "local_sha256": "9155fc7492799f11d4c98ee2362eddecfe3c56e547beb3aea68d5c891b8aa7b9",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/evidence-input-sha256.json",
+      "bytes": 44335,
+      "body_git_blob_sha1": "82e4984e3b65b4413e133af6a92d07d633ffaa46",
+      "local_sha256": "03602feaecf9d42a5d61f6d884c205bf87111f6b6d1807d5e88b7fe4dcb573f5",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/future-experiment-matrix.csv",
+      "bytes": 12400,
+      "body_git_blob_sha1": "4560787444473e21586d71039b486a94463c3fd8",
+      "local_sha256": "d8c6d8a37f6e47200dbb66326e90b3b97e4f0d8069c3df3379bd2274e8bce569",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/handoff-to-chatgpt.md",
+      "bytes": 7034,
+      "body_git_blob_sha1": "59ec83eca86e3d47e20e1031e5e0daa2426a7507",
+      "local_sha256": "06ab4ce1bf73af4b2e7344ccd7a8f9d272f580bcd80ffec4b705153812d9a7fa",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/history-index.csv",
+      "bytes": 6067,
+      "body_git_blob_sha1": "dd9b6f617adcf8fceb176e4568750e42d20377b9",
+      "local_sha256": "57d5cf0fe27607eacf7bc80ab54ca60245324758c185d96698162f8d32185bfc",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/metadata-audit.json",
+      "bytes": 45861,
+      "body_git_blob_sha1": "ce222bf7f41b06d6cb1bdc1b60189ad95045c0f7",
+      "local_sha256": "f19e0eb29267c7f4fe3dee06ce83871eee36e24c38cf45f2db427cbc2d89ffaf",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/native-metric-contract.md",
+      "bytes": 11289,
+      "body_git_blob_sha1": "483706e48e171b60dc82769fed14a019573f2329",
+      "local_sha256": "53909aa1d32f7b2cec2d17a308697740e7cf941439e80a14a0e30e9fb32db861",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/output-sha256.json",
+      "bytes": 2451,
+      "body_git_blob_sha1": "a1cc11a4e5536bfaf4e4afc6379b37c6efdd1268",
+      "local_sha256": "cee5b571931a63b29c214bb9fb7ea4a7c8a6f33e2e5c5d730c12cce8058477eb",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/preparation-report.md",
+      "bytes": 9881,
+      "body_git_blob_sha1": "a66d165d373a13fa4ad837ab93a1604baae5f13f",
+      "local_sha256": "68e1d31b6b30f7d6c9a4444260bc3a786f52ba4995ab3fa121937838382c24d4",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/preparation-status.json",
+      "bytes": 760,
+      "body_git_blob_sha1": "8d167cfc95d6f47d59fb02f848cd5ab4c8dd16f7",
+      "local_sha256": "80c32f1d725becf3c44fa21ef78fd402d24f23beb9ae3799793032d436c2049f",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/reference-static-audit.json",
+      "bytes": 8937,
+      "body_git_blob_sha1": "7ee1ea2ab6c2af4918499f8fb8eb220098a0fcfd",
+      "local_sha256": "d063ceb862dbd869448102c540a7a98d32783062e374a10abc9d7ce707632e69",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/related-work-matrix.csv",
+      "bytes": 3901,
+      "body_git_blob_sha1": "c6607994422ba2110fd51d6262e088a4a58e6bb7",
+      "local_sha256": "96ab33b24d8ebb00d3a7527c443ba641f4212c7b48370c61b0246bb00416fcd0",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/related-work-matrix.md",
+      "bytes": 6248,
+      "body_git_blob_sha1": "b31d31ae33793d0d78334f2903367041f62ca8e9",
+      "local_sha256": "6adea65acebc6463ba58f968608a958efae33a0a2f8b48440abe769a865c84c5",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/reproduce.md",
+      "bytes": 3102,
+      "body_git_blob_sha1": "dee36227bc3c87206406afff4986973ddaad41f2",
+      "local_sha256": "b2ef3087e65aef79b7f5da7a26e9b25c8f4d352278f961f795df61a40976b5c3",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/resource-and-timing.md",
+      "bytes": 6354,
+      "body_git_blob_sha1": "b798571777b0ef0257f9dd1989220f63c77abfe1",
+      "local_sha256": "60fc276cca0e401763e86f2605669ee735251707ff7223e1e7862d5fe532ca64",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/server-transfer-verification.json",
+      "bytes": 812,
+      "body_git_blob_sha1": "6b0725c3f8bb9dbda259b699d3ea3c684b02e725",
+      "local_sha256": "a65596a3afa54f4ea47db1d1d30cc7d907114c3004211a4029bb2ceaff0c0a07",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/sources.json",
+      "bytes": 8017,
+      "body_git_blob_sha1": "a233d7a7761f87ef9d5f0487192fef862459aa41",
+      "local_sha256": "ce94be481ceaa095ab38601ba2223d9e18ec70620889dd269d12bb7f2e10ef95",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/state-index.csv",
+      "bytes": 3603,
+      "body_git_blob_sha1": "d4d7ad806a21f18c31ded0184b26c1c1065083bc",
+      "local_sha256": "2988b379ea96f58d2b507b35fa812a5657fc2e06bdd51a11b5221f86e6b91d09",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/supervisor-summary.md",
+      "bytes": 2186,
+      "body_git_blob_sha1": "89654b2848f8ba7a63b3f26791d1d21d24cb7aab",
+      "local_sha256": "e4a1bd9a1c3290d45ddb6087215de41cd66aba8140ac3c19d857f0d57cc7fc91",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/synthetic-test.json",
+      "bytes": 559,
+      "body_git_blob_sha1": "1ffbfecd4058793f1cf6f2c07cc2adc6fdfca369",
+      "local_sha256": "efceaac85899fd833409b71a9acf6cca49ae2a3cad6b8f3247b770ec000fad1a",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/P1-N1/synthetic-test.log",
+      "bytes": 2077,
+      "body_git_blob_sha1": "255c8f1180cfca2d20dd1d266a47db541098e374",
+      "local_sha256": "4ad6e2a548c9d5961bffe2ac0539282dae4369b134ffc0cb9ee3f0ada1c8e7de",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/collaboration-policy.md",
+      "bytes": 12629,
+      "body_git_blob_sha1": "9349c170d6fded21860fee3c584f72d9dd89f40c",
+      "local_sha256": "325f8aa38e0d7f52f091184f44350322cf24a75d6cb16d5c68d8f83afd58e95b",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/协作交接记录.md",
+      "bytes": 91889,
+      "body_git_blob_sha1": "1528762d6240af991a97d06a802ec9e5d27bb6a1",
+      "local_sha256": "a5d8a72201f30249e1152b30c21fd340a99702a853e00b6fd149ade016faa4f4",
+      "status": "PASS"
+    },
+    {
+      "path": "docs/博士研究_全局总档案.md",
+      "bytes": 79087,
+      "body_git_blob_sha1": "2438445917e53df54ba91b67803f848a877834ff",
+      "local_sha256": "949fba0449736585a470c199b6b6671521b6c0ebb8bb209739d471307e4990a4",
+      "status": "PASS"
+    },
+    {
+      "path": "p1/n1_metadata_audit.py",
+      "bytes": 6563,
+      "body_git_blob_sha1": "35dd6ab9935d0e6cd68a69f184e38425b2a42be1",
+      "local_sha256": "1a49967c9be2fcc1d0565193685b7863a37341f3f3e8b14476e72385e2155ffd",
+      "status": "PASS"
+    },
+    {
+      "path": "p1/n1_native_metrics.py",
+      "bytes": 5540,
+      "body_git_blob_sha1": "f527287e8b3aa58e9a84b63da2abd401ebdefda3",
+      "local_sha256": "b309389ff681c91fa96fc4c99ac4c65e3c138dd6e946ccf488e7879d8ca69951",
+      "status": "PASS"
+    },
+    {
+      "path": "research-workflow/n1-static-validate.py",
+      "bytes": 4074,
+      "body_git_blob_sha1": "26d30d19c332712d1337a00500231e1dd31e98ac",
+      "local_sha256": "27d75012cd7e912f0fd39a2c0770103806ef52f8a6d4aad59016196dded02206",
+      "status": "PASS"
+    },
+    {
+      "path": "tests/p1/test_n1_native_metrics.py",
+      "bytes": 3886,
+      "body_git_blob_sha1": "5c8256c5f3ad63099f9439c325bb65ba00872a56",
+      "local_sha256": "decca6f6f419d881c3b086d6c8cf0fba085802f3353c4cbe7cd33a80377bb004",
+      "status": "PASS"
+    },
+    {
+      "path": "教程/研究规范/术语与定义.md",
+      "bytes": 40494,
+      "body_git_blob_sha1": "889e16ddb143141af089babb377d0251d8ad71d3",
+      "local_sha256": "8e32e56963a07f415d018edf6e7dc823f554b4cfc2abb7a3d0bad11ef619d6eb",
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS",
+  "failures": [],
+  "checked_UTC": "2026-10-30T01:30:58.335Z",
+  "verification": "GitHub connector fetch_file at immutable commit; entire UTF-8 body size and Git blob SHA-1 compared with committed local bytes; SHA-256 local index attached",
+  "scope": "PREPARATION_ONLY",
+  "final_delivery_commit": "Git history / final reply (receipt cannot contain its own future commit)"
+}
