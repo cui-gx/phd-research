@@ -1,0 +1,185 @@
+{
+  "commit": "42d520829782d0133095f47e97db20b771fcba02",
+  "date_JST": "2026-10-31",
+  "status": "PASS",
+  "method": "GitHub connector complete base64 bodies; independently decoded byte count and Git blob SHA-1; includes compressed metadata bytes",
+  "file_count": 29,
+  "total_bytes": 2530306,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 15841,
+      "blob_sha": "41b4eae43708e46e6c183bd9dbb744bd4433d2a0",
+      "full_body_verified": true
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 42043,
+      "blob_sha": "3ba9c0e1b91164b9415c360756216f35e06b2ec9",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-Review/README.md",
+      "bytes": 870,
+      "blob_sha": "e618aea8e3fa90396385bba4367c368fdc23dad9",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-Review/advisor-summary-ja.md",
+      "bytes": 3107,
+      "blob_sha": "11a4007f02fbdfa3cc6d7815821336765f18076e",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-Review/delivery-check.json",
+      "bytes": 569,
+      "blob_sha": "750dbcc7d53a20738fbf5ad944b1975c2f1d7eda",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-Review/delivery-status.json",
+      "bytes": 717,
+      "blob_sha": "625963258102973e66c5a40c7d0434bc932b57b4",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-Review/evidence-sha256.json",
+      "bytes": 1542,
+      "blob_sha": "9c8832daaf4514546786ebab2ca7b0e49228ae19",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-Review/evidence/README.md",
+      "bytes": 2663,
+      "blob_sha": "8b1192c3dfb6fe0baffb195e9e147b29e31cc5d6",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-Review/evidence/all-window-direction-extract.csv",
+      "bytes": 622182,
+      "blob_sha": "246e107fa24e2b41b8830065bd8005bedca80484",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-Review/evidence/check.stderr",
+      "bytes": 0,
+      "blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-Review/evidence/check.stdout",
+      "bytes": 992,
+      "blob_sha": "80fe0b3bdd7d390b5c1a63dd385b853a0b1fe937",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-Review/evidence/main-all-contrasts.csv",
+      "bytes": 709848,
+      "blob_sha": "382cbd7727a90d9d241de821ba14adae2c5cbaf4",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-Review/evidence/main-root-extract.csv",
+      "bytes": 41863,
+      "blob_sha": "3b306230c79721bca36ce9a4f8ac9b06cdcc2a27",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-Review/evidence/metadata-source-sha256.json",
+      "bytes": 44323,
+      "blob_sha": "aa44b86b34e149cf003b5fbbb58681cb1a0cb611",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-Review/evidence/table-audit.json",
+      "bytes": 1280,
+      "blob_sha": "645ef6f6f01aa59076438363b9c4e8820447a263",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-Review/evidence/transfer-manifest.json",
+      "bytes": 1771,
+      "blob_sha": "557dd621544cf4c783719fe061b3018dfe33a010",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-Review/evidence/window-metadata.csv.gz",
+      "bytes": 762146,
+      "blob_sha": "801549cce5eb08b61c016d103792e64400672652",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-Review/findings.md",
+      "bytes": 3916,
+      "blob_sha": "afd1af6a01e0d651ac93a99229fa0f66ae5fa30e",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-Review/handoff-to-chatgpt.md",
+      "bytes": 6680,
+      "blob_sha": "370e0a5a4478f32a9e4a4f5cc1187bf42705baec",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-Review/next-decision.md",
+      "bytes": 5051,
+      "blob_sha": "1b6b18363fab7b25f27b70d07e4880699715f809",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-Review/reproduce.md",
+      "bytes": 2784,
+      "blob_sha": "0414042d053ffe221e318e2b06895e7ca3c346fe",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-Review/review-dossier.md",
+      "bytes": 23481,
+      "blob_sha": "fe7c006fd8853f5b25a57e0f1ff2fbdf5662f7b2",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-Review/review-source-sha256.json",
+      "bytes": 5803,
+      "blob_sha": "3153821b25b4d5e219c34c274a060bd67667aaeb",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-Review/scripts/check_delivery.py",
+      "bytes": 4876,
+      "blob_sha": "c2c72ee639a7620e354a633704f8434d388e905b",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-Review/scripts/check_existing_tables.py",
+      "bytes": 11333,
+      "blob_sha": "ddee96497b3382fcb10cb4e6714a4503fc534c95",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-Review/sources-and-scope.md",
+      "bytes": 3454,
+      "blob_sha": "f43b20416f4f0040476146d3d43fae700af2eeeb",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/collaboration-policy.md",
+      "bytes": 16522,
+      "blob_sha": "db3f9839e47ddddcdfcee98a64b367f57bbf1865",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/协作交接记录.md",
+      "bytes": 102429,
+      "blob_sha": "b9dcb352f6dc5199b2326d709e657f12ba43145e",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/博士研究_全局总档案.md",
+      "bytes": 92220,
+      "blob_sha": "a5fd1f92b637f7a6281678770b605b1bb7b0c31f",
+      "full_body_verified": true
+    }
+  ],
+  "final_receipt_note": "The commit containing this receipt is separately read back after push. Unchanged files retain the same immutable Git blobs; final SHA is reported to the researcher."
+}

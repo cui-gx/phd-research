@@ -66,3 +66,5 @@ model1のS4は6根正/2負、S8は2正/6負。min34のS4は5正/3負。個々の
 研究者/ChatGPTの科学審査を待つ。新しい資格条件、主成果、学習recipe、時間予算、根数の採択を助手が代行しない。[次回文書限定Prompt](next-decision.md)は提案であり、R0/C/B2/MD/CVAE/LOF/NMR再実行を承認しない。
 
 内容commit・最終遠隔検証はremote-readback.jsonとGit履歴を参照。最終SHAを返信後、実行せず停止する。
+
+内容commit `42d520829782d0133095f47e97db20b771fcba02`：29ファイル/2,530,306 bytesをGitHub connectorで全文取得し、復号したbyte数と独立Git blob SHA-1が一致した。圧縮metadataもbinary全文を検証済み。[回読証拠](remote-readback.json)。本receiptを含む最終commitはpush後に別回読し、最終返信でSHAを報告する。
