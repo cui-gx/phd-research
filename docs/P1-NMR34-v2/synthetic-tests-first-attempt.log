@@ -1,0 +1,26 @@
+test_cache_and_nonoverlap_stop (test_nmr34_v2.SyntheticTests.test_cache_and_nonoverlap_stop) ... ok
+test_chunk_output_and_all_windows (test_nmr34_v2.SyntheticTests.test_chunk_output_and_all_windows) ... ok
+test_ensemble_ties (test_nmr34_v2.SyntheticTests.test_ensemble_ties) ... ok
+test_fixed_contacts_boundary (test_nmr34_v2.SyntheticTests.test_fixed_contacts_boundary) ... ERROR
+test_rigid_mirror_units (test_nmr34_v2.SyntheticTests.test_rigid_mirror_units) ... ok
+test_scalar_chunk (test_nmr34_v2.SyntheticTests.test_scalar_chunk) ... ok
+test_sha_lock_failure_repeat (test_nmr34_v2.SyntheticTests.test_sha_lock_failure_repeat) ... ok
+test_window_phase_quality (test_nmr34_v2.SyntheticTests.test_window_phase_quality) ... ok
+
+======================================================================
+ERROR: test_fixed_contacts_boundary (test_nmr34_v2.SyntheticTests.test_fixed_contacts_boundary)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Volumes/Hardware/doctoral-hpc-scheduling/p1/test_nmr34_v2.py", line 35, in test_fixed_contacts_boundary
+    refs=References(native)
+  File "/Volumes/Hardware/doctoral-hpc-scheduling/p1/nmr34_v2.py", line 100, in __init__
+    self.masks = np.array([native_contact_mask(x) for x in self.native])
+                           ~~~~~~~~~~~~~~~~~~~^^^
+  File "/Volumes/Hardware/doctoral-hpc-scheduling/p1/n1_native_metrics.py", line 40, in native_contact_mask
+    raise ValueError('native接触集合が空です。')
+ValueError: native接触集合が空です。
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.170s
+
+FAILED (errors=1)

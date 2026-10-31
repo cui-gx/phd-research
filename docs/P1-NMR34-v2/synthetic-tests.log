@@ -1,0 +1,13 @@
+test_cache_and_nonoverlap_stop (test_nmr34_v2.SyntheticTests.test_cache_and_nonoverlap_stop) ... ok
+test_chunk_output_and_all_windows (test_nmr34_v2.SyntheticTests.test_chunk_output_and_all_windows) ... ok
+test_ensemble_ties (test_nmr34_v2.SyntheticTests.test_ensemble_ties) ... ok
+test_fixed_contacts_boundary (test_nmr34_v2.SyntheticTests.test_fixed_contacts_boundary) ... ok
+test_rigid_mirror_units (test_nmr34_v2.SyntheticTests.test_rigid_mirror_units) ... ok
+test_scalar_chunk (test_nmr34_v2.SyntheticTests.test_scalar_chunk) ... ok
+test_sha_lock_failure_repeat (test_nmr34_v2.SyntheticTests.test_sha_lock_failure_repeat) ... ok
+test_window_phase_quality (test_nmr34_v2.SyntheticTests.test_window_phase_quality) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.097s
+
+OK

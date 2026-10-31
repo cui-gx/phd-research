@@ -460,3 +460,12 @@ docs/P1-N1/CPU-v1/._*
 !/docs/P1-NMR34-QA/*.csv
 !/docs/P1-NMR34-QA/*.log
 ._*
+
+# NMR34-v2の人工試験と準備資料
+!/p1/nmr34_v2.py
+!/p1/test_nmr34_v2.py
+!/docs/P1-NMR34-v2/
+/docs/P1-NMR34-v2/*
+!/docs/P1-NMR34-v2/*.md
+!/docs/P1-NMR34-v2/*.json
+!/docs/P1-NMR34-v2/*.log

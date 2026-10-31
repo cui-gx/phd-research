@@ -1,5 +1,9 @@
 # Doctoral Research — Codex Instructions
 
+## NMR34-v2準備完了・実計算未承認（2026-10-31）
+
+研究者は基準70427b1の独立v2コード、静的分析、人工試験、予算・文書だけを承認した。[報告](docs/P1-NMR34-v2/technical-report.md)・[A–G](docs/P1-NMR34-v2/handoff-to-chatgpt.md)。人工8test methods PASS。実DCD/全272/MD/学習/推論/LOF/C/B2は0、二軌跡v2資格も別承認待ち。対象reader/サーバ性能/旧窓一致はUNVERIFIED。全体orchestrator/外部監視/永続総予算は次回実読取前の必須条件。旧科学資料と原9archive保持、Mac raw免除。全文回読後停止する。
+
 ## NMR34-QA二単位完了・審査待ち（2026-10-31）
 
 [完全報告](docs/P1-NMR34-QA/review-dossier.md)・[A–G](docs/P1-NMR34-QA/handoff-to-chatgpt.md)。MEASURED：2/2、12,000frame×34、M1最大差5.3291e−15 Å、Q1整数一致、原20SHA不変、科学173.216s/RSS210.480MiB。二単位数値ゲートPASS、詳細計時・境界pair表・ensemble窓集計の欠落は報告に明記。科学受入れPENDING。限定実行は完了し再実行許可ではない。全272/MD/学習/推論/LOF/GPU干渉/C/B2/S3は未承認、原9archive保持・Mac raw免除。GitHub交付後は審査で停止。
