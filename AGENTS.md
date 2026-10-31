@@ -1,5 +1,9 @@
 # Doctoral Research — Codex Instructions
 
+## NMR34-v2二軌跡限定実行承認（2026-10-31、CONFIRMED）
+
+研究者はeed520fd基準で人工工程資格を先行し、固定r01-h1-md/r01-s4-F0-t0-m2-mdのみqualify=Trueで実行することを承認した。[実行記録](docs/P1-NMR34-v2/qualification/execution-approval.md)。科学900s/工程300s/RSS2GiB/出力256MiB/CPU1・GPU不可視。argmin/SHA/数値不一致で停止し、全272やMD/CVAE/LOF/R0/C/B2は未承認。旧資料不変、終了後審査待ち。
+
 ## NMR34-v2準備完了・実計算未承認（2026-10-31）
 
 研究者は基準70427b1の独立v2コード、静的分析、人工試験、予算・文書だけを承認した。[報告](docs/P1-NMR34-v2/technical-report.md)・[A–G](docs/P1-NMR34-v2/handoff-to-chatgpt.md)。人工8test methods PASS。実DCD/全272/MD/学習/推論/LOF/C/B2は0、二軌跡v2資格も別承認待ち。対象reader/サーバ性能/旧窓一致はUNVERIFIED。全体orchestrator/外部監視/永続総予算は次回実読取前の必須条件。旧科学資料と原9archive保持、Mac raw免除。全文回読後停止する。

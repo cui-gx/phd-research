@@ -1,0 +1,28 @@
+test_cache_and_nonoverlap_stop (test_nmr34_v2.SyntheticTests.test_cache_and_nonoverlap_stop) ... ok
+test_chunk_output_and_all_windows (test_nmr34_v2.SyntheticTests.test_chunk_output_and_all_windows) ... ok
+test_ensemble_ties (test_nmr34_v2.SyntheticTests.test_ensemble_ties) ... ok
+test_fixed_contacts_boundary (test_nmr34_v2.SyntheticTests.test_fixed_contacts_boundary) ... ok
+test_rigid_mirror_units (test_nmr34_v2.SyntheticTests.test_rigid_mirror_units) ... ok
+test_scalar_chunk (test_nmr34_v2.SyntheticTests.test_scalar_chunk) ... ok
+test_sha_lock_failure_repeat (test_nmr34_v2.SyntheticTests.test_sha_lock_failure_repeat) ... ok
+test_window_phase_quality (test_nmr34_v2.SyntheticTests.test_window_phase_quality) ... ok
+test_all_summaries_against_explicit_truth (test_nmr34_v2_execution.ExecutionTests.test_all_summaries_against_explicit_truth) ... ok
+test_atom_keys_and_resource_gates (test_nmr34_v2_execution.ExecutionTests.test_atom_keys_and_resource_gates) ... ok
+test_boundaries_and_phase (test_nmr34_v2_execution.ExecutionTests.test_boundaries_and_phase) ... ok
+test_external_watchdog_and_restart (test_nmr34_v2_execution.ExecutionTests.test_external_watchdog_and_restart) ... ERROR
+
+======================================================================
+ERROR: test_external_watchdog_and_restart (test_nmr34_v2_execution.ExecutionTests.test_external_watchdog_and_restart)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Volumes/Hardware/doctoral-hpc-scheduling/p1/test_nmr34_v2_execution.py", line 60, in test_external_watchdog_and_restart
+    supervise(p,bundle,p/'out',[sys.executable,'-c','import time;time.sleep(2)'])
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/Hardware/doctoral-hpc-scheduling/p1/nmr34_v2_execute.py", line 64, in supervise
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.572s
+
+FAILED (errors=1)

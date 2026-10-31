@@ -470,3 +470,14 @@ docs/P1-N1/CPU-v1/._*
 !/docs/P1-NMR34-v2/*.json
 !/docs/P1-NMR34-v2/*.log
 ._*
+
+# NMR34-v2限定資格
+!/p1/nmr34_v2_execute.py
+!/p1/test_nmr34_v2_execution.py
+!/docs/P1-NMR34-v2/qualification/
+/docs/P1-NMR34-v2/qualification/*
+!/docs/P1-NMR34-v2/qualification/*.md
+!/docs/P1-NMR34-v2/qualification/*.json
+!/docs/P1-NMR34-v2/qualification/*.csv
+!/docs/P1-NMR34-v2/qualification/*.log
+._*

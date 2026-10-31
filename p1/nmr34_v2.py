@@ -160,7 +160,7 @@ def dcd_chunks(topology, dcd, expected_ca, atom_keys, chunk_size=512):
     with universe.trajectory as trajectory:
         # Universeを保持し、選択の対応キーを外部で凍結したものと照合する。
         ca = universe.select_atoms('name CA')
-        keys = [(str(a.chainID), str(a.resid), str(a.icode), str(a.resname), str(a.altLoc)) for a in ca]
+        keys = [tuple(str(v).strip() for v in (a.chainID, a.resid, a.icode, a.resname, a.altLoc)) for a in ca]
         require(keys == atom_keys and len(trajectory) == len(expected_ca), 'CA対応/frame数不一致')
         block, times = [], []
         for i, ts in enumerate(trajectory):
@@ -178,6 +178,7 @@ def evaluate_chunks(chunks, references, output, qualify=False, margin_A=1e-6,
     output = Path(output)
     require(output.is_dir() and np.isfinite(margin_A) and margin_A >= 0, '出力/診断幅不正')
     timer, manifest, offset = Timer(), [], 0
+    scalar_error = 0.
     iterator = iter(chunks)
     while True:
         check()
@@ -197,7 +198,8 @@ def evaluate_chunks(chunks, references, output, qualify=False, margin_A=1e-6,
         with timer.measure('scalar_qualification'):
             if qualify:
                 scalar = np.array([[proper_rmsd(v, ref) for ref in references.native] for v in x])
-                require(np.max(abs(r - scalar)) <= 1e-8, 'scalar/chunk不一致')
+                scalar_error = max(scalar_error, float(np.max(abs(r - scalar))))
+                require(scalar_error <= 1e-8, 'scalar/chunk不一致')
         with timer.measure('ensemble_and_validation'):
             minimum, arg, same_q = ensemble(r, q)
             require(np.isfinite(q).all() and ((q >= 0) & (q <= 1)).all(), 'Q範囲不正')
@@ -215,7 +217,8 @@ def evaluate_chunks(chunks, references, output, qualify=False, margin_A=1e-6,
         offset += len(x)
     require(offset > 0, '入力frameなし')
     save_json(output / 'chunks.json', {'chunks': manifest, 'frames': offset,
-              'qualify': qualify, 'near_margin_A': margin_A, 'timing': timer.records})
+              'qualify': qualify, 'scalar_max_error_A': scalar_error if qualify else None,
+              'near_margin_A': margin_A, 'timing': timer.records})
     return manifest, timer
 
 
