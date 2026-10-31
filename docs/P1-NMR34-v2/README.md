@@ -9,3 +9,5 @@
 - [人工試験ログ](synthetic-tests.log)、[初回ログ](synthetic-tests-first-attempt.log)、[静的監査](static-audit.json)
 
 入力と科学定義を維持し、v1を独立保存。全量orchestrator/外部監視等の未実装条件を明示した。実科学計算は別承認まで停止する。
+
+最新：研究者が別途承認した[二軌跡資格](qualification/README.md)は完了。以前の未承認記録は履歴として保持する。

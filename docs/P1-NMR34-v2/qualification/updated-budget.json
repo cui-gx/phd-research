@@ -1,0 +1,40 @@
+{
+  "status": "DERIVED_NOT_AUTHORIZATION",
+  "full_qualify_s_point": 2845.1630158126354,
+  "full_without_scalar_s_counterfactual": 706.5152192413807,
+  "counterfactual_is_not_measured": true,
+  "confidence_interval": null,
+  "upper_bound": null,
+  "RSS_bytes_MEASURED": 236314624,
+  "near_pairs_observed": 0,
+  "qualify_output_linear_bytes_point": 1198881621.3333333,
+  "full_execution_approved": false,
+  "rows": [
+    {
+      "task_id": "r01-h1-md",
+      "v1_wall_s": 37.18278938345611,
+      "v2_wall_s": 5.525453954935074,
+      "observed_ratio": 6.729363720467927,
+      "RMSD_max_diff_A": 0.0,
+      "Q_count_exact": true,
+      "argmin_exact": true,
+      "window_equivalence": true,
+      "near_pairs": 0,
+      "v2_scalar_s": 4.094247298315167,
+      "v2_residual_s": 0.002227245829999447
+    },
+    {
+      "task_id": "r01-s4-F0-t0-m2-md",
+      "v1_wall_s": 135.5709565328434,
+      "v2_wall_s": 11.118118705227971,
+      "observed_ratio": 12.193695725617241,
+      "RMSD_max_diff_A": 0.0,
+      "Q_count_exact": true,
+      "argmin_exact": true,
+      "window_equivalence": true,
+      "near_pairs": 0,
+      "v2_scalar_s": 8.365132845938206,
+      "v2_residual_s": 0.002799181267619133
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "returncode": 0,
+  "protection_reason": null,
+  "cumulative_wall_s": 17.392948349006474,
+  "peak_process_tree_RSS_bytes": 236314624,
+  "max_worker_threads_observed": 1,
+  "output_bytes": 7024256
+}

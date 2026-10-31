@@ -1,0 +1,141 @@
+{
+  "chunks": [
+    {
+      "path": "chunk-000000000.npz",
+      "start": 0,
+      "frames": 512,
+      "sha256": "7cf02af16d9638dc3dc03becf9b10746795ccf57eb012b33150a56d11ff06ed9"
+    },
+    {
+      "path": "chunk-000000512.npz",
+      "start": 512,
+      "frames": 512,
+      "sha256": "043cd5aed445a0a6089e2dc9e3f91050c7adaaf87d7deea392be2271a0d084c5"
+    },
+    {
+      "path": "chunk-000001024.npz",
+      "start": 1024,
+      "frames": 512,
+      "sha256": "ce74aa21bf59143fdebaedafcf93406d9bed09210e382d6a07541622d82eab38"
+    },
+    {
+      "path": "chunk-000001536.npz",
+      "start": 1536,
+      "frames": 512,
+      "sha256": "cc268dfd8d3be22e2465d8e71366a756fd05337b850a54c0da511b5099799e00"
+    },
+    {
+      "path": "chunk-000002048.npz",
+      "start": 2048,
+      "frames": 512,
+      "sha256": "9f17af20c4581cbe01b83e7cfc6749e25435e21bf5183495327eff85dfff48f5"
+    },
+    {
+      "path": "chunk-000002560.npz",
+      "start": 2560,
+      "frames": 512,
+      "sha256": "d541b90ebc3b5899347b4f2f6e122c7022c4d16ba6c4e848bd78073c71ef7ec2"
+    },
+    {
+      "path": "chunk-000003072.npz",
+      "start": 3072,
+      "frames": 512,
+      "sha256": "714ec08f1ff9ca2e32c1fff95344b511a1478c9ab5cd5e52f5e5fa37330d2672"
+    },
+    {
+      "path": "chunk-000003584.npz",
+      "start": 3584,
+      "frames": 512,
+      "sha256": "091c8f6003b449b608be551184544c0aa9569f98b6463d4fb5bbbb19a9a040df"
+    },
+    {
+      "path": "chunk-000004096.npz",
+      "start": 4096,
+      "frames": 512,
+      "sha256": "9e60015fc07b2fe3a7b1298f060705bf6400f86c027e7f375697336b2ff812bd"
+    },
+    {
+      "path": "chunk-000004608.npz",
+      "start": 4608,
+      "frames": 512,
+      "sha256": "76367072100937464cb5e61c86479bd2577a012496822eb2c192ffa166045639"
+    },
+    {
+      "path": "chunk-000005120.npz",
+      "start": 5120,
+      "frames": 512,
+      "sha256": "4852674184dfb91a2abba7673a0ca64d1f000fd8b67234439257ef47b3f1e946"
+    },
+    {
+      "path": "chunk-000005632.npz",
+      "start": 5632,
+      "frames": 512,
+      "sha256": "e5e6ab6a21c3680016d8c4e0cd4d6c17d0f66fb9bdd865af54144697242c8c0a"
+    },
+    {
+      "path": "chunk-000006144.npz",
+      "start": 6144,
+      "frames": 512,
+      "sha256": "a51562a12ef20331f34f50e9e4399a038af4fea06f36051886f4154b1356ff80"
+    },
+    {
+      "path": "chunk-000006656.npz",
+      "start": 6656,
+      "frames": 512,
+      "sha256": "3e71c99a27f447f5d8cf8afabbfd551bbc3c544da9d216444828d8a1932a832c"
+    },
+    {
+      "path": "chunk-000007168.npz",
+      "start": 7168,
+      "frames": 512,
+      "sha256": "f6d00992a761a5cfa14441d19f534d2ad72eeefb1aa4881395a90e81e6148e93"
+    },
+    {
+      "path": "chunk-000007680.npz",
+      "start": 7680,
+      "frames": 320,
+      "sha256": "a900df65fc373da03a327979a6ab17acc919e5e3d23be46231886f896bd59058"
+    }
+  ],
+  "frames": 8000,
+  "qualify": true,
+  "scalar_max_error_A": 7.105427357601002e-15,
+  "near_margin_A": 1e-06,
+  "timing": {
+    "read_and_coordinate_validation": {
+      "wall_s": 0.25158157851547003,
+      "CPU_s": 0.2515945240000024,
+      "calls": 17
+    },
+    "Kabsch": {
+      "wall_s": 1.115043105557561,
+      "CPU_s": 1.114967683000005,
+      "calls": 16
+    },
+    "Q_and_margin": {
+      "wall_s": 0.2407106477767229,
+      "CPU_s": 0.24072445499999784,
+      "calls": 16
+    },
+    "scalar_qualification": {
+      "wall_s": 8.365132845938206,
+      "CPU_s": 8.364758422000003,
+      "calls": 16
+    },
+    "ensemble_and_validation": {
+      "wall_s": 0.0008683791384100914,
+      "CPU_s": 0.0008702309999959468,
+      "calls": 16
+    },
+    "compression_save": {
+      "wall_s": 0.10703966114670038,
+      "CPU_s": 0.10705205500000314,
+      "calls": 16
+    },
+    "output_SHA": {
+      "wall_s": 0.002036438323557377,
+      "CPU_s": 0.0020384639999964094,
+      "calls": 16
+    }
+  }
+}

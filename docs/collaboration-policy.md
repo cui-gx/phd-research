@@ -103,3 +103,7 @@ GitHub mainのAGENTS.md、全体研究記録、協作交接記録を毎回読み
 ## NMR34-v2準備完了・実計算未承認（2026-10-31）
 
 研究者は基準70427b1の独立v2コード、静的分析、人工試験、予算・文書だけを承認した。[報告](P1-NMR34-v2/technical-report.md)・[A–G](P1-NMR34-v2/handoff-to-chatgpt.md)。人工8test methods PASS。実DCD/全272/MD/学習/推論/LOF/C/B2は0、二軌跡v2資格も別承認待ち。対象reader/サーバ性能/旧窓一致はUNVERIFIED。全体orchestrator/外部監視/永続総予算は次回実読取前の必須条件。旧科学資料と原9archive保持、Mac raw免除。全文回読後停止する。
+
+## NMR34-v2二軌跡の完了（2026-10-31）
+
+研究者承認の固定二軌跡は[限定資格](P1-NMR34-v2/qualification/review-dossier.md)で完了。実入力SHAと旧結果を保全し、工程PASSと科学受入れPENDINGを区別する。点外挿/通常mode反実仮想を予算上界や実測と扱わず、全量272と他研究段階は別承認まで停止する。

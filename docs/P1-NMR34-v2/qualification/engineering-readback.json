@@ -1,0 +1,61 @@
+{
+  "commit": "90ed64aed54f961dfb458c6fb257e5b890bc5ade",
+  "status": "PASS",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 14967,
+      "blob_sha": "dca7f019522ebeab50cfd8a2f2bd9d369e902d0e",
+      "full_body_verified": true
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 38942,
+      "blob_sha": "5e7ab546367a615cde795569551e394472a890ac",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/qualification/artificial-tests.log",
+      "bytes": 1289,
+      "blob_sha": "6205bbea490f5644e81d3ab9b412f4f4f94d0e94",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/qualification/config.json",
+      "bytes": 5196,
+      "blob_sha": "cbd9e79eef2f54ad061c58a82f3873c8c1eb1a82",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/qualification/execution-approval.md",
+      "bytes": 1490,
+      "blob_sha": "f2e0c90ac90510ce86056884a7bc2604dae3a81f",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/qualification/mac-engineering-attempt.log",
+      "bytes": 2057,
+      "blob_sha": "9e8c0a5c00beab7f36c68ffb7a91727893a7613a",
+      "full_body_verified": true
+    },
+    {
+      "path": "p1/nmr34_v2.py",
+      "bytes": 15178,
+      "blob_sha": "f5313f11226675c2c1a82529052f655ff47368e7",
+      "full_body_verified": true
+    },
+    {
+      "path": "p1/nmr34_v2_execute.py",
+      "bytes": 14564,
+      "blob_sha": "74d41fb4ab07e15376d783b783662b1c38ec49e6",
+      "full_body_verified": true
+    },
+    {
+      "path": "p1/test_nmr34_v2_execution.py",
+      "bytes": 4205,
+      "blob_sha": "0381c2a9bf8b3736f538de90d9a5cf005e374301",
+      "full_body_verified": true
+    }
+  ],
+  "errors": []
+}

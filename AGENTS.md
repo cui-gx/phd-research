@@ -1,5 +1,9 @@
 # Doctoral Research — Codex Instructions
 
+## NMR34-v2二軌跡資格完了・停止（2026-10-31）
+
+[完全報告](docs/P1-NMR34-v2/qualification/review-dossier.md)・[A–G](docs/P1-NMR34-v2/qualification/handoff-to-chatgpt.md)。2/2 PASS、全34 RMSD差0/Q-count/argmin一致、33入力SHA不変。外部監視科学17.393s、RSS225.367MiB、worker thread観測1。全量47.42分は点外挿、通常mode11.78分は未測定の差引き算術。全272/MD/CVAE/LOF/R0/C/B2未承認。原archive保持/Mac raw免除。独立科学審査/研究者受入れPENDING、GitHub全文回読後停止。下記承認は完了済み履歴で再実行を許可しない。
+
 ## NMR34-v2二軌跡限定実行承認（2026-10-31、CONFIRMED）
 
 研究者はeed520fd基準で人工工程資格を先行し、固定r01-h1-md/r01-s4-F0-t0-m2-mdのみqualify=Trueで実行することを承認した。[実行記録](docs/P1-NMR34-v2/qualification/execution-approval.md)。科学900s/工程300s/RSS2GiB/出力256MiB/CPU1・GPU不可視。argmin/SHA/数値不一致で停止し、全272やMD/CVAE/LOF/R0/C/B2は未承認。旧資料不変、終了後審査待ち。

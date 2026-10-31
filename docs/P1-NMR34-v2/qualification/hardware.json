@@ -1,0 +1,13 @@
+{
+  "OS": "Linux",
+  "kernel": "6.8.0-138-generic",
+  "CPU": [
+    "Architecture:                            x86_64",
+    "CPU(s):                                  64",
+    "Model name:                              Intel(R) Xeon(R) w7-3565X",
+    "Thread(s) per core:                      2",
+    "Core(s) per socket:                      32",
+    "Socket(s):                               1"
+  ],
+  "GPU_execution": "INVISIBLE_NO_GPU_TASK"
+}

@@ -1,0 +1,67 @@
+{
+  "fingerprint": "ef675381f565b70da8103a6c8fd953e01334b51694720e8e7dbfb639dcdc5e50",
+  "config": {
+    "baseline": "eed520fd6b1263dfbb49b599fa80e02c479ff8e2",
+    "ids": [
+      "r01-h1-md",
+      "r01-s4-F0-t0-m2-md"
+    ],
+    "qualify": true,
+    "near_margin_A": 1e-06,
+    "limits": {
+      "wall_s": 900,
+      "stage_s": 300,
+      "RSS_bytes": 2147483648,
+      "output_bytes": 268435456
+    },
+    "inputs": {
+      "runs/b1-expansion-20261026/tasks/r01-h1-md/science/sim.dcd": "5fa8c41a0cb0dbcd8f6c450ab339b400e1608ad7ef6884729c6b66ef1f32e45f",
+      "runs/b1-expansion-20261026/tasks/r01-h1-md/science/initial.pdb": "48740d97172eb2262355e5d7bc2d5c4d698206cb86465a84e07ef50becd7910a",
+      "runs/b1-expansion-20261026/tasks/r01-h1-md/science/sim.csv": "782945e1a01b3396bb0b7984319baa89e7e28ba7c9c028dcd3f72443ddf8f029",
+      "runs/b1-expansion-20261026/tasks/r01-h1-md-prep/science/features.npz": "14793d3c0a87a20b940b297bccb1dd042cf35efbfe9a5c51d6f98175497b0b4a",
+      "runs/b1-expansion-20261026/tasks/r01-h1-md-prep/science/quality.json": "086740ff1e12923dbc3707ebade7a95b29f44124e8736e2e971d9673f0a2b258",
+      "runs/b1-expansion-20261026/tasks/r01-h1-md/science/result.json": "1fc60700e6b26c2c5c0b3feb14e000ef7e8f503c3cb7fc4773dc9a5ff1f4574c",
+      "runs/b1-expansion-20261026/tasks/r01-h1-md-prep/science/result.json": "5673944a7f0cc147130f38264f5fe4c913c3bdfd6a8320203bd291e4c53ee98e",
+      "runs/b1-expansion-20261026/tasks/r01-s4-F0-t0-m2-md/science/sim.dcd": "7aa5e44aae13f9bc45a22f5e4ef40148f1896421631dc4473b7d03275927b845",
+      "runs/b1-expansion-20261026/tasks/r01-s4-F0-t0-m2-md/science/initial.pdb": "5b06fc8bbe7d5c7c527baa9614b2ef7001692b26337481ff95da5cd3db5467d5",
+      "runs/b1-expansion-20261026/tasks/r01-s4-F0-t0-m2-md/science/sim.csv": "e5379d8b5347d747dd9874b61c077df102979c67a71cf92443be05198cb683cc",
+      "runs/b1-expansion-20261026/tasks/r01-s4-F0-t0-m2-md-prep/science/features.npz": "a37be63d1b48070f0aca82e97817d8f729b659977554f0843d2eaed71682b3ce",
+      "runs/b1-expansion-20261026/tasks/r01-s4-F0-t0-m2-md-prep/science/quality.json": "6ec9f83e25dad8c66d6f9894ad66bac08331db08d88f37cc231ec5979830d282",
+      "runs/b1-expansion-20261026/tasks/r01-s4-F0-t0-m2-md/science/result.json": "165541cbe60d4e8b342859a6fc68c7a8647cb96b44a63c8b4d37f79a10f77d06",
+      "runs/b1-expansion-20261026/tasks/r01-s4-F0-t0-m2-md-prep/science/result.json": "fa74e1a521b2e96119cfcda7a5cf903b034eef1f45b4f78029ecd86b1dca2b06",
+      "source/inputs/p1-fsd-ey/1FME-folded-model1.pdb": "a5276b2752cd95555f7ca078c512c68f89b50893519e99347a1986fa63c82dc8",
+      "source/inputs/p1-fsd-ey/1FME-folded.pdb": "f9c5de680c00ee2629634fb6c7f621e2e1e2664e92b2e4b51b236d5e483b436b",
+      "artifacts/n1-cpu-20261030-v1/output/units/r01-h1-md/frames.npz": "9eb4a5192f2fe0ee498d57e1a1dad5f560507b969de5db0ca8f3c0a74c39ab05",
+      "artifacts/n1-cpu-20261030-v1/output/units/r01-h1-md/windows.csv": "e42dbae7cde7eea3f1a4ef4ce142cb594570bef91a1a064fa13e556cb2e584b8",
+      "artifacts/n1-cpu-20261030-v1/output/units/r01-s4-F0-t0-m2-md/frames.npz": "afd40b95f20ea6be787458abb2e25131fdfc99e0c5e20e728bdc7bb82c0c474b",
+      "artifacts/n1-cpu-20261030-v1/output/units/r01-s4-F0-t0-m2-md/windows.csv": "43c7b3454eb41d33f0de807b5952566e16488827676f3ec65d454b52138faca8",
+      "artifacts/nmr34-qa-20261030-v1/output/final.json": "a983b9a0ceeb3cf541552aebf652893b2e09112901aa24d0e130d14eb477e5b7",
+      "artifacts/nmr34-qa-20261030-v1/output/freeze.json": "291c7ec562109e8a7124a727766d8a05c686d42077e9576a25b4246c494cc7e4",
+      "artifacts/nmr34-qa-20261030-v1/output/r01-h1-md/frames.npz": "c7bc8e0c7d73a05dc3e372e9a27bac04c8debbd4efcf96ebf3b8ad53340ba7b2",
+      "artifacts/nmr34-qa-20261030-v1/output/r01-h1-md/receipt.json": "5c38d7e9a5bd4b34621bcebac0a555e6fcdff38de588fec4c196bd36c8f1361c",
+      "artifacts/nmr34-qa-20261030-v1/output/r01-h1-md/window-ids.json": "e05348a7dd6b53055142a128e61f0950665ced62c16e5810d1ef4fa9bf7472e4",
+      "artifacts/nmr34-qa-20261030-v1/output/r01-h1-md/windows.csv": "338168c7d0e4181e6a2d8ca84872fb9cfce101585f2af2a216af70d73c271a22",
+      "artifacts/nmr34-qa-20261030-v1/output/r01-s4-F0-t0-m2-md/frames.npz": "e8bb90a9db1dfae30cc9f0cc31ce60209d616aea75b40ee31105d26328217ccf",
+      "artifacts/nmr34-qa-20261030-v1/output/r01-s4-F0-t0-m2-md/receipt.json": "a6c6b5d2422556953a61ec78e0546d0cf70d50e7c99dadf68234e614317a0daa",
+      "artifacts/nmr34-qa-20261030-v1/output/r01-s4-F0-t0-m2-md/window-ids.json": "edb374ebb8b5bea57084abdf4b0f907c445a0c8093595963ffeaaa506f8da59e",
+      "artifacts/nmr34-qa-20261030-v1/output/r01-s4-F0-t0-m2-md/windows.csv": "2344f23651597feb5e61a43af75f2baf277fe28e7a84b91272f46debdcfeb574",
+      "artifacts/nmr34-qa-20261030-v1/output/reference-contacts.json": "e254d96f622247dd7fe9697c39ec87b393241cd4be2e10eb8de50224c59fe0dd",
+      "artifacts/nmr34-qa-20261030-v1/output/reference-geometry.csv": "dbd6c0e19980d7c042f35a19b26d536c764c7bacc12185ff5c1cf7f20959e519",
+      "artifacts/nmr34-qa-20261030-v1/output/run-start.json": "af0f797071431dc7f52203280a0865b5901645a3462d9cea609ab68fc9e8d9c8"
+    },
+    "code_sha256": {
+      "nmr34_v2.py": "4fff42dd8559222a0043067c1d97a1f6abeb0eca27e1c3ab35d772085ddaa2e5",
+      "nmr34_v2_execute.py": "1f3312da586f1433c730465914c01125102e8b509fe1e02351ee8a1f3486a59f",
+      "n1_native_metrics.py": "b309389ff681c91fa96fc4c99ac4c65e3c138dd6e946ccf488e7879d8ca69951"
+    }
+  },
+  "Python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "numpy": "1.26.4",
+  "MDAnalysis": "2.9.0",
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "-1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

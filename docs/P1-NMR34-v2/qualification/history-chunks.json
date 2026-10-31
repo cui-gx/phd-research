@@ -1,0 +1,93 @@
+{
+  "chunks": [
+    {
+      "path": "chunk-000000000.npz",
+      "start": 0,
+      "frames": 512,
+      "sha256": "190be26b21a621cce7ae04f606944f574244174a7f34c45ff1463f84f0ef150d"
+    },
+    {
+      "path": "chunk-000000512.npz",
+      "start": 512,
+      "frames": 512,
+      "sha256": "40463292159f9b02e9a1cc8a3abca1878bbd2afd78e9f32f7173a4ea5ffb2892"
+    },
+    {
+      "path": "chunk-000001024.npz",
+      "start": 1024,
+      "frames": 512,
+      "sha256": "7a435b90003b2a4319bf13b8ef5a1978db1e0cc80597a99832d0dbeccdae3b4b"
+    },
+    {
+      "path": "chunk-000001536.npz",
+      "start": 1536,
+      "frames": 512,
+      "sha256": "a725421c19c9782c67ba0ad37a4ff810da6db896cddeda14ff080e051046740b"
+    },
+    {
+      "path": "chunk-000002048.npz",
+      "start": 2048,
+      "frames": 512,
+      "sha256": "403585e5d634430f8fa46ee292049d10461ec892e7e09893129153669ea2f480"
+    },
+    {
+      "path": "chunk-000002560.npz",
+      "start": 2560,
+      "frames": 512,
+      "sha256": "c739667423c834fef480b754a964b18ef286afec6cee97657150758d334dd054"
+    },
+    {
+      "path": "chunk-000003072.npz",
+      "start": 3072,
+      "frames": 512,
+      "sha256": "de7bc5090749e337ac7eadcc46bab0ad7156a093bd07cd3703a01f82eb770885"
+    },
+    {
+      "path": "chunk-000003584.npz",
+      "start": 3584,
+      "frames": 416,
+      "sha256": "f2de428c57c85121f602075d3efba85440b6566dc4bebae34a855af12837e2ef"
+    }
+  ],
+  "frames": 4000,
+  "qualify": true,
+  "scalar_max_error_A": 7.105427357601002e-15,
+  "near_margin_A": 1e-06,
+  "timing": {
+    "read_and_coordinate_validation": {
+      "wall_s": 0.1281485604122281,
+      "CPU_s": 0.12815619300000025,
+      "calls": 9
+    },
+    "Kabsch": {
+      "wall_s": 0.5621233368292451,
+      "CPU_s": 0.562110078,
+      "calls": 8
+    },
+    "Q_and_margin": {
+      "wall_s": 0.12026692554354668,
+      "CPU_s": 0.12024537999999996,
+      "calls": 8
+    },
+    "scalar_qualification": {
+      "wall_s": 4.094247298315167,
+      "CPU_s": 4.094075498,
+      "calls": 8
+    },
+    "ensemble_and_validation": {
+      "wall_s": 0.0004304768517613411,
+      "CPU_s": 0.0004312769999996746,
+      "calls": 8
+    },
+    "compression_save": {
+      "wall_s": 0.055995493195950985,
+      "CPU_s": 0.05600215099999972,
+      "calls": 8
+    },
+    "output_SHA": {
+      "wall_s": 0.0009833388030529022,
+      "CPU_s": 0.0009841089999991226,
+      "calls": 8
+    }
+  }
+}
