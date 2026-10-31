@@ -59,3 +59,5 @@ M1全frame最大誤差8.88178e−15Å、scalar抽査最大7.10543e−15Å、M1�
 ## G. 次段階
 
 研究者指定のAstra Extra Highで独立科学審査を行う。次の研究実験・採択結論・正式C/B2は研究者が判断する。本タスクはGitHub全文回読と交付後に停止する。原9archive保持、Mac raw免除を継続し、未使用予算を新しい計算許可としない。
+
+内容commit `1fab85cccf9ea946ad3228454a0dd4294989e3b9`：314ファイル/108,981,841 bytesをGitHubから全文取得し、Git blob SHA/byte長が全一致。大きい監査JSONはGitHub blob APIの全文を独立hashした。compact結果285ファイルもサーバ索引SHAとMacコピーが全一致。[全文回読](remote-readback.json)。最終receipt commitは最終返信とGit履歴で確定する。

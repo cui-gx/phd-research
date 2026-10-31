@@ -293,5 +293,7 @@
   "relative_links": "PASS",
   "NUMERICAL_THREAD_CONFIG": 1,
   "OBSERVED_OS_THREADS": 2,
-  "THREAD_ATTRIBUTION": "UNVERIFIED_DIRECT_TRACE_ABSENT"
+  "THREAD_ATTRIBUTION": "UNVERIFIED_DIRECT_TRACE_ABSENT",
+  "server_to_Mac_compact_SHA_matches": 285,
+  "runtime_core_still_matches_frozen_SHA": true
 }
