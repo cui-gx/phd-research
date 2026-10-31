@@ -1,0 +1,61 @@
+{
+  "commit": "7c24237117c17d2d6c1a629b3ece9ea3529be978",
+  "status": "PASS",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 15285,
+      "blob_sha": "c37f9a400f33b40d2d693e68592edf2d1ea009f5",
+      "full_body_verified": true
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 40150,
+      "blob_sha": "bbd544581590d40ec6254da7dc9cbbf822a993e7",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-FULL/analysis-plan.md",
+      "bytes": 3762,
+      "blob_sha": "9e5bec3edad0bfe7f887d5a9b0b3c7be8de88703",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-FULL/artificial-tests.log",
+      "bytes": 1687,
+      "blob_sha": "6e21b97bb67d709542d84cc57869d3cce21ff652",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-FULL/config.json",
+      "bytes": 1420,
+      "blob_sha": "16b374a0b079d6092a7100dc2bd11ec384bba1a5",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-FULL/manifest.json",
+      "bytes": 507027,
+      "blob_sha": "8fcf4a7ce3b5f25d25afcb9b0c3f2fc3a8263d5d",
+      "full_body_verified": true
+    },
+    {
+      "path": "p1/nmr34_full.py",
+      "bytes": 11796,
+      "blob_sha": "0c0aecdd254fd9c7c4e4f2c2a115e051bf454711",
+      "full_body_verified": true
+    },
+    {
+      "path": "p1/nmr34_full_analyze.py",
+      "bytes": 9053,
+      "blob_sha": "16c5c559b24216fe6bfc80a24dd3ef1a4719a7c3",
+      "full_body_verified": true
+    },
+    {
+      "path": "p1/test_nmr34_full.py",
+      "bytes": 2669,
+      "blob_sha": "dfa72a70b67aabdc245fe8386e8cbf8ea29eed02",
+      "full_body_verified": true
+    }
+  ],
+  "errors": []
+}

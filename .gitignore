@@ -495,3 +495,5 @@ docs/P1-N1/CPU-v1/._*
 !/docs/P1-NMR34-FULL/results/
 !/docs/P1-NMR34-FULL/results/**
 ._*
+!/p1/nmr34_full_audit.py
+._*

@@ -1,5 +1,9 @@
 # Doctoral Research — Codex Instructions
 
+## NMR34-FULL完了・独立科学審査待ち（2026-10-31）
+
+[完全報告](docs/P1-NMR34-FULL/review-dossier.md)・[A–G](docs/P1-NMR34-FULL/handoff-to-chatgpt.md)。272/272・2,048,000frame、全34＋min34/全窓/8根集計完了、入力/成果/数値監査PASS。S4正/S8負の最小RMSD平均方向は34/34固定参照で保持、全体平均の探索区間は全参照で0を跨ぐ。全てPOST_HOC_EXPLORATORY、交絡/X独立価値/B2利益は未識別。wall/RSS/disk門PASS、数値thread設定1に対しOS thread観測最大2、描画Timerに整合するが元thread ID帰属は未確認。科学711.018s＋監査2.645s、RSS297.375MiB、原9archive保持/Mac raw免除。承認済み全量は完了済み履歴で再実行許可ではない。次はAstra Extra High独立審査。新MD/CVAE/LOF/R0/C/B2へ進まずGitHub回読後停止。
+
 ## NMR34-FULL限定承認（2026-10-31、CONFIRMED）
 
 研究者はチャットで全272既存軌跡CPU分析と7200s/工程300s/RSS2GiB/出力2GiBを明示承認した。[事前計画](docs/P1-NMR34-FULL/analysis-plan.md)・固定manifest/configを工程試験・GitHub全文回読後に実行する。全34＋min34/全窓/8根の全対比をPOST_HOC_EXPLORATORYとして保存。超過/不一致は停止し自動再開・増額しない。原archive保持、Mac raw免除、旧証拠不変。新MD/CVAE/LOF/R0/C/B2は禁止、終了後Astra Extra High独立審査で停止する。

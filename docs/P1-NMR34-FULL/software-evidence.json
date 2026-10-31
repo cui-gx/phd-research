@@ -1,0 +1,23 @@
+{
+  "matplotlib_version": "3.10.1",
+  "font_manager_sha256": "b52a4e959aa23547489f781008537ffa738b674f165c1aa3fee9cfea8d49c88c",
+  "timer_statements": [
+    {
+      "line": 1095,
+      "statement": "timer = threading.Timer(5, lambda: _log.warning("
+    }
+  ],
+  "reinspection_BLAS_pools": [
+    {
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "version": "0.3.23.dev"
+    },
+    {
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "version": "0.3.28"
+    }
+  ],
+  "scope": "software_static_and_fresh_process_inspection_not_retrospective_worker_thread_trace"
+}

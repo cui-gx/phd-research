@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "references": 35,
+  "window_conditions": 24,
+  "roots": 8,
+  "wall_s": 45.21493561565876,
+  "CPU_s": 45.18534653500001,
+  "scope": "POST_HOC_EXPLORATORY"
+}
