@@ -1,5 +1,9 @@
 # Doctoral Research — Codex Instructions
 
+## NMR34-FULL限定承認（2026-10-31、CONFIRMED）
+
+研究者はチャットで全272既存軌跡CPU分析と7200s/工程300s/RSS2GiB/出力2GiBを明示承認した。[事前計画](docs/P1-NMR34-FULL/analysis-plan.md)・固定manifest/configを工程試験・GitHub全文回読後に実行する。全34＋min34/全窓/8根の全対比をPOST_HOC_EXPLORATORYとして保存。超過/不一致は停止し自動再開・増額しない。原archive保持、Mac raw免除、旧証拠不変。新MD/CVAE/LOF/R0/C/B2は禁止、終了後Astra Extra High独立審査で停止する。
+
 ## NMR34-v2二軌跡資格完了・停止（2026-10-31）
 
 [完全報告](docs/P1-NMR34-v2/qualification/review-dossier.md)・[A–G](docs/P1-NMR34-v2/qualification/handoff-to-chatgpt.md)。2/2 PASS、全34 RMSD差0/Q-count/argmin一致、33入力SHA不変。外部監視科学17.393s、RSS225.367MiB、worker thread観測1。全量47.42分は点外挿、通常mode11.78分は未測定の差引き算術。全272/MD/CVAE/LOF/R0/C/B2未承認。原archive保持/Mac raw免除。独立科学審査/研究者受入れPENDING、GitHub全文回読後停止。下記承認は完了済み履歴で再実行を許可しない。

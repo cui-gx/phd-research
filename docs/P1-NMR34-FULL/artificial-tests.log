@@ -1,0 +1,21 @@
+test_explicit_partial_recovery_preserves_bytes (test_nmr34_full.FullTests.test_explicit_partial_recovery_preserves_bytes) ... ok
+test_matrix_structure (test_nmr34_full.FullTests.test_matrix_structure) ... ok
+test_persistent_budget_nonreset (test_nmr34_full.FullTests.test_persistent_budget_nonreset) ... ok
+test_root_pairing_shared_F0 (test_nmr34_full.FullTests.test_root_pairing_shared_F0) ... ok
+test_cache_and_nonoverlap_stop (test_nmr34_v2.SyntheticTests.test_cache_and_nonoverlap_stop) ... ok
+test_chunk_output_and_all_windows (test_nmr34_v2.SyntheticTests.test_chunk_output_and_all_windows) ... ok
+test_ensemble_ties (test_nmr34_v2.SyntheticTests.test_ensemble_ties) ... ok
+test_fixed_contacts_boundary (test_nmr34_v2.SyntheticTests.test_fixed_contacts_boundary) ... ok
+test_rigid_mirror_units (test_nmr34_v2.SyntheticTests.test_rigid_mirror_units) ... ok
+test_scalar_chunk (test_nmr34_v2.SyntheticTests.test_scalar_chunk) ... ok
+test_sha_lock_failure_repeat (test_nmr34_v2.SyntheticTests.test_sha_lock_failure_repeat) ... ok
+test_window_phase_quality (test_nmr34_v2.SyntheticTests.test_window_phase_quality) ... ok
+test_all_summaries_against_explicit_truth (test_nmr34_v2_execution.ExecutionTests.test_all_summaries_against_explicit_truth) ... ok
+test_atom_keys_and_resource_gates (test_nmr34_v2_execution.ExecutionTests.test_atom_keys_and_resource_gates) ... ok
+test_boundaries_and_phase (test_nmr34_v2_execution.ExecutionTests.test_boundaries_and_phase) ... ok
+test_external_watchdog_and_restart (test_nmr34_v2_execution.ExecutionTests.test_external_watchdog_and_restart) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 1.073s
+
+OK

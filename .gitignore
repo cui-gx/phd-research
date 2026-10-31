@@ -481,3 +481,17 @@ docs/P1-N1/CPU-v1/._*
 !/docs/P1-NMR34-v2/qualification/*.csv
 !/docs/P1-NMR34-v2/qualification/*.log
 ._*
+
+# NMR34全量限定CPU評価
+!/p1/nmr34_full.py
+!/p1/nmr34_full_analyze.py
+!/p1/test_nmr34_full.py
+!/docs/P1-NMR34-FULL/
+/docs/P1-NMR34-FULL/*
+!/docs/P1-NMR34-FULL/*.md
+!/docs/P1-NMR34-FULL/*.json
+!/docs/P1-NMR34-FULL/*.csv
+!/docs/P1-NMR34-FULL/*.log
+!/docs/P1-NMR34-FULL/results/
+!/docs/P1-NMR34-FULL/results/**
+._*

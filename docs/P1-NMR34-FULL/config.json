@@ -1,0 +1,30 @@
+{
+  "baseline": "33f6aa9e5071af18d7b841b61367507d2113b834",
+  "manifest_sha256": "5b4c2c55754c516c38298bacacd217ba08be77391f450f7664704436dfb5e795",
+  "code_sha256": {
+    "nmr34_full.py": "fc2bc5f0923b22ccf04debef114a04c635f1ea0aef9a670e4cee33811341f2e0",
+    "nmr34_full_analyze.py": "d3f7d7a426ea967c07d116f6f76589c25fbdecdea4c4d45345eda5aeb8b01df5",
+    "nmr34_v2.py": "4fff42dd8559222a0043067c1d97a1f6abeb0eca27e1c3ab35d772085ddaa2e5",
+    "nmr34_v2_execute.py": "1f3312da586f1433c730465914c01125102e8b509fe1e02351ee8a1f3486a59f",
+    "n1_native_metrics.py": "b309389ff681c91fa96fc4c99ac4c65e3c138dd6e946ccf488e7879d8ca69951"
+  },
+  "references": {
+    "source/inputs/p1-fsd-ey/1FME-folded-model1.pdb": "a5276b2752cd95555f7ca078c512c68f89b50893519e99347a1986fa63c82dc8",
+    "source/inputs/p1-fsd-ey/1FME-folded.pdb": "f9c5de680c00ee2629634fb6c7f621e2e1e2664e92b2e4b51b236d5e483b436b"
+  },
+  "qualify": false,
+  "scalar_sampling": "first_midpoint_last_all_34_each_unit",
+  "limits": {
+    "wall_s": 7200,
+    "stage_s": 300,
+    "RSS_bytes": 2147483648,
+    "output_bytes": 2147483648
+  },
+  "bootstrap_seed": 17103001,
+  "bootstrap_draws": 10000,
+  "scope": "POST_HOC_EXPLORATORY",
+  "analysis_inputs_sha256": {
+    "geometry-native-joined.csv": "92a801fec9769a4b725fdab9be6d7f43e3eba33f4a1896c51095415a90447f2d",
+    "N1-root-summary.csv": "daa7fc100a35a8771e682016543ca383d86862c6ab642e92fa4235b3f53a491c"
+  }
+}
