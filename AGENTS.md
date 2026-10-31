@@ -1,5 +1,11 @@
 # Doctoral Research — Codex Instructions
 
+## NMR34独立再照合完了・研究者判断待ち（2026-10-31）
+
+研究者の「独立科学審査を開始」に基づき、[完全審査](docs/P1-NMR34-Review/review-dossier.md)と[A–G](docs/P1-NMR34-Review/handoff-to-chatgpt.md)を作成した。旧272計算の再実行は0。保存表2,419,200算術関係と285成果SHAを照合し、元CSVに欠けた窓metadata全228,480行を別附表へ転記した。原科学コード・表・報告・9archiveは不変、Mac raw免除継続。
+
+DERIVED：34参照内のS4正/S8負の平均方向はSUPPORTED_WITH_LIMITS。全体更新利益/X独立価値/B2利益は未立証。Q対F0の不利な結果を併記する。旧lock=falseの固定値・監査時間末尾・OS thread帰属には注記を保持する。同作業環境の独立再照合を外部盲検査読と呼ばない。研究者科学受入れ/外部審査はPENDING。次は研究者/ChatGPT判断のみ。R0を含む新MD/CVAE/LOF/NMR/C/B2へ自動進行しない。下記の全量承認は完了済み履歴。
+
 ## NMR34-FULL完了・独立科学審査待ち（2026-10-31）
 
 [完全報告](docs/P1-NMR34-FULL/review-dossier.md)・[A–G](docs/P1-NMR34-FULL/handoff-to-chatgpt.md)。272/272・2,048,000frame、全34＋min34/全窓/8根集計完了、入力/成果/数値監査PASS。S4正/S8負の最小RMSD平均方向は34/34固定参照で保持、全体平均の探索区間は全参照で0を跨ぐ。全てPOST_HOC_EXPLORATORY、交絡/X独立価値/B2利益は未識別。wall/RSS/disk門PASS、数値thread設定1に対しOS thread観測最大2、描画Timerに整合するが元thread ID帰属は未確認。科学711.018s＋監査2.645s、RSS297.375MiB、原9archive保持/Mac raw免除。承認済み全量は完了済み履歴で再実行許可ではない。次はAstra Extra High独立審査。新MD/CVAE/LOF/R0/C/B2へ進まずGitHub回読後停止。

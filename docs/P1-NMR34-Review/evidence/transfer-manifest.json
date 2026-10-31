@@ -1,0 +1,58 @@
+{
+  "checked_at_JST": "2026-10-31T11:23:53.250677+09:00",
+  "python": "3.12.3",
+  "files": [
+    {
+      "path": "all-window-direction-extract.csv",
+      "bytes": 622182,
+      "sha256": "2298a81c287b59849a8246fb663bcc03fff2701ad2b8d0ea6ac901d313dbf151"
+    },
+    {
+      "path": "main-all-contrasts.csv",
+      "bytes": 709848,
+      "sha256": "a01d06ca6ffe8709324625e90afd9606cda28af7731a99221fc3bc02b43a78c3"
+    },
+    {
+      "path": "main-root-extract.csv",
+      "bytes": 41863,
+      "sha256": "ac0f182b73632908e48e6ede7f73410fbcbec91a3cd7748208a28a3cc9ca409c"
+    },
+    {
+      "path": "metadata-source-sha256.json",
+      "bytes": 44323,
+      "sha256": "e91b4f601ebaf94c6832975c1627affbfc873b1e144ceb1bc5ad250b3b3d2459"
+    },
+    {
+      "path": "table-audit.json",
+      "bytes": 1280,
+      "sha256": "5cfe1c1f162b80b1a7aaa353df2d661de88f28295936cf414cf99f31df8de32a"
+    },
+    {
+      "path": "window-metadata.csv.gz",
+      "bytes": 762146,
+      "sha256": "15abc32b3887a920836cf4553470713d453bdb88d20b24674856d4414c98d958"
+    },
+    {
+      "path": "check.stdout",
+      "bytes": 992,
+      "sha256": "611e1835047ff7ccec938f0472d79e72609a33a6fd2c47b8d60f53d07e3fbea2"
+    },
+    {
+      "path": "check.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "check_existing_tables.py",
+      "bytes": 11333,
+      "sha256": "9d5189a9defb17368b362cf086c8415eb0e1f5466cb3533c51514c6d6674e720"
+    }
+  ],
+  "lock_observation": {
+    "method": "read-only lslocks PATH snapshot; visibility limited to returned kernel inventory",
+    "nmr34_full_lock_listed": false
+  },
+  "budget_segment_open": false,
+  "new_scientific_computations": 0,
+  "raw_archives_modified": false
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "internal_links": 112,
+  "transfer_files": 9,
+  "main_rows_identical": 3780,
+  "window_keys_unique": 228480,
+  "metadata_rows_with_quality_exclusion": 0,
+  "frozen_source_and_results": "UNCHANGED",
+  "existing_user_README": "PRESERVED_NOT_STAGED",
+  "new_scientific_computations": 0,
+  "new_bootstrap": 0,
+  "source_index_files": 36,
+  "document_check_note": "文書点検の2回の試行はAppleDoubleファイルのUTF-8読取りで停止。Markdown/Python/JSON補助ファイルを対象外とした。科学検算の失敗ではない。"
+}

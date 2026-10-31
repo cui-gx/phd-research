@@ -497,3 +497,19 @@ docs/P1-N1/CPU-v1/._*
 ._*
 !/p1/nmr34_full_audit.py
 ._*
+
+# NMR34の独立審査・保存済み表の検算証拠
+!/docs/P1-NMR34-Review/
+/docs/P1-NMR34-Review/*
+!/docs/P1-NMR34-Review/*.md
+!/docs/P1-NMR34-Review/*.json
+!/docs/P1-NMR34-Review/scripts/
+!/docs/P1-NMR34-Review/scripts/*.py
+!/docs/P1-NMR34-Review/evidence/
+!/docs/P1-NMR34-Review/evidence/*.md
+!/docs/P1-NMR34-Review/evidence/*.json
+!/docs/P1-NMR34-Review/evidence/*.csv
+!/docs/P1-NMR34-Review/evidence/window-metadata.csv.gz
+!/docs/P1-NMR34-Review/evidence/check.stdout
+!/docs/P1-NMR34-Review/evidence/check.stderr
+._*

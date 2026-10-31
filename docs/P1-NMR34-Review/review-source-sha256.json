@@ -1,0 +1,182 @@
+[
+  {
+    "path": "docs/P1-B1-Expansion/analysis-plan.md",
+    "bytes": 6441,
+    "sha256": "a5c97ba6dfd8ebde1fd1d3320d7608764cb6dca6e460d207873f0bc9ff88e4e8"
+  },
+  {
+    "path": "docs/P1-B1-Expansion/data-lineage-plan.md",
+    "bytes": 2209,
+    "sha256": "ce77a65310f3d438788213e5c986eec08a9498beee294d07e4b85a72de4be055"
+  },
+  {
+    "path": "docs/P1-B1-Expansion/randomness-analysis.md",
+    "bytes": 5186,
+    "sha256": "2f9dd6e39b6a8a844fe00fd54ed0b35cefc5016a3e0d3337750cf14bf4071f33"
+  },
+  {
+    "path": "docs/P1-B1-R1/review-dossier.md",
+    "bytes": 29841,
+    "sha256": "e436cb2158ba7fe4b99eec8779ee17c5a8f42f8d859aa56acedf43402bbb795a"
+  },
+  {
+    "path": "docs/P1-L1/review-dossier.md",
+    "bytes": 14414,
+    "sha256": "cca3ccb8c9ee14c1f15aab7f39a9177862a718cbaf34b22e873986f7883b4970"
+  },
+  {
+    "path": "docs/P1-L2/review-dossier.md",
+    "bytes": 34498,
+    "sha256": "28611cca9c672f8590862b4bacc6fde741bb1d411416c4af3437b240d9081bb7"
+  },
+  {
+    "path": "docs/P1-N1/CPU-v1/review-dossier.md",
+    "bytes": 12561,
+    "sha256": "f3abfdba5c604c1d30a3236ee3de582e9307d434480aee4359f471125bb80cdd"
+  },
+  {
+    "path": "docs/P1-N1/README.md",
+    "bytes": 2217,
+    "sha256": "0f9a576477c6dc64c05f6c4d3911ac43c8a6ad82c612f468ebd5804739938cb1"
+  },
+  {
+    "path": "docs/P1-N1/native-metric-contract.md",
+    "bytes": 11289,
+    "sha256": "53909aa1d32f7b2cec2d17a308697740e7cf941439e80a14a0e30e9fb32db861"
+  },
+  {
+    "path": "docs/P1-N1-Review/resource-measurement-plan.md",
+    "bytes": 7265,
+    "sha256": "4a376fcc4e2908ff17c8459d857a4f32a3e9618e6d11153a1752f459ee7fac09"
+  },
+  {
+    "path": "docs/P1-N1-Review/review-dossier.md",
+    "bytes": 16061,
+    "sha256": "cb849e1556533431490e01334f020778026ec9cdbe8eb3ee4d62f222441e2095"
+  },
+  {
+    "path": "docs/P1-NMR34-FULL/analysis-complete.json",
+    "bytes": 179,
+    "sha256": "94d602d7503a81b0b5de85369f3ec172dea928cf91d0ad8923e9146734c6bef1"
+  },
+  {
+    "path": "docs/P1-NMR34-FULL/analysis-methods.md",
+    "bytes": 2622,
+    "sha256": "70fe52f15e8f4f1240c8dadf571f279cee60e7dab0d033ba3bf7a7281bdc5d74"
+  },
+  {
+    "path": "docs/P1-NMR34-FULL/analysis-plan.md",
+    "bytes": 3762,
+    "sha256": "d1f96f4b89b2da09354bcb647f3ce5f59f0dba03f19f1f795d7df2c71a045150"
+  },
+  {
+    "path": "docs/P1-NMR34-FULL/compact-results-sha256.json",
+    "bytes": 43447,
+    "sha256": "a6e937137edef61c775b37efc0d2791807e94cc014bca39cff0ae374f9f3da46"
+  },
+  {
+    "path": "docs/P1-NMR34-FULL/compute-complete.json",
+    "bytes": 94,
+    "sha256": "3efa96d07ddaafdc3c91ccfa30722d4edb01bab7115831a365abc384eea98dce"
+  },
+  {
+    "path": "docs/P1-NMR34-FULL/config.json",
+    "bytes": 1420,
+    "sha256": "228ca00d31d73f1e65c6c77442a739e298cab981750239f9a8183ff2f48c8623"
+  },
+  {
+    "path": "docs/P1-NMR34-FULL/delivery-audit.json",
+    "bytes": 1827192,
+    "sha256": "96787cd8188ab09f74489f6ba5df711f5f89db9ae0bc0f8d2b2e622970a5678e"
+  },
+  {
+    "path": "docs/P1-NMR34-FULL/engineering-readback.json",
+    "bytes": 1656,
+    "sha256": "d52c066253b8276991641f30f2860d5abbca85e03781cd4c1f249ba384751282"
+  },
+  {
+    "path": "docs/P1-NMR34-FULL/manifest.json",
+    "bytes": 507027,
+    "sha256": "5b4c2c55754c516c38298bacacd217ba08be77391f450f7664704436dfb5e795"
+  },
+  {
+    "path": "docs/P1-NMR34-FULL/reference-map.json",
+    "bytes": 66700,
+    "sha256": "508b102bc9de24104753ea22c61daa7fedb71b018e49af9cfa6d976237557abb"
+  },
+  {
+    "path": "docs/P1-NMR34-FULL/remote-readback.json",
+    "bytes": 60671,
+    "sha256": "3696591576449767b97ef89591ad5ca61fc5ca3404d6c9a27709779be18a0fde"
+  },
+  {
+    "path": "docs/P1-NMR34-FULL/results/1/history.csv",
+    "bytes": 149048,
+    "sha256": "d4127334f344ad48bed7ddd1b489852ca640f1859996413f2d142364e6a3a297"
+  },
+  {
+    "path": "docs/P1-NMR34-FULL/review-dossier.md",
+    "bytes": 14202,
+    "sha256": "9df066e2e80e4571c09b269152370b0567370f9a256d801f3a9ff0af86430f92"
+  },
+  {
+    "path": "docs/P1-NMR34-FULL/scientific-summary.json",
+    "bytes": 13175,
+    "sha256": "c740e16f3dcc5b1f2991e09549b27e2ef8e4b1717fd973165350e9fc9ae4555d"
+  },
+  {
+    "path": "docs/P1-NMR34-FULL/software-evidence.json",
+    "bytes": 591,
+    "sha256": "90581511c55ba6c81e17f74fbbaf2f95c74148bdcaae112e86d60bfba8d6a374"
+  },
+  {
+    "path": "docs/P1-NMR34-FULL/static-check.json",
+    "bytes": 11529,
+    "sha256": "e16a794da69b2a6c42cac3d7fc0136b041b8b1e7aba9aa4aa800ba8999f978fc"
+  },
+  {
+    "path": "docs/P1-NMR34-FULL/supervisor.json",
+    "bytes": 149,
+    "sha256": "e2dbb686ad889d9a7b36b5c7fbed118d8a9ceca3358ffa7f32bce3b8fcfff588"
+  },
+  {
+    "path": "docs/P1-Post-R1-Qualification/qualification-review.md",
+    "bytes": 19358,
+    "sha256": "3f7d4a0fb4e3c1b12acb5c3911ad87e94a778670ce758f1cdc21ed58ea3f6bab"
+  },
+  {
+    "path": "docs/P1-Q0/review-dossier.md",
+    "bytes": 15055,
+    "sha256": "d4ea70b11bdfa3fe2fd311e4f636536c5eb6f79e275887e221cabaf45ebb4aee"
+  },
+  {
+    "path": "docs/研究打合せ/2026-10-30-速水先生-差別化と科学評価.md",
+    "bytes": 10626,
+    "sha256": "fc9c7613c39226526a2fe74d89cd3b278d4ad57cc671f112965395f75bdfc75b"
+  },
+  {
+    "path": "p1/n1_native_metrics.py",
+    "bytes": 5540,
+    "sha256": "b309389ff681c91fa96fc4c99ac4c65e3c138dd6e946ccf488e7879d8ca69951"
+  },
+  {
+    "path": "p1/nmr34_full.py",
+    "bytes": 11796,
+    "sha256": "fc2bc5f0923b22ccf04debef114a04c635f1ea0aef9a670e4cee33811341f2e0"
+  },
+  {
+    "path": "p1/nmr34_full_analyze.py",
+    "bytes": 9053,
+    "sha256": "d3f7d7a426ea967c07d116f6f76589c25fbdecdea4c4d45345eda5aeb8b01df5"
+  },
+  {
+    "path": "p1/nmr34_full_audit.py",
+    "bytes": 3715,
+    "sha256": "896c9f2b4c8342b7cfbeeb04017f6cb268eead7c4a3941d16f39ff9c084b13db"
+  },
+  {
+    "path": "p1/nmr34_v2.py",
+    "bytes": 15178,
+    "sha256": "4fff42dd8559222a0043067c1d97a1f6abeb0eca27e1c3ab35d772085ddaa2e5"
+  }
+]
