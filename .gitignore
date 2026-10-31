@@ -469,3 +469,4 @@ docs/P1-N1/CPU-v1/._*
 !/docs/P1-NMR34-v2/*.md
 !/docs/P1-NMR34-v2/*.json
 !/docs/P1-NMR34-v2/*.log
+._*
