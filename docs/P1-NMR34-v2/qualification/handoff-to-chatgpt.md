@@ -44,3 +44,5 @@ supervisor科学wall17.392948s、worker CPU16.931123s、RSS225.367188MiB、threa
 ## G. 次段階
 
 [次の承認判断](next-approval.md)を研究者/ChatGPTが審査する。全272を選ぶ場合は別manifest/mode/資源枠/非上書き復旧を明示した承認が必要。本報告から全量、MD、CVAE、LOF、R0、C/B2へ自動進行しない。全文回読後停止。
+
+内容commit `fc0bca889c1559212c1731b607d028880ca96f61`：31ファイル/1,226,761 bytesのGitHub全文を取得し、byte長と独立計算したGit blob SHAが全一致。[回読](remote-readback.json)。最終receiptを含むcommitは最終返信で報告する。

@@ -1,0 +1,194 @@
+{
+  "commit": "fc0bca889c1559212c1731b607d028880ca96f61",
+  "date_JST": "2026-10-31",
+  "status": "PASS",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 14967,
+      "blob_sha": "dca7f019522ebeab50cfd8a2f2bd9d369e902d0e",
+      "full_body_verified": true
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 39564,
+      "blob_sha": "a0dae1cbca174bd622902ac0b942836703758e92",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/README.md",
+      "bytes": 817,
+      "blob_sha": "c3505ca56c9b9eb62a017416838601918aa452ea",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/qualification/README.md",
+      "bytes": 521,
+      "blob_sha": "d26c4a26da27d784b2660e99f9ffd2081141e0f3",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/qualification/artificial-tests.log",
+      "bytes": 1289,
+      "blob_sha": "6205bbea490f5644e81d3ab9b412f4f4f94d0e94",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/qualification/comparison.csv",
+      "bytes": 401,
+      "blob_sha": "9589d30611c9ff356397bbfb3d20b2cbb23d4f26",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/qualification/config.json",
+      "bytes": 5196,
+      "blob_sha": "cbd9e79eef2f54ad061c58a82f3873c8c1eb1a82",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/qualification/downstream-chunks.json",
+      "bytes": 3814,
+      "blob_sha": "a56ec95016073b57747ce99cca9b33ad5a1576a6",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/qualification/downstream-windows.json",
+      "bytes": 401523,
+      "blob_sha": "fc562c6799c45ac3241b0077522cf6f30f963ea1",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/qualification/engineering-readback.json",
+      "bytes": 1726,
+      "blob_sha": "bf5e713e0ba681b2b906fdd003e092f6470926cc",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/qualification/execution-approval.md",
+      "bytes": 1490,
+      "blob_sha": "f2e0c90ac90510ce86056884a7bc2604dae3a81f",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/qualification/execution-fingerprint.json",
+      "bytes": 5661,
+      "blob_sha": "6d5e266637089500fc626be5d7c1e585fe86c451",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/qualification/final-audit.json",
+      "bytes": 12008,
+      "blob_sha": "67fec0999aacce6d8443eccc73477381b1f40728",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/qualification/handoff-to-chatgpt.md",
+      "bytes": 4885,
+      "blob_sha": "ea391e3ed73a27e52451d9695240f5f6b175d9d6",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/qualification/hardware.json",
+      "bytes": 443,
+      "blob_sha": "682371cdcda709c3a67f094338cdb7a0e42e099a",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/qualification/history-chunks.json",
+      "bytes": 2399,
+      "blob_sha": "e54813f1487d822e1fd64985ac64431fabc047b3",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/qualification/history-windows.json",
+      "bytes": 405962,
+      "blob_sha": "281689b86629ba2b2f526375a896e6e9b82b522e",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/qualification/mac-engineering-attempt.log",
+      "bytes": 2057,
+      "blob_sha": "9e8c0a5c00beab7f36c68ffb7a91727893a7613a",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/qualification/next-approval.md",
+      "bytes": 1919,
+      "blob_sha": "3e2e6b2dfcc509b076438c68ba1e9d9b88d0764e",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/qualification/reference-map.json",
+      "bytes": 66700,
+      "blob_sha": "fda2e4b7031ba30e78e95180dd07e5c80c4d2e26",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/qualification/review-dossier.md",
+      "bytes": 10450,
+      "blob_sha": "c2dd4f8d77aa5217d00ae3bf54bceaf534bb6d12",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/qualification/static-check.json",
+      "bytes": 228,
+      "blob_sha": "a84bb7bca22979cc8e9fde493043dd3eecbbe85f",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/qualification/supervisor-final.json",
+      "bytes": 220,
+      "blob_sha": "0936248ba29fc575801a05dd772f6b3183df7bb3",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/qualification/updated-budget.json",
+      "bytes": 1212,
+      "blob_sha": "17b5104249c19a8c58f2e73e7a427baf13693754",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/qualification/worker-final.json",
+      "bytes": 5063,
+      "blob_sha": "1ea61b9bf6aa8b8c933aa2f993719c3139b8fa8d",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/collaboration-policy.md",
+      "bytes": 15411,
+      "blob_sha": "dbc95aef0e862838c3e54f66512ab2677bc8d4a1",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/协作交接记录.md",
+      "bytes": 99035,
+      "blob_sha": "e34b6d63832490a5c51437d1016e5ef9407ae906",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/博士研究_全局总档案.md",
+      "bytes": 87853,
+      "blob_sha": "c837831bb9fd2e8635e6dc19c91b802840727b75",
+      "full_body_verified": true
+    },
+    {
+      "path": "p1/nmr34_v2.py",
+      "bytes": 15178,
+      "blob_sha": "f5313f11226675c2c1a82529052f655ff47368e7",
+      "full_body_verified": true
+    },
+    {
+      "path": "p1/nmr34_v2_execute.py",
+      "bytes": 14564,
+      "blob_sha": "74d41fb4ab07e15376d783b783662b1c38ec49e6",
+      "full_body_verified": true
+    },
+    {
+      "path": "p1/test_nmr34_v2_execution.py",
+      "bytes": 4205,
+      "blob_sha": "0381c2a9bf8b3736f538de90d9a5cf005e374301",
+      "full_body_verified": true
+    }
+  ],
+  "errors": []
+}
