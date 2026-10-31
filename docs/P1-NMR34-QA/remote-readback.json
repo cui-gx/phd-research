@@ -1,0 +1,129 @@
+{
+  "commit": "6a8172c2cbdb6c4ecf700c7067425cf795e5cf01",
+  "status": "PASS",
+  "checked_date_JST": "2026-10-31",
+  "verification": "GitHub connector full base64 bodies decoded; Git blob SHA1 and byte length independently matched against local committed contents",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 14458,
+      "blob_sha": "3a3f58139b15aa9e67fbcb5da5addba153aa100c",
+      "full_body_verified": true
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 37839,
+      "blob_sha": "d26bac5d1f5e493b5504e724c4315bd2a9fcab00",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-QA/README.md",
+      "bytes": 884,
+      "blob_sha": "b1f3ce453ad1532ff6e70ddb20b096d5ebd8af58",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-QA/cost-estimate.json",
+      "bytes": 612,
+      "blob_sha": "bd578475fd8a329b1cb339f1ca76cc7c69cd40ab",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-QA/delivery-audit.json",
+      "bytes": 5583,
+      "blob_sha": "a0e303a3e44be2208734811bb66af0c244d2ab30",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-QA/downstream-windows.csv",
+      "bytes": 177714,
+      "blob_sha": "b570bd4784b944db1ecf82254c66242192053c6b",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-QA/execution-approval.md",
+      "bytes": 1965,
+      "blob_sha": "ed0aec337234b6dfac713567f3ddd49135dc549b",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-QA/final.json",
+      "bytes": 4562,
+      "blob_sha": "4e3ff143f78c1c32956a8e914bf023a6bdd3b2a1",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-QA/freeze.json",
+      "bytes": 85509,
+      "blob_sha": "8363b1c56a90e0ced6ce6bbbfd885a6f888a73c0",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-QA/handoff-to-chatgpt.md",
+      "bytes": 5564,
+      "blob_sha": "6438f4d0639afac6206baa6dbd8b24ed9f29b3d9",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-QA/history-windows.csv",
+      "bytes": 174730,
+      "blob_sha": "fdc7cc090b6c83182947e7aaa2b4a211bba4e8fa",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-QA/reference-contacts.json",
+      "bytes": 63351,
+      "blob_sha": "d43051b6b3fca34847edecd258e5f891e7c9be55",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-QA/reference-geometry.csv",
+      "bytes": 28165,
+      "blob_sha": "46c5e2b4da45c765ac71cfad5c472b64b376c757",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-QA/reproduce.md",
+      "bytes": 2345,
+      "blob_sha": "afbde3f49b2fe911b0a889083920a6ef50bcbd21",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-QA/review-dossier.md",
+      "bytes": 13251,
+      "blob_sha": "2fa6c7c0b0fdfbb891d4a07f7c1595045be8a27e",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-QA/static-check.json",
+      "bytes": 662,
+      "blob_sha": "c01327bb9cfc28265245267f82a1ef8913dd9f6f",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/collaboration-policy.md",
+      "bytes": 14424,
+      "blob_sha": "8067c9665bc24664c9c63124bbc35a0354b87fd6",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/协作交接记录.md",
+      "bytes": 96419,
+      "blob_sha": "fead0fcaede1cd52236cc533e4fe23d1e6d475ff",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/博士研究_全局总档案.md",
+      "bytes": 84753,
+      "blob_sha": "32996502f8e735babc56f918ae1e4d54aa5e2281",
+      "full_body_verified": true
+    },
+    {
+      "path": "p1/nmr34_qa.py",
+      "bytes": 11927,
+      "blob_sha": "ded73b2405f5de45f00b1244b2f0bab84bf1ed27",
+      "full_body_verified": true
+    }
+  ],
+  "errors": []
+}

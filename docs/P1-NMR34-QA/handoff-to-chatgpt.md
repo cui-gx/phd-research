@@ -5,6 +5,7 @@
 - バッチ：nmr34-qa-20261030-v1。科学実行2026-10-30、最終サーバ監査2026-10-31 09:25:36 JST。
 - 実行COMPLETE、2/2軌跡、12,000/12,000frame、408,000/408,000参照組。全272はNOT APPROVED / NOT EXECUTED。
 - 数値・入力・制限の二単位ゲートPASS。詳細記録の欠落は下記E。独立科学審査・研究者科学受入れPENDING。
+- 内容交付commit：`6a8172c2cbdb6c4ecf700c7067425cf795e5cf01`。20ファイル・824,717 bytesのGitHub全文を取得し、独立計算したGit blob SHA/byte長が全て一致。回読記録を含む最終commitは最終返信で報告する。
 - 科学基準ef0bdd64ca904bfa78afa759d8ebe8077d71105d、実装凍結c33807eec32096d59049bcf48ef3238ffa134906。交付内容commitと全文照合は[remote-readback.json](remote-readback.json)、最終交付SHAは本ファイルを含む最終Git commitと研究者への最終返信で特定する。自分自身のSHAをファイル内に埋め込まない。
 - GitHub：コード、全窓表、参照幾何/接触、SHA、実行/監査、費用、報告。サーバのみ：逐frame34列のNPZ、window-ID、immutable receipt等。[全索引](delivery-audit.json)。原9archive存在/サイズ一致、今回全archive再hashなし、Mac raw免除。
 
