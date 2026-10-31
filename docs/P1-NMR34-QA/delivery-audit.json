@@ -1,0 +1,157 @@
+{
+  "checked_at_JST": "2026-10-31T09:25:36.413059+09:00",
+  "status": "PASS",
+  "run_lock_held": false,
+  "success_receipts": 2,
+  "failure_file_present": false,
+  "output_files": [
+    {
+      "path": "artifacts/nmr34-qa-20261030-v1/output/final.json",
+      "bytes": 4562,
+      "sha256": "a983b9a0ceeb3cf541552aebf652893b2e09112901aa24d0e130d14eb477e5b7"
+    },
+    {
+      "path": "artifacts/nmr34-qa-20261030-v1/output/freeze.json",
+      "bytes": 85509,
+      "sha256": "291c7ec562109e8a7124a727766d8a05c686d42077e9576a25b4246c494cc7e4"
+    },
+    {
+      "path": "artifacts/nmr34-qa-20261030-v1/output/r01-h1-md/frames.npz",
+      "bytes": 1105655,
+      "sha256": "c7bc8e0c7d73a05dc3e372e9a27bac04c8debbd4efcf96ebf3b8ad53340ba7b2"
+    },
+    {
+      "path": "artifacts/nmr34-qa-20261030-v1/output/r01-h1-md/receipt.json",
+      "bytes": 646,
+      "sha256": "5c38d7e9a5bd4b34621bcebac0a555e6fcdff38de588fec4c196bd36c8f1361c"
+    },
+    {
+      "path": "artifacts/nmr34-qa-20261030-v1/output/r01-h1-md/window-ids.json",
+      "bytes": 431260,
+      "sha256": "e05348a7dd6b53055142a128e61f0950665ced62c16e5810d1ef4fa9bf7472e4"
+    },
+    {
+      "path": "artifacts/nmr34-qa-20261030-v1/output/r01-h1-md/windows.csv",
+      "bytes": 174730,
+      "sha256": "338168c7d0e4181e6a2d8ca84872fb9cfce101585f2af2a216af70d73c271a22"
+    },
+    {
+      "path": "artifacts/nmr34-qa-20261030-v1/output/r01-s4-F0-t0-m2-md/frames.npz",
+      "bytes": 2186938,
+      "sha256": "e8bb90a9db1dfae30cc9f0cc31ce60209d616aea75b40ee31105d26328217ccf"
+    },
+    {
+      "path": "artifacts/nmr34-qa-20261030-v1/output/r01-s4-F0-t0-m2-md/receipt.json",
+      "bytes": 657,
+      "sha256": "a6c6b5d2422556953a61ec78e0546d0cf70d50e7c99dadf68234e614317a0daa"
+    },
+    {
+      "path": "artifacts/nmr34-qa-20261030-v1/output/r01-s4-F0-t0-m2-md/window-ids.json",
+      "bytes": 631260,
+      "sha256": "edb374ebb8b5bea57084abdf4b0f907c445a0c8093595963ffeaaa506f8da59e"
+    },
+    {
+      "path": "artifacts/nmr34-qa-20261030-v1/output/r01-s4-F0-t0-m2-md/windows.csv",
+      "bytes": 177714,
+      "sha256": "2344f23651597feb5e61a43af75f2baf277fe28e7a84b91272f46debdcfeb574"
+    },
+    {
+      "path": "artifacts/nmr34-qa-20261030-v1/output/reference-contacts.json",
+      "bytes": 63351,
+      "sha256": "e254d96f622247dd7fe9697c39ec87b393241cd4be2e10eb8de50224c59fe0dd"
+    },
+    {
+      "path": "artifacts/nmr34-qa-20261030-v1/output/reference-geometry.csv",
+      "bytes": 28165,
+      "sha256": "dbd6c0e19980d7c042f35a19b26d536c764c7bacc12185ff5c1cf7f20959e519"
+    },
+    {
+      "path": "artifacts/nmr34-qa-20261030-v1/output/run-start.json",
+      "bytes": 136,
+      "sha256": "af0f797071431dc7f52203280a0865b5901645a3462d9cea609ab68fc9e8d9c8"
+    },
+    {
+      "path": "artifacts/nmr34-qa-20261030-v1/output/run.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "output_bytes_including_final": 4890583,
+  "success_output_sha_checks": 6,
+  "archives": [
+    {
+      "name": "r01.tar.gz",
+      "exists": true,
+      "bytes": 2528044626,
+      "expected_bytes": 2528044626,
+      "historical_manifest_sha256": "c100f64efc74351911100d9cfc2a0a8b82cfda11e5de7f36164f293e7bf732a5",
+      "fresh_archive_sha_verified": false
+    },
+    {
+      "name": "r02.tar.gz",
+      "exists": true,
+      "bytes": 2526798997,
+      "expected_bytes": 2526798997,
+      "historical_manifest_sha256": "9114f80bc13cade99fea22c43bb55db59e9a9dd22b54479776c8aa2b57123b69",
+      "fresh_archive_sha_verified": false
+    },
+    {
+      "name": "r03.tar.gz",
+      "exists": true,
+      "bytes": 2528026022,
+      "expected_bytes": 2528026022,
+      "historical_manifest_sha256": "cb76e39c605fc2faa416426ae4ae21fdaea6a5ecfebe20f3d599e404d702a211",
+      "fresh_archive_sha_verified": false
+    },
+    {
+      "name": "r04.tar.gz",
+      "exists": true,
+      "bytes": 2526185600,
+      "expected_bytes": 2526185600,
+      "historical_manifest_sha256": "ebb4c3a9db3cbb51c7bdec1cb3c5bf5807ee72b85f6848248ccb5a7dbb8e9890",
+      "fresh_archive_sha_verified": false
+    },
+    {
+      "name": "r05.tar.gz",
+      "exists": true,
+      "bytes": 2525834533,
+      "expected_bytes": 2525834533,
+      "historical_manifest_sha256": "047b5b43ecaf254c47205b703a051d49c3a477600f44928ae0ff2ac1cd98c0f8",
+      "fresh_archive_sha_verified": false
+    },
+    {
+      "name": "r06.tar.gz",
+      "exists": true,
+      "bytes": 2525220210,
+      "expected_bytes": 2525220210,
+      "historical_manifest_sha256": "2eaa47b4d1578ff15cd49291bff2d6b064c66e65ab6ece391493e431dd205bb8",
+      "fresh_archive_sha_verified": false
+    },
+    {
+      "name": "r07.tar.gz",
+      "exists": true,
+      "bytes": 2527341863,
+      "expected_bytes": 2527341863,
+      "historical_manifest_sha256": "b5e1f8823581d46375f469823fdc711f1fb5e277db8088e54e4cfc539cb445ec",
+      "fresh_archive_sha_verified": false
+    },
+    {
+      "name": "r08.tar.gz",
+      "exists": true,
+      "bytes": 2528215449,
+      "expected_bytes": 2528215449,
+      "historical_manifest_sha256": "153e9f0f20a5335c76f33c41f85dc1b78aa172166fb6018766f88c8007b37e61",
+      "fresh_archive_sha_verified": false
+    },
+    {
+      "name": "metadata.tar.gz",
+      "exists": true,
+      "bytes": 8265563,
+      "expected_bytes": 8265563,
+      "historical_manifest_sha256": "c7cb7e8c1e9a0655093a1a46ffb4db4343c5d8cc2245cbc7cfc26db7b9866613",
+      "fresh_archive_sha_verified": false
+    }
+  ],
+  "audit_wall_s": 0.011045482940971851,
+  "audit_scope": "metadata_and_new_output_bytes_only_no_DCD_decode_no_models"
+}

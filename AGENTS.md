@@ -1,5 +1,9 @@
 # Doctoral Research — Codex Instructions
 
+## NMR34-QA二単位完了・審査待ち（2026-10-31）
+
+[完全報告](docs/P1-NMR34-QA/review-dossier.md)・[A–G](docs/P1-NMR34-QA/handoff-to-chatgpt.md)。MEASURED：2/2、12,000frame×34、M1最大差5.3291e−15 Å、Q1整数一致、原20SHA不変、科学173.216s/RSS210.480MiB。二単位数値ゲートPASS、詳細計時・境界pair表・ensemble窓集計の欠落は報告に明記。科学受入れPENDING。限定実行は完了し再実行許可ではない。全272/MD/学習/推論/LOF/GPU干渉/C/B2/S3は未承認、原9archive保持・Mac raw免除。GitHub交付後は審査で停止。
+
 ## NMR34-QA限定承認（2026-10-30、CONFIRMED）
 
 研究者は[NMR34-QA実行カード](docs/P1-NMR34-QA/execution-approval.md)の固定2単位のみ承認。旧NMR未承認はこの範囲のみ更新。900s/300s/RSS2GiB/出力256MiB/CPU1/GPU不可視、SHA/数値不一致で停止。全272/新MD/学習/推論/LOF/C/B2は未承認。原結果不変、完了後審査待ち。

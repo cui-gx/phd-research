@@ -1,0 +1,21 @@
+{
+  "history-windows.csv": {
+    "rows": 816,
+    "unique_keys": 816,
+    "quality_excluded": 0
+  },
+  "downstream-windows.csv": {
+    "rows": 816,
+    "unique_keys": 816,
+    "quality_excluded": 0
+  },
+  "status": "PASS",
+  "JSON_parse": "PASS",
+  "reference_contact_keys": "PASS",
+  "local_links_except_pending_receipt": "PASS",
+  "protected_tracked_science_unchanged": true,
+  "preexisting_root_README_unchanged": true,
+  "scope": "static_saved_tables_only_no_DCD_model_load",
+  "checked_date_JST": "2026-10-31",
+  "static_failure_history": "Initial glob included macOS AppleDouble binary metadata; task-owned sidecars removed, scientific files unchanged."
+}

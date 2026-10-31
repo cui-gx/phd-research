@@ -1,0 +1,17 @@
+{
+  "status": "DERIVED_NOT_AUTHORIZATION",
+  "basis": "one_4000_frame_history_one_8000_frame_downstream",
+  "history_unit_wall_s": 37.18278938345611,
+  "downstream_unit_wall_s": 135.5709565328434,
+  "full_history_units": 32,
+  "full_downstream_units": 240,
+  "full_frames": 2048000,
+  "stratified_wall_s": 33726.878828153014,
+  "mixed_frame_linear_wall_s": 29540.697451909382,
+  "compressed_output_linear_bytes": 834659498.6666666,
+  "uncompressed_R_Q_bytes": 1114112000,
+  "uncompressed_contact_count_bytes": 139264000,
+  "confidence_interval": null,
+  "upper_bound": null,
+  "full_execution_approved": false
+}
