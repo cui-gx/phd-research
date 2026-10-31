@@ -41,3 +41,5 @@ Timerは非重複wall/CPU、Runはflock/排他startとreceipt、resource_check�
 ## G. 次の判断
 
 研究者/ChatGPTがコードと未検証項目・予算を審査し、必要なら二軌跡だけの別実行を承認する。二軌跡資格後も全272は別承認。C/B2、MD、学習/推論、LOFは開始しない。本輪交付とGitHub全文回読後に停止する。
+
+内容commit `de75189810fd446b757c20205c6cf422743ef0f9`：15ファイル/359,459 bytesの全文をGitHubから取得し、Git blob SHAとbyte長が全一致。[回読証拠](remote-readback.json)。最終receipt commitは最終返信とGit履歴を参照する。

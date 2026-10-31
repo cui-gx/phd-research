@@ -1,0 +1,99 @@
+{
+  "commit": "de75189810fd446b757c20205c6cf422743ef0f9",
+  "status": "PASS",
+  "date_JST": "2026-10-31",
+  "method": "Full GitHub connector body decoded; independent Git blob SHA1 and byte-length match",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 14658,
+      "blob_sha": "02500b48910aa35171190706775d4580d7f40e8a",
+      "full_body_verified": true
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 38457,
+      "blob_sha": "1207b3b713d8dadc73df6cd92163b01c3000d128",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/README.md",
+      "bytes": 665,
+      "blob_sha": "4a01b27016cc84eb4794d496e5d4a4b30b16e0a5",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/budget-plan.md",
+      "bytes": 2980,
+      "blob_sha": "e95649d7de0313f3c2da1800f4adc28dbbed388e",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/handoff-to-chatgpt.md",
+      "bytes": 4163,
+      "blob_sha": "f3c2dcb61ec40dbe9beb41e56e6d64352c39e6e7",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/next-execution-card.md",
+      "bytes": 2343,
+      "blob_sha": "68c09cdb3aa6fa3e93496c2b392085a1febc5e53",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/static-audit.json",
+      "bytes": 66938,
+      "blob_sha": "b21a8c36c6a9588eb3b602bb231f3aefc56b06ff",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/synthetic-tests-first-attempt.log",
+      "bytes": 1679,
+      "blob_sha": "d588bbd33895e5084420df88d9d3f15e5dcd0510",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/synthetic-tests.log",
+      "bytes": 822,
+      "blob_sha": "23acc342fe145868558292282f9f6f9b5e0b865f",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/P1-NMR34-v2/technical-report.md",
+      "bytes": 6726,
+      "blob_sha": "58dc2932121a762a814cabdba70f5a5585f2b27c",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/collaboration-policy.md",
+      "bytes": 15032,
+      "blob_sha": "25ea8932d60ebe5eba8fc56b3f6f1e0393dde141",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/协作交接记录.md",
+      "bytes": 97630,
+      "blob_sha": "8faf3b72fbdc7d4ab4b110fea57c5369367ffbf2",
+      "full_body_verified": true
+    },
+    {
+      "path": "docs/博士研究_全局总档案.md",
+      "bytes": 86174,
+      "blob_sha": "16c6b3ebefc88e65752fd4910165ed5b91663842",
+      "full_body_verified": true
+    },
+    {
+      "path": "p1/nmr34_v2.py",
+      "bytes": 15009,
+      "blob_sha": "b59f315573d7ea271b617bfbbb7b79c903874079",
+      "full_body_verified": true
+    },
+    {
+      "path": "p1/test_nmr34_v2.py",
+      "bytes": 6183,
+      "blob_sha": "fd9f323f18ae362dd9afcfdb5904ca0f098d8225",
+      "full_body_verified": true
+    }
+  ],
+  "errors": []
+}
